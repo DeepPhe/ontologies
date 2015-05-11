@@ -2677,6 +2677,13 @@
     <SubClassOf>
         <Class IRI="#Tumor"/>
         <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasBodyLocation"/>
+            <Class IRI="#AnatomicalSite"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Tumor"/>
+        <ObjectSomeValuesFrom>
             <ObjectProperty IRI="#hasGenomicFactor"/>
             <Class IRI="#GenomicFactor"/>
         </ObjectSomeValuesFrom>
