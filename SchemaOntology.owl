@@ -3995,9 +3995,6 @@
         <DataProperty IRI="#hasProcedureCategory"/>
     </FunctionalDataProperty>
     <FunctionalDataProperty>
-        <DataProperty IRI="#hasQuantityValue"/>
-    </FunctionalDataProperty>
-    <FunctionalDataProperty>
         <DataProperty IRI="#hasStageType"/>
     </FunctionalDataProperty>
     <FunctionalDataProperty>
