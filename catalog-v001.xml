@@ -3,7 +3,7 @@
     <uri id="User Entered Import Resolution" name="http://blulab.chpc.utah.edu/ontolgies/Terminology.owl" uri="file:/Users/mtharp/git/resource_ontologies/v2/Terminology.owl"/>
     <uri id="Imports Wizard Entry" name="http://blulab.chpc.utah.edu/ontologies/SchemaOntology.owl" uri="SchemaOntology.owl"/>
     <group id="Folder Repository, directory=, recursive=true, Auto-Update=true, version=2" prefer="public" xml:base="">
-        <uri id="Automatically generated entry, Timestamp=1433177267024" name="http://blulab.chpc.utah.edu/ontologies/SchemaOntology.owl" uri="SchemaOntology.owl"/>
-        <uri id="Automatically generated entry, Timestamp=1433177267024" name="http://dbmi.pitt.edu/deepphe/ontologies/breastCancer.owl" uri="breastCancer.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1433180517990" name="http://blulab.chpc.utah.edu/ontologies/SchemaOntology.owl" uri="SchemaOntology.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1433180517990" name="http://dbmi.pitt.edu/deepphe/ontologies/breastCancer.owl" uri="breastCancer.owl"/>
     </group>
 </catalog>
