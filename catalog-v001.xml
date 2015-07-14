@@ -3,8 +3,8 @@
     <uri id="User Entered Import Resolution" name="http://blulab.chpc.utah.edu/ontolgies/Terminology.owl" uri="file:/Users/mtharp/git/resource_ontologies/v2/Terminology.owl"/>
     <uri id="Imports Wizard Entry" name="http://blulab.chpc.utah.edu/ontologies/SchemaOntology.owl" uri="SchemaOntology.owl"/>
     <group id="Folder Repository, directory=, recursive=true, Auto-Update=true, version=2" prefer="public" xml:base="">
-        <uri id="Automatically generated entry, Timestamp=1436282477143" name="http://blulab.chpc.utah.edu/ontologies/SchemaOntology.owl" uri="SchemaOntology.owl"/>
-        <uri id="Automatically generated entry, Timestamp=1436282477143" name="http://dbmi.pitt.edu/deepphe/ontologies/breastCancer.owl" uri="breastCancer.owl"/>
-        <uri id="Automatically generated entry, Timestamp=1436282477143" name="shadowed:http://dbmi.pitt.edu/deepphe/ontologies/breastCancer.owl" uri="SWRL_test/breastCancer.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1436878847093" name="http://blulab.chpc.utah.edu/ontologies/SchemaOntology.owl" uri="SchemaOntology.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1436878847093" name="http://dbmi.pitt.edu/deepphe/ontologies/breastCancer.owl" uri="breastCancer.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1436878847093" name="shadowed:http://dbmi.pitt.edu/deepphe/ontologies/breastCancer.owl" uri="SWRL_test/breastCancer.owl"/>
     </group>
 </catalog>
