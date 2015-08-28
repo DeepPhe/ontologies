@@ -55,6 +55,10 @@
         <Class IRI="#Apocrine_Breast_Carcinoma"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#Areola"/>
+        <Class IRI="#Breast_Part"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#Atypical_Ductal_Breast_Hyperplasia"/>
         <Class IRI="http://blulab.chpc.utah.edu/ontologies/v2/SchemaOntology.owl#DiseaseDisorder"/>
     </SubClassOf>
@@ -69,6 +73,10 @@
     <SubClassOf>
         <Class IRI="#Atypical_Medullary_Breast_Carcinoma"/>
         <Class IRI="#Invasive_Breast_Carcinoma"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Axillary_Tail_of_the_Breast"/>
+        <Class IRI="#Breast_Part"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Basal_Like_Breast_Carcinoma"/>
@@ -171,12 +179,32 @@
         <Class IRI="#Invasive_Breast_Carcinoma"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#Breast_Duct"/>
+        <Class IRI="#Breast_Part"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Breast_Fat_Pad"/>
+        <Class IRI="#Breast_Part"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#Breast_Large_Cell_Neuroendocrine_Carcinoma"/>
         <Class IRI="#Invasive_Breast_Carcinoma"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#Breast_Lobe"/>
+        <Class IRI="#Breast_Part"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Breast_Lobule"/>
+        <Class IRI="#Breast_Part"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#Breast_Mucinous_Cystadenocarcinoma"/>
         <Class IRI="#Breast_Adenocarcinoma"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Breast_Part"/>
+        <Class IRI="#Breast"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Breast_Small_Cell_Carcinoma"/>
@@ -185,6 +213,10 @@
     <SubClassOf>
         <Class IRI="#Breast_Solid_Neuroendocrine_Carcinoma"/>
         <Class IRI="#Invasive_Breast_Carcinoma"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Central_Portion_of_the_Breast"/>
+        <Class IRI="#Breast_Part"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Childhood_Breast_Carcinoma"/>
@@ -479,6 +511,14 @@
         <Class IRI="#Mucoepidermoid_Breast_Carcinoma"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#Lower_Inner_Quadrant_of_the_Breast"/>
+        <Class IRI="#Breast_Part"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Lower_Outer_Quadrant_of_the_Breast"/>
+        <Class IRI="#Breast_Part"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#Luminal_A_Breast_Carcinoma"/>
         <Class IRI="#Breast_Carcinoma_by_Gene_Expression_Profile"/>
     </SubClassOf>
@@ -497,6 +537,10 @@
     <SubClassOf>
         <Class IRI="#Malignant_Breast_Myoepithelioma"/>
         <Class IRI="#Invasive_Breast_Carcinoma"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Mammary_Gland"/>
+        <Class IRI="#Breast_Part"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Medullary_Breast_Carcinoma"/>
@@ -557,6 +601,10 @@
     <SubClassOf>
         <Class IRI="#Multifocal_Breast_Carcinoma"/>
         <Class IRI="#Breast_Carcinoma"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Nipple"/>
+        <Class IRI="#Breast_Part"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Nipple_Carcinoma"/>
@@ -797,6 +845,14 @@
     <SubClassOf>
         <Class IRI="#Unilateral_Breast_Carcinoma"/>
         <Class IRI="#Breast_Carcinoma"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Upper_Inner_Quadrant_of_the_Breast"/>
+        <Class IRI="#Breast_Part"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Upper_Outer_Quadrant_of_the_Breast"/>
+        <Class IRI="#Breast_Part"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#breastCancer"/>
@@ -1051,6 +1107,106 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#Apocrine_Breast_Carcinoma_In_Situ</IRI>
         <Literal datatypeIRI="&xsd;string">Apocrine Breast Carcinoma In Situ</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#code"/>
+        <IRI>#Areola</IRI>
+        <Literal datatypeIRI="&xsd;string">0000017153 [AOD]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#code"/>
+        <IRI>#Areola</IRI>
+        <Literal datatypeIRI="&xsd;string">29745008 [SNOMEDCT_US]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#code"/>
+        <IRI>#Areola</IRI>
+        <Literal datatypeIRI="&xsd;string">67796 [FMA]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#code"/>
+        <IRI>#Areola</IRI>
+        <Literal datatypeIRI="&xsd;string">67796 [UWDA]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#code"/>
+        <IRI>#Areola</IRI>
+        <Literal datatypeIRI="&xsd;string">C0222608</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#code"/>
+        <IRI>#Areola</IRI>
+        <Literal datatypeIRI="&xsd;string">C12368 [NCI]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#code"/>
+        <IRI>#Areola</IRI>
+        <Literal datatypeIRI="&xsd;string">C50.0 [ICDO]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#code"/>
+        <IRI>#Areola</IRI>
+        <Literal datatypeIRI="&xsd;string">CDR0000046525 [NCI-GLOSS]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#code"/>
+        <IRI>#Areola</IRI>
+        <Literal datatypeIRI="&xsd;string">RID29911 [RADLEX]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#definition"/>
+        <IRI>#Areola</IRI>
+        <Literal datatypeIRI="&xsd;string">Subdivision of breast which consists of skin, connective tissue and smooth muscle bundle and modified sebaceous glands and which surrounds the nipple.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#definition"/>
+        <IRI>#Areola</IRI>
+        <Literal datatypeIRI="&xsd;string">The area of dark-colored skin on the breast that surrounds the nipple.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#definition"/>
+        <IRI>#Areola</IRI>
+        <Literal datatypeIRI="&xsd;string">The pigmented circle or ring of skin that surrounds the nipple.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#semanticType"/>
+        <IRI>#Areola</IRI>
+        <Literal datatypeIRI="&xsd;string">Body Part, Organ, or Organ Component</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Areola</IRI>
+        <Literal datatypeIRI="&xsd;string">Areola</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Areola</IRI>
+        <Literal datatypeIRI="&xsd;string">Areola mammae</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Areola</IRI>
+        <Literal datatypeIRI="&xsd;string">Areola structure</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Areola</IRI>
+        <Literal datatypeIRI="&xsd;string">Areola structure (body structure)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Areola</IRI>
+        <Literal datatypeIRI="&xsd;string">Areolar anatomy</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Areola</IRI>
+        <Literal datatypeIRI="&xsd;string">areola</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Areola</IRI>
+        <Literal datatypeIRI="&xsd;string">Areola</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#code"/>
@@ -1346,6 +1502,66 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#Atypical_Medullary_Breast_Carcinoma</IRI>
         <Literal datatypeIRI="&xsd;string">Atypical Medullary Breast Carcinoma</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#code"/>
+        <IRI>#Axillary_Tail_of_the_Breast</IRI>
+        <Literal datatypeIRI="&xsd;string">C0222611 [UMLS]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#code"/>
+        <IRI>#Axillary_Tail_of_the_Breast</IRI>
+        <Literal datatypeIRI="&xsd;string">C0222611 [UMLS_CUI]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#code"/>
+        <IRI>#Axillary_Tail_of_the_Breast</IRI>
+        <Literal datatypeIRI="&xsd;string">C12305</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#code"/>
+        <IRI>#Axillary_Tail_of_the_Breast</IRI>
+        <Literal datatypeIRI="&xsd;string">C12305 [NCI]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#code"/>
+        <IRI>#Axillary_Tail_of_the_Breast</IRI>
+        <Literal datatypeIRI="&xsd;string">C12305 [code]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#definition"/>
+        <IRI>#Axillary_Tail_of_the_Breast</IRI>
+        <Literal datatypeIRI="&xsd;string">The superolateral extension of the mammary gland into the axilla that consists of fibroadipose tissue, lymph nodes, and lymphatics.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#semanticType"/>
+        <IRI>#Axillary_Tail_of_the_Breast</IRI>
+        <Literal datatypeIRI="&xsd;string">Body Part, Organ, or Organ Component</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Axillary_Tail_of_the_Breast</IRI>
+        <Literal datatypeIRI="&xsd;string">Axillary Process of Breast</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Axillary_Tail_of_the_Breast</IRI>
+        <Literal datatypeIRI="&xsd;string">Axillary Tail of Breast</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Axillary_Tail_of_the_Breast</IRI>
+        <Literal datatypeIRI="&xsd;string">Axillary Tail of the Breast</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Axillary_Tail_of_the_Breast</IRI>
+        <Literal datatypeIRI="&xsd;string">Tail of Spence</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Axillary_Tail_of_the_Breast</IRI>
+        <Literal datatypeIRI="&xsd;string">Axillary Tail of the Breast</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#code"/>
@@ -2759,6 +2975,101 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#code"/>
+        <IRI>#Breast_Duct</IRI>
+        <Literal datatypeIRI="&xsd;string">C1116428</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#code"/>
+        <IRI>#Breast_Duct</IRI>
+        <Literal datatypeIRI="&xsd;string">C93291 [NCI]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#code"/>
+        <IRI>#Breast_Duct</IRI>
+        <Literal datatypeIRI="&xsd;string">CDR0000638198 [NCI-GLOSS]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#code"/>
+        <IRI>#Breast_Duct</IRI>
+        <Literal datatypeIRI="&xsd;string">MTHU014466 [LNC]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#definition"/>
+        <IRI>#Breast_Duct</IRI>
+        <Literal datatypeIRI="&xsd;string">A thin tube in the breast that carries milk from the breast lobules to the nipple.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#semanticType"/>
+        <IRI>#Breast_Duct</IRI>
+        <Literal datatypeIRI="&xsd;string">Body Part, Organ, or Organ Component</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Breast_Duct</IRI>
+        <Literal datatypeIRI="&xsd;string">Breast Duct</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Breast_Duct</IRI>
+        <Literal datatypeIRI="&xsd;string">Breast.duct</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Breast_Duct</IRI>
+        <Literal datatypeIRI="&xsd;string">breast duct</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Breast_Duct</IRI>
+        <Literal datatypeIRI="&xsd;string">milk duct</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Breast_Duct</IRI>
+        <Literal datatypeIRI="&xsd;string">Breast Duct</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#code"/>
+        <IRI>#Breast_Fat_Pad</IRI>
+        <Literal datatypeIRI="&xsd;string">C12369 [NCI]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#code"/>
+        <IRI>#Breast_Fat_Pad</IRI>
+        <Literal datatypeIRI="&xsd;string">C1511308</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#definition"/>
+        <IRI>#Breast_Fat_Pad</IRI>
+        <Literal datatypeIRI="&xsd;string">A mass of adipose tissue in the breast that is surrounded by fibrous tissue.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#semanticType"/>
+        <IRI>#Breast_Fat_Pad</IRI>
+        <Literal datatypeIRI="&xsd;string">Tissue</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Breast_Fat_Pad</IRI>
+        <Literal datatypeIRI="&xsd;string">Breast Fat Pad</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Breast_Fat_Pad</IRI>
+        <Literal datatypeIRI="&xsd;string">Mammary Gland Fat Pad</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Breast_Fat_Pad</IRI>
+        <Literal datatypeIRI="&xsd;string">Mammary Gland Fat-pad</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Breast_Fat_Pad</IRI>
+        <Literal datatypeIRI="&xsd;string">Breast Fat Pad</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#code"/>
         <IRI>#Breast_Large_Cell_Neuroendocrine_Carcinoma</IRI>
         <Literal datatypeIRI="&xsd;string">C1511316</Literal>
     </AnnotationAssertion>
@@ -2794,6 +3105,276 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#code"/>
+        <IRI>#Breast_Lobe</IRI>
+        <Literal datatypeIRI="&xsd;string">0000017151 [AOD]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#code"/>
+        <IRI>#Breast_Lobe</IRI>
+        <Literal datatypeIRI="&xsd;string">68219007 [SNOMEDCT_US]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#code"/>
+        <IRI>#Breast_Lobe</IRI>
+        <Literal datatypeIRI="&xsd;string">76440 [FMA]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#code"/>
+        <IRI>#Breast_Lobe</IRI>
+        <Literal datatypeIRI="&xsd;string">76441 [UWDA]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#code"/>
+        <IRI>#Breast_Lobe</IRI>
+        <Literal datatypeIRI="&xsd;string">C0222616</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#code"/>
+        <IRI>#Breast_Lobe</IRI>
+        <Literal datatypeIRI="&xsd;string">C93232 [NCI]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#code"/>
+        <IRI>#Breast_Lobe</IRI>
+        <Literal datatypeIRI="&xsd;string">CDR0000638203 [NCI-GLOSS]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#code"/>
+        <IRI>#Breast_Lobe</IRI>
+        <Literal datatypeIRI="&xsd;string">NOCODE [MTH]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#code"/>
+        <IRI>#Breast_Lobe</IRI>
+        <Literal datatypeIRI="&xsd;string">RID39017 [RADLEX]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#definition"/>
+        <IRI>#Breast_Lobe</IRI>
+        <Literal datatypeIRI="&xsd;string">A section of the breast that contains the lobules (the glands that make milk).</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#definition"/>
+        <IRI>#Breast_Lobe</IRI>
+        <Literal datatypeIRI="&xsd;string">Lobular organ which consist of a lactiferous duct tree and the set of lactiferous acini that are connected to duct tree. Examples: There are variable numbers of lactiferous duct trees.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#semanticType"/>
+        <IRI>#Breast_Lobe</IRI>
+        <Literal datatypeIRI="&xsd;string">Body Part, Organ, or Organ Component</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Breast_Lobe</IRI>
+        <Literal datatypeIRI="&xsd;string">Breast Lobe</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Breast_Lobe</IRI>
+        <Literal datatypeIRI="&xsd;string">Lactiferous gland</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Breast_Lobe</IRI>
+        <Literal datatypeIRI="&xsd;string">Lobe of breast</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Breast_Lobe</IRI>
+        <Literal datatypeIRI="&xsd;string">Lobe of mammary gland</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Breast_Lobe</IRI>
+        <Literal datatypeIRI="&xsd;string">Lobes of mammary gland</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Breast_Lobe</IRI>
+        <Literal datatypeIRI="&xsd;string">Lobi glandulae mammariae</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Breast_Lobe</IRI>
+        <Literal datatypeIRI="&xsd;string">Lobules of mammary gland</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Breast_Lobe</IRI>
+        <Literal datatypeIRI="&xsd;string">Lobuli glandulae mammariae</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Breast_Lobe</IRI>
+        <Literal datatypeIRI="&xsd;string">Mammary lobe</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Breast_Lobe</IRI>
+        <Literal datatypeIRI="&xsd;string">Set of lobes of mammary gland</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Breast_Lobe</IRI>
+        <Literal datatypeIRI="&xsd;string">Set of lobules of mammary gland</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Breast_Lobe</IRI>
+        <Literal datatypeIRI="&xsd;string">Structure of lobe of breast</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Breast_Lobe</IRI>
+        <Literal datatypeIRI="&xsd;string">Structure of lobe of breast (body structure)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Breast_Lobe</IRI>
+        <Literal datatypeIRI="&xsd;string">breast lobe</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Breast_Lobe</IRI>
+        <Literal datatypeIRI="&xsd;string">lactiferous gland</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Breast_Lobe</IRI>
+        <Literal datatypeIRI="&xsd;string">lactiferous glands</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Breast_Lobe</IRI>
+        <Literal datatypeIRI="&xsd;string">Breast Lobe</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#code"/>
+        <IRI>#Breast_Lobule</IRI>
+        <Literal datatypeIRI="&xsd;string">62090 [FMA]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#code"/>
+        <IRI>#Breast_Lobule</IRI>
+        <Literal datatypeIRI="&xsd;string">62090 [UWDA]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#code"/>
+        <IRI>#Breast_Lobule</IRI>
+        <Literal datatypeIRI="&xsd;string">79802009 [SNOMEDCT_US]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#code"/>
+        <IRI>#Breast_Lobule</IRI>
+        <Literal datatypeIRI="&xsd;string">C0222617</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#code"/>
+        <IRI>#Breast_Lobule</IRI>
+        <Literal datatypeIRI="&xsd;string">C93241 [NCI]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#code"/>
+        <IRI>#Breast_Lobule</IRI>
+        <Literal datatypeIRI="&xsd;string">CDR0000638207 [NCI-GLOSS]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#code"/>
+        <IRI>#Breast_Lobule</IRI>
+        <Literal datatypeIRI="&xsd;string">NOCODE [MTH]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#definition"/>
+        <IRI>#Breast_Lobule</IRI>
+        <Literal datatypeIRI="&xsd;string">A small part of a lobe in the breast. A breast lobule is a gland that makes milk.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#definition"/>
+        <IRI>#Breast_Lobule</IRI>
+        <Literal datatypeIRI="&xsd;string">Organ component of the mammary gland which consists of an aggregate of mammary alveoli that communicate with a lobular lactiferous duct.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#semanticType"/>
+        <IRI>#Breast_Lobule</IRI>
+        <Literal datatypeIRI="&xsd;string">Body Part, Organ, or Organ Component</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Breast_Lobule</IRI>
+        <Literal datatypeIRI="&xsd;string">Acinus of mammary gland</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Breast_Lobule</IRI>
+        <Literal datatypeIRI="&xsd;string">Breast Lobule</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Breast_Lobule</IRI>
+        <Literal datatypeIRI="&xsd;string">Breast lobule</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Breast_Lobule</IRI>
+        <Literal datatypeIRI="&xsd;string">Lactiferous acinus</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Breast_Lobule</IRI>
+        <Literal datatypeIRI="&xsd;string">Lactiferous gland lobule</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Breast_Lobule</IRI>
+        <Literal datatypeIRI="&xsd;string">Lactiferous lobule</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Breast_Lobule</IRI>
+        <Literal datatypeIRI="&xsd;string">Lobule of breast</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Breast_Lobule</IRI>
+        <Literal datatypeIRI="&xsd;string">Lobule of lactiferous gland</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Breast_Lobule</IRI>
+        <Literal datatypeIRI="&xsd;string">Lobule of mammary gland</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Breast_Lobule</IRI>
+        <Literal datatypeIRI="&xsd;string">Mammary acinus</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Breast_Lobule</IRI>
+        <Literal datatypeIRI="&xsd;string">Mammary lobule</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Breast_Lobule</IRI>
+        <Literal datatypeIRI="&xsd;string">Mammary lobule structure</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Breast_Lobule</IRI>
+        <Literal datatypeIRI="&xsd;string">Mammary lobule structure (body structure)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Breast_Lobule</IRI>
+        <Literal datatypeIRI="&xsd;string">breast lobule</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Breast_Lobule</IRI>
+        <Literal datatypeIRI="&xsd;string">Breast Lobule</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#code"/>
         <IRI>#Breast_Mucinous_Cystadenocarcinoma</IRI>
         <Literal datatypeIRI="&xsd;string">C1511318</Literal>
     </AnnotationAssertion>
@@ -2826,6 +3407,51 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#Breast_Mucinous_Cystadenocarcinoma</IRI>
         <Literal datatypeIRI="&xsd;string">Breast Mucinous Cystadenocarcinoma</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#code"/>
+        <IRI>#Breast_Part</IRI>
+        <Literal datatypeIRI="&xsd;string">119184005 [SNOMEDCT_US]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#code"/>
+        <IRI>#Breast_Part</IRI>
+        <Literal datatypeIRI="&xsd;string">C1268091</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#code"/>
+        <IRI>#Breast_Part</IRI>
+        <Literal datatypeIRI="&xsd;string">C13020 [NCI]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#semanticType"/>
+        <IRI>#Breast_Part</IRI>
+        <Literal datatypeIRI="&xsd;string">Body Part, Organ, or Organ Component</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Breast_Part</IRI>
+        <Literal datatypeIRI="&xsd;string">Breast Part</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Breast_Part</IRI>
+        <Literal datatypeIRI="&xsd;string">Breast part</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Breast_Part</IRI>
+        <Literal datatypeIRI="&xsd;string">Breast part (body structure)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Breast_Part</IRI>
+        <Literal datatypeIRI="&xsd;string">Breast-Related Entity</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Breast_Part</IRI>
+        <Literal datatypeIRI="&xsd;string">Breast Part</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#code"/>
@@ -2931,6 +3557,56 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#Breast_Solid_Neuroendocrine_Carcinoma</IRI>
         <Literal datatypeIRI="&xsd;string">Breast Solid Neuroendocrine Carcinoma</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#code"/>
+        <IRI>#Central_Portion_of_the_Breast</IRI>
+        <Literal datatypeIRI="&xsd;string">C0222595 [UMLS]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#code"/>
+        <IRI>#Central_Portion_of_the_Breast</IRI>
+        <Literal datatypeIRI="&xsd;string">C0222595 [UMLS_CUI]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#code"/>
+        <IRI>#Central_Portion_of_the_Breast</IRI>
+        <Literal datatypeIRI="&xsd;string">C12300</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#code"/>
+        <IRI>#Central_Portion_of_the_Breast</IRI>
+        <Literal datatypeIRI="&xsd;string">C12300 [NCI]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#code"/>
+        <IRI>#Central_Portion_of_the_Breast</IRI>
+        <Literal datatypeIRI="&xsd;string">C12300 [code]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#definition"/>
+        <IRI>#Central_Portion_of_the_Breast</IRI>
+        <Literal datatypeIRI="&xsd;string">The part of the breast which is in the center.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#semanticType"/>
+        <IRI>#Central_Portion_of_the_Breast</IRI>
+        <Literal datatypeIRI="&xsd;string">Body Part, Organ, or Organ Component</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Central_Portion_of_the_Breast</IRI>
+        <Literal datatypeIRI="&xsd;string">Central Portion of Breast</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Central_Portion_of_the_Breast</IRI>
+        <Literal datatypeIRI="&xsd;string">Central Portion of the Breast</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Central_Portion_of_the_Breast</IRI>
+        <Literal datatypeIRI="&xsd;string">Central Portion of the Breast</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#code"/>
@@ -7559,6 +8235,106 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#code"/>
+        <IRI>#Lower_Inner_Quadrant_of_the_Breast</IRI>
+        <Literal datatypeIRI="&xsd;string">C0222597 [UMLS]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#code"/>
+        <IRI>#Lower_Inner_Quadrant_of_the_Breast</IRI>
+        <Literal datatypeIRI="&xsd;string">C0222597 [UMLS_CUI]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#code"/>
+        <IRI>#Lower_Inner_Quadrant_of_the_Breast</IRI>
+        <Literal datatypeIRI="&xsd;string">C12302</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#code"/>
+        <IRI>#Lower_Inner_Quadrant_of_the_Breast</IRI>
+        <Literal datatypeIRI="&xsd;string">C12302 [NCI]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#code"/>
+        <IRI>#Lower_Inner_Quadrant_of_the_Breast</IRI>
+        <Literal datatypeIRI="&xsd;string">C12302 [code]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#definition"/>
+        <IRI>#Lower_Inner_Quadrant_of_the_Breast</IRI>
+        <Literal datatypeIRI="&xsd;string">The quarter of the breast which is inferior and medial.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#semanticType"/>
+        <IRI>#Lower_Inner_Quadrant_of_the_Breast</IRI>
+        <Literal datatypeIRI="&xsd;string">Body Location or Region</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Lower_Inner_Quadrant_of_the_Breast</IRI>
+        <Literal datatypeIRI="&xsd;string">Lower-Inner Quadrant of the Breast</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Lower_Inner_Quadrant_of_the_Breast</IRI>
+        <Literal datatypeIRI="&xsd;string">Lower-inner Quadrant of Breast</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Lower_Inner_Quadrant_of_the_Breast</IRI>
+        <Literal datatypeIRI="&xsd;string">Lower-Inner Quadrant of the Breast</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#code"/>
+        <IRI>#Lower_Outer_Quadrant_of_the_Breast</IRI>
+        <Literal datatypeIRI="&xsd;string">C0222599 [UMLS]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#code"/>
+        <IRI>#Lower_Outer_Quadrant_of_the_Breast</IRI>
+        <Literal datatypeIRI="&xsd;string">C0222599 [UMLS_CUI]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#code"/>
+        <IRI>#Lower_Outer_Quadrant_of_the_Breast</IRI>
+        <Literal datatypeIRI="&xsd;string">C12304</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#code"/>
+        <IRI>#Lower_Outer_Quadrant_of_the_Breast</IRI>
+        <Literal datatypeIRI="&xsd;string">C12304 [NCI]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#code"/>
+        <IRI>#Lower_Outer_Quadrant_of_the_Breast</IRI>
+        <Literal datatypeIRI="&xsd;string">C12304 [code]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#definition"/>
+        <IRI>#Lower_Outer_Quadrant_of_the_Breast</IRI>
+        <Literal datatypeIRI="&xsd;string">The quarter of the breast which is inferior and lateral.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#semanticType"/>
+        <IRI>#Lower_Outer_Quadrant_of_the_Breast</IRI>
+        <Literal datatypeIRI="&xsd;string">Body Location or Region</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Lower_Outer_Quadrant_of_the_Breast</IRI>
+        <Literal datatypeIRI="&xsd;string">Lower-Outer Quadrant of the Breast</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Lower_Outer_Quadrant_of_the_Breast</IRI>
+        <Literal datatypeIRI="&xsd;string">Lower-outer Quadrant of Breast</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Lower_Outer_Quadrant_of_the_Breast</IRI>
+        <Literal datatypeIRI="&xsd;string">Lower-Outer Quadrant of the Breast</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#code"/>
         <IRI>#Luminal_A_Breast_Carcinoma</IRI>
         <Literal datatypeIRI="&xsd;string">C1708763 [UMLS]</Literal>
     </AnnotationAssertion>
@@ -7991,6 +8767,176 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#Malignant_Breast_Myoepithelioma</IRI>
         <Literal datatypeIRI="&xsd;string">Malignant Breast Myoepithelioma</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#code"/>
+        <IRI>#Mammary_Gland</IRI>
+        <Literal datatypeIRI="&xsd;string">C12370 [CDISC]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#code"/>
+        <IRI>#Mammary_Gland</IRI>
+        <Literal datatypeIRI="&xsd;string">C12370 [NCI]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#code"/>
+        <IRI>#Mammary_Gland</IRI>
+        <Literal datatypeIRI="&xsd;string">C1521747</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#code"/>
+        <IRI>#Mammary_Gland</IRI>
+        <Literal datatypeIRI="&xsd;string">NOCODE [MTH]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#definition"/>
+        <IRI>#Mammary_Gland</IRI>
+        <Literal datatypeIRI="&xsd;string">Anatomical set which consists of all the lactiferous glands of one breast. Examples: There are only two canonical instances, right mammary gland and left mammary gland.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#definition"/>
+        <IRI>#Mammary_Gland</IRI>
+        <Literal datatypeIRI="&xsd;string">Glandular organ located on the chest. The mammary gland is made up of connective tissue, fat, and tissue that contains the glands that can make milk.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#definition"/>
+        <IRI>#Mammary_Gland</IRI>
+        <Literal datatypeIRI="&xsd;string">Glandular tissue in the BREAST of human that is under the influence of hormones such as ESTROGENS; PROGESTINS; and PROLACTIN. In WOMEN, after PARTURITION, the mammary glands secrete milk (MILK, HUMAN) for the nourishment of the young.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#definition"/>
+        <IRI>#Mammary_Gland</IRI>
+        <Literal datatypeIRI="&xsd;string">In humans, the glands of the breast, consisting of fibrous tissue connecting the lobes and fatty tissue in between the lobes.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#definition"/>
+        <IRI>#Mammary_Gland</IRI>
+        <Literal datatypeIRI="&xsd;string">Lactiferous glands consisting of fibrous tissue connecting the lobes and fatty tissue in between the lobes.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#definition"/>
+        <IRI>#Mammary_Gland</IRI>
+        <Literal datatypeIRI="&xsd;string">The glandular tissue of the breast. In females, it is composed of numerous lobules with alveolar ducts and alveoli. In males, it is composed of rudimentary glands.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#definition"/>
+        <IRI>#Mammary_Gland</IRI>
+        <Literal datatypeIRI="&xsd;string">specialized accessory gland of the skin of mammals that in females can secrete milk; in the human female, it is a compound tubuloalveolar gland composed of 15-25 lobes arranged radially about the nipple and separated by connective and adipose tissue.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#semanticType"/>
+        <IRI>#Mammary_Gland</IRI>
+        <Literal datatypeIRI="&xsd;string">Body Part, Organ, or Organ Component</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#semanticType"/>
+        <IRI>#Mammary_Gland</IRI>
+        <Literal datatypeIRI="&xsd;string">Tissue</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Mammary_Gland</IRI>
+        <Literal datatypeIRI="&xsd;string">Breast Tissue</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Mammary_Gland</IRI>
+        <Literal datatypeIRI="&xsd;string">GLAND, MAMMARY</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Mammary_Gland</IRI>
+        <Literal datatypeIRI="&xsd;string">Gland, Human Mammary</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Mammary_Gland</IRI>
+        <Literal datatypeIRI="&xsd;string">Gland, Mammary</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Mammary_Gland</IRI>
+        <Literal datatypeIRI="&xsd;string">Glands, Human Mammary</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Mammary_Gland</IRI>
+        <Literal datatypeIRI="&xsd;string">Glands, Mammary</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Mammary_Gland</IRI>
+        <Literal datatypeIRI="&xsd;string">Glandula mammaria</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Mammary_Gland</IRI>
+        <Literal datatypeIRI="&xsd;string">Human Mammary Gland</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Mammary_Gland</IRI>
+        <Literal datatypeIRI="&xsd;string">Human Mammary Glands</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Mammary_Gland</IRI>
+        <Literal datatypeIRI="&xsd;string">MAMMARY GLAND</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Mammary_Gland</IRI>
+        <Literal datatypeIRI="&xsd;string">Mammary Gland</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Mammary_Gland</IRI>
+        <Literal datatypeIRI="&xsd;string">Mammary Gland Parenchyma</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Mammary_Gland</IRI>
+        <Literal datatypeIRI="&xsd;string">Mammary Gland Tissue</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Mammary_Gland</IRI>
+        <Literal datatypeIRI="&xsd;string">Mammary Gland, Human</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Mammary_Gland</IRI>
+        <Literal datatypeIRI="&xsd;string">Mammary Glands</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Mammary_Gland</IRI>
+        <Literal datatypeIRI="&xsd;string">Mammary Glands, Human</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Mammary_Gland</IRI>
+        <Literal datatypeIRI="&xsd;string">Mammary gland</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Mammary_Gland</IRI>
+        <Literal datatypeIRI="&xsd;string">Mammary glands</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Mammary_Gland</IRI>
+        <Literal datatypeIRI="&xsd;string">Set of lactiferous glands</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Mammary_Gland</IRI>
+        <Literal datatypeIRI="&xsd;string">mammary gland</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Mammary_Gland</IRI>
+        <Literal datatypeIRI="&xsd;string">Mammary Gland</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#code"/>
@@ -8816,6 +9762,76 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#Multifocal_Breast_Carcinoma</IRI>
         <Literal datatypeIRI="&xsd;string">Multifocal Breast Carcinoma</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#code"/>
+        <IRI>#Nipple</IRI>
+        <Literal datatypeIRI="&xsd;string">265780004 [SNOMEDCT_US]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#code"/>
+        <IRI>#Nipple</IRI>
+        <Literal datatypeIRI="&xsd;string">C1280732</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#code"/>
+        <IRI>#Nipple</IRI>
+        <Literal datatypeIRI="&xsd;string">NOCODE [MTH]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#definition"/>
+        <IRI>#Nipple</IRI>
+        <Literal datatypeIRI="&xsd;string">In anatomy, the small raised area in the center of the breast through which milk can flow to the outside.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#definition"/>
+        <IRI>#Nipple</IRI>
+        <Literal datatypeIRI="&xsd;string">The pigmented protuberance on the surface of the breast through which milk is drawn from the breast.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#definition"/>
+        <IRI>#Nipple</IRI>
+        <Literal datatypeIRI="&xsd;string">The pigmented protuberance on the surface of the breast through which milk is drawn from the breast. (NCI)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#semanticType"/>
+        <IRI>#Nipple</IRI>
+        <Literal datatypeIRI="&xsd;string">Body Part, Organ, or Organ Component</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Nipple</IRI>
+        <Literal datatypeIRI="&xsd;string">Entire nipple</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Nipple</IRI>
+        <Literal datatypeIRI="&xsd;string">Entire nipple (body structure)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Nipple</IRI>
+        <Literal datatypeIRI="&xsd;string">NIPPLE</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Nipple</IRI>
+        <Literal datatypeIRI="&xsd;string">Nipple</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Nipple</IRI>
+        <Literal datatypeIRI="&xsd;string">Whole nipple</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Nipple</IRI>
+        <Literal datatypeIRI="&xsd;string">nipple</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Nipple</IRI>
+        <Literal datatypeIRI="&xsd;string">Nipple</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#code"/>
@@ -12256,6 +13272,106 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#Unilateral_Breast_Carcinoma</IRI>
         <Literal datatypeIRI="&xsd;string">Unilateral Breast Carcinoma</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#code"/>
+        <IRI>#Upper_Inner_Quadrant_of_the_Breast</IRI>
+        <Literal datatypeIRI="&xsd;string">C0222596 [UMLS]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#code"/>
+        <IRI>#Upper_Inner_Quadrant_of_the_Breast</IRI>
+        <Literal datatypeIRI="&xsd;string">C0222596 [UMLS_CUI]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#code"/>
+        <IRI>#Upper_Inner_Quadrant_of_the_Breast</IRI>
+        <Literal datatypeIRI="&xsd;string">C12301</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#code"/>
+        <IRI>#Upper_Inner_Quadrant_of_the_Breast</IRI>
+        <Literal datatypeIRI="&xsd;string">C12301 [NCI]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#code"/>
+        <IRI>#Upper_Inner_Quadrant_of_the_Breast</IRI>
+        <Literal datatypeIRI="&xsd;string">C12301 [code]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#definition"/>
+        <IRI>#Upper_Inner_Quadrant_of_the_Breast</IRI>
+        <Literal datatypeIRI="&xsd;string">The quarter of the breast which is superior and medial.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#semanticType"/>
+        <IRI>#Upper_Inner_Quadrant_of_the_Breast</IRI>
+        <Literal datatypeIRI="&xsd;string">Body Location or Region</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Upper_Inner_Quadrant_of_the_Breast</IRI>
+        <Literal datatypeIRI="&xsd;string">Upper-Inner Quadrant of the Breast</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Upper_Inner_Quadrant_of_the_Breast</IRI>
+        <Literal datatypeIRI="&xsd;string">Upper-inner Quadrant of Breast</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Upper_Inner_Quadrant_of_the_Breast</IRI>
+        <Literal datatypeIRI="&xsd;string">Upper-Inner Quadrant of the Breast</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#code"/>
+        <IRI>#Upper_Outer_Quadrant_of_the_Breast</IRI>
+        <Literal datatypeIRI="&xsd;string">C0222598 [UMLS]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#code"/>
+        <IRI>#Upper_Outer_Quadrant_of_the_Breast</IRI>
+        <Literal datatypeIRI="&xsd;string">C0222598 [UMLS_CUI]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#code"/>
+        <IRI>#Upper_Outer_Quadrant_of_the_Breast</IRI>
+        <Literal datatypeIRI="&xsd;string">C12303</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#code"/>
+        <IRI>#Upper_Outer_Quadrant_of_the_Breast</IRI>
+        <Literal datatypeIRI="&xsd;string">C12303 [NCI]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#code"/>
+        <IRI>#Upper_Outer_Quadrant_of_the_Breast</IRI>
+        <Literal datatypeIRI="&xsd;string">C12303 [code]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#definition"/>
+        <IRI>#Upper_Outer_Quadrant_of_the_Breast</IRI>
+        <Literal datatypeIRI="&xsd;string">The quarter of the breast which is superior and lateral.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#semanticType"/>
+        <IRI>#Upper_Outer_Quadrant_of_the_Breast</IRI>
+        <Literal datatypeIRI="&xsd;string">Body Location or Region</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Upper_Outer_Quadrant_of_the_Breast</IRI>
+        <Literal datatypeIRI="&xsd;string">Upper-Outer Quadrant of the Breast</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Upper_Outer_Quadrant_of_the_Breast</IRI>
+        <Literal datatypeIRI="&xsd;string">Upper-outer Quadrant of Breast</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Upper_Outer_Quadrant_of_the_Breast</IRI>
+        <Literal datatypeIRI="&xsd;string">Upper-Outer Quadrant of the Breast</Literal>
     </AnnotationAssertion>
 </Ontology>
 
