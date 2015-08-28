@@ -343,6 +343,46 @@
         <Class IRI="#Breast_Carcinoma"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#Epirubicin"/>
+        <Class IRI="http://blulab.chpc.utah.edu/ontologies/v2/SchemaOntology.owl#Medication"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Epirubicin"/>
+        <Class IRI="http://blulab.chpc.utah.edu/ontologies/v2/SchemaOntology.owl#MedicationStatement"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Eribulin"/>
+        <Class IRI="http://blulab.chpc.utah.edu/ontologies/v2/SchemaOntology.owl#Medication"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Eribulin"/>
+        <Class IRI="http://blulab.chpc.utah.edu/ontologies/v2/SchemaOntology.owl#MedicationStatement"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Etoposide"/>
+        <Class IRI="http://blulab.chpc.utah.edu/ontologies/v2/SchemaOntology.owl#Medication"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Etoposide"/>
+        <Class IRI="http://blulab.chpc.utah.edu/ontologies/v2/SchemaOntology.owl#MedicationStatement"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Everolimus"/>
+        <Class IRI="http://blulab.chpc.utah.edu/ontologies/v2/SchemaOntology.owl#Medication"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Everolimus"/>
+        <Class IRI="http://blulab.chpc.utah.edu/ontologies/v2/SchemaOntology.owl#MedicationStatement"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Exemestane"/>
+        <Class IRI="http://blulab.chpc.utah.edu/ontologies/v2/SchemaOntology.owl#Medication"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Exemestane"/>
+        <Class IRI="http://blulab.chpc.utah.edu/ontologies/v2/SchemaOntology.owl#MedicationStatement"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#Female_Breast"/>
         <Class IRI="#Breast"/>
     </SubClassOf>
@@ -351,12 +391,36 @@
         <Class IRI="#Breast_Carcinoma"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#Fulvestrant"/>
+        <Class IRI="http://blulab.chpc.utah.edu/ontologies/v2/SchemaOntology.owl#Medication"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Fulvestrant"/>
+        <Class IRI="http://blulab.chpc.utah.edu/ontologies/v2/SchemaOntology.owl#MedicationStatement"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Gemcitabine"/>
+        <Class IRI="http://blulab.chpc.utah.edu/ontologies/v2/SchemaOntology.owl#Medication"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Gemcitabine"/>
+        <Class IRI="http://blulab.chpc.utah.edu/ontologies/v2/SchemaOntology.owl#MedicationStatement"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#Glycogen_Rich_Clear_Cell_Breast_Carcinoma"/>
         <Class IRI="#Ductal_Breast_Carcinoma"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Glycogen_Rich_Clear_Cell_Breast_Carcinoma"/>
         <Class IRI="#Invasive_Breast_Carcinoma"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Goserelin_Acetate"/>
+        <Class IRI="http://blulab.chpc.utah.edu/ontologies/v2/SchemaOntology.owl#Medication"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Goserelin_Acetate"/>
+        <Class IRI="http://blulab.chpc.utah.edu/ontologies/v2/SchemaOntology.owl#MedicationStatement"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Grade_1_Invasive_Breast_Carcinoma"/>
@@ -547,8 +611,32 @@
         <Class IRI="#Papillary_Breast_Carcinoma"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#Lapatinib"/>
+        <Class IRI="http://blulab.chpc.utah.edu/ontologies/v2/SchemaOntology.owl#Medication"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Lapatinib"/>
+        <Class IRI="http://blulab.chpc.utah.edu/ontologies/v2/SchemaOntology.owl#MedicationStatement"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#Left_Breast"/>
         <Class IRI="#Breast"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Letrozole"/>
+        <Class IRI="http://blulab.chpc.utah.edu/ontologies/v2/SchemaOntology.owl#Medication"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Letrozole"/>
+        <Class IRI="http://blulab.chpc.utah.edu/ontologies/v2/SchemaOntology.owl#MedicationStatement"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Leuprolide_Acetate"/>
+        <Class IRI="http://blulab.chpc.utah.edu/ontologies/v2/SchemaOntology.owl#Medication"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Leuprolide_Acetate"/>
+        <Class IRI="http://blulab.chpc.utah.edu/ontologies/v2/SchemaOntology.owl#MedicationStatement"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Lipid_Rich_Breast_Carcinoma"/>
@@ -7407,6 +7495,1111 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#code"/>
+        <IRI>#Epirubicin</IRI>
+        <Literal datatypeIRI="&xsd;string">3995 [RXNORM]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#code"/>
+        <IRI>#Epirubicin</IRI>
+        <Literal datatypeIRI="&xsd;string">3Z8479ZZ5X [FDA]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#code"/>
+        <IRI>#Epirubicin</IRI>
+        <Literal datatypeIRI="&xsd;string">4021192 [VANDF]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#code"/>
+        <IRI>#Epirubicin</IRI>
+        <Literal datatypeIRI="&xsd;string">417916005 [SNOMEDCT_US]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#code"/>
+        <IRI>#Epirubicin</IRI>
+        <Literal datatypeIRI="&xsd;string">50534 [DCP]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#code"/>
+        <IRI>#Epirubicin</IRI>
+        <Literal datatypeIRI="&xsd;string">C0014582</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#code"/>
+        <IRI>#Epirubicin</IRI>
+        <Literal datatypeIRI="&xsd;string">C62028 [NCI]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#code"/>
+        <IRI>#Epirubicin</IRI>
+        <Literal datatypeIRI="&xsd;string">CDR0000039232 [PDQ]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#code"/>
+        <IRI>#Epirubicin</IRI>
+        <Literal datatypeIRI="&xsd;string">CDR0000045194 [NCI-GLOSS]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#code"/>
+        <IRI>#Epirubicin</IRI>
+        <Literal datatypeIRI="&xsd;string">D015251 [MSH]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#code"/>
+        <IRI>#Epirubicin</IRI>
+        <Literal datatypeIRI="&xsd;string">N0000007052 [NDFRT]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#code"/>
+        <IRI>#Epirubicin</IRI>
+        <Literal datatypeIRI="&xsd;string">NOCODE [MTH]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#code"/>
+        <IRI>#Epirubicin</IRI>
+        <Literal datatypeIRI="&xsd;string">NSC0256942 [DTP]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#definition"/>
+        <IRI>#Epirubicin</IRI>
+        <Literal datatypeIRI="&xsd;string">A 4&apos;-epi-isomer of the anthracycline antineoplastic antibiotic doxorubicin.  Epirubicin intercalates into DNA and inhibits topoisomerase II, thereby inhibiting DNA replication and ultimately, interfering with RNA and protein synthesis.  This agent also produces toxic free-radical intermediates and interacts with cell membrane lipids causing lipid peroxidation.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#definition"/>
+        <IRI>#Epirubicin</IRI>
+        <Literal datatypeIRI="&xsd;string">A 4&apos;-epi-isomer of the anthracycline antineoplastic antibiotic doxorubicin. Epirubicin intercalates into DNA and inhibits topoisomerase II, thereby inhibiting DNA replication and ultimately, interfering with RNA and protein synthesis. This agent also produces toxic free-radical intermediates and interacts with cell membrane lipids causing lipid peroxidation.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#definition"/>
+        <IRI>#Epirubicin</IRI>
+        <Literal datatypeIRI="&xsd;string">A drug used together with other drugs to treat early breast cancer that has spread to lymph nodes. It is also being studied in the treatment of other types of cancer. Epirubicin is a type of anthracycline antibiotic.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#definition"/>
+        <IRI>#Epirubicin</IRI>
+        <Literal datatypeIRI="&xsd;string">An anthracycline which is the 4&apos;-epi-isomer of doxorubicin. The compound exerts its antitumor effects by interference with the synthesis and function of DNA.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#semanticType"/>
+        <IRI>#Epirubicin</IRI>
+        <Literal datatypeIRI="&xsd;string">Antibiotic</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#semanticType"/>
+        <IRI>#Epirubicin</IRI>
+        <Literal datatypeIRI="&xsd;string">Organic Chemical</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#semanticType"/>
+        <IRI>#Epirubicin</IRI>
+        <Literal datatypeIRI="&xsd;string">Pharmacologic Substance</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Epirubicin</IRI>
+        <Literal datatypeIRI="&xsd;string">(8S-cis)-10-((3-Amino-2,3,6-trideoxy-beta-L-arabino-hexopyranosyl)oxy)-7,8,9,10-tetrahydro-6,8,11-trihydroxy-8-(hydroxyacetyl)-1-methoxy-5,12-naphthacenedione</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Epirubicin</IRI>
+        <Literal datatypeIRI="&xsd;string">3-Glycoloyl-1,2,3,4,6,11-hexahydro-3,5,12-trihydroxy-10-methoxy-6,11-dioxo-1-naphthacenyl-3-amino-2,3,6-trideoxy-alpha-L-arabino-hexopyranoside</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Epirubicin</IRI>
+        <Literal datatypeIRI="&xsd;string">4&apos; Epi Adriamycin</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Epirubicin</IRI>
+        <Literal datatypeIRI="&xsd;string">4&apos; Epi DXR</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Epirubicin</IRI>
+        <Literal datatypeIRI="&xsd;string">4&apos; Epi Doxorubicin</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Epirubicin</IRI>
+        <Literal datatypeIRI="&xsd;string">4&apos; Epiadriamycin</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Epirubicin</IRI>
+        <Literal datatypeIRI="&xsd;string">4&apos; Epidoxorubicin</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Epirubicin</IRI>
+        <Literal datatypeIRI="&xsd;string">4&apos;-Epi-Adriamycin</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Epirubicin</IRI>
+        <Literal datatypeIRI="&xsd;string">4&apos;-Epi-DXR</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Epirubicin</IRI>
+        <Literal datatypeIRI="&xsd;string">4&apos;-Epi-Doxorubicin</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Epirubicin</IRI>
+        <Literal datatypeIRI="&xsd;string">4&apos;-Epiadriamycin</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Epirubicin</IRI>
+        <Literal datatypeIRI="&xsd;string">4&apos;-Epidoxorubicin</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Epirubicin</IRI>
+        <Literal datatypeIRI="&xsd;string">4&apos;-epi DX</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Epirubicin</IRI>
+        <Literal datatypeIRI="&xsd;string">4&apos;-epi-DX</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Epirubicin</IRI>
+        <Literal datatypeIRI="&xsd;string">4&apos;-epi-adriamycin</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Epirubicin</IRI>
+        <Literal datatypeIRI="&xsd;string">4&apos;-epi-doxorubicin</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Epirubicin</IRI>
+        <Literal datatypeIRI="&xsd;string">4&apos;-epiadriamycin</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Epirubicin</IRI>
+        <Literal datatypeIRI="&xsd;string">4&apos;-epidoxorubicin</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Epirubicin</IRI>
+        <Literal datatypeIRI="&xsd;string">5,12-Naphthacenedione, 10-((3-amino-2,3,6-trideoxy-alpha-L-arabino-hexopyranosyl)oxy)-7,8,9,10-tetrahydro-6,8,11-trihydroxy-8-(hydroxyacetyl)-1-methoxy-, (8S-cis)-</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Epirubicin</IRI>
+        <Literal datatypeIRI="&xsd;string">EPIADRIAMYCIN 04</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Epirubicin</IRI>
+        <Literal datatypeIRI="&xsd;string">EPIDOXORUBICIN 04</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Epirubicin</IRI>
+        <Literal datatypeIRI="&xsd;string">EPIRUBICIN</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Epirubicin</IRI>
+        <Literal datatypeIRI="&xsd;string">Epi DX</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Epirubicin</IRI>
+        <Literal datatypeIRI="&xsd;string">Epidoxorubicin</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Epirubicin</IRI>
+        <Literal datatypeIRI="&xsd;string">Epirubicin</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Epirubicin</IRI>
+        <Literal datatypeIRI="&xsd;string">Epirubicin (product)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Epirubicin</IRI>
+        <Literal datatypeIRI="&xsd;string">Epirubicin (substance)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Epirubicin</IRI>
+        <Literal datatypeIRI="&xsd;string">Epirubicin [Chemical/Ingredient]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Epirubicin</IRI>
+        <Literal datatypeIRI="&xsd;string">IMI 28</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Epirubicin</IRI>
+        <Literal datatypeIRI="&xsd;string">IMI-28</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Epirubicin</IRI>
+        <Literal datatypeIRI="&xsd;string">IMI28</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Epirubicin</IRI>
+        <Literal datatypeIRI="&xsd;string">Pidorubicin</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Epirubicin</IRI>
+        <Literal datatypeIRI="&xsd;string">epi DX</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Epirubicin</IRI>
+        <Literal datatypeIRI="&xsd;string">epi-ADR</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Epirubicin</IRI>
+        <Literal datatypeIRI="&xsd;string">epidoxorubicin</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Epirubicin</IRI>
+        <Literal datatypeIRI="&xsd;string">epirubicin</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Epirubicin</IRI>
+        <Literal datatypeIRI="&xsd;string">pidorubicin</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Epirubicin</IRI>
+        <Literal datatypeIRI="&xsd;string">Epirubicin</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#code"/>
+        <IRI>#Eribulin</IRI>
+        <Literal datatypeIRI="&xsd;string">1045453 [RXNORM]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#code"/>
+        <IRI>#Eribulin</IRI>
+        <Literal datatypeIRI="&xsd;string">4030302 [VANDF]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#code"/>
+        <IRI>#Eribulin</IRI>
+        <Literal datatypeIRI="&xsd;string">C2350866</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#code"/>
+        <IRI>#Eribulin</IRI>
+        <Literal datatypeIRI="&xsd;string">C490954 [MSH]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#code"/>
+        <IRI>#Eribulin</IRI>
+        <Literal datatypeIRI="&xsd;string">C96748 [NCI]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#code"/>
+        <IRI>#Eribulin</IRI>
+        <Literal datatypeIRI="&xsd;string">LR24G6354G [FDA]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#code"/>
+        <IRI>#Eribulin</IRI>
+        <Literal datatypeIRI="&xsd;string">N0000182260 [NDFRT]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#code"/>
+        <IRI>#Eribulin</IRI>
+        <Literal datatypeIRI="&xsd;string">NOCODE [MTH]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#definition"/>
+        <IRI>#Eribulin</IRI>
+        <Literal datatypeIRI="&xsd;string">A substance that is being studied in the treatment of cancer. It belongs to the family of drugs called antitubulin agents.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#definition"/>
+        <IRI>#Eribulin</IRI>
+        <Literal datatypeIRI="&xsd;string">An analogue of halichondrin B, a substance derived from a marine sponge (Lissodendoryx sp.) with antineoplastic activity. Eribulin binds to the vinca domain of tubulin and inhibits the polymerization of tubulin and the assembly of microtubules, resulting in inhibition of mitotic spindle assembly, induction of cell cycle arrest at G2/M phase, and, potentially, tumor regression.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#semanticType"/>
+        <IRI>#Eribulin</IRI>
+        <Literal datatypeIRI="&xsd;string">Organic Chemical</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#semanticType"/>
+        <IRI>#Eribulin</IRI>
+        <Literal datatypeIRI="&xsd;string">Pharmacologic Substance</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Eribulin</IRI>
+        <Literal datatypeIRI="&xsd;string">2-(3-Amino-2-hydroxypropyl)hexacosahydro-3-methoxy-26-methyl-20,27-bis(methylene)11,15-18,21-24,28-triepoxy-7,9-ethano-12,15-methano-9H,15H-furo(3,2-i)furo(2&apos;,3&apos;-5,6)pyrano(4,3-b)(1,4)dioxacyclopentacosin-5-(4H)-one</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Eribulin</IRI>
+        <Literal datatypeIRI="&xsd;string">2-(3-amino-2-hydroxypropyl)hexacosahydro-3-methoxy-26-methyl-20,27-bis(methylene)11,15-18,21-24,28-triepoxy-7,9-ethano-12,15-methano-9H,15H-furo(3,2-i)furo(2&apos;,3&apos;-5,6)pyrano(4,3-b)(1,4)dioxacyclopentacosin-5-(4H)-one</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Eribulin</IRI>
+        <Literal datatypeIRI="&xsd;string">ER-086526</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Eribulin</IRI>
+        <Literal datatypeIRI="&xsd;string">ERIBULIN</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Eribulin</IRI>
+        <Literal datatypeIRI="&xsd;string">Eribulin</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Eribulin</IRI>
+        <Literal datatypeIRI="&xsd;string">eribulin</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Eribulin</IRI>
+        <Literal datatypeIRI="&xsd;string">Eribulin</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#code"/>
+        <IRI>#Etoposide</IRI>
+        <Literal datatypeIRI="&xsd;string">1991-5300 [CSP]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#code"/>
+        <IRI>#Etoposide</IRI>
+        <Literal datatypeIRI="&xsd;string">220347 [RXNORM]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#code"/>
+        <IRI>#Etoposide</IRI>
+        <Literal datatypeIRI="&xsd;string">30262 [DCP]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#code"/>
+        <IRI>#Etoposide</IRI>
+        <Literal datatypeIRI="&xsd;string">387316009 [SNOMEDCT_US]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#code"/>
+        <IRI>#Etoposide</IRI>
+        <Literal datatypeIRI="&xsd;string">4018141 [VANDF]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#code"/>
+        <IRI>#Etoposide</IRI>
+        <Literal datatypeIRI="&xsd;string">6PLQ3CP4P3 [FDA]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#code"/>
+        <IRI>#Etoposide</IRI>
+        <Literal datatypeIRI="&xsd;string">6PLQ3CP4P3 [MTHSPL]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#code"/>
+        <IRI>#Etoposide</IRI>
+        <Literal datatypeIRI="&xsd;string">C0015133</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#code"/>
+        <IRI>#Etoposide</IRI>
+        <Literal datatypeIRI="&xsd;string">C491 [NCI]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#code"/>
+        <IRI>#Etoposide</IRI>
+        <Literal datatypeIRI="&xsd;string">CDR0000039207 [PDQ]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#code"/>
+        <IRI>#Etoposide</IRI>
+        <Literal datatypeIRI="&xsd;string">CDR0000601304 [NCI-GLOSS]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#code"/>
+        <IRI>#Etoposide</IRI>
+        <Literal datatypeIRI="&xsd;string">D005047 [MSH]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#code"/>
+        <IRI>#Etoposide</IRI>
+        <Literal datatypeIRI="&xsd;string">MTHU000519 [USPMG]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#code"/>
+        <IRI>#Etoposide</IRI>
+        <Literal datatypeIRI="&xsd;string">N0000006798 [NDFRT]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#code"/>
+        <IRI>#Etoposide</IRI>
+        <Literal datatypeIRI="&xsd;string">NPO_168 [NPO]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#code"/>
+        <IRI>#Etoposide</IRI>
+        <Literal datatypeIRI="&xsd;string">NSC0141540 [DTP]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#definition"/>
+        <IRI>#Etoposide</IRI>
+        <Literal datatypeIRI="&xsd;string">A drug used to treat testicular and small cell lung cancers. It is also being studied in the treatment of several other types of cancer. Vepesid blocks certain enzymes needed for cell division and DNA repair, and it may kill cancer cells. It is a type of podophyllotoxin derivative and a type of topoisomerase inhibitor.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#definition"/>
+        <IRI>#Etoposide</IRI>
+        <Literal datatypeIRI="&xsd;string">A semisynthetic derivative of PODOPHYLLOTOXIN that exhibits antitumor activity. Etoposide inhibits DNA synthesis by forming a complex with topoisomerase II and DNA. This complex induces breaks in double stranded DNA and prevents repair by topoisomerase II binding. Accumulated breaks in DNA prevent entry into the mitotic phase of cell division, and lead to cell death. Etoposide acts primarily in the G2 and S phases of the cell cycle.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#definition"/>
+        <IRI>#Etoposide</IRI>
+        <Literal datatypeIRI="&xsd;string">A semisynthetic derivative of podophyllotoxin, a substance extracted from the mandrake root Podophyllum peltatum.  Possessing potent antineoplastic properties, etoposide binds to and inhibits topoisomerase II and its function in ligating cleaved DNA molecules, resulting in the accumulation of single- or double-strand DNA breaks, the inhibition of DNA replication and transcription, and apoptotic cell death.  Etoposide acts primarily in the G2 and S phases of the cell cycle. (NCI04)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#definition"/>
+        <IRI>#Etoposide</IRI>
+        <Literal datatypeIRI="&xsd;string">A semisynthetic derivative of podophyllotoxin, a substance extracted from the mandrake root Podophyllum peltatum. Possessing potent antineoplastic properties, etoposide binds to and inhibits topoisomerase II and its function in ligating cleaved DNA molecules, resulting in the accumulation of single- or double-strand DNA breaks, the inhibition of DNA replication and transcription, and apoptotic cell death. Etoposide acts primarily in the G2 and S phases of the cell cycle. (NCI04)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#definition"/>
+        <IRI>#Etoposide</IRI>
+        <Literal datatypeIRI="&xsd;string">A semisynthetic derivative of podophyllotoxin, a substance extracted from the mandrake root Podophyllum peltatum. Possessing potent antineoplastic properties, etoposide binds to and inhibits topoisomerase II and its function in ligating cleaved DNA molecules, resulting in the accumulation of single- or double-strand DNA breaks, the inhibition of DNA replication and transcription, and apoptotic cell death. Etoposide acts primarily in the G2 and S phases of the cell cycle. Check for &quot;http://www.cancer.gov/Search/ClinicalTrialsLink.aspx?id=39207&amp;idtype=1&quot; active clinical trials or &quot;http://www.cancer.gov/Search/ClinicalTrialsLink.aspx?id=39207&amp;idtype=1&amp;closed=1&quot; closed clinical trials using this agent. (&quot;http://ncit.nci.nih.gov/ncitbrowser/ConceptReport.jsp?dictionary=NCI%20Thesaurus&amp;code=C491&quot; NCI Thesaurus)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#definition"/>
+        <IRI>#Etoposide</IRI>
+        <Literal datatypeIRI="&xsd;string">An organic compound or molecule, which has a functional parent, podophyllotoxin; which has substructure that classifies it as a beta-D-glucoside.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#definition"/>
+        <IRI>#Etoposide</IRI>
+        <Literal datatypeIRI="&xsd;string">glucopyranosyl substituted naphthalene derived from podophyllin; mutagen and immunosuppressant used in combination antineoplastic therapy for several human malignancies.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#semanticType"/>
+        <IRI>#Etoposide</IRI>
+        <Literal datatypeIRI="&xsd;string">Carbohydrate</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#semanticType"/>
+        <IRI>#Etoposide</IRI>
+        <Literal datatypeIRI="&xsd;string">Organic Chemical</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#semanticType"/>
+        <IRI>#Etoposide</IRI>
+        <Literal datatypeIRI="&xsd;string">Pharmacologic Substance</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Etoposide</IRI>
+        <Literal datatypeIRI="&xsd;string">(5S,5aR,8aR,9R)-9-(4-hydroxy-3,5-dimethoxyphenyl)-8-oxo-5,5a,6,8,8a,9-hexahydrofuro[3&apos;,4&apos;:6,7]naphtho[2,3-d][1,3]dioxol-5-yl 4,6-O-[(1R)-ethylidene]-?-D-glucopyranoside</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Etoposide</IRI>
+        <Literal datatypeIRI="&xsd;string">141540</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Etoposide</IRI>
+        <Literal datatypeIRI="&xsd;string">33419-42-0</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Etoposide</IRI>
+        <Literal datatypeIRI="&xsd;string">4&apos;-Demethylepipodophyllotoxin 9-[4,6-O-ethylidene-beta-D-glucopyranoside</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Etoposide</IRI>
+        <Literal datatypeIRI="&xsd;string">4&apos;-Demethylepipodophyllotoxin 9-[4,6-O-ethylidene-beta-D-glucopyranoside]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Etoposide</IRI>
+        <Literal datatypeIRI="&xsd;string">9-[(4,6-O-Ethylidene-beta-D-glucopyranosyl]-5,8,8a,9-tetrahydro-5-(4-hydroxy-3,5-dimethoxyphenyl)furo[3&apos;,4&apos;:6,7]naphtho[2,3-d]-1,3-dioxol-6(5aH)-one</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Etoposide</IRI>
+        <Literal datatypeIRI="&xsd;string">9-[(4,6-O-Ethylidene-beta-D-glucopyranosyl]oxy)-5,8,8a,9-tetrahydro-5-(4-hydroxy-3,5-dimethoxyphenyl)furo[3&apos;,4&apos;:6,7]naphtho[2,3-d]-1,3-dioxol-6(5aH)-one</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Etoposide</IRI>
+        <Literal datatypeIRI="&xsd;string">9197</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Etoposide</IRI>
+        <Literal datatypeIRI="&xsd;string">Bristol Myers Brand of Etoposide</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Etoposide</IRI>
+        <Literal datatypeIRI="&xsd;string">Bristol Myers Squibb Brand of Etoposide</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Etoposide</IRI>
+        <Literal datatypeIRI="&xsd;string">Bristol-Myers Brand of Etoposide</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Etoposide</IRI>
+        <Literal datatypeIRI="&xsd;string">Bristol-Myers Squibb Brand of Etoposide</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Etoposide</IRI>
+        <Literal datatypeIRI="&xsd;string">Demethyl Epipodophyllotoxin Ethylidine Glucoside</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Etoposide</IRI>
+        <Literal datatypeIRI="&xsd;string">EPEG</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Etoposide</IRI>
+        <Literal datatypeIRI="&xsd;string">EPEG - Etoposide</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Etoposide</IRI>
+        <Literal datatypeIRI="&xsd;string">ETOPOSIDE</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Etoposide</IRI>
+        <Literal datatypeIRI="&xsd;string">Eposide</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Etoposide</IRI>
+        <Literal datatypeIRI="&xsd;string">Etoposide</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Etoposide</IRI>
+        <Literal datatypeIRI="&xsd;string">Etoposide (product)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Etoposide</IRI>
+        <Literal datatypeIRI="&xsd;string">Etoposide (substance)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Etoposide</IRI>
+        <Literal datatypeIRI="&xsd;string">Etoposide Teva</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Etoposide</IRI>
+        <Literal datatypeIRI="&xsd;string">Etoposide [Chemical/Ingredient]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Etoposide</IRI>
+        <Literal datatypeIRI="&xsd;string">Etoposide product</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Etoposide</IRI>
+        <Literal datatypeIRI="&xsd;string">Furo(3&apos;,4&apos;:6,7)naphtho(2,3-d)-1,3-dioxol-6(5aH)-one, 9-((4,6-O-ethylidene-beta-D-glucopyranosyl)oxy)-5,8,8a,9-tetrahydro-5-(4-hydroxy-3,5-dimethoxyphenyl)-, (5R-(5alpha,5abeta,8aalpha,9beta(R*)))-</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Etoposide</IRI>
+        <Literal datatypeIRI="&xsd;string">Lastet</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Etoposide</IRI>
+        <Literal datatypeIRI="&xsd;string">Prasfarma Brand of Etoposide</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Etoposide</IRI>
+        <Literal datatypeIRI="&xsd;string">Sanfer Brand of Etoposide</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Etoposide</IRI>
+        <Literal datatypeIRI="&xsd;string">Teva Brand of Etoposide</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Etoposide</IRI>
+        <Literal datatypeIRI="&xsd;string">Toposar</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Etoposide</IRI>
+        <Literal datatypeIRI="&xsd;string">VP 16</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Etoposide</IRI>
+        <Literal datatypeIRI="&xsd;string">VP 16 (drug)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Etoposide</IRI>
+        <Literal datatypeIRI="&xsd;string">VP 16 213</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Etoposide</IRI>
+        <Literal datatypeIRI="&xsd;string">VP 16-213</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Etoposide</IRI>
+        <Literal datatypeIRI="&xsd;string">VP 16213</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Etoposide</IRI>
+        <Literal datatypeIRI="&xsd;string">VP-16</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Etoposide</IRI>
+        <Literal datatypeIRI="&xsd;string">VP-16-213</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Etoposide</IRI>
+        <Literal datatypeIRI="&xsd;string">VP-16213</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Etoposide</IRI>
+        <Literal datatypeIRI="&xsd;string">VP-213</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Etoposide</IRI>
+        <Literal datatypeIRI="&xsd;string">VP16</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Etoposide</IRI>
+        <Literal datatypeIRI="&xsd;string">VePesid</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Etoposide</IRI>
+        <Literal datatypeIRI="&xsd;string">Vepesid</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Etoposide</IRI>
+        <Literal datatypeIRI="&xsd;string">etoposide</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Etoposide</IRI>
+        <Literal datatypeIRI="&xsd;string">Etoposide</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#code"/>
+        <IRI>#Everolimus</IRI>
+        <Literal datatypeIRI="&xsd;string">4005-0055 [CSP]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#code"/>
+        <IRI>#Everolimus</IRI>
+        <Literal datatypeIRI="&xsd;string">4028636 [VANDF]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#code"/>
+        <IRI>#Everolimus</IRI>
+        <Literal datatypeIRI="&xsd;string">428698007 [SNOMEDCT_US]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#code"/>
+        <IRI>#Everolimus</IRI>
+        <Literal datatypeIRI="&xsd;string">50567 [DCP]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#code"/>
+        <IRI>#Everolimus</IRI>
+        <Literal datatypeIRI="&xsd;string">845509 [RXNORM]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#code"/>
+        <IRI>#Everolimus</IRI>
+        <Literal datatypeIRI="&xsd;string">9HW64Q8G6G [FDA]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#code"/>
+        <IRI>#Everolimus</IRI>
+        <Literal datatypeIRI="&xsd;string">9HW64Q8G6G [MTHSPL]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#code"/>
+        <IRI>#Everolimus</IRI>
+        <Literal datatypeIRI="&xsd;string">C0541315</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#code"/>
+        <IRI>#Everolimus</IRI>
+        <Literal datatypeIRI="&xsd;string">C107135 [MSH]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#code"/>
+        <IRI>#Everolimus</IRI>
+        <Literal datatypeIRI="&xsd;string">C48387 [NCI]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#code"/>
+        <IRI>#Everolimus</IRI>
+        <Literal datatypeIRI="&xsd;string">CDR0000372905 [PDQ]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#code"/>
+        <IRI>#Everolimus</IRI>
+        <Literal datatypeIRI="&xsd;string">CDR0000639749 [NCI-GLOSS]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#code"/>
+        <IRI>#Everolimus</IRI>
+        <Literal datatypeIRI="&xsd;string">MTHU026817 [LNC]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#code"/>
+        <IRI>#Everolimus</IRI>
+        <Literal datatypeIRI="&xsd;string">N0000178379 [NDFRT]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#code"/>
+        <IRI>#Everolimus</IRI>
+        <Literal datatypeIRI="&xsd;string">NOCODE [MTH]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#definition"/>
+        <IRI>#Everolimus</IRI>
+        <Literal datatypeIRI="&xsd;string">A derivative of the natural macrocyclic lactone sirolimus with immunosuppressant and anti-angiogenic properties. In cells, everolimus binds to the immunophilin FK Binding Protein-12 (FKBP-12) to generate an immunosuppressive complex that binds to and inhibits the activation of the mammalian Target of Rapamycin (mTOR), a key regulatory kinase. Inhibition of mTOR activation results in the inhibition of T lymphocyte activation and proliferation associated with antigen and cytokine (IL-2, IL-4, and IL-15) stimulation and the inhibition of antibody production. (NCI05)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#definition"/>
+        <IRI>#Everolimus</IRI>
+        <Literal datatypeIRI="&xsd;string">A derivative of the natural macrocyclic lactone sirolimus with immunosuppressant and anti-angiogenic properties. In cells, everolimus binds to the immunophilin FK Binding Protein-12 (FKBP-12) to generate an immunosuppressive complex that binds to and inhibits the activation of the mammalian Target of Rapamycin (mTOR), a key regulatory kinase. Inhibition of mTOR activation results in the inhibition of T lymphocyte activation and proliferation associated with antigen and cytokine (IL-2, IL-4, and IL-15) stimulation and the inhibition of antibody production. Check for &quot;http://www.cancer.gov/Search/ClinicalTrialsLink.aspx?id=372905&amp;idtype=1&quot; active clinical trials or &quot;http://www.cancer.gov/Search/ClinicalTrialsLink.aspx?id=372905&amp;idtype=1&amp;closed=1&quot; closed clinical trials using this agent. (&quot;http://ncit.nci.nih.gov/ncitbrowser/ConceptReport.jsp?dictionary=NCI%20Thesaurus&amp;code=C48387&quot; NCI Thesaurus)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#definition"/>
+        <IRI>#Everolimus</IRI>
+        <Literal datatypeIRI="&xsd;string">A drug used to treat advanced kidney cancer that did not respond to treatment with certain other anticancer drugs. It is also being studied in the treatment of other types of cancer. Afinitor stops cancer cells from dividing and may block the growth of new blood vessels that tumors need to grow. It also decreases the body&apos;s immune responses. It is a type of immunosuppressant and a type of antiangiogenesis agent.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#semanticType"/>
+        <IRI>#Everolimus</IRI>
+        <Literal datatypeIRI="&xsd;string">Organic Chemical</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#semanticType"/>
+        <IRI>#Everolimus</IRI>
+        <Literal datatypeIRI="&xsd;string">Pharmacologic Substance</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Everolimus</IRI>
+        <Literal datatypeIRI="&xsd;string">(1R,9S,12S,15R,16E,18R,19R,21R,23S,24E,26E,28E,30S,32S,35R)-1,18-Dihydroxy-12-((1R)-2-((1S,3R,4R)-4-(2-hydroxyethoxy)-3-methoxycyclohexyl)-1-methylethyl)-19,30-dimethoxy-15,17,21,23,29,35-hexamethyl-11,36-dioxa-4-azatricyclo(30.3.1.04,9)hexatriaconta-16,24,26,28-tetraene-2,3,10,14,20-pentaone</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Everolimus</IRI>
+        <Literal datatypeIRI="&xsd;string">40-O-(2-hydroxyethyl)-rapamycin</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Everolimus</IRI>
+        <Literal datatypeIRI="&xsd;string">42-O-(2-Hydroxy)ethyl Rapamycin</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Everolimus</IRI>
+        <Literal datatypeIRI="&xsd;string">42-O-(2-hydroxy)ethyl rapamycin</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Everolimus</IRI>
+        <Literal datatypeIRI="&xsd;string">Afinitor</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Everolimus</IRI>
+        <Literal datatypeIRI="&xsd;string">Certican</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Everolimus</IRI>
+        <Literal datatypeIRI="&xsd;string">EVEROLIMUS</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Everolimus</IRI>
+        <Literal datatypeIRI="&xsd;string">Everolimus</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Everolimus</IRI>
+        <Literal datatypeIRI="&xsd;string">Everolimus (product)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Everolimus</IRI>
+        <Literal datatypeIRI="&xsd;string">Everolimus (substance)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Everolimus</IRI>
+        <Literal datatypeIRI="&xsd;string">RAD 001</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Everolimus</IRI>
+        <Literal datatypeIRI="&xsd;string">RAD001</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Everolimus</IRI>
+        <Literal datatypeIRI="&xsd;string">SDZ RAD</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Everolimus</IRI>
+        <Literal datatypeIRI="&xsd;string">SDZ-RAD</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Everolimus</IRI>
+        <Literal datatypeIRI="&xsd;string">everolimus</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Everolimus</IRI>
+        <Literal datatypeIRI="&xsd;string">Everolimus</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#code"/>
+        <IRI>#Exemestane</IRI>
+        <Literal datatypeIRI="&xsd;string">20117 [DCP]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#code"/>
+        <IRI>#Exemestane</IRI>
+        <Literal datatypeIRI="&xsd;string">262105 [RXNORM]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#code"/>
+        <IRI>#Exemestane</IRI>
+        <Literal datatypeIRI="&xsd;string">387017005 [SNOMEDCT_US]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#code"/>
+        <IRI>#Exemestane</IRI>
+        <Literal datatypeIRI="&xsd;string">4021191 [VANDF]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#code"/>
+        <IRI>#Exemestane</IRI>
+        <Literal datatypeIRI="&xsd;string">C056516 [MSH]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#code"/>
+        <IRI>#Exemestane</IRI>
+        <Literal datatypeIRI="&xsd;string">C0851344</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#code"/>
+        <IRI>#Exemestane</IRI>
+        <Literal datatypeIRI="&xsd;string">C1097 [NCI]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#code"/>
+        <IRI>#Exemestane</IRI>
+        <Literal datatypeIRI="&xsd;string">CDR0000042297 [PDQ]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#code"/>
+        <IRI>#Exemestane</IRI>
+        <Literal datatypeIRI="&xsd;string">CDR0000508683 [NCI-GLOSS]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#code"/>
+        <IRI>#Exemestane</IRI>
+        <Literal datatypeIRI="&xsd;string">MTHU001429 [USPMG]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#code"/>
+        <IRI>#Exemestane</IRI>
+        <Literal datatypeIRI="&xsd;string">N0000004783 [NDFRT]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#code"/>
+        <IRI>#Exemestane</IRI>
+        <Literal datatypeIRI="&xsd;string">NSC0713563 [DTP]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#code"/>
+        <IRI>#Exemestane</IRI>
+        <Literal datatypeIRI="&xsd;string">NY22HMQ4BX [FDA]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#code"/>
+        <IRI>#Exemestane</IRI>
+        <Literal datatypeIRI="&xsd;string">NY22HMQ4BX [MTHSPL]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#definition"/>
+        <IRI>#Exemestane</IRI>
+        <Literal datatypeIRI="&xsd;string">A drug used to treat advanced breast cancer and to prevent recurrent breast cancer in postmenopausal women who have already been treated with tamoxifen. It is also being studied in the treatment of other types of cancer. Aromasin causes a decrease in the amount of estrogen made by the body. It is a type of aromatase inhibitor.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#definition"/>
+        <IRI>#Exemestane</IRI>
+        <Literal datatypeIRI="&xsd;string">A synthetic androgen analogue.  Exemestane binds irreversibly to and inhibits the enzyme aromatase, thereby blocking the conversion of cholesterol to pregnenolone and the peripheral aromatization of androgenic precursors into estrogens. (NCI04)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#definition"/>
+        <IRI>#Exemestane</IRI>
+        <Literal datatypeIRI="&xsd;string">A synthetic androgen analogue. Exemestane binds irreversibly to and inhibits the enzyme aromatase, thereby blocking the conversion of cholesterol to pregnenolone and the peripheral aromatization of androgenic precursors into estrogens. (NCI04)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#definition"/>
+        <IRI>#Exemestane</IRI>
+        <Literal datatypeIRI="&xsd;string">A synthetic androgen analogue. Exemestane binds irreversibly to and inhibits the enzyme aromatase, thereby blocking the conversion of cholesterol to pregnenolone and the peripheral aromatization of androgenic precursors into estrogens. Check for &quot;http://www.cancer.gov/Search/ClinicalTrialsLink.aspx?id=42297&amp;idtype=1&quot; active clinical trials or &quot;http://www.cancer.gov/Search/ClinicalTrialsLink.aspx?id=42297&amp;idtype=1&amp;closed=1&quot; closed clinical trials using this agent. (&quot;http://ncit.nci.nih.gov/ncitbrowser/ConceptReport.jsp?dictionary=NCI%20Thesaurus&amp;code=C1097&quot; NCI Thesaurus)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#semanticType"/>
+        <IRI>#Exemestane</IRI>
+        <Literal datatypeIRI="&xsd;string">Organic Chemical</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#semanticType"/>
+        <IRI>#Exemestane</IRI>
+        <Literal datatypeIRI="&xsd;string">Pharmacologic Substance</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#semanticType"/>
+        <IRI>#Exemestane</IRI>
+        <Literal datatypeIRI="&xsd;string">Steroid</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Exemestane</IRI>
+        <Literal datatypeIRI="&xsd;string">107868-30-4</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Exemestane</IRI>
+        <Literal datatypeIRI="&xsd;string">6-Methyleneandrosta-1,4-diene-3,17-dione</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Exemestane</IRI>
+        <Literal datatypeIRI="&xsd;string">6-methyleneandrosta-1,4-diene-3,17-dione</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Exemestane</IRI>
+        <Literal datatypeIRI="&xsd;string">713563</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Exemestane</IRI>
+        <Literal datatypeIRI="&xsd;string">Aromasil</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Exemestane</IRI>
+        <Literal datatypeIRI="&xsd;string">Aromasin</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Exemestane</IRI>
+        <Literal datatypeIRI="&xsd;string">Aromasine</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Exemestane</IRI>
+        <Literal datatypeIRI="&xsd;string">EXEMESTANE</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Exemestane</IRI>
+        <Literal datatypeIRI="&xsd;string">Exemestane</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Exemestane</IRI>
+        <Literal datatypeIRI="&xsd;string">Exemestane (product)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Exemestane</IRI>
+        <Literal datatypeIRI="&xsd;string">Exemestane (substance)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Exemestane</IRI>
+        <Literal datatypeIRI="&xsd;string">FCE 24304</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Exemestane</IRI>
+        <Literal datatypeIRI="&xsd;string">FCE-24304</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Exemestane</IRI>
+        <Literal datatypeIRI="&xsd;string">PNU 155971</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Exemestane</IRI>
+        <Literal datatypeIRI="&xsd;string">Pfizer brand of exemestane</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Exemestane</IRI>
+        <Literal datatypeIRI="&xsd;string">exemestane</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Exemestane</IRI>
+        <Literal datatypeIRI="&xsd;string">exemestane [Chemical/Ingredient]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Exemestane</IRI>
+        <Literal datatypeIRI="&xsd;string">Exemestane</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#code"/>
         <IRI>#Female_Breast</IRI>
         <Literal datatypeIRI="&xsd;string">10006229 [MDR]</Literal>
     </AnnotationAssertion>
@@ -7622,6 +8815,416 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#code"/>
+        <IRI>#Fulvestrant</IRI>
+        <Literal datatypeIRI="&xsd;string">20048 [DCP]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#code"/>
+        <IRI>#Fulvestrant</IRI>
+        <Literal datatypeIRI="&xsd;string">203870 [RXNORM]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#code"/>
+        <IRI>#Fulvestrant</IRI>
+        <Literal datatypeIRI="&xsd;string">22X328QOC4 [FDA]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#code"/>
+        <IRI>#Fulvestrant</IRI>
+        <Literal datatypeIRI="&xsd;string">22X328QOC4 [MTHSPL]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#code"/>
+        <IRI>#Fulvestrant</IRI>
+        <Literal datatypeIRI="&xsd;string">385519002 [SNOMEDCT_US]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#code"/>
+        <IRI>#Fulvestrant</IRI>
+        <Literal datatypeIRI="&xsd;string">4021350 [VANDF]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#code"/>
+        <IRI>#Fulvestrant</IRI>
+        <Literal datatypeIRI="&xsd;string">C070081 [MSH]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#code"/>
+        <IRI>#Fulvestrant</IRI>
+        <Literal datatypeIRI="&xsd;string">C0935916</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#code"/>
+        <IRI>#Fulvestrant</IRI>
+        <Literal datatypeIRI="&xsd;string">C1379 [NCI]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#code"/>
+        <IRI>#Fulvestrant</IRI>
+        <Literal datatypeIRI="&xsd;string">CDR0000043053 [PDQ]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#code"/>
+        <IRI>#Fulvestrant</IRI>
+        <Literal datatypeIRI="&xsd;string">CDR0000415316 [NCI-GLOSS]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#code"/>
+        <IRI>#Fulvestrant</IRI>
+        <Literal datatypeIRI="&xsd;string">MTHU001430 [USPMG]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#code"/>
+        <IRI>#Fulvestrant</IRI>
+        <Literal datatypeIRI="&xsd;string">N0000010122 [NDFRT]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#code"/>
+        <IRI>#Fulvestrant</IRI>
+        <Literal datatypeIRI="&xsd;string">NSC0719276 [DTP]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#definition"/>
+        <IRI>#Fulvestrant</IRI>
+        <Literal datatypeIRI="&xsd;string">A drug used to treat certain types of breast cancer in postmenopausal women. It is also being studied in the treatment of other types of cancer. Faslodex blocks estrogen activity in the body and is a type of antiestrogen.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#definition"/>
+        <IRI>#Fulvestrant</IRI>
+        <Literal datatypeIRI="&xsd;string">A synthetic estrogen receptor antagonist.  Unlike tamoxifen (which has partial agonist effects) and the aromatase inhibitors (which reduce the estrogen available to tumor cells), fulvestrant binds competitively to estrogen receptors in breast cancer cells, resulting in estrogen receptor deformation and decreased estrogen binding. In vitro studies indicate that fulvestrant reversibly inhibits the growth of tamoxifen-resistant, estrogen-sensitive, human breast cancer cell lines. (NCI04)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#definition"/>
+        <IRI>#Fulvestrant</IRI>
+        <Literal datatypeIRI="&xsd;string">A synthetic estrogen receptor antagonist. Unlike tamoxifen (which has partial agonist effects) and the aromatase inhibitors (which reduce the estrogen available to tumor cells), fulvestrant binds competitively to estrogen receptors in breast cancer cells, resulting in estrogen receptor deformation and decreased estrogen binding. In vitro studies indicate that fulvestrant reversibly inhibits the growth of tamoxifen-resistant, estrogen-sensitive, human breast cancer cell lines. (NCI04)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#definition"/>
+        <IRI>#Fulvestrant</IRI>
+        <Literal datatypeIRI="&xsd;string">A synthetic estrogen receptor antagonist. Unlike tamoxifen (which has partial agonist effects) and the aromatase inhibitors (which reduce the estrogen available to tumor cells), fulvestrant binds competitively to estrogen receptors in breast cancer cells, resulting in estrogen receptor deformation and decreased estrogen binding. In vitro studies indicate that fulvestrant reversibly inhibits the growth of tamoxifen-resistant, estrogen-sensitive, human breast cancer cell lines. Check for &quot;http://www.cancer.gov/Search/ClinicalTrialsLink.aspx?id=43053&amp;idtype=1&quot; active clinical trials or &quot;http://www.cancer.gov/Search/ClinicalTrialsLink.aspx?id=43053&amp;idtype=1&amp;closed=1&quot; closed clinical trials using this agent. (&quot;http://ncit.nci.nih.gov/ncitbrowser/ConceptReport.jsp?dictionary=NCI%20Thesaurus&amp;code=C1379&quot; NCI Thesaurus)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#semanticType"/>
+        <IRI>#Fulvestrant</IRI>
+        <Literal datatypeIRI="&xsd;string">Organic Chemical</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#semanticType"/>
+        <IRI>#Fulvestrant</IRI>
+        <Literal datatypeIRI="&xsd;string">Pharmacologic Substance</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#semanticType"/>
+        <IRI>#Fulvestrant</IRI>
+        <Literal datatypeIRI="&xsd;string">Steroid</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Fulvestrant</IRI>
+        <Literal datatypeIRI="&xsd;string">129453-61-8</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Fulvestrant</IRI>
+        <Literal datatypeIRI="&xsd;string">7-(9-(4,4,5,5,5-pentafluoropentylsulfinyl)nonyl)estra-1,3,5(10)-triene-3,17-diol</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Fulvestrant</IRI>
+        <Literal datatypeIRI="&xsd;string">719276</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Fulvestrant</IRI>
+        <Literal datatypeIRI="&xsd;string">7a-[9-[(4,4,5,5,5,-Pentafluoropentyl)sulphinyl]nonyl]-estra-1,3,5(10)-triene-3,17b-diol</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Fulvestrant</IRI>
+        <Literal datatypeIRI="&xsd;string">AstraZeneca brand of fulvestrant</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Fulvestrant</IRI>
+        <Literal datatypeIRI="&xsd;string">FULVESTRANT</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Fulvestrant</IRI>
+        <Literal datatypeIRI="&xsd;string">Faslodex</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Fulvestrant</IRI>
+        <Literal datatypeIRI="&xsd;string">Faslodex(ICI 182,780)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Fulvestrant</IRI>
+        <Literal datatypeIRI="&xsd;string">Fulvestrant</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Fulvestrant</IRI>
+        <Literal datatypeIRI="&xsd;string">Fulvestrant (product)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Fulvestrant</IRI>
+        <Literal datatypeIRI="&xsd;string">Fulvestrant (substance)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Fulvestrant</IRI>
+        <Literal datatypeIRI="&xsd;string">ICI 182,780</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Fulvestrant</IRI>
+        <Literal datatypeIRI="&xsd;string">ICI 182780</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Fulvestrant</IRI>
+        <Literal datatypeIRI="&xsd;string">ICI-182780</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Fulvestrant</IRI>
+        <Literal datatypeIRI="&xsd;string">ICI182780</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Fulvestrant</IRI>
+        <Literal datatypeIRI="&xsd;string">ZD9238</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Fulvestrant</IRI>
+        <Literal datatypeIRI="&xsd;string">ZM 182780</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Fulvestrant</IRI>
+        <Literal datatypeIRI="&xsd;string">ZM-182780</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Fulvestrant</IRI>
+        <Literal datatypeIRI="&xsd;string">fulvestrant</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Fulvestrant</IRI>
+        <Literal datatypeIRI="&xsd;string">fulvestrant [Chemical/Ingredient]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Fulvestrant</IRI>
+        <Literal datatypeIRI="&xsd;string">Fulvestrant</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#code"/>
+        <IRI>#Gemcitabine</IRI>
+        <Literal datatypeIRI="&xsd;string">12574 [RXNORM]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#code"/>
+        <IRI>#Gemcitabine</IRI>
+        <Literal datatypeIRI="&xsd;string">386920008 [SNOMEDCT_US]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#code"/>
+        <IRI>#Gemcitabine</IRI>
+        <Literal datatypeIRI="&xsd;string">4009-0057 [CSP]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#code"/>
+        <IRI>#Gemcitabine</IRI>
+        <Literal datatypeIRI="&xsd;string">4024031 [VANDF]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#code"/>
+        <IRI>#Gemcitabine</IRI>
+        <Literal datatypeIRI="&xsd;string">B76N6SBZ8R [FDA]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#code"/>
+        <IRI>#Gemcitabine</IRI>
+        <Literal datatypeIRI="&xsd;string">C0045093</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#code"/>
+        <IRI>#Gemcitabine</IRI>
+        <Literal datatypeIRI="&xsd;string">C056507 [MSH]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#code"/>
+        <IRI>#Gemcitabine</IRI>
+        <Literal datatypeIRI="&xsd;string">C66876 [NCI]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#code"/>
+        <IRI>#Gemcitabine</IRI>
+        <Literal datatypeIRI="&xsd;string">CDR0000041213 [PDQ]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#code"/>
+        <IRI>#Gemcitabine</IRI>
+        <Literal datatypeIRI="&xsd;string">CDR0000045347 [NCI-GLOSS]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#code"/>
+        <IRI>#Gemcitabine</IRI>
+        <Literal datatypeIRI="&xsd;string">MTHU000488 [USPMG]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#code"/>
+        <IRI>#Gemcitabine</IRI>
+        <Literal datatypeIRI="&xsd;string">N0000006563 [NDFRT]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#code"/>
+        <IRI>#Gemcitabine</IRI>
+        <Literal datatypeIRI="&xsd;string">NOCODE [MTH]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#code"/>
+        <IRI>#Gemcitabine</IRI>
+        <Literal datatypeIRI="&xsd;string">NSC0613327 [DTP]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#definition"/>
+        <IRI>#Gemcitabine</IRI>
+        <Literal datatypeIRI="&xsd;string">A broad-spectrum antimetabolite and deoxycytidine analogue with antineoplastic activity. Upon administration, gemcitabine is converted into the active metabolites difluorodeoxycytidine diphosphate (dFdCDP) and difluorodeoxycytidine triphosphate (dFdCTP) by deoxycytidine kinase. dFdCTP competes with deoxycytidine triphosphate (dCTP) and is incorporated into DNA.  This locks DNA polymerase thereby resulting in &quot;masked termination&quot; during DNA replication. On the other hand, dFdCDP inhibits ribonucleotide reductase, thereby decreasing the deoxynucleotide pool available for DNA synthesis. The reduction in the intracellular concentration of dCTP potentiates the incorporation of dFdCTP into DNA.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#definition"/>
+        <IRI>#Gemcitabine</IRI>
+        <Literal datatypeIRI="&xsd;string">A broad-spectrum antimetabolite and deoxycytidine analogue with antineoplastic activity. Upon administration, gemcitabine is converted into the active metabolites difluorodeoxycytidine diphosphate (dFdCDP) and difluorodeoxycytidine triphosphate (dFdCTP) by deoxycytidine kinase. dFdCTP competes with deoxycytidine triphosphate (dCTP) and is incorporated into DNA. This locks DNA polymerase thereby resulting in &quot;masked termination&quot; during DNA replication. On the other hand, dFdCDP inhibits ribonucleotide reductase, thereby decreasing the deoxynucleotide pool available for DNA synthesis. The reduction in the intracellular concentration of dCTP potentiates the incorporation of dFdCTP into DNA.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#definition"/>
+        <IRI>#Gemcitabine</IRI>
+        <Literal datatypeIRI="&xsd;string">The active ingredient in a drug that is used to treat pancreatic cancer that is advanced or has spread. It is also used with other drugs to treat breast cancer that has spread, advanced ovarian cancer, and non-small cell lung cancer that is advanced or has spread. It is also being studied in the treatment of other types of cancer. Gemcitabine blocks the cell from making DNA and may kill cancer cells. It is a type of antimetabolite.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#definition"/>
+        <IRI>#Gemcitabine</IRI>
+        <Literal datatypeIRI="&xsd;string">antimetabolite used in the treatment of pancreatic, lung, and other cancers.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#semanticType"/>
+        <IRI>#Gemcitabine</IRI>
+        <Literal datatypeIRI="&xsd;string">Nucleic Acid, Nucleoside, or Nucleotide</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#semanticType"/>
+        <IRI>#Gemcitabine</IRI>
+        <Literal datatypeIRI="&xsd;string">Pharmacologic Substance</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Gemcitabine</IRI>
+        <Literal datatypeIRI="&xsd;string">1-(2-Oxo-4-amino-1,2-dihydropyrimidin-1-yl)-2-deoxy-2,2-difluororibose</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Gemcitabine</IRI>
+        <Literal datatypeIRI="&xsd;string">103882-84-4</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Gemcitabine</IRI>
+        <Literal datatypeIRI="&xsd;string">2&apos;,2&apos;-DFDC</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Gemcitabine</IRI>
+        <Literal datatypeIRI="&xsd;string">2&apos;,2&apos;-difluoro-2&apos;-deoxycytidine</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Gemcitabine</IRI>
+        <Literal datatypeIRI="&xsd;string">2&apos;,2&apos;-difluorodeoxycytidine</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Gemcitabine</IRI>
+        <Literal datatypeIRI="&xsd;string">2&apos;-deoxy-2&apos;-difluorocytidine</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Gemcitabine</IRI>
+        <Literal datatypeIRI="&xsd;string">2&apos;Deoxy-2&apos;,2&apos;-Difluorocytidine</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Gemcitabine</IRI>
+        <Literal datatypeIRI="&xsd;string">2,2 difluorodexoycytidine</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Gemcitabine</IRI>
+        <Literal datatypeIRI="&xsd;string">47762</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Gemcitabine</IRI>
+        <Literal datatypeIRI="&xsd;string">613327</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Gemcitabine</IRI>
+        <Literal datatypeIRI="&xsd;string">Difluorodeoxycytidine</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Gemcitabine</IRI>
+        <Literal datatypeIRI="&xsd;string">GEMCITABINE</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Gemcitabine</IRI>
+        <Literal datatypeIRI="&xsd;string">Gemcitabine</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Gemcitabine</IRI>
+        <Literal datatypeIRI="&xsd;string">Gemcitabine (product)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Gemcitabine</IRI>
+        <Literal datatypeIRI="&xsd;string">Gemcitabine (substance)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Gemcitabine</IRI>
+        <Literal datatypeIRI="&xsd;string">dFdC</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Gemcitabine</IRI>
+        <Literal datatypeIRI="&xsd;string">dFdCyd</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Gemcitabine</IRI>
+        <Literal datatypeIRI="&xsd;string">gemcitabine</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Gemcitabine</IRI>
+        <Literal datatypeIRI="&xsd;string">gemcitabine [Chemical/Ingredient]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Gemcitabine</IRI>
+        <Literal datatypeIRI="&xsd;string">Gemcitabine</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#code"/>
         <IRI>#Glycogen_Rich_Clear_Cell_Breast_Carcinoma</IRI>
         <Literal datatypeIRI="&xsd;string">C1512224 [UMLS]</Literal>
     </AnnotationAssertion>
@@ -7664,6 +9267,161 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#Glycogen_Rich_Clear_Cell_Breast_Carcinoma</IRI>
         <Literal datatypeIRI="&xsd;string">Glycogen-Rich, Clear Cell Breast Carcinoma</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#code"/>
+        <IRI>#Goserelin_Acetate</IRI>
+        <Literal datatypeIRI="&xsd;string">108773006 [SNOMEDCT_US]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#code"/>
+        <IRI>#Goserelin_Acetate</IRI>
+        <Literal datatypeIRI="&xsd;string">4019508 [VANDF]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#code"/>
+        <IRI>#Goserelin_Acetate</IRI>
+        <Literal datatypeIRI="&xsd;string">58328 [RXNORM]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#code"/>
+        <IRI>#Goserelin_Acetate</IRI>
+        <Literal datatypeIRI="&xsd;string">6YUU2PV0U8 [FDA]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#code"/>
+        <IRI>#Goserelin_Acetate</IRI>
+        <Literal datatypeIRI="&xsd;string">6YUU2PV0U8 [MTHSPL]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#code"/>
+        <IRI>#Goserelin_Acetate</IRI>
+        <Literal datatypeIRI="&xsd;string">C0700476</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#code"/>
+        <IRI>#Goserelin_Acetate</IRI>
+        <Literal datatypeIRI="&xsd;string">C1417 [NCI]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#code"/>
+        <IRI>#Goserelin_Acetate</IRI>
+        <Literal datatypeIRI="&xsd;string">CDR0000040224 [PDQ]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#code"/>
+        <IRI>#Goserelin_Acetate</IRI>
+        <Literal datatypeIRI="&xsd;string">D017273 [MSH]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#code"/>
+        <IRI>#Goserelin_Acetate</IRI>
+        <Literal datatypeIRI="&xsd;string">MTHU001409 [USPMG]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#code"/>
+        <IRI>#Goserelin_Acetate</IRI>
+        <Literal datatypeIRI="&xsd;string">N0000179609 [NDFRT]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#code"/>
+        <IRI>#Goserelin_Acetate</IRI>
+        <Literal datatypeIRI="&xsd;string">NSC0606864 [DTP]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#definition"/>
+        <IRI>#Goserelin_Acetate</IRI>
+        <Literal datatypeIRI="&xsd;string">The acetate salt of a synthetic decapeptide analog of luteinizing hormone-releasing hormone (LHRH).  Continuous, prolonged administration of goserelin in males results in inhibition of pituitary gonadotropin secretion, leading to a significant decline in testosterone production; in females, prolonged administration results in a decrease in estradiol production. (NCI04)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#definition"/>
+        <IRI>#Goserelin_Acetate</IRI>
+        <Literal datatypeIRI="&xsd;string">The acetate salt of a synthetic decapeptide analog of luteinizing hormone-releasing hormone (LHRH). Continuous, prolonged administration of goserelin in males results in inhibition of pituitary gonadotropin secretion, leading to a significant decline in testosterone production; in females, prolonged administration results in a decrease in estradiol production. (NCI04)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#definition"/>
+        <IRI>#Goserelin_Acetate</IRI>
+        <Literal datatypeIRI="&xsd;string">The acetate salt of a synthetic decapeptide analog of luteinizing hormone-releasing hormone (LHRH). Continuous, prolonged administration of goserelin in males results in inhibition of pituitary gonadotropin secretion, leading to a significant decline in testosterone production; in females, prolonged administration results in a decrease in estradiol production. (NCI04) Check for &quot;http://www.cancer.gov/Search/ClinicalTrialsLink.aspx?id=40224&amp;idtype=1&quot; active clinical trials or &quot;http://www.cancer.gov/Search/ClinicalTrialsLink.aspx?id=40224&amp;idtype=1&amp;closed=1&quot; closed clinical trials using this agent. (&quot;http://ncit.nci.nih.gov/ncitbrowser/ConceptReport.jsp?dictionary=NCI%20Thesaurus&amp;code=C1417&quot; NCI Thesaurus)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#semanticType"/>
+        <IRI>#Goserelin_Acetate</IRI>
+        <Literal datatypeIRI="&xsd;string">Amino Acid, Peptide, or Protein</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#semanticType"/>
+        <IRI>#Goserelin_Acetate</IRI>
+        <Literal datatypeIRI="&xsd;string">Hormone</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#semanticType"/>
+        <IRI>#Goserelin_Acetate</IRI>
+        <Literal datatypeIRI="&xsd;string">Pharmacologic Substance</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Goserelin_Acetate</IRI>
+        <Literal datatypeIRI="&xsd;string">Acetate, Goserelin</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Goserelin_Acetate</IRI>
+        <Literal datatypeIRI="&xsd;string">D-Ser(bu(t))(6)azgly(10)-LHRH Acetate</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Goserelin_Acetate</IRI>
+        <Literal datatypeIRI="&xsd;string">GOSERELIN ACETATE</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Goserelin_Acetate</IRI>
+        <Literal datatypeIRI="&xsd;string">Goserelin Acetate</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Goserelin_Acetate</IRI>
+        <Literal datatypeIRI="&xsd;string">Goserelin Acetate [Chemical/Ingredient]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Goserelin_Acetate</IRI>
+        <Literal datatypeIRI="&xsd;string">Goserelin acetate</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Goserelin_Acetate</IRI>
+        <Literal datatypeIRI="&xsd;string">Goserelin acetate (substance)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Goserelin_Acetate</IRI>
+        <Literal datatypeIRI="&xsd;string">Goserelin acetate preparation</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Goserelin_Acetate</IRI>
+        <Literal datatypeIRI="&xsd;string">Goserelin acetate preparation (product)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Goserelin_Acetate</IRI>
+        <Literal datatypeIRI="&xsd;string">ZDX</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Goserelin_Acetate</IRI>
+        <Literal datatypeIRI="&xsd;string">Zoladex</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Goserelin_Acetate</IRI>
+        <Literal datatypeIRI="&xsd;string">goserelin acetate</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Goserelin_Acetate</IRI>
+        <Literal datatypeIRI="&xsd;string">Goserelin Acetate</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#code"/>
@@ -10352,6 +12110,151 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#code"/>
+        <IRI>#Lapatinib</IRI>
+        <Literal datatypeIRI="&xsd;string">0VUA21238F [FDA]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#code"/>
+        <IRI>#Lapatinib</IRI>
+        <Literal datatypeIRI="&xsd;string">4026029 [VANDF]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#code"/>
+        <IRI>#Lapatinib</IRI>
+        <Literal datatypeIRI="&xsd;string">425820005 [SNOMEDCT_US]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#code"/>
+        <IRI>#Lapatinib</IRI>
+        <Literal datatypeIRI="&xsd;string">480167 [RXNORM]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#code"/>
+        <IRI>#Lapatinib</IRI>
+        <Literal datatypeIRI="&xsd;string">50458 [DCP]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#code"/>
+        <IRI>#Lapatinib</IRI>
+        <Literal datatypeIRI="&xsd;string">C1506770</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#code"/>
+        <IRI>#Lapatinib</IRI>
+        <Literal datatypeIRI="&xsd;string">C26653 [NCI]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#code"/>
+        <IRI>#Lapatinib</IRI>
+        <Literal datatypeIRI="&xsd;string">C490728 [MSH]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#code"/>
+        <IRI>#Lapatinib</IRI>
+        <Literal datatypeIRI="&xsd;string">CDR0000269659 [PDQ]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#code"/>
+        <IRI>#Lapatinib</IRI>
+        <Literal datatypeIRI="&xsd;string">CDR0000302459 [NCI-GLOSS]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#code"/>
+        <IRI>#Lapatinib</IRI>
+        <Literal datatypeIRI="&xsd;string">N0000179782 [NDFRT]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#definition"/>
+        <IRI>#Lapatinib</IRI>
+        <Literal datatypeIRI="&xsd;string">A drug used with another anticancer drug to treat breast cancer that is HER2 positive and has advanced or metastasized (spread to other parts of the body) after treatment with other drugs. Lapatinib is also being studied in the treatment of other types of cancer. It is a type of ErbB-2 and EGFR dual tyrosine kinase inhibitor.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#definition"/>
+        <IRI>#Lapatinib</IRI>
+        <Literal datatypeIRI="&xsd;string">A synthetic, orally-active quinazoline with potential antineoplastic properties. Lapatinib reversibly blocks phosphorylation of the epidermal growth factor receptor (EGFR), ErbB2, and the Erk-1 and-2 and AKT kinases; it also inhibits cyclin D protein levels in human tumor cell lines and xenografts. EGFR and ErbB2 have been implicated in the growth of various tumor types.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#semanticType"/>
+        <IRI>#Lapatinib</IRI>
+        <Literal datatypeIRI="&xsd;string">Organic Chemical</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#semanticType"/>
+        <IRI>#Lapatinib</IRI>
+        <Literal datatypeIRI="&xsd;string">Pharmacologic Substance</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Lapatinib</IRI>
+        <Literal datatypeIRI="&xsd;string">GSK572016</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Lapatinib</IRI>
+        <Literal datatypeIRI="&xsd;string">GW 2016</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Lapatinib</IRI>
+        <Literal datatypeIRI="&xsd;string">GW 572016</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Lapatinib</IRI>
+        <Literal datatypeIRI="&xsd;string">GW-572016</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Lapatinib</IRI>
+        <Literal datatypeIRI="&xsd;string">GW2016</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Lapatinib</IRI>
+        <Literal datatypeIRI="&xsd;string">GW572016</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Lapatinib</IRI>
+        <Literal datatypeIRI="&xsd;string">LAPATINIB</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Lapatinib</IRI>
+        <Literal datatypeIRI="&xsd;string">Lapatinib</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Lapatinib</IRI>
+        <Literal datatypeIRI="&xsd;string">Lapatinib (product)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Lapatinib</IRI>
+        <Literal datatypeIRI="&xsd;string">Lapatinib (substance)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Lapatinib</IRI>
+        <Literal datatypeIRI="&xsd;string">N-(3-chloro-4-(((3-fluorobenzyl)oxy)phenyl)-6-(5-(((2-methylsulfonyl)ethyl)amino)methyl) -2-furyl)-4-quinazolinamine</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Lapatinib</IRI>
+        <Literal datatypeIRI="&xsd;string">lapatinib</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Lapatinib</IRI>
+        <Literal datatypeIRI="&xsd;string">lapatinib [Chemical/Ingredient]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Lapatinib</IRI>
+        <Literal datatypeIRI="&xsd;string">Lapatinib</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#code"/>
         <IRI>#Left_Breast</IRI>
         <Literal datatypeIRI="&xsd;string">14466 [UWDA]</Literal>
     </AnnotationAssertion>
@@ -10439,6 +12342,576 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#Left_Breast</IRI>
         <Literal datatypeIRI="&xsd;string">Left Breast</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#code"/>
+        <IRI>#Letrozole</IRI>
+        <Literal datatypeIRI="&xsd;string">203769 [RXNORM]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#code"/>
+        <IRI>#Letrozole</IRI>
+        <Literal datatypeIRI="&xsd;string">31670 [DCP]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#code"/>
+        <IRI>#Letrozole</IRI>
+        <Literal datatypeIRI="&xsd;string">386911004 [SNOMEDCT_US]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#code"/>
+        <IRI>#Letrozole</IRI>
+        <Literal datatypeIRI="&xsd;string">4021049 [VANDF]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#code"/>
+        <IRI>#Letrozole</IRI>
+        <Literal datatypeIRI="&xsd;string">7LKK855W8I [FDA]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#code"/>
+        <IRI>#Letrozole</IRI>
+        <Literal datatypeIRI="&xsd;string">7LKK855W8I [MTHSPL]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#code"/>
+        <IRI>#Letrozole</IRI>
+        <Literal datatypeIRI="&xsd;string">C0246421</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#code"/>
+        <IRI>#Letrozole</IRI>
+        <Literal datatypeIRI="&xsd;string">C067431 [MSH]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#code"/>
+        <IRI>#Letrozole</IRI>
+        <Literal datatypeIRI="&xsd;string">C1527 [NCI]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#code"/>
+        <IRI>#Letrozole</IRI>
+        <Literal datatypeIRI="&xsd;string">CDR0000042086 [PDQ]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#code"/>
+        <IRI>#Letrozole</IRI>
+        <Literal datatypeIRI="&xsd;string">CDR0000507522 [NCI-GLOSS]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#code"/>
+        <IRI>#Letrozole</IRI>
+        <Literal datatypeIRI="&xsd;string">MTHU001431 [USPMG]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#code"/>
+        <IRI>#Letrozole</IRI>
+        <Literal datatypeIRI="&xsd;string">N0000006777 [NDFRT]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#code"/>
+        <IRI>#Letrozole</IRI>
+        <Literal datatypeIRI="&xsd;string">NOCODE [MTH]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#code"/>
+        <IRI>#Letrozole</IRI>
+        <Literal datatypeIRI="&xsd;string">NSC0719345 [DTP]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#definition"/>
+        <IRI>#Letrozole</IRI>
+        <Literal datatypeIRI="&xsd;string">A drug used to treat advanced breast cancer in postmenopausal women. Letrozole causes a decrease in the amount of estrogen made by the body. It is a type of aromatase inhibitor.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#definition"/>
+        <IRI>#Letrozole</IRI>
+        <Literal datatypeIRI="&xsd;string">A nonsteroidal inhibitor of estrogen synthesis with antineoplastic activity. As a third-generation aromatase inhibitor, letrozole selectively and reversibly inhibits aromatase, which may result in growth inhibition of estrogen-dependent breast cancer cells. Aromatase, a cytochrome P-450 enzyme localized to the endoplasmic reticulum of the cell and found in many tissues including those of the premenopausal ovary, liver, and breast, catalyzes the aromatization of androstenedione and testosterone into estrone and estradiol, the final step in estrogen biosynthesis.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#definition"/>
+        <IRI>#Letrozole</IRI>
+        <Literal datatypeIRI="&xsd;string">A nonsteroidal inhibitor of estrogen synthesis with antineoplastic activity. As a third-generation aromatase inhibitor, letrozole selectively and reversibly inhibits aromatase, which may result in growth inhibition of estrogen-dependent breast cancer cells. Aromatase, a cytochrome P-450 enzyme localized to the endoplasmic reticulum of the cell and found in many tissues including those of the premenopausal ovary, liver, and breast, catalyzes the aromatization of androstenedione and testosterone into estrone and estradiol, the final step in estrogen biosynthesis. Check for &quot;http://www.cancer.gov/Search/ClinicalTrialsLink.aspx?id=42086&amp;idtype=1&quot; active clinical trials or &quot;http://www.cancer.gov/Search/ClinicalTrialsLink.aspx?id=42086&amp;idtype=1&amp;closed=1&quot; closed clinical trials using this agent. (&quot;http://ncit.nci.nih.gov/ncitbrowser/ConceptReport.jsp?dictionary=NCI%20Thesaurus&amp;code=C1527&quot; NCI Thesaurus)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#semanticType"/>
+        <IRI>#Letrozole</IRI>
+        <Literal datatypeIRI="&xsd;string">Organic Chemical</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#semanticType"/>
+        <IRI>#Letrozole</IRI>
+        <Literal datatypeIRI="&xsd;string">Pharmacologic Substance</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Letrozole</IRI>
+        <Literal datatypeIRI="&xsd;string">112809-51-5</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Letrozole</IRI>
+        <Literal datatypeIRI="&xsd;string">4,4&apos;-(1H-1,2,4-triazol-1-yl-methylene)-bis(benzonitrile)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Letrozole</IRI>
+        <Literal datatypeIRI="&xsd;string">4,4&apos;-(1H-1,2,4triazol-1-ylmethylene)dibenzonitrile</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Letrozole</IRI>
+        <Literal datatypeIRI="&xsd;string">719345</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Letrozole</IRI>
+        <Literal datatypeIRI="&xsd;string">Benzonitrile, 4,4&apos;-(1H-1,2,4-triazol-1-ylmethylene)bis-</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Letrozole</IRI>
+        <Literal datatypeIRI="&xsd;string">CGS 20267</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Letrozole</IRI>
+        <Literal datatypeIRI="&xsd;string">CGS-20267</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Letrozole</IRI>
+        <Literal datatypeIRI="&xsd;string">Femara</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Letrozole</IRI>
+        <Literal datatypeIRI="&xsd;string">Fémara</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Letrozole</IRI>
+        <Literal datatypeIRI="&xsd;string">LETROZOLE</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Letrozole</IRI>
+        <Literal datatypeIRI="&xsd;string">LTZ</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Letrozole</IRI>
+        <Literal datatypeIRI="&xsd;string">Letrozole</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Letrozole</IRI>
+        <Literal datatypeIRI="&xsd;string">Letrozole (product)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Letrozole</IRI>
+        <Literal datatypeIRI="&xsd;string">Letrozole (substance)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Letrozole</IRI>
+        <Literal datatypeIRI="&xsd;string">Novartis Brand of Letrozole</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Letrozole</IRI>
+        <Literal datatypeIRI="&xsd;string">letrozole</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Letrozole</IRI>
+        <Literal datatypeIRI="&xsd;string">letrozole [Chemical/Ingredient]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Letrozole</IRI>
+        <Literal datatypeIRI="&xsd;string">Letrozole</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#code"/>
+        <IRI>#Leuprolide_Acetate</IRI>
+        <Literal datatypeIRI="&xsd;string">261693 [RXNORM]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#code"/>
+        <IRI>#Leuprolide_Acetate</IRI>
+        <Literal datatypeIRI="&xsd;string">31429 [DCP]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#code"/>
+        <IRI>#Leuprolide_Acetate</IRI>
+        <Literal datatypeIRI="&xsd;string">327358003 [SNOMEDCT_US]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#code"/>
+        <IRI>#Leuprolide_Acetate</IRI>
+        <Literal datatypeIRI="&xsd;string">37JNS02E7V [FDA]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#code"/>
+        <IRI>#Leuprolide_Acetate</IRI>
+        <Literal datatypeIRI="&xsd;string">37JNS02E7V [MTHSPL]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#code"/>
+        <IRI>#Leuprolide_Acetate</IRI>
+        <Literal datatypeIRI="&xsd;string">4000-0227 [CSP]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#code"/>
+        <IRI>#Leuprolide_Acetate</IRI>
+        <Literal datatypeIRI="&xsd;string">4018977 [VANDF]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#code"/>
+        <IRI>#Leuprolide_Acetate</IRI>
+        <Literal datatypeIRI="&xsd;string">C0700596</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#code"/>
+        <IRI>#Leuprolide_Acetate</IRI>
+        <Literal datatypeIRI="&xsd;string">C1319 [NCI]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#code"/>
+        <IRI>#Leuprolide_Acetate</IRI>
+        <Literal datatypeIRI="&xsd;string">CDR0000040058 [PDQ]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#code"/>
+        <IRI>#Leuprolide_Acetate</IRI>
+        <Literal datatypeIRI="&xsd;string">CDR0000595349 [NCI-GLOSS]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#code"/>
+        <IRI>#Leuprolide_Acetate</IRI>
+        <Literal datatypeIRI="&xsd;string">D016729 [MSH]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#code"/>
+        <IRI>#Leuprolide_Acetate</IRI>
+        <Literal datatypeIRI="&xsd;string">MTHU001413 [USPMG]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#code"/>
+        <IRI>#Leuprolide_Acetate</IRI>
+        <Literal datatypeIRI="&xsd;string">N0000179654 [NDFRT]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#code"/>
+        <IRI>#Leuprolide_Acetate</IRI>
+        <Literal datatypeIRI="&xsd;string">NOCODE [MTH]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#definition"/>
+        <IRI>#Leuprolide_Acetate</IRI>
+        <Literal datatypeIRI="&xsd;string">A drug used to treat symptoms of advanced prostate cancer. It is also being studied in the treatment of other conditions and types of cancer. The active ingredient leuprolide blocks the body from making testosterone (a male hormone) and estradiol (a female hormone). It may stop the growth of prostate cancer cells that need testosterone to grow. Some brands of leuprolide are also used to treat early puberty in children and certain gynecologic conditions. Leuprolide acetate is a type of gonadotropin-releasing hormone analog.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#definition"/>
+        <IRI>#Leuprolide_Acetate</IRI>
+        <Literal datatypeIRI="&xsd;string">The acetate salt of a synthetic nonapeptide analogue of gonadotropin-releasing hormone. Leuprolide binds to and activates gonadotropin-releasing hormone (GnRH) receptors. Continuous, prolonged administration of leuprolide in males results in pituitary GnRH receptor desensitization and inhibition of pituitary secretion of follicle stimulating hormone (FSH) and luteinizing hormone (LH), leading to a significant decline in testosterone production; in females, prolonged administration results in a decrease in estradiol production. This agent reduces testosterone production to castration levels and may inhibit androgen receptor-positive tumor progression.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#definition"/>
+        <IRI>#Leuprolide_Acetate</IRI>
+        <Literal datatypeIRI="&xsd;string">The acetate salt of a synthetic nonapeptide analogue of gonadotropin-releasing hormone. Leuprolide binds to and activates gonadotropin-releasing hormone (GnRH) receptors. Continuous, prolonged administration of leuprolide in males results in pituitary GnRH receptor desensitization and inhibition of pituitary secretion of follicle stimulating hormone (FSH) and luteinizing hormone (LH), leading to a significant decline in testosterone production; in females, prolonged administration results in a decrease in estradiol production. This agent reduces testosterone production to castration levels and may inhibit androgen receptor-positive tumor progression. Check for &quot;http://www.cancer.gov/Search/ClinicalTrialsLink.aspx?id=40058&amp;idtype=1&quot; active clinical trials or &quot;http://www.cancer.gov/Search/ClinicalTrialsLink.aspx?id=40058&amp;idtype=1&amp;closed=1&quot; closed clinical trials using this agent. (&quot;http://ncit.nci.nih.gov/ncitbrowser/ConceptReport.jsp?dictionary=NCI%20Thesaurus&amp;code=C1319&quot; NCI Thesaurus)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#semanticType"/>
+        <IRI>#Leuprolide_Acetate</IRI>
+        <Literal datatypeIRI="&xsd;string">Amino Acid, Peptide, or Protein</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#semanticType"/>
+        <IRI>#Leuprolide_Acetate</IRI>
+        <Literal datatypeIRI="&xsd;string">Hormone</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#semanticType"/>
+        <IRI>#Leuprolide_Acetate</IRI>
+        <Literal datatypeIRI="&xsd;string">Pharmacologic Substance</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Leuprolide_Acetate</IRI>
+        <Literal datatypeIRI="&xsd;string">25379</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Leuprolide_Acetate</IRI>
+        <Literal datatypeIRI="&xsd;string">377526</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Leuprolide_Acetate</IRI>
+        <Literal datatypeIRI="&xsd;string">53714-56-0</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Leuprolide_Acetate</IRI>
+        <Literal datatypeIRI="&xsd;string">6-D-Leucine-9-(N-ethyl-L-prolinamide)-1-9-luteinizing Hormone-releasing Factor (Pig) Monoacetate</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Leuprolide_Acetate</IRI>
+        <Literal datatypeIRI="&xsd;string">6-D-Leucine-9-(N-ethyl-L-prolinamide)-10-deglycinamide Luteinizing Hormone-Releasing Factor (Pig) Monoacetate</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Leuprolide_Acetate</IRI>
+        <Literal datatypeIRI="&xsd;string">6-D-leucine-9-(N-ethyl-L-prolinamide)-1-9-luteinizing hormone-releasing factor (pig) monoacetate</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Leuprolide_Acetate</IRI>
+        <Literal datatypeIRI="&xsd;string">6-D-leucine-9-(N-ethyl-L-prolinamide)-10-deglycinamide luteinizing hormone-releasing factor (pig) monoacetate</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Leuprolide_Acetate</IRI>
+        <Literal datatypeIRI="&xsd;string">74381-53-6 (acetate)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Leuprolide_Acetate</IRI>
+        <Literal datatypeIRI="&xsd;string">A 43818</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Leuprolide_Acetate</IRI>
+        <Literal datatypeIRI="&xsd;string">A-43818</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Leuprolide_Acetate</IRI>
+        <Literal datatypeIRI="&xsd;string">A43818</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Leuprolide_Acetate</IRI>
+        <Literal datatypeIRI="&xsd;string">Abbott 43818</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Leuprolide_Acetate</IRI>
+        <Literal datatypeIRI="&xsd;string">Abbott-43818</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Leuprolide_Acetate</IRI>
+        <Literal datatypeIRI="&xsd;string">Acetate, Leuprolide</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Leuprolide_Acetate</IRI>
+        <Literal datatypeIRI="&xsd;string">Carcinil</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Leuprolide_Acetate</IRI>
+        <Literal datatypeIRI="&xsd;string">D-Leu6, desGly-NH2 10-LHRH ethylamide monoacetate</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Leuprolide_Acetate</IRI>
+        <Literal datatypeIRI="&xsd;string">D-Leu&lt;sup&gt;6&lt;/sup&gt;, desGly-NH&lt;sub&gt;2&lt;/sub&gt;&lt;sup&gt;10&lt;/sup&gt;-LHRH ethylamide monoacetate</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Leuprolide_Acetate</IRI>
+        <Literal datatypeIRI="&xsd;string">D-Leu^6^, desGly-NH&gt;2&lt;^10^-LHRH ethylamide monoacetate</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Leuprolide_Acetate</IRI>
+        <Literal datatypeIRI="&xsd;string">D-leu6, desgly-NH2 10, proethylamide9-GnRH monoacetate</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Leuprolide_Acetate</IRI>
+        <Literal datatypeIRI="&xsd;string">D-leu&lt;sup&gt;6&lt;/sup&gt;, desgly-NH&lt;sub&gt;2&lt;/sub&gt;&lt;sup&gt;10&lt;/sup&gt;, proethylamide&lt;sup&gt;9&lt;/sup&gt;-GnRH monoacetate</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Leuprolide_Acetate</IRI>
+        <Literal datatypeIRI="&xsd;string">D-leu^6^, desgly-NH&gt;2&lt;^10^, proethylamide^9^-GnRH monoacetate</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Leuprolide_Acetate</IRI>
+        <Literal datatypeIRI="&xsd;string">Depo-Eligard</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Leuprolide_Acetate</IRI>
+        <Literal datatypeIRI="&xsd;string">Eligard</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Leuprolide_Acetate</IRI>
+        <Literal datatypeIRI="&xsd;string">Enanton</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Leuprolide_Acetate</IRI>
+        <Literal datatypeIRI="&xsd;string">Enantone</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Leuprolide_Acetate</IRI>
+        <Literal datatypeIRI="&xsd;string">Enantone-Gyn</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Leuprolide_Acetate</IRI>
+        <Literal datatypeIRI="&xsd;string">Ginecrin</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Leuprolide_Acetate</IRI>
+        <Literal datatypeIRI="&xsd;string">LEUP</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Leuprolide_Acetate</IRI>
+        <Literal datatypeIRI="&xsd;string">LEUPROLIDE ACETATE</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Leuprolide_Acetate</IRI>
+        <Literal datatypeIRI="&xsd;string">Leuplin</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Leuprolide_Acetate</IRI>
+        <Literal datatypeIRI="&xsd;string">Leuprolide Acetate</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Leuprolide_Acetate</IRI>
+        <Literal datatypeIRI="&xsd;string">Leuprolide Acetate [Chemical/Ingredient]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Leuprolide_Acetate</IRI>
+        <Literal datatypeIRI="&xsd;string">Leuprolide acetate</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Leuprolide_Acetate</IRI>
+        <Literal datatypeIRI="&xsd;string">Leuprolide acetate (substance)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Leuprolide_Acetate</IRI>
+        <Literal datatypeIRI="&xsd;string">Leuprorelin Acetate</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Leuprolide_Acetate</IRI>
+        <Literal datatypeIRI="&xsd;string">Leuprorelin acetate</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Leuprolide_Acetate</IRI>
+        <Literal datatypeIRI="&xsd;string">Leuprorelin acetate (product)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Leuprolide_Acetate</IRI>
+        <Literal datatypeIRI="&xsd;string">Lucrin</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Leuprolide_Acetate</IRI>
+        <Literal datatypeIRI="&xsd;string">Lucrin Depot</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Leuprolide_Acetate</IRI>
+        <Literal datatypeIRI="&xsd;string">Lupron</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Leuprolide_Acetate</IRI>
+        <Literal datatypeIRI="&xsd;string">Lupron Depot</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Leuprolide_Acetate</IRI>
+        <Literal datatypeIRI="&xsd;string">Lupron Depot-3 Month</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Leuprolide_Acetate</IRI>
+        <Literal datatypeIRI="&xsd;string">Lupron Depot-4 Month</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Leuprolide_Acetate</IRI>
+        <Literal datatypeIRI="&xsd;string">Lupron Depot-Ped</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Leuprolide_Acetate</IRI>
+        <Literal datatypeIRI="&xsd;string">Procren</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Leuprolide_Acetate</IRI>
+        <Literal datatypeIRI="&xsd;string">Procrin</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Leuprolide_Acetate</IRI>
+        <Literal datatypeIRI="&xsd;string">Prostap</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Leuprolide_Acetate</IRI>
+        <Literal datatypeIRI="&xsd;string">TAP 144</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Leuprolide_Acetate</IRI>
+        <Literal datatypeIRI="&xsd;string">TAP-144</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Leuprolide_Acetate</IRI>
+        <Literal datatypeIRI="&xsd;string">TAP144</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Leuprolide_Acetate</IRI>
+        <Literal datatypeIRI="&xsd;string">Trenantone</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Leuprolide_Acetate</IRI>
+        <Literal datatypeIRI="&xsd;string">Uno-Enantone</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Leuprolide_Acetate</IRI>
+        <Literal datatypeIRI="&xsd;string">Viadur</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Leuprolide_Acetate</IRI>
+        <Literal datatypeIRI="&xsd;string">leuprolide acetate</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Leuprolide_Acetate</IRI>
+        <Literal datatypeIRI="&xsd;string">Leuprolide Acetate</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#code"/>
