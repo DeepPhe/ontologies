@@ -47,6 +47,14 @@
         <Class IRI="#Invasive_Breast_Carcinoma"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#Anastrozole"/>
+        <Class IRI="http://blulab.chpc.utah.edu/ontologies/v2/SchemaOntology.owl#Medication"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Anastrozole"/>
+        <Class IRI="http://blulab.chpc.utah.edu/ontologies/v2/SchemaOntology.owl#MedicationStatement"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#Apocrine_Breast_Carcinoma"/>
         <Class IRI="#Ductal_Breast_Carcinoma"/>
     </SubClassOf>
@@ -215,6 +223,22 @@
         <Class IRI="#Invasive_Breast_Carcinoma"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#Capecitabine"/>
+        <Class IRI="http://blulab.chpc.utah.edu/ontologies/v2/SchemaOntology.owl#Medication"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Capecitabine"/>
+        <Class IRI="http://blulab.chpc.utah.edu/ontologies/v2/SchemaOntology.owl#MedicationStatement"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Carboplatin"/>
+        <Class IRI="http://blulab.chpc.utah.edu/ontologies/v2/SchemaOntology.owl#Medication"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Carboplatin"/>
+        <Class IRI="http://blulab.chpc.utah.edu/ontologies/v2/SchemaOntology.owl#MedicationStatement"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#Central_Portion_of_the_Breast"/>
         <Class IRI="#Breast_Part"/>
     </SubClassOf>
@@ -223,8 +247,56 @@
         <Class IRI="#Breast_Carcinoma"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#Cisplatin"/>
+        <Class IRI="http://blulab.chpc.utah.edu/ontologies/v2/SchemaOntology.owl#Medication"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Cisplatin"/>
+        <Class IRI="http://blulab.chpc.utah.edu/ontologies/v2/SchemaOntology.owl#MedicationStatement"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Clodronate_Disodium"/>
+        <Class IRI="http://blulab.chpc.utah.edu/ontologies/v2/SchemaOntology.owl#Medication"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Clodronate_Disodium"/>
+        <Class IRI="http://blulab.chpc.utah.edu/ontologies/v2/SchemaOntology.owl#MedicationStatement"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#Contralateral_Breast_Carcinoma"/>
         <Class IRI="#Bilateral_Breast_Carcinoma"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Cyclophosphamide"/>
+        <Class IRI="http://blulab.chpc.utah.edu/ontologies/v2/SchemaOntology.owl#Medication"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Cyclophosphamide"/>
+        <Class IRI="http://blulab.chpc.utah.edu/ontologies/v2/SchemaOntology.owl#MedicationStatement"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Denosumab"/>
+        <Class IRI="http://blulab.chpc.utah.edu/ontologies/v2/SchemaOntology.owl#Medication"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Denosumab"/>
+        <Class IRI="http://blulab.chpc.utah.edu/ontologies/v2/SchemaOntology.owl#MedicationStatement"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Docetaxel"/>
+        <Class IRI="http://blulab.chpc.utah.edu/ontologies/v2/SchemaOntology.owl#Medication"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Docetaxel"/>
+        <Class IRI="http://blulab.chpc.utah.edu/ontologies/v2/SchemaOntology.owl#MedicationStatement"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Doxorubicin"/>
+        <Class IRI="http://blulab.chpc.utah.edu/ontologies/v2/SchemaOntology.owl#Medication"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Doxorubicin"/>
+        <Class IRI="http://blulab.chpc.utah.edu/ontologies/v2/SchemaOntology.owl#MedicationStatement"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Ductal_Breast_Carcinoma"/>
@@ -992,6 +1064,241 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#Adenosquamous_Breast_Carcinoma</IRI>
         <Literal datatypeIRI="&xsd;string">Adenosquamous Breast Carcinoma</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#code"/>
+        <IRI>#Anastrozole</IRI>
+        <Literal datatypeIRI="&xsd;string">20054 [DCP]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#code"/>
+        <IRI>#Anastrozole</IRI>
+        <Literal datatypeIRI="&xsd;string">262485 [RXNORM]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#code"/>
+        <IRI>#Anastrozole</IRI>
+        <Literal datatypeIRI="&xsd;string">2Z07MYW1AZ [FDA]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#code"/>
+        <IRI>#Anastrozole</IRI>
+        <Literal datatypeIRI="&xsd;string">2Z07MYW1AZ [MTHSPL]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#code"/>
+        <IRI>#Anastrozole</IRI>
+        <Literal datatypeIRI="&xsd;string">386910003 [SNOMEDCT_US]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#code"/>
+        <IRI>#Anastrozole</IRI>
+        <Literal datatypeIRI="&xsd;string">4020948 [VANDF]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#code"/>
+        <IRI>#Anastrozole</IRI>
+        <Literal datatypeIRI="&xsd;string">C0290883</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#code"/>
+        <IRI>#Anastrozole</IRI>
+        <Literal datatypeIRI="&xsd;string">C090450 [MSH]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#code"/>
+        <IRI>#Anastrozole</IRI>
+        <Literal datatypeIRI="&xsd;string">C1607 [NCI]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#code"/>
+        <IRI>#Anastrozole</IRI>
+        <Literal datatypeIRI="&xsd;string">CDR0000042540 [PDQ]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#code"/>
+        <IRI>#Anastrozole</IRI>
+        <Literal datatypeIRI="&xsd;string">CDR0000045504 [NCI-GLOSS]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#code"/>
+        <IRI>#Anastrozole</IRI>
+        <Literal datatypeIRI="&xsd;string">MTHU001426 [USPMG]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#code"/>
+        <IRI>#Anastrozole</IRI>
+        <Literal datatypeIRI="&xsd;string">N0000007441 [NDFRT]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#code"/>
+        <IRI>#Anastrozole</IRI>
+        <Literal datatypeIRI="&xsd;string">NOCODE [MTH]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#code"/>
+        <IRI>#Anastrozole</IRI>
+        <Literal datatypeIRI="&xsd;string">NSC0719344 [DTP]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#definition"/>
+        <IRI>#Anastrozole</IRI>
+        <Literal datatypeIRI="&xsd;string">A nonsteroidal inhibitor of estrogen synthesis that resembles paclitaxel in chemical structure.  As a third-generation aromatase inhibitor, anastrozole selectively binds to and reversibly inhibits aromatase, a cytochrome P-450 enzyme complex found in many tissues including those of the premenopausal ovary, liver, and breast; aromatase catalyzes the aromatization of androstenedione and testosterone into estrone and estradiol, the final step in estrogen biosynthesis.  In estrogen-dependent breast cancers, ananstrozole may inhibit tumor growth. (NCI04)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#definition"/>
+        <IRI>#Anastrozole</IRI>
+        <Literal datatypeIRI="&xsd;string">A nonsteroidal inhibitor of estrogen synthesis that resembles paclitaxel in chemical structure. As a third-generation aromatase inhibitor, anastrozole selectively binds to and reversibly inhibits aromatase, a cytochrome P-450 enzyme complex found in many tissues including those of the premenopausal ovary, liver, and breast; aromatase catalyzes the aromatization of androstenedione and testosterone into estrone and estradiol, the final step in estrogen biosynthesis. In estrogen-dependent breast cancers, ananstrozole may inhibit tumor growth. (NCI04)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#definition"/>
+        <IRI>#Anastrozole</IRI>
+        <Literal datatypeIRI="&xsd;string">A nonsteroidal inhibitor of estrogen synthesis that resembles paclitaxel in chemical structure. As a third-generation aromatase inhibitor, anastrozole selectively binds to and reversibly inhibits aromatase, a cytochrome P-450 enzyme complex found in many tissues including those of the premenopausal ovary, liver, and breast; aromatase catalyzes the aromatization of androstenedione and testosterone into estrone and estradiol, the final step in estrogen biosynthesis. In estrogen-dependent breast cancers, anastrozole may inhibit tumor growth. Check for &quot;http://www.cancer.gov/Search/ClinicalTrialsLink.aspx?id=42540&amp;idtype=1&quot; active clinical trials or &quot;http://www.cancer.gov/Search/ClinicalTrialsLink.aspx?id=42540&amp;idtype=1&amp;closed=1&quot; closed clinical trials using this agent. (&quot;http://ncit.nci.nih.gov/ncitbrowser/ConceptReport.jsp?dictionary=NCI%20Thesaurus&amp;code=C1607&quot; NCI Thesaurus)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#definition"/>
+        <IRI>#Anastrozole</IRI>
+        <Literal datatypeIRI="&xsd;string">An anticancer drug that is used to decrease estrogen production and suppress the growth of tumors that need estrogen to grow. It is a type of nonsteroidal aromatase inhibitor.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#semanticType"/>
+        <IRI>#Anastrozole</IRI>
+        <Literal datatypeIRI="&xsd;string">Organic Chemical</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#semanticType"/>
+        <IRI>#Anastrozole</IRI>
+        <Literal datatypeIRI="&xsd;string">Pharmacologic Substance</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Anastrozole</IRI>
+        <Literal datatypeIRI="&xsd;string">1,3-Benzenediacetonitrile, alpha,alpha,alpha&apos;,alpha&apos;-tetramethyl-5-(1H-1,2,4-triazol-1-ylmethyl)-</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Anastrozole</IRI>
+        <Literal datatypeIRI="&xsd;string">120511-73-1</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Anastrozole</IRI>
+        <Literal datatypeIRI="&xsd;string">2,2&apos;-(5-(1H-1,2,4-triazol-1-ylmethyl)-1,3-phenylene)bis(2-methylpropionitrile)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Anastrozole</IRI>
+        <Literal datatypeIRI="&xsd;string">2,2&apos;-[5-(1H-1,2,4-Triazol-1-ylmethyl)-1,3-phenylene]di(2-methylpropionitrile)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Anastrozole</IRI>
+        <Literal datatypeIRI="&xsd;string">2,2&apos;-[5-(1H-1,2,4-triazol-1-ylmethyl)-1,3-phenylene]di(2-methylpropionitrile)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Anastrozole</IRI>
+        <Literal datatypeIRI="&xsd;string">719344</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Anastrozole</IRI>
+        <Literal datatypeIRI="&xsd;string">ANAS</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Anastrozole</IRI>
+        <Literal datatypeIRI="&xsd;string">ANASTROZOLE</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Anastrozole</IRI>
+        <Literal datatypeIRI="&xsd;string">Alpha,alpha,alpha&apos;, alpha&apos;-tetramethyl-5-(1H-1,2,4-triazol-1-ylmethyl)-1,3-benzenediacetonitrile</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Anastrozole</IRI>
+        <Literal datatypeIRI="&xsd;string">Anastrozole</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Anastrozole</IRI>
+        <Literal datatypeIRI="&xsd;string">Anastrozole (product)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Anastrozole</IRI>
+        <Literal datatypeIRI="&xsd;string">Anastrozole (substance)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Anastrozole</IRI>
+        <Literal datatypeIRI="&xsd;string">Arimidex</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Anastrozole</IRI>
+        <Literal datatypeIRI="&xsd;string">Astra brand of anastrozole</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Anastrozole</IRI>
+        <Literal datatypeIRI="&xsd;string">AstraZeneca brand of anastrozole</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Anastrozole</IRI>
+        <Literal datatypeIRI="&xsd;string">ICI D1033</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Anastrozole</IRI>
+        <Literal datatypeIRI="&xsd;string">ICI-D1033</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Anastrozole</IRI>
+        <Literal datatypeIRI="&xsd;string">ZD-1033</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Anastrozole</IRI>
+        <Literal datatypeIRI="&xsd;string">ZD1033</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Anastrozole</IRI>
+        <Literal datatypeIRI="&xsd;string">Zeneca ZD 1033</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Anastrozole</IRI>
+        <Literal datatypeIRI="&xsd;string">Zeneca brand of anastrozole</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Anastrozole</IRI>
+        <Literal datatypeIRI="&xsd;string">alpha,alpha,alpha&apos;, alpha&apos;-tetramethyl-5-(1H-1,2,4-triazol-1-ylmethyl)-1,3-benzenediacetonitrile</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Anastrozole</IRI>
+        <Literal datatypeIRI="&xsd;string">anastrazole</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Anastrozole</IRI>
+        <Literal datatypeIRI="&xsd;string">anastrozole</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Anastrozole</IRI>
+        <Literal datatypeIRI="&xsd;string">anastrozole [Chemical/Ingredient]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Anastrozole</IRI>
+        <Literal datatypeIRI="&xsd;string">Anastrozole</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#code"/>
@@ -3560,6 +3867,561 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#code"/>
+        <IRI>#Capecitabine</IRI>
+        <Literal datatypeIRI="&xsd;string">220961 [RXNORM]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#code"/>
+        <IRI>#Capecitabine</IRI>
+        <Literal datatypeIRI="&xsd;string">386906001 [SNOMEDCT_US]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#code"/>
+        <IRI>#Capecitabine</IRI>
+        <Literal datatypeIRI="&xsd;string">4021099 [VANDF]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#code"/>
+        <IRI>#Capecitabine</IRI>
+        <Literal datatypeIRI="&xsd;string">50091 [DCP]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#code"/>
+        <IRI>#Capecitabine</IRI>
+        <Literal datatypeIRI="&xsd;string">6804DJ8Z9U [FDA]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#code"/>
+        <IRI>#Capecitabine</IRI>
+        <Literal datatypeIRI="&xsd;string">6804DJ8Z9U [MTHSPL]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#code"/>
+        <IRI>#Capecitabine</IRI>
+        <Literal datatypeIRI="&xsd;string">C0671970</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#code"/>
+        <IRI>#Capecitabine</IRI>
+        <Literal datatypeIRI="&xsd;string">C110904 [MSH]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#code"/>
+        <IRI>#Capecitabine</IRI>
+        <Literal datatypeIRI="&xsd;string">C1794 [NCI]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#code"/>
+        <IRI>#Capecitabine</IRI>
+        <Literal datatypeIRI="&xsd;string">CDR0000042852 [PDQ]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#code"/>
+        <IRI>#Capecitabine</IRI>
+        <Literal datatypeIRI="&xsd;string">CDR0000508532 [NCI-GLOSS]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#code"/>
+        <IRI>#Capecitabine</IRI>
+        <Literal datatypeIRI="&xsd;string">MTHU000484 [USPMG]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#code"/>
+        <IRI>#Capecitabine</IRI>
+        <Literal datatypeIRI="&xsd;string">N0000005958 [NDFRT]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#code"/>
+        <IRI>#Capecitabine</IRI>
+        <Literal datatypeIRI="&xsd;string">NOCODE [MTH]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#definition"/>
+        <IRI>#Capecitabine</IRI>
+        <Literal datatypeIRI="&xsd;string">A drug used to treat stage III colon cancer in patients who had surgery to remove the cancer. It is also used to treat metastatic breast cancer that has not improved after treatment with certain other anticancer drugs. Xeloda is being studied in the treatment of other types of cancer. It is taken up by cancer cells and breaks down into 5-fluorouracil, a substance that kills tumor cells. Xeloda is a type of antimetabolite.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#definition"/>
+        <IRI>#Capecitabine</IRI>
+        <Literal datatypeIRI="&xsd;string">A fluoropyrimidine carbamate belonging to the class of antineoplastic agents called antimetabolites.  As a prodrug, capecitabine is selectively activated by tumor cells to its cytotoxic moiety, 5-fluorouracil (5-FU); subsequently, 5-FU is metabolized to two active metabolites, 5-fluoro-2-deoxyuridine monophosphate (FdUMP) and 5-fluorouridine triphosphate (FUTP) by both tumor cells and normal cells.  FdUMP inhibits DNA synthesis and cell division by reducing normal thymidine production, while FUTP inhibits RNA and protein synthesis by competing with uridine triphosphate for incorporation into the RNA strand. (NCI04)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#definition"/>
+        <IRI>#Capecitabine</IRI>
+        <Literal datatypeIRI="&xsd;string">A fluoropyrimidine carbamate belonging to the class of antineoplastic agents called antimetabolites. As a prodrug, capecitabine is selectively activated by tumor cells to its cytotoxic moiety, 5-fluorouracil (5-FU); subsequently, 5-FU is metabolized to two active metabolites, 5-fluoro-2-deoxyuridine monophosphate (FdUMP) and 5-fluorouridine triphosphate (FUTP) by both tumor cells and normal cells. FdUMP inhibits DNA synthesis and cell division by reducing normal thymidine production, while FUTP inhibits RNA and protein synthesis by competing with uridine triphosphate for incorporation into the RNA strand. (NCI04)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#definition"/>
+        <IRI>#Capecitabine</IRI>
+        <Literal datatypeIRI="&xsd;string">A fluoropyrimidine carbamate belonging to the class of antineoplastic agents called antimetabolites. As a prodrug, capecitabine is selectively activated by tumor cells to its cytotoxic moiety, 5-fluorouracil (5-FU); subsequently, 5-FU is metabolized to two active metabolites, 5-fluoro-2-deoxyuridine monophosphate (FdUMP) and 5-fluorouridine triphosphate (FUTP) by both tumor cells and normal cells. FdUMP inhibits DNA synthesis and cell division by reducing normal thymidine production, while FUTP inhibits RNA and protein synthesis by competing with uridine triphosphate for incorporation into the RNA strand. Check for &quot;http://www.cancer.gov/Search/ClinicalTrialsLink.aspx?id=42852&amp;idtype=1&quot; active clinical trials or &quot;http://www.cancer.gov/Search/ClinicalTrialsLink.aspx?id=42852&amp;idtype=1&amp;closed=1&quot; closed clinical trials using this agent. (&quot;http://ncit.nci.nih.gov/ncitbrowser/ConceptReport.jsp?dictionary=NCI%20Thesaurus&amp;code=C1794&quot; NCI Thesaurus)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#semanticType"/>
+        <IRI>#Capecitabine</IRI>
+        <Literal datatypeIRI="&xsd;string">Nucleic Acid, Nucleoside, or Nucleotide</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#semanticType"/>
+        <IRI>#Capecitabine</IRI>
+        <Literal datatypeIRI="&xsd;string">Pharmacologic Substance</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Capecitabine</IRI>
+        <Literal datatypeIRI="&xsd;string">154361-50-9</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Capecitabine</IRI>
+        <Literal datatypeIRI="&xsd;string">5&apos;-Deoxy-5-fluoro-N-[(pentyloxy)carbonyl]-cytidine</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Capecitabine</IRI>
+        <Literal datatypeIRI="&xsd;string">712807</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Capecitabine</IRI>
+        <Literal datatypeIRI="&xsd;string">CAPE</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Capecitabine</IRI>
+        <Literal datatypeIRI="&xsd;string">CAPECITABINE</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Capecitabine</IRI>
+        <Literal datatypeIRI="&xsd;string">Capecitabine</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Capecitabine</IRI>
+        <Literal datatypeIRI="&xsd;string">Capecitabine (product)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Capecitabine</IRI>
+        <Literal datatypeIRI="&xsd;string">Capecitabine (substance)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Capecitabine</IRI>
+        <Literal datatypeIRI="&xsd;string">N(4)-pentyloxycarbonyl-5&apos;-deoxy-5-fluorocytidine</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Capecitabine</IRI>
+        <Literal datatypeIRI="&xsd;string">Ro 09-1978/000</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Capecitabine</IRI>
+        <Literal datatypeIRI="&xsd;string">Xeloda</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Capecitabine</IRI>
+        <Literal datatypeIRI="&xsd;string">capecitabine</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Capecitabine</IRI>
+        <Literal datatypeIRI="&xsd;string">capecitabine [Chemical/Ingredient]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Capecitabine</IRI>
+        <Literal datatypeIRI="&xsd;string">Capecitabine</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#code"/>
+        <IRI>#Carboplatin</IRI>
+        <Literal datatypeIRI="&xsd;string">386905002 [SNOMEDCT_US]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#code"/>
+        <IRI>#Carboplatin</IRI>
+        <Literal datatypeIRI="&xsd;string">40048 [RXNORM]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#code"/>
+        <IRI>#Carboplatin</IRI>
+        <Literal datatypeIRI="&xsd;string">4007-0021 [CSP]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#code"/>
+        <IRI>#Carboplatin</IRI>
+        <Literal datatypeIRI="&xsd;string">4019478 [VANDF]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#code"/>
+        <IRI>#Carboplatin</IRI>
+        <Literal datatypeIRI="&xsd;string">BG3F62OND5 [FDA]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#code"/>
+        <IRI>#Carboplatin</IRI>
+        <Literal datatypeIRI="&xsd;string">BG3F62OND5 [MTHSPL]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#code"/>
+        <IRI>#Carboplatin</IRI>
+        <Literal datatypeIRI="&xsd;string">C0079083</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#code"/>
+        <IRI>#Carboplatin</IRI>
+        <Literal datatypeIRI="&xsd;string">C1282 [NCI]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#code"/>
+        <IRI>#Carboplatin</IRI>
+        <Literal datatypeIRI="&xsd;string">CDR0000039176 [PDQ]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#code"/>
+        <IRI>#Carboplatin</IRI>
+        <Literal datatypeIRI="&xsd;string">CDR0000635889 [NCI-GLOSS]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#code"/>
+        <IRI>#Carboplatin</IRI>
+        <Literal datatypeIRI="&xsd;string">D016190 [MSH]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#code"/>
+        <IRI>#Carboplatin</IRI>
+        <Literal datatypeIRI="&xsd;string">MTHU000529 [USPMG]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#code"/>
+        <IRI>#Carboplatin</IRI>
+        <Literal datatypeIRI="&xsd;string">N0000007164 [NDFRT]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#code"/>
+        <IRI>#Carboplatin</IRI>
+        <Literal datatypeIRI="&xsd;string">NOCODE [MTH]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#code"/>
+        <IRI>#Carboplatin</IRI>
+        <Literal datatypeIRI="&xsd;string">NPO_603 [NPO]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#code"/>
+        <IRI>#Carboplatin</IRI>
+        <Literal datatypeIRI="&xsd;string">NSC0241240 [DTP]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#definition"/>
+        <IRI>#Carboplatin</IRI>
+        <Literal datatypeIRI="&xsd;string">A drug that is used to treat advanced ovarian cancer that has never been treated or symptoms of ovarian cancer that has come back after treatment with other anticancer drugs. It is also used with other drugs to treat advanced, metastatic, or recurrent non-small cell lung cancer and is being studied in the treatment of other types of cancer. Paraplatin is a form of the anticancer drug cisplatin and causes fewer side effects in patients. It attaches to DNA in cells and may kill cancer cells. It is a type of platinum compound.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#definition"/>
+        <IRI>#Carboplatin</IRI>
+        <Literal datatypeIRI="&xsd;string">A platinum compound in which the platinum atom is complexed with two ammonia groups and a cyclobutane-dicarboxyl residue.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#definition"/>
+        <IRI>#Carboplatin</IRI>
+        <Literal datatypeIRI="&xsd;string">A second-generation platinum compound with a broad spectrum of antineoplastic properties.  Carboplatin contains a platinum atom complexed with two ammonia groups and a cyclobutane-dicarboxyl residue.  This agent is activated intracellularly to form reactive platinum complexes that bind to nucleophilic groups such as GC-rich sites in DNA, thereby inducing intrastrand and interstrand DNA cross-links, as well as DNA-protein cross-links.  These carboplatin-induced DNA and protein effects result in apoptosis and cell growth inhibition.  This agent possesses tumoricidal activity similar to that of its parent compound, cisplatin, but is more stable and less toxic. (NCI04)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#definition"/>
+        <IRI>#Carboplatin</IRI>
+        <Literal datatypeIRI="&xsd;string">A second-generation platinum compound with a broad spectrum of antineoplastic properties. Carboplatin contains a platinum atom complexed with two ammonia groups and a cyclobutane-dicarboxyl residue. This agent is activated intracellularly to form reactive platinum complexes that bind to nucleophilic groups such as GC-rich sites in DNA, thereby inducing intrastrand and interstrand DNA cross-links, as well as DNA-protein cross-links. These carboplatin-induced DNA and protein effects result in apoptosis and cell growth inhibition. This agent possesses tumoricidal activity similar to that of its parent compound, cisplatin, but is more stable and less toxic. (NCI04)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#definition"/>
+        <IRI>#Carboplatin</IRI>
+        <Literal datatypeIRI="&xsd;string">A second-generation platinum compound with a broad spectrum of antineoplastic properties. Carboplatin contains a platinum atom complexed with two ammonia groups and a cyclobutane-dicarboxyl residue. This agent is activated intracellularly to form reactive platinum complexes that bind to nucleophilic groups such as GC-rich sites in DNA, thereby inducing intrastrand and interstrand DNA cross-links, as well as DNA-protein cross-links. These carboplatin-induced DNA and protein effects result in apoptosis and cell growth inhibition. This agent possesses tumoricidal activity similar to that of its parent compound, cisplatin, but is more stable and less toxic. Check for &quot;http://www.cancer.gov/Search/ClinicalTrialsLink.aspx?id=39176&amp;idtype=1&quot; active clinical trials or &quot;http://www.cancer.gov/Search/ClinicalTrialsLink.aspx?id=39176&amp;idtype=1&amp;closed=1&quot; closed clinical trials using this agent. (&quot;http://ncit.nci.nih.gov/ncitbrowser/ConceptReport.jsp?dictionary=NCI%20Thesaurus&amp;code=C1282&quot; NCI Thesaurus)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#definition"/>
+        <IRI>#Carboplatin</IRI>
+        <Literal datatypeIRI="&xsd;string">An organoplatinum compound that possesses antineoplastic activity.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#definition"/>
+        <IRI>#Carboplatin</IRI>
+        <Literal datatypeIRI="&xsd;string">organoplatinum compound with antineoplastic activity.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#semanticType"/>
+        <IRI>#Carboplatin</IRI>
+        <Literal datatypeIRI="&xsd;string">Inorganic Chemical</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#semanticType"/>
+        <IRI>#Carboplatin</IRI>
+        <Literal datatypeIRI="&xsd;string">Organic Chemical</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#semanticType"/>
+        <IRI>#Carboplatin</IRI>
+        <Literal datatypeIRI="&xsd;string">Pharmacologic Substance</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Carboplatin</IRI>
+        <Literal datatypeIRI="&xsd;string">(SP-4-2)-diammine[1,1-cyclobutanedicarboxylato(2--)-O,O&apos;]platinum</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Carboplatin</IRI>
+        <Literal datatypeIRI="&xsd;string">1,1-cyclobutanedicarboxylic acid platinum complex</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Carboplatin</IRI>
+        <Literal datatypeIRI="&xsd;string">19314</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Carboplatin</IRI>
+        <Literal datatypeIRI="&xsd;string">241240</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Carboplatin</IRI>
+        <Literal datatypeIRI="&xsd;string">41575-94-4</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Carboplatin</IRI>
+        <Literal datatypeIRI="&xsd;string">Almirall Brand of Carboplatin</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Carboplatin</IRI>
+        <Literal datatypeIRI="&xsd;string">Blastocarb</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Carboplatin</IRI>
+        <Literal datatypeIRI="&xsd;string">Bristol-Myers Squibb Brand of Carboplatin</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Carboplatin</IRI>
+        <Literal datatypeIRI="&xsd;string">CARBOPLATIN</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Carboplatin</IRI>
+        <Literal datatypeIRI="&xsd;string">CARBOplatin</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Carboplatin</IRI>
+        <Literal datatypeIRI="&xsd;string">CBDCA</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Carboplatin</IRI>
+        <Literal datatypeIRI="&xsd;string">CBDCA - Carboplatin</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Carboplatin</IRI>
+        <Literal datatypeIRI="&xsd;string">Carboplat</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Carboplatin</IRI>
+        <Literal datatypeIRI="&xsd;string">Carboplatin</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Carboplatin</IRI>
+        <Literal datatypeIRI="&xsd;string">Carboplatin (product)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Carboplatin</IRI>
+        <Literal datatypeIRI="&xsd;string">Carboplatin (substance)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Carboplatin</IRI>
+        <Literal datatypeIRI="&xsd;string">Carboplatin Hexal</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Carboplatin</IRI>
+        <Literal datatypeIRI="&xsd;string">Carboplatin [Chemical/Ingredient]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Carboplatin</IRI>
+        <Literal datatypeIRI="&xsd;string">Carboplatino</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Carboplatin</IRI>
+        <Literal datatypeIRI="&xsd;string">Carbosin</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Carboplatin</IRI>
+        <Literal datatypeIRI="&xsd;string">Carbosol</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Carboplatin</IRI>
+        <Literal datatypeIRI="&xsd;string">Carbotec</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Carboplatin</IRI>
+        <Literal datatypeIRI="&xsd;string">Chiesi Brand of Carboplatin</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Carboplatin</IRI>
+        <Literal datatypeIRI="&xsd;string">Cis-Diammine(cyclobutane-1,1-dicarboxylato)platinum</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Carboplatin</IRI>
+        <Literal datatypeIRI="&xsd;string">Columbia Brand of Carboplatin</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Carboplatin</IRI>
+        <Literal datatypeIRI="&xsd;string">DIAMMINECYCLOBUTANEDICARBOXYLATOPLATINUM II</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Carboplatin</IRI>
+        <Literal datatypeIRI="&xsd;string">Displata</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Carboplatin</IRI>
+        <Literal datatypeIRI="&xsd;string">Ercar</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Carboplatin</IRI>
+        <Literal datatypeIRI="&xsd;string">JM 8</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Carboplatin</IRI>
+        <Literal datatypeIRI="&xsd;string">JM-8</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Carboplatin</IRI>
+        <Literal datatypeIRI="&xsd;string">JM8</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Carboplatin</IRI>
+        <Literal datatypeIRI="&xsd;string">Lemery Brand of Carboplatin</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Carboplatin</IRI>
+        <Literal datatypeIRI="&xsd;string">Nealorin</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Carboplatin</IRI>
+        <Literal datatypeIRI="&xsd;string">Novoplatinum</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Carboplatin</IRI>
+        <Literal datatypeIRI="&xsd;string">Paraplat</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Carboplatin</IRI>
+        <Literal datatypeIRI="&xsd;string">Paraplatin</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Carboplatin</IRI>
+        <Literal datatypeIRI="&xsd;string">Paraplatin AQ</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Carboplatin</IRI>
+        <Literal datatypeIRI="&xsd;string">Paraplatine</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Carboplatin</IRI>
+        <Literal datatypeIRI="&xsd;string">Pharmachemie Brand of Carboplatin</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Carboplatin</IRI>
+        <Literal datatypeIRI="&xsd;string">Platinum, diammine(1,1-cyclobutanedicarboxylato(2-))-, (SP-4-2)-</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Carboplatin</IRI>
+        <Literal datatypeIRI="&xsd;string">Platinwas</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Carboplatin</IRI>
+        <Literal datatypeIRI="&xsd;string">Prasfarma Brand of Carboplatin</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Carboplatin</IRI>
+        <Literal datatypeIRI="&xsd;string">Ribocarbo</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Carboplatin</IRI>
+        <Literal datatypeIRI="&xsd;string">carboplatin</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Carboplatin</IRI>
+        <Literal datatypeIRI="&xsd;string">cis-Diammine(cyclobutanedicarboxylato)platinum II</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Carboplatin</IRI>
+        <Literal datatypeIRI="&xsd;string">cis-diammine(1,1-cyclobutanedicarboxylato) platinum(II)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Carboplatin</IRI>
+        <Literal datatypeIRI="&xsd;string">cis-diammine(cyclobutane-1,1-dicarboxylato)platinum</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Carboplatin</IRI>
+        <Literal datatypeIRI="&xsd;string">cis-diammine(cyclobutanedicarboxylato)platinum II</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Carboplatin</IRI>
+        <Literal datatypeIRI="&xsd;string">platinum, diammine(1,1-cyclobutanedicarboxylato(2-))-, (SP-4-2)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Carboplatin</IRI>
+        <Literal datatypeIRI="&xsd;string">ribosepharm Brand of Carboplatin</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Carboplatin</IRI>
+        <Literal datatypeIRI="&xsd;string">Carboplatin</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#code"/>
         <IRI>#Central_Portion_of_the_Breast</IRI>
         <Literal datatypeIRI="&xsd;string">C0222595 [UMLS]</Literal>
     </AnnotationAssertion>
@@ -3640,6 +4502,796 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#code"/>
+        <IRI>#Cisplatin</IRI>
+        <Literal datatypeIRI="&xsd;string">00524 [DCP]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#code"/>
+        <IRI>#Cisplatin</IRI>
+        <Literal datatypeIRI="&xsd;string">202856 [RXNORM]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#code"/>
+        <IRI>#Cisplatin</IRI>
+        <Literal datatypeIRI="&xsd;string">387318005 [SNOMEDCT_US]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#code"/>
+        <IRI>#Cisplatin</IRI>
+        <Literal datatypeIRI="&xsd;string">4018139 [VANDF]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#code"/>
+        <IRI>#Cisplatin</IRI>
+        <Literal datatypeIRI="&xsd;string">5001-0018 [CSP]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#code"/>
+        <IRI>#Cisplatin</IRI>
+        <Literal datatypeIRI="&xsd;string">C0008838</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#code"/>
+        <IRI>#Cisplatin</IRI>
+        <Literal datatypeIRI="&xsd;string">C376 [NCI]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#code"/>
+        <IRI>#Cisplatin</IRI>
+        <Literal datatypeIRI="&xsd;string">CDR0000039515 [PDQ]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#code"/>
+        <IRI>#Cisplatin</IRI>
+        <Literal datatypeIRI="&xsd;string">CDR0000045230 [NCI-GLOSS]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#code"/>
+        <IRI>#Cisplatin</IRI>
+        <Literal datatypeIRI="&xsd;string">D002945 [MSH]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#code"/>
+        <IRI>#Cisplatin</IRI>
+        <Literal datatypeIRI="&xsd;string">MTHU000530 [USPMG]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#code"/>
+        <IRI>#Cisplatin</IRI>
+        <Literal datatypeIRI="&xsd;string">MTHU016242 [LNC]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#code"/>
+        <IRI>#Cisplatin</IRI>
+        <Literal datatypeIRI="&xsd;string">N0000007062 [NDFRT]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#code"/>
+        <IRI>#Cisplatin</IRI>
+        <Literal datatypeIRI="&xsd;string">NPO_608 [NPO]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#code"/>
+        <IRI>#Cisplatin</IRI>
+        <Literal datatypeIRI="&xsd;string">NSC0119875 [DTP]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#code"/>
+        <IRI>#Cisplatin</IRI>
+        <Literal datatypeIRI="&xsd;string">Q20Q21Q62J [FDA]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#code"/>
+        <IRI>#Cisplatin</IRI>
+        <Literal datatypeIRI="&xsd;string">Q20Q21Q62J [MTHSPL]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#code"/>
+        <IRI>#Cisplatin</IRI>
+        <Literal datatypeIRI="&xsd;string">U002562 [MTH]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#definition"/>
+        <IRI>#Cisplatin</IRI>
+        <Literal datatypeIRI="&xsd;string">A drug used to treat many types of cancer. Cisplatin contains the metal platinum. It kills cancer cells by damaging their DNA and stopping them from dividing. Cisplatin is a type of alkylating agent.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#definition"/>
+        <IRI>#Cisplatin</IRI>
+        <Literal datatypeIRI="&xsd;string">A platinum compound in which the platinum atom is complexed with two ammonia groups and two chlorine atoms.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#definition"/>
+        <IRI>#Cisplatin</IRI>
+        <Literal datatypeIRI="&xsd;string">An alkylating-like inorganic platinum agent (cis-diamminedichloroplatinum) with antineoplastic activity. Cisplatin forms highly reactive, charged, platinum complexes which bind to nucleophilic groups such as GC-rich sites in DNA inducing intrastrand and interstrand DNA cross-links, as well as DNA-protein cross-links. These cross-links result in apoptosis and cell growth inhibition.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#definition"/>
+        <IRI>#Cisplatin</IRI>
+        <Literal datatypeIRI="&xsd;string">An inorganic and water-soluble platinum complex. After undergoing hydrolysis, it reacts with DNA to produce both intra and interstrand crosslinks. These crosslinks appear to impair replication and transcription of DNA. The cytotoxicity of cisplatin correlates with cellular arrest in the G2 phase of the cell cycle.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#definition"/>
+        <IRI>#Cisplatin</IRI>
+        <Literal datatypeIRI="&xsd;string">An inorganic platinum agent (cis-diamminedichloroplatinum) with antineoplastic activity. Cisplatin forms highly reactive, charged, platinum complexes which bind to nucleophilic groups such as GC-rich sites in DNA, inducing intrastrand and interstrand DNA cross-links, as well as DNA-protein cross-links. These cross-links result in apoptosis and cell growth inhibition. Check for &quot;http://www.cancer.gov/Search/ClinicalTrialsLink.aspx?id=39515&amp;idtype=1&quot; active clinical trials or &quot;http://www.cancer.gov/Search/ClinicalTrialsLink.aspx?id=39515&amp;idtype=1&amp;closed=1&quot; closed clinical trials using this agent. (&quot;http://ncit.nci.nih.gov/ncitbrowser/ConceptReport.jsp?dictionary=NCI%20Thesaurus&amp;code=C376&quot; NCI Thesaurus)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#definition"/>
+        <IRI>#Cisplatin</IRI>
+        <Literal datatypeIRI="&xsd;string">inorganic, water soluble platinum complex; radiation sensitizing agent.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#semanticType"/>
+        <IRI>#Cisplatin</IRI>
+        <Literal datatypeIRI="&xsd;string">Inorganic Chemical</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#semanticType"/>
+        <IRI>#Cisplatin</IRI>
+        <Literal datatypeIRI="&xsd;string">Pharmacologic Substance</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Cisplatin</IRI>
+        <Literal datatypeIRI="&xsd;string">(SP-4-2)-Diamminedichloroplatinum</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Cisplatin</IRI>
+        <Literal datatypeIRI="&xsd;string">(SP-4-2)-diamminedichloroplatinum</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Cisplatin</IRI>
+        <Literal datatypeIRI="&xsd;string">119875</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Cisplatin</IRI>
+        <Literal datatypeIRI="&xsd;string">15663-27-1</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Cisplatin</IRI>
+        <Literal datatypeIRI="&xsd;string">8041</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Cisplatin</IRI>
+        <Literal datatypeIRI="&xsd;string">Abiplatin</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Cisplatin</IRI>
+        <Literal datatypeIRI="&xsd;string">Blastolem</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Cisplatin</IRI>
+        <Literal datatypeIRI="&xsd;string">Briplatin</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Cisplatin</IRI>
+        <Literal datatypeIRI="&xsd;string">CACP</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Cisplatin</IRI>
+        <Literal datatypeIRI="&xsd;string">CDDP</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Cisplatin</IRI>
+        <Literal datatypeIRI="&xsd;string">CDDP - Cisplatin</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Cisplatin</IRI>
+        <Literal datatypeIRI="&xsd;string">CISPLATIN</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Cisplatin</IRI>
+        <Literal datatypeIRI="&xsd;string">CISplatin</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Cisplatin</IRI>
+        <Literal datatypeIRI="&xsd;string">CPDD</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Cisplatin</IRI>
+        <Literal datatypeIRI="&xsd;string">Cis-diammine-dichloroplatinum</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Cisplatin</IRI>
+        <Literal datatypeIRI="&xsd;string">Cis-diamminedichloridoplatinum</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Cisplatin</IRI>
+        <Literal datatypeIRI="&xsd;string">Cis-diamminedichloro Platinum (II)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Cisplatin</IRI>
+        <Literal datatypeIRI="&xsd;string">Cis-diamminedichloroplatinum</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Cisplatin</IRI>
+        <Literal datatypeIRI="&xsd;string">Cis-dichloroammine Platinum (II)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Cisplatin</IRI>
+        <Literal datatypeIRI="&xsd;string">Cis-platinous Diamine Dichloride</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Cisplatin</IRI>
+        <Literal datatypeIRI="&xsd;string">Cis-platinum</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Cisplatin</IRI>
+        <Literal datatypeIRI="&xsd;string">Cis-platinum II</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Cisplatin</IRI>
+        <Literal datatypeIRI="&xsd;string">Cis-platinum II Diamine Dichloride</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Cisplatin</IRI>
+        <Literal datatypeIRI="&xsd;string">Cismaplat</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Cisplatin</IRI>
+        <Literal datatypeIRI="&xsd;string">Cisplatin</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Cisplatin</IRI>
+        <Literal datatypeIRI="&xsd;string">Cisplatin (product)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Cisplatin</IRI>
+        <Literal datatypeIRI="&xsd;string">Cisplatin (substance)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Cisplatin</IRI>
+        <Literal datatypeIRI="&xsd;string">Cisplatin [Chemical/Ingredient]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Cisplatin</IRI>
+        <Literal datatypeIRI="&xsd;string">Cisplatin product</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Cisplatin</IRI>
+        <Literal datatypeIRI="&xsd;string">Cisplatina</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Cisplatin</IRI>
+        <Literal datatypeIRI="&xsd;string">Cisplatinum</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Cisplatin</IRI>
+        <Literal datatypeIRI="&xsd;string">Cisplatyl</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Cisplatin</IRI>
+        <Literal datatypeIRI="&xsd;string">Citoplatino</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Cisplatin</IRI>
+        <Literal datatypeIRI="&xsd;string">Citosin</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Cisplatin</IRI>
+        <Literal datatypeIRI="&xsd;string">Cysplatyna</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Cisplatin</IRI>
+        <Literal datatypeIRI="&xsd;string">DDP</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Cisplatin</IRI>
+        <Literal datatypeIRI="&xsd;string">DIAMMINEDICHLOROPLATINUM CIS 02</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Cisplatin</IRI>
+        <Literal datatypeIRI="&xsd;string">DICHLORODIAMMINEPLATINUM CIS 02</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Cisplatin</IRI>
+        <Literal datatypeIRI="&xsd;string">Diaminedichloroplatinum</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Cisplatin</IRI>
+        <Literal datatypeIRI="&xsd;string">Diamminodichloride, Platinum</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Cisplatin</IRI>
+        <Literal datatypeIRI="&xsd;string">Dichlorodiammineplatinum</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Cisplatin</IRI>
+        <Literal datatypeIRI="&xsd;string">Lederplatin</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Cisplatin</IRI>
+        <Literal datatypeIRI="&xsd;string">Metaplatin</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Cisplatin</IRI>
+        <Literal datatypeIRI="&xsd;string">Neoplatin</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Cisplatin</IRI>
+        <Literal datatypeIRI="&xsd;string">PDD</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Cisplatin</IRI>
+        <Literal datatypeIRI="&xsd;string">Peyrone&apos;s Chloride</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Cisplatin</IRI>
+        <Literal datatypeIRI="&xsd;string">Peyrone&apos;s Salt</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Cisplatin</IRI>
+        <Literal datatypeIRI="&xsd;string">Placis</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Cisplatin</IRI>
+        <Literal datatypeIRI="&xsd;string">Plastistil</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Cisplatin</IRI>
+        <Literal datatypeIRI="&xsd;string">Platamine</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Cisplatin</IRI>
+        <Literal datatypeIRI="&xsd;string">Platiblastin</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Cisplatin</IRI>
+        <Literal datatypeIRI="&xsd;string">Platiblastin-S</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Cisplatin</IRI>
+        <Literal datatypeIRI="&xsd;string">Platinex</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Cisplatin</IRI>
+        <Literal datatypeIRI="&xsd;string">Platinol</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Cisplatin</IRI>
+        <Literal datatypeIRI="&xsd;string">Platinol- AQ</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Cisplatin</IRI>
+        <Literal datatypeIRI="&xsd;string">Platinol-AQ</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Cisplatin</IRI>
+        <Literal datatypeIRI="&xsd;string">Platinol-AQ VHA Plus</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Cisplatin</IRI>
+        <Literal datatypeIRI="&xsd;string">Platinoxan</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Cisplatin</IRI>
+        <Literal datatypeIRI="&xsd;string">Platinum</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Cisplatin</IRI>
+        <Literal datatypeIRI="&xsd;string">Platinum Diamminodichloride</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Cisplatin</IRI>
+        <Literal datatypeIRI="&xsd;string">Platinum, Diaminedichloro-, cis- (8CI)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Cisplatin</IRI>
+        <Literal datatypeIRI="&xsd;string">Platinum, diamminedichloro-, (SP-4-2)-</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Cisplatin</IRI>
+        <Literal datatypeIRI="&xsd;string">Platiran</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Cisplatin</IRI>
+        <Literal datatypeIRI="&xsd;string">Platistin</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Cisplatin</IRI>
+        <Literal datatypeIRI="&xsd;string">Platosin</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Cisplatin</IRI>
+        <Literal datatypeIRI="&xsd;string">cis Diamminedichloroplatinum</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Cisplatin</IRI>
+        <Literal datatypeIRI="&xsd;string">cis Platinum</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Cisplatin</IRI>
+        <Literal datatypeIRI="&xsd;string">cis diamminedichloroplatinum</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Cisplatin</IRI>
+        <Literal datatypeIRI="&xsd;string">cis dichlorodiammineplatinum</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Cisplatin</IRI>
+        <Literal datatypeIRI="&xsd;string">cis platinum compound</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Cisplatin</IRI>
+        <Literal datatypeIRI="&xsd;string">cis-DDP</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Cisplatin</IRI>
+        <Literal datatypeIRI="&xsd;string">cis-Diaminedichloroplatinum</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Cisplatin</IRI>
+        <Literal datatypeIRI="&xsd;string">cis-Diamminedichloroplatinum</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Cisplatin</IRI>
+        <Literal datatypeIRI="&xsd;string">cis-Diamminedichloroplatinum(II)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Cisplatin</IRI>
+        <Literal datatypeIRI="&xsd;string">cis-Dichlorodiammineplatinum(II)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Cisplatin</IRI>
+        <Literal datatypeIRI="&xsd;string">cis-Platinum</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Cisplatin</IRI>
+        <Literal datatypeIRI="&xsd;string">cis-Platinum II</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Cisplatin</IRI>
+        <Literal datatypeIRI="&xsd;string">cis-Platinum compound</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Cisplatin</IRI>
+        <Literal datatypeIRI="&xsd;string">cis-diammine-dichloroplatinum</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Cisplatin</IRI>
+        <Literal datatypeIRI="&xsd;string">cis-diamminedichloro platinum (II)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Cisplatin</IRI>
+        <Literal datatypeIRI="&xsd;string">cis-diamminedichloroplatinum</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Cisplatin</IRI>
+        <Literal datatypeIRI="&xsd;string">cis-platinous diamine dichloride</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Cisplatin</IRI>
+        <Literal datatypeIRI="&xsd;string">cis-platinum</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Cisplatin</IRI>
+        <Literal datatypeIRI="&xsd;string">cis-platinum II</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Cisplatin</IRI>
+        <Literal datatypeIRI="&xsd;string">cis-platinum II diamine dichloride</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Cisplatin</IRI>
+        <Literal datatypeIRI="&xsd;string">cisplatin</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Cisplatin</IRI>
+        <Literal datatypeIRI="&xsd;string">cisplatinum</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Cisplatin</IRI>
+        <Literal datatypeIRI="&xsd;string">platinol</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Cisplatin</IRI>
+        <Literal datatypeIRI="&xsd;string">platinum diamminodichloride</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Cisplatin</IRI>
+        <Literal datatypeIRI="&xsd;string">platinum, diaminedichloro-, cis- (8CI)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Cisplatin</IRI>
+        <Literal datatypeIRI="&xsd;string">Cisplatin</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#code"/>
+        <IRI>#Clodronate_Disodium</IRI>
+        <Literal datatypeIRI="&xsd;string">418080006 [SNOMEDCT_US]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#code"/>
+        <IRI>#Clodronate_Disodium</IRI>
+        <Literal datatypeIRI="&xsd;string">C0008994</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#code"/>
+        <IRI>#Clodronate_Disodium</IRI>
+        <Literal datatypeIRI="&xsd;string">C1418 [NCI]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#code"/>
+        <IRI>#Clodronate_Disodium</IRI>
+        <Literal datatypeIRI="&xsd;string">CDR0000041862 [PDQ]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#code"/>
+        <IRI>#Clodronate_Disodium</IRI>
+        <Literal datatypeIRI="&xsd;string">CDR0000045405 [NCI-GLOSS]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#code"/>
+        <IRI>#Clodronate_Disodium</IRI>
+        <Literal datatypeIRI="&xsd;string">D004002 [MSH]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#code"/>
+        <IRI>#Clodronate_Disodium</IRI>
+        <Literal datatypeIRI="&xsd;string">N030400H8J [FDA]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#code"/>
+        <IRI>#Clodronate_Disodium</IRI>
+        <Literal datatypeIRI="&xsd;string">NSC0713466 [DTP]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#definition"/>
+        <IRI>#Clodronate_Disodium</IRI>
+        <Literal datatypeIRI="&xsd;string">A drug used as treatment for hypercalcemia (abnormally high levels of calcium in the blood) and for cancer that has spread to the bone (bone metastases). It may decrease pain, the risk of fractures, and the development of new bone metastases.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#definition"/>
+        <IRI>#Clodronate_Disodium</IRI>
+        <Literal datatypeIRI="&xsd;string">The disodium salt of a nitrogen-free bisphosphonate analog of naturally occurring pyrophosphate. Clodronate binds to calcium and inhibits osteoclastic bone resorption and hydroxyapatite crystal formation and dissolution, resulting in a reduction of bone turnover. This agent may control malignancy-associated hypercalcemia, inhibit osteolytic bone metastasis and decrease pain.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#definition"/>
+        <IRI>#Clodronate_Disodium</IRI>
+        <Literal datatypeIRI="&xsd;string">The disodium salt of a nitrogen-free bisphosphonate analog of naturally occurring pyrophosphate. Clodronate binds to calcium and inhibits osteoclastic bone resorption and hydroxyapatite crystal formation and dissolution, resulting in a reduction of bone turnover. This agent may control malignancy-associated hypercalcemia, inhibit osteolytic bone metastasis and decrease pain. Check for &quot;http://www.cancer.gov/Search/ClinicalTrialsLink.aspx?id=41862&amp;idtype=1&quot; active clinical trials or &quot;http://www.cancer.gov/Search/ClinicalTrialsLink.aspx?id=41862&amp;idtype=1&amp;closed=1&quot; closed clinical trials using this agent. (&quot;http://ncit.nci.nih.gov/ncitbrowser/ConceptReport.jsp?dictionary=NCI%20Thesaurus&amp;code=C1418&quot; NCI Thesaurus)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#semanticType"/>
+        <IRI>#Clodronate_Disodium</IRI>
+        <Literal datatypeIRI="&xsd;string">Organic Chemical</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#semanticType"/>
+        <IRI>#Clodronate_Disodium</IRI>
+        <Literal datatypeIRI="&xsd;string">Organophosphorus Compound</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#semanticType"/>
+        <IRI>#Clodronate_Disodium</IRI>
+        <Literal datatypeIRI="&xsd;string">Pharmacologic Substance</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Clodronate_Disodium</IRI>
+        <Literal datatypeIRI="&xsd;string">713466</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Clodronate_Disodium</IRI>
+        <Literal datatypeIRI="&xsd;string">Bonefos</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Clodronate_Disodium</IRI>
+        <Literal datatypeIRI="&xsd;string">CL2MDP</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Clodronate_Disodium</IRI>
+        <Literal datatypeIRI="&xsd;string">CLODRONATE DISODIUM</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Clodronate_Disodium</IRI>
+        <Literal datatypeIRI="&xsd;string">Clasteon</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Clodronate_Disodium</IRI>
+        <Literal datatypeIRI="&xsd;string">Clodronate</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Clodronate_Disodium</IRI>
+        <Literal datatypeIRI="&xsd;string">Clodronate (substance)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Clodronate_Disodium</IRI>
+        <Literal datatypeIRI="&xsd;string">Clodronate Disodium</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Clodronate_Disodium</IRI>
+        <Literal datatypeIRI="&xsd;string">Clodronate Sodium</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Clodronate_Disodium</IRI>
+        <Literal datatypeIRI="&xsd;string">Clodronate disodium</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Clodronate_Disodium</IRI>
+        <Literal datatypeIRI="&xsd;string">Clodronate disodium (product)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Clodronate_Disodium</IRI>
+        <Literal datatypeIRI="&xsd;string">Clodronate disodium (substance)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Clodronate_Disodium</IRI>
+        <Literal datatypeIRI="&xsd;string">Clodronic Acid Disodium Salt</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Clodronate_Disodium</IRI>
+        <Literal datatypeIRI="&xsd;string">Dichloromethylene Diphosphonate</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Clodronate_Disodium</IRI>
+        <Literal datatypeIRI="&xsd;string">Difosfonal</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Clodronate_Disodium</IRI>
+        <Literal datatypeIRI="&xsd;string">Disodium clodronate</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Clodronate_Disodium</IRI>
+        <Literal datatypeIRI="&xsd;string">Disodium, Clodronate</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Clodronate_Disodium</IRI>
+        <Literal datatypeIRI="&xsd;string">Loron</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Clodronate_Disodium</IRI>
+        <Literal datatypeIRI="&xsd;string">Mebonat</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Clodronate_Disodium</IRI>
+        <Literal datatypeIRI="&xsd;string">Ossiten</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Clodronate_Disodium</IRI>
+        <Literal datatypeIRI="&xsd;string">Sodium clodronate</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Clodronate_Disodium</IRI>
+        <Literal datatypeIRI="&xsd;string">Sodium, Clodronate</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Clodronate_Disodium</IRI>
+        <Literal datatypeIRI="&xsd;string">clodronate</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Clodronate_Disodium</IRI>
+        <Literal datatypeIRI="&xsd;string">clodronate disodium</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Clodronate_Disodium</IRI>
+        <Literal datatypeIRI="&xsd;string">clodronic acid, disodium salt</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Clodronate_Disodium</IRI>
+        <Literal datatypeIRI="&xsd;string">disodium dichloromethylene diphosphonate</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Clodronate_Disodium</IRI>
+        <Literal datatypeIRI="&xsd;string">Clodronate Disodium</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#code"/>
         <IRI>#Contralateral_Breast_Carcinoma</IRI>
         <Literal datatypeIRI="&xsd;string">C3274709</Literal>
     </AnnotationAssertion>
@@ -3667,6 +5319,1096 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#Contralateral_Breast_Carcinoma</IRI>
         <Literal datatypeIRI="&xsd;string">Contralateral Breast Carcinoma</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#code"/>
+        <IRI>#Cyclophosphamide</IRI>
+        <Literal datatypeIRI="&xsd;string">01333 [DCP]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#code"/>
+        <IRI>#Cyclophosphamide</IRI>
+        <Literal datatypeIRI="&xsd;string">1371-8600 [CSP]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#code"/>
+        <IRI>#Cyclophosphamide</IRI>
+        <Literal datatypeIRI="&xsd;string">3002 [RXNORM]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#code"/>
+        <IRI>#Cyclophosphamide</IRI>
+        <Literal datatypeIRI="&xsd;string">4018114 [VANDF]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#code"/>
+        <IRI>#Cyclophosphamide</IRI>
+        <Literal datatypeIRI="&xsd;string">74470007 [SNOMEDCT_US]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#code"/>
+        <IRI>#Cyclophosphamide</IRI>
+        <Literal datatypeIRI="&xsd;string">8N3DW7272P [FDA]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#code"/>
+        <IRI>#Cyclophosphamide</IRI>
+        <Literal datatypeIRI="&xsd;string">8N3DW7272P [MTHSPL]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#code"/>
+        <IRI>#Cyclophosphamide</IRI>
+        <Literal datatypeIRI="&xsd;string">C0010583</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#code"/>
+        <IRI>#Cyclophosphamide</IRI>
+        <Literal datatypeIRI="&xsd;string">C405 [NCI]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#code"/>
+        <IRI>#Cyclophosphamide</IRI>
+        <Literal datatypeIRI="&xsd;string">CDR0000039748 [PDQ]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#code"/>
+        <IRI>#Cyclophosphamide</IRI>
+        <Literal datatypeIRI="&xsd;string">CDR0000635729 [NCI-GLOSS]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#code"/>
+        <IRI>#Cyclophosphamide</IRI>
+        <Literal datatypeIRI="&xsd;string">D003520 [MSH]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#code"/>
+        <IRI>#Cyclophosphamide</IRI>
+        <Literal datatypeIRI="&xsd;string">MTHU000469 [USPMG]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#code"/>
+        <IRI>#Cyclophosphamide</IRI>
+        <Literal datatypeIRI="&xsd;string">MTHU029970 [LNC]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#code"/>
+        <IRI>#Cyclophosphamide</IRI>
+        <Literal datatypeIRI="&xsd;string">N0000005951 [NDFRT]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#code"/>
+        <IRI>#Cyclophosphamide</IRI>
+        <Literal datatypeIRI="&xsd;string">NPO_890 [NPO]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#code"/>
+        <IRI>#Cyclophosphamide</IRI>
+        <Literal datatypeIRI="&xsd;string">NSC0026271 [DTP]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#code"/>
+        <IRI>#Cyclophosphamide</IRI>
+        <Literal datatypeIRI="&xsd;string">U001842 [MTH]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#definition"/>
+        <IRI>#Cyclophosphamide</IRI>
+        <Literal datatypeIRI="&xsd;string">A drug that is used to treat many types of cancer and is being studied in the treatment of other types of cancer. It is also used to treat some types of kidney disease in children. Cyclophosphamide attaches to DNA in cells and may kill cancer cells. It is a type of alkylating agent.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#definition"/>
+        <IRI>#Cyclophosphamide</IRI>
+        <Literal datatypeIRI="&xsd;string">A synthetic alkylating agent chemically related to the nitrogen mustards with antineoplastic and immunosuppressive activities. In the liver, cyclophosphamide is converted to the active metabolites aldophosphamide and phosphoramide mustard, which bind to DNA, thereby inhibiting DNA replication and initiating cell death.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#definition"/>
+        <IRI>#Cyclophosphamide</IRI>
+        <Literal datatypeIRI="&xsd;string">A synthetic alkylating agent chemically related to the nitrogen mustards with antineoplastic and immunosuppressive activities. In the liver, cyclophosphamide is converted to the active metabolites aldophosphamide and phosphoramide mustard, which bind to DNA, thereby inhibiting DNA replication and initiating cell death. Check for &quot;http://www.cancer.gov/Search/ClinicalTrialsLink.aspx?id=39748&amp;idtype=1&quot; active clinical trials or &quot;http://www.cancer.gov/Search/ClinicalTrialsLink.aspx?id=39748&amp;idtype=1&amp;closed=1&quot; closed clinical trials using this agent. (&quot;http://ncit.nci.nih.gov/ncitbrowser/ConceptReport.jsp?dictionary=NCI%20Thesaurus&amp;code=C405&quot; NCI Thesaurus)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#definition"/>
+        <IRI>#Cyclophosphamide</IRI>
+        <Literal datatypeIRI="&xsd;string">A type of nitrogen mustard. (NCI)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#definition"/>
+        <IRI>#Cyclophosphamide</IRI>
+        <Literal datatypeIRI="&xsd;string">Precursor of an alkylating nitrogen mustard antineoplastic and immunosuppressive agent that must be activated in the LIVER to form the active aldophosphamide. It has been used in the treatment of LYMPHOMA and LEUKEMIA. Its side effect, ALOPECIA, has been used for defleecing sheep. Cyclophosphamide may also cause sterility, birth defects, mutations, and cancer.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#definition"/>
+        <IRI>#Cyclophosphamide</IRI>
+        <Literal datatypeIRI="&xsd;string">precursor of an alkylating nitrogen mustard antineoplastic and immunosuppressive agent; used in the treatment of lymphomas, leukemias and other cancers, and as an immunosupressive agent to prevent transplant rejection; its side effect, alopecia, has been used for defleecing sheep; may also cause sterility, birth defects, mutations, and cancer.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#semanticType"/>
+        <IRI>#Cyclophosphamide</IRI>
+        <Literal datatypeIRI="&xsd;string">Organic Chemical</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#semanticType"/>
+        <IRI>#Cyclophosphamide</IRI>
+        <Literal datatypeIRI="&xsd;string">Organophosphorus Compound</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#semanticType"/>
+        <IRI>#Cyclophosphamide</IRI>
+        <Literal datatypeIRI="&xsd;string">Pharmacologic Substance</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Cyclophosphamide</IRI>
+        <Literal datatypeIRI="&xsd;string">(+,-)-2-(bis(2-Chloroethyl)amino)tetrahydro-2H-1,3,2-oxazaphosphorine 2-Oxide Monohydrate</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Cyclophosphamide</IRI>
+        <Literal datatypeIRI="&xsd;string">(-)-Cyclophosphamide</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Cyclophosphamide</IRI>
+        <Literal datatypeIRI="&xsd;string">1-bis(2-chloroethyl)-amino-1-oxo-2-aza-5-oxaphosphoridin monohydrate</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Cyclophosphamide</IRI>
+        <Literal datatypeIRI="&xsd;string">2-[bis(2-chloroethyl)amino]tetrahydro-2H-1,3,2-oxazaphosphorine 2-oxide monohydrate</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Cyclophosphamide</IRI>
+        <Literal datatypeIRI="&xsd;string">2-[bis(b-chloroethyl)amino]-1-oxa-3-aza-2-phosphacyclohexane-2-oxide monohydrate</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Cyclophosphamide</IRI>
+        <Literal datatypeIRI="&xsd;string">2-[di(chloroethyl)amino]-1-oxa-3-aza-2-phosphacyclohexane 2-oxide monohydrate</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Cyclophosphamide</IRI>
+        <Literal datatypeIRI="&xsd;string">26271</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Cyclophosphamide</IRI>
+        <Literal datatypeIRI="&xsd;string">2H-1,3,2-Oxazaphosphorine, 2-[bis(2-chloroethyl)amino]tetrahydro-, 2-oxide, monohydrate</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Cyclophosphamide</IRI>
+        <Literal datatypeIRI="&xsd;string">4173</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Cyclophosphamide</IRI>
+        <Literal datatypeIRI="&xsd;string">6055-19-2 (monohydrate)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Cyclophosphamide</IRI>
+        <Literal datatypeIRI="&xsd;string">7089</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Cyclophosphamide</IRI>
+        <Literal datatypeIRI="&xsd;string">Asta B 518</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Cyclophosphamide</IRI>
+        <Literal datatypeIRI="&xsd;string">B 518</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Cyclophosphamide</IRI>
+        <Literal datatypeIRI="&xsd;string">B-518</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Cyclophosphamide</IRI>
+        <Literal datatypeIRI="&xsd;string">B518</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Cyclophosphamide</IRI>
+        <Literal datatypeIRI="&xsd;string">Bis(2-chloroethyl)phosphoramide cyclic propanolamide ester monohydrate</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Cyclophosphamide</IRI>
+        <Literal datatypeIRI="&xsd;string">CP monohydrate</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Cyclophosphamide</IRI>
+        <Literal datatypeIRI="&xsd;string">CPM</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Cyclophosphamide</IRI>
+        <Literal datatypeIRI="&xsd;string">CPM - cyclophosphamide</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Cyclophosphamide</IRI>
+        <Literal datatypeIRI="&xsd;string">CTX</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Cyclophosphamide</IRI>
+        <Literal datatypeIRI="&xsd;string">CTX - cyclophosphamide</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Cyclophosphamide</IRI>
+        <Literal datatypeIRI="&xsd;string">CYCLO-cell</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Cyclophosphamide</IRI>
+        <Literal datatypeIRI="&xsd;string">CYCLOPHOSPHAMIDE</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Cyclophosphamide</IRI>
+        <Literal datatypeIRI="&xsd;string">CYT</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Cyclophosphamide</IRI>
+        <Literal datatypeIRI="&xsd;string">CYT - cyclophosphamide</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Cyclophosphamide</IRI>
+        <Literal datatypeIRI="&xsd;string">Carloxan</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Cyclophosphamide</IRI>
+        <Literal datatypeIRI="&xsd;string">Ciclofosfamida</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Cyclophosphamide</IRI>
+        <Literal datatypeIRI="&xsd;string">Ciclofosfamide</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Cyclophosphamide</IRI>
+        <Literal datatypeIRI="&xsd;string">Cicloxal</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Cyclophosphamide</IRI>
+        <Literal datatypeIRI="&xsd;string">Clafen</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Cyclophosphamide</IRI>
+        <Literal datatypeIRI="&xsd;string">Claphene</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Cyclophosphamide</IRI>
+        <Literal datatypeIRI="&xsd;string">Cycloblastin</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Cyclophosphamide</IRI>
+        <Literal datatypeIRI="&xsd;string">Cycloblastine</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Cyclophosphamide</IRI>
+        <Literal datatypeIRI="&xsd;string">Cyclophospham</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Cyclophosphamide</IRI>
+        <Literal datatypeIRI="&xsd;string">Cyclophosphamid monohydrate</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Cyclophosphamide</IRI>
+        <Literal datatypeIRI="&xsd;string">Cyclophosphamide</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Cyclophosphamide</IRI>
+        <Literal datatypeIRI="&xsd;string">Cyclophosphamide (product)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Cyclophosphamide</IRI>
+        <Literal datatypeIRI="&xsd;string">Cyclophosphamide (substance)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Cyclophosphamide</IRI>
+        <Literal datatypeIRI="&xsd;string">Cyclophosphamide Monohydrate</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Cyclophosphamide</IRI>
+        <Literal datatypeIRI="&xsd;string">Cyclophosphamide [Chemical/Ingredient]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Cyclophosphamide</IRI>
+        <Literal datatypeIRI="&xsd;string">Cyclophosphamidum</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Cyclophosphamide</IRI>
+        <Literal datatypeIRI="&xsd;string">Cyclophosphan</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Cyclophosphamide</IRI>
+        <Literal datatypeIRI="&xsd;string">Cyclophosphane</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Cyclophosphamide</IRI>
+        <Literal datatypeIRI="&xsd;string">Cyclophosphanum</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Cyclophosphamide</IRI>
+        <Literal datatypeIRI="&xsd;string">Cyclostin</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Cyclophosphamide</IRI>
+        <Literal datatypeIRI="&xsd;string">Cyclostine</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Cyclophosphamide</IRI>
+        <Literal datatypeIRI="&xsd;string">Cytophosphan</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Cyclophosphamide</IRI>
+        <Literal datatypeIRI="&xsd;string">Cytophosphane</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Cyclophosphamide</IRI>
+        <Literal datatypeIRI="&xsd;string">Cytoxan</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Cyclophosphamide</IRI>
+        <Literal datatypeIRI="&xsd;string">Endoxan</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Cyclophosphamide</IRI>
+        <Literal datatypeIRI="&xsd;string">Endoxana</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Cyclophosphamide</IRI>
+        <Literal datatypeIRI="&xsd;string">Enduxan</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Cyclophosphamide</IRI>
+        <Literal datatypeIRI="&xsd;string">Fosfaseron</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Cyclophosphamide</IRI>
+        <Literal datatypeIRI="&xsd;string">Genoxal</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Cyclophosphamide</IRI>
+        <Literal datatypeIRI="&xsd;string">Genuxal</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Cyclophosphamide</IRI>
+        <Literal datatypeIRI="&xsd;string">Ledoxina</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Cyclophosphamide</IRI>
+        <Literal datatypeIRI="&xsd;string">Mitoxan</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Cyclophosphamide</IRI>
+        <Literal datatypeIRI="&xsd;string">Monohydrate, Cyclophosphamide</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Cyclophosphamide</IRI>
+        <Literal datatypeIRI="&xsd;string">N,N-bis(2-chloroethyl)-N&apos;,O-propylenephosphoric acid ester diamide monohydrate</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Cyclophosphamide</IRI>
+        <Literal datatypeIRI="&xsd;string">N,N-bis(2-chloroethyl)-N&apos;-(3-hydroxypropyl)phosphorodiamidic acid intramolecular ester monohydrate</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Cyclophosphamide</IRI>
+        <Literal datatypeIRI="&xsd;string">N,N-bis(2-chloroethyl)tetrahydro-2H-1,3,2-oxazaphosphorin-2-amine 2-oxide monohydrate</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Cyclophosphamide</IRI>
+        <Literal datatypeIRI="&xsd;string">N,N-bis(b-chloroethyl)-N&apos;,O-trimethylenephosphoric acid ester diamide monohydrate</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Cyclophosphamide</IRI>
+        <Literal datatypeIRI="&xsd;string">N,N-bis(beta-chloroethyl)-N&apos;,O-propylenephosphoric acid ester diamide monohydrate</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Cyclophosphamide</IRI>
+        <Literal datatypeIRI="&xsd;string">N,N-bis(beta-chloroethyl)-N&apos;,O-trimethylenephosphoric acid ester diamide monohydrate</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Cyclophosphamide</IRI>
+        <Literal datatypeIRI="&xsd;string">Neosar</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Cyclophosphamide</IRI>
+        <Literal datatypeIRI="&xsd;string">Procytox</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Cyclophosphamide</IRI>
+        <Literal datatypeIRI="&xsd;string">Revimmune</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Cyclophosphamide</IRI>
+        <Literal datatypeIRI="&xsd;string">Sendoxan</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Cyclophosphamide</IRI>
+        <Literal datatypeIRI="&xsd;string">Syklofosfamid</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Cyclophosphamide</IRI>
+        <Literal datatypeIRI="&xsd;string">WR- 138719</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Cyclophosphamide</IRI>
+        <Literal datatypeIRI="&xsd;string">WR-138719</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Cyclophosphamide</IRI>
+        <Literal datatypeIRI="&xsd;string">Zytoxan</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Cyclophosphamide</IRI>
+        <Literal datatypeIRI="&xsd;string">bis(2-chloroethyl)phosphamide cyclic propanolamide ester monohydrate</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Cyclophosphamide</IRI>
+        <Literal datatypeIRI="&xsd;string">bis(2-chloroethyl)phosphoramide cyclic propanolamide ester monohydrate</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Cyclophosphamide</IRI>
+        <Literal datatypeIRI="&xsd;string">cyclophosphamide</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Cyclophosphamide</IRI>
+        <Literal datatypeIRI="&xsd;string">Cyclophosphamide</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#code"/>
+        <IRI>#Denosumab</IRI>
+        <Literal datatypeIRI="&xsd;string">1046399 [RXNORM]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#code"/>
+        <IRI>#Denosumab</IRI>
+        <Literal datatypeIRI="&xsd;string">4030131 [VANDF]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#code"/>
+        <IRI>#Denosumab</IRI>
+        <Literal datatypeIRI="&xsd;string">446457007 [SNOMEDCT_US]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#code"/>
+        <IRI>#Denosumab</IRI>
+        <Literal datatypeIRI="&xsd;string">4EQZ6YO2HI [FDA]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#code"/>
+        <IRI>#Denosumab</IRI>
+        <Literal datatypeIRI="&xsd;string">4EQZ6YO2HI [MTHSPL]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#code"/>
+        <IRI>#Denosumab</IRI>
+        <Literal datatypeIRI="&xsd;string">C1690432</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#code"/>
+        <IRI>#Denosumab</IRI>
+        <Literal datatypeIRI="&xsd;string">C494392 [MSH]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#code"/>
+        <IRI>#Denosumab</IRI>
+        <Literal datatypeIRI="&xsd;string">C61313 [NCI]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#code"/>
+        <IRI>#Denosumab</IRI>
+        <Literal datatypeIRI="&xsd;string">CDR0000481348 [PDQ]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#code"/>
+        <IRI>#Denosumab</IRI>
+        <Literal datatypeIRI="&xsd;string">CDR0000535475 [NCI-GLOSS]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#code"/>
+        <IRI>#Denosumab</IRI>
+        <Literal datatypeIRI="&xsd;string">N0000181718 [NDFRT]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#code"/>
+        <IRI>#Denosumab</IRI>
+        <Literal datatypeIRI="&xsd;string">NOCODE [MTH]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#definition"/>
+        <IRI>#Denosumab</IRI>
+        <Literal datatypeIRI="&xsd;string">A fully human monoclonal antibody directed against the receptor activator of nuclear factor kappa beta ligand (RANKL) with antiosteoclast activity. Denosumab specifically binds to RANKL and blocks the interaction of RANKL with RANK, a receptor located on osteoclast cell surfaces, resulting in inhibition of osteoclast activity, a decrease in bone resorption, and a potential increase in bone mineral density. RANKL, a protein expressed by osteoblastic cells, plays an important role in osteoclastic differentiation and activation.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#definition"/>
+        <IRI>#Denosumab</IRI>
+        <Literal datatypeIRI="&xsd;string">A humanized monoclonal antibody directed against the receptor activator of nuclear factor kappa beta ligand (RANKL) with antiosteoclast activity. Denosumab specifically binds to RANKL and blocks the interaction of RANKL with RANK, a receptor located on osteoclast cell surfaces, resulting in inhibition of osteoclast activity, a decrease in bone resorption, and a potential increase in bone mineral density. RANKL, a protein expressed by osteoblastic cells, plays an important role in osteoclastic differentiation and activation. Check for &quot;http://www.cancer.gov/Search/ClinicalTrialsLink.aspx?id=481348&amp;idtype=1&quot; active clinical trials or &quot;http://www.cancer.gov/Search/ClinicalTrialsLink.aspx?id=481348&amp;idtype=1&amp;closed=1&quot; closed clinical trials using this agent. (&quot;http://ncit.nci.nih.gov/ncitbrowser/ConceptReport.jsp?dictionary=NCI%20Thesaurus&amp;code=C61313&quot; NCI Thesaurus)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#definition"/>
+        <IRI>#Denosumab</IRI>
+        <Literal datatypeIRI="&xsd;string">A type of monoclonal antibody being studied in the treatment of multiple myeloma (a cancer that forms in bones) and in the prevention and treatment of bone metastases (cancer that has spread to bone from another organ). Monoclonal antibodies are made in the laboratory and can locate and bind to substances in the body, including cancer cells. AMG 162 binds to the protein RANKL and helps keep bone from breaking down.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#semanticType"/>
+        <IRI>#Denosumab</IRI>
+        <Literal datatypeIRI="&xsd;string">Amino Acid, Peptide, or Protein</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#semanticType"/>
+        <IRI>#Denosumab</IRI>
+        <Literal datatypeIRI="&xsd;string">Immunologic Factor</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#semanticType"/>
+        <IRI>#Denosumab</IRI>
+        <Literal datatypeIRI="&xsd;string">Pharmacologic Substance</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Denosumab</IRI>
+        <Literal datatypeIRI="&xsd;string">AMG 162</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Denosumab</IRI>
+        <Literal datatypeIRI="&xsd;string">AMG-162</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Denosumab</IRI>
+        <Literal datatypeIRI="&xsd;string">DENOSUMAB</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Denosumab</IRI>
+        <Literal datatypeIRI="&xsd;string">Denosumab</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Denosumab</IRI>
+        <Literal datatypeIRI="&xsd;string">Denosumab (product)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Denosumab</IRI>
+        <Literal datatypeIRI="&xsd;string">Denosumab (substance)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Denosumab</IRI>
+        <Literal datatypeIRI="&xsd;string">Densosumab</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Denosumab</IRI>
+        <Literal datatypeIRI="&xsd;string">Prolia</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Denosumab</IRI>
+        <Literal datatypeIRI="&xsd;string">Xgeva</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Denosumab</IRI>
+        <Literal datatypeIRI="&xsd;string">denosumab</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Denosumab</IRI>
+        <Literal datatypeIRI="&xsd;string">Denosumab</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#code"/>
+        <IRI>#Docetaxel</IRI>
+        <Literal datatypeIRI="&xsd;string">0093-3150 [CSP]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#code"/>
+        <IRI>#Docetaxel</IRI>
+        <Literal datatypeIRI="&xsd;string">15H5577CQD [FDA]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#code"/>
+        <IRI>#Docetaxel</IRI>
+        <Literal datatypeIRI="&xsd;string">15H5577CQD [MTHSPL]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#code"/>
+        <IRI>#Docetaxel</IRI>
+        <Literal datatypeIRI="&xsd;string">202982 [RXNORM]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#code"/>
+        <IRI>#Docetaxel</IRI>
+        <Literal datatypeIRI="&xsd;string">32090 [DCP]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#code"/>
+        <IRI>#Docetaxel</IRI>
+        <Literal datatypeIRI="&xsd;string">386918005 [SNOMEDCT_US]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#code"/>
+        <IRI>#Docetaxel</IRI>
+        <Literal datatypeIRI="&xsd;string">4020968 [VANDF]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#code"/>
+        <IRI>#Docetaxel</IRI>
+        <Literal datatypeIRI="&xsd;string">C0246415</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#code"/>
+        <IRI>#Docetaxel</IRI>
+        <Literal datatypeIRI="&xsd;string">C067311 [MSH]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#code"/>
+        <IRI>#Docetaxel</IRI>
+        <Literal datatypeIRI="&xsd;string">C1526 [NCI]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#code"/>
+        <IRI>#Docetaxel</IRI>
+        <Literal datatypeIRI="&xsd;string">CDR0000041657 [PDQ]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#code"/>
+        <IRI>#Docetaxel</IRI>
+        <Literal datatypeIRI="&xsd;string">CDR0000508678 [NCI-GLOSS]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#code"/>
+        <IRI>#Docetaxel</IRI>
+        <Literal datatypeIRI="&xsd;string">N0000005739 [NDFRT]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#code"/>
+        <IRI>#Docetaxel</IRI>
+        <Literal datatypeIRI="&xsd;string">NOCODE [MTH]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#code"/>
+        <IRI>#Docetaxel</IRI>
+        <Literal datatypeIRI="&xsd;string">NSC0628503 [DTP]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#definition"/>
+        <IRI>#Docetaxel</IRI>
+        <Literal datatypeIRI="&xsd;string">A drug used together with other drugs to treat certain types of breast cancer, stomach cancer, prostate cancer, and certain types of head and neck cancer. It is also being studied in the treatment of other types of cancer. Docetaxel is a type of mitotic inhibitor.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#definition"/>
+        <IRI>#Docetaxel</IRI>
+        <Literal datatypeIRI="&xsd;string">A semi-synthetic, second-generation taxane derived from a compound found in the European yew tree Taxus baccata. Docetaxel displays potent and broad antineoplastic properties; it binds to and stabilizes tubulin, thereby inhibiting microtubule disassembly which results in cell- cycle arrest at the G2/M phase and cell death. This agent also inhibits pro-angiogenic factors such as vascular endothelial growth factor (VEGF) and displays immunomodulatory and pro-inflammatory properties by inducing various mediators of the inflammatory response. Docetaxel has been studied for use as a radiation-sensitizing agent. Check for &quot;http://www.cancer.gov/Search/ClinicalTrialsLink.aspx?id=41657&amp;idtype=1&quot; active clinical trials or &quot;http://www.cancer.gov/Search/ClinicalTrialsLink.aspx?id=41657&amp;idtype=1&amp;closed=1&quot; closed clinical trials using this agent. (&quot;http://ncit.nci.nih.gov/ncitbrowser/ConceptReport.jsp?dictionary=NCI%20Thesaurus&amp;code=C1526&quot; NCI Thesaurus)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#definition"/>
+        <IRI>#Docetaxel</IRI>
+        <Literal datatypeIRI="&xsd;string">A semi-synthetic, second-generation taxane derived from a compound found in the European yew tree, Taxus baccata.  Docetaxel displays potent and broad antineoplastic properties; it binds to and stabilizes tubulin, thereby inhibiting microtubule disassembly which results in cell- cycle arrest at the G2/M phase and cell death.  This agent also inhibits pro-angiogenic factors such as vascular endothelial growth factor (VEGF) and displays immunomodulatory and pro-inflammatory properties by inducing various mediators of the inflammatory response.  Docetaxel has been studied for use as a radiation-sensitizing agent. (NCI04)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#definition"/>
+        <IRI>#Docetaxel</IRI>
+        <Literal datatypeIRI="&xsd;string">A semi-synthetic, second-generation taxane derived from a compound found in the European yew tree, Taxus baccata. Docetaxel displays potent and broad antineoplastic properties; it binds to and stabilizes tubulin, thereby inhibiting microtubule disassembly which results in cell- cycle arrest at the G2/M phase and cell death. This agent also inhibits pro-angiogenic factors such as vascular endothelial growth factor (VEGF) and displays immunomodulatory and pro-inflammatory properties by inducing various mediators of the inflammatory response. Docetaxel has been studied for use as a radiation-sensitizing agent. (NCI04)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#semanticType"/>
+        <IRI>#Docetaxel</IRI>
+        <Literal datatypeIRI="&xsd;string">Organic Chemical</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#semanticType"/>
+        <IRI>#Docetaxel</IRI>
+        <Literal datatypeIRI="&xsd;string">Pharmacologic Substance</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Docetaxel</IRI>
+        <Literal datatypeIRI="&xsd;string">114977-28-5</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Docetaxel</IRI>
+        <Literal datatypeIRI="&xsd;string">40466</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Docetaxel</IRI>
+        <Literal datatypeIRI="&xsd;string">628503</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Docetaxel</IRI>
+        <Literal datatypeIRI="&xsd;string">Benzenepropanoic acid, beta-(((1,1-dimethylethoxy)carbonyl)amino)-alpha-hydroxy-, 12b-(acetyloxy)-12-(benzoyloxy)-2a,3,4,4a,5,6,9,10,11,12,12a,12b-dodecahydro-4,6,11-trihydroxy-4a,8,13,13-tetramethyl-5-oxo-7,11-methano-1H-cyclodeca(3,4)benz(1,2-b)oxet-9-y</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Docetaxel</IRI>
+        <Literal datatypeIRI="&xsd;string">Benzenepropanoic acid, beta-(((1,1-dimethylethoxy)carbonyl)amino)-alpha-hydroxy-, 12b-(acetyloxy)-12-(benzoyloxy)-2a,3,4,4a,5,6,9,10,11,12,12a,12b-dodecahydro-4,6,11-trihydroxy-4a,8,13,13-tetramethyl-5-oxo-7,11-methano-1H-cyclodeca(3,4)benz(1,2-b)oxet-9-yl ester</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Docetaxel</IRI>
+        <Literal datatypeIRI="&xsd;string">DOCETAXEL</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Docetaxel</IRI>
+        <Literal datatypeIRI="&xsd;string">DOCEtaxel</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Docetaxel</IRI>
+        <Literal datatypeIRI="&xsd;string">Docetaxel</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Docetaxel</IRI>
+        <Literal datatypeIRI="&xsd;string">Docetaxel (product)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Docetaxel</IRI>
+        <Literal datatypeIRI="&xsd;string">Docetaxel (substance)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Docetaxel</IRI>
+        <Literal datatypeIRI="&xsd;string">N-Debenzoyl-N-(tert-butoxycarbonyl)-10-deacetyltaxol</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Docetaxel</IRI>
+        <Literal datatypeIRI="&xsd;string">N-debenzoyl-N-(tert-butoxycarbonyl)-10-deacetyltaxol</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Docetaxel</IRI>
+        <Literal datatypeIRI="&xsd;string">N-debenzoyl-N-tert-butoxycarbonyl-10-deacetyltaxol</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Docetaxel</IRI>
+        <Literal datatypeIRI="&xsd;string">RP 56976</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Docetaxel</IRI>
+        <Literal datatypeIRI="&xsd;string">RP56976</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Docetaxel</IRI>
+        <Literal datatypeIRI="&xsd;string">TXT</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Docetaxel</IRI>
+        <Literal datatypeIRI="&xsd;string">Taxotere</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Docetaxel</IRI>
+        <Literal datatypeIRI="&xsd;string">Taxotere Injection Concentrate</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Docetaxel</IRI>
+        <Literal datatypeIRI="&xsd;string">[2aR-[2a alphaa,4beta,4a beta,6beta,9alpha,(alphaR*,betaS*),-11alpha,12alpha,12a alpha,12b alpha]]-beta-[[(1,1-dimethylethoxy)carbonyl]-amino]-alpha-hydroxybenzemepropanoic Acid 12b-(Acetyloxy)-12(benzyloxy)-2a,3,4,4a,5,6,8,10,11,12,12a,12b-dodecahydeo-4,-6,11-trihydroxy-4a,8,13,13-tetramethyl-5-oxo-7,11-methano-1H-cyclodeca[3,4]benz[1,2-b]oxet-9-yl Ester</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Docetaxel</IRI>
+        <Literal datatypeIRI="&xsd;string">[2aR-[2a alphaa,4beta,4a beta,6beta,9alpha,(alphaR*,betaS*),-11alpha,12alpha,12a alpha,12b alpha]]-beta-[[(1,1-dimethylethoxy)carbonyl]-amino]-alpha-hydroxybenzemepropanoic acid 12b-(Acetyloxy)-12(benzyloxy)-2a,3,4,4a,5,6,8,10,11,12,12a,12b-dodecahydeo-4,-6,11-trihydroxy-4a,8,13,13-tetramethyl-5-oxo-7,11-methano-1H-cyclodeca[3,4]benz[1,2-b]oxet-9-yl ester</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Docetaxel</IRI>
+        <Literal datatypeIRI="&xsd;string">docetaxel</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Docetaxel</IRI>
+        <Literal datatypeIRI="&xsd;string">docetaxel [Chemical/Ingredient]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Docetaxel</IRI>
+        <Literal datatypeIRI="&xsd;string">docetaxel hydrate</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Docetaxel</IRI>
+        <Literal datatypeIRI="&xsd;string">docetaxel trihydrate</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Docetaxel</IRI>
+        <Literal datatypeIRI="&xsd;string">docetaxol</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Docetaxel</IRI>
+        <Literal datatypeIRI="&xsd;string">taxotere</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Docetaxel</IRI>
+        <Literal datatypeIRI="&xsd;string">Docetaxel</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#code"/>
+        <IRI>#Doxorubicin</IRI>
+        <Literal datatypeIRI="&xsd;string">0192-2072 [CSP]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#code"/>
+        <IRI>#Doxorubicin</IRI>
+        <Literal datatypeIRI="&xsd;string">3639 [RXNORM]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#code"/>
+        <IRI>#Doxorubicin</IRI>
+        <Literal datatypeIRI="&xsd;string">372817009 [SNOMEDCT_US]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#code"/>
+        <IRI>#Doxorubicin</IRI>
+        <Literal datatypeIRI="&xsd;string">4019737 [VANDF]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#code"/>
+        <IRI>#Doxorubicin</IRI>
+        <Literal datatypeIRI="&xsd;string">80168379AG [FDA]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#code"/>
+        <IRI>#Doxorubicin</IRI>
+        <Literal datatypeIRI="&xsd;string">C0013089</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#code"/>
+        <IRI>#Doxorubicin</IRI>
+        <Literal datatypeIRI="&xsd;string">C456 [NCI]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#code"/>
+        <IRI>#Doxorubicin</IRI>
+        <Literal datatypeIRI="&xsd;string">CDR0000045140 [NCI-GLOSS]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#code"/>
+        <IRI>#Doxorubicin</IRI>
+        <Literal datatypeIRI="&xsd;string">D004317 [MSH]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#code"/>
+        <IRI>#Doxorubicin</IRI>
+        <Literal datatypeIRI="&xsd;string">MTHU004184 [LNC]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#code"/>
+        <IRI>#Doxorubicin</IRI>
+        <Literal datatypeIRI="&xsd;string">N0000006795 [NDFRT]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#code"/>
+        <IRI>#Doxorubicin</IRI>
+        <Literal datatypeIRI="&xsd;string">NPO_788 [NPO]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#code"/>
+        <IRI>#Doxorubicin</IRI>
+        <Literal datatypeIRI="&xsd;string">NSC0123127 [DTP]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#code"/>
+        <IRI>#Doxorubicin</IRI>
+        <Literal datatypeIRI="&xsd;string">U001874 [MTH]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#definition"/>
+        <IRI>#Doxorubicin</IRI>
+        <Literal datatypeIRI="&xsd;string">A drug that is used to treat many types of cancer and is being studied in the treatment of other types of cancer. Doxorubicin comes from the bacterium Streptomyces peucetius. It damages DNA and may kill cancer cells. It is a type of anthracycline antitumor antibiotic.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#definition"/>
+        <IRI>#Doxorubicin</IRI>
+        <Literal datatypeIRI="&xsd;string">An anthracycline antibiotic with antineoplastic activity. Doxorubicin, isolated from the bacterium Streptomyces peucetius var. caesius, is the hydroxylated congener of daunorubicin. Doxorubicin intercalates between base pairs in the DNA helix, thereby preventing DNA replication and ultimately inhibiting protein synthesis. Additionally, doxorubicin inhibits topoisomerase II which results in an increased and stabilized cleavable enzyme-DNA linked complex during DNA replication and subsequently prevents the ligation of the nucleotide strand after double-strand breakage. Doxorubicin also forms oxygen free radicals resulting in cytotoxicity secondary to lipid peroxidation of cell membrane lipids; the formation of oxygen free radicals also contributes to the toxicity of the anthracycline antibiotics, namely the cardiac and cutaneous vascular effects.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#definition"/>
+        <IRI>#Doxorubicin</IRI>
+        <Literal datatypeIRI="&xsd;string">An anthracycline which is (1S,3S)-3,5,12-trihydroxy-3-(hydroxyacetyl)-10-methoxy-6,11-dioxo-1,2,3,4,6,11-hexahydrotetracen-1-yl 3-amino-2,3,6-trideoxy-?-L-lyxo-hexopyranoside. It has a parent hydride, tetracene, and has substructures that classify it as a deoxy hexoside, and a quinone.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#definition"/>
+        <IRI>#Doxorubicin</IRI>
+        <Literal datatypeIRI="&xsd;string">Antineoplastic antibiotic obtained from Streptomyces peucetius. It is a hydroxy derivative of DAUNORUBICIN.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#definition"/>
+        <IRI>#Doxorubicin</IRI>
+        <Literal datatypeIRI="&xsd;string">antineoplastic antibiotic obtained from Streptomyces peucetius; a hydroxy derivative of daunorubicin.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#semanticType"/>
+        <IRI>#Doxorubicin</IRI>
+        <Literal datatypeIRI="&xsd;string">Antibiotic</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#semanticType"/>
+        <IRI>#Doxorubicin</IRI>
+        <Literal datatypeIRI="&xsd;string">Organic Chemical</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#semanticType"/>
+        <IRI>#Doxorubicin</IRI>
+        <Literal datatypeIRI="&xsd;string">Pharmacologic Substance</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Doxorubicin</IRI>
+        <Literal datatypeIRI="&xsd;string">(8S-cis)-10-[(3-Amino-2,3,6-trideoxy-alpha-L-lyxo-hexopyranosyl)oxy]-7,8,9,10-tetrahydro-6,8,11-trihydroxy-8-(hydroacetyl)-1-methoxy-5,12-naphthacenedione</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Doxorubicin</IRI>
+        <Literal datatypeIRI="&xsd;string">(8S-cis)-10-[(3-Amino-2,3,6-trideoxy-alpha-L-lyxo-hexopyranosyl)oxy]-7,8,9,10-tetrahydro-6,8,11-trihydroxy-8-(hydroxyacetyl)-1-methoxy-5,12-naphthacenedione</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Doxorubicin</IRI>
+        <Literal datatypeIRI="&xsd;string">14-Hydroxydaunomycin</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Doxorubicin</IRI>
+        <Literal datatypeIRI="&xsd;string">14-hydroxydaunorubicine</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Doxorubicin</IRI>
+        <Literal datatypeIRI="&xsd;string">5,12-Naphthacenedione, 10-((3-amino-2,3,6-trideoxy-alpha-L-lyxo-hexopyranosyl)oxy)-7,8,9,10-tetrahydro-6,8,11-trihydroxy-8-(hydroxyacetyl)-1-methoxy-, (8S-cis)-</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Doxorubicin</IRI>
+        <Literal datatypeIRI="&xsd;string">DOXORUBICIN</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Doxorubicin</IRI>
+        <Literal datatypeIRI="&xsd;string">DOXOrubicin</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Doxorubicin</IRI>
+        <Literal datatypeIRI="&xsd;string">Doxorubicin</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Doxorubicin</IRI>
+        <Literal datatypeIRI="&xsd;string">Doxorubicin (product)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Doxorubicin</IRI>
+        <Literal datatypeIRI="&xsd;string">Doxorubicin (substance)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Doxorubicin</IRI>
+        <Literal datatypeIRI="&xsd;string">Doxorubicin [Chemical/Ingredient]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Doxorubicin</IRI>
+        <Literal datatypeIRI="&xsd;string">Hydroxyl Daunorubicin</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Doxorubicin</IRI>
+        <Literal datatypeIRI="&xsd;string">Hydroxyldaunorubicin</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Doxorubicin</IRI>
+        <Literal datatypeIRI="&xsd;string">adriamycin</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Doxorubicin</IRI>
+        <Literal datatypeIRI="&xsd;string">doxorubicin</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Doxorubicin</IRI>
+        <Literal datatypeIRI="&xsd;string">Doxorubicin</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#code"/>
