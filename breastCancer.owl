@@ -55,6 +55,10 @@
         <Class IRI="http://blulab.chpc.utah.edu/ontologies/v2/SchemaOntology.owl#MedicationStatement"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#Androgen_Receptor_Positive"/>
+        <Class IRI="#Receptor_Status"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#Apocrine_Breast_Carcinoma"/>
         <Class IRI="#Ductal_Breast_Carcinoma"/>
     </SubClassOf>
@@ -359,6 +363,26 @@
         <Class IRI="http://blulab.chpc.utah.edu/ontologies/v2/SchemaOntology.owl#MedicationStatement"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#Estrogen_Receptor_Negative"/>
+        <Class IRI="#Estrogen_Receptor_Status"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Estrogen_Receptor_Positive"/>
+        <Class IRI="#Estrogen_Receptor_Status"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Estrogen_Receptor_Status"/>
+        <Class IRI="#Receptor_Status"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Estrogen_Receptor_Status_Unknown"/>
+        <Class IRI="#Estrogen_Receptor_Status"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Estrogen_Receptor_and_or_Progesterone_Receptor_Positive"/>
+        <Class IRI="#Receptor_Status"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#Etoposide"/>
         <Class IRI="http://blulab.chpc.utah.edu/ontologies/v2/SchemaOntology.owl#Medication"/>
     </SubClassOf>
@@ -435,6 +459,22 @@
         <Class IRI="#Invasive_Breast_Carcinoma_by_Histologic_Grade"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#HER2_Neu_Negative"/>
+        <Class IRI="#HER2_Neu_Status"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#HER2_Neu_Positive"/>
+        <Class IRI="#HER2_Neu_Status"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#HER2_Neu_Status"/>
+        <Class IRI="#Receptor_Status"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#HER2_Neu_Status_Unknown"/>
+        <Class IRI="#HER2_Neu_Status"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#HER2_Positive_Breast_Carcinoma"/>
         <Class IRI="#Breast_Carcinoma_by_Gene_Expression_Profile"/>
     </SubClassOf>
@@ -465,6 +505,10 @@
     <SubClassOf>
         <Class IRI="#High_Grade_Mucoepidermoid_Breast_Carcinoma"/>
         <Class IRI="#Mucoepidermoid_Breast_Carcinoma"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Hormone_Receptor_HER2_Positive"/>
+        <Class IRI="#HER2_Neu_Status"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Inflammatory_Breast_Carcinoma"/>
@@ -825,6 +869,26 @@
     <SubClassOf>
         <Class IRI="#Pleomorphic_Breast_Carcinoma"/>
         <Class IRI="#Invasive_Ductal_Carcinoma_Not_Otherwise_Specified"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Progesterone_Receptor_Negative"/>
+        <Class IRI="#Progesterone_Receptor_Status"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Progesterone_Receptor_Positive"/>
+        <Class IRI="#Progesterone_Receptor_Status"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Progesterone_Receptor_Status"/>
+        <Class IRI="#Receptor_Status"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Progesterone_Receptor_Status_Unknown"/>
+        <Class IRI="#Progesterone_Receptor_Status"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Receptor_Status"/>
+        <Class IRI="http://blulab.chpc.utah.edu/ontologies/v2/SchemaOntology.owl#Observation"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Recurrent_Breast_Carcinoma"/>
@@ -1387,6 +1451,51 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#Anastrozole</IRI>
         <Literal datatypeIRI="&xsd;string">Anastrozole</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#code"/>
+        <IRI>#Androgen_Receptor_Positive</IRI>
+        <Literal datatypeIRI="&xsd;string">C2986463</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#code"/>
+        <IRI>#Androgen_Receptor_Positive</IRI>
+        <Literal datatypeIRI="&xsd;string">C94297 [NCI]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#code"/>
+        <IRI>#Androgen_Receptor_Positive</IRI>
+        <Literal datatypeIRI="&xsd;string">CDR0000642120 [NCI-GLOSS]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#definition"/>
+        <IRI>#Androgen_Receptor_Positive</IRI>
+        <Literal datatypeIRI="&xsd;string">Describes cells that have a protein that binds to androgens (male hormones). Cancer cells that are AR+ may need androgens to grow. These cells may stop growing or die when they are treated with substances that block the binding and actions of androgen hormones.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#semanticType"/>
+        <IRI>#Androgen_Receptor_Positive</IRI>
+        <Literal datatypeIRI="&xsd;string">Laboratory or Test Result</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Androgen_Receptor_Positive</IRI>
+        <Literal datatypeIRI="&xsd;string">AR+</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Androgen_Receptor_Positive</IRI>
+        <Literal datatypeIRI="&xsd;string">Androgen Receptor Positive</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Androgen_Receptor_Positive</IRI>
+        <Literal datatypeIRI="&xsd;string">androgen receptor positive</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Androgen_Receptor_Positive</IRI>
+        <Literal datatypeIRI="&xsd;string">Androgen Receptor Positive</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#code"/>
@@ -7880,6 +7989,331 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#code"/>
+        <IRI>#Estrogen_Receptor_Negative</IRI>
+        <Literal datatypeIRI="&xsd;string">C0279756</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#code"/>
+        <IRI>#Estrogen_Receptor_Negative</IRI>
+        <Literal datatypeIRI="&xsd;string">C15493 [NCI]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#code"/>
+        <IRI>#Estrogen_Receptor_Negative</IRI>
+        <Literal datatypeIRI="&xsd;string">CDR0000040054 [PDQ]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#code"/>
+        <IRI>#Estrogen_Receptor_Negative</IRI>
+        <Literal datatypeIRI="&xsd;string">CDR0000044403 [NCI-GLOSS]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#code"/>
+        <IRI>#Estrogen_Receptor_Negative</IRI>
+        <Literal datatypeIRI="&xsd;string">NOCODE [MTH]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#definition"/>
+        <IRI>#Estrogen_Receptor_Negative</IRI>
+        <Literal datatypeIRI="&xsd;string">Describes cells that do not have a protein to which the hormone estrogen will bind. Cancer cells that are estrogen receptor negative do not need estrogen to grow, and usually do not stop growing when treated with hormones that block estrogen from binding.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#semanticType"/>
+        <IRI>#Estrogen_Receptor_Negative</IRI>
+        <Literal datatypeIRI="&xsd;string">Laboratory or Test Result</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Estrogen_Receptor_Negative</IRI>
+        <Literal datatypeIRI="&xsd;string">ER-</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Estrogen_Receptor_Negative</IRI>
+        <Literal datatypeIRI="&xsd;string">Estrogen Receptor Negative</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Estrogen_Receptor_Negative</IRI>
+        <Literal datatypeIRI="&xsd;string">Estrogen receptor negative</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Estrogen_Receptor_Negative</IRI>
+        <Literal datatypeIRI="&xsd;string">Negative Estrogen Receptor</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Estrogen_Receptor_Negative</IRI>
+        <Literal datatypeIRI="&xsd;string">estrogen receptor negative</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Estrogen_Receptor_Negative</IRI>
+        <Literal datatypeIRI="&xsd;string">negative estrogen receptor</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Estrogen_Receptor_Negative</IRI>
+        <Literal datatypeIRI="&xsd;string">Estrogen Receptor Negative</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#code"/>
+        <IRI>#Estrogen_Receptor_Positive</IRI>
+        <Literal datatypeIRI="&xsd;string">C0279754</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#code"/>
+        <IRI>#Estrogen_Receptor_Positive</IRI>
+        <Literal datatypeIRI="&xsd;string">C15492 [NCI]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#code"/>
+        <IRI>#Estrogen_Receptor_Positive</IRI>
+        <Literal datatypeIRI="&xsd;string">CDR0000040051 [PDQ]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#code"/>
+        <IRI>#Estrogen_Receptor_Positive</IRI>
+        <Literal datatypeIRI="&xsd;string">CDR0000044404 [NCI-GLOSS]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#code"/>
+        <IRI>#Estrogen_Receptor_Positive</IRI>
+        <Literal datatypeIRI="&xsd;string">NOCODE [MTH]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#definition"/>
+        <IRI>#Estrogen_Receptor_Positive</IRI>
+        <Literal datatypeIRI="&xsd;string">Describes cells that have a receptor protein that binds the hormone estrogen. Cancer cells that are estrogen receptor positive may need estrogen to grow, and may stop growing or die when treated with substances that block the binding and actions of estrogen.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#semanticType"/>
+        <IRI>#Estrogen_Receptor_Positive</IRI>
+        <Literal datatypeIRI="&xsd;string">Laboratory or Test Result</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Estrogen_Receptor_Positive</IRI>
+        <Literal datatypeIRI="&xsd;string">ER+</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Estrogen_Receptor_Positive</IRI>
+        <Literal datatypeIRI="&xsd;string">Estrogen Receptor Positive</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Estrogen_Receptor_Positive</IRI>
+        <Literal datatypeIRI="&xsd;string">Estrogen receptor positive</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Estrogen_Receptor_Positive</IRI>
+        <Literal datatypeIRI="&xsd;string">Positive Estrogen Receptor</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Estrogen_Receptor_Positive</IRI>
+        <Literal datatypeIRI="&xsd;string">estrogen receptor positive</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Estrogen_Receptor_Positive</IRI>
+        <Literal datatypeIRI="&xsd;string">positive estrogen receptor</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Estrogen_Receptor_Positive</IRI>
+        <Literal datatypeIRI="&xsd;string">Estrogen Receptor Positive</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#code"/>
+        <IRI>#Estrogen_Receptor_Status</IRI>
+        <Literal datatypeIRI="&xsd;string">C1516974</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#code"/>
+        <IRI>#Estrogen_Receptor_Status</IRI>
+        <Literal datatypeIRI="&xsd;string">C16150 [NCI]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#code"/>
+        <IRI>#Estrogen_Receptor_Status</IRI>
+        <Literal datatypeIRI="&xsd;string">NOCODE [MTH]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#definition"/>
+        <IRI>#Estrogen_Receptor_Status</IRI>
+        <Literal datatypeIRI="&xsd;string">The estrogen receptor level measured in a primary tumor or in metastases.  There are essentially two distinct forms of breast cancer, one that tends to have an early onset and is characterized by an ER- status, and one that tends to have a late onset and is characterized by an ER+ status.  However, these two variants tend to overlap with respect to age, so it is possible for a young woman to have a &quot;late-onset&quot; form of breast cancer and for an older woman to have an &quot;early-onset&quot; variant of the disease.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#definition"/>
+        <IRI>#Estrogen_Receptor_Status</IRI>
+        <Literal datatypeIRI="&xsd;string">The estrogen receptor level measured in a primary tumor or in metastases. There are essentially two distinct forms of breast cancer, one that tends to have an early onset and is characterized by an ER- status, and one that tends to have a late onset and is characterized by an ER+ status. However, these two variants tend to overlap with respect to age, so it is possible for a young woman to have a &quot;late-onset&quot; form of breast cancer and for an older woman to have an &quot;early-onset&quot; variant of the disease.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#semanticType"/>
+        <IRI>#Estrogen_Receptor_Status</IRI>
+        <Literal datatypeIRI="&xsd;string">Clinical Attribute</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#semanticType"/>
+        <IRI>#Estrogen_Receptor_Status</IRI>
+        <Literal datatypeIRI="&xsd;string">Finding</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#semanticType"/>
+        <IRI>#Estrogen_Receptor_Status</IRI>
+        <Literal datatypeIRI="&xsd;string">Laboratory or Test Result</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Estrogen_Receptor_Status</IRI>
+        <Literal datatypeIRI="&xsd;string">ER Status</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Estrogen_Receptor_Status</IRI>
+        <Literal datatypeIRI="&xsd;string">ESTROGEN RECEPTOR STATUS</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Estrogen_Receptor_Status</IRI>
+        <Literal datatypeIRI="&xsd;string">Encounter due to estrogen receptor status</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Estrogen_Receptor_Status</IRI>
+        <Literal datatypeIRI="&xsd;string">Estrogen Receptor Status</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Estrogen_Receptor_Status</IRI>
+        <Literal datatypeIRI="&xsd;string">Estrogen Receptor Status - Clinical Trial Eligibility Criteria</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Estrogen_Receptor_Status</IRI>
+        <Literal datatypeIRI="&xsd;string">Estrogen receptor status</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Estrogen_Receptor_Status</IRI>
+        <Literal datatypeIRI="&xsd;string">Estrogen receptor status (Z17)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Estrogen_Receptor_Status</IRI>
+        <Literal datatypeIRI="&xsd;string">Estrogen Receptor Status</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#code"/>
+        <IRI>#Estrogen_Receptor_Status_Unknown</IRI>
+        <Literal datatypeIRI="&xsd;string">C0279758</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#code"/>
+        <IRI>#Estrogen_Receptor_Status_Unknown</IRI>
+        <Literal datatypeIRI="&xsd;string">C15495 [NCI]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#code"/>
+        <IRI>#Estrogen_Receptor_Status_Unknown</IRI>
+        <Literal datatypeIRI="&xsd;string">CDR0000040056 [PDQ]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#semanticType"/>
+        <IRI>#Estrogen_Receptor_Status_Unknown</IRI>
+        <Literal datatypeIRI="&xsd;string">Clinical Attribute</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#semanticType"/>
+        <IRI>#Estrogen_Receptor_Status_Unknown</IRI>
+        <Literal datatypeIRI="&xsd;string">Laboratory or Test Result</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Estrogen_Receptor_Status_Unknown</IRI>
+        <Literal datatypeIRI="&xsd;string">Estrogen Receptor Status Unknown</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Estrogen_Receptor_Status_Unknown</IRI>
+        <Literal datatypeIRI="&xsd;string">Unknown Status, Estrogen Receptor</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Estrogen_Receptor_Status_Unknown</IRI>
+        <Literal datatypeIRI="&xsd;string">estrogen receptor status unknown</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Estrogen_Receptor_Status_Unknown</IRI>
+        <Literal datatypeIRI="&xsd;string">unknown status, estrogen receptor</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Estrogen_Receptor_Status_Unknown</IRI>
+        <Literal datatypeIRI="&xsd;string">Estrogen Receptor Status Unknown</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#code"/>
+        <IRI>#Estrogen_Receptor_and_or_Progesterone_Receptor_Positive</IRI>
+        <Literal datatypeIRI="&xsd;string">C101267</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#code"/>
+        <IRI>#Estrogen_Receptor_and_or_Progesterone_Receptor_Positive</IRI>
+        <Literal datatypeIRI="&xsd;string">C101267 [NCI]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#code"/>
+        <IRI>#Estrogen_Receptor_and_or_Progesterone_Receptor_Positive</IRI>
+        <Literal datatypeIRI="&xsd;string">C101267 [code]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#code"/>
+        <IRI>#Estrogen_Receptor_and_or_Progesterone_Receptor_Positive</IRI>
+        <Literal datatypeIRI="&xsd;string">CL435513 [NCI_META]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#code"/>
+        <IRI>#Estrogen_Receptor_and_or_Progesterone_Receptor_Positive</IRI>
+        <Literal datatypeIRI="&xsd;string">CL435513 [NCI_META_CUI]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#definition"/>
+        <IRI>#Estrogen_Receptor_and_or_Progesterone_Receptor_Positive</IRI>
+        <Literal datatypeIRI="&xsd;string">A finding indicating that the neoplastic cells in a tissue sample test positive for estrogen and/or progesterone receptors.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#semanticType"/>
+        <IRI>#Estrogen_Receptor_and_or_Progesterone_Receptor_Positive</IRI>
+        <Literal datatypeIRI="&xsd;string">Laboratory or Test Result</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Estrogen_Receptor_and_or_Progesterone_Receptor_Positive</IRI>
+        <Literal datatypeIRI="&xsd;string">ER and/or PR +</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Estrogen_Receptor_and_or_Progesterone_Receptor_Positive</IRI>
+        <Literal datatypeIRI="&xsd;string">ER and/or PR Positive</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Estrogen_Receptor_and_or_Progesterone_Receptor_Positive</IRI>
+        <Literal datatypeIRI="&xsd;string">Estrogen Receptor and/or Progesterone Receptor Positive</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Estrogen_Receptor_and_or_Progesterone_Receptor_Positive</IRI>
+        <Literal datatypeIRI="&xsd;string">Estrogen Receptor and/or Progesterone Receptor Positive</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#code"/>
         <IRI>#Etoposide</IRI>
         <Literal datatypeIRI="&xsd;string">1991-5300 [CSP]</Literal>
     </AnnotationAssertion>
@@ -9590,6 +10024,206 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#code"/>
+        <IRI>#HER2_Neu_Negative</IRI>
+        <Literal datatypeIRI="&xsd;string">C2348908 [UMLS]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#code"/>
+        <IRI>#HER2_Neu_Negative</IRI>
+        <Literal datatypeIRI="&xsd;string">C2348908 [UMLS_CUI]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#code"/>
+        <IRI>#HER2_Neu_Negative</IRI>
+        <Literal datatypeIRI="&xsd;string">C68749</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#code"/>
+        <IRI>#HER2_Neu_Negative</IRI>
+        <Literal datatypeIRI="&xsd;string">C68749 [NCI]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#code"/>
+        <IRI>#HER2_Neu_Negative</IRI>
+        <Literal datatypeIRI="&xsd;string">C68749 [code]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#definition"/>
+        <IRI>#HER2_Neu_Negative</IRI>
+        <Literal datatypeIRI="&xsd;string">The absence of detectable HER2/Neu in a tissue sample.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#semanticType"/>
+        <IRI>#HER2_Neu_Negative</IRI>
+        <Literal datatypeIRI="&xsd;string">Laboratory or Test Result</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#HER2_Neu_Negative</IRI>
+        <Literal datatypeIRI="&xsd;string">ERBB2 Negative</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#HER2_Neu_Negative</IRI>
+        <Literal datatypeIRI="&xsd;string">HER2/Neu Negative</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#HER2_Neu_Negative</IRI>
+        <Literal datatypeIRI="&xsd;string">HER2/Neu Negative</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#code"/>
+        <IRI>#HER2_Neu_Positive</IRI>
+        <Literal datatypeIRI="&xsd;string">C2348909 [UMLS]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#code"/>
+        <IRI>#HER2_Neu_Positive</IRI>
+        <Literal datatypeIRI="&xsd;string">C2348909 [UMLS_CUI]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#code"/>
+        <IRI>#HER2_Neu_Positive</IRI>
+        <Literal datatypeIRI="&xsd;string">C68748</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#code"/>
+        <IRI>#HER2_Neu_Positive</IRI>
+        <Literal datatypeIRI="&xsd;string">C68748 [NCI]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#code"/>
+        <IRI>#HER2_Neu_Positive</IRI>
+        <Literal datatypeIRI="&xsd;string">C68748 [code]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#definition"/>
+        <IRI>#HER2_Neu_Positive</IRI>
+        <Literal datatypeIRI="&xsd;string">A laboratory test result indicating the presence of HER2/Neu in a tissue sample.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#semanticType"/>
+        <IRI>#HER2_Neu_Positive</IRI>
+        <Literal datatypeIRI="&xsd;string">Laboratory or Test Result</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#HER2_Neu_Positive</IRI>
+        <Literal datatypeIRI="&xsd;string">ERBB2 Positive</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#HER2_Neu_Positive</IRI>
+        <Literal datatypeIRI="&xsd;string">HER2/Neu Positive</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#HER2_Neu_Positive</IRI>
+        <Literal datatypeIRI="&xsd;string">HER2/Neu Positive</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#code"/>
+        <IRI>#HER2_Neu_Status</IRI>
+        <Literal datatypeIRI="&xsd;string">C1512413 [UMLS]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#code"/>
+        <IRI>#HER2_Neu_Status</IRI>
+        <Literal datatypeIRI="&xsd;string">C1512413 [UMLS_CUI]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#code"/>
+        <IRI>#HER2_Neu_Status</IRI>
+        <Literal datatypeIRI="&xsd;string">C16152</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#code"/>
+        <IRI>#HER2_Neu_Status</IRI>
+        <Literal datatypeIRI="&xsd;string">C16152 [NCI]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#code"/>
+        <IRI>#HER2_Neu_Status</IRI>
+        <Literal datatypeIRI="&xsd;string">C16152 [code]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#definition"/>
+        <IRI>#HER2_Neu_Status</IRI>
+        <Literal datatypeIRI="&xsd;string">The presence or absence of Her2/Neu on a tissue sample.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#semanticType"/>
+        <IRI>#HER2_Neu_Status</IRI>
+        <Literal datatypeIRI="&xsd;string">Laboratory or Test Result</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#HER2_Neu_Status</IRI>
+        <Literal datatypeIRI="&xsd;string">ERBB2 Status</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#HER2_Neu_Status</IRI>
+        <Literal datatypeIRI="&xsd;string">HER2/Neu Status</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#HER2_Neu_Status</IRI>
+        <Literal datatypeIRI="&xsd;string">Her2/Neu Value</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#HER2_Neu_Status</IRI>
+        <Literal datatypeIRI="&xsd;string">HER2/Neu Status</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#code"/>
+        <IRI>#HER2_Neu_Status_Unknown</IRI>
+        <Literal datatypeIRI="&xsd;string">C2348910 [UMLS]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#code"/>
+        <IRI>#HER2_Neu_Status_Unknown</IRI>
+        <Literal datatypeIRI="&xsd;string">C2348910 [UMLS_CUI]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#code"/>
+        <IRI>#HER2_Neu_Status_Unknown</IRI>
+        <Literal datatypeIRI="&xsd;string">C68750</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#code"/>
+        <IRI>#HER2_Neu_Status_Unknown</IRI>
+        <Literal datatypeIRI="&xsd;string">C68750 [NCI]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#code"/>
+        <IRI>#HER2_Neu_Status_Unknown</IRI>
+        <Literal datatypeIRI="&xsd;string">C68750 [code]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#definition"/>
+        <IRI>#HER2_Neu_Status_Unknown</IRI>
+        <Literal datatypeIRI="&xsd;string">The result of the HER2/Neu test is not known or the test has not been performed.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#semanticType"/>
+        <IRI>#HER2_Neu_Status_Unknown</IRI>
+        <Literal datatypeIRI="&xsd;string">Laboratory or Test Result</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#HER2_Neu_Status_Unknown</IRI>
+        <Literal datatypeIRI="&xsd;string">HER2/Neu Status Unknown</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#HER2_Neu_Status_Unknown</IRI>
+        <Literal datatypeIRI="&xsd;string">HER2/Neu Status Unknown</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#code"/>
         <IRI>#HER2_Positive_Breast_Carcinoma</IRI>
         <Literal datatypeIRI="&xsd;string">427685000 [SNOMEDCT_US]</Literal>
     </AnnotationAssertion>
@@ -9942,6 +10576,56 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#High_Grade_Mucoepidermoid_Breast_Carcinoma</IRI>
         <Literal datatypeIRI="&xsd;string">High Grade Mucoepidermoid Breast Carcinoma</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#code"/>
+        <IRI>#Hormone_Receptor_HER2_Positive</IRI>
+        <Literal datatypeIRI="&xsd;string">C118311</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#code"/>
+        <IRI>#Hormone_Receptor_HER2_Positive</IRI>
+        <Literal datatypeIRI="&xsd;string">C118311 [NCI]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#code"/>
+        <IRI>#Hormone_Receptor_HER2_Positive</IRI>
+        <Literal datatypeIRI="&xsd;string">C118311 [code]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#code"/>
+        <IRI>#Hormone_Receptor_HER2_Positive</IRI>
+        <Literal datatypeIRI="&xsd;string">CL475568 [NCI_META]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#code"/>
+        <IRI>#Hormone_Receptor_HER2_Positive</IRI>
+        <Literal datatypeIRI="&xsd;string">CL475568 [NCI_META_CUI]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#definition"/>
+        <IRI>#Hormone_Receptor_HER2_Positive</IRI>
+        <Literal datatypeIRI="&xsd;string">A finding indicating that the neoplastic cells in a breast cancer tissue sample test positive for estrogen, progesterone, and HER2 receptors.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#semanticType"/>
+        <IRI>#Hormone_Receptor_HER2_Positive</IRI>
+        <Literal datatypeIRI="&xsd;string">Laboratory or Test Result</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Hormone_Receptor_HER2_Positive</IRI>
+        <Literal datatypeIRI="&xsd;string">Hormone Receptor/Epidermal Growth Factor Receptor 2 Positive</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Hormone_Receptor_HER2_Positive</IRI>
+        <Literal datatypeIRI="&xsd;string">Hormone Receptor/HER2 Positive</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Hormone_Receptor_HER2_Positive</IRI>
+        <Literal datatypeIRI="&xsd;string">Hormone Receptor/HER2 Positive</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#code"/>
@@ -15672,6 +16356,266 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#Pleomorphic_Breast_Carcinoma</IRI>
         <Literal datatypeIRI="&xsd;string">Pleomorphic Breast Carcinoma</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#code"/>
+        <IRI>#Progesterone_Receptor_Negative</IRI>
+        <Literal datatypeIRI="&xsd;string">C0279766</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#code"/>
+        <IRI>#Progesterone_Receptor_Negative</IRI>
+        <Literal datatypeIRI="&xsd;string">C15497 [NCI]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#code"/>
+        <IRI>#Progesterone_Receptor_Negative</IRI>
+        <Literal datatypeIRI="&xsd;string">CDR0000040063 [PDQ]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#code"/>
+        <IRI>#Progesterone_Receptor_Negative</IRI>
+        <Literal datatypeIRI="&xsd;string">CDR0000044449 [NCI-GLOSS]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#code"/>
+        <IRI>#Progesterone_Receptor_Negative</IRI>
+        <Literal datatypeIRI="&xsd;string">NOCODE [MTH]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#definition"/>
+        <IRI>#Progesterone_Receptor_Negative</IRI>
+        <Literal datatypeIRI="&xsd;string">Describes cells that do not have a protein to which the hormone progesterone will bind. Cancer cells that are progesterone receptor negative do not need progesterone to grow, and usually do not stop growing when treated with hormones that block progesterone from binding.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#semanticType"/>
+        <IRI>#Progesterone_Receptor_Negative</IRI>
+        <Literal datatypeIRI="&xsd;string">Finding</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#semanticType"/>
+        <IRI>#Progesterone_Receptor_Negative</IRI>
+        <Literal datatypeIRI="&xsd;string">Laboratory or Test Result</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Progesterone_Receptor_Negative</IRI>
+        <Literal datatypeIRI="&xsd;string">PR-</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Progesterone_Receptor_Negative</IRI>
+        <Literal datatypeIRI="&xsd;string">Progesterone Receptor Negative</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Progesterone_Receptor_Negative</IRI>
+        <Literal datatypeIRI="&xsd;string">negative progesterone receptor</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Progesterone_Receptor_Negative</IRI>
+        <Literal datatypeIRI="&xsd;string">progesterone receptor negative</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Progesterone_Receptor_Negative</IRI>
+        <Literal datatypeIRI="&xsd;string">Progesterone Receptor Negative</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#code"/>
+        <IRI>#Progesterone_Receptor_Positive</IRI>
+        <Literal datatypeIRI="&xsd;string">C0279759</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#code"/>
+        <IRI>#Progesterone_Receptor_Positive</IRI>
+        <Literal datatypeIRI="&xsd;string">C15496 [NCI]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#code"/>
+        <IRI>#Progesterone_Receptor_Positive</IRI>
+        <Literal datatypeIRI="&xsd;string">CDR0000040057 [PDQ]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#code"/>
+        <IRI>#Progesterone_Receptor_Positive</IRI>
+        <Literal datatypeIRI="&xsd;string">CDR0000044450 [NCI-GLOSS]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#code"/>
+        <IRI>#Progesterone_Receptor_Positive</IRI>
+        <Literal datatypeIRI="&xsd;string">NOCODE [MTH]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#definition"/>
+        <IRI>#Progesterone_Receptor_Positive</IRI>
+        <Literal datatypeIRI="&xsd;string">Describes cells that have a protein to which the hormone progesterone will bind. Cancer cells that are progesterone receptor positive need progesterone to grow and will usually stop growing when treated with hormones that block progesterone from binding.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#semanticType"/>
+        <IRI>#Progesterone_Receptor_Positive</IRI>
+        <Literal datatypeIRI="&xsd;string">Finding</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#semanticType"/>
+        <IRI>#Progesterone_Receptor_Positive</IRI>
+        <Literal datatypeIRI="&xsd;string">Laboratory or Test Result</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Progesterone_Receptor_Positive</IRI>
+        <Literal datatypeIRI="&xsd;string">PR+</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Progesterone_Receptor_Positive</IRI>
+        <Literal datatypeIRI="&xsd;string">Progesterone Receptor Positive</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Progesterone_Receptor_Positive</IRI>
+        <Literal datatypeIRI="&xsd;string">positive progesterone receptor</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Progesterone_Receptor_Positive</IRI>
+        <Literal datatypeIRI="&xsd;string">progesterone receptor positive</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Progesterone_Receptor_Positive</IRI>
+        <Literal datatypeIRI="&xsd;string">Progesterone Receptor Positive</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#code"/>
+        <IRI>#Progesterone_Receptor_Status</IRI>
+        <Literal datatypeIRI="&xsd;string">C1514471</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#code"/>
+        <IRI>#Progesterone_Receptor_Status</IRI>
+        <Literal datatypeIRI="&xsd;string">C16149 [NCI]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#definition"/>
+        <IRI>#Progesterone_Receptor_Status</IRI>
+        <Literal datatypeIRI="&xsd;string">Indicates the progesterone receptor level measured in a primary tumor or in metastases. (&gt;=10 is positive if measured in fmols/mg cytosol protein; Otherwise use institutional standards)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#semanticType"/>
+        <IRI>#Progesterone_Receptor_Status</IRI>
+        <Literal datatypeIRI="&xsd;string">Clinical Attribute</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#semanticType"/>
+        <IRI>#Progesterone_Receptor_Status</IRI>
+        <Literal datatypeIRI="&xsd;string">Laboratory or Test Result</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Progesterone_Receptor_Status</IRI>
+        <Literal datatypeIRI="&xsd;string">PgR Status</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Progesterone_Receptor_Status</IRI>
+        <Literal datatypeIRI="&xsd;string">Progesterone Receptor Status</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Progesterone_Receptor_Status</IRI>
+        <Literal datatypeIRI="&xsd;string">Progesterone Receptor Status</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#code"/>
+        <IRI>#Progesterone_Receptor_Status_Unknown</IRI>
+        <Literal datatypeIRI="&xsd;string">C0279768</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#code"/>
+        <IRI>#Progesterone_Receptor_Status_Unknown</IRI>
+        <Literal datatypeIRI="&xsd;string">C15498 [NCI]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#code"/>
+        <IRI>#Progesterone_Receptor_Status_Unknown</IRI>
+        <Literal datatypeIRI="&xsd;string">CDR0000040065 [PDQ]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#semanticType"/>
+        <IRI>#Progesterone_Receptor_Status_Unknown</IRI>
+        <Literal datatypeIRI="&xsd;string">Clinical Attribute</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#semanticType"/>
+        <IRI>#Progesterone_Receptor_Status_Unknown</IRI>
+        <Literal datatypeIRI="&xsd;string">Laboratory or Test Result</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Progesterone_Receptor_Status_Unknown</IRI>
+        <Literal datatypeIRI="&xsd;string">Progesterone Receptor Status Unknown</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Progesterone_Receptor_Status_Unknown</IRI>
+        <Literal datatypeIRI="&xsd;string">progesterone receptor status unknown</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Progesterone_Receptor_Status_Unknown</IRI>
+        <Literal datatypeIRI="&xsd;string">unknown status, progesterone receptor</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Progesterone_Receptor_Status_Unknown</IRI>
+        <Literal datatypeIRI="&xsd;string">Progesterone Receptor Status Unknown</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#code"/>
+        <IRI>#Receptor_Status</IRI>
+        <Literal datatypeIRI="&xsd;string">246113000 [SNOMEDCT_US]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#code"/>
+        <IRI>#Receptor_Status</IRI>
+        <Literal datatypeIRI="&xsd;string">C0449443</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#definition"/>
+        <IRI>#Receptor_Status</IRI>
+        <Literal datatypeIRI="&xsd;string">Refers to the presence or absence of specific receptor molecules on the surface of a cells in a specimen.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#semanticType"/>
+        <IRI>#Receptor_Status</IRI>
+        <Literal datatypeIRI="&xsd;string">Laboratory or Test Result</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#semanticType"/>
+        <IRI>#Receptor_Status</IRI>
+        <Literal datatypeIRI="&xsd;string">Qualitative Concept</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Receptor_Status</IRI>
+        <Literal datatypeIRI="&xsd;string">Receptor Status</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Receptor_Status</IRI>
+        <Literal datatypeIRI="&xsd;string">Receptor status</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#synonym"/>
+        <IRI>#Receptor_Status</IRI>
+        <Literal datatypeIRI="&xsd;string">Receptor status (attribute)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Receptor_Status</IRI>
+        <Literal datatypeIRI="&xsd;string">Receptor Status</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#code"/>
