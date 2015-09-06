@@ -70,6 +70,12 @@
         <ObjectProperty IRI="#hasGenotypicFactor"/>
     </Declaration>
     <Declaration>
+        <ObjectProperty IRI="#hasMValue"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasNValue"/>
+    </Declaration>
+    <Declaration>
         <ObjectProperty IRI="#hasPhenotypicFactor"/>
     </Declaration>
     <Declaration>
@@ -83,6 +89,9 @@
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="#hasTNMValue"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasTValue"/>
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="#hasTreatmentFactor"/>
@@ -425,8 +434,43 @@
         <Class IRI="http://blulab.chpc.utah.edu/ontologies/v2/SchemaOntology.owl#SemanticAttribute"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#TNMClassification"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasMValue"/>
+            <Class IRI="#Generic_Distant_Metastasis_TNM_Finding"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TNMClassification"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasNValue"/>
+            <Class IRI="#Generic_Regional_Lymph_Nodes_TNM_Finding"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TNMClassification"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasTNMModifier"/>
+            <Class IRI="#TNM_Modifier"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TNMClassification"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasTValue"/>
+            <Class IRI="#Generic_Primary_Tumor_TNM_Finding"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#TNMValue"/>
         <Class IRI="http://blulab.chpc.utah.edu/ontologies/v2/SchemaOntology.owl#SemanticAttribute"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TNMValue"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasTNMModifier"/>
+            <Class IRI="#TNM_Modifier"/>
+        </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#TNM_Modifier"/>
@@ -531,6 +575,14 @@
         <ObjectProperty IRI="http://blulab.chpc.utah.edu/ontologies/v2/SchemaOntology.owl#hasPhenotypicAttribute"/>
     </SubObjectPropertyOf>
     <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasMValue"/>
+        <ObjectProperty IRI="#hasTNMValue"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasNValue"/>
+        <ObjectProperty IRI="#hasTNMValue"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
         <ObjectProperty IRI="#hasPhenotypicFactor"/>
         <ObjectProperty IRI="http://blulab.chpc.utah.edu/ontologies/v2/SchemaOntology.owl#hasPhenotypicAttribute"/>
     </SubObjectPropertyOf>
@@ -551,6 +603,10 @@
         <ObjectProperty IRI="http://blulab.chpc.utah.edu/ontologies/v2/SchemaOntology.owl#hasSemanticAttribute"/>
     </SubObjectPropertyOf>
     <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasTValue"/>
+        <ObjectProperty IRI="#hasTNMValue"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
         <ObjectProperty IRI="#hasTreatmentFactor"/>
         <ObjectProperty IRI="http://blulab.chpc.utah.edu/ontologies/v2/SchemaOntology.owl#hasPhenotypicAttribute"/>
     </SubObjectPropertyOf>
@@ -565,6 +621,14 @@
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#hasGenotypicFactor"/>
         <Class IRI="#Tumor"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasMValue"/>
+        <Class IRI="#TNMClassification"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasNValue"/>
+        <Class IRI="#TNMClassification"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#hasPhenotypicFactor"/>
@@ -591,6 +655,10 @@
         <Class IRI="#TNMClassification"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasTValue"/>
+        <Class IRI="#TNMClassification"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
         <ObjectProperty IRI="#hasTreatmentFactor"/>
         <Class IRI="#Tumor"/>
     </ObjectPropertyDomain>
@@ -605,6 +673,14 @@
     <ObjectPropertyRange>
         <ObjectProperty IRI="#hasGenotypicFactor"/>
         <Class IRI="#GenotypicFactor"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasMValue"/>
+        <Class IRI="#Generic_Distant_Metastasis_TNM_Finding"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasNValue"/>
+        <Class IRI="#Generic_Regional_Lymph_Nodes_TNM_Finding"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
         <ObjectProperty IRI="#hasPhenotypicFactor"/>
@@ -625,6 +701,10 @@
     <ObjectPropertyRange>
         <ObjectProperty IRI="#hasTNMValue"/>
         <Class IRI="#TNMValue"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasTValue"/>
+        <Class IRI="#Generic_Primary_Tumor_TNM_Finding"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
         <ObjectProperty IRI="#hasTreatmentFactor"/>
