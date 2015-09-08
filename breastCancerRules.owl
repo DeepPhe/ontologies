@@ -16,14 +16,18 @@
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      ontologyIRI="http://ontologies.dbmi.pitt.edu/deepphe/breastCancerRules.owl">
-    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
-    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
-    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="" IRI="http://www.w3.org/2002/07/owl#"/>
     <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
-    <Import>http://swrl.stanford.edu/ontologies/built-ins/3.3/temporal.owl</Import>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Prefix name="swrlx" IRI="http://swrl.stanford.edu/ontologies/built-ins/3.3/swrlx.owl"/>
     <Import>http://ontologies.dbmi.pitt.edu/deepphe/breastCancer.owl</Import>
     <Import>http://swrl.stanford.edu/ontologies/built-ins/3.3/swrlx.owl</Import>
-    <Import>http://www.w3.org/2003/11/swrlb</Import>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="owl:versionInfo"/>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Sprint 3</Literal>
+    </Annotation>
 </Ontology>
 
 
