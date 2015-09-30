@@ -10,19 +10,19 @@
 
 
 <Ontology xmlns="http://www.w3.org/2002/07/owl#"
-     xml:base="http://ontologies.dbmi.pitt.edu/deepphe/breastCancerRules.owl"
+     xml:base="http://ontologies.dbmi.pitt.edu/deepphe/v1/breastCancerRules.owl"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-     ontologyIRI="http://ontologies.dbmi.pitt.edu/deepphe/breastCancerRules.owl">
+     ontologyIRI="http://ontologies.dbmi.pitt.edu/deepphe/v1/breastCancerRules.owl">
     <Prefix name="" IRI="http://www.w3.org/2002/07/owl#"/>
     <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
     <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
     <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
     <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
     <Prefix name="swrlx" IRI="http://swrl.stanford.edu/ontologies/built-ins/3.3/swrlx.owl"/>
-    <Import>http://ontologies.dbmi.pitt.edu/deepphe/breastCancer.owl</Import>
+    <Import>http://ontologies.dbmi.pitt.edu/deepphe/v1/breastCancer.owl</Import>
     <Import>http://swrl.stanford.edu/ontologies/built-ins/3.3/swrlx.owl</Import>
     <Annotation>
         <AnnotationProperty abbreviatedIRI="owl:versionInfo"/>
@@ -35,27 +35,27 @@
                 <Variable IRI="urn:swrl#p"/>
             </ClassAtom>
             <ClassAtom>
-                <Class IRI="http://ontologies.dbmi.pitt.edu/deepphe/breastCancer.owl#Estrogen_Receptor_Status"/>
+                <Class IRI="http://ontologies.dbmi.pitt.edu/deepphe/v1/breastCancer.owl#Estrogen_Receptor_Status"/>
                 <Variable IRI="urn:swrl#er1"/>
             </ClassAtom>
             <ClassAtom>
-                <Class IRI="http://ontologies.dbmi.pitt.edu/deepphe/breastCancer.owl#Estrogen_Receptor_Status"/>
+                <Class IRI="http://ontologies.dbmi.pitt.edu/deepphe/v1/breastCancer.owl#Estrogen_Receptor_Status"/>
                 <Variable IRI="urn:swrl#er2"/>
             </ClassAtom>
             <ClassAtom>
-                <Class IRI="http://ontologies.dbmi.pitt.edu/deepphe/breastCancer.owl#Fluorescence_In_Situ_Hybridization"/>
+                <Class IRI="http://ontologies.dbmi.pitt.edu/deepphe/v1/breastCancer.owl#Fluorescence_In_Situ_Hybridization"/>
                 <Variable IRI="urn:swrl#fish"/>
             </ClassAtom>
             <ClassAtom>
-                <Class IRI="http://ontologies.dbmi.pitt.edu/deepphe/breastCancer.owl#Immunohistochemistry_Staining_Method"/>
+                <Class IRI="http://ontologies.dbmi.pitt.edu/deepphe/v1/breastCancer.owl#Immunohistochemistry_Staining_Method"/>
                 <Variable IRI="urn:swrl#ihc"/>
             </ClassAtom>
             <ClassAtom>
-                <Class IRI="http://ontologies.dbmi.pitt.edu/deepphe/breastCancer.owl#Equivocal"/>
+                <Class IRI="http://ontologies.dbmi.pitt.edu/deepphe/v1/breastCancer.owl#Equivocal"/>
                 <Variable IRI="urn:swrl#eq"/>
             </ClassAtom>
             <ClassAtom>
-                <Class IRI="http://ontologies.dbmi.pitt.edu/deepphe/breastCancer.owl#Positive"/>
+                <Class IRI="http://ontologies.dbmi.pitt.edu/deepphe/v1/breastCancer.owl#Positive"/>
                 <Variable IRI="urn:swrl#pos"/>
             </ClassAtom>
             <ObjectPropertyAtom>
@@ -81,7 +81,7 @@
         </Body>
         <Head>
             <ObjectPropertyAtom>
-                <ObjectProperty IRI="http://ontologies.dbmi.pitt.edu/deepphe/cancer.owl#hasGenotypicFactor"/>
+                <ObjectProperty IRI="http://ontologies.dbmi.pitt.edu/deepphe/v1/cancer.owl#hasGenotypicFactor"/>
                 <Variable IRI="urn:swrl#p"/>
                 <Variable IRI="urn:swrl#er2"/>
             </ObjectPropertyAtom>
