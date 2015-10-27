@@ -700,13 +700,6 @@
     <SubClassOf>
         <Class IRI="#Tumor"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="http://blulab.chpc.utah.edu/ontologies/v2/SchemaOntology.owl#hasBodyLocation"/>
-            <Class IRI="http://blulab.chpc.utah.edu/ontologies/v2/SchemaOntology.owl#AnatomicalSite"/>
-        </ObjectSomeValuesFrom>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Tumor"/>
-        <ObjectSomeValuesFrom>
             <ObjectProperty IRI="#hasClinicalPhenotypicComponent"/>
             <Class IRI="#ClinicalPhenotypicComponent"/>
         </ObjectSomeValuesFrom>
