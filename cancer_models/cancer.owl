@@ -232,37 +232,37 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#DP000016</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Primary</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">PrimaryType</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#DP000017</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Recurrence</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">RecurrenceType</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#DP000018</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">PreDiagnostic</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">PreDiagnosticEpisode</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#DP000019</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Diagnostic</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">DiagnosticEpisode</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#DP000020</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Staging</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">StagingEpisode</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#DP000021</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Treatment</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">TreatmentEpisode</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#DP000022</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">FollowUp</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">FollowUpEpisode</Literal>
     </AnnotationAssertion>
 </Ontology>
 
