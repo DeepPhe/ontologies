@@ -28,6 +28,242 @@
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <Literal datatypeIRI="&rdf;PlainLiteral">The DeepPhe Cancer ontology is licensed under the Creative Commons Attribution 4.0 International license. Please see https://creativecommons.org/licenses/by/4.0/legalcode for the entire license.</Literal>
     </Annotation>
+    <Declaration>
+        <Class IRI="#DP000001"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DP000002"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DP000003"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DP000004"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DP000005"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DP000006"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DP000007"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DP000008"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DP000009"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DP000010"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DP000011"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DP000012"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DP000013"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DP000014"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DP000015"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DP000016"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DP000017"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DP000018"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DP000019"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DP000020"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DP000021"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DP000022"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#DP000002"/>
+        <Class IRI="#DP000001"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DP000003"/>
+        <Class IRI="#DP000001"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DP000006"/>
+        <Class IRI="#DP000005"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DP000007"/>
+        <Class IRI="#DP000005"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DP000010"/>
+        <Class IRI="#DP000009"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DP000011"/>
+        <Class IRI="#DP000009"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DP000012"/>
+        <Class IRI="#DP000005"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DP000013"/>
+        <Class IRI="#DP000005"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DP000016"/>
+        <Class IRI="#DP000015"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DP000017"/>
+        <Class IRI="#DP000015"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DP000018"/>
+        <Class IRI="#DP000014"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DP000019"/>
+        <Class IRI="#DP000014"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DP000020"/>
+        <Class IRI="#DP000014"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DP000021"/>
+        <Class IRI="#DP000014"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DP000022"/>
+        <Class IRI="#DP000014"/>
+    </SubClassOf>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#DP000001</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Phenotype</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#DP000002</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">CancerPhenotype</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#DP000003</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">TumorPhenotype</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#DP000004</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Patient</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#DP000005</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Component</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#DP000006</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">ClinicalPhenotypeComponent</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#DP000007</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">MolecularComponent</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#DP000008</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Exposure</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#DP000009</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Mutation</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#DP000010</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">GermlineMutation</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#DP000011</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">SomaticMutation</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#DP000012</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">OutcomeComponent</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#DP000013</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">TreatmentComponent</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#DP000014</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Episode</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#DP000015</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">EpisodeType</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#DP000016</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Primary</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#DP000017</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Recurrence</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#DP000018</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">PreDiagnostic</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#DP000019</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Diagnostic</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#DP000020</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Staging</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#DP000021</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Treatment</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#DP000022</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">FollowUp</Literal>
+    </AnnotationAssertion>
 </Ontology>
 
 
