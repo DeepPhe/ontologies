@@ -41,9 +41,6 @@
         <Class IRI="#DP000004"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#DP000005"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="#DP000006"/>
     </Declaration>
     <Declaration>
@@ -51,15 +48,6 @@
     </Declaration>
     <Declaration>
         <Class IRI="#DP000008"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#DP000009"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#DP000010"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#DP000011"/>
     </Declaration>
     <Declaration>
         <Class IRI="#DP000012"/>
@@ -93,6 +81,45 @@
     </Declaration>
     <Declaration>
         <Class IRI="#DP000022"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DP000025"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DP000026"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DP000027"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DP000028"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DP000029"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#DP000023"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#DP000030"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#DP000031"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#DP000032"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#DP000033"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#DP000034"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#DP000035"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#DP000036"/>
     </Declaration>
     <SubClassOf>
         <Class IRI="#DP000002"/>
@@ -103,30 +130,6 @@
         <Class IRI="#DP000001"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#DP000006"/>
-        <Class IRI="#DP000005"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#DP000007"/>
-        <Class IRI="#DP000005"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#DP000010"/>
-        <Class IRI="#DP000009"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#DP000011"/>
-        <Class IRI="#DP000009"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#DP000012"/>
-        <Class IRI="#DP000005"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#DP000013"/>
-        <Class IRI="#DP000005"/>
-    </SubClassOf>
-    <SubClassOf>
         <Class IRI="#DP000016"/>
         <Class IRI="#DP000015"/>
     </SubClassOf>
@@ -139,21 +142,81 @@
         <Class IRI="#DP000014"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#DP000018"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#DP000023"/>
+            <Class IRI="#DP000016"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#DP000019"/>
         <Class IRI="#DP000014"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DP000019"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#DP000023"/>
+            <ObjectUnionOf>
+                <Class IRI="#DP000016"/>
+                <Class IRI="#DP000017"/>
+            </ObjectUnionOf>
+        </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#DP000020"/>
         <Class IRI="#DP000014"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#DP000020"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#DP000023"/>
+            <Class IRI="#DP000016"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#DP000021"/>
         <Class IRI="#DP000014"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DP000021"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#DP000023"/>
+            <ObjectUnionOf>
+                <Class IRI="#DP000016"/>
+                <Class IRI="#DP000017"/>
+            </ObjectUnionOf>
+        </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#DP000022"/>
         <Class IRI="#DP000014"/>
     </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DP000022"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#DP000023"/>
+            <ObjectUnionOf>
+                <Class IRI="#DP000016"/>
+                <Class IRI="#DP000017"/>
+            </ObjectUnionOf>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DP000027"/>
+        <Class IRI="#DP000026"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DP000028"/>
+        <Class IRI="#DP000026"/>
+    </SubClassOf>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#DP000023"/>
+        <Class IRI="#DP000014"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#DP000023"/>
+        <Class IRI="#DP000015"/>
+    </ObjectPropertyRange>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#DP000001</IRI>
@@ -176,18 +239,13 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#DP000005</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Component</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#DP000006</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">ClinicalPhenotypeComponent</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">ClinicalObservation</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#DP000007</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">MolecularComponent</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">MolecularObservation</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -196,28 +254,13 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#DP000009</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Mutation</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#DP000010</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">GermlineMutation</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#DP000011</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">SomaticMutation</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#DP000012</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">OutcomeComponent</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Outcome</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#DP000013</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">TreatmentComponent</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Treatment</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -263,6 +306,71 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#DP000022</IRI>
         <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">FollowUpEpisode</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#DP000023</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">hasEpisodeType</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#DP000025</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Tumor</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#DP000026</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Genotype</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#DP000027</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">PatientGenotype</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#DP000028</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">TumorGenotype</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#DP000029</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Cancer</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#DP000030</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">hasTumor</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#DP000031</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">hasPhenotype</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#DP000032</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">hasGenotype</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#DP000033</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">hasExposure</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#DP000034</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">hasOutcome</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#DP000035</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">hasTreatment</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#DP000036</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">hasObservation</Literal>
     </AnnotationAssertion>
 </Ontology>
 
