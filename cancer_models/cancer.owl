@@ -16,10 +16,11 @@
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      ontologyIRI="http://ontologies.dbmi.pitt.edu/deepphe/phenotype/cancer.owl">
-    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
-    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
-    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="" IRI="http://www.w3.org/2002/07/owl#"/>
     <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
     <Annotation>
         <AnnotationProperty abbreviatedIRI="owl:versionInfo"/>
         <Literal datatypeIRI="&rdf;PlainLiteral">Sprint 6</Literal>
@@ -130,6 +131,27 @@
         <Class IRI="#DP000001"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#DP000004"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#DP000032"/>
+            <Class IRI="#DP000027"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DP000004"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#DP000033"/>
+            <Class IRI="#DP000008"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DP000004"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#DP000034"/>
+            <Class IRI="#DP000012"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#DP000016"/>
         <Class IRI="#DP000015"/>
     </SubClassOf>
@@ -202,12 +224,68 @@
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#DP000025"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#DP000031"/>
+            <Class IRI="#DP000003"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DP000025"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#DP000032"/>
+            <Class IRI="#DP000028"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DP000025"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#DP000034"/>
+            <Class IRI="#DP000012"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DP000025"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#DP000035"/>
+            <Class IRI="#DP000013"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#DP000027"/>
         <Class IRI="#DP000026"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#DP000028"/>
         <Class IRI="#DP000026"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DP000029"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#DP000030"/>
+            <Class IRI="#DP000025"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DP000029"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#DP000031"/>
+            <Class IRI="#DP000002"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DP000029"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#DP000034"/>
+            <Class IRI="#DP000012"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DP000029"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#DP000035"/>
+            <Class IRI="#DP000013"/>
+        </ObjectSomeValuesFrom>
     </SubClassOf>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#DP000023"/>
