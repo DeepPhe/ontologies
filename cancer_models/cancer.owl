@@ -122,6 +122,9 @@
     <Declaration>
         <ObjectProperty IRI="#DP000036"/>
     </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="#DP000037"/>
+    </Declaration>
     <SubClassOf>
         <Class IRI="#DP000002"/>
         <Class IRI="#DP000001"/>
@@ -475,6 +478,11 @@
         <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">hasEpisodeType</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty IRI="#DP000037"/>
+        <IRI>#DP000025</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">An abnormal space occupying structure arising in any part of the body and resulting from an uncontrolled proliferation of cells.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#DP000025</IRI>
         <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Tumor</Literal>
@@ -482,17 +490,32 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#DP000026</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Genotype</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">SequenceVariant</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#DP000037"/>
+        <IRI>#DP000027</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">A non-exact copy of a sequence_feature or genome exhibiting one or more sequence_alterations when compared to the reference genome.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#DP000027</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">PatientGenotype</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">GermlineSequenceVariant</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#DP000037"/>
+        <IRI>#DP000028</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">A non-exact copy of a sequence_feature or genome exhibiting one or more sequence_alterations when compared to the individual’s germline sequence.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#DP000028</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">TumorGenotype</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">TumorSequenceVariant</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#DP000037"/>
+        <IRI>#DP000029</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">A disease of cellular proliferation that is malignant and primary, characterized by uncontrolled cellular proliferation, local cell invasion and metastasis. (DO)</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -533,6 +556,11 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#DP000036</IRI>
         <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">hasObservation</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#DP000037</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">definition</Literal>
     </AnnotationAssertion>
 </Ontology>
 
