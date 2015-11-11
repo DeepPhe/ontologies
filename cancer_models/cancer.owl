@@ -99,6 +99,12 @@
         <Class IRI="#DP000029"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#DP000039"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DP000040"/>
+    </Declaration>
+    <Declaration>
         <ObjectProperty IRI="#DP000023"/>
     </Declaration>
     <Declaration>
@@ -153,6 +159,18 @@
             <ObjectProperty IRI="#DP000034"/>
             <Class IRI="#DP000012"/>
         </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DP000006"/>
+        <Class IRI="#DP000039"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DP000007"/>
+        <Class IRI="#DP000039"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DP000008"/>
+        <Class IRI="#DP000040"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#DP000016"/>
@@ -383,19 +401,44 @@
         <Class IRI="#DP000007"/>
     </ObjectPropertyRange>
     <AnnotationAssertion>
+        <AnnotationProperty IRI="#DP000037"/>
+        <IRI>#DP000001</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">A clinically abnormal phenotype that is characteristic of a single disease.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#DP000001</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Phenotype</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Disease Phenotype</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
+        <IRI>#DP000001</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">OGMS: 0000028</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#DP000037"/>
+        <IRI>#DP000002</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">A clinically abnormal phenotype that is associated with a global quality(ies) of the disease.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#DP000002</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">CancerPhenotype</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Cancer Phenotype</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#DP000037"/>
+        <IRI>#DP000003</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">A clinically abnormal phenotype that is associated with a quality (ies) of a specific tumor.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#DP000003</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">TumorPhenotype</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Tumor Phenotype</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#DP000037"/>
+        <IRI>#DP000004</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">A role which inheres in a person and is realized by the process of being under the care of a physician or health care provider.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -403,19 +446,49 @@
         <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Patient</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
+        <IRI>#DP000004</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">OBI:0000093</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#DP000037"/>
+        <IRI>#DP000006</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">A manifestation of a disease that is detectable in a clinical history taking or physical examination.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#DP000006</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">ClinicalObservation</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Clinical Manifestation Of Disease</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
+        <IRI>#DP000006</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">OGMS: 0000025</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#DP000037"/>
+        <IRI>#DP000007</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">A manifestation of a disease, measurable at the molecular level that is detectable through a</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#DP000007</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">MolecularObservation</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Molecular Manifestation Of Disease</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#DP000037"/>
+        <IRI>#DP000008</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">A process in which a carcinogenic agent is in direct contact with an organism.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#DP000008</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Exposure</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Environmental Exposure to Carcinogenic Agent</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#DP000037"/>
+        <IRI>#DP000012</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">A processual entity that is either the outcome of a disease course or a part of a disease course and has etiological relevance.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -423,9 +496,29 @@
         <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Outcome</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
+        <IRI>#DP000012</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">APOLLO_SV: 00000204</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#DP000037"/>
+        <IRI>#DP000013</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">A processual entity whose completion is hypothesized (by a healthcare provider) to alleviate the signs and symptoms associated with a disorder.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#DP000013</IRI>
         <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Treatment</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
+        <IRI>#DP000013</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">OGMS:0000090</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#DP000037"/>
+        <IRI>#DP000014</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">A time interval containing an event or a group of events occurring as part of a larger sequence.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -433,9 +526,14 @@
         <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Episode</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
+        <IRI>#DP000014</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">BFO:0000038</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#DP000015</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">EpisodeType</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Episode Type</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -448,29 +546,54 @@
         <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">RecurrenceType</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty IRI="#DP000037"/>
+        <IRI>#DP000018</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">The time interval preceding the clinical and laboratory diagnostic procedures related to a cancer diagnosis.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#DP000018</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">PreDiagnosticEpisode</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Pre-diagnostic Episode</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#DP000037"/>
+        <IRI>#DP000019</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">The time interval starting at the presentation of the patient with one or more clinical or laboratory manifestations of the disease and ending when a diagnosis is made.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#DP000019</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">DiagnosticEpisode</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Diagnostic Episode</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#DP000037"/>
+        <IRI>#DP000020</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">The time interval starting with the and ending with an assignment of clinical and/or pathological stage</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#DP000020</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">StagingEpisode</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Staging Episode</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#DP000037"/>
+        <IRI>#DP000021</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">The time interval starting with the first treatment of the primary cancer and ending with the conclusion of the last treatment for the primary cancer, or the  first treatment of the recurrent cancer and ending with the conclusion of the last treatment for the recurrent cancer.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#DP000021</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">TreatmentEpisode</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Treatment Episode</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#DP000037"/>
+        <IRI>#DP000022</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">The time interval starting with the end of the treatment period and continuing to either the death of the patient, or to the start of the first or subsequent  recurrence diagnostic episode.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#DP000022</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">FollowUpEpisode</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Follow Up Episode</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -488,9 +611,14 @@
         <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Tumor</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
+        <IRI>#DP000025</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">HP:0002664</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#DP000026</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">SequenceVariant</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Sequence Variant</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="#DP000037"/>
@@ -500,7 +628,12 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#DP000027</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">GermlineSequenceVariant</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Germline Sequence Variant</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
+        <IRI>#DP000027</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">SO:0001060</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="#DP000037"/>
@@ -510,7 +643,12 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#DP000028</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">TumorSequenceVariant</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Tumor Sequence Variant</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
+        <IRI>#DP000028</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">SO:0001060</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="#DP000037"/>
@@ -521,6 +659,11 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#DP000029</IRI>
         <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Cancer</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
+        <IRI>#DP000029</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">DOID:162</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -561,6 +704,31 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#DP000037</IRI>
         <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">definition</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#DP000037"/>
+        <IRI>#DP000039</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">A quality of a patient that is (a) a deviation from clinical normality that exists in virtue of the realization of a disease and (b) is observable.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#DP000039</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Manifestation Of Disease</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
+        <IRI>#DP000039</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">OGMS:0000022</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#DP000040</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Biological Process</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
+        <IRI>#DP000040</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">GO_0008150</Literal>
     </AnnotationAssertion>
 </Ontology>
 
