@@ -16,10 +16,11 @@
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      ontologyIRI="http://ontologies.dbmi.pitt.edu/deepphe/phenotype/breastCancer.owl">
-    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
-    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
-    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="" IRI="http://www.w3.org/2002/07/owl#"/>
     <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
     <Import>http://ontologies.dbmi.pitt.edu/deepphe/phenotype/cancer.owl</Import>
     <Annotation>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -29,6 +30,30 @@
         <AnnotationProperty abbreviatedIRI="owl:versionInfo"/>
         <Literal datatypeIRI="&rdf;PlainLiteral">sprint6</Literal>
     </Annotation>
+    <Declaration>
+        <Class IRI="#DP000042"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DP000043"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#DP000042"/>
+        <Class IRI="http://ontologies.dbmi.pitt.edu/deepphe/phenotype/cancer.owl#DP000029"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DP000043"/>
+        <Class IRI="http://ontologies.dbmi.pitt.edu/deepphe/phenotype/cancer.owl#DP000002"/>
+    </SubClassOf>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#DP000042</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Breast Cancer</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#DP000043</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Breast Cancer Phenotype</Literal>
+    </AnnotationAssertion>
 </Ontology>
 
 

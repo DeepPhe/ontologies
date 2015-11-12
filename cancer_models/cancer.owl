@@ -105,6 +105,12 @@
         <Class IRI="#DP000040"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#DP000044"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DP000045"/>
+    </Declaration>
+    <Declaration>
         <ObjectProperty IRI="#DP000023"/>
     </Declaration>
     <Declaration>
@@ -139,8 +145,29 @@
         <Class IRI="#DP000001"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#DP000002"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#DP000036"/>
+            <Class IRI="#DP000006"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#DP000003"/>
         <Class IRI="#DP000001"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DP000003"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#DP000036"/>
+            <Class IRI="#DP000006"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DP000003"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#DP000036"/>
+            <Class IRI="#DP000007"/>
+        </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#DP000004"/>
@@ -311,6 +338,14 @@
             <Class IRI="#DP000013"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DP000044"/>
+        <Class IRI="#DP000013"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DP000045"/>
+        <Class IRI="#DP000013"/>
+    </SubClassOf>
     <InverseObjectProperties>
         <ObjectProperty IRI="#DP000041"/>
         <ObjectProperty IRI="#DP000030"/>
@@ -365,11 +400,11 @@
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#DP000036"/>
-        <Class IRI="#DP000025"/>
+        <Class IRI="#DP000002"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#DP000036"/>
-        <Class IRI="#DP000029"/>
+        <Class IRI="#DP000003"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#DP000041"/>
@@ -713,7 +748,7 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#DP000036</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">hasObservation</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">hasManifestation</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -749,6 +784,16 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#DP000041</IRI>
         <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">realized_in</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#DP000044</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Medication</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#DP000045</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">TherapeuticProcedure</Literal>
     </AnnotationAssertion>
 </Ontology>
 
