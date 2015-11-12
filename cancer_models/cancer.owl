@@ -129,6 +129,9 @@
         <ObjectProperty IRI="#DP000036"/>
     </Declaration>
     <Declaration>
+        <ObjectProperty IRI="#DP000041"/>
+    </Declaration>
+    <Declaration>
         <AnnotationProperty IRI="#DP000037"/>
     </Declaration>
     <SubClassOf>
@@ -308,6 +311,10 @@
             <Class IRI="#DP000013"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#DP000041"/>
+        <ObjectProperty IRI="#DP000030"/>
+    </InverseObjectProperties>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#DP000023"/>
         <Class IRI="#DP000014"/>
@@ -364,6 +371,10 @@
         <ObjectProperty IRI="#DP000036"/>
         <Class IRI="#DP000029"/>
     </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#DP000041"/>
+        <Class IRI="#DP000025"/>
+    </ObjectPropertyDomain>
     <ObjectPropertyRange>
         <ObjectProperty IRI="#DP000023"/>
         <Class IRI="#DP000015"/>
@@ -399,6 +410,10 @@
     <ObjectPropertyRange>
         <ObjectProperty IRI="#DP000036"/>
         <Class IRI="#DP000007"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#DP000041"/>
+        <Class IRI="#DP000029"/>
     </ObjectPropertyRange>
     <AnnotationAssertion>
         <AnnotationProperty IRI="#DP000037"/>
@@ -668,7 +683,7 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#DP000030</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">hasTumor</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">realizes</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -678,7 +693,7 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#DP000032</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">hasGenotype</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">hasSequenceVariant</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -729,6 +744,11 @@
         <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
         <IRI>#DP000040</IRI>
         <Literal datatypeIRI="&rdf;PlainLiteral">GO_0008150</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#DP000041</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">realized_in</Literal>
     </AnnotationAssertion>
 </Ontology>
 
