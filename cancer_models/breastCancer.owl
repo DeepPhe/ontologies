@@ -10,18 +10,18 @@
 
 
 <Ontology xmlns="http://www.w3.org/2002/07/owl#"
-     xml:base="http://ontologies.dbmi.pitt.edu/deepphe/phenotype/breastCancer.owl"
+     xml:base="http://ontologies.dbmi.pitt.edu/deepphe/cancer/breastCancer.owl"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-     ontologyIRI="http://ontologies.dbmi.pitt.edu/deepphe/phenotype/breastCancer.owl">
+     ontologyIRI="http://ontologies.dbmi.pitt.edu/deepphe/cancer/breastCancer.owl">
     <Prefix name="" IRI="http://www.w3.org/2002/07/owl#"/>
     <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
     <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
     <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
     <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
-    <Import>http://ontologies.dbmi.pitt.edu/deepphe/phenotype/cancer.owl</Import>
+    <Import>http://ontologies.dbmi.pitt.edu/deepphe/cancer/cancer.owl</Import>
     <Annotation>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <Literal datatypeIRI="&rdf;PlainLiteral">The DeepPhe Cancer ontology is licensed under the Creative Commons Attribution 4.0 International license. Please see https://creativecommons.org/licenses/by/4.0/legalcode for the entire license.</Literal>
@@ -36,14 +36,138 @@
     <Declaration>
         <Class IRI="#DP000043"/>
     </Declaration>
+    <Declaration>
+        <Class IRI="#DP000095"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DP000096"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DP000097"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DP000098"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DP000099"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DP000101"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DP000102"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DP000108"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DP000109"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DP000110"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DP000111"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DP000112"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DP000113"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#DP000103"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#DP000104"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#DP000105"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#DP000106"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#DP000107"/>
+    </Declaration>
     <SubClassOf>
         <Class IRI="#DP000042"/>
-        <Class IRI="http://ontologies.dbmi.pitt.edu/deepphe/phenotype/cancer.owl#DP000029"/>
+        <Class IRI="http://ontologies.dbmi.pitt.edu/deepphe/cancer/cancer.owl#DP000029"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#DP000043"/>
-        <Class IRI="http://ontologies.dbmi.pitt.edu/deepphe/phenotype/cancer.owl#DP000002"/>
+        <Class IRI="http://ontologies.dbmi.pitt.edu/deepphe/cancer/cancer.owl#DP000002"/>
     </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DP000043"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#DP000103"/>
+            <Class IRI="#DP000101"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DP000043"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#DP000104"/>
+            <Class IRI="#DP000102"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DP000095"/>
+        <Class IRI="http://ontologies.dbmi.pitt.edu/deepphe/cancer/cancer.owl#DP000007"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DP000096"/>
+        <Class IRI="#DP000095"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DP000097"/>
+        <Class IRI="#DP000095"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DP000098"/>
+        <Class IRI="#DP000095"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DP000099"/>
+        <Class IRI="http://ontologies.dbmi.pitt.edu/deepphe/cancer/cancer.owl#DP000003"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DP000101"/>
+        <Class IRI="http://ontologies.dbmi.pitt.edu/deepphe/cancer/cancer.owl#DP000006"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DP000102"/>
+        <Class IRI="http://ontologies.dbmi.pitt.edu/deepphe/cancer/cancer.owl#DP000006"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DP000109"/>
+        <Class IRI="#DP000108"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DP000110"/>
+        <Class IRI="#DP000109"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DP000111"/>
+        <Class IRI="#DP000109"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DP000112"/>
+        <Class IRI="#DP000109"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DP000113"/>
+        <Class IRI="#DP000109"/>
+    </SubClassOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#DP000103"/>
+        <ObjectProperty IRI="http://ontologies.dbmi.pitt.edu/deepphe/phenotype/cancer.owl#DP000036"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#DP000104"/>
+        <ObjectProperty IRI="http://ontologies.dbmi.pitt.edu/deepphe/phenotype/cancer.owl#DP000036"/>
+    </SubObjectPropertyOf>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#DP000042</IRI>
@@ -53,6 +177,96 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#DP000043</IRI>
         <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Breast Cancer Phenotype</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#DP000095</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Receptor Status</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#DP000096</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Estrogen Receptor Status</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#DP000097</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Progesterone Receptor Status</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#DP000098</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">HER2-Neu Receptor Status</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#DP000099</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Breast Cancer Tumor Phenotype</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#DP000101</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Breast Cancer Stage</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#DP000102</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Breast Cancer TNM Classification</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#DP000103</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">hasStage</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#DP000104</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">hasTNMClassification</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#DP000105</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">hasTClassification</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#DP000106</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">hasNClassification</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#DP000107</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">hasMClassification</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#DP000108</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Attributes</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#DP000109</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Interpretation</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#DP000110</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Positive</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#DP000111</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Negative</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#DP000112</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Equivocal</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#DP000113</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Unknown</Literal>
     </AnnotationAssertion>
 </Ontology>
 

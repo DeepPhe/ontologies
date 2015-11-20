@@ -10,12 +10,12 @@
 
 
 <Ontology xmlns="http://www.w3.org/2002/07/owl#"
-     xml:base="http://ontologies.dbmi.pitt.edu/deepphe/cancer.owl"
+     xml:base="http://ontologies.dbmi.pitt.edu/deepphe/nlp/cancer.owl"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-     ontologyIRI="http://ontologies.dbmi.pitt.edu/deepphe/cancer.owl">
+     ontologyIRI="http://ontologies.dbmi.pitt.edu/deepphe/nlp/cancer.owl">
     <Prefix name="" IRI="http://www.w3.org/2002/07/owl#"/>
     <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
     <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
@@ -28,55 +28,7 @@
         <Literal datatypeIRI="&rdf;PlainLiteral">The DeepPhe Cancer ontology is licensed under the Creative Commons Attribution 4.0 International license. Please see https://creativecommons.org/licenses/by/4.0/legalcode for the entire license.</Literal>
     </Annotation>
     <Declaration>
-        <Class IRI="#Cancer"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="#CancerStage"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#ClinicalPhenotypicComponent"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Diagnostic"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Exposure"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Follow-up"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#GermlineMutation"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#MolecularComponent"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#OutcomeComponent"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#PhenotypeStage"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#PhenotypeTNMClassification"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Pre-diagnostic"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#PrimaryEpisode"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#RecurrenceEpisode"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#RelatedFactor"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#SomaticMutation"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Staging"/>
     </Declaration>
     <Declaration>
         <Class IRI="#TNMClassification"/>
@@ -86,15 +38,6 @@
     </Declaration>
     <Declaration>
         <Class IRI="#TNM_Modifier"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Treatment"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#TreatmentComponent"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Tumor"/>
     </Declaration>
     <Declaration>
         <Class IRI="#c_modifier"/>
@@ -172,20 +115,6 @@
         <DataProperty IRI="#hasTumorType"/>
     </Declaration>
     <SubClassOf>
-        <Class IRI="http://blulab.chpc.utah.edu/ontologies/v2/SchemaOntology.owl#Patient"/>
-        <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="#hasExposure"/>
-            <Class IRI="#Exposure"/>
-        </ObjectSomeValuesFrom>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="http://blulab.chpc.utah.edu/ontologies/v2/SchemaOntology.owl#Patient"/>
-        <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="#hasGermlineMutation"/>
-            <Class IRI="#GermlineMutation"/>
-        </ObjectSomeValuesFrom>
-    </SubClassOf>
-    <SubClassOf>
         <Class IRI="http://blulab.chpc.utah.edu/ontologies/v2/SchemaOntology.owl#Stage"/>
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="#hasCancerStage"/>
@@ -204,151 +133,12 @@
         <Class IRI="#Generic_Primary_Tumor_TNM_Finding"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#Cancer"/>
-        <Class IRI="http://blulab.chpc.utah.edu/ontologies/v2/SchemaOntology.owl#Phenotype"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Cancer"/>
-        <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="http://blulab.chpc.utah.edu/ontologies/v2/SchemaOntology.owl#hasAgeAbatement"/>
-            <Class IRI="http://blulab.chpc.utah.edu/ontologies/v2/SchemaOntology.owl#Age"/>
-        </ObjectSomeValuesFrom>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Cancer"/>
-        <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="http://blulab.chpc.utah.edu/ontologies/v2/SchemaOntology.owl#hasAgeOnset"/>
-            <Class IRI="http://blulab.chpc.utah.edu/ontologies/v2/SchemaOntology.owl#Age"/>
-        </ObjectSomeValuesFrom>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Cancer"/>
-        <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="http://blulab.chpc.utah.edu/ontologies/v2/SchemaOntology.owl#hasBodyLocation"/>
-            <Class IRI="http://blulab.chpc.utah.edu/ontologies/v2/SchemaOntology.owl#BodySide"/>
-        </ObjectSomeValuesFrom>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Cancer"/>
-        <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="http://blulab.chpc.utah.edu/ontologies/v2/SchemaOntology.owl#hasCourse"/>
-            <Class IRI="http://blulab.chpc.utah.edu/ontologies/v2/SchemaOntology.owl#Course"/>
-        </ObjectSomeValuesFrom>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Cancer"/>
-        <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="http://blulab.chpc.utah.edu/ontologies/v2/SchemaOntology.owl#hasEncounter"/>
-            <Class IRI="http://blulab.chpc.utah.edu/ontologies/v2/SchemaOntology.owl#Encounter"/>
-        </ObjectSomeValuesFrom>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Cancer"/>
-        <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="http://blulab.chpc.utah.edu/ontologies/v2/SchemaOntology.owl#hasSeverity"/>
-            <Class IRI="http://blulab.chpc.utah.edu/ontologies/v2/SchemaOntology.owl#Severity"/>
-        </ObjectSomeValuesFrom>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Cancer"/>
-        <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="http://blulab.chpc.utah.edu/ontologies/v2/SchemaOntology.owl#hasStage"/>
-            <Class IRI="http://blulab.chpc.utah.edu/ontologies/v2/SchemaOntology.owl#Stage"/>
-        </ObjectSomeValuesFrom>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Cancer"/>
-        <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="http://blulab.chpc.utah.edu/ontologies/v2/SchemaOntology.owl#hasSubject"/>
-            <Class IRI="http://blulab.chpc.utah.edu/ontologies/v2/SchemaOntology.owl#Patient"/>
-        </ObjectSomeValuesFrom>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Cancer"/>
-        <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="#hasMClassification"/>
-            <Class IRI="#PhenotypeTNMClassification"/>
-        </ObjectSomeValuesFrom>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Cancer"/>
-        <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="#hasNClassification"/>
-            <Class IRI="#PhenotypeTNMClassification"/>
-        </ObjectSomeValuesFrom>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Cancer"/>
-        <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="#hasOutcomeComponent"/>
-            <Class IRI="#OutcomeComponent"/>
-        </ObjectSomeValuesFrom>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Cancer"/>
-        <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="#hasStage"/>
-            <Class IRI="#PhenotypeStage"/>
-        </ObjectSomeValuesFrom>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Cancer"/>
-        <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="#hasTClassification"/>
-            <Class IRI="#PhenotypeTNMClassification"/>
-        </ObjectSomeValuesFrom>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Cancer"/>
-        <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="#hasTumor"/>
-            <Class IRI="#Tumor"/>
-        </ObjectSomeValuesFrom>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Cancer"/>
-        <DataSomeValuesFrom>
-            <DataProperty IRI="http://blulab.chpc.utah.edu/ontologies/v2/SchemaOntology.owl#hasAbatementBoolean"/>
-            <Datatype abbreviatedIRI="xsd:boolean"/>
-        </DataSomeValuesFrom>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Cancer"/>
-        <DataSomeValuesFrom>
-            <DataProperty IRI="http://blulab.chpc.utah.edu/ontologies/v2/SchemaOntology.owl#hasConditionCategory"/>
-            <Datatype abbreviatedIRI="xsd:string"/>
-        </DataSomeValuesFrom>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Cancer"/>
-        <DataSomeValuesFrom>
-            <DataProperty IRI="#hasAbatementDate"/>
-            <Datatype abbreviatedIRI="xsd:dateTime"/>
-        </DataSomeValuesFrom>
-    </SubClassOf>
-    <SubClassOf>
         <Class IRI="#CancerStage"/>
         <Class IRI="http://blulab.chpc.utah.edu/ontologies/v2/SchemaOntology.owl#SemanticAttribute"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Cancer_TNM_Vessel_Invasion_Finding_Category"/>
         <Class IRI="#TNMValue"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#ClinicalPhenotypicComponent"/>
-        <Class IRI="http://blulab.chpc.utah.edu/ontologies/v2/SchemaOntology.owl#PhenotypeAttribute"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Diagnostic"/>
-        <Class IRI="http://blulab.chpc.utah.edu/ontologies/v2/SchemaOntology.owl#EpisodeType"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Exposure"/>
-        <Class IRI="http://blulab.chpc.utah.edu/ontologies/v2/SchemaOntology.owl#PhenotypeAttribute"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Follow-up"/>
-        <Class IRI="http://blulab.chpc.utah.edu/ontologies/v2/SchemaOntology.owl#EpisodeType"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Generic_Distant_Metastasis_TNM_Finding"/>
@@ -361,10 +151,6 @@
     <SubClassOf>
         <Class IRI="#Generic_Regional_Lymph_Nodes_TNM_Finding"/>
         <Class IRI="#TNMValue"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#GermlineMutation"/>
-        <Class IRI="http://blulab.chpc.utah.edu/ontologies/v2/SchemaOntology.owl#PhenotypeAttribute"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#L0_Stage_Finding"/>
@@ -401,10 +187,6 @@
     <SubClassOf>
         <Class IRI="#MX_Stage_Finding"/>
         <Class IRI="#Generic_Distant_Metastasis_TNM_Finding"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#MolecularComponent"/>
-        <Class IRI="http://blulab.chpc.utah.edu/ontologies/v2/SchemaOntology.owl#PhenotypeAttribute"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#N0Stage_Finding"/>
@@ -489,66 +271,6 @@
     <SubClassOf>
         <Class IRI="#NX_Stage_Finding"/>
         <Class IRI="#Generic_Regional_Lymph_Nodes_TNM_Finding"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#OutcomeComponent"/>
-        <Class IRI="http://blulab.chpc.utah.edu/ontologies/v2/SchemaOntology.owl#PhenotypeAttribute"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#PhenotypeStage"/>
-        <Class IRI="http://blulab.chpc.utah.edu/ontologies/v2/SchemaOntology.owl#PhenotypeAttribute"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#PhenotypeTNMClassification"/>
-        <Class IRI="http://blulab.chpc.utah.edu/ontologies/v2/SchemaOntology.owl#PhenotypeAttribute"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Pre-diagnostic"/>
-        <Class IRI="http://blulab.chpc.utah.edu/ontologies/v2/SchemaOntology.owl#EpisodeType"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#PrimaryEpisode"/>
-        <Class IRI="http://blulab.chpc.utah.edu/ontologies/v2/SchemaOntology.owl#Episode"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#PrimaryEpisode"/>
-        <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="http://blulab.chpc.utah.edu/ontologies/v2/SchemaOntology.owl#hasEpisodeType"/>
-            <ObjectUnionOf>
-                <Class IRI="#Diagnostic"/>
-                <Class IRI="#Follow-up"/>
-                <Class IRI="#Treatment"/>
-            </ObjectUnionOf>
-        </ObjectSomeValuesFrom>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#RecurrenceEpisode"/>
-        <Class IRI="http://blulab.chpc.utah.edu/ontologies/v2/SchemaOntology.owl#Episode"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#RecurrenceEpisode"/>
-        <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="http://blulab.chpc.utah.edu/ontologies/v2/SchemaOntology.owl#hasEpisodeType"/>
-            <ObjectUnionOf>
-                <Class IRI="#Diagnostic"/>
-                <Class IRI="#Follow-up"/>
-                <Class IRI="#Pre-diagnostic"/>
-                <Class IRI="#Staging"/>
-                <Class IRI="#Treatment"/>
-            </ObjectUnionOf>
-        </ObjectSomeValuesFrom>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#RelatedFactor"/>
-        <Class IRI="http://blulab.chpc.utah.edu/ontologies/v2/SchemaOntology.owl#PhenotypeAttribute"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#SomaticMutation"/>
-        <Class IRI="http://blulab.chpc.utah.edu/ontologies/v2/SchemaOntology.owl#PhenotypeAttribute"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Staging"/>
-        <Class IRI="http://blulab.chpc.utah.edu/ontologies/v2/SchemaOntology.owl#EpisodeType"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#T0_Stage_Finding"/>
@@ -686,81 +408,6 @@
         <Class IRI="#Generic_Primary_Tumor_TNM_Finding"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#Treatment"/>
-        <Class IRI="http://blulab.chpc.utah.edu/ontologies/v2/SchemaOntology.owl#EpisodeType"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#TreatmentComponent"/>
-        <Class IRI="http://blulab.chpc.utah.edu/ontologies/v2/SchemaOntology.owl#PhenotypeAttribute"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Tumor"/>
-        <Class IRI="http://blulab.chpc.utah.edu/ontologies/v2/SchemaOntology.owl#PhenotypeAttribute"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Tumor"/>
-        <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="#hasClinicalPhenotypicComponent"/>
-            <Class IRI="#ClinicalPhenotypicComponent"/>
-        </ObjectSomeValuesFrom>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Tumor"/>
-        <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="#hasMolecularComponent"/>
-            <Class IRI="#MolecularComponent"/>
-        </ObjectSomeValuesFrom>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Tumor"/>
-        <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="#hasOutcomeComponent"/>
-            <Class IRI="#OutcomeComponent"/>
-        </ObjectSomeValuesFrom>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Tumor"/>
-        <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="#hasRelatedFactor"/>
-            <Class IRI="#RelatedFactor"/>
-        </ObjectSomeValuesFrom>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Tumor"/>
-        <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="#hasSomaticMutation"/>
-            <Class IRI="#SomaticMutation"/>
-        </ObjectSomeValuesFrom>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Tumor"/>
-        <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="#hasTreatmentComponent"/>
-            <Class IRI="#TreatmentComponent"/>
-        </ObjectSomeValuesFrom>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Tumor"/>
-        <DataSomeValuesFrom>
-            <DataProperty IRI="http://blulab.chpc.utah.edu/ontologies/v2/SchemaOntology.owl#hasAbatementBoolean"/>
-            <Datatype abbreviatedIRI="xsd:boolean"/>
-        </DataSomeValuesFrom>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Tumor"/>
-        <DataSomeValuesFrom>
-            <DataProperty IRI="#hasAbatementDate"/>
-            <Datatype abbreviatedIRI="xsd:dateTime"/>
-        </DataSomeValuesFrom>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Tumor"/>
-        <DataSomeValuesFrom>
-            <DataProperty IRI="#hasTumorType"/>
-            <Datatype abbreviatedIRI="xsd:string"/>
-        </DataSomeValuesFrom>
-    </SubClassOf>
-    <SubClassOf>
         <Class IRI="#V0_Stage_Finding"/>
         <Class IRI="#Cancer_TNM_Vessel_Invasion_Finding_Category"/>
     </SubClassOf>
@@ -877,10 +524,6 @@
         <Class IRI="http://blulab.chpc.utah.edu/ontologies/v2/SchemaOntology.owl#Stage"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
-        <ObjectProperty IRI="#hasClinicalPhenotypicComponent"/>
-        <Class IRI="#Tumor"/>
-    </ObjectPropertyDomain>
-    <ObjectPropertyDomain>
         <ObjectProperty IRI="#hasExposure"/>
         <Class IRI="http://blulab.chpc.utah.edu/ontologies/v2/SchemaOntology.owl#Patient"/>
     </ObjectPropertyDomain>
@@ -893,36 +536,8 @@
         <Class IRI="#TNMClassification"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
-        <ObjectProperty IRI="#hasMolecularComponent"/>
-        <Class IRI="#Tumor"/>
-    </ObjectPropertyDomain>
-    <ObjectPropertyDomain>
         <ObjectProperty IRI="#hasNValue"/>
         <Class IRI="#TNMClassification"/>
-    </ObjectPropertyDomain>
-    <ObjectPropertyDomain>
-        <ObjectProperty IRI="#hasOutcomeComponent"/>
-        <Class IRI="#Cancer"/>
-    </ObjectPropertyDomain>
-    <ObjectPropertyDomain>
-        <ObjectProperty IRI="#hasOutcomeComponent"/>
-        <Class IRI="#Tumor"/>
-    </ObjectPropertyDomain>
-    <ObjectPropertyDomain>
-        <ObjectProperty IRI="#hasRelatedFactor"/>
-        <Class IRI="#Tumor"/>
-    </ObjectPropertyDomain>
-    <ObjectPropertyDomain>
-        <ObjectProperty IRI="#hasSomaticMutation"/>
-        <Class IRI="#Tumor"/>
-    </ObjectPropertyDomain>
-    <ObjectPropertyDomain>
-        <ObjectProperty IRI="#hasStage"/>
-        <Class IRI="#Cancer"/>
-    </ObjectPropertyDomain>
-    <ObjectPropertyDomain>
-        <ObjectProperty IRI="#hasTNM"/>
-        <Class IRI="#Cancer"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#hasTNMClassification"/>
@@ -944,61 +559,17 @@
         <ObjectProperty IRI="#hasTValue"/>
         <Class IRI="#TNMClassification"/>
     </ObjectPropertyDomain>
-    <ObjectPropertyDomain>
-        <ObjectProperty IRI="#hasTreatmentComponent"/>
-        <Class IRI="#Tumor"/>
-    </ObjectPropertyDomain>
-    <ObjectPropertyDomain>
-        <ObjectProperty IRI="#hasTumor"/>
-        <Class IRI="#Cancer"/>
-    </ObjectPropertyDomain>
     <ObjectPropertyRange>
         <ObjectProperty IRI="#hasCancerStage"/>
         <Class IRI="#CancerStage"/>
-    </ObjectPropertyRange>
-    <ObjectPropertyRange>
-        <ObjectProperty IRI="#hasClinicalPhenotypicComponent"/>
-        <Class IRI="#ClinicalPhenotypicComponent"/>
-    </ObjectPropertyRange>
-    <ObjectPropertyRange>
-        <ObjectProperty IRI="#hasExposure"/>
-        <Class IRI="#Exposure"/>
-    </ObjectPropertyRange>
-    <ObjectPropertyRange>
-        <ObjectProperty IRI="#hasGermlineMutation"/>
-        <Class IRI="#GermlineMutation"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
         <ObjectProperty IRI="#hasMValue"/>
         <Class IRI="#Generic_Distant_Metastasis_TNM_Finding"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
-        <ObjectProperty IRI="#hasMolecularComponent"/>
-        <Class IRI="#MolecularComponent"/>
-    </ObjectPropertyRange>
-    <ObjectPropertyRange>
         <ObjectProperty IRI="#hasNValue"/>
         <Class IRI="#Generic_Regional_Lymph_Nodes_TNM_Finding"/>
-    </ObjectPropertyRange>
-    <ObjectPropertyRange>
-        <ObjectProperty IRI="#hasOutcomeComponent"/>
-        <Class IRI="#OutcomeComponent"/>
-    </ObjectPropertyRange>
-    <ObjectPropertyRange>
-        <ObjectProperty IRI="#hasRelatedFactor"/>
-        <Class IRI="#RelatedFactor"/>
-    </ObjectPropertyRange>
-    <ObjectPropertyRange>
-        <ObjectProperty IRI="#hasSomaticMutation"/>
-        <Class IRI="#SomaticMutation"/>
-    </ObjectPropertyRange>
-    <ObjectPropertyRange>
-        <ObjectProperty IRI="#hasStage"/>
-        <Class IRI="#PhenotypeStage"/>
-    </ObjectPropertyRange>
-    <ObjectPropertyRange>
-        <ObjectProperty IRI="#hasTNM"/>
-        <Class IRI="#PhenotypeTNMClassification"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
         <ObjectProperty IRI="#hasTNMClassification"/>
@@ -1016,29 +587,9 @@
         <ObjectProperty IRI="#hasTValue"/>
         <Class IRI="#Generic_Primary_Tumor_TNM_Finding"/>
     </ObjectPropertyRange>
-    <ObjectPropertyRange>
-        <ObjectProperty IRI="#hasTreatmentComponent"/>
-        <Class IRI="#TreatmentComponent"/>
-    </ObjectPropertyRange>
-    <ObjectPropertyRange>
-        <ObjectProperty IRI="#hasTumor"/>
-        <Class IRI="#Tumor"/>
-    </ObjectPropertyRange>
     <FunctionalDataProperty>
         <DataProperty IRI="#hasTumorType"/>
     </FunctionalDataProperty>
-    <DataPropertyDomain>
-        <DataProperty IRI="#hasAbatementDate"/>
-        <Class IRI="#Cancer"/>
-    </DataPropertyDomain>
-    <DataPropertyDomain>
-        <DataProperty IRI="#hasAbatementDate"/>
-        <Class IRI="#Tumor"/>
-    </DataPropertyDomain>
-    <DataPropertyDomain>
-        <DataProperty IRI="#hasTumorType"/>
-        <Class IRI="#Tumor"/>
-    </DataPropertyDomain>
     <DataPropertyRange>
         <DataProperty IRI="#hasAbatementDate"/>
         <Datatype abbreviatedIRI="xsd:dateTime"/>
