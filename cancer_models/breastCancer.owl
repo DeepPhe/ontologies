@@ -76,6 +76,48 @@
         <Class IRI="#DP000148"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#DP000151"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DP000152"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DP000153"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DP000154"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DP000155"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DP000156"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DP000157"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DP000158"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DP000159"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DP000160"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DP000161"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DP000162"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DP000163"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DP000164"/>
+    </Declaration>
+    <Declaration>
         <ObjectProperty IRI="#DP000103"/>
     </Declaration>
     <Declaration>
@@ -163,6 +205,58 @@
     <SubClassOf>
         <Class IRI="#DP000148"/>
         <Class IRI="http://ontologies.dbmi.pitt.edu/deepphe/cancer/cancer.owl#DP000145"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DP000151"/>
+        <Class IRI="http://ontologies.dbmi.pitt.edu/deepphe/cancer/cancer.owl#DP000149"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DP000152"/>
+        <Class IRI="http://ontologies.dbmi.pitt.edu/deepphe/cancer/cancer.owl#DP000149"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DP000153"/>
+        <Class IRI="http://ontologies.dbmi.pitt.edu/deepphe/cancer/cancer.owl#DP000149"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DP000154"/>
+        <Class IRI="http://ontologies.dbmi.pitt.edu/deepphe/cancer/cancer.owl#DP000149"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DP000155"/>
+        <Class IRI="http://ontologies.dbmi.pitt.edu/deepphe/cancer/cancer.owl#DP000149"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DP000156"/>
+        <Class IRI="http://ontologies.dbmi.pitt.edu/deepphe/cancer/cancer.owl#DP000122"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DP000157"/>
+        <Class IRI="http://ontologies.dbmi.pitt.edu/deepphe/cancer/cancer.owl#DP000122"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DP000158"/>
+        <Class IRI="http://ontologies.dbmi.pitt.edu/deepphe/cancer/cancer.owl#DP000122"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DP000159"/>
+        <Class IRI="http://ontologies.dbmi.pitt.edu/deepphe/cancer/cancer.owl#DP000122"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DP000160"/>
+        <Class IRI="http://ontologies.dbmi.pitt.edu/deepphe/cancer/cancer.owl#DP000122"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DP000162"/>
+        <Class IRI="#DP000161"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DP000163"/>
+        <Class IRI="#DP000161"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DP000164"/>
+        <Class IRI="#DP000161"/>
     </SubClassOf>
     <SubObjectPropertyOf>
         <ObjectProperty IRI="#DP000103"/>
@@ -271,6 +365,76 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#DP000148</IRI>
         <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Sarcoma</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#DP000151</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Lobular</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#DP000152</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Ductal</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#DP000153</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Tubular</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#DP000154</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Papillary</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#DP000155</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Mucinous</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#DP000156</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Bone</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#DP000157</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Brain</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#DP000158</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Liver</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#DP000159</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Lung</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#DP000160</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Peritoneum</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#DP000161</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">MenopausalStatus</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#DP000162</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Perimenopausal</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#DP000163</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Post-menopausal</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#DP000164</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Pre-menopausal</Literal>
     </AnnotationAssertion>
 </Ontology>
 
