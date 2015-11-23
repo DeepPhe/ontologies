@@ -58,12 +58,6 @@
         <Class IRI="#DP000102"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#DP000108"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#DP000109"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="#DP000110"/>
     </Declaration>
     <Declaration>
@@ -141,24 +135,20 @@
         <Class IRI="http://ontologies.dbmi.pitt.edu/deepphe/cancer/cancer.owl#DP000006"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#DP000109"/>
-        <Class IRI="#DP000108"/>
-    </SubClassOf>
-    <SubClassOf>
         <Class IRI="#DP000110"/>
-        <Class IRI="#DP000109"/>
+        <Class IRI="http://ontologies.dbmi.pitt.edu/deepphe/cancer/cancer.owl#DP000115"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#DP000111"/>
-        <Class IRI="#DP000109"/>
+        <Class IRI="http://ontologies.dbmi.pitt.edu/deepphe/cancer/cancer.owl#DP000115"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#DP000112"/>
-        <Class IRI="#DP000109"/>
+        <Class IRI="http://ontologies.dbmi.pitt.edu/deepphe/cancer/cancer.owl#DP000115"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#DP000113"/>
-        <Class IRI="#DP000109"/>
+        <Class IRI="http://ontologies.dbmi.pitt.edu/deepphe/cancer/cancer.owl#DP000115"/>
     </SubClassOf>
     <SubObjectPropertyOf>
         <ObjectProperty IRI="#DP000103"/>
@@ -237,16 +227,6 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#DP000107</IRI>
         <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">hasMClassification</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#DP000108</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Attributes</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#DP000109</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Interpretation</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>

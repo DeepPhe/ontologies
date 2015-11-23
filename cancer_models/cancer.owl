@@ -141,6 +141,24 @@
         <Class IRI="#DP000137"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#DP000139"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DP000140"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DP000141"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DP000142"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DP000143"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DP000145"/>
+    </Declaration>
+    <Declaration>
         <ObjectProperty IRI="#DP000023"/>
     </Declaration>
     <Declaration>
@@ -208,6 +226,12 @@
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="#DP000138"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#DP000144"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#DP000146"/>
     </Declaration>
     <Declaration>
         <DataProperty IRI="#DP000123"/>
@@ -385,6 +409,13 @@
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#DP000025"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#DP000144"/>
+            <Class IRI="#DP000139"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#DP000027"/>
         <Class IRI="#DP000026"/>
     </SubClassOf>
@@ -425,6 +456,13 @@
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="#DP000129"/>
             <Class IRI="#DP000122"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DP000029"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#DP000146"/>
+            <Class IRI="#DP000145"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
@@ -551,6 +589,30 @@
         <Class IRI="#DP000137"/>
         <Class IRI="#DP000114"/>
     </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DP000139"/>
+        <Class IRI="#DP000114"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DP000140"/>
+        <Class IRI="#DP000139"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DP000141"/>
+        <Class IRI="#DP000139"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DP000142"/>
+        <Class IRI="#DP000141"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DP000143"/>
+        <Class IRI="#DP000141"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DP000145"/>
+        <Class IRI="#DP000114"/>
+    </SubClassOf>
     <SubObjectPropertyOf>
         <ObjectProperty IRI="#DP000125"/>
         <ObjectProperty IRI="#DP000124"/>
@@ -601,6 +663,14 @@
     </SubObjectPropertyOf>
     <SubObjectPropertyOf>
         <ObjectProperty IRI="#DP000138"/>
+        <ObjectProperty IRI="#DP000124"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#DP000144"/>
+        <ObjectProperty IRI="#DP000124"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#DP000146"/>
         <ObjectProperty IRI="#DP000124"/>
     </SubObjectPropertyOf>
     <InverseObjectProperties>
@@ -699,6 +769,14 @@
         <ObjectProperty IRI="#DP000129"/>
         <Class IRI="#DP000029"/>
     </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#DP000144"/>
+        <Class IRI="#DP000025"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#DP000146"/>
+        <Class IRI="#DP000029"/>
+    </ObjectPropertyDomain>
     <ObjectPropertyRange>
         <ObjectProperty IRI="#DP000023"/>
         <Class IRI="#DP000015"/>
@@ -750,6 +828,14 @@
     <ObjectPropertyRange>
         <ObjectProperty IRI="#DP000129"/>
         <Class IRI="#DP000122"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#DP000144"/>
+        <Class IRI="#DP000139"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#DP000146"/>
+        <Class IRI="#DP000145"/>
     </ObjectPropertyRange>
     <FunctionalDataProperty>
         <DataProperty IRI="#DP000123"/>
@@ -1234,6 +1320,46 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#DP000138</IRI>
         <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">hasProcedureMethod</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#DP000139</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">TumorType</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#DP000140</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">PrimaryTumor</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#DP000141</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Recurrence</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#DP000142</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">LocalRecurrence</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#DP000143</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">DistantRecurrence</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#DP000144</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">hasTumorType</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#DP000145</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">CancerType</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#DP000146</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">hasCancerType</Literal>
     </AnnotationAssertion>
 </Ontology>
 
