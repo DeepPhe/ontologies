@@ -70,6 +70,12 @@
         <Class IRI="#DP000113"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#DP000147"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DP000148"/>
+    </Declaration>
+    <Declaration>
         <ObjectProperty IRI="#DP000103"/>
     </Declaration>
     <Declaration>
@@ -149,6 +155,14 @@
     <SubClassOf>
         <Class IRI="#DP000113"/>
         <Class IRI="http://ontologies.dbmi.pitt.edu/deepphe/cancer/cancer.owl#DP000115"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DP000147"/>
+        <Class IRI="http://ontologies.dbmi.pitt.edu/deepphe/cancer/cancer.owl#DP000145"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DP000148"/>
+        <Class IRI="http://ontologies.dbmi.pitt.edu/deepphe/cancer/cancer.owl#DP000145"/>
     </SubClassOf>
     <SubObjectPropertyOf>
         <ObjectProperty IRI="#DP000103"/>
@@ -247,6 +261,16 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#DP000113</IRI>
         <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Unknown</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#DP000147</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Adenocarcinoma</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#DP000148</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Sarcoma</Literal>
     </AnnotationAssertion>
 </Ontology>
 

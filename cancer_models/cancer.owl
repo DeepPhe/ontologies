@@ -159,6 +159,9 @@
         <Class IRI="#DP000145"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#DP000149"/>
+    </Declaration>
+    <Declaration>
         <ObjectProperty IRI="#DP000023"/>
     </Declaration>
     <Declaration>
@@ -232,6 +235,9 @@
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="#DP000146"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#DP000150"/>
     </Declaration>
     <Declaration>
         <DataProperty IRI="#DP000123"/>
@@ -413,6 +419,13 @@
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="#DP000144"/>
             <Class IRI="#DP000139"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DP000025"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#DP000150"/>
+            <Class IRI="#DP000149"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
@@ -613,6 +626,10 @@
         <Class IRI="#DP000145"/>
         <Class IRI="#DP000114"/>
     </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DP000149"/>
+        <Class IRI="#DP000114"/>
+    </SubClassOf>
     <SubObjectPropertyOf>
         <ObjectProperty IRI="#DP000125"/>
         <ObjectProperty IRI="#DP000124"/>
@@ -671,6 +688,10 @@
     </SubObjectPropertyOf>
     <SubObjectPropertyOf>
         <ObjectProperty IRI="#DP000146"/>
+        <ObjectProperty IRI="#DP000124"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#DP000150"/>
         <ObjectProperty IRI="#DP000124"/>
     </SubObjectPropertyOf>
     <InverseObjectProperties>
@@ -777,6 +798,10 @@
         <ObjectProperty IRI="#DP000146"/>
         <Class IRI="#DP000029"/>
     </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#DP000150"/>
+        <Class IRI="#DP000025"/>
+    </ObjectPropertyDomain>
     <ObjectPropertyRange>
         <ObjectProperty IRI="#DP000023"/>
         <Class IRI="#DP000015"/>
@@ -836,6 +861,10 @@
     <ObjectPropertyRange>
         <ObjectProperty IRI="#DP000146"/>
         <Class IRI="#DP000145"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#DP000150"/>
+        <Class IRI="#DP000149"/>
     </ObjectPropertyRange>
     <FunctionalDataProperty>
         <DataProperty IRI="#DP000123"/>
@@ -1360,6 +1389,16 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#DP000146</IRI>
         <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">hasCancerType</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#DP000149</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">HistologicType</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#DP000150</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">hasHistologicType</Literal>
     </AnnotationAssertion>
 </Ontology>
 
