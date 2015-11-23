@@ -111,6 +111,36 @@
         <Class IRI="#DP000045"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#DP000114"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DP000115"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DP000116"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DP000117"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DP000118"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DP000119"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DP000120"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DP000121"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DP000122"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DP000137"/>
+    </Declaration>
+    <Declaration>
         <ObjectProperty IRI="#DP000023"/>
     </Declaration>
     <Declaration>
@@ -136,6 +166,51 @@
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="#DP000041"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#DP000124"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#DP000125"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#DP000126"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#DP000127"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#DP000128"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#DP000129"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#DP000130"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#DP000131"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#DP000132"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#DP000133"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#DP000134"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#DP000135"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#DP000136"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#DP000138"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#DP000123"/>
     </Declaration>
     <Declaration>
         <AnnotationProperty IRI="#DP000037"/>
@@ -303,6 +378,13 @@
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#DP000025"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#DP000129"/>
+            <Class IRI="#DP000122"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#DP000027"/>
         <Class IRI="#DP000026"/>
     </SubClassOf>
@@ -339,6 +421,13 @@
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#DP000029"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#DP000129"/>
+            <Class IRI="#DP000122"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#DP000044"/>
         <Class IRI="#DP000013"/>
     </SubClassOf>
@@ -346,6 +435,174 @@
         <Class IRI="#DP000045"/>
         <Class IRI="#DP000013"/>
     </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DP000045"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#DP000129"/>
+            <Class IRI="#DP000122"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DP000115"/>
+        <Class IRI="#DP000114"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DP000116"/>
+        <Class IRI="#DP000114"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DP000116"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#DP000125"/>
+            <Class IRI="#DP000120"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DP000116"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="#DP000123"/>
+            <DataUnionOf>
+                <Datatype abbreviatedIRI="xsd:float"/>
+                <Datatype abbreviatedIRI="xsd:integer"/>
+            </DataUnionOf>
+        </DataSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DP000117"/>
+        <Class IRI="#DP000114"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DP000117"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#DP000135"/>
+            <Class IRI="#DP000116"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DP000117"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#DP000136"/>
+            <Class IRI="#DP000116"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DP000118"/>
+        <Class IRI="#DP000114"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DP000118"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#DP000133"/>
+            <Class IRI="#DP000116"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DP000118"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#DP000134"/>
+            <Class IRI="#DP000116"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DP000119"/>
+        <Class IRI="#DP000114"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DP000120"/>
+        <Class IRI="#DP000114"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DP000121"/>
+        <Class IRI="#DP000114"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DP000121"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#DP000130"/>
+            <Class IRI="#DP000116"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DP000121"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#DP000131"/>
+            <Class IRI="#DP000116"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DP000121"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#DP000132"/>
+            <Class IRI="#DP000116"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DP000122"/>
+        <Class IRI="#DP000114"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DP000122"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#DP000128"/>
+            <Class IRI="#DP000119"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DP000137"/>
+        <Class IRI="#DP000114"/>
+    </SubClassOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#DP000125"/>
+        <ObjectProperty IRI="#DP000124"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#DP000126"/>
+        <ObjectProperty IRI="#DP000124"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#DP000127"/>
+        <ObjectProperty IRI="#DP000124"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#DP000128"/>
+        <ObjectProperty IRI="#DP000124"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#DP000129"/>
+        <ObjectProperty IRI="#DP000124"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#DP000130"/>
+        <ObjectProperty IRI="#DP000124"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#DP000131"/>
+        <ObjectProperty IRI="#DP000124"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#DP000132"/>
+        <ObjectProperty IRI="#DP000124"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#DP000133"/>
+        <ObjectProperty IRI="#DP000124"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#DP000134"/>
+        <ObjectProperty IRI="#DP000124"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#DP000135"/>
+        <ObjectProperty IRI="#DP000124"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#DP000136"/>
+        <ObjectProperty IRI="#DP000124"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#DP000138"/>
+        <ObjectProperty IRI="#DP000124"/>
+    </SubObjectPropertyOf>
     <InverseObjectProperties>
         <ObjectProperty IRI="#DP000041"/>
         <ObjectProperty IRI="#DP000030"/>
@@ -410,6 +667,38 @@
         <ObjectProperty IRI="#DP000041"/>
         <Class IRI="#DP000025"/>
     </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#DP000127"/>
+        <Class IRI="#DP000039"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#DP000127"/>
+        <Class IRI="#DP000117"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#DP000127"/>
+        <Class IRI="#DP000118"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#DP000127"/>
+        <Class IRI="#DP000121"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#DP000128"/>
+        <Class IRI="#DP000122"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#DP000129"/>
+        <Class IRI="#DP000013"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#DP000129"/>
+        <Class IRI="#DP000025"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#DP000129"/>
+        <Class IRI="#DP000029"/>
+    </ObjectPropertyDomain>
     <ObjectPropertyRange>
         <ObjectProperty IRI="#DP000023"/>
         <Class IRI="#DP000015"/>
@@ -450,6 +739,32 @@
         <ObjectProperty IRI="#DP000041"/>
         <Class IRI="#DP000029"/>
     </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#DP000127"/>
+        <Class IRI="#DP000116"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#DP000128"/>
+        <Class IRI="#DP000119"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#DP000129"/>
+        <Class IRI="#DP000122"/>
+    </ObjectPropertyRange>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#DP000123"/>
+    </FunctionalDataProperty>
+    <DataPropertyDomain>
+        <DataProperty IRI="#DP000123"/>
+        <Class IRI="#DP000116"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="#DP000123"/>
+        <DataUnionOf>
+            <Datatype abbreviatedIRI="xsd:float"/>
+            <Datatype abbreviatedIRI="xsd:integer"/>
+        </DataUnionOf>
+    </DataPropertyRange>
     <AnnotationAssertion>
         <AnnotationProperty IRI="#DP000037"/>
         <IRI>#DP000001</IRI>
@@ -794,6 +1109,131 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#DP000045</IRI>
         <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">TherapeuticProcedure</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#DP000114</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Attribute</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#DP000115</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Interpretation</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#DP000116</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Quantity</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#DP000117</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">RangeValue</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#DP000118</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Ratio</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#DP000119</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">BodyModifier</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#DP000120</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Unit</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#DP000121</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">DimensionalMeasurement</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#DP000122</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">BodySite</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#DP000123</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">hasNumberValue</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#DP000124</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">hasAttribute</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#DP000125</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">hasUnit</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#DP000126</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">hasInterpretation</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#DP000127</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">hasQuantity</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#DP000128</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">hasBodyModifier</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#DP000129</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">hasBodySite</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#DP000130</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">has1dimension</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#DP000131</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">has2dimension</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#DP000132</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">has3dimension</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#DP000133</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">hasNumerator</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#DP000134</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">hasDenominator</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#DP000135</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">hasLowRangeValue</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#DP000136</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">hasHighRangeValue</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#DP000137</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">ProcedureMethod</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#DP000138</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">hasProcedureMethod</Literal>
     </AnnotationAssertion>
 </Ontology>
 
