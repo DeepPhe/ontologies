@@ -186,74 +186,18 @@
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="http://blulab.chpc.utah.edu/ontologies/v2/SchemaOntology.owl#Stage"/>
-        <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="#hasCancerStage"/>
-            <Class IRI="#CancerStage"/>
-        </ObjectSomeValuesFrom>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="http://blulab.chpc.utah.edu/ontologies/v2/SchemaOntology.owl#Stage"/>
-        <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="#hasTNMClassification"/>
-            <Class IRI="#TNMClassification"/>
-        </ObjectSomeValuesFrom>
-    </SubClassOf>
-    <SubClassOf>
         <Class IRI="#Any_T"/>
         <Class IRI="#Generic_Primary_Tumor_TNM_Finding"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Cancer"/>
-        <Class IRI="http://blulab.chpc.utah.edu/ontologies/v2/SchemaOntology.owl#Phenotype"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Cancer"/>
-        <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="http://blulab.chpc.utah.edu/ontologies/v2/SchemaOntology.owl#hasAgeAbatement"/>
-            <Class IRI="http://blulab.chpc.utah.edu/ontologies/v2/SchemaOntology.owl#Age"/>
-        </ObjectSomeValuesFrom>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Cancer"/>
-        <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="http://blulab.chpc.utah.edu/ontologies/v2/SchemaOntology.owl#hasAgeOnset"/>
-            <Class IRI="http://blulab.chpc.utah.edu/ontologies/v2/SchemaOntology.owl#Age"/>
-        </ObjectSomeValuesFrom>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Cancer"/>
-        <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="http://blulab.chpc.utah.edu/ontologies/v2/SchemaOntology.owl#hasBodyLocation"/>
-            <Class IRI="http://blulab.chpc.utah.edu/ontologies/v2/SchemaOntology.owl#BodySide"/>
-        </ObjectSomeValuesFrom>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Cancer"/>
-        <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="http://blulab.chpc.utah.edu/ontologies/v2/SchemaOntology.owl#hasCourse"/>
-            <Class IRI="http://blulab.chpc.utah.edu/ontologies/v2/SchemaOntology.owl#Course"/>
-        </ObjectSomeValuesFrom>
+        <Class IRI="http://blulab.chpc.utah.edu/ontologies/v2/SchemaOntology.owl#Summary"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Cancer"/>
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="http://blulab.chpc.utah.edu/ontologies/v2/SchemaOntology.owl#hasEncounter"/>
             <Class IRI="http://blulab.chpc.utah.edu/ontologies/v2/SchemaOntology.owl#Encounter"/>
-        </ObjectSomeValuesFrom>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Cancer"/>
-        <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="http://blulab.chpc.utah.edu/ontologies/v2/SchemaOntology.owl#hasSeverity"/>
-            <Class IRI="http://blulab.chpc.utah.edu/ontologies/v2/SchemaOntology.owl#Severity"/>
-        </ObjectSomeValuesFrom>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Cancer"/>
-        <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="http://blulab.chpc.utah.edu/ontologies/v2/SchemaOntology.owl#hasStage"/>
-            <Class IRI="http://blulab.chpc.utah.edu/ontologies/v2/SchemaOntology.owl#Stage"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
@@ -328,7 +272,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#CancerStage"/>
-        <Class IRI="http://blulab.chpc.utah.edu/ontologies/v2/SchemaOntology.owl#SemanticAttribute"/>
+        <Class IRI="http://blulab.chpc.utah.edu/ontologies/v2/ConText.owl#SemanticModifier"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Cancer_TNM_Vessel_Invasion_Finding_Category"/>
@@ -336,7 +280,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#ClinicalPhenotypicComponent"/>
-        <Class IRI="http://blulab.chpc.utah.edu/ontologies/v2/SchemaOntology.owl#PhenotypeAttribute"/>
+        <Class IRI="http://blulab.chpc.utah.edu/ontologies/v2/SchemaOntology.owl#SummaryAttribute"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Diagnostic"/>
@@ -344,7 +288,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Exposure"/>
-        <Class IRI="http://blulab.chpc.utah.edu/ontologies/v2/SchemaOntology.owl#PhenotypeAttribute"/>
+        <Class IRI="http://blulab.chpc.utah.edu/ontologies/v2/SchemaOntology.owl#SummaryAttribute"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Follow-up"/>
@@ -364,7 +308,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#GermlineMutation"/>
-        <Class IRI="http://blulab.chpc.utah.edu/ontologies/v2/SchemaOntology.owl#PhenotypeAttribute"/>
+        <Class IRI="http://blulab.chpc.utah.edu/ontologies/v2/SchemaOntology.owl#SummaryAttribute"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#L0_Stage_Finding"/>
@@ -404,7 +348,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#MolecularComponent"/>
-        <Class IRI="http://blulab.chpc.utah.edu/ontologies/v2/SchemaOntology.owl#PhenotypeAttribute"/>
+        <Class IRI="http://blulab.chpc.utah.edu/ontologies/v2/SchemaOntology.owl#SummaryAttribute"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#N0Stage_Finding"/>
@@ -492,15 +436,15 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#OutcomeComponent"/>
-        <Class IRI="http://blulab.chpc.utah.edu/ontologies/v2/SchemaOntology.owl#PhenotypeAttribute"/>
+        <Class IRI="http://blulab.chpc.utah.edu/ontologies/v2/SchemaOntology.owl#SummaryAttribute"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#PhenotypeStage"/>
-        <Class IRI="http://blulab.chpc.utah.edu/ontologies/v2/SchemaOntology.owl#PhenotypeAttribute"/>
+        <Class IRI="http://blulab.chpc.utah.edu/ontologies/v2/SchemaOntology.owl#SummaryAttribute"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#PhenotypeTNMClassification"/>
-        <Class IRI="http://blulab.chpc.utah.edu/ontologies/v2/SchemaOntology.owl#PhenotypeAttribute"/>
+        <Class IRI="http://blulab.chpc.utah.edu/ontologies/v2/SchemaOntology.owl#SummaryAttribute"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Pre-diagnostic"/>
@@ -540,11 +484,11 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#RelatedFactor"/>
-        <Class IRI="http://blulab.chpc.utah.edu/ontologies/v2/SchemaOntology.owl#PhenotypeAttribute"/>
+        <Class IRI="http://blulab.chpc.utah.edu/ontologies/v2/SchemaOntology.owl#SummaryAttribute"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#SomaticMutation"/>
-        <Class IRI="http://blulab.chpc.utah.edu/ontologies/v2/SchemaOntology.owl#PhenotypeAttribute"/>
+        <Class IRI="http://blulab.chpc.utah.edu/ontologies/v2/SchemaOntology.owl#SummaryAttribute"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Staging"/>
@@ -628,7 +572,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#TNMClassification"/>
-        <Class IRI="http://blulab.chpc.utah.edu/ontologies/v2/SchemaOntology.owl#SemanticAttribute"/>
+        <Class IRI="http://blulab.chpc.utah.edu/ontologies/v2/ConText.owl#SemanticModifier"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#TNMClassification"/>
@@ -660,7 +604,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#TNMValue"/>
-        <Class IRI="http://blulab.chpc.utah.edu/ontologies/v2/SchemaOntology.owl#SemanticAttribute"/>
+        <Class IRI="http://blulab.chpc.utah.edu/ontologies/v2/ConText.owl#SemanticModifier"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#TNMValue"/>
@@ -671,7 +615,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#TNM_Modifier"/>
-        <Class IRI="http://blulab.chpc.utah.edu/ontologies/v2/SchemaOntology.owl#SemanticAttribute"/>
+        <Class IRI="http://blulab.chpc.utah.edu/ontologies/v2/ConText.owl#SemanticModifier"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#TX_Stage_Finding"/>
@@ -691,11 +635,11 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#TreatmentComponent"/>
-        <Class IRI="http://blulab.chpc.utah.edu/ontologies/v2/SchemaOntology.owl#PhenotypeAttribute"/>
+        <Class IRI="http://blulab.chpc.utah.edu/ontologies/v2/SchemaOntology.owl#SummaryAttribute"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Tumor"/>
-        <Class IRI="http://blulab.chpc.utah.edu/ontologies/v2/SchemaOntology.owl#PhenotypeAttribute"/>
+        <Class IRI="http://blulab.chpc.utah.edu/ontologies/v2/SchemaOntology.owl#SummaryAttribute"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Tumor"/>
@@ -873,10 +817,6 @@
         <ObjectProperty IRI="http://blulab.chpc.utah.edu/ontologies/v2/SchemaOntology.owl#hasPhenotypicAttribute"/>
     </SubObjectPropertyOf>
     <ObjectPropertyDomain>
-        <ObjectProperty IRI="#hasCancerStage"/>
-        <Class IRI="http://blulab.chpc.utah.edu/ontologies/v2/SchemaOntology.owl#Stage"/>
-    </ObjectPropertyDomain>
-    <ObjectPropertyDomain>
         <ObjectProperty IRI="#hasClinicalPhenotypicComponent"/>
         <Class IRI="#Tumor"/>
     </ObjectPropertyDomain>
@@ -923,10 +863,6 @@
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#hasTNM"/>
         <Class IRI="#Cancer"/>
-    </ObjectPropertyDomain>
-    <ObjectPropertyDomain>
-        <ObjectProperty IRI="#hasTNMClassification"/>
-        <Class IRI="http://blulab.chpc.utah.edu/ontologies/v2/SchemaOntology.owl#Stage"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#hasTNMModifier"/>
