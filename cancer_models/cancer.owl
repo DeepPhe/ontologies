@@ -162,6 +162,15 @@
         <Class IRI="#DP000149"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#DP000175"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DP000176"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DP000177"/>
+    </Declaration>
+    <Declaration>
         <ObjectProperty IRI="#DP000023"/>
     </Declaration>
     <Declaration>
@@ -629,6 +638,18 @@
     <SubClassOf>
         <Class IRI="#DP000149"/>
         <Class IRI="#DP000114"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DP000175"/>
+        <Class IRI="#DP000114"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DP000176"/>
+        <Class IRI="#DP000175"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DP000177"/>
+        <Class IRI="#DP000175"/>
     </SubClassOf>
     <SubObjectPropertyOf>
         <ObjectProperty IRI="#DP000125"/>
@@ -1399,6 +1420,21 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#DP000150</IRI>
         <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">hasHistologicType</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#DP000175</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">TumorExtent</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#DP000176</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">In-Situ</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#DP000177</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Invasive</Literal>
     </AnnotationAssertion>
 </Ontology>
 
