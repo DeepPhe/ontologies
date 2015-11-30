@@ -652,12 +652,6 @@
         <Class IRI="#DP000352"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#DP000103"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#DP000104"/>
-    </Declaration>
-    <Declaration>
         <ObjectProperty IRI="#DP000105"/>
     </Declaration>
     <Declaration>
@@ -669,9 +663,53 @@
     <Declaration>
         <ObjectProperty IRI="#DP000274"/>
     </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#DP000353"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#DP000354"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#DP000355"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#DP000356"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#DP000357"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#DP000358"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#DP000359"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#DP000360"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#DP000361"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#DP000362"/>
+    </Declaration>
     <SubClassOf>
         <Class IRI="#DP000042"/>
         <Class IRI="http://ontologies.dbmi.pitt.edu/deepphe/cancer/cancer.owl#DP000029"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DP000042"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://ontologies.dbmi.pitt.edu/deepphe/cancer/cancer.owl#DP000031"/>
+            <Class IRI="#DP000043"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DP000042"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://ontologies.dbmi.pitt.edu/deepphe/cancer/cancer.owl#DP000146"/>
+            <Class IRI="http://ontologies.dbmi.pitt.edu/deepphe/cancer/cancer.owl#DP000145"/>
+        </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#DP000043"/>
@@ -680,15 +718,15 @@
     <SubClassOf>
         <Class IRI="#DP000043"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="#DP000103"/>
-            <Class IRI="#DP000101"/>
+            <ObjectProperty IRI="#DP000356"/>
+            <Class IRI="#DP000102"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#DP000043"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="#DP000104"/>
-            <Class IRI="#DP000102"/>
+            <ObjectProperty IRI="#DP000357"/>
+            <Class IRI="#DP000101"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
@@ -712,12 +750,40 @@
         <Class IRI="http://ontologies.dbmi.pitt.edu/deepphe/cancer/cancer.owl#DP000003"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#DP000099"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#DP000362"/>
+            <Class IRI="#DP000095"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#DP000101"/>
         <Class IRI="http://ontologies.dbmi.pitt.edu/deepphe/cancer/cancer.owl#DP000006"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#DP000102"/>
         <Class IRI="http://ontologies.dbmi.pitt.edu/deepphe/cancer/cancer.owl#DP000006"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DP000102"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#DP000105"/>
+            <Class IRI="#DP000199"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DP000102"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#DP000106"/>
+            <Class IRI="#DP000218"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DP000102"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#DP000107"/>
+            <Class IRI="#DP000249"/>
+        </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#DP000110"/>
@@ -816,6 +882,16 @@
         <Class IRI="http://ontologies.dbmi.pitt.edu/deepphe/cancer/cancer.owl#DP000006"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#DP000174"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#DP000353"/>
+            <ObjectUnionOf>
+                <Class IRI="http://ontologies.dbmi.pitt.edu/deepphe/cancer/cancer.owl#DP000116"/>
+                <Class IRI="http://ontologies.dbmi.pitt.edu/deepphe/cancer/cancer.owl#DP000121"/>
+            </ObjectUnionOf>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#DP000178"/>
         <Class IRI="http://ontologies.dbmi.pitt.edu/deepphe/cancer/cancer.owl#DP000007"/>
     </SubClassOf>
@@ -897,7 +973,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#DP000199"/>
-        <Class IRI="#DP000102"/>
+        <Class IRI="http://ontologies.dbmi.pitt.edu/deepphe/cancer/cancer.owl#DP000114"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#DP000200"/>
@@ -973,7 +1049,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#DP000218"/>
-        <Class IRI="#DP000102"/>
+        <Class IRI="http://ontologies.dbmi.pitt.edu/deepphe/cancer/cancer.owl#DP000114"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#DP000219"/>
@@ -1097,7 +1173,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#DP000249"/>
-        <Class IRI="#DP000102"/>
+        <Class IRI="http://ontologies.dbmi.pitt.edu/deepphe/cancer/cancer.owl#DP000114"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#DP000250"/>
@@ -1543,12 +1619,44 @@
         <Class IRI="#DP000179"/>
     </SubClassOf>
     <SubObjectPropertyOf>
-        <ObjectProperty IRI="#DP000103"/>
-        <ObjectProperty IRI="http://ontologies.dbmi.pitt.edu/deepphe/phenotype/cancer.owl#DP000036"/>
+        <ObjectProperty IRI="#DP000353"/>
+        <ObjectProperty IRI="http://ontologies.dbmi.pitt.edu/deepphe/cancer/cancer.owl#DP000124"/>
     </SubObjectPropertyOf>
     <SubObjectPropertyOf>
-        <ObjectProperty IRI="#DP000104"/>
-        <ObjectProperty IRI="http://ontologies.dbmi.pitt.edu/deepphe/phenotype/cancer.owl#DP000036"/>
+        <ObjectProperty IRI="#DP000354"/>
+        <ObjectProperty IRI="http://ontologies.dbmi.pitt.edu/deepphe/cancer/cancer.owl#DP000036"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#DP000355"/>
+        <ObjectProperty IRI="http://ontologies.dbmi.pitt.edu/deepphe/cancer/cancer.owl#DP000036"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#DP000356"/>
+        <ObjectProperty IRI="http://ontologies.dbmi.pitt.edu/deepphe/cancer/cancer.owl#DP000036"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#DP000357"/>
+        <ObjectProperty IRI="http://ontologies.dbmi.pitt.edu/deepphe/cancer/cancer.owl#DP000036"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#DP000358"/>
+        <ObjectProperty IRI="http://ontologies.dbmi.pitt.edu/deepphe/cancer/cancer.owl#DP000035"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#DP000359"/>
+        <ObjectProperty IRI="http://ontologies.dbmi.pitt.edu/deepphe/cancer/cancer.owl#DP000035"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#DP000360"/>
+        <ObjectProperty IRI="http://ontologies.dbmi.pitt.edu/deepphe/cancer/cancer.owl#DP000035"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#DP000361"/>
+        <ObjectProperty IRI="http://ontologies.dbmi.pitt.edu/deepphe/cancer/cancer.owl#DP000035"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#DP000362"/>
+        <ObjectProperty IRI="http://ontologies.dbmi.pitt.edu/deepphe/cancer/cancer.owl#DP000036"/>
     </SubObjectPropertyOf>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -1594,16 +1702,6 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#DP000102</IRI>
         <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Breast Cancer TNM Classification</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#DP000103</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">hasStage</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#DP000104</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">hasTNMClassification</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -2614,6 +2712,56 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#DP000352</IRI>
         <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">BloomRichardsonGrade3</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#DP000353</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">hasNumberValue</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#DP000354</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">hasHistologicGrade</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#DP000355</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">hasCancerStage</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#DP000356</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">hasTNMClassification</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#DP000357</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">hasCancerStage</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#DP000358</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">hasPrimaryTreatment</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#DP000359</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">hasAdjuvantTherapy</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#DP000360</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">hasNeoadjuvantTherapy</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#DP000361</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">hasMetastasisTherapy</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#DP000362</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">hasReceptorStatus</Literal>
     </AnnotationAssertion>
 </Ontology>
 
