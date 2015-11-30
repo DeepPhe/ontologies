@@ -27,6 +27,10 @@
         <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/v2/SchemaOntology.owl#license"/>
         <Literal datatypeIRI="&rdf;PlainLiteral">The DeepPhe Cancer ontology is licensed under the Creative Commons Attribution 4.0 International license. Please see https://creativecommons.org/licenses/by/4.0/legalcode for the entire license.</Literal>
     </Annotation>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="owl:versionInfo"/>
+        <Literal datatypeIRI="&rdf;PlainLiteral">sprint6</Literal>
+    </Annotation>
     <Declaration>
         <Class IRI="#CancerStage"/>
     </Declaration>
