@@ -640,6 +640,18 @@
         <Class IRI="#DP000348"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#DP000349"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DP000350"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DP000351"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DP000352"/>
+    </Declaration>
+    <Declaration>
         <ObjectProperty IRI="#DP000103"/>
     </Declaration>
     <Declaration>
@@ -1514,6 +1526,22 @@
         <Class IRI="#DP000348"/>
         <Class IRI="http://ontologies.dbmi.pitt.edu/deepphe/cancer/cancer.owl#DP000044"/>
     </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DP000349"/>
+        <Class IRI="http://ontologies.dbmi.pitt.edu/deepphe/cancer/cancer.owl#DP000120"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DP000350"/>
+        <Class IRI="#DP000179"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DP000351"/>
+        <Class IRI="#DP000179"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DP000352"/>
+        <Class IRI="#DP000179"/>
+    </SubClassOf>
     <SubObjectPropertyOf>
         <ObjectProperty IRI="#DP000103"/>
         <ObjectProperty IRI="http://ontologies.dbmi.pitt.edu/deepphe/phenotype/cancer.owl#DP000036"/>
@@ -1725,7 +1753,7 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#DP000179</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">BloomRichardsonScore</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">BloomRichardsonGrade</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -2566,6 +2594,26 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#DP000348</IRI>
         <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">AC followed by docetaxel chemo with trastuzumab</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#DP000349</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">mm</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#DP000350</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">BloomRichardsonGrade1</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#DP000351</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">BloomRichardsonGrade2</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#DP000352</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">BloomRichardsonGrade3</Literal>
     </AnnotationAssertion>
 </Ontology>
 
