@@ -177,6 +177,9 @@
         <Class IRI="#DP000364"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#DP000365"/>
+    </Declaration>
+    <Declaration>
         <ObjectProperty IRI="#DP000023"/>
     </Declaration>
     <Declaration>
@@ -1459,6 +1462,11 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#DP000364</IRI>
         <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">EnvironmentalExposure</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#DP000365</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Treatment Side Effect</Literal>
     </AnnotationAssertion>
 </Ontology>
 
