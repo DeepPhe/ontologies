@@ -259,6 +259,14 @@
         <Class IRI="http://blulab.chpc.utah.edu/ontologies/v2/SchemaOntology.owl#SummaryAttribute"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="http://ontologies.dbmi.pitt.edu/deepphe/cancer/cancer.owl#DP000365"/>
+        <Class IRI="http://blulab.chpc.utah.edu/ontologies/v2/SchemaOntology.owl#DP000088"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ontologies.dbmi.pitt.edu/deepphe/cancer/cancer.owl#DP000365"/>
+        <Class IRI="http://blulab.chpc.utah.edu/ontologies/v2/SchemaOntology.owl#Summary"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#Any_T"/>
         <Class IRI="#Generic_Primary_Tumor_TNM_Finding"/>
     </SubClassOf>
