@@ -171,6 +171,12 @@
         <Class IRI="#DP000177"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#DP000363"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DP000364"/>
+    </Declaration>
+    <Declaration>
         <ObjectProperty IRI="#DP000023"/>
     </Declaration>
     <Declaration>
@@ -314,7 +320,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#DP000008"/>
-        <Class IRI="#DP000040"/>
+        <Class IRI="#DP000364"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#DP000016"/>
@@ -650,6 +656,14 @@
     <SubClassOf>
         <Class IRI="#DP000177"/>
         <Class IRI="#DP000175"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DP000363"/>
+        <Class IRI="#DP000040"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DP000364"/>
+        <Class IRI="#DP000363"/>
     </SubClassOf>
     <SubObjectPropertyOf>
         <ObjectProperty IRI="#DP000125"/>
@@ -1139,7 +1153,7 @@
     <AnnotationAssertion>
         <AnnotationProperty IRI="#DP000037"/>
         <IRI>#DP000028</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">A non-exact copy of a sequence_feature or genome exhibiting one or more sequence_alterations when compared to the individual’s germline sequence.</Literal>
+        <Literal datatypeIRI="&rdf;PlainLiteral">A non-exact copy of a sequence_feature or genome exhibiting one or more (somatic) sequence_alterations when compared to the individual’s germline sequence.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -1435,6 +1449,16 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#DP000177</IRI>
         <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Invasive</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#DP000363</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Exposure</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#DP000364</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">EnvironmentalExposure</Literal>
     </AnnotationAssertion>
 </Ontology>
 
