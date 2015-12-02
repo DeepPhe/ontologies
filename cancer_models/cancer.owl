@@ -10,12 +10,12 @@
 
 
 <Ontology xmlns="http://www.w3.org/2002/07/owl#"
-     xml:base="http://ontologies.dbmi.pitt.edu/deepphe/phenotype/cancer.owl"
+     xml:base="http://ontologies.dbmi.pitt.edu/deepphe/cancer/cancer.owl"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-     ontologyIRI="http://ontologies.dbmi.pitt.edu/deepphe/phenotype/cancer.owl">
+     ontologyIRI="http://ontologies.dbmi.pitt.edu/deepphe/cancer/cancer.owl">
     <Prefix name="" IRI="http://www.w3.org/2002/07/owl#"/>
     <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
     <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
@@ -99,6 +99,87 @@
         <Class IRI="#DP000029"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#DP000039"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DP000040"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DP000044"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DP000045"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DP000114"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DP000115"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DP000116"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DP000117"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DP000118"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DP000119"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DP000120"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DP000121"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DP000122"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DP000137"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DP000139"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DP000140"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DP000141"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DP000142"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DP000143"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DP000145"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DP000149"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DP000175"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DP000176"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DP000177"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DP000363"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DP000364"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DP000365"/>
+    </Declaration>
+    <Declaration>
         <ObjectProperty IRI="#DP000023"/>
     </Declaration>
     <Declaration>
@@ -122,13 +203,94 @@
     <Declaration>
         <ObjectProperty IRI="#DP000036"/>
     </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#DP000041"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#DP000124"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#DP000125"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#DP000126"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#DP000127"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#DP000128"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#DP000129"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#DP000130"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#DP000131"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#DP000132"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#DP000133"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#DP000134"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#DP000135"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#DP000136"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#DP000138"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#DP000144"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#DP000146"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#DP000150"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#DP000123"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="#DP000037"/>
+    </Declaration>
     <SubClassOf>
         <Class IRI="#DP000002"/>
         <Class IRI="#DP000001"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#DP000002"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#DP000036"/>
+            <Class IRI="#DP000006"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#DP000003"/>
         <Class IRI="#DP000001"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DP000003"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#DP000036"/>
+            <Class IRI="#DP000006"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DP000003"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#DP000036"/>
+            <Class IRI="#DP000007"/>
+        </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#DP000004"/>
@@ -150,6 +312,18 @@
             <ObjectProperty IRI="#DP000034"/>
             <Class IRI="#DP000012"/>
         </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DP000006"/>
+        <Class IRI="#DP000039"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DP000007"/>
+        <Class IRI="#DP000039"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DP000008"/>
+        <Class IRI="#DP000364"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#DP000016"/>
@@ -252,6 +426,27 @@
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#DP000025"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#DP000129"/>
+            <Class IRI="#DP000122"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DP000025"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#DP000144"/>
+            <Class IRI="#DP000139"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DP000025"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#DP000150"/>
+            <Class IRI="#DP000149"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#DP000027"/>
         <Class IRI="#DP000026"/>
     </SubClassOf>
@@ -287,6 +482,260 @@
             <Class IRI="#DP000013"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DP000029"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#DP000129"/>
+            <Class IRI="#DP000122"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DP000029"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#DP000146"/>
+            <Class IRI="#DP000145"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DP000044"/>
+        <Class IRI="#DP000013"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DP000045"/>
+        <Class IRI="#DP000013"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DP000045"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#DP000129"/>
+            <Class IRI="#DP000122"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DP000115"/>
+        <Class IRI="#DP000114"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DP000116"/>
+        <Class IRI="#DP000114"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DP000116"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#DP000125"/>
+            <Class IRI="#DP000120"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DP000116"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="#DP000123"/>
+            <DataUnionOf>
+                <Datatype abbreviatedIRI="xsd:float"/>
+                <Datatype abbreviatedIRI="xsd:integer"/>
+            </DataUnionOf>
+        </DataSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DP000117"/>
+        <Class IRI="#DP000114"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DP000117"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#DP000135"/>
+            <Class IRI="#DP000116"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DP000117"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#DP000136"/>
+            <Class IRI="#DP000116"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DP000118"/>
+        <Class IRI="#DP000114"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DP000118"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#DP000133"/>
+            <Class IRI="#DP000116"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DP000118"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#DP000134"/>
+            <Class IRI="#DP000116"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DP000119"/>
+        <Class IRI="#DP000114"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DP000120"/>
+        <Class IRI="#DP000114"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DP000121"/>
+        <Class IRI="#DP000114"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DP000121"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#DP000130"/>
+            <Class IRI="#DP000116"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DP000121"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#DP000131"/>
+            <Class IRI="#DP000116"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DP000121"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#DP000132"/>
+            <Class IRI="#DP000116"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DP000122"/>
+        <Class IRI="#DP000114"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DP000122"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#DP000128"/>
+            <Class IRI="#DP000119"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DP000137"/>
+        <Class IRI="#DP000114"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DP000139"/>
+        <Class IRI="#DP000114"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DP000140"/>
+        <Class IRI="#DP000139"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DP000141"/>
+        <Class IRI="#DP000139"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DP000142"/>
+        <Class IRI="#DP000141"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DP000143"/>
+        <Class IRI="#DP000141"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DP000145"/>
+        <Class IRI="#DP000114"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DP000149"/>
+        <Class IRI="#DP000114"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DP000175"/>
+        <Class IRI="#DP000114"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DP000176"/>
+        <Class IRI="#DP000175"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DP000177"/>
+        <Class IRI="#DP000175"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DP000363"/>
+        <Class IRI="#DP000040"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DP000364"/>
+        <Class IRI="#DP000363"/>
+    </SubClassOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#DP000125"/>
+        <ObjectProperty IRI="#DP000124"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#DP000126"/>
+        <ObjectProperty IRI="#DP000124"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#DP000127"/>
+        <ObjectProperty IRI="#DP000124"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#DP000128"/>
+        <ObjectProperty IRI="#DP000124"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#DP000129"/>
+        <ObjectProperty IRI="#DP000124"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#DP000130"/>
+        <ObjectProperty IRI="#DP000124"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#DP000131"/>
+        <ObjectProperty IRI="#DP000124"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#DP000132"/>
+        <ObjectProperty IRI="#DP000124"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#DP000133"/>
+        <ObjectProperty IRI="#DP000124"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#DP000134"/>
+        <ObjectProperty IRI="#DP000124"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#DP000135"/>
+        <ObjectProperty IRI="#DP000124"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#DP000136"/>
+        <ObjectProperty IRI="#DP000124"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#DP000138"/>
+        <ObjectProperty IRI="#DP000124"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#DP000144"/>
+        <ObjectProperty IRI="#DP000124"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#DP000146"/>
+        <ObjectProperty IRI="#DP000124"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#DP000150"/>
+        <ObjectProperty IRI="#DP000124"/>
+    </SubObjectPropertyOf>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#DP000041"/>
+        <ObjectProperty IRI="#DP000030"/>
+    </InverseObjectProperties>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#DP000023"/>
         <Class IRI="#DP000014"/>
@@ -337,11 +786,59 @@
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#DP000036"/>
-        <Class IRI="#DP000025"/>
+        <Class IRI="#DP000002"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#DP000036"/>
+        <Class IRI="#DP000003"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#DP000041"/>
+        <Class IRI="#DP000025"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#DP000127"/>
+        <Class IRI="#DP000039"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#DP000127"/>
+        <Class IRI="#DP000117"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#DP000127"/>
+        <Class IRI="#DP000118"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#DP000127"/>
+        <Class IRI="#DP000121"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#DP000128"/>
+        <Class IRI="#DP000122"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#DP000129"/>
+        <Class IRI="#DP000013"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#DP000129"/>
+        <Class IRI="#DP000025"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#DP000129"/>
         <Class IRI="#DP000029"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#DP000144"/>
+        <Class IRI="#DP000025"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#DP000146"/>
+        <Class IRI="#DP000029"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#DP000150"/>
+        <Class IRI="#DP000025"/>
     </ObjectPropertyDomain>
     <ObjectPropertyRange>
         <ObjectProperty IRI="#DP000023"/>
@@ -379,20 +876,87 @@
         <ObjectProperty IRI="#DP000036"/>
         <Class IRI="#DP000007"/>
     </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#DP000041"/>
+        <Class IRI="#DP000029"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#DP000127"/>
+        <Class IRI="#DP000116"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#DP000128"/>
+        <Class IRI="#DP000119"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#DP000129"/>
+        <Class IRI="#DP000122"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#DP000144"/>
+        <Class IRI="#DP000139"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#DP000146"/>
+        <Class IRI="#DP000145"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#DP000150"/>
+        <Class IRI="#DP000149"/>
+    </ObjectPropertyRange>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#DP000123"/>
+    </FunctionalDataProperty>
+    <DataPropertyDomain>
+        <DataProperty IRI="#DP000123"/>
+        <Class IRI="#DP000116"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="#DP000123"/>
+        <DataUnionOf>
+            <Datatype abbreviatedIRI="xsd:float"/>
+            <Datatype abbreviatedIRI="xsd:integer"/>
+        </DataUnionOf>
+    </DataPropertyRange>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#DP000037"/>
+        <IRI>#DP000001</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">A clinically abnormal phenotype that is characteristic of a single disease.</Literal>
+    </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#DP000001</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Phenotype</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Disease Phenotype</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
+        <IRI>#DP000001</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">OGMS: 0000028</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#DP000037"/>
+        <IRI>#DP000002</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">A clinically abnormal phenotype that is associated with a global quality(ies) of the disease.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#DP000002</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">CancerPhenotype</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Cancer Phenotype</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#DP000037"/>
+        <IRI>#DP000003</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">A clinically abnormal phenotype that is associated with a quality (ies) of a specific tumor.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#DP000003</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">TumorPhenotype</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Tumor Phenotype</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#DP000037"/>
+        <IRI>#DP000004</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">A role which inheres in a person and is realized by the process of being under the care of a physician or health care provider.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -400,19 +964,49 @@
         <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Patient</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
+        <IRI>#DP000004</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">OBI:0000093</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#DP000037"/>
+        <IRI>#DP000006</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">A manifestation of a disease that is detectable in a clinical history taking or physical examination.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#DP000006</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">ClinicalObservation</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Clinical Manifestation Of Disease</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
+        <IRI>#DP000006</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">OGMS: 0000025</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#DP000037"/>
+        <IRI>#DP000007</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">A manifestation of a disease, measurable at the molecular level that is detectable through a</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#DP000007</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">MolecularObservation</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Molecular Manifestation Of Disease</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#DP000037"/>
+        <IRI>#DP000008</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">A process in which a carcinogenic agent is in direct contact with an organism.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#DP000008</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Exposure</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Environmental Exposure to Carcinogenic Agent</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#DP000037"/>
+        <IRI>#DP000012</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">A processual entity that is either the outcome of a disease course or a part of a disease course and has etiological relevance.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -420,9 +1014,29 @@
         <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Outcome</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
+        <IRI>#DP000012</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">APOLLO_SV: 00000204</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#DP000037"/>
+        <IRI>#DP000013</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">A processual entity whose completion is hypothesized (by a healthcare provider) to alleviate the signs and symptoms associated with a disorder.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#DP000013</IRI>
         <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Treatment</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
+        <IRI>#DP000013</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">OGMS:0000090</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#DP000037"/>
+        <IRI>#DP000014</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">A time interval containing an event or a group of events occurring as part of a larger sequence.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -430,9 +1044,14 @@
         <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Episode</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
+        <IRI>#DP000014</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">BFO:0000038</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#DP000015</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">EpisodeType</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Episode Type</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -445,29 +1064,54 @@
         <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">RecurrenceType</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty IRI="#DP000037"/>
+        <IRI>#DP000018</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">The time interval preceding the clinical and laboratory diagnostic procedures related to a cancer diagnosis.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#DP000018</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">PreDiagnosticEpisode</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Pre-diagnostic Episode</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#DP000037"/>
+        <IRI>#DP000019</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">The time interval starting at the presentation of the patient with one or more clinical or laboratory manifestations of the disease and ending when a diagnosis is made.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#DP000019</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">DiagnosticEpisode</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Diagnostic Episode</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#DP000037"/>
+        <IRI>#DP000020</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">The time interval starting with the and ending with an assignment of clinical and/or pathological stage</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#DP000020</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">StagingEpisode</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Staging Episode</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#DP000037"/>
+        <IRI>#DP000021</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">The time interval starting with the first treatment of the primary cancer and ending with the conclusion of the last treatment for the primary cancer, or the  first treatment of the recurrent cancer and ending with the conclusion of the last treatment for the recurrent cancer.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#DP000021</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">TreatmentEpisode</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Treatment Episode</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#DP000037"/>
+        <IRI>#DP000022</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">The time interval starting with the end of the treatment period and continuing to either the death of the patient, or to the start of the first or subsequent  recurrence diagnostic episode.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#DP000022</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">FollowUpEpisode</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Follow Up Episode</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -475,24 +1119,59 @@
         <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">hasEpisodeType</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty IRI="#DP000037"/>
+        <IRI>#DP000025</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">An abnormal space occupying structure arising in any part of the body and resulting from an uncontrolled proliferation of cells.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#DP000025</IRI>
         <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Tumor</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
+        <IRI>#DP000025</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">HP:0002664</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#DP000026</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Genotype</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Sequence Variant</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#DP000037"/>
+        <IRI>#DP000027</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">A non-exact copy of a sequence_feature or genome exhibiting one or more sequence_alterations when compared to the reference genome.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#DP000027</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">PatientGenotype</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Germline Sequence Variant</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
+        <IRI>#DP000027</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">SO:0001060</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#DP000037"/>
+        <IRI>#DP000028</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">A non-exact copy of a sequence_feature or genome exhibiting one or more (somatic) sequence_alterations when compared to the individual’s germline sequence.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#DP000028</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">TumorGenotype</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Tumor Sequence Variant</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
+        <IRI>#DP000028</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">SO:0001060</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#DP000037"/>
+        <IRI>#DP000029</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">A disease of cellular proliferation that is malignant and primary, characterized by uncontrolled cellular proliferation, local cell invasion and metastasis. (DO)</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -500,9 +1179,14 @@
         <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Cancer</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
+        <IRI>#DP000029</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">DOID:162</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#DP000030</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">hasTumor</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">realizes</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -512,7 +1196,7 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#DP000032</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">hasGenotype</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">hasSequenceVariant</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -532,7 +1216,257 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#DP000036</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">hasObservation</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">hasManifestation</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#DP000037</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">definition</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#DP000037"/>
+        <IRI>#DP000039</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">A quality of a patient that is (a) a deviation from clinical normality that exists in virtue of the realization of a disease and (b) is observable.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#DP000039</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Manifestation Of Disease</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
+        <IRI>#DP000039</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">OGMS:0000022</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#DP000040</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Biological Process</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
+        <IRI>#DP000040</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">GO_0008150</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#DP000041</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">realized_in</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#DP000044</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Medication</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#DP000045</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">TherapeuticProcedure</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#DP000114</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Attribute</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#DP000115</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Interpretation</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#DP000116</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Quantity</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#DP000117</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">RangeValue</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#DP000118</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Ratio</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#DP000119</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">BodyModifier</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#DP000120</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Unit</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#DP000121</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">DimensionalMeasurement</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#DP000122</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">BodySite</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#DP000123</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">hasNumberValue</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#DP000124</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">hasAttribute</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#DP000125</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">hasUnit</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#DP000126</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">hasInterpretation</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#DP000127</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">hasQuantity</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#DP000128</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">hasBodyModifier</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#DP000129</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">hasBodySite</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#DP000130</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">has1dimension</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#DP000131</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">has2dimension</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#DP000132</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">has3dimension</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#DP000133</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">hasNumerator</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#DP000134</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">hasDenominator</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#DP000135</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">hasLowRangeValue</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#DP000136</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">hasHighRangeValue</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#DP000137</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">ProcedureMethod</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#DP000138</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">hasProcedureMethod</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#DP000139</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">TumorType</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#DP000140</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">PrimaryTumor</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#DP000141</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Recurrence</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#DP000142</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">LocalRecurrence</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#DP000143</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">DistantRecurrence</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#DP000144</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">hasTumorType</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#DP000145</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">CancerType</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#DP000146</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">hasCancerType</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#DP000149</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">HistologicType</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#DP000150</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">hasHistologicType</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#DP000175</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">TumorExtent</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#DP000176</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">In-Situ</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#DP000177</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Invasive</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#DP000363</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Exposure</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#DP000364</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">EnvironmentalExposure</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#DP000365</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Treatment Side Effect</Literal>
     </AnnotationAssertion>
 </Ontology>
 
