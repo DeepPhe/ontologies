@@ -652,6 +652,9 @@
         <Class IRI="#DP000352"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#DP000366"/>
+    </Declaration>
+    <Declaration>
         <ObjectProperty IRI="#DP000105"/>
     </Declaration>
     <Declaration>
@@ -2762,6 +2765,11 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#DP000362</IRI>
         <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">hasReceptorStatus</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#DP000366</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Nausea</Literal>
     </AnnotationAssertion>
 </Ontology>
 
