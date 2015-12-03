@@ -22,12 +22,12 @@
     <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
     <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
     <Annotation>
-        <AnnotationProperty abbreviatedIRI="owl:versionInfo"/>
-        <Literal datatypeIRI="&rdf;PlainLiteral">Sprint 6</Literal>
-    </Annotation>
-    <Annotation>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <Literal datatypeIRI="&rdf;PlainLiteral">The DeepPhe Cancer ontology is licensed under the Creative Commons Attribution 4.0 International license. Please see https://creativecommons.org/licenses/by/4.0/legalcode for the entire license.</Literal>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="owl:versionInfo"/>
+        <Literal datatypeIRI="&rdf;PlainLiteral">sprint7</Literal>
     </Annotation>
     <Declaration>
         <Class IRI="#DP000001"/>

@@ -29,7 +29,7 @@
     </Annotation>
     <Annotation>
         <AnnotationProperty abbreviatedIRI="owl:versionInfo"/>
-        <Literal datatypeIRI="&rdf;PlainLiteral">sprint6</Literal>
+        <Literal datatypeIRI="&rdf;PlainLiteral">sprint7</Literal>
     </Annotation>
     <Declaration>
         <Class IRI="#CancerStage"/>
