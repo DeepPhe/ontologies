@@ -44,7 +44,13 @@
         <Class IRI="#CancerPhenotype"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#CancerStage"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#CancerType"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CauseOfDeath"/>
     </Declaration>
     <Declaration>
         <Class IRI="#ClinicalManifestationOfDisease"/>
@@ -57,6 +63,9 @@
     </Declaration>
     <Declaration>
         <Class IRI="#DiseasePhenotype"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DistantMetastasisClassification"/>
     </Declaration>
     <Declaration>
         <Class IRI="#DistantRecurrence"/>
@@ -119,6 +128,9 @@
         <Class IRI="#PrimaryTumor"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#PrimaryTumorClassification"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#PrimaryType"/>
     </Declaration>
     <Declaration>
@@ -138,6 +150,9 @@
     </Declaration>
     <Declaration>
         <Class IRI="#RecurrenceType"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#RegionalLymphNodeClassification"/>
     </Declaration>
     <Declaration>
         <Class IRI="#SequenceVariant"/>
@@ -194,6 +209,9 @@
         <ObjectProperty IRI="#hasBodySite"/>
     </Declaration>
     <Declaration>
+        <ObjectProperty IRI="#hasCancerStage"/>
+    </Declaration>
+    <Declaration>
         <ObjectProperty IRI="#hasCancerType"/>
     </Declaration>
     <Declaration>
@@ -218,7 +236,13 @@
         <ObjectProperty IRI="#hasLowRangeValue"/>
     </Declaration>
     <Declaration>
+        <ObjectProperty IRI="#hasMClassification"/>
+    </Declaration>
+    <Declaration>
         <ObjectProperty IRI="#hasManifestation"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasNClassification"/>
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="#hasNumerator"/>
@@ -239,7 +263,16 @@
         <ObjectProperty IRI="#hasSequenceVariant"/>
     </Declaration>
     <Declaration>
+        <ObjectProperty IRI="#hasSideEffect"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasTClassification"/>
+    </Declaration>
+    <Declaration>
         <ObjectProperty IRI="#hasTreatment"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasTumorExtent"/>
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="#hasTumorType"/>
@@ -252,6 +285,9 @@
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="#realizes"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasNumericValue"/>
     </Declaration>
     <SubClassOf>
         <Class IRI="#Attribute"/>
@@ -270,16 +306,101 @@
         <Class IRI="#Attribute"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#BodySite"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasBodyModifier"/>
+            <Class IRI="#BodyModifier"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#Cancer"/>
         <Class abbreviatedIRI="owl:Thing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Cancer"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasBodySite"/>
+            <Class IRI="#BodySite"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Cancer"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasOutcome"/>
+            <Class IRI="#Outcome"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Cancer"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasPhenotype"/>
+            <Class IRI="#CancerPhenotype"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Cancer"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasTreatment"/>
+            <Class IRI="#Treatment"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Cancer"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#realizes"/>
+            <Class IRI="#Tumor"/>
+        </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#CancerPhenotype"/>
         <Class IRI="#DiseasePhenotype"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#CancerPhenotype"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasCancerStage"/>
+            <Class IRI="#CancerStage"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CancerPhenotype"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasCancerType"/>
+            <Class IRI="#CancerType"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CancerPhenotype"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasMClassification"/>
+            <Class IRI="#DistantMetastasisClassification"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CancerPhenotype"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasNClassification"/>
+            <Class IRI="#RegionalLymphNodeClassification"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CancerPhenotype"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasTClassification"/>
+            <Class IRI="#PrimaryTumorClassification"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CancerStage"/>
+        <Class IRI="#ClinicalManifestationOfDisease"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#CancerType"/>
-        <Class IRI="#Attribute"/>
+        <Class IRI="#ClinicalManifestationOfDisease"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CauseOfDeath"/>
+        <Class IRI="#Outcome"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#ClinicalManifestationOfDisease"/>
@@ -294,8 +415,40 @@
         <Class IRI="#Attribute"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#DimensionalMeasurement"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#has1dimension"/>
+            <Class IRI="#Quantity"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DimensionalMeasurement"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#has2dimension"/>
+            <Class IRI="#Quantity"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DimensionalMeasurement"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#has3dimension"/>
+            <Class IRI="#Quantity"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#DiseasePhenotype"/>
         <Class abbreviatedIRI="owl:Thing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DiseasePhenotype"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasManifestation"/>
+            <Class IRI="#ManifestationOfDisease"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DistantMetastasisClassification"/>
+        <Class IRI="#ClinicalManifestationOfDisease"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#DistantRecurrence"/>
@@ -331,7 +484,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#HistologicType"/>
-        <Class IRI="#Attribute"/>
+        <Class IRI="#ClinicalManifestationOfDisease"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#InSitu"/>
@@ -370,12 +523,37 @@
         <Class abbreviatedIRI="owl:Thing"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#Patient"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasExposure"/>
+            <Class IRI="#Exposure"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Patient"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasOutcome"/>
+            <Class IRI="#CauseOfDeath"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Patient"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasSequenceVariant"/>
+            <Class IRI="#GermlineSequenceVariant"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#PrediagnosticEpisode"/>
         <Class IRI="#Episode"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#PrimaryTumor"/>
         <Class IRI="#TumorType"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PrimaryTumorClassification"/>
+        <Class IRI="#ClinicalManifestationOfDisease"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#PrimaryType"/>
@@ -390,12 +568,57 @@
         <Class IRI="#Attribute"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#Quantity"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasUnit"/>
+            <Class IRI="#Unit"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Quantity"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="#hasNumericValue"/>
+            <DataUnionOf>
+                <Datatype abbreviatedIRI="xsd:float"/>
+                <Datatype abbreviatedIRI="xsd:int"/>
+            </DataUnionOf>
+        </DataSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#RangeValue"/>
         <Class IRI="#Attribute"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#RangeValue"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasHighRangeValue"/>
+            <Class IRI="#Quantity"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#RangeValue"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasLowRangeValue"/>
+            <Class IRI="#Quantity"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#Ratio"/>
         <Class IRI="#Attribute"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Ratio"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasDenominator"/>
+            <Class IRI="#Quantity"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Ratio"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasNumerator"/>
+            <Class IRI="#Quantity"/>
+        </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Recurrence"/>
@@ -404,6 +627,10 @@
     <SubClassOf>
         <Class IRI="#RecurrenceType"/>
         <Class IRI="#EpisodeType"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#RegionalLymphNodeClassification"/>
+        <Class IRI="#ClinicalManifestationOfDisease"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#SequenceVariant"/>
@@ -422,6 +649,13 @@
         <Class abbreviatedIRI="owl:Thing"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#Treatment"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasSideEffect"/>
+            <Class IRI="#TreatmentSideEffect"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#TreatmentEpisode"/>
         <Class IRI="#Episode"/>
     </SubClassOf>
@@ -430,8 +664,50 @@
         <Class abbreviatedIRI="owl:Thing"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#Tumor"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasBodySite"/>
+            <Class IRI="#BodySite"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Tumor"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasOutcome"/>
+            <Class IRI="#Outcome"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Tumor"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasPhenotype"/>
+            <Class IRI="#TumorPhenotype"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Tumor"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasSequenceVariant"/>
+            <Class IRI="#TumorSequenceVariant"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Tumor"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasTreatment"/>
+            <Class IRI="#Treatment"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Tumor"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasTumorType"/>
+            <Class IRI="#TumorType"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#TumorExtent"/>
-        <Class IRI="#Attribute"/>
+        <Class IRI="#ClinicalManifestationOfDisease"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#TumorPhenotype"/>
@@ -470,8 +746,12 @@
         <ObjectProperty IRI="#hasAttribute"/>
     </SubObjectPropertyOf>
     <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasCancerStage"/>
+        <ObjectProperty IRI="#hasManifestation"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
         <ObjectProperty IRI="#hasCancerType"/>
-        <ObjectProperty IRI="#hasAttribute"/>
+        <ObjectProperty IRI="#hasManifestation"/>
     </SubObjectPropertyOf>
     <SubObjectPropertyOf>
         <ObjectProperty IRI="#hasDenominator"/>
@@ -483,7 +763,7 @@
     </SubObjectPropertyOf>
     <SubObjectPropertyOf>
         <ObjectProperty IRI="#hasHistologicType"/>
-        <ObjectProperty IRI="#hasAttribute"/>
+        <ObjectProperty IRI="#hasManifestation"/>
     </SubObjectPropertyOf>
     <SubObjectPropertyOf>
         <ObjectProperty IRI="#hasInterpretation"/>
@@ -492,6 +772,14 @@
     <SubObjectPropertyOf>
         <ObjectProperty IRI="#hasLowRangeValue"/>
         <ObjectProperty IRI="#hasAttribute"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasMClassification"/>
+        <ObjectProperty IRI="#hasManifestation"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasNClassification"/>
+        <ObjectProperty IRI="#hasManifestation"/>
     </SubObjectPropertyOf>
     <SubObjectPropertyOf>
         <ObjectProperty IRI="#hasNumerator"/>
@@ -506,6 +794,14 @@
         <ObjectProperty IRI="#hasAttribute"/>
     </SubObjectPropertyOf>
     <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasTClassification"/>
+        <ObjectProperty IRI="#hasManifestation"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasTumorExtent"/>
+        <ObjectProperty IRI="#hasManifestation"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
         <ObjectProperty IRI="#hasTumorType"/>
         <ObjectProperty IRI="#hasAttribute"/>
     </SubObjectPropertyOf>
@@ -514,9 +810,45 @@
         <ObjectProperty IRI="#hasAttribute"/>
     </SubObjectPropertyOf>
     <InverseObjectProperties>
-        <ObjectProperty IRI="#realized_in"/>
         <ObjectProperty IRI="#realizes"/>
+        <ObjectProperty IRI="#realized_in"/>
     </InverseObjectProperties>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#has1dimension"/>
+        <Class IRI="#DimensionalMeasurement"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#has2dimension"/>
+        <Class IRI="#DimensionalMeasurement"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#has3dimension"/>
+        <Class IRI="#DimensionalMeasurement"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasBodyModifier"/>
+        <Class IRI="#BodySite"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasBodySite"/>
+        <Class IRI="#Cancer"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasBodySite"/>
+        <Class IRI="#Tumor"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasCancerStage"/>
+        <Class IRI="#CancerPhenotype"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasCancerType"/>
+        <Class IRI="#CancerPhenotype"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasDenominator"/>
+        <Class IRI="#Ratio"/>
+    </ObjectPropertyDomain>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#hasEpisodeType"/>
         <Class IRI="#Episode"/>
@@ -524,6 +856,30 @@
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#hasExposure"/>
         <Class IRI="#Patient"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasHighRangeValue"/>
+        <Class IRI="#RangeValue"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasHistologicType"/>
+        <Class IRI="#CancerPhenotype"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasHistologicType"/>
+        <Class IRI="#TumorPhenotype"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasInterpretation"/>
+        <Class IRI="#ManifestationOfDisease"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasLowRangeValue"/>
+        <Class IRI="#RangeValue"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasMClassification"/>
+        <Class IRI="#CancerPhenotype"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#hasManifestation"/>
@@ -534,6 +890,14 @@
         <Class IRI="#TumorPhenotype"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasNClassification"/>
+        <Class IRI="#CancerPhenotype"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasNumerator"/>
+        <Class IRI="#Ratio"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
         <ObjectProperty IRI="#hasOutcome"/>
         <Class IRI="#Cancer"/>
     </ObjectPropertyDomain>
@@ -554,6 +918,14 @@
         <Class IRI="#Tumor"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasProcedureMethod"/>
+        <Class IRI="#ManifestationOfDisease"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasQuantity"/>
+        <Class IRI="#ManifestationOfDisease"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
         <ObjectProperty IRI="#hasSequenceVariant"/>
         <Class IRI="#Patient"/>
     </ObjectPropertyDomain>
@@ -562,12 +934,36 @@
         <Class IRI="#Tumor"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasSideEffect"/>
+        <Class IRI="#Treatment"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasTClassification"/>
+        <Class IRI="#CancerPhenotype"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
         <ObjectProperty IRI="#hasTreatment"/>
         <Class IRI="#Cancer"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#hasTreatment"/>
         <Class IRI="#Tumor"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasTumorExtent"/>
+        <Class IRI="#CancerPhenotype"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasTumorExtent"/>
+        <Class IRI="#TumorPhenotype"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasTumorType"/>
+        <Class IRI="#Tumor"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasUnit"/>
+        <Class IRI="#Quantity"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#realized_in"/>
@@ -578,6 +974,38 @@
         <Class IRI="#Cancer"/>
     </ObjectPropertyDomain>
     <ObjectPropertyRange>
+        <ObjectProperty IRI="#has1dimension"/>
+        <Class IRI="#Quantity"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#has2dimension"/>
+        <Class IRI="#Quantity"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#has3dimension"/>
+        <Class IRI="#Quantity"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasBodyModifier"/>
+        <Class IRI="#BodyModifier"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasBodySite"/>
+        <Class IRI="#BodySite"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasCancerStage"/>
+        <Class IRI="#CancerStage"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasCancerType"/>
+        <Class IRI="#CancerType"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasDenominator"/>
+        <Class IRI="#Quantity"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
         <ObjectProperty IRI="#hasEpisodeType"/>
         <Class IRI="#EpisodeType"/>
     </ObjectPropertyRange>
@@ -586,8 +1014,36 @@
         <Class IRI="#Exposure"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasHighRangeValue"/>
+        <Class IRI="#Quantity"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasHistologicType"/>
+        <Class IRI="#HistologicType"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasInterpretation"/>
+        <Class IRI="#Interpretation"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasLowRangeValue"/>
+        <Class IRI="#Quantity"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasMClassification"/>
+        <Class IRI="#DistantMetastasisClassification"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
         <ObjectProperty IRI="#hasManifestation"/>
         <Class IRI="#ManifestationOfDisease"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasNClassification"/>
+        <Class IRI="#RegionalLymphNodeClassification"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasNumerator"/>
+        <Class IRI="#Quantity"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
         <ObjectProperty IRI="#hasOutcome"/>
@@ -598,12 +1054,40 @@
         <Class IRI="#DiseasePhenotype"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasProcedureMethod"/>
+        <Class IRI="#ProcedureMethod"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasQuantity"/>
+        <Class IRI="#Quantity"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
         <ObjectProperty IRI="#hasSequenceVariant"/>
         <Class IRI="#SequenceVariant"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasSideEffect"/>
+        <Class IRI="#TreatmentSideEffect"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasTClassification"/>
+        <Class IRI="#PrimaryTumorClassification"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
         <ObjectProperty IRI="#hasTreatment"/>
         <Class IRI="#Treatment"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasTumorExtent"/>
+        <Class IRI="#TumorExtent"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasTumorType"/>
+        <Class IRI="#TumorType"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasUnit"/>
+        <Class IRI="#Unit"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
         <ObjectProperty IRI="#realized_in"/>
@@ -613,6 +1097,18 @@
         <ObjectProperty IRI="#realizes"/>
         <Class IRI="#Tumor"/>
     </ObjectPropertyRange>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasNumericValue"/>
+        <Class IRI="#Quantity"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasNumericValue"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasNumericValue"/>
+        <Datatype abbreviatedIRI="xsd:int"/>
+    </DataPropertyRange>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#Attribute</IRI>
