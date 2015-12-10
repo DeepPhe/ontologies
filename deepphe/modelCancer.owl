@@ -1,0 +1,1414 @@
+<?xml version="1.0"?>
+
+
+<!DOCTYPE Ontology [
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY xml "http://www.w3.org/XML/1998/namespace" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+]>
+
+
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://ontologies.dbmi.pitt.edu/deepphe/modelCancer.owl"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://ontologies.dbmi.pitt.edu/deepphe/modelCancer.owl">
+    <Prefix name="" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="owl:versionInfo"/>
+        <Literal datatypeIRI="&rdf;PlainLiteral">sprint6.1</Literal>
+    </Annotation>
+    <Declaration>
+        <Class IRI="#Attribute"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#BiologicalProcess"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#BodyModifier"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#BodySite"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Cancer"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CancerPhenotype"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CancerStage"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CancerType"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CauseOfDeath"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ClinicalManifestationOfDisease"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DiagnosticEpisode"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DimensionalMeasurement"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DiseasePhenotype"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DistantMetastasisClassification"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DistantRecurrence"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#EnvironmentalExposure"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#EnvironmentalExposureToCarcinogenicAgent"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Episode"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#EpisodeType"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Exposure"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FollowUpEpisode"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#GermlineSequenceVariant"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#HistologicType"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#InSitu"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Interpretation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Invasive"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#LocalRecurrence"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ManifestationOfDisease"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Medication"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MolecularManifestationOfDisease"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Outcome"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Patient"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PrediagnosticEpisode"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PrimaryTumor"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PrimaryTumorClassification"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PrimaryType"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ProcedureMethod"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Quantity"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#RangeValue"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Ratio"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Recurrence"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#RecurrenceType"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#RegionalLymphNodeClassification"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SequenceVariant"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#StagingEpisode"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TherapeuticProcedure"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Treatment"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TreatmentEpisode"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TreatmentSideEffect"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Tumor"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TumorExtent"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TumorPhenotype"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TumorSequenceVariant"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TumorType"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Unit"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has1dimension"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has2dimension"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has3dimension"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasAttribute"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasBodyModifier"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasBodySite"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasCancerStage"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasCancerType"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasDenominator"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasEpisodeType"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasExposure"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasHighRangeValue"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasHistologicType"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasInterpretation"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasLowRangeValue"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasMClassification"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasManifestation"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasNClassification"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasNumerator"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasOutcome"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasPhenotype"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasProcedureMethod"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasQuantity"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasSequenceVariant"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasSideEffect"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasTClassification"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasTreatment"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasTumorExtent"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasTumorType"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasUnit"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#realized_in"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#realizes"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasNumericValue"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#BodyModifier"/>
+        <Class IRI="#Attribute"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BodySite"/>
+        <Class IRI="#Attribute"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BodySite"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasBodyModifier"/>
+            <Class IRI="#BodyModifier"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Cancer"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasBodySite"/>
+            <Class IRI="#BodySite"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Cancer"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasOutcome"/>
+            <Class IRI="#Outcome"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Cancer"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasPhenotype"/>
+            <Class IRI="#CancerPhenotype"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Cancer"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasTreatment"/>
+            <Class IRI="#Treatment"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Cancer"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#realizes"/>
+            <Class IRI="#Tumor"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CancerPhenotype"/>
+        <Class IRI="#DiseasePhenotype"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CancerPhenotype"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasCancerStage"/>
+            <Class IRI="#CancerStage"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CancerPhenotype"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasCancerType"/>
+            <Class IRI="#CancerType"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CancerPhenotype"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasMClassification"/>
+            <Class IRI="#DistantMetastasisClassification"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CancerPhenotype"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasNClassification"/>
+            <Class IRI="#RegionalLymphNodeClassification"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CancerPhenotype"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasTClassification"/>
+            <Class IRI="#PrimaryTumorClassification"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CancerStage"/>
+        <Class IRI="#ClinicalManifestationOfDisease"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CancerType"/>
+        <Class IRI="#ClinicalManifestationOfDisease"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CauseOfDeath"/>
+        <Class IRI="#Outcome"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ClinicalManifestationOfDisease"/>
+        <Class IRI="#ManifestationOfDisease"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DiagnosticEpisode"/>
+        <Class IRI="#Episode"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DimensionalMeasurement"/>
+        <Class IRI="#Attribute"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DimensionalMeasurement"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#has1dimension"/>
+            <Class IRI="#Quantity"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DimensionalMeasurement"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#has2dimension"/>
+            <Class IRI="#Quantity"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DimensionalMeasurement"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#has3dimension"/>
+            <Class IRI="#Quantity"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DiseasePhenotype"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasManifestation"/>
+            <Class IRI="#ManifestationOfDisease"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DistantMetastasisClassification"/>
+        <Class IRI="#ClinicalManifestationOfDisease"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DistantRecurrence"/>
+        <Class IRI="#Recurrence"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#EnvironmentalExposure"/>
+        <Class IRI="#Exposure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#EnvironmentalExposureToCarcinogenicAgent"/>
+        <Class IRI="#EnvironmentalExposure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Exposure"/>
+        <Class IRI="#BiologicalProcess"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FollowUpEpisode"/>
+        <Class IRI="#Episode"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#GermlineSequenceVariant"/>
+        <Class IRI="#SequenceVariant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#HistologicType"/>
+        <Class IRI="#ClinicalManifestationOfDisease"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#InSitu"/>
+        <Class IRI="#TumorExtent"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Interpretation"/>
+        <Class IRI="#Attribute"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Invasive"/>
+        <Class IRI="#TumorExtent"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#LocalRecurrence"/>
+        <Class IRI="#Recurrence"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Medication"/>
+        <Class IRI="#Treatment"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MolecularManifestationOfDisease"/>
+        <Class IRI="#ManifestationOfDisease"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Patient"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasExposure"/>
+            <Class IRI="#Exposure"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Patient"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasOutcome"/>
+            <Class IRI="#CauseOfDeath"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Patient"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasSequenceVariant"/>
+            <Class IRI="#GermlineSequenceVariant"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PrediagnosticEpisode"/>
+        <Class IRI="#Episode"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PrimaryTumor"/>
+        <Class IRI="#TumorType"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PrimaryTumorClassification"/>
+        <Class IRI="#ClinicalManifestationOfDisease"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PrimaryType"/>
+        <Class IRI="#EpisodeType"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ProcedureMethod"/>
+        <Class IRI="#Attribute"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Quantity"/>
+        <Class IRI="#Attribute"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Quantity"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasUnit"/>
+            <Class IRI="#Unit"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Quantity"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="#hasNumericValue"/>
+            <DataUnionOf>
+                <Datatype abbreviatedIRI="xsd:float"/>
+                <Datatype abbreviatedIRI="xsd:int"/>
+            </DataUnionOf>
+        </DataSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#RangeValue"/>
+        <Class IRI="#Attribute"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#RangeValue"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasHighRangeValue"/>
+            <Class IRI="#Quantity"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#RangeValue"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasLowRangeValue"/>
+            <Class IRI="#Quantity"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Ratio"/>
+        <Class IRI="#Attribute"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Ratio"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasDenominator"/>
+            <Class IRI="#Quantity"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Ratio"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasNumerator"/>
+            <Class IRI="#Quantity"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Recurrence"/>
+        <Class IRI="#TumorType"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#RecurrenceType"/>
+        <Class IRI="#EpisodeType"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#RegionalLymphNodeClassification"/>
+        <Class IRI="#ClinicalManifestationOfDisease"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#StagingEpisode"/>
+        <Class IRI="#Episode"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TherapeuticProcedure"/>
+        <Class IRI="#Treatment"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Treatment"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasSideEffect"/>
+            <Class IRI="#TreatmentSideEffect"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TreatmentEpisode"/>
+        <Class IRI="#Episode"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Tumor"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasBodySite"/>
+            <Class IRI="#BodySite"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Tumor"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasOutcome"/>
+            <Class IRI="#Outcome"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Tumor"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasPhenotype"/>
+            <Class IRI="#TumorPhenotype"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Tumor"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasSequenceVariant"/>
+            <Class IRI="#TumorSequenceVariant"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Tumor"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasTreatment"/>
+            <Class IRI="#Treatment"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Tumor"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasTumorType"/>
+            <Class IRI="#TumorType"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TumorExtent"/>
+        <Class IRI="#ClinicalManifestationOfDisease"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TumorPhenotype"/>
+        <Class IRI="#DiseasePhenotype"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TumorSequenceVariant"/>
+        <Class IRI="#SequenceVariant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TumorType"/>
+        <Class IRI="#Attribute"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Unit"/>
+        <Class IRI="#Attribute"/>
+    </SubClassOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#has1dimension"/>
+        <ObjectProperty IRI="#hasAttribute"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#has2dimension"/>
+        <ObjectProperty IRI="#hasAttribute"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#has3dimension"/>
+        <ObjectProperty IRI="#hasAttribute"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasBodyModifier"/>
+        <ObjectProperty IRI="#hasAttribute"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasBodySite"/>
+        <ObjectProperty IRI="#hasAttribute"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasCancerStage"/>
+        <ObjectProperty IRI="#hasManifestation"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasCancerType"/>
+        <ObjectProperty IRI="#hasManifestation"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasDenominator"/>
+        <ObjectProperty IRI="#hasAttribute"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasHighRangeValue"/>
+        <ObjectProperty IRI="#hasAttribute"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasHistologicType"/>
+        <ObjectProperty IRI="#hasManifestation"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasInterpretation"/>
+        <ObjectProperty IRI="#hasAttribute"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasLowRangeValue"/>
+        <ObjectProperty IRI="#hasAttribute"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasMClassification"/>
+        <ObjectProperty IRI="#hasManifestation"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasNClassification"/>
+        <ObjectProperty IRI="#hasManifestation"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasNumerator"/>
+        <ObjectProperty IRI="#hasAttribute"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasProcedureMethod"/>
+        <ObjectProperty IRI="#hasAttribute"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasQuantity"/>
+        <ObjectProperty IRI="#hasAttribute"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasTClassification"/>
+        <ObjectProperty IRI="#hasManifestation"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasTumorExtent"/>
+        <ObjectProperty IRI="#hasManifestation"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasTumorType"/>
+        <ObjectProperty IRI="#hasAttribute"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasUnit"/>
+        <ObjectProperty IRI="#hasAttribute"/>
+    </SubObjectPropertyOf>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#realizes"/>
+        <ObjectProperty IRI="#realized_in"/>
+    </InverseObjectProperties>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#has1dimension"/>
+        <Class IRI="#DimensionalMeasurement"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#has2dimension"/>
+        <Class IRI="#DimensionalMeasurement"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#has3dimension"/>
+        <Class IRI="#DimensionalMeasurement"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasBodyModifier"/>
+        <Class IRI="#BodySite"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasBodySite"/>
+        <Class IRI="#Cancer"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasBodySite"/>
+        <Class IRI="#Tumor"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasCancerStage"/>
+        <Class IRI="#CancerPhenotype"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasCancerType"/>
+        <Class IRI="#CancerPhenotype"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasDenominator"/>
+        <Class IRI="#Ratio"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasEpisodeType"/>
+        <Class IRI="#Episode"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasExposure"/>
+        <Class IRI="#Patient"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasHighRangeValue"/>
+        <Class IRI="#RangeValue"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasHistologicType"/>
+        <Class IRI="#CancerPhenotype"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasHistologicType"/>
+        <Class IRI="#TumorPhenotype"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasInterpretation"/>
+        <Class IRI="#ManifestationOfDisease"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasLowRangeValue"/>
+        <Class IRI="#RangeValue"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasMClassification"/>
+        <Class IRI="#CancerPhenotype"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasManifestation"/>
+        <Class IRI="#CancerPhenotype"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasManifestation"/>
+        <Class IRI="#TumorPhenotype"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasNClassification"/>
+        <Class IRI="#CancerPhenotype"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasNumerator"/>
+        <Class IRI="#Ratio"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasOutcome"/>
+        <Class IRI="#Cancer"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasOutcome"/>
+        <Class IRI="#Patient"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasOutcome"/>
+        <Class IRI="#Tumor"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasPhenotype"/>
+        <Class IRI="#Cancer"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasPhenotype"/>
+        <Class IRI="#Tumor"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasProcedureMethod"/>
+        <Class IRI="#ManifestationOfDisease"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasQuantity"/>
+        <Class IRI="#ManifestationOfDisease"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasSequenceVariant"/>
+        <Class IRI="#Patient"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasSequenceVariant"/>
+        <Class IRI="#Tumor"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasSideEffect"/>
+        <Class IRI="#Treatment"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasTClassification"/>
+        <Class IRI="#CancerPhenotype"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasTreatment"/>
+        <Class IRI="#Cancer"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasTreatment"/>
+        <Class IRI="#Tumor"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasTumorExtent"/>
+        <Class IRI="#CancerPhenotype"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasTumorExtent"/>
+        <Class IRI="#TumorPhenotype"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasTumorType"/>
+        <Class IRI="#Tumor"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasUnit"/>
+        <Class IRI="#Quantity"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#realized_in"/>
+        <Class IRI="#Tumor"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#realizes"/>
+        <Class IRI="#Cancer"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#has1dimension"/>
+        <Class IRI="#Quantity"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#has2dimension"/>
+        <Class IRI="#Quantity"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#has3dimension"/>
+        <Class IRI="#Quantity"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasBodyModifier"/>
+        <Class IRI="#BodyModifier"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasBodySite"/>
+        <Class IRI="#BodySite"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasCancerStage"/>
+        <Class IRI="#CancerStage"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasCancerType"/>
+        <Class IRI="#CancerType"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasDenominator"/>
+        <Class IRI="#Quantity"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasEpisodeType"/>
+        <Class IRI="#EpisodeType"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasExposure"/>
+        <Class IRI="#Exposure"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasHighRangeValue"/>
+        <Class IRI="#Quantity"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasHistologicType"/>
+        <Class IRI="#HistologicType"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasInterpretation"/>
+        <Class IRI="#Interpretation"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasLowRangeValue"/>
+        <Class IRI="#Quantity"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasMClassification"/>
+        <Class IRI="#DistantMetastasisClassification"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasManifestation"/>
+        <Class IRI="#ManifestationOfDisease"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasNClassification"/>
+        <Class IRI="#RegionalLymphNodeClassification"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasNumerator"/>
+        <Class IRI="#Quantity"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasOutcome"/>
+        <Class IRI="#Outcome"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasPhenotype"/>
+        <Class IRI="#DiseasePhenotype"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasProcedureMethod"/>
+        <Class IRI="#ProcedureMethod"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasQuantity"/>
+        <Class IRI="#Quantity"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasSequenceVariant"/>
+        <Class IRI="#SequenceVariant"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasSideEffect"/>
+        <Class IRI="#TreatmentSideEffect"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasTClassification"/>
+        <Class IRI="#PrimaryTumorClassification"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasTreatment"/>
+        <Class IRI="#Treatment"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasTumorExtent"/>
+        <Class IRI="#TumorExtent"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasTumorType"/>
+        <Class IRI="#TumorType"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasUnit"/>
+        <Class IRI="#Unit"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#realized_in"/>
+        <Class IRI="#Cancer"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#realizes"/>
+        <Class IRI="#Tumor"/>
+    </ObjectPropertyRange>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasNumericValue"/>
+        <Class IRI="#Quantity"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasNumericValue"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasNumericValue"/>
+        <Datatype abbreviatedIRI="xsd:int"/>
+    </DataPropertyRange>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Attribute</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Attribute</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#BiologicalProcess</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">BiologicalProcess</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
+        <IRI>#BiologicalProcess</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">GO_0008150</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#BodyModifier</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">BodyModifier</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#BodySite</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">BodySite</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Cancer</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">A disease of cellular proliferation that is malignant and primary, characterized by uncontrolled cellular proliferation, local cell invasion and metastasis. (DO)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Cancer</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Cancer</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
+        <IRI>#Cancer</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">DOID:162</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#CancerPhenotype</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">A clinically abnormal phenotype that is associated with a global quality(ies) of the disease.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CancerPhenotype</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">CancerPhenotype</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#CancerType</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">CancerType</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#ClinicalManifestationOfDisease</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">A manifestation of a disease that is detectable in a clinical history taking or physical examination.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
+        <IRI>#ClinicalManifestationOfDisease</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">OGMS: 0000025</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#DiagnosticEpisode</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">The time interval starting at the presentation of the patient with one or more clinical or laboratory manifestations of the disease and ending when a diagnosis is made.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#DiagnosticEpisode</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">DiagnosticEpisode</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#DimensionalMeasurement</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">DimensionalMeasurement</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#DiseasePhenotype</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">A clinically abnormal phenotype that is characteristic of a single disease.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#DiseasePhenotype</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">DiseasePhenotype</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
+        <IRI>#DiseasePhenotype</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">OGMS: 0000028</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#DistantRecurrence</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">DistantRecurrence</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#EnvironmentalExposure</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">EnvironmentExposure</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#EnvironmentalExposureToCarcinogenicAgent</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">EnvironmentalExposureToCarcinogenicAgent</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Episode</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">A time interval containing an event or a group of events occurring as part of a larger sequence.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Episode</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Episode</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
+        <IRI>#Episode</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">BFO:0000038</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#EpisodeType</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">EpisodeType</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Exposure</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Exposure</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#FollowUpEpisode</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">The time interval starting with the end of the treatment period and continuing to either the death of the patient, or to the start of the first or subsequent  recurrence diagnostic episode.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#FollowUpEpisode</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">FollowUpEpisode</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#GermlineSequenceVariant</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">A non-exact copy of a sequence_feature or genome exhibiting one or more sequence_alterations when compared to the reference genome.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
+        <IRI>#GermlineSequenceVariant</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">SO:0001060</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#HistologicType</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">HistologicType</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#InSitu</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">In-Situ</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Interpretation</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Interpretation</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Invasive</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Invasive</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#LocalRecurrence</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">LocalRecurrence</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#ManifestationOfDisease</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">A quality of a patient that is (a) a deviation from clinical normality that exists in virtue of the realization of a disease and (b) is observable.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#ManifestationOfDisease</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">ManifestionOfDisease</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
+        <IRI>#ManifestationOfDisease</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">OGMS:0000022</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#MolecularManifestationOfDisease</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">A manifestation of a disease, measurable at the molecular level that is detectable through a</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Outcome</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">A processual entity that is either the outcome of a disease course or a part of a disease course and has etiological relevance.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Outcome</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Outcome</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
+        <IRI>#Outcome</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">APOLLO_SV: 00000204</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Patient</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">A role which inheres in a person and is realized by the process of being under the care of a physician or health care provider.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Patient</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Patient</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
+        <IRI>#Patient</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">OBI:0000093</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#PrediagnosticEpisode</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">The time interval preceding the clinical and laboratory diagnostic procedures related to a cancer diagnosis.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#PrimaryTumor</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">PrimaryTumor</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#ProcedureMethod</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">ProcedureMethod</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Quantity</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Quantity</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#RangeValue</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">RangeValue</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Ratio</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Ratio</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Recurrence</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Recurrence</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#SequenceVariant</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">SequenceVariant</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#StagingEpisode</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">The time interval starting with the and ending with an assignment of clinical and/or pathological stage.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Treatment</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">A processual entity whose completion is hypothesized (by a healthcare provider) to alleviate the signs and symptoms associated with a disorder.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Treatment</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Treatment</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
+        <IRI>#Treatment</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">OGMS:0000090</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#TreatmentEpisode</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">The time interval starting with the first treatment of the primary cancer and ending with the conclusion of the last treatment for the primary cancer, or the  first treatment of the recurrent cancer and ending with the conclusion of the last treatment for the recurrent cancer.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#TreatmentSideEffect</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">TreatmentSideEffect</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Tumor</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">An abnormal space occupying structure arising in any part of the body and resulting from an uncontrolled proliferation of cells.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
+        <IRI>#Tumor</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">HP:0002664</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#TumorExtent</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">TumorExtent</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#TumorPhenotype</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">A clinically abnormal phenotype that is associated with a quality (ies) of a specific tumor.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#TumorPhenotype</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">TumorPhenotype</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#TumorSequenceVariant</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">A non-exact copy of a sequence_feature or genome exhibiting one or more (somatic) sequence_alterations when compared to the individual’s germline sequence.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
+        <IRI>#TumorSequenceVariant</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">SO:0001060</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#TumorType</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">TumorType</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Unit</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Unit</Literal>
+    </AnnotationAssertion>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 3.5.1) http://owlapi.sourceforge.net -->
+
