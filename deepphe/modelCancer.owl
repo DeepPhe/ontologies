@@ -290,14 +290,6 @@
         <DataProperty IRI="#hasNumericValue"/>
     </Declaration>
     <SubClassOf>
-        <Class IRI="#Attribute"/>
-        <Class abbreviatedIRI="owl:Thing"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#BiologicalProcess"/>
-        <Class abbreviatedIRI="owl:Thing"/>
-    </SubClassOf>
-    <SubClassOf>
         <Class IRI="#BodyModifier"/>
         <Class IRI="#Attribute"/>
     </SubClassOf>
@@ -311,10 +303,6 @@
             <ObjectProperty IRI="#hasBodyModifier"/>
             <Class IRI="#BodyModifier"/>
         </ObjectSomeValuesFrom>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Cancer"/>
-        <Class abbreviatedIRI="owl:Thing"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Cancer"/>
@@ -437,10 +425,6 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#DiseasePhenotype"/>
-        <Class abbreviatedIRI="owl:Thing"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#DiseasePhenotype"/>
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="#hasManifestation"/>
             <Class IRI="#ManifestationOfDisease"/>
@@ -461,14 +445,6 @@
     <SubClassOf>
         <Class IRI="#EnvironmentalExposureToCarcinogenicAgent"/>
         <Class IRI="#EnvironmentalExposure"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Episode"/>
-        <Class abbreviatedIRI="owl:Thing"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#EpisodeType"/>
-        <Class abbreviatedIRI="owl:Thing"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Exposure"/>
@@ -503,24 +479,12 @@
         <Class IRI="#Recurrence"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#ManifestationOfDisease"/>
-        <Class abbreviatedIRI="owl:Thing"/>
-    </SubClassOf>
-    <SubClassOf>
         <Class IRI="#Medication"/>
         <Class IRI="#Treatment"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#MolecularManifestationOfDisease"/>
         <Class IRI="#ManifestationOfDisease"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Outcome"/>
-        <Class abbreviatedIRI="owl:Thing"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Patient"/>
-        <Class abbreviatedIRI="owl:Thing"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Patient"/>
@@ -633,20 +597,12 @@
         <Class IRI="#ClinicalManifestationOfDisease"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#SequenceVariant"/>
-        <Class abbreviatedIRI="owl:Thing"/>
-    </SubClassOf>
-    <SubClassOf>
         <Class IRI="#StagingEpisode"/>
         <Class IRI="#Episode"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#TherapeuticProcedure"/>
         <Class IRI="#Treatment"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Treatment"/>
-        <Class abbreviatedIRI="owl:Thing"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Treatment"/>
@@ -658,10 +614,6 @@
     <SubClassOf>
         <Class IRI="#TreatmentEpisode"/>
         <Class IRI="#Episode"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#TreatmentSideEffect"/>
-        <Class abbreviatedIRI="owl:Thing"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Tumor"/>

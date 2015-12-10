@@ -147,10 +147,6 @@
         <Class IRI="http://blulab.chpc.utah.edu/ontologies/v2/SchemaOntology.owl#Summary"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="http://ontologies.dbmi.pitt.edu/deepphe/modelCancer.owl#CancerType"/>
-        <Class IRI="http://blulab.chpc.utah.edu/ontologies/v2/SchemaOntology.owl#SummaryAttribute"/>
-    </SubClassOf>
-    <SubClassOf>
         <Class IRI="http://ontologies.dbmi.pitt.edu/deepphe/modelCancer.owl#DimensionalMeasurement"/>
         <Class IRI="http://blulab.chpc.utah.edu/ontologies/v2/SchemaOntology.owl#SummaryAttribute"/>
     </SubClassOf>
@@ -169,10 +165,6 @@
     <SubClassOf>
         <Class IRI="http://ontologies.dbmi.pitt.edu/deepphe/modelCancer.owl#EpisodeType"/>
         <Class IRI="http://blulab.chpc.utah.edu/ontologies/v2/SchemaOntology.owl#DP000088"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="http://ontologies.dbmi.pitt.edu/deepphe/modelCancer.owl#HistologicType"/>
-        <Class IRI="http://blulab.chpc.utah.edu/ontologies/v2/SchemaOntology.owl#SummaryAttribute"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="http://ontologies.dbmi.pitt.edu/deepphe/modelCancer.owl#Interpretation"/>
@@ -249,10 +241,6 @@
     <SubClassOf>
         <Class IRI="http://ontologies.dbmi.pitt.edu/deepphe/modelCancer.owl#Tumor"/>
         <Class IRI="http://blulab.chpc.utah.edu/ontologies/v2/SchemaOntology.owl#Summary"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="http://ontologies.dbmi.pitt.edu/deepphe/modelCancer.owl#TumorExtent"/>
-        <Class IRI="http://blulab.chpc.utah.edu/ontologies/v2/SchemaOntology.owl#SummaryAttribute"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="http://ontologies.dbmi.pitt.edu/deepphe/modelCancer.owl#TumorType"/>
