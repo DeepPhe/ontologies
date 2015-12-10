@@ -1,0 +1,1445 @@
+<?xml version="1.0"?>
+
+
+<!DOCTYPE Ontology [
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY xml "http://www.w3.org/XML/1998/namespace" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+]>
+
+
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://ontologies.dbmi.pitt.edu/deepphe/modelBreastCancer.owl"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://ontologies.dbmi.pitt.edu/deepphe/modelBreastCancer.owl">
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Import>http://ontologies.dbmi.pitt.edu/deepphe/modelCancer.owl</Import>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="owl:versionInfo"/>
+        <Literal datatypeIRI="&rdf;PlainLiteral">sprint6.1</Literal>
+    </Annotation>
+    <Declaration>
+        <Class IRI="#ACChemo"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Abraxane"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Adenocarcinoma"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#AdjuvantChemotherapy"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Arimidex-Anastrozole"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Aromasin-Exemestane"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#BRCAmutation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#BRMT"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#BestOverallResponse"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#BloomRichardsonGrade"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Bone"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Brain"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Breast"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#BreastCancer"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#BreastCancerPhenotype"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#BreastCancerStage"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#BreastCancerTumorPhenotype"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CAFChemo"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CEFChemo"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CISH"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CMFChemo"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Capecitabine"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Capecitabine-Lapatinib"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Carboplatinum"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Carboplatinum-Paclitaxel"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CauseOfDeath"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Chemotherapy"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Cisplatin"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ClinicalRegionalLymphNodeClassification"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Clodronate"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CompleteResponse"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Denosumab"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DistantMetastasisClassification"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Docetaxel"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Docetaxel-Doxorubicin-Cyclophosphamide"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Doxetaxel-Cyclophosphamide-Trastuzumab"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Ductal"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ECChemo"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Endocrine"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#EndocrineTherapy"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Epirubicin"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Equivocal"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Eribulin"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#EstrogenReceptorStatus"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Etoposide"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#EvaluationOfNonTargetLesion"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#EvaluationOfTargetLesion"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Everolimus"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Everolimus-Afinitor-Aromasin-Exemestane"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ExcisionalBiopsy"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Exemestane-Everolimus"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FACChemo"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FISH"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Fareston-Toremifene"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Faslodex-Fulvestrant"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Femara-Letrozole"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#GNRH"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Gemcitabine"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Gemcitabine-Carboplatin"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#HER2NeuReceptorStatus"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#IHC"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Indeterminate"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Ki-67Status"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Lapatinib"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Left"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Liver"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Lobular"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Lumpectomy"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Lung"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#M0"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#M1"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MTOR"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Mastectomy"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Megace-Megestrol"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MetastaticChemoRegimen"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MetastaticTargetedTherapy"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Mitoxontrone"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ModifiedRadicalMastectomy"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Mucinous"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#N0"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#N1"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#N2"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#N2a"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#N2b"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#N3"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#N3a"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#N3b"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#N3c"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NX"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Negative"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NeoadjuvantChemotherapy"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NonCR_NonPD"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OvarianSuppression"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PARP"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PTENmutation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Paclitaxel"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PagetsDisease"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Papillary"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PartialResponse"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PathologicRegionalLymphNodeClassification"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PegylatedLiposoalDoxorubicin"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Peritoneum"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Pertuzumab"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Pertuzumab-Perjeta"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Positive"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Post-TherapyTumorSize"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Pre-TherapyTumorSize"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PrimaryTumorClassification"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ProgesteroneReceptorStatus"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ProgressiveDisease"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ProphylacticSurgery"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#RECISTCategory"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#RECISTCategoryType"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#RadicalMastectomy"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#RadiologicTumorSize"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Radiotherapy"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Re-Excision"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ReceptorStatus"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#RegionalLymphNodeClassification"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Right"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Sarcoma"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SegmentalMastectomy"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#StableDisease"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Stage0"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#StageI"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#StageIA"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#StageIB"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#StageII"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#StageIIA"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#StageIIB"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#StageIII"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#StageIIIA"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#StageIIIB"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#StageIIIC"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#StageIV"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SurgicalAblation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SurgicalOopherectomy"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#T0"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#T1"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#T1a"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#T1b"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#T1c"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#T1mi"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#T2"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#T3"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#T4"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#T4a"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#T4b"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#T4c"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#T4d"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TACChemo"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TCChemo"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TCHChemo"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TX"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Tamoxifen-Nolvadex"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TargetedTherapy"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Taxol"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Taxotere"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Taxotere-Carboplatin-Trastuzumab-Pertuzumab"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Tis"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Tis_DCIS"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Tis_LCIS"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Tis_Paget"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TotalSimpleMastectomy"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Trastuzumab"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Trastuzumab-Herceptin"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Trastuzumab-Paclitaxel"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Triple_Negative"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Triple_Positive"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Tubular"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TumorSize"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Unknown"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Vinorelbine"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ZoledronicAcid"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#cM0iplus"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#mm"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#p53Mutation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#pN0"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#pN0_iminus"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#pN0_iplus"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#pN0_molminus"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#pN0_molplus"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#pN1"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#pN1a"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#pN1b"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#pN1c"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#pN1mi"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#pN2"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#pN2a"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#pN2b"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#pN3"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#pN3a"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#pN3b"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#pN3c"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#pNX"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#6Cyclophosphamide"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#ACChemo"/>
+        <Class IRI="http://ontologies.dbmi.pitt.edu/deepphe/modelCancer.owl#Medication"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Abraxane"/>
+        <Class IRI="http://ontologies.dbmi.pitt.edu/deepphe/modelCancer.owl#Medication"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Adenocarcinoma"/>
+        <Class IRI="http://ontologies.dbmi.pitt.edu/deepphe/modelCancer.owl#CancerType"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AdjuvantChemotherapy"/>
+        <Class IRI="#Chemotherapy"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Arimidex-Anastrozole"/>
+        <Class IRI="http://ontologies.dbmi.pitt.edu/deepphe/modelCancer.owl#Medication"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Aromasin-Exemestane"/>
+        <Class IRI="http://ontologies.dbmi.pitt.edu/deepphe/modelCancer.owl#Medication"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BRCAmutation"/>
+        <Class IRI="http://ontologies.dbmi.pitt.edu/deepphe/modelCancer.owl#GermlineSequenceVariant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BRMT"/>
+        <Class IRI="http://ontologies.dbmi.pitt.edu/deepphe/modelCancer.owl#Medication"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BestOverallResponse"/>
+        <Class IRI="#RECISTCategory"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BloomRichardsonGrade"/>
+        <Class IRI="http://ontologies.dbmi.pitt.edu/deepphe/modelCancer.owl#ClinicalManifestationOfDisease"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Bone"/>
+        <Class IRI="http://ontologies.dbmi.pitt.edu/deepphe/modelCancer.owl#BodySite"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Brain"/>
+        <Class IRI="http://ontologies.dbmi.pitt.edu/deepphe/modelCancer.owl#BodySite"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Breast"/>
+        <Class IRI="http://ontologies.dbmi.pitt.edu/deepphe/modelCancer.owl#BodySite"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BreastCancer"/>
+        <Class IRI="http://ontologies.dbmi.pitt.edu/deepphe/modelCancer.owl#Cancer"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BreastCancerPhenotype"/>
+        <Class IRI="http://ontologies.dbmi.pitt.edu/deepphe/modelCancer.owl#CancerPhenotype"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BreastCancerStage"/>
+        <Class IRI="http://ontologies.dbmi.pitt.edu/deepphe/modelCancer.owl#ClinicalManifestationOfDisease"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BreastCancerTumorPhenotype"/>
+        <Class IRI="http://ontologies.dbmi.pitt.edu/deepphe/modelCancer.owl#TumorPhenotype"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CAFChemo"/>
+        <Class IRI="http://ontologies.dbmi.pitt.edu/deepphe/modelCancer.owl#Medication"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CEFChemo"/>
+        <Class IRI="http://ontologies.dbmi.pitt.edu/deepphe/modelCancer.owl#Medication"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CISH"/>
+        <Class IRI="http://ontologies.dbmi.pitt.edu/deepphe/modelCancer.owl#ProcedureMethod"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CMFChemo"/>
+        <Class IRI="http://ontologies.dbmi.pitt.edu/deepphe/modelCancer.owl#Medication"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Capecitabine"/>
+        <Class IRI="http://ontologies.dbmi.pitt.edu/deepphe/modelCancer.owl#Medication"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Capecitabine-Lapatinib"/>
+        <Class IRI="http://ontologies.dbmi.pitt.edu/deepphe/modelCancer.owl#Medication"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Carboplatinum"/>
+        <Class IRI="http://ontologies.dbmi.pitt.edu/deepphe/modelCancer.owl#Medication"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Carboplatinum-Paclitaxel"/>
+        <Class IRI="http://ontologies.dbmi.pitt.edu/deepphe/modelCancer.owl#Medication"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CauseOfDeath"/>
+        <Class IRI="http://ontologies.dbmi.pitt.edu/deepphe/modelCancer.owl#Outcome"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Chemotherapy"/>
+        <Class IRI="http://ontologies.dbmi.pitt.edu/deepphe/modelCancer.owl#TherapeuticProcedure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Cisplatin"/>
+        <Class IRI="http://ontologies.dbmi.pitt.edu/deepphe/modelCancer.owl#Medication"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ClinicalRegionalLymphNodeClassification"/>
+        <Class IRI="#RegionalLymphNodeClassification"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Clodronate"/>
+        <Class IRI="http://ontologies.dbmi.pitt.edu/deepphe/modelCancer.owl#Medication"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CompleteResponse"/>
+        <Class IRI="#RECISTCategoryType"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Denosumab"/>
+        <Class IRI="http://ontologies.dbmi.pitt.edu/deepphe/modelCancer.owl#Medication"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DistantMetastasisClassification"/>
+        <Class IRI="http://ontologies.dbmi.pitt.edu/deepphe/modelCancer.owl#ClinicalManifestationOfDisease"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Docetaxel"/>
+        <Class IRI="http://ontologies.dbmi.pitt.edu/deepphe/modelCancer.owl#Medication"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Docetaxel-Doxorubicin-Cyclophosphamide"/>
+        <Class IRI="http://ontologies.dbmi.pitt.edu/deepphe/modelCancer.owl#Medication"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Doxetaxel-Cyclophosphamide-Trastuzumab"/>
+        <Class IRI="http://ontologies.dbmi.pitt.edu/deepphe/modelCancer.owl#Medication"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Ductal"/>
+        <Class IRI="http://ontologies.dbmi.pitt.edu/deepphe/modelCancer.owl#HistologicType"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ECChemo"/>
+        <Class IRI="http://ontologies.dbmi.pitt.edu/deepphe/modelCancer.owl#Medication"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Endocrine"/>
+        <Class IRI="http://ontologies.dbmi.pitt.edu/deepphe/modelCancer.owl#Medication"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#EndocrineTherapy"/>
+        <Class IRI="http://ontologies.dbmi.pitt.edu/deepphe/modelCancer.owl#TherapeuticProcedure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Epirubicin"/>
+        <Class IRI="http://ontologies.dbmi.pitt.edu/deepphe/modelCancer.owl#Medication"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Equivocal"/>
+        <Class IRI="http://ontologies.dbmi.pitt.edu/deepphe/modelCancer.owl#Interpretation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Eribulin"/>
+        <Class IRI="http://ontologies.dbmi.pitt.edu/deepphe/modelCancer.owl#Medication"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#EstrogenReceptorStatus"/>
+        <Class IRI="#ReceptorStatus"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Etoposide"/>
+        <Class IRI="http://ontologies.dbmi.pitt.edu/deepphe/modelCancer.owl#Medication"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#EvaluationOfNonTargetLesion"/>
+        <Class IRI="#RECISTCategory"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#EvaluationOfTargetLesion"/>
+        <Class IRI="#RECISTCategory"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Everolimus"/>
+        <Class IRI="http://ontologies.dbmi.pitt.edu/deepphe/modelCancer.owl#Medication"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Everolimus-Afinitor-Aromasin-Exemestane"/>
+        <Class IRI="http://ontologies.dbmi.pitt.edu/deepphe/modelCancer.owl#Medication"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ExcisionalBiopsy"/>
+        <Class IRI="http://ontologies.dbmi.pitt.edu/deepphe/modelCancer.owl#TherapeuticProcedure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Exemestane-Everolimus"/>
+        <Class IRI="http://ontologies.dbmi.pitt.edu/deepphe/modelCancer.owl#Medication"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FACChemo"/>
+        <Class IRI="http://ontologies.dbmi.pitt.edu/deepphe/modelCancer.owl#Medication"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FISH"/>
+        <Class IRI="http://ontologies.dbmi.pitt.edu/deepphe/modelCancer.owl#ProcedureMethod"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Fareston-Toremifene"/>
+        <Class IRI="http://ontologies.dbmi.pitt.edu/deepphe/modelCancer.owl#Medication"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Faslodex-Fulvestrant"/>
+        <Class IRI="http://ontologies.dbmi.pitt.edu/deepphe/modelCancer.owl#Medication"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Femara-Letrozole"/>
+        <Class IRI="http://ontologies.dbmi.pitt.edu/deepphe/modelCancer.owl#Medication"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#GNRH"/>
+        <Class IRI="http://ontologies.dbmi.pitt.edu/deepphe/modelCancer.owl#Medication"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Gemcitabine"/>
+        <Class IRI="http://ontologies.dbmi.pitt.edu/deepphe/modelCancer.owl#Medication"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Gemcitabine-Carboplatin"/>
+        <Class IRI="http://ontologies.dbmi.pitt.edu/deepphe/modelCancer.owl#Medication"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#HER2NeuReceptorStatus"/>
+        <Class IRI="#ReceptorStatus"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#IHC"/>
+        <Class IRI="http://ontologies.dbmi.pitt.edu/deepphe/modelCancer.owl#ProcedureMethod"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Indeterminate"/>
+        <Class IRI="http://ontologies.dbmi.pitt.edu/deepphe/modelCancer.owl#Interpretation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Ki-67Status"/>
+        <Class IRI="http://ontologies.dbmi.pitt.edu/deepphe/modelCancer.owl#MolecularManifestationOfDisease"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Lapatinib"/>
+        <Class IRI="http://ontologies.dbmi.pitt.edu/deepphe/modelCancer.owl#Medication"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Left"/>
+        <Class IRI="http://ontologies.dbmi.pitt.edu/deepphe/modelCancer.owl#BodyModifier"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Liver"/>
+        <Class IRI="http://ontologies.dbmi.pitt.edu/deepphe/modelCancer.owl#BodySite"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Lobular"/>
+        <Class IRI="http://ontologies.dbmi.pitt.edu/deepphe/modelCancer.owl#HistologicType"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Lumpectomy"/>
+        <Class IRI="http://ontologies.dbmi.pitt.edu/deepphe/modelCancer.owl#TherapeuticProcedure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Lung"/>
+        <Class IRI="http://ontologies.dbmi.pitt.edu/deepphe/modelCancer.owl#BodySite"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#M0"/>
+        <Class IRI="#DistantMetastasisClassification"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#M1"/>
+        <Class IRI="#DistantMetastasisClassification"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MTOR"/>
+        <Class IRI="http://ontologies.dbmi.pitt.edu/deepphe/modelCancer.owl#Medication"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Mastectomy"/>
+        <Class IRI="http://ontologies.dbmi.pitt.edu/deepphe/modelCancer.owl#TherapeuticProcedure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Megace-Megestrol"/>
+        <Class IRI="http://ontologies.dbmi.pitt.edu/deepphe/modelCancer.owl#Medication"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MetastaticChemoRegimen"/>
+        <Class IRI="#Chemotherapy"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MetastaticTargetedTherapy"/>
+        <Class IRI="#TargetedTherapy"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Mitoxontrone"/>
+        <Class IRI="http://ontologies.dbmi.pitt.edu/deepphe/modelCancer.owl#Medication"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ModifiedRadicalMastectomy"/>
+        <Class IRI="#RadicalMastectomy"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Mucinous"/>
+        <Class IRI="http://ontologies.dbmi.pitt.edu/deepphe/modelCancer.owl#HistologicType"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#N0"/>
+        <Class IRI="#ClinicalRegionalLymphNodeClassification"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#N1"/>
+        <Class IRI="#ClinicalRegionalLymphNodeClassification"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#N2"/>
+        <Class IRI="#ClinicalRegionalLymphNodeClassification"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#N2a"/>
+        <Class IRI="#N2"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#N2b"/>
+        <Class IRI="#N2"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#N3"/>
+        <Class IRI="#ClinicalRegionalLymphNodeClassification"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#N3a"/>
+        <Class IRI="#N3"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#N3b"/>
+        <Class IRI="#N3"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#N3c"/>
+        <Class IRI="#N3"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#NX"/>
+        <Class IRI="#ClinicalRegionalLymphNodeClassification"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Negative"/>
+        <Class IRI="http://ontologies.dbmi.pitt.edu/deepphe/modelCancer.owl#Interpretation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#NeoadjuvantChemotherapy"/>
+        <Class IRI="#Chemotherapy"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#NonCR_NonPD"/>
+        <Class IRI="#RECISTCategoryType"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OvarianSuppression"/>
+        <Class IRI="http://ontologies.dbmi.pitt.edu/deepphe/modelCancer.owl#Medication"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PARP"/>
+        <Class IRI="http://ontologies.dbmi.pitt.edu/deepphe/modelCancer.owl#Medication"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PTENmutation"/>
+        <Class IRI="http://ontologies.dbmi.pitt.edu/deepphe/modelCancer.owl#GermlineSequenceVariant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Paclitaxel"/>
+        <Class IRI="http://ontologies.dbmi.pitt.edu/deepphe/modelCancer.owl#Medication"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PagetsDisease"/>
+        <Class IRI="http://ontologies.dbmi.pitt.edu/deepphe/modelCancer.owl#ClinicalManifestationOfDisease"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Papillary"/>
+        <Class IRI="http://ontologies.dbmi.pitt.edu/deepphe/modelCancer.owl#HistologicType"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PartialResponse"/>
+        <Class IRI="#RECISTCategoryType"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PathologicRegionalLymphNodeClassification"/>
+        <Class IRI="#RegionalLymphNodeClassification"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PegylatedLiposoalDoxorubicin"/>
+        <Class IRI="http://ontologies.dbmi.pitt.edu/deepphe/modelCancer.owl#Medication"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Peritoneum"/>
+        <Class IRI="http://ontologies.dbmi.pitt.edu/deepphe/modelCancer.owl#BodySite"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Pertuzumab"/>
+        <Class IRI="http://ontologies.dbmi.pitt.edu/deepphe/modelCancer.owl#Medication"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Pertuzumab-Perjeta"/>
+        <Class IRI="http://ontologies.dbmi.pitt.edu/deepphe/modelCancer.owl#Medication"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Positive"/>
+        <Class IRI="http://ontologies.dbmi.pitt.edu/deepphe/modelCancer.owl#Interpretation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Post-TherapyTumorSize"/>
+        <Class IRI="#TumorSize"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Pre-TherapyTumorSize"/>
+        <Class IRI="#TumorSize"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PrimaryTumorClassification"/>
+        <Class IRI="http://ontologies.dbmi.pitt.edu/deepphe/modelCancer.owl#ClinicalManifestationOfDisease"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ProgesteroneReceptorStatus"/>
+        <Class IRI="#ReceptorStatus"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ProgressiveDisease"/>
+        <Class IRI="#RECISTCategoryType"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ProphylacticSurgery"/>
+        <Class IRI="http://ontologies.dbmi.pitt.edu/deepphe/modelCancer.owl#TherapeuticProcedure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#RECISTCategory"/>
+        <Class IRI="http://ontologies.dbmi.pitt.edu/deepphe/modelCancer.owl#ClinicalManifestationOfDisease"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#RECISTCategoryType"/>
+        <Class IRI="http://ontologies.dbmi.pitt.edu/deepphe/modelCancer.owl#Attribute"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#RadicalMastectomy"/>
+        <Class IRI="#Mastectomy"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#RadiologicTumorSize"/>
+        <Class IRI="#TumorSize"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Radiotherapy"/>
+        <Class IRI="http://ontologies.dbmi.pitt.edu/deepphe/modelCancer.owl#TherapeuticProcedure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Re-Excision"/>
+        <Class IRI="http://ontologies.dbmi.pitt.edu/deepphe/modelCancer.owl#TherapeuticProcedure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ReceptorStatus"/>
+        <Class IRI="http://ontologies.dbmi.pitt.edu/deepphe/modelCancer.owl#MolecularManifestationOfDisease"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#RegionalLymphNodeClassification"/>
+        <Class IRI="http://ontologies.dbmi.pitt.edu/deepphe/modelCancer.owl#ClinicalManifestationOfDisease"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Right"/>
+        <Class IRI="http://ontologies.dbmi.pitt.edu/deepphe/modelCancer.owl#BodyModifier"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sarcoma"/>
+        <Class IRI="http://ontologies.dbmi.pitt.edu/deepphe/modelCancer.owl#CancerType"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SegmentalMastectomy"/>
+        <Class IRI="#Mastectomy"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#StableDisease"/>
+        <Class IRI="#RECISTCategoryType"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Stage0"/>
+        <Class IRI="#BreastCancerStage"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#StageI"/>
+        <Class IRI="#BreastCancerStage"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#StageIA"/>
+        <Class IRI="#StageI"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#StageIB"/>
+        <Class IRI="#StageI"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#StageII"/>
+        <Class IRI="#BreastCancerStage"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#StageIIA"/>
+        <Class IRI="#StageII"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#StageIIB"/>
+        <Class IRI="#StageII"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#StageIII"/>
+        <Class IRI="#BreastCancerStage"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#StageIIIA"/>
+        <Class IRI="#StageIII"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#StageIIIB"/>
+        <Class IRI="#StageIII"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#StageIIIC"/>
+        <Class IRI="#StageIII"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#StageIV"/>
+        <Class IRI="#BreastCancerStage"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SurgicalAblation"/>
+        <Class IRI="http://ontologies.dbmi.pitt.edu/deepphe/modelCancer.owl#TherapeuticProcedure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SurgicalOopherectomy"/>
+        <Class IRI="#SurgicalAblation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#T0"/>
+        <Class IRI="#PrimaryTumorClassification"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#T1"/>
+        <Class IRI="#PrimaryTumorClassification"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#T1a"/>
+        <Class IRI="#T1"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#T1b"/>
+        <Class IRI="#T1"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#T1c"/>
+        <Class IRI="#T1"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#T1mi"/>
+        <Class IRI="#T1"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#T2"/>
+        <Class IRI="#PrimaryTumorClassification"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#T3"/>
+        <Class IRI="#PrimaryTumorClassification"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#T4"/>
+        <Class IRI="#PrimaryTumorClassification"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#T4a"/>
+        <Class IRI="#T4"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#T4b"/>
+        <Class IRI="#T4"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#T4c"/>
+        <Class IRI="#T4"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#T4d"/>
+        <Class IRI="#T4"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TACChemo"/>
+        <Class IRI="http://ontologies.dbmi.pitt.edu/deepphe/modelCancer.owl#Medication"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TCChemo"/>
+        <Class IRI="http://ontologies.dbmi.pitt.edu/deepphe/modelCancer.owl#Medication"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TCHChemo"/>
+        <Class IRI="http://ontologies.dbmi.pitt.edu/deepphe/modelCancer.owl#Medication"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TX"/>
+        <Class IRI="#PrimaryTumorClassification"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Tamoxifen-Nolvadex"/>
+        <Class IRI="http://ontologies.dbmi.pitt.edu/deepphe/modelCancer.owl#Medication"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TargetedTherapy"/>
+        <Class IRI="http://ontologies.dbmi.pitt.edu/deepphe/modelCancer.owl#TherapeuticProcedure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Taxol"/>
+        <Class IRI="http://ontologies.dbmi.pitt.edu/deepphe/modelCancer.owl#Medication"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Taxotere"/>
+        <Class IRI="http://ontologies.dbmi.pitt.edu/deepphe/modelCancer.owl#Medication"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Taxotere-Carboplatin-Trastuzumab-Pertuzumab"/>
+        <Class IRI="http://ontologies.dbmi.pitt.edu/deepphe/modelCancer.owl#Medication"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Tis"/>
+        <Class IRI="#PrimaryTumorClassification"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Tis_DCIS"/>
+        <Class IRI="#Tis"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Tis_LCIS"/>
+        <Class IRI="#Tis"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Tis_Paget"/>
+        <Class IRI="#Tis"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TotalSimpleMastectomy"/>
+        <Class IRI="#Mastectomy"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Trastuzumab"/>
+        <Class IRI="http://ontologies.dbmi.pitt.edu/deepphe/modelCancer.owl#Medication"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Trastuzumab-Herceptin"/>
+        <Class IRI="http://ontologies.dbmi.pitt.edu/deepphe/modelCancer.owl#Medication"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Trastuzumab-Paclitaxel"/>
+        <Class IRI="http://ontologies.dbmi.pitt.edu/deepphe/modelCancer.owl#Medication"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Triple_Negative"/>
+        <Class IRI="http://ontologies.dbmi.pitt.edu/deepphe/modelCancer.owl#Interpretation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Triple_Positive"/>
+        <Class IRI="http://ontologies.dbmi.pitt.edu/deepphe/modelCancer.owl#Interpretation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Tubular"/>
+        <Class IRI="http://ontologies.dbmi.pitt.edu/deepphe/modelCancer.owl#HistologicType"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TumorSize"/>
+        <Class IRI="http://ontologies.dbmi.pitt.edu/deepphe/modelCancer.owl#ClinicalManifestationOfDisease"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Unknown"/>
+        <Class IRI="http://ontologies.dbmi.pitt.edu/deepphe/modelCancer.owl#Interpretation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Vinorelbine"/>
+        <Class IRI="http://ontologies.dbmi.pitt.edu/deepphe/modelCancer.owl#Medication"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ZoledronicAcid"/>
+        <Class IRI="http://ontologies.dbmi.pitt.edu/deepphe/modelCancer.owl#Medication"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#cM0iplus"/>
+        <Class IRI="#M0"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#mm"/>
+        <Class IRI="http://ontologies.dbmi.pitt.edu/deepphe/modelCancer.owl#Unit"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#p53Mutation"/>
+        <Class IRI="http://ontologies.dbmi.pitt.edu/deepphe/modelCancer.owl#GermlineSequenceVariant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#pN0"/>
+        <Class IRI="#PathologicRegionalLymphNodeClassification"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#pN0_iminus"/>
+        <Class IRI="#pN0"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#pN0_iplus"/>
+        <Class IRI="#pN0"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#pN0_molminus"/>
+        <Class IRI="#pN0"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#pN0_molplus"/>
+        <Class IRI="#pN0"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#pN1"/>
+        <Class IRI="#PathologicRegionalLymphNodeClassification"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#pN1a"/>
+        <Class IRI="#pN1"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#pN1b"/>
+        <Class IRI="#pN1"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#pN1c"/>
+        <Class IRI="#pN1"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#pN1mi"/>
+        <Class IRI="#pN1"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#pN2"/>
+        <Class IRI="#PathologicRegionalLymphNodeClassification"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#pN2a"/>
+        <Class IRI="#pN2"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#pN2b"/>
+        <Class IRI="#pN2"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#pN3"/>
+        <Class IRI="#PathologicRegionalLymphNodeClassification"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#pN3a"/>
+        <Class IRI="#pN3"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#pN3b"/>
+        <Class IRI="#pN3"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#pN3c"/>
+        <Class IRI="#pN3"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#pNX"/>
+        <Class IRI="#PathologicRegionalLymphNodeClassification"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#6Cyclophosphamide"/>
+        <Class IRI="http://ontologies.dbmi.pitt.edu/deepphe/modelCancer.owl#Medication"/>
+    </SubClassOf>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Tis_DCIS</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Tis(DCIS)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Tis_LCIS</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Tis(LCIS)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Tis_Paget</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Tis(Paget&apos;s)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#cM0iplus</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">cM0(i+)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#pN0_iminus</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">pN0(i-)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#pN0_iplus</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">pN0(i+)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#pN0_molminus</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">pN0(mol-)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#pN0_molplus</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">pN0(mol+)</Literal>
+    </AnnotationAssertion>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 3.5.1) http://owlapi.sourceforge.net -->
+
