@@ -69,7 +69,16 @@
         <Class IRI="#BreastCancer"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#BreastCancerDistantMetastasisClassification"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#BreastCancerPhenotype"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#BreastCancerPrimaryTumorClassification"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#BreastCancerRegionalLymphNodeClassification"/>
     </Declaration>
     <Declaration>
         <Class IRI="#BreastCancerStage"/>
@@ -102,9 +111,6 @@
         <Class IRI="#Carboplatinum-Paclitaxel"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#CauseOfDeath"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="#Chemotherapy"/>
     </Declaration>
     <Declaration>
@@ -121,9 +127,6 @@
     </Declaration>
     <Declaration>
         <Class IRI="#Denosumab"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#DistantMetastasisClassification"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Docetaxel"/>
@@ -348,9 +351,6 @@
         <Class IRI="#Pre-TherapyTumorSize"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#PrimaryTumorClassification"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="#ProgesteroneReceptorStatus"/>
     </Declaration>
     <Declaration>
@@ -379,9 +379,6 @@
     </Declaration>
     <Declaration>
         <Class IRI="#ReceptorStatus"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#RegionalLymphNodeClassification"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Right"/>
@@ -671,12 +668,24 @@
         <Class IRI="http://ontologies.dbmi.pitt.edu/deepphe/modelCancer.owl#Cancer"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#BreastCancerDistantMetastasisClassification"/>
+        <Class IRI="http://ontologies.dbmi.pitt.edu/deepphe/modelCancer.owl#DistantMetastasisClassification"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#BreastCancerPhenotype"/>
         <Class IRI="http://ontologies.dbmi.pitt.edu/deepphe/modelCancer.owl#CancerPhenotype"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#BreastCancerPrimaryTumorClassification"/>
+        <Class IRI="http://ontologies.dbmi.pitt.edu/deepphe/modelCancer.owl#PrimaryTumorClassification"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BreastCancerRegionalLymphNodeClassification"/>
+        <Class IRI="http://ontologies.dbmi.pitt.edu/deepphe/modelCancer.owl#RegionalLymphNodeClassification"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#BreastCancerStage"/>
-        <Class IRI="http://ontologies.dbmi.pitt.edu/deepphe/modelCancer.owl#ClinicalManifestationOfDisease"/>
+        <Class IRI="http://ontologies.dbmi.pitt.edu/deepphe/modelCancer.owl#CancerStage"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#BreastCancerTumorPhenotype"/>
@@ -736,10 +745,6 @@
         <Class IRI="http://ontologies.dbmi.pitt.edu/deepphe/modelCancer.owl#Medication"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#CauseOfDeath"/>
-        <Class IRI="http://ontologies.dbmi.pitt.edu/deepphe/modelCancer.owl#Outcome"/>
-    </SubClassOf>
-    <SubClassOf>
         <Class IRI="#Chemotherapy"/>
         <Class IRI="http://ontologies.dbmi.pitt.edu/deepphe/modelCancer.owl#TherapeuticProcedure"/>
     </SubClassOf>
@@ -749,7 +754,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#ClinicalRegionalLymphNodeClassification"/>
-        <Class IRI="#RegionalLymphNodeClassification"/>
+        <Class IRI="#BreastCancerRegionalLymphNodeClassification"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Clodronate"/>
@@ -762,10 +767,6 @@
     <SubClassOf>
         <Class IRI="#Denosumab"/>
         <Class IRI="http://ontologies.dbmi.pitt.edu/deepphe/modelCancer.owl#Medication"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#DistantMetastasisClassification"/>
-        <Class IRI="http://ontologies.dbmi.pitt.edu/deepphe/modelCancer.owl#ClinicalManifestationOfDisease"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Docetaxel"/>
@@ -913,11 +914,11 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#M0"/>
-        <Class IRI="#DistantMetastasisClassification"/>
+        <Class IRI="#BreastCancerDistantMetastasisClassification"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#M1"/>
-        <Class IRI="#DistantMetastasisClassification"/>
+        <Class IRI="#BreastCancerDistantMetastasisClassification"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#MTOR"/>
@@ -1021,7 +1022,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#PagetsDisease"/>
-        <Class IRI="http://ontologies.dbmi.pitt.edu/deepphe/modelCancer.owl#ClinicalManifestationOfDisease"/>
+        <Class IRI="http://ontologies.dbmi.pitt.edu/deepphe/modelCancer.owl#Cancer"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Papillary"/>
@@ -1033,7 +1034,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#PathologicRegionalLymphNodeClassification"/>
-        <Class IRI="#RegionalLymphNodeClassification"/>
+        <Class IRI="#BreastCancerRegionalLymphNodeClassification"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#PegylatedLiposoalDoxorubicin"/>
@@ -1062,10 +1063,6 @@
     <SubClassOf>
         <Class IRI="#Pre-TherapyTumorSize"/>
         <Class IRI="#TumorSize"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#PrimaryTumorClassification"/>
-        <Class IRI="http://ontologies.dbmi.pitt.edu/deepphe/modelCancer.owl#ClinicalManifestationOfDisease"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#ProgesteroneReceptorStatus"/>
@@ -1106,10 +1103,6 @@
     <SubClassOf>
         <Class IRI="#ReceptorStatus"/>
         <Class IRI="http://ontologies.dbmi.pitt.edu/deepphe/modelCancer.owl#MolecularManifestationOfDisease"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#RegionalLymphNodeClassification"/>
-        <Class IRI="http://ontologies.dbmi.pitt.edu/deepphe/modelCancer.owl#ClinicalManifestationOfDisease"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Right"/>
@@ -1185,11 +1178,11 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#T0"/>
-        <Class IRI="#PrimaryTumorClassification"/>
+        <Class IRI="#BreastCancerPrimaryTumorClassification"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#T1"/>
-        <Class IRI="#PrimaryTumorClassification"/>
+        <Class IRI="#BreastCancerPrimaryTumorClassification"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#T1a"/>
@@ -1209,15 +1202,15 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#T2"/>
-        <Class IRI="#PrimaryTumorClassification"/>
+        <Class IRI="#BreastCancerPrimaryTumorClassification"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#T3"/>
-        <Class IRI="#PrimaryTumorClassification"/>
+        <Class IRI="#BreastCancerPrimaryTumorClassification"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#T4"/>
-        <Class IRI="#PrimaryTumorClassification"/>
+        <Class IRI="#BreastCancerPrimaryTumorClassification"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#T4a"/>
@@ -1249,7 +1242,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#TX"/>
-        <Class IRI="#PrimaryTumorClassification"/>
+        <Class IRI="#BreastCancerPrimaryTumorClassification"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Tamoxifen-Nolvadex"/>
@@ -1273,7 +1266,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Tis"/>
-        <Class IRI="#PrimaryTumorClassification"/>
+        <Class IRI="#BreastCancerPrimaryTumorClassification"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Tis_DCIS"/>
