@@ -24,7 +24,7 @@
     <Import>http://ontologies.dbmi.pitt.edu/deepphe/modelCancer.owl</Import>
     <Annotation>
         <AnnotationProperty abbreviatedIRI="owl:versionInfo"/>
-        <Literal datatypeIRI="&rdf;PlainLiteral">sprint6.1</Literal>
+        <Literal datatypeIRI="&rdf;PlainLiteral">sprint7</Literal>
     </Annotation>
     <Declaration>
         <Class IRI="#ACChemo"/>
