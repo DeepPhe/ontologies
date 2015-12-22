@@ -813,6 +813,19 @@
         <Class IRI="#ReceptorStatus"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#EstrogenReceptorStatus"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://ontologies.dbmi.pitt.edu/deepphe/modelCancer.owl#hasInterpretation"/>
+            <ObjectUnionOf>
+                <Class IRI="#Equivocal"/>
+                <Class IRI="#Indeterminate"/>
+                <Class IRI="#Negative"/>
+                <Class IRI="#Positive"/>
+                <Class IRI="#Unknown"/>
+            </ObjectUnionOf>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#Etoposide"/>
         <Class IRI="http://ontologies.dbmi.pitt.edu/deepphe/modelCancer.owl#Medication"/>
     </SubClassOf>
@@ -877,6 +890,19 @@
         <Class IRI="#ReceptorStatus"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#HER2NeuReceptorStatus"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://ontologies.dbmi.pitt.edu/deepphe/modelCancer.owl#hasInterpretation"/>
+            <ObjectUnionOf>
+                <Class IRI="#Equivocal"/>
+                <Class IRI="#Indeterminate"/>
+                <Class IRI="#Negative"/>
+                <Class IRI="#Positive"/>
+                <Class IRI="#Unknown"/>
+            </ObjectUnionOf>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#IHC"/>
         <Class IRI="http://ontologies.dbmi.pitt.edu/deepphe/modelCancer.owl#ProcedureMethod"/>
     </SubClassOf>
@@ -887,6 +913,18 @@
     <SubClassOf>
         <Class IRI="#Ki-67Status"/>
         <Class IRI="http://ontologies.dbmi.pitt.edu/deepphe/modelCancer.owl#MolecularManifestationOfDisease"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Ki-67Status"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://ontologies.dbmi.pitt.edu/deepphe/modelCancer.owl#hasInterpretation"/>
+            <ObjectUnionOf>
+                <Class IRI="#Indeterminate"/>
+                <Class IRI="#Negative"/>
+                <Class IRI="#Positive"/>
+                <Class IRI="#Unknown"/>
+            </ObjectUnionOf>
+        </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Lapatinib"/>
@@ -1069,6 +1107,19 @@
         <Class IRI="#ReceptorStatus"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#ProgesteroneReceptorStatus"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://ontologies.dbmi.pitt.edu/deepphe/modelCancer.owl#hasInterpretation"/>
+            <ObjectUnionOf>
+                <Class IRI="#Equivocal"/>
+                <Class IRI="#Indeterminate"/>
+                <Class IRI="#Negative"/>
+                <Class IRI="#Positive"/>
+                <Class IRI="#Unknown"/>
+            </ObjectUnionOf>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#ProgressiveDisease"/>
         <Class IRI="#RECISTCategoryType"/>
     </SubClassOf>
@@ -1103,6 +1154,21 @@
     <SubClassOf>
         <Class IRI="#ReceptorStatus"/>
         <Class IRI="http://ontologies.dbmi.pitt.edu/deepphe/modelCancer.owl#MolecularManifestationOfDisease"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ReceptorStatus"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://ontologies.dbmi.pitt.edu/deepphe/modelCancer.owl#hasInterpretation"/>
+            <ObjectUnionOf>
+                <Class IRI="#Equivocal"/>
+                <Class IRI="#Indeterminate"/>
+                <Class IRI="#Negative"/>
+                <Class IRI="#Positive"/>
+                <Class IRI="#Triple_Negative"/>
+                <Class IRI="#Triple_Positive"/>
+                <Class IRI="#Unknown"/>
+            </ObjectUnionOf>
+        </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Right"/>
@@ -1412,6 +1478,29 @@
         <Class IRI="#6Cyclophosphamide"/>
         <Class IRI="http://ontologies.dbmi.pitt.edu/deepphe/modelCancer.owl#Medication"/>
     </SubClassOf>
+    <DLSafeRule>
+        <Body>
+            <ClassAtom>
+                <Class IRI="#M1"/>
+                <Variable IRI="urn:swrl#m1"/>
+            </ClassAtom>
+        </Body>
+        <Head>
+            <ClassAtom>
+                <Class IRI="http://ontologies.dbmi.pitt.edu/deepphe/modelCancer.owl#Tumor"/>
+                <Variable IRI="urn:swrl#tumor"/>
+            </ClassAtom>
+            <ClassAtom>
+                <Class IRI="http://ontologies.dbmi.pitt.edu/deepphe/modelCancer.owl#DistantRecurrence"/>
+                <Variable IRI="urn:swrl#met"/>
+            </ClassAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="http://ontologies.dbmi.pitt.edu/deepphe/modelCancer.owl#hasTumorType"/>
+                <Variable IRI="urn:swrl#tumor"/>
+                <Variable IRI="urn:swrl#met"/>
+            </ObjectPropertyAtom>
+        </Head>
+    </DLSafeRule>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#Tis_DCIS</IRI>
