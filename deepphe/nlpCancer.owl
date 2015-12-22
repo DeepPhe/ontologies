@@ -642,14 +642,6 @@
         <ObjectProperty IRI="http://blulab.chpc.utah.edu/ontologies/v2/SchemaOntology.owl#hasPhenotypicAttribute"/>
     </SubObjectPropertyOf>
     <ObjectPropertyDomain>
-        <ObjectProperty IRI="#hasExposure"/>
-        <Class IRI="http://blulab.chpc.utah.edu/ontologies/v2/SchemaOntology.owl#Patient"/>
-    </ObjectPropertyDomain>
-    <ObjectPropertyDomain>
-        <ObjectProperty IRI="#hasGermlineMutation"/>
-        <Class IRI="http://blulab.chpc.utah.edu/ontologies/v2/SchemaOntology.owl#Patient"/>
-    </ObjectPropertyDomain>
-    <ObjectPropertyDomain>
         <ObjectProperty IRI="#hasMValue"/>
         <Class IRI="#TNMClassification"/>
     </ObjectPropertyDomain>
