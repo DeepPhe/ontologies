@@ -155,6 +155,9 @@
         <Class IRI="#RegionalLymphNodeClassification"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#RegionalRecurrence"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#SequenceVariant"/>
     </Declaration>
     <Declaration>
@@ -602,6 +605,10 @@
     <SubClassOf>
         <Class IRI="#RegionalLymphNodeClassification"/>
         <Class IRI="#ClinicalManifestationOfDisease"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#RegionalRecurrence"/>
+        <Class IRI="#Recurrence"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#StagingEpisode"/>
