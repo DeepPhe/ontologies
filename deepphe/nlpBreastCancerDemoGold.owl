@@ -16,10 +16,11 @@
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      ontologyIRI="http://ontologies.dbmi.pitt.edu/deepphe/nlpBreastCancerDemoGold.owl">
-    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
-    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
-    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="" IRI="http://www.w3.org/2002/07/owl#"/>
     <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
     <Import>http://ontologies.dbmi.pitt.edu/deepphe/nlpBreastCancer.owl</Import>
     <Declaration>
         <NamedIndividual IRI="#breast"/>
@@ -28,16 +29,31 @@
         <NamedIndividual IRI="#breast_cancer_doc1"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#breast_cancer_doc2"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#breast_cancer_phenotype_doc1"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#breast_cancer_phenotype_doc2"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#breast_tumor_phenotype_doc1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#cancer_doc3"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#cancer_phenotype_doc3"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#carcinoma"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#discharge_summary"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#distant_recurrence"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#doc1"/>
@@ -73,6 +89,9 @@
         <NamedIndividual IRI="#patient_doc3"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#primary_tumor"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#progress_note"/>
     </Declaration>
     <Declaration>
@@ -80,6 +99,9 @@
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#tumor_doc1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#tumor_doc3"/>
     </Declaration>
     <ClassAssertion>
         <Class IRI="http://ontologies.dbmi.pitt.edu/deepphe/modelBreastCancer.owl#Breast"/>
@@ -90,12 +112,28 @@
         <NamedIndividual IRI="#breast_cancer_doc1"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="http://ontologies.dbmi.pitt.edu/deepphe/modelBreastCancer.owl#BreastCancer"/>
+        <NamedIndividual IRI="#breast_cancer_doc2"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="http://ontologies.dbmi.pitt.edu/deepphe/modelBreastCancer.owl#BreastCancerPhenotype"/>
         <NamedIndividual IRI="#breast_cancer_phenotype_doc1"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="http://ontologies.dbmi.pitt.edu/deepphe/modelBreastCancer.owl#BreastCancerPhenotype"/>
+        <NamedIndividual IRI="#breast_cancer_phenotype_doc2"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="http://ontologies.dbmi.pitt.edu/deepphe/modelBreastCancer.owl#BreastCancerTumorPhenotype"/>
         <NamedIndividual IRI="#breast_tumor_phenotype_doc1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://ontologies.dbmi.pitt.edu/deepphe/modelCancer.owl#Cancer"/>
+        <NamedIndividual IRI="#cancer_doc3"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://ontologies.dbmi.pitt.edu/deepphe/modelCancer.owl#CancerPhenotype"/>
+        <NamedIndividual IRI="#cancer_phenotype_doc3"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="http://ontologies.dbmi.pitt.edu/deepphe/modelBreastCancer.owl#Adenocarcinoma"/>
@@ -104,6 +142,10 @@
     <ClassAssertion>
         <Class IRI="http://ontologies.dbmi.pitt.edu/deepphe/nlpBreastCancer.owl#Discharge_summary"/>
         <NamedIndividual IRI="#discharge_summary"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://ontologies.dbmi.pitt.edu/deepphe/modelCancer.owl#DistantRecurrence"/>
+        <NamedIndividual IRI="#distant_recurrence"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="http://blulab.chpc.utah.edu/ontologies/v2/Schema.owl#Composition"/>
@@ -150,6 +192,10 @@
         <NamedIndividual IRI="#patient_doc3"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="http://ontologies.dbmi.pitt.edu/deepphe/modelCancer.owl#PrimaryTumor"/>
+        <NamedIndividual IRI="#primary_tumor"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="http://ontologies.dbmi.pitt.edu/deepphe/nlpBreastCancer.owl#Progress_note"/>
         <NamedIndividual IRI="#progress_note"/>
     </ClassAssertion>
@@ -161,6 +207,10 @@
         <Class IRI="http://ontologies.dbmi.pitt.edu/deepphe/modelCancer.owl#Tumor"/>
         <NamedIndividual IRI="#tumor_doc1"/>
     </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://ontologies.dbmi.pitt.edu/deepphe/modelCancer.owl#Tumor"/>
+        <NamedIndividual IRI="#tumor_doc3"/>
+    </ClassAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="http://ontologies.dbmi.pitt.edu/deepphe/modelCancer.owl#hasBodySite"/>
         <NamedIndividual IRI="#breast_cancer_doc1"/>
@@ -170,6 +220,16 @@
         <ObjectProperty IRI="http://ontologies.dbmi.pitt.edu/deepphe/modelCancer.owl#hasPhenotype"/>
         <NamedIndividual IRI="#breast_cancer_doc1"/>
         <NamedIndividual IRI="#breast_cancer_phenotype_doc1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://ontologies.dbmi.pitt.edu/deepphe/modelCancer.owl#realizes"/>
+        <NamedIndividual IRI="#breast_cancer_doc1"/>
+        <NamedIndividual IRI="#tumor_doc1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://ontologies.dbmi.pitt.edu/deepphe/modelCancer.owl#hasPhenotype"/>
+        <NamedIndividual IRI="#breast_cancer_doc2"/>
+        <NamedIndividual IRI="#breast_cancer_phenotype_doc2"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="http://ontologies.dbmi.pitt.edu/deepphe/modelCancer.owl#hasCancerType"/>
@@ -195,6 +255,16 @@
         <ObjectProperty IRI="http://ontologies.dbmi.pitt.edu/deepphe/modelCancer.owl#hasTumorExtent"/>
         <NamedIndividual IRI="#breast_tumor_phenotype_doc1"/>
         <NamedIndividual IRI="#invasive"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://ontologies.dbmi.pitt.edu/deepphe/modelCancer.owl#hasPhenotype"/>
+        <NamedIndividual IRI="#cancer_doc3"/>
+        <NamedIndividual IRI="#cancer_phenotype_doc3"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://ontologies.dbmi.pitt.edu/deepphe/modelCancer.owl#realizes"/>
+        <NamedIndividual IRI="#cancer_doc3"/>
+        <NamedIndividual IRI="#tumor_doc3"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="http://blulab.chpc.utah.edu/ontologies/v2/Schema.owl#hasCompositionSummary"/>
@@ -270,6 +340,26 @@
         <ObjectProperty IRI="http://ontologies.dbmi.pitt.edu/deepphe/modelCancer.owl#hasPhenotype"/>
         <NamedIndividual IRI="#tumor_doc1"/>
         <NamedIndividual IRI="#breast_tumor_phenotype_doc1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://ontologies.dbmi.pitt.edu/deepphe/modelCancer.owl#hasTumorType"/>
+        <NamedIndividual IRI="#tumor_doc1"/>
+        <NamedIndividual IRI="#primary_tumor"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://ontologies.dbmi.pitt.edu/deepphe/modelCancer.owl#realized_in"/>
+        <NamedIndividual IRI="#tumor_doc1"/>
+        <NamedIndividual IRI="#breast_cancer_doc1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://ontologies.dbmi.pitt.edu/deepphe/modelCancer.owl#hasTumorType"/>
+        <NamedIndividual IRI="#tumor_doc3"/>
+        <NamedIndividual IRI="#distant_recurrence"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://ontologies.dbmi.pitt.edu/deepphe/modelCancer.owl#realized_in"/>
+        <NamedIndividual IRI="#tumor_doc3"/>
+        <NamedIndividual IRI="#cancer_doc3"/>
     </ObjectPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="http://blulab.chpc.utah.edu/ontologies/v2/Schema.owl#hasDateOfComposition"/>
