@@ -352,18 +352,16 @@ public class ConvertOntologyURIs {
 	}
 
 	public static void main(String[] args) throws Exception {
-		/*
-		String sourceOntology = "/home/tseytlin/Work/ontologies/deepphe/modelCancer.owl";
-		String targetOntology = "/home/tseytlin/Output/ontologies/";
-		String targetURI = "http://ontologies.dbmi.pitt.edu/deepphe/cancer/cancer.owl";
-		*/
+		String sourceOntologyCancer = "/home/tseytlin/Work/ontologies/deepphe/modelCancer.owl";
+		String targetURIcancer = "http://ontologies.dbmi.pitt.edu/deepphe/cancer/cancer.owl";
+		String sourceOntologyBreast = "/home/tseytlin/Work/ontologies/deepphe/modelBreastCancer.owl";
+		String targetURIbreast = BASE_URL_PREFIX+"/deepphe/cancer/breastCancer.owl";
 		
-		String sourceOntology = "/home/tseytlin/Work/ontologies/deepphe/modelBreastCancer.owl";
-		String targetOntology = "/home/tseytlin/Output/ontologies/";
-		String targetURI = BASE_URL_PREFIX+"/deepphe/cancer/breastCancer.owl";
+		String targetDirectory = "/home/tseytlin/Output/ontologies/";
 		
 		ConvertOntologyURIs c = new ConvertOntologyURIs();
-		c.convert(new File(sourceOntology),new File(targetOntology),targetURI);
+		c.convert(new File(sourceOntologyCancer),new File(targetDirectory),targetURIcancer);
+		c.convert(new File(sourceOntologyBreast),new File(targetDirectory),targetURIbreast);
 		System.out.println("ok");
 	}
 
