@@ -21,15 +21,15 @@
     <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
     <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
     <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Import>http://blulab.chpc.utah.edu/ontologies/v2/Schema.owl</Import>
     <Import>http://ontologies.dbmi.pitt.edu/deepphe/modelCancer.owl</Import>
-    <Import>http://blulab.chpc.utah.edu/ontologies/v2/SchemaOntology.owl</Import>
-    <Annotation>
-        <AnnotationProperty abbreviatedIRI="owl:versionInfo"/>
-        <Literal datatypeIRI="&rdf;PlainLiteral">sprint6.1</Literal>
-    </Annotation>
     <Annotation>
         <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/v2/SchemaOntology.owl#license"/>
         <Literal datatypeIRI="&rdf;PlainLiteral">The DeepPhe Cancer ontology is licensed under the Creative Commons Attribution 4.0 International license. Please see https://creativecommons.org/licenses/by/4.0/legalcode for the entire license.</Literal>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="owl:versionInfo"/>
+        <Literal datatypeIRI="&rdf;PlainLiteral">sprint7</Literal>
     </Annotation>
     <Declaration>
         <Class IRI="#CancerStage"/>
@@ -120,135 +120,135 @@
     </Declaration>
     <SubClassOf>
         <Class IRI="http://ontologies.dbmi.pitt.edu/deepphe/modelCancer.owl#Attribute"/>
-        <Class IRI="http://blulab.chpc.utah.edu/ontologies/v2/SchemaOntology.owl#DP000088"/>
+        <Class IRI="http://blulab.chpc.utah.edu/ontologies/v2/Schema.owl#SummaryModel"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="http://ontologies.dbmi.pitt.edu/deepphe/modelCancer.owl#BiologicalProcess"/>
-        <Class IRI="http://blulab.chpc.utah.edu/ontologies/v2/SchemaOntology.owl#DP000088"/>
+        <Class IRI="http://blulab.chpc.utah.edu/ontologies/v2/Schema.owl#Summary"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="http://ontologies.dbmi.pitt.edu/deepphe/modelCancer.owl#BiologicalProcess"/>
-        <Class IRI="http://blulab.chpc.utah.edu/ontologies/v2/SchemaOntology.owl#Summary"/>
+        <Class IRI="http://blulab.chpc.utah.edu/ontologies/v2/Schema.owl#SummaryModel"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="http://ontologies.dbmi.pitt.edu/deepphe/modelCancer.owl#BodyModifier"/>
-        <Class IRI="http://blulab.chpc.utah.edu/ontologies/v2/SchemaOntology.owl#SummaryAttribute"/>
+        <Class IRI="http://blulab.chpc.utah.edu/ontologies/v2/Schema.owl#SummaryAttribute"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="http://ontologies.dbmi.pitt.edu/deepphe/modelCancer.owl#BodySite"/>
-        <Class IRI="http://blulab.chpc.utah.edu/ontologies/v2/SchemaOntology.owl#SummaryAttribute"/>
+        <Class IRI="http://blulab.chpc.utah.edu/ontologies/v2/Schema.owl#SummaryAttribute"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="http://ontologies.dbmi.pitt.edu/deepphe/modelCancer.owl#Cancer"/>
-        <Class IRI="http://blulab.chpc.utah.edu/ontologies/v2/SchemaOntology.owl#DP000088"/>
+        <Class IRI="http://blulab.chpc.utah.edu/ontologies/v2/Schema.owl#Summary"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="http://ontologies.dbmi.pitt.edu/deepphe/modelCancer.owl#Cancer"/>
-        <Class IRI="http://blulab.chpc.utah.edu/ontologies/v2/SchemaOntology.owl#Summary"/>
+        <Class IRI="http://blulab.chpc.utah.edu/ontologies/v2/Schema.owl#SummaryModel"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="http://ontologies.dbmi.pitt.edu/deepphe/modelCancer.owl#DimensionalMeasurement"/>
-        <Class IRI="http://blulab.chpc.utah.edu/ontologies/v2/SchemaOntology.owl#SummaryAttribute"/>
+        <Class IRI="http://blulab.chpc.utah.edu/ontologies/v2/Schema.owl#SummaryAttribute"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="http://ontologies.dbmi.pitt.edu/deepphe/modelCancer.owl#DiseasePhenotype"/>
-        <Class IRI="http://blulab.chpc.utah.edu/ontologies/v2/SchemaOntology.owl#DP000088"/>
+        <Class IRI="http://blulab.chpc.utah.edu/ontologies/v2/Schema.owl#Summary"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="http://ontologies.dbmi.pitt.edu/deepphe/modelCancer.owl#DiseasePhenotype"/>
-        <Class IRI="http://blulab.chpc.utah.edu/ontologies/v2/SchemaOntology.owl#Summary"/>
+        <Class IRI="http://blulab.chpc.utah.edu/ontologies/v2/Schema.owl#SummaryModel"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="http://ontologies.dbmi.pitt.edu/deepphe/modelCancer.owl#Episode"/>
-        <Class IRI="http://blulab.chpc.utah.edu/ontologies/v2/SchemaOntology.owl#DP000088"/>
+        <Class IRI="http://blulab.chpc.utah.edu/ontologies/v2/Schema.owl#SummaryModel"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="http://ontologies.dbmi.pitt.edu/deepphe/modelCancer.owl#EpisodeType"/>
-        <Class IRI="http://blulab.chpc.utah.edu/ontologies/v2/SchemaOntology.owl#DP000088"/>
+        <Class IRI="http://blulab.chpc.utah.edu/ontologies/v2/Schema.owl#SummaryModel"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="http://ontologies.dbmi.pitt.edu/deepphe/modelCancer.owl#Interpretation"/>
-        <Class IRI="http://blulab.chpc.utah.edu/ontologies/v2/SchemaOntology.owl#SummaryAttribute"/>
+        <Class IRI="http://blulab.chpc.utah.edu/ontologies/v2/Schema.owl#SummaryAttribute"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="http://ontologies.dbmi.pitt.edu/deepphe/modelCancer.owl#ManifestationOfDisease"/>
-        <Class IRI="http://blulab.chpc.utah.edu/ontologies/v2/SchemaOntology.owl#DP000088"/>
+        <Class IRI="http://blulab.chpc.utah.edu/ontologies/v2/Schema.owl#Summary"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="http://ontologies.dbmi.pitt.edu/deepphe/modelCancer.owl#ManifestationOfDisease"/>
-        <Class IRI="http://blulab.chpc.utah.edu/ontologies/v2/SchemaOntology.owl#Summary"/>
+        <Class IRI="http://blulab.chpc.utah.edu/ontologies/v2/Schema.owl#SummaryModel"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="http://ontologies.dbmi.pitt.edu/deepphe/modelCancer.owl#Outcome"/>
-        <Class IRI="http://blulab.chpc.utah.edu/ontologies/v2/SchemaOntology.owl#DP000088"/>
+        <Class IRI="http://blulab.chpc.utah.edu/ontologies/v2/Schema.owl#Summary"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="http://ontologies.dbmi.pitt.edu/deepphe/modelCancer.owl#Outcome"/>
-        <Class IRI="http://blulab.chpc.utah.edu/ontologies/v2/SchemaOntology.owl#Summary"/>
+        <Class IRI="http://blulab.chpc.utah.edu/ontologies/v2/Schema.owl#SummaryModel"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="http://ontologies.dbmi.pitt.edu/deepphe/modelCancer.owl#Patient"/>
-        <Class IRI="http://blulab.chpc.utah.edu/ontologies/v2/SchemaOntology.owl#DP000088"/>
+        <Class IRI="http://blulab.chpc.utah.edu/ontologies/v2/Schema.owl#Summary"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="http://ontologies.dbmi.pitt.edu/deepphe/modelCancer.owl#Patient"/>
-        <Class IRI="http://blulab.chpc.utah.edu/ontologies/v2/SchemaOntology.owl#Summary"/>
+        <Class IRI="http://blulab.chpc.utah.edu/ontologies/v2/Schema.owl#SummaryModel"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="http://ontologies.dbmi.pitt.edu/deepphe/modelCancer.owl#ProcedureMethod"/>
-        <Class IRI="http://blulab.chpc.utah.edu/ontologies/v2/SchemaOntology.owl#SummaryAttribute"/>
+        <Class IRI="http://blulab.chpc.utah.edu/ontologies/v2/Schema.owl#SummaryAttribute"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="http://ontologies.dbmi.pitt.edu/deepphe/modelCancer.owl#Quantity"/>
-        <Class IRI="http://blulab.chpc.utah.edu/ontologies/v2/SchemaOntology.owl#SummaryAttribute"/>
+        <Class IRI="http://blulab.chpc.utah.edu/ontologies/v2/Schema.owl#SummaryAttribute"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="http://ontologies.dbmi.pitt.edu/deepphe/modelCancer.owl#RangeValue"/>
-        <Class IRI="http://blulab.chpc.utah.edu/ontologies/v2/SchemaOntology.owl#SummaryAttribute"/>
+        <Class IRI="http://blulab.chpc.utah.edu/ontologies/v2/Schema.owl#SummaryAttribute"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="http://ontologies.dbmi.pitt.edu/deepphe/modelCancer.owl#Ratio"/>
-        <Class IRI="http://blulab.chpc.utah.edu/ontologies/v2/SchemaOntology.owl#SummaryAttribute"/>
+        <Class IRI="http://blulab.chpc.utah.edu/ontologies/v2/Schema.owl#SummaryAttribute"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="http://ontologies.dbmi.pitt.edu/deepphe/modelCancer.owl#SequenceVariant"/>
-        <Class IRI="http://blulab.chpc.utah.edu/ontologies/v2/SchemaOntology.owl#DP000088"/>
+        <Class IRI="http://blulab.chpc.utah.edu/ontologies/v2/Schema.owl#Summary"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="http://ontologies.dbmi.pitt.edu/deepphe/modelCancer.owl#SequenceVariant"/>
-        <Class IRI="http://blulab.chpc.utah.edu/ontologies/v2/SchemaOntology.owl#Summary"/>
+        <Class IRI="http://blulab.chpc.utah.edu/ontologies/v2/Schema.owl#SummaryModel"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="http://ontologies.dbmi.pitt.edu/deepphe/modelCancer.owl#Treatment"/>
-        <Class IRI="http://blulab.chpc.utah.edu/ontologies/v2/SchemaOntology.owl#DP000088"/>
+        <Class IRI="http://blulab.chpc.utah.edu/ontologies/v2/Schema.owl#Summary"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="http://ontologies.dbmi.pitt.edu/deepphe/modelCancer.owl#Treatment"/>
-        <Class IRI="http://blulab.chpc.utah.edu/ontologies/v2/SchemaOntology.owl#Summary"/>
+        <Class IRI="http://blulab.chpc.utah.edu/ontologies/v2/Schema.owl#SummaryModel"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="http://ontologies.dbmi.pitt.edu/deepphe/modelCancer.owl#TreatmentSideEffect"/>
-        <Class IRI="http://blulab.chpc.utah.edu/ontologies/v2/SchemaOntology.owl#DP000088"/>
+        <Class IRI="http://blulab.chpc.utah.edu/ontologies/v2/Schema.owl#Summary"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="http://ontologies.dbmi.pitt.edu/deepphe/modelCancer.owl#TreatmentSideEffect"/>
-        <Class IRI="http://blulab.chpc.utah.edu/ontologies/v2/SchemaOntology.owl#Summary"/>
+        <Class IRI="http://blulab.chpc.utah.edu/ontologies/v2/Schema.owl#SummaryModel"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="http://ontologies.dbmi.pitt.edu/deepphe/modelCancer.owl#Tumor"/>
-        <Class IRI="http://blulab.chpc.utah.edu/ontologies/v2/SchemaOntology.owl#DP000088"/>
+        <Class IRI="http://blulab.chpc.utah.edu/ontologies/v2/Schema.owl#Summary"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="http://ontologies.dbmi.pitt.edu/deepphe/modelCancer.owl#Tumor"/>
-        <Class IRI="http://blulab.chpc.utah.edu/ontologies/v2/SchemaOntology.owl#Summary"/>
+        <Class IRI="http://blulab.chpc.utah.edu/ontologies/v2/Schema.owl#SummaryModel"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="http://ontologies.dbmi.pitt.edu/deepphe/modelCancer.owl#TumorType"/>
-        <Class IRI="http://blulab.chpc.utah.edu/ontologies/v2/SchemaOntology.owl#SummaryAttribute"/>
+        <Class IRI="http://blulab.chpc.utah.edu/ontologies/v2/Schema.owl#SummaryAttribute"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="http://ontologies.dbmi.pitt.edu/deepphe/modelCancer.owl#Unit"/>
-        <Class IRI="http://blulab.chpc.utah.edu/ontologies/v2/SchemaOntology.owl#SummaryAttribute"/>
+        <Class IRI="http://blulab.chpc.utah.edu/ontologies/v2/Schema.owl#SummaryAttribute"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Any_T"/>
@@ -642,14 +642,6 @@
         <ObjectProperty IRI="http://blulab.chpc.utah.edu/ontologies/v2/SchemaOntology.owl#hasPhenotypicAttribute"/>
     </SubObjectPropertyOf>
     <ObjectPropertyDomain>
-        <ObjectProperty IRI="#hasExposure"/>
-        <Class IRI="http://blulab.chpc.utah.edu/ontologies/v2/SchemaOntology.owl#Patient"/>
-    </ObjectPropertyDomain>
-    <ObjectPropertyDomain>
-        <ObjectProperty IRI="#hasGermlineMutation"/>
-        <Class IRI="http://blulab.chpc.utah.edu/ontologies/v2/SchemaOntology.owl#Patient"/>
-    </ObjectPropertyDomain>
-    <ObjectPropertyDomain>
         <ObjectProperty IRI="#hasMValue"/>
         <Class IRI="#TNMClassification"/>
     </ObjectPropertyDomain>
@@ -716,6 +708,11 @@
             <Literal datatypeIRI="&rdf;PlainLiteral">recurrence</Literal>
         </DataOneOf>
     </DataPropertyRange>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://ontologies.dbmi.pitt.edu/deepphe/modelCancer.owl#TherapeuticProcedure</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">TherapeuticProcedureSummary</Literal>
+    </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#code"/>
         <IRI>#Any_T</IRI>

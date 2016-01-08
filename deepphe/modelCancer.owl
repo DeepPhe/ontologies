@@ -23,7 +23,7 @@
     <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
     <Annotation>
         <AnnotationProperty abbreviatedIRI="owl:versionInfo"/>
-        <Literal datatypeIRI="&rdf;PlainLiteral">sprint6.1</Literal>
+        <Literal datatypeIRI="&rdf;PlainLiteral">sprint7</Literal>
     </Annotation>
     <Declaration>
         <Class IRI="#Attribute"/>
@@ -153,6 +153,9 @@
     </Declaration>
     <Declaration>
         <Class IRI="#RegionalLymphNodeClassification"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#RegionalRecurrence"/>
     </Declaration>
     <Declaration>
         <Class IRI="#SequenceVariant"/>
@@ -379,6 +382,13 @@
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#CancerPhenotype"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasTumorExtent"/>
+            <Class IRI="#TumorExtent"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#CancerStage"/>
         <Class IRI="#ClinicalManifestationOfDisease"/>
     </SubClassOf>
@@ -597,6 +607,10 @@
         <Class IRI="#ClinicalManifestationOfDisease"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#RegionalRecurrence"/>
+        <Class IRI="#Recurrence"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#StagingEpisode"/>
         <Class IRI="#Episode"/>
     </SubClassOf>
@@ -664,6 +678,20 @@
     <SubClassOf>
         <Class IRI="#TumorPhenotype"/>
         <Class IRI="#DiseasePhenotype"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TumorPhenotype"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasHistologicType"/>
+            <Class IRI="#HistologicType"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TumorPhenotype"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasTumorExtent"/>
+            <Class IRI="#TumorExtent"/>
+        </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#TumorSequenceVariant"/>
