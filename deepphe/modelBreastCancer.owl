@@ -54,6 +54,9 @@
         <Class IRI="#BestOverallResponse"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#BiopsyTract"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#BloomRichardsonGrade"/>
     </Declaration>
     <Declaration>
@@ -393,6 +396,9 @@
         <Class IRI="#SegmentalMastectomy"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#Skin"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#StableDisease"/>
     </Declaration>
     <Declaration>
@@ -430,6 +436,12 @@
     </Declaration>
     <Declaration>
         <Class IRI="#StageIV"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SternalBone"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SubcutaneousTissue"/>
     </Declaration>
     <Declaration>
         <Class IRI="#SurgicalAblation"/>
@@ -505,6 +517,9 @@
     </Declaration>
     <Declaration>
         <Class IRI="#Taxotere-Carboplatin-Trastuzumab-Pertuzumab"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ThoracicWall"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Tis"/>
@@ -671,6 +686,10 @@
     <SubClassOf>
         <Class IRI="#BestOverallResponse"/>
         <Class IRI="#RECISTCategory"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BiopsyTract"/>
+        <Class IRI="http://ontologies.dbmi.pitt.edu/deepphe/modelCancer.owl#BodySite"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#BloomRichardsonGrade"/>
@@ -1452,6 +1471,10 @@
         <Class IRI="#Lymph_Node"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#Skin"/>
+        <Class IRI="http://ontologies.dbmi.pitt.edu/deepphe/modelCancer.owl#BodySite"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#Splenic_Hilar_Lymph_Node"/>
         <Class IRI="#Lymph_Node_by_Anatomic_Site"/>
     </SubClassOf>
@@ -1508,8 +1531,16 @@
         <Class IRI="#BreastCancerStage"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#SternalBone"/>
+        <Class IRI="http://ontologies.dbmi.pitt.edu/deepphe/modelCancer.owl#BodySite"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#Subcarinal_Lymph_Node"/>
         <Class IRI="#Lymph_Node_by_Anatomic_Site"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SubcutaneousTissue"/>
+        <Class IRI="http://ontologies.dbmi.pitt.edu/deepphe/modelCancer.owl#BodySite"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Sublingual_Lymph_Node"/>
@@ -1634,6 +1665,10 @@
     <SubClassOf>
         <Class IRI="#Taxotere-Carboplatin-Trastuzumab-Pertuzumab"/>
         <Class IRI="http://ontologies.dbmi.pitt.edu/deepphe/modelCancer.owl#Medication"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ThoracicWall"/>
+        <Class IRI="http://ontologies.dbmi.pitt.edu/deepphe/modelCancer.owl#BodySite"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Thoracic_Lymph_Node"/>
