@@ -279,16 +279,6 @@
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="http://blulab.chpc.utah.edu/ontologies/v2/Schema.owl#hasCompositionSummary"/>
         <NamedIndividual IRI="#doc1"/>
-        <NamedIndividual IRI="#breast_tumor_phenotype_doc1"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="http://blulab.chpc.utah.edu/ontologies/v2/Schema.owl#hasCompositionSummary"/>
-        <NamedIndividual IRI="#doc1"/>
-        <NamedIndividual IRI="#breast_cancer_phenotype_doc1"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="http://blulab.chpc.utah.edu/ontologies/v2/Schema.owl#hasCompositionSummary"/>
-        <NamedIndividual IRI="#doc1"/>
         <NamedIndividual IRI="#patient_doc1"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
@@ -304,6 +294,11 @@
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="http://blulab.chpc.utah.edu/ontologies/v2/Schema.owl#hasCompositionSummary"/>
         <NamedIndividual IRI="#doc2"/>
+        <NamedIndividual IRI="#breast_cancer_doc2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://blulab.chpc.utah.edu/ontologies/v2/Schema.owl#hasCompositionSummary"/>
+        <NamedIndividual IRI="#doc2"/>
         <NamedIndividual IRI="#patient_doc2"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
@@ -315,6 +310,11 @@
         <ObjectProperty IRI="http://blulab.chpc.utah.edu/ontologies/v2/Schema.owl#hasPatient"/>
         <NamedIndividual IRI="#doc2"/>
         <NamedIndividual IRI="#patient_doc2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://blulab.chpc.utah.edu/ontologies/v2/Schema.owl#hasCompositionSummary"/>
+        <NamedIndividual IRI="#doc3"/>
+        <NamedIndividual IRI="#tumor_doc3"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="http://blulab.chpc.utah.edu/ontologies/v2/Schema.owl#hasCompositionSummary"/>
