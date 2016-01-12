@@ -22,60 +22,200 @@
     <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
     <Import>http://ontologies.dbmi.pitt.edu/deepphe/nlpBreastCancer.owl</Import>
     <Declaration>
-        <NamedIndividual IRI="#patient03_report001"/>
+        <NamedIndividual IRI="#patient92_report001"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#patient03_report002"/>
+        <NamedIndividual IRI="#patient92_report001_RAD"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#patient03_report003"/>
+        <NamedIndividual IRI="#patient92_report004"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#patient03_report004"/>
+        <NamedIndividual IRI="#patient92_report004_SP"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#patient03_report006"/>
+        <NamedIndividual IRI="#patient92_report005"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#patient03_report009"/>
+        <NamedIndividual IRI="#patient92_report005_RAD"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#patient03_report010"/>
+        <NamedIndividual IRI="#patient92_report006"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#patient03_report025"/>
+        <NamedIndividual IRI="#patient92_report006_NOTE"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#patient92_report009"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#patient92_report009_RAD"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#patient92_report010"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#patient92_report010_RAD"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#patient92_report012"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#patient92_report012_RAD"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#patient92_report013"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#patient92_report013_SP"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#patient92_report014"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#patient92_report014_NOTE"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#patient92_report014_P"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#patient92_report014_PGN"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#patient92_report018"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#patient92_report018_RAD"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#patient92_report019"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#patient92_report019_RAD"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#patient92_report058"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#patient92_report058_NOTE"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#patient92_report146"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#patient92_report146_NOTE"/>
     </Declaration>
     <ClassAssertion>
         <Class IRI="http://ontologies.dbmi.pitt.edu/deepphe/modelCancer.owl#Patient"/>
-        <NamedIndividual IRI="#patient03_report001"/>
+        <NamedIndividual IRI="#patient92_report001"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://blulab.chpc.utah.edu/ontologies/v2/Schema.owl#Composition"/>
+        <NamedIndividual IRI="#patient92_report001_RAD"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="http://ontologies.dbmi.pitt.edu/deepphe/modelCancer.owl#Patient"/>
-        <NamedIndividual IRI="#patient03_report002"/>
+        <NamedIndividual IRI="#patient92_report004"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://blulab.chpc.utah.edu/ontologies/v2/Schema.owl#Composition"/>
+        <NamedIndividual IRI="#patient92_report004_SP"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="http://ontologies.dbmi.pitt.edu/deepphe/modelCancer.owl#Patient"/>
-        <NamedIndividual IRI="#patient03_report003"/>
+        <NamedIndividual IRI="#patient92_report005"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://blulab.chpc.utah.edu/ontologies/v2/Schema.owl#Composition"/>
+        <NamedIndividual IRI="#patient92_report005_RAD"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="http://ontologies.dbmi.pitt.edu/deepphe/modelCancer.owl#Patient"/>
-        <NamedIndividual IRI="#patient03_report004"/>
+        <NamedIndividual IRI="#patient92_report006"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://blulab.chpc.utah.edu/ontologies/v2/Schema.owl#Composition"/>
+        <NamedIndividual IRI="#patient92_report006_NOTE"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="http://ontologies.dbmi.pitt.edu/deepphe/modelCancer.owl#Patient"/>
-        <NamedIndividual IRI="#patient03_report006"/>
+        <NamedIndividual IRI="#patient92_report009"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://blulab.chpc.utah.edu/ontologies/v2/Schema.owl#Composition"/>
+        <NamedIndividual IRI="#patient92_report009_RAD"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="http://ontologies.dbmi.pitt.edu/deepphe/modelCancer.owl#Patient"/>
-        <NamedIndividual IRI="#patient03_report009"/>
+        <NamedIndividual IRI="#patient92_report010"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://blulab.chpc.utah.edu/ontologies/v2/Schema.owl#Composition"/>
+        <NamedIndividual IRI="#patient92_report010_RAD"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="http://ontologies.dbmi.pitt.edu/deepphe/modelCancer.owl#Patient"/>
-        <NamedIndividual IRI="#patient03_report010"/>
+        <NamedIndividual IRI="#patient92_report012"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://blulab.chpc.utah.edu/ontologies/v2/Schema.owl#Composition"/>
+        <NamedIndividual IRI="#patient92_report012_RAD"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="http://ontologies.dbmi.pitt.edu/deepphe/modelCancer.owl#Patient"/>
-        <NamedIndividual IRI="#patient03_report025"/>
+        <NamedIndividual IRI="#patient92_report013"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://blulab.chpc.utah.edu/ontologies/v2/Schema.owl#Composition"/>
+        <NamedIndividual IRI="#patient92_report013_SP"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://ontologies.dbmi.pitt.edu/deepphe/modelCancer.owl#Patient"/>
+        <NamedIndividual IRI="#patient92_report014"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://blulab.chpc.utah.edu/ontologies/v2/Schema.owl#Composition"/>
+        <NamedIndividual IRI="#patient92_report014_NOTE"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://ontologies.dbmi.pitt.edu/deepphe/modelCancer.owl#Patient"/>
+        <NamedIndividual IRI="#patient92_report014_P"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://blulab.chpc.utah.edu/ontologies/v2/Schema.owl#Composition"/>
+        <NamedIndividual IRI="#patient92_report014_PGN"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://ontologies.dbmi.pitt.edu/deepphe/modelCancer.owl#Patient"/>
+        <NamedIndividual IRI="#patient92_report018"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://blulab.chpc.utah.edu/ontologies/v2/Schema.owl#Composition"/>
+        <NamedIndividual IRI="#patient92_report018_RAD"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://ontologies.dbmi.pitt.edu/deepphe/modelCancer.owl#Patient"/>
+        <NamedIndividual IRI="#patient92_report019"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://blulab.chpc.utah.edu/ontologies/v2/Schema.owl#Composition"/>
+        <NamedIndividual IRI="#patient92_report019_RAD"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://ontologies.dbmi.pitt.edu/deepphe/modelCancer.owl#Patient"/>
+        <NamedIndividual IRI="#patient92_report058"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://blulab.chpc.utah.edu/ontologies/v2/Schema.owl#Composition"/>
+        <NamedIndividual IRI="#patient92_report058_NOTE"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://ontologies.dbmi.pitt.edu/deepphe/modelCancer.owl#Patient"/>
+        <NamedIndividual IRI="#patient92_report146"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://blulab.chpc.utah.edu/ontologies/v2/Schema.owl#Composition"/>
+        <NamedIndividual IRI="#patient92_report146_NOTE"/>
     </ClassAssertion>
 </Ontology>
 
