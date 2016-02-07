@@ -23,7 +23,7 @@
     <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
     <Annotation>
         <AnnotationProperty abbreviatedIRI="owl:versionInfo"/>
-        <Literal datatypeIRI="&rdf;PlainLiteral">sprint7</Literal>
+        <Literal datatypeIRI="&rdf;PlainLiteral">sprint8</Literal>
     </Annotation>
     <Declaration>
         <Class IRI="#Attribute"/>
