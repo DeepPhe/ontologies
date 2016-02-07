@@ -35,6 +35,9 @@
         <Class IRI="#CancerStage"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#EnvironmentExposureToCarcinogenicAgent"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#TNMClassification"/>
     </Declaration>
     <Declaration>
@@ -139,7 +142,19 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Distant"/>
-        <Class IRI="#TumorType"/>
+        <Class IRI="#Recurrent_Tumor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#EnvironmentExposureToCarcinogenicAgent"/>
+        <Class IRI="#Environmental_Exposure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Environmental_Exposure"/>
+        <Class IRI="#Exposure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Exposure"/>
+        <Class IRI="#Biological_Process"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Generic_Distant_Metastasis_TNM_Finding"/>
@@ -167,7 +182,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Local"/>
-        <Class IRI="#TumorType"/>
+        <Class IRI="#Recurrent_Tumor"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#M0_Stage_Finding"/>
@@ -278,8 +293,24 @@
         <Class IRI="#Generic_Regional_Lymph_Nodes_TNM_Finding"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#Regional"/>
+        <Class IRI="#PrimaryTumor"/>
         <Class IRI="#TumorType"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Primary_Malignant_Neoplasm"/>
+        <Class IRI="#PrimaryTumor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Recurrent_Tumor"/>
+        <Class IRI="#TumorType"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Regional"/>
+        <Class IRI="#Recurrent_Tumor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Second_Primary_Malignant_Neoplasm"/>
+        <Class IRI="#Primary_Malignant_Neoplasm"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#T0_Stage_Finding"/>
@@ -913,6 +944,436 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#Distant</IRI>
         <Literal datatypeIRI="&xsd;string">Distant</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#alternateCode"/>
+        <IRI>#EnvironmentExposureToCarcinogenicAgent</IRI>
+        <Literal datatypeIRI="&xsd;string">C0007091 [UMLS]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#alternateCode"/>
+        <IRI>#EnvironmentExposureToCarcinogenicAgent</IRI>
+        <Literal datatypeIRI="&xsd;string">C0007091 [UMLS_CUI]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#alternateCode"/>
+        <IRI>#EnvironmentExposureToCarcinogenicAgent</IRI>
+        <Literal datatypeIRI="&xsd;string">C348 [NCI]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#alternateCode"/>
+        <IRI>#EnvironmentExposureToCarcinogenicAgent</IRI>
+        <Literal datatypeIRI="&xsd;string">C348 [code]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#alternateCode"/>
+        <IRI>#EnvironmentExposureToCarcinogenicAgent</IRI>
+        <Literal datatypeIRI="&xsd;string">D002274 [MSH]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#code"/>
+        <IRI>#EnvironmentExposureToCarcinogenicAgent</IRI>
+        <Literal datatypeIRI="&xsd;string">C0007091</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#definition"/>
+        <IRI>#EnvironmentExposureToCarcinogenicAgent</IRI>
+        <Literal datatypeIRI="&xsd;string">A substance that can cause cancer in animals and/or humans and is found in the environment either as a contaminant or as a naturally occurring substance.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#definition"/>
+        <IRI>#EnvironmentExposureToCarcinogenicAgent</IRI>
+        <Literal datatypeIRI="&xsd;string">Carcinogenic substances that are found in the environment.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#preferredTerm"/>
+        <IRI>#EnvironmentExposureToCarcinogenicAgent</IRI>
+        <Literal datatypeIRI="&xsd;string">Environmental Carcinogen</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#semanticType"/>
+        <IRI>#EnvironmentExposureToCarcinogenicAgent</IRI>
+        <Literal datatypeIRI="&xsd;string">Classification</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#semanticType"/>
+        <IRI>#EnvironmentExposureToCarcinogenicAgent</IRI>
+        <Literal datatypeIRI="&xsd;string">Hazardous or Poisonous Substance</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#synonym"/>
+        <IRI>#EnvironmentExposureToCarcinogenicAgent</IRI>
+        <Literal datatypeIRI="&xsd;string">CARCINOGENS ENVIR</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#synonym"/>
+        <IRI>#EnvironmentExposureToCarcinogenicAgent</IRI>
+        <Literal datatypeIRI="&xsd;string">Carcinogens, Environmental</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#synonym"/>
+        <IRI>#EnvironmentExposureToCarcinogenicAgent</IRI>
+        <Literal datatypeIRI="&xsd;string">ENVIR CARCINOGENS</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#synonym"/>
+        <IRI>#EnvironmentExposureToCarcinogenicAgent</IRI>
+        <Literal datatypeIRI="&xsd;string">Environmental Carcinogen</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#synonym"/>
+        <IRI>#EnvironmentExposureToCarcinogenicAgent</IRI>
+        <Literal datatypeIRI="&xsd;string">Environmental Carcinogens</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#alternateCode"/>
+        <IRI>#Environmental_Exposure</IRI>
+        <Literal datatypeIRI="&xsd;string">10072082 [MDR]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#alternateCode"/>
+        <IRI>#Environmental_Exposure</IRI>
+        <Literal datatypeIRI="&xsd;string">5000-0059 [CSP]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#alternateCode"/>
+        <IRI>#Environmental_Exposure</IRI>
+        <Literal datatypeIRI="&xsd;string">C0014412 [UMLS]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#alternateCode"/>
+        <IRI>#Environmental_Exposure</IRI>
+        <Literal datatypeIRI="&xsd;string">C0014412 [UMLS_CUI]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#alternateCode"/>
+        <IRI>#Environmental_Exposure</IRI>
+        <Literal datatypeIRI="&xsd;string">C16552 [NCI]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#alternateCode"/>
+        <IRI>#Environmental_Exposure</IRI>
+        <Literal datatypeIRI="&xsd;string">C16552 [code]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#alternateCode"/>
+        <IRI>#Environmental_Exposure</IRI>
+        <Literal datatypeIRI="&xsd;string">D004781 [MSH]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#alternateCode"/>
+        <IRI>#Environmental_Exposure</IRI>
+        <Literal datatypeIRI="&xsd;string">NOCODE [MTH]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#code"/>
+        <IRI>#Environmental_Exposure</IRI>
+        <Literal datatypeIRI="&xsd;string">C0014412</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#definition"/>
+        <IRI>#Environmental_Exposure</IRI>
+        <Literal datatypeIRI="&xsd;string">Exposure to potentially harmful chemical, physical or biological agents via the environment.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#definition"/>
+        <IRI>#Environmental_Exposure</IRI>
+        <Literal datatypeIRI="&xsd;string">The exposure to potentially harmful chemical, physical, or biological agents in the environment or to environmental factors that may include ionizing radiation, pathogenic organisms, or toxic chemicals.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#definition"/>
+        <IRI>#Environmental_Exposure</IRI>
+        <Literal datatypeIRI="&xsd;string">exposure to chemical, physical or biological agents in the environment or to environmental factors that may include ionizing radiation, pathogenic organisms, toxic chemicals, dust, lead, or pollution; do not confuse with DOSAGE.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#preferredTerm"/>
+        <IRI>#Environmental_Exposure</IRI>
+        <Literal datatypeIRI="&xsd;string">Environmental Exposure</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#semanticType"/>
+        <IRI>#Environmental_Exposure</IRI>
+        <Literal datatypeIRI="&xsd;string">Injury or Poisoning</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#semanticType"/>
+        <IRI>#Environmental_Exposure</IRI>
+        <Literal datatypeIRI="&xsd;string">Phenomenon or Process</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#synonym"/>
+        <IRI>#Environmental_Exposure</IRI>
+        <Literal datatypeIRI="&xsd;string">ENVIR EXPOSURE</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#synonym"/>
+        <IRI>#Environmental_Exposure</IRI>
+        <Literal datatypeIRI="&xsd;string">EXPOSURE ENVIR</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#synonym"/>
+        <IRI>#Environmental_Exposure</IRI>
+        <Literal datatypeIRI="&xsd;string">Environmental Exposure</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#synonym"/>
+        <IRI>#Environmental_Exposure</IRI>
+        <Literal datatypeIRI="&xsd;string">Environmental Exposures</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#synonym"/>
+        <IRI>#Environmental_Exposure</IRI>
+        <Literal datatypeIRI="&xsd;string">Environmental exposure</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#synonym"/>
+        <IRI>#Environmental_Exposure</IRI>
+        <Literal datatypeIRI="&xsd;string">Exposure, Environmental</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#synonym"/>
+        <IRI>#Environmental_Exposure</IRI>
+        <Literal datatypeIRI="&xsd;string">Exposures, Environmental</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#synonym"/>
+        <IRI>#Environmental_Exposure</IRI>
+        <Literal datatypeIRI="&xsd;string">environmental exposure</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Environmental_Exposure</IRI>
+        <Literal datatypeIRI="&xsd;string">Environmental Exposure</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#alternateCode"/>
+        <IRI>#Exposure</IRI>
+        <Literal datatypeIRI="&xsd;string">242575009 [SNOMEDCT_US]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#alternateCode"/>
+        <IRI>#Exposure</IRI>
+        <Literal datatypeIRI="&xsd;string">24932003 [SNOMEDCT_US]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#alternateCode"/>
+        <IRI>#Exposure</IRI>
+        <Literal datatypeIRI="&xsd;string">71677004 [SNOMEDCT_US]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#alternateCode"/>
+        <IRI>#Exposure</IRI>
+        <Literal datatypeIRI="&xsd;string">C17941 [DICOM]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#alternateCode"/>
+        <IRI>#Exposure</IRI>
+        <Literal datatypeIRI="&xsd;string">C17941 [NCI]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#alternateCode"/>
+        <IRI>#Exposure</IRI>
+        <Literal datatypeIRI="&xsd;string">C17941 [code]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#alternateCode"/>
+        <IRI>#Exposure</IRI>
+        <Literal datatypeIRI="&xsd;string">C49587 [CDISC]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#alternateCode"/>
+        <IRI>#Exposure</IRI>
+        <Literal datatypeIRI="&xsd;string">C49587 [NCI]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#alternateCode"/>
+        <IRI>#Exposure</IRI>
+        <Literal datatypeIRI="&xsd;string">CL031047 [NCI_META]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#alternateCode"/>
+        <IRI>#Exposure</IRI>
+        <Literal datatypeIRI="&xsd;string">CL031047 [NCI_META_CUI]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#alternateCode"/>
+        <IRI>#Exposure</IRI>
+        <Literal datatypeIRI="&xsd;string">E904.3 [MTHICD9]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#alternateCode"/>
+        <IRI>#Exposure</IRI>
+        <Literal datatypeIRI="&xsd;string">EXPOS [HL7V3.0]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#alternateCode"/>
+        <IRI>#Exposure</IRI>
+        <Literal datatypeIRI="&xsd;string">NOCODE [MTH]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#alternateCode"/>
+        <IRI>#Exposure</IRI>
+        <Literal datatypeIRI="&xsd;string">X58 [ICD10CM]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#code"/>
+        <IRI>#Exposure</IRI>
+        <Literal datatypeIRI="&xsd;string">C0728853</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#definition"/>
+        <IRI>#Exposure</IRI>
+        <Literal datatypeIRI="&xsd;string">&lt;p&gt;An interaction between entities that provides opportunity for transmission of a physical, chemical, or biological agent from an exposure source entity to an exposure target entity.&lt;/p&gt;&lt;p&gt;&lt;i&gt;Examples:&lt;/i&gt;The following examples are provided to indicate what interactions are considered exposures rather than other types of Acts:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;A patient accidentally receives three times the recommended dose of their medication due to a dosing error.&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;This is a substance administration. Public health and/or safety authorities may also be interested in documenting this with an associated exposure.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;A patient accidentally is dispensed an incorrect medicine (e.g., clomiphene instead of clomipramine). They have taken several doses before the mistake is detected. They are therefore &quot;exposed&quot; to a medicine that there was no therapeutic indication for them to receive.&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;There are several substance administrations in this example. Public health and/or safety authorities may also be interested in documenting this with associated exposures.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;In a busy medical ward, a patient is receiving chemotherapy for a lymphoma. Unfortunately, the IV infusion bag containing the medicine splits, spraying cytotoxic medication over the patient being treated and the patient in the adjacent bed.&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;There are three substance administrations in this example. The first is the intended one (IV infusion) with its associated (implicit) exposure. There is an incident with an associated substance administration to the same patient involving the medication sprayed over the patient as well as an associated exposure. Additionally, the incident includes a substance administration involving the spraying of medication on the adjacent patient, also with an associated exposure.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;A patient who is a refugee from a war-torn African nation arrives in a busy inner city A&amp;E department suffering from a cough with bloody sputum. Not understanding the registration and triage process, they sit in the waiting room for several hours before it is noticed that they have not booked in. As soon as they are being processed, it is suspected that they are suffering from TB. Vulnerable (immunosuppressed) patients who were sharing the waiting room with this patient may have been exposed to the tubercule bacillus, and must be traced for investigation.&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;This is an exposure (or possibly multiple exposures) in the waiting room involving the refugee and everyone else in the waiting room during the period. There might also be a number of known or presumed substance administrations (coughing) via several possible routes. The substance administrations are only hypotheses until confirmed by further testing.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;A patient who has received an elective total hip replacement procedure suffers a prolonged stay in hospital, due to contracting an MRSA infection in the surgical wound site after the surgery.&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;This is an exposure to MRSA. Although there was some sort of substance administration, it&apos;s possible the exact mechanism for introduction of the MRSA into the wound will not be identified.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;Routine maintenance of the X-ray machines at a local hospital reveals a serious breach of the shielding on one of the machines. Patients who have undergone investigations using that machine in the last month are likely to have been exposed to significantly higher doses of X-rays than was intended, and must be tracked for possible adverse effects.&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;There has been an exposure of each patient who used the machine in the past 30 days. Some patients may have had substance administrations.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;A new member of staff is employed in the laundry processing room of a small cottage hospital, and a misreading of the instructions for adding detergents results in fifty times the usual concentration of cleaning materials being added to a batch of hospital bedding. As a result, several patients have been exposed to very high levels of detergents still present in the &quot;clean&quot; bedding, and have experienced dermatological reactions to this.&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;There has been an incident with multiple exposures to several patients. Although there are substance administrations involving the application of the detergent to the skin of the patients, it is expected that the substance administrations would not be directly documented.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;Seven patients who are residents in a health care facility for the elderly mentally ill have developed respiratory problems. After several months of various tests having been performed and various medications prescribed to these patients, the problem is traced to their being &quot;sensitive&quot; to a new fungicide used in the wall plaster of the ward where these patients reside.&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;The patients have been continuously exposed to the fungicide. Although there have been continuous substance administrations (via breathing) this would not normally be documented as a substance administration.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;A patient with osteoarthritis of the knees is treated symptomatically using analgesia, paracetamol (acetaminophen) 1g up to four times a day for pain relief. His GP does not realize that the patient has, 20 years previously (while at college) had severe alcohol addiction problems, and now, although this is completely under control, his liver has suffered significantly, leaving him more sensitive to hepatic toxicity from paracetamol use. Later that year, the patient returns with a noticeable level of jaundice. Paracetamol is immediately withdrawn and alternative solutions for the knee pain are sought. The jaundice gradually subsides with conservative management, but referral to the gastroenterologist is required for advice and monitoring.&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;There is a substance administration with an associated exposure. The exposure component is based on the relative toxic level of the substance to a patient with a compromised liver function.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;A patient goes to their GP complaining of abdominal pain, having been discharged from the local hospital ten days&apos; previously after an emergency appendectomy. The GP can find nothing particularly amiss, and presumes it is post operative surgical pain that will resolve. The patient returns a fortnight later, when the GP prescribes further analgesia, but does decide to request an outpatient surgical follow-up appointment. At this post-surgical outpatient review, the registrar decides to order an ultrasound, which, when performed three weeks later, shows a small faint inexplicable mass. A laparoscopy is then performed, as a day case procedure, and a piece of a surgical swab is removed from the patient&apos;s abdominal cavity. Thankfully, a full recovery then takes place.&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;This is a procedural sequelae. There may be an Incident recorded for this also.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;A patient is slightly late for a regular pacemaker battery check in the Cardiology department of the local hospital. They are hurrying down the second floor corridor. A sudden summer squall has recently passed over the area, and rain has come in through an open corridor window leaving a small puddle on the corridor floor. In their haste, the patient slips in the puddle and falls so badly that they have to be taken to the A&amp;E department, where it is discovered on investigation they have slightly torn the cruciate ligament in their left knee.&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;This is not an exposure. There has been an incident.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;i&gt;Usage Notes:&lt;/i&gt; This class deals only with opportunity and not the outcome of the exposure; i.e. not all exposed parties will necessarily experience actual harm or benefit.&lt;/p&gt;&lt;p&gt;Exposure differs from Substance Administration by the absence of the participation of a performer in the act.&lt;/p&gt;&lt;p&gt;The following participations SHOULD be used with the following participations to distinguish the specific entities:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;The exposed entity participates via the &quot;exposure target&quot; (EXPTRGT) participation.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;An entity that has carried the agent transmitted in the exposure participates via the &quot;exposure source&quot; (EXSRC) participation. For example:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;a person or animal who carried an infectious disease and interacts (EXSRC) with another person or animal (EXPTRGT) transmitting the disease agent;&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;a place or other environment (EXSRC) and a person or animal (EXPTRGT) who is exposed in the presence of this environment.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;When it is unknown whether a participating entity is the source of the agent (EXSRC) or the target of the transmission (EXPTRGT), the &quot;exposure participant&quot; (EXPART) is used.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;The physical (including energy), chemical or biological substance which is participating in the exposure uses the &quot;exposure agent&quot; (EXPAGNT) participation. There are at least three scenarios:&lt;/p&gt;&lt;ol&gt;&lt;li&gt;&lt;p&gt;the player of the Role that participates as EXPAGNT is the chemical or biological substance mixed or carried by the scoper-entity of the Role (e.g., ingredient role); or&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;the player of the Role that participates as EXPAGNT is a mixture known to contain the chemical, radiological or biological substance of interest; or&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;the player of the Role that participates as a EXPAGNT is known to carry the agent (i.e., the player is a fomite, vector, etc.).&lt;/p&gt;&lt;/li&gt;&lt;/ol&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;The Exposure.statusCode attribute should be interpreted as the state of the Exposure business object (e.g., active, aborted, completed) and not the clinical status of the exposure (e.g., probable, confirmed). The clinical status of the exposure should be associated with the exposure via a subject observation.&lt;/p&gt;&lt;p&gt;&lt;i&gt;Design Comment:&lt;/i&gt;The usage notes require a clear criterion for determining whether an act is an exposure or substance administration-deleterious potential, uncertainty of actual transmission, or otherwise. SBADM states that the criterion is the presence of a performer-but there are examples above that call this criterion into question (e.g., the first one, concerning a dosing error).&lt;/p&gt;</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#definition"/>
+        <IRI>#Exposure</IRI>
+        <Literal datatypeIRI="&xsd;string">A subject domain utilized for the submission of information encompassing and representing data, vocabulary or records related to exposure.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#definition"/>
+        <IRI>#Exposure</IRI>
+        <Literal datatypeIRI="&xsd;string">Mean value of X-Ray Current Time product.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#definition"/>
+        <IRI>#Exposure</IRI>
+        <Literal datatypeIRI="&xsd;string">The Exposure domain model records the details of a subject&apos;s exposure to protocol-specified study treatment. Study treatment may be any intervention that is prospectively defined as a test material within a study, and is typically but not always supplied to the subject.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#definition"/>
+        <IRI>#Exposure</IRI>
+        <Literal datatypeIRI="&xsd;string">The act of subjecting someone or something to an influencing experience.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#preferredTerm"/>
+        <IRI>#Exposure</IRI>
+        <Literal datatypeIRI="&xsd;string">Accident due to exposure to weather conditions</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#preferredTerm"/>
+        <IRI>#Exposure</IRI>
+        <Literal datatypeIRI="&xsd;string">Exposure</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#preferredTerm"/>
+        <IRI>#Exposure</IRI>
+        <Literal datatypeIRI="&xsd;string">Exposure Domain</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#preferredTerm"/>
+        <IRI>#Exposure</IRI>
+        <Literal datatypeIRI="&xsd;string">Exposure to</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#preferredTerm"/>
+        <IRI>#Exposure</IRI>
+        <Literal datatypeIRI="&xsd;string">Injury due to exposure to external cause</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#semanticType"/>
+        <IRI>#Exposure</IRI>
+        <Literal datatypeIRI="&xsd;string">Clinical Attribute</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#semanticType"/>
+        <IRI>#Exposure</IRI>
+        <Literal datatypeIRI="&xsd;string">Human-caused Phenomenon or Process</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#semanticType"/>
+        <IRI>#Exposure</IRI>
+        <Literal datatypeIRI="&xsd;string">Idea or Concept</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#semanticType"/>
+        <IRI>#Exposure</IRI>
+        <Literal datatypeIRI="&xsd;string">Injury or Poisoning</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#semanticType"/>
+        <IRI>#Exposure</IRI>
+        <Literal datatypeIRI="&xsd;string">Phenomenon or Process</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#synonym"/>
+        <IRI>#Exposure</IRI>
+        <Literal datatypeIRI="&xsd;string">Accident due to exposure to weather conditions</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#synonym"/>
+        <IRI>#Exposure</IRI>
+        <Literal datatypeIRI="&xsd;string">Accident due to exposure to weather conditions (event)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#synonym"/>
+        <IRI>#Exposure</IRI>
+        <Literal datatypeIRI="&xsd;string">EX</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#synonym"/>
+        <IRI>#Exposure</IRI>
+        <Literal datatypeIRI="&xsd;string">Effect of exposure to external cause</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#synonym"/>
+        <IRI>#Exposure</IRI>
+        <Literal datatypeIRI="&xsd;string">Exposed</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#synonym"/>
+        <IRI>#Exposure</IRI>
+        <Literal datatypeIRI="&xsd;string">Exposed to</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#synonym"/>
+        <IRI>#Exposure</IRI>
+        <Literal datatypeIRI="&xsd;string">Exposure</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#synonym"/>
+        <IRI>#Exposure</IRI>
+        <Literal datatypeIRI="&xsd;string">Exposure Domain</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#synonym"/>
+        <IRI>#Exposure</IRI>
+        <Literal datatypeIRI="&xsd;string">Exposure NOS</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#synonym"/>
+        <IRI>#Exposure</IRI>
+        <Literal datatypeIRI="&xsd;string">Exposure to</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#synonym"/>
+        <IRI>#Exposure</IRI>
+        <Literal datatypeIRI="&xsd;string">Exposure to (contextual qualifier)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#synonym"/>
+        <IRI>#Exposure</IRI>
+        <Literal datatypeIRI="&xsd;string">Exposure to (contextual qualifier) (qualifier value)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#synonym"/>
+        <IRI>#Exposure</IRI>
+        <Literal datatypeIRI="&xsd;string">Injury due to exposure to external cause</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#synonym"/>
+        <IRI>#Exposure</IRI>
+        <Literal datatypeIRI="&xsd;string">Injury due to exposure to external cause (disorder)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#synonym"/>
+        <IRI>#Exposure</IRI>
+        <Literal datatypeIRI="&xsd;string">exposure</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Exposure</IRI>
+        <Literal datatypeIRI="&xsd;string">Exposure</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#code"/>
@@ -3806,6 +4267,331 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#alternateCode"/>
+        <IRI>#PrimaryTumor</IRI>
+        <Literal datatypeIRI="&xsd;string">C0677930 [UMLS]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#alternateCode"/>
+        <IRI>#PrimaryTumor</IRI>
+        <Literal datatypeIRI="&xsd;string">C0677930 [UMLS_CUI]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#alternateCode"/>
+        <IRI>#PrimaryTumor</IRI>
+        <Literal datatypeIRI="&xsd;string">C8509 [NCI]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#alternateCode"/>
+        <IRI>#PrimaryTumor</IRI>
+        <Literal datatypeIRI="&xsd;string">C8509 [code]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#alternateCode"/>
+        <IRI>#PrimaryTumor</IRI>
+        <Literal datatypeIRI="&xsd;string">CDR0000045847 [NCI-GLOSS]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#code"/>
+        <IRI>#PrimaryTumor</IRI>
+        <Literal datatypeIRI="&xsd;string">C0677930</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#definition"/>
+        <IRI>#PrimaryTumor</IRI>
+        <Literal datatypeIRI="&xsd;string">A tumor at the original site of origin.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#definition"/>
+        <IRI>#PrimaryTumor</IRI>
+        <Literal datatypeIRI="&xsd;string">The original tumor.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#preferredTerm"/>
+        <IRI>#PrimaryTumor</IRI>
+        <Literal datatypeIRI="&xsd;string">Primary Neoplasm</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#semanticType"/>
+        <IRI>#PrimaryTumor</IRI>
+        <Literal datatypeIRI="&xsd;string">Neoplastic Process</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#synonym"/>
+        <IRI>#PrimaryTumor</IRI>
+        <Literal datatypeIRI="&xsd;string">Primary Neoplasm</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#synonym"/>
+        <IRI>#PrimaryTumor</IRI>
+        <Literal datatypeIRI="&xsd;string">Primary Tumor</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#synonym"/>
+        <IRI>#PrimaryTumor</IRI>
+        <Literal datatypeIRI="&xsd;string">primary tumor</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#PrimaryTumor</IRI>
+        <Literal datatypeIRI="&xsd;string">Primary Tumor</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#alternateCode"/>
+        <IRI>#Primary_Malignant_Neoplasm</IRI>
+        <Literal datatypeIRI="&xsd;string">86049000 [SNOMEDCT_US]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#alternateCode"/>
+        <IRI>#Primary_Malignant_Neoplasm</IRI>
+        <Literal datatypeIRI="&xsd;string">C1306459 [UMLS]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#alternateCode"/>
+        <IRI>#Primary_Malignant_Neoplasm</IRI>
+        <Literal datatypeIRI="&xsd;string">C1306459 [UMLS_CUI]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#alternateCode"/>
+        <IRI>#Primary_Malignant_Neoplasm</IRI>
+        <Literal datatypeIRI="&xsd;string">C84509 [NCI]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#alternateCode"/>
+        <IRI>#Primary_Malignant_Neoplasm</IRI>
+        <Literal datatypeIRI="&xsd;string">C84509 [code]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#alternateCode"/>
+        <IRI>#Primary_Malignant_Neoplasm</IRI>
+        <Literal datatypeIRI="&xsd;string">NOCODE [MTH]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#code"/>
+        <IRI>#Primary_Malignant_Neoplasm</IRI>
+        <Literal datatypeIRI="&xsd;string">C1306459</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#definition"/>
+        <IRI>#Primary_Malignant_Neoplasm</IRI>
+        <Literal datatypeIRI="&xsd;string">A malignant tumor at the original site of growth.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#preferredTerm"/>
+        <IRI>#Primary_Malignant_Neoplasm</IRI>
+        <Literal datatypeIRI="&xsd;string">Primary Malignant Neoplasm</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#preferredTerm"/>
+        <IRI>#Primary_Malignant_Neoplasm</IRI>
+        <Literal datatypeIRI="&xsd;string">Primary malignant neoplasm</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#semanticType"/>
+        <IRI>#Primary_Malignant_Neoplasm</IRI>
+        <Literal datatypeIRI="&xsd;string">Neoplastic Process</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#synonym"/>
+        <IRI>#Primary_Malignant_Neoplasm</IRI>
+        <Literal datatypeIRI="&xsd;string">Blastoma</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#synonym"/>
+        <IRI>#Primary_Malignant_Neoplasm</IRI>
+        <Literal datatypeIRI="&xsd;string">Cancer</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#synonym"/>
+        <IRI>#Primary_Malignant_Neoplasm</IRI>
+        <Literal datatypeIRI="&xsd;string">Cancer morphology</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#synonym"/>
+        <IRI>#Primary_Malignant_Neoplasm</IRI>
+        <Literal datatypeIRI="&xsd;string">Malignancy</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#synonym"/>
+        <IRI>#Primary_Malignant_Neoplasm</IRI>
+        <Literal datatypeIRI="&xsd;string">Malignant neoplasm</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#synonym"/>
+        <IRI>#Primary_Malignant_Neoplasm</IRI>
+        <Literal datatypeIRI="&xsd;string">Malignant neoplasm, primary</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#synonym"/>
+        <IRI>#Primary_Malignant_Neoplasm</IRI>
+        <Literal datatypeIRI="&xsd;string">Malignant neoplasm, primary (morphologic abnormality)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#synonym"/>
+        <IRI>#Primary_Malignant_Neoplasm</IRI>
+        <Literal datatypeIRI="&xsd;string">Malignant tumor morphology</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#synonym"/>
+        <IRI>#Primary_Malignant_Neoplasm</IRI>
+        <Literal datatypeIRI="&xsd;string">Malignant tumour morphology</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#synonym"/>
+        <IRI>#Primary_Malignant_Neoplasm</IRI>
+        <Literal datatypeIRI="&xsd;string">Neoplasm, malignant</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#synonym"/>
+        <IRI>#Primary_Malignant_Neoplasm</IRI>
+        <Literal datatypeIRI="&xsd;string">Neoplasm, malignant (primary)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#synonym"/>
+        <IRI>#Primary_Malignant_Neoplasm</IRI>
+        <Literal datatypeIRI="&xsd;string">Primary Malignant Neoplasm</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#synonym"/>
+        <IRI>#Primary_Malignant_Neoplasm</IRI>
+        <Literal datatypeIRI="&xsd;string">Primary malignant neoplasm</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#synonym"/>
+        <IRI>#Primary_Malignant_Neoplasm</IRI>
+        <Literal datatypeIRI="&xsd;string">Primary malignant neoplasm (disorder)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#synonym"/>
+        <IRI>#Primary_Malignant_Neoplasm</IRI>
+        <Literal datatypeIRI="&xsd;string">Tumor, malignant</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#synonym"/>
+        <IRI>#Primary_Malignant_Neoplasm</IRI>
+        <Literal datatypeIRI="&xsd;string">Tumour, malignant</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#synonym"/>
+        <IRI>#Primary_Malignant_Neoplasm</IRI>
+        <Literal datatypeIRI="&xsd;string">Unclassified tumor, malignant</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#synonym"/>
+        <IRI>#Primary_Malignant_Neoplasm</IRI>
+        <Literal datatypeIRI="&xsd;string">Unclassified tumour, malignant</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Primary_Malignant_Neoplasm</IRI>
+        <Literal datatypeIRI="&xsd;string">Primary Malignant Neoplasm</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#alternateCode"/>
+        <IRI>#Recurrent_Tumor</IRI>
+        <Literal datatypeIRI="&xsd;string">10038111 [MDR]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#alternateCode"/>
+        <IRI>#Recurrent_Tumor</IRI>
+        <Literal datatypeIRI="&xsd;string">C0549379 [UMLS]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#alternateCode"/>
+        <IRI>#Recurrent_Tumor</IRI>
+        <Literal datatypeIRI="&xsd;string">C0549379 [UMLS_CUI]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#alternateCode"/>
+        <IRI>#Recurrent_Tumor</IRI>
+        <Literal datatypeIRI="&xsd;string">C4813 [NCI]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#alternateCode"/>
+        <IRI>#Recurrent_Tumor</IRI>
+        <Literal datatypeIRI="&xsd;string">C4813 [code]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#alternateCode"/>
+        <IRI>#Recurrent_Tumor</IRI>
+        <Literal datatypeIRI="&xsd;string">CDR0000045861 [NCI-GLOSS]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#alternateCode"/>
+        <IRI>#Recurrent_Tumor</IRI>
+        <Literal datatypeIRI="&xsd;string">NOCODE [MTH]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#code"/>
+        <IRI>#Recurrent_Tumor</IRI>
+        <Literal datatypeIRI="&xsd;string">C0549379</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#definition"/>
+        <IRI>#Recurrent_Tumor</IRI>
+        <Literal datatypeIRI="&xsd;string">Cancer that has recurred (come back), usually after a period of time during which the cancer could not be detected. The cancer may come back to the same place as the original (primary) tumor or to another place in the body.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#definition"/>
+        <IRI>#Recurrent_Tumor</IRI>
+        <Literal datatypeIRI="&xsd;string">The reemergence of a malignant neoplasm after a period of remission.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#preferredTerm"/>
+        <IRI>#Recurrent_Tumor</IRI>
+        <Literal datatypeIRI="&xsd;string">Recurrent Carcinoma</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#preferredTerm"/>
+        <IRI>#Recurrent_Tumor</IRI>
+        <Literal datatypeIRI="&xsd;string">Recurrent Malignant Neoplasm</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#semanticType"/>
+        <IRI>#Recurrent_Tumor</IRI>
+        <Literal datatypeIRI="&xsd;string">Neoplastic Process</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#synonym"/>
+        <IRI>#Recurrent_Tumor</IRI>
+        <Literal datatypeIRI="&xsd;string">Recurrent Cancer</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#synonym"/>
+        <IRI>#Recurrent_Tumor</IRI>
+        <Literal datatypeIRI="&xsd;string">Recurrent Carcinoma</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#synonym"/>
+        <IRI>#Recurrent_Tumor</IRI>
+        <Literal datatypeIRI="&xsd;string">Recurrent Malignant Neoplasm</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#synonym"/>
+        <IRI>#Recurrent_Tumor</IRI>
+        <Literal datatypeIRI="&xsd;string">Recurrent Malignant Tumor</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#synonym"/>
+        <IRI>#Recurrent_Tumor</IRI>
+        <Literal datatypeIRI="&xsd;string">Recurrent cancer</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#synonym"/>
+        <IRI>#Recurrent_Tumor</IRI>
+        <Literal datatypeIRI="&xsd;string">recurrence</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#synonym"/>
+        <IRI>#Recurrent_Tumor</IRI>
+        <Literal datatypeIRI="&xsd;string">recurrent cancer</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Recurrent_Tumor</IRI>
+        <Literal datatypeIRI="&xsd;string">Recurrent Tumor</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#alternateCode"/>
         <IRI>#Regional</IRI>
         <Literal datatypeIRI="&xsd;string">255470001 [SNOMEDCT_US]</Literal>
     </AnnotationAssertion>
@@ -3978,6 +4764,76 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#Regional</IRI>
         <Literal datatypeIRI="&xsd;string">Regional</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#alternateCode"/>
+        <IRI>#Second_Primary_Malignant_Neoplasm</IRI>
+        <Literal datatypeIRI="&xsd;string">C2987250 [UMLS]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#alternateCode"/>
+        <IRI>#Second_Primary_Malignant_Neoplasm</IRI>
+        <Literal datatypeIRI="&xsd;string">C2987250 [UMLS_CUI]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#alternateCode"/>
+        <IRI>#Second_Primary_Malignant_Neoplasm</IRI>
+        <Literal datatypeIRI="&xsd;string">C95606 [NCI]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#alternateCode"/>
+        <IRI>#Second_Primary_Malignant_Neoplasm</IRI>
+        <Literal datatypeIRI="&xsd;string">C95606 [code]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#alternateCode"/>
+        <IRI>#Second_Primary_Malignant_Neoplasm</IRI>
+        <Literal datatypeIRI="&xsd;string">CDR0000046658 [NCI-GLOSS]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#code"/>
+        <IRI>#Second_Primary_Malignant_Neoplasm</IRI>
+        <Literal datatypeIRI="&xsd;string">C2987250</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#definition"/>
+        <IRI>#Second_Primary_Malignant_Neoplasm</IRI>
+        <Literal datatypeIRI="&xsd;string">A primary malignant neoplasm in a patient who has been already diagnosed with a primary malignant neoplasm in another anatomic site.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#definition"/>
+        <IRI>#Second_Primary_Malignant_Neoplasm</IRI>
+        <Literal datatypeIRI="&xsd;string">Refers to a new primary cancer in a person with a history of cancer.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#preferredTerm"/>
+        <IRI>#Second_Primary_Malignant_Neoplasm</IRI>
+        <Literal datatypeIRI="&xsd;string">Second Primary Malignant Neoplasm</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#semanticType"/>
+        <IRI>#Second_Primary_Malignant_Neoplasm</IRI>
+        <Literal datatypeIRI="&xsd;string">Neoplastic Process</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#synonym"/>
+        <IRI>#Second_Primary_Malignant_Neoplasm</IRI>
+        <Literal datatypeIRI="&xsd;string">Second Primary Cancer</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#synonym"/>
+        <IRI>#Second_Primary_Malignant_Neoplasm</IRI>
+        <Literal datatypeIRI="&xsd;string">Second Primary Malignant Neoplasm</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#synonym"/>
+        <IRI>#Second_Primary_Malignant_Neoplasm</IRI>
+        <Literal datatypeIRI="&xsd;string">second cancer</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Second_Primary_Malignant_Neoplasm</IRI>
+        <Literal datatypeIRI="&xsd;string">Second Primary Malignant Neoplasm</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#code"/>
