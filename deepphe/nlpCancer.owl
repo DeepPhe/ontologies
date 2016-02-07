@@ -21,15 +21,15 @@
     <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
     <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
     <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Import>http://blulab.chpc.utah.edu/ontologies/TermMapping.owl</Import>
     <Import>http://blulab.chpc.utah.edu/ontologies/v2/Schema.owl</Import>
-    <Import>http://ontologies.dbmi.pitt.edu/deepphe/modelCancer.owl</Import>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="owl:versionInfo"/>
+        <Literal datatypeIRI="&rdf;PlainLiteral">sprint8</Literal>
+    </Annotation>
     <Annotation>
         <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/v2/SchemaOntology.owl#license"/>
         <Literal datatypeIRI="&rdf;PlainLiteral">The DeepPhe Cancer ontology is licensed under the Creative Commons Attribution 4.0 International license. Please see https://creativecommons.org/licenses/by/4.0/legalcode for the entire license.</Literal>
-    </Annotation>
-    <Annotation>
-        <AnnotationProperty abbreviatedIRI="owl:versionInfo"/>
-        <Literal datatypeIRI="&rdf;PlainLiteral">sprint7</Literal>
     </Annotation>
     <Declaration>
         <Class IRI="#CancerStage"/>
@@ -42,6 +42,9 @@
     </Declaration>
     <Declaration>
         <Class IRI="#TNM_Modifier"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TumorType"/>
     </Declaration>
     <Declaration>
         <Class IRI="#c_modifier"/>
@@ -119,140 +122,12 @@
         <DataProperty IRI="#hasTumorType"/>
     </Declaration>
     <SubClassOf>
-        <Class IRI="http://ontologies.dbmi.pitt.edu/deepphe/modelCancer.owl#Attribute"/>
-        <Class IRI="http://blulab.chpc.utah.edu/ontologies/v2/Schema.owl#SummaryModel"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="http://ontologies.dbmi.pitt.edu/deepphe/modelCancer.owl#BiologicalProcess"/>
-        <Class IRI="http://blulab.chpc.utah.edu/ontologies/v2/Schema.owl#Summary"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="http://ontologies.dbmi.pitt.edu/deepphe/modelCancer.owl#BiologicalProcess"/>
-        <Class IRI="http://blulab.chpc.utah.edu/ontologies/v2/Schema.owl#SummaryModel"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="http://ontologies.dbmi.pitt.edu/deepphe/modelCancer.owl#BodyModifier"/>
-        <Class IRI="http://blulab.chpc.utah.edu/ontologies/v2/Schema.owl#SummaryAttribute"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="http://ontologies.dbmi.pitt.edu/deepphe/modelCancer.owl#BodySite"/>
-        <Class IRI="http://blulab.chpc.utah.edu/ontologies/v2/Schema.owl#SummaryAttribute"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="http://ontologies.dbmi.pitt.edu/deepphe/modelCancer.owl#Cancer"/>
-        <Class IRI="http://blulab.chpc.utah.edu/ontologies/v2/Schema.owl#Summary"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="http://ontologies.dbmi.pitt.edu/deepphe/modelCancer.owl#Cancer"/>
-        <Class IRI="http://blulab.chpc.utah.edu/ontologies/v2/Schema.owl#SummaryModel"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="http://ontologies.dbmi.pitt.edu/deepphe/modelCancer.owl#DimensionalMeasurement"/>
-        <Class IRI="http://blulab.chpc.utah.edu/ontologies/v2/Schema.owl#SummaryAttribute"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="http://ontologies.dbmi.pitt.edu/deepphe/modelCancer.owl#DiseasePhenotype"/>
-        <Class IRI="http://blulab.chpc.utah.edu/ontologies/v2/Schema.owl#Summary"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="http://ontologies.dbmi.pitt.edu/deepphe/modelCancer.owl#DiseasePhenotype"/>
-        <Class IRI="http://blulab.chpc.utah.edu/ontologies/v2/Schema.owl#SummaryModel"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="http://ontologies.dbmi.pitt.edu/deepphe/modelCancer.owl#Episode"/>
-        <Class IRI="http://blulab.chpc.utah.edu/ontologies/v2/Schema.owl#SummaryModel"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="http://ontologies.dbmi.pitt.edu/deepphe/modelCancer.owl#EpisodeType"/>
-        <Class IRI="http://blulab.chpc.utah.edu/ontologies/v2/Schema.owl#SummaryModel"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="http://ontologies.dbmi.pitt.edu/deepphe/modelCancer.owl#Interpretation"/>
-        <Class IRI="http://blulab.chpc.utah.edu/ontologies/v2/Schema.owl#SummaryAttribute"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="http://ontologies.dbmi.pitt.edu/deepphe/modelCancer.owl#ManifestationOfDisease"/>
-        <Class IRI="http://blulab.chpc.utah.edu/ontologies/v2/Schema.owl#Summary"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="http://ontologies.dbmi.pitt.edu/deepphe/modelCancer.owl#ManifestationOfDisease"/>
-        <Class IRI="http://blulab.chpc.utah.edu/ontologies/v2/Schema.owl#SummaryModel"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="http://ontologies.dbmi.pitt.edu/deepphe/modelCancer.owl#Outcome"/>
-        <Class IRI="http://blulab.chpc.utah.edu/ontologies/v2/Schema.owl#Summary"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="http://ontologies.dbmi.pitt.edu/deepphe/modelCancer.owl#Outcome"/>
-        <Class IRI="http://blulab.chpc.utah.edu/ontologies/v2/Schema.owl#SummaryModel"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="http://ontologies.dbmi.pitt.edu/deepphe/modelCancer.owl#Patient"/>
-        <Class IRI="http://blulab.chpc.utah.edu/ontologies/v2/Schema.owl#Summary"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="http://ontologies.dbmi.pitt.edu/deepphe/modelCancer.owl#Patient"/>
-        <Class IRI="http://blulab.chpc.utah.edu/ontologies/v2/Schema.owl#SummaryModel"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="http://ontologies.dbmi.pitt.edu/deepphe/modelCancer.owl#ProcedureMethod"/>
-        <Class IRI="http://blulab.chpc.utah.edu/ontologies/v2/Schema.owl#SummaryAttribute"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="http://ontologies.dbmi.pitt.edu/deepphe/modelCancer.owl#Quantity"/>
-        <Class IRI="http://blulab.chpc.utah.edu/ontologies/v2/Schema.owl#SummaryAttribute"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="http://ontologies.dbmi.pitt.edu/deepphe/modelCancer.owl#RangeValue"/>
-        <Class IRI="http://blulab.chpc.utah.edu/ontologies/v2/Schema.owl#SummaryAttribute"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="http://ontologies.dbmi.pitt.edu/deepphe/modelCancer.owl#Ratio"/>
-        <Class IRI="http://blulab.chpc.utah.edu/ontologies/v2/Schema.owl#SummaryAttribute"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="http://ontologies.dbmi.pitt.edu/deepphe/modelCancer.owl#SequenceVariant"/>
-        <Class IRI="http://blulab.chpc.utah.edu/ontologies/v2/Schema.owl#Summary"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="http://ontologies.dbmi.pitt.edu/deepphe/modelCancer.owl#SequenceVariant"/>
-        <Class IRI="http://blulab.chpc.utah.edu/ontologies/v2/Schema.owl#SummaryModel"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="http://ontologies.dbmi.pitt.edu/deepphe/modelCancer.owl#Treatment"/>
-        <Class IRI="http://blulab.chpc.utah.edu/ontologies/v2/Schema.owl#Summary"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="http://ontologies.dbmi.pitt.edu/deepphe/modelCancer.owl#Treatment"/>
-        <Class IRI="http://blulab.chpc.utah.edu/ontologies/v2/Schema.owl#SummaryModel"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="http://ontologies.dbmi.pitt.edu/deepphe/modelCancer.owl#TreatmentSideEffect"/>
-        <Class IRI="http://blulab.chpc.utah.edu/ontologies/v2/Schema.owl#Summary"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="http://ontologies.dbmi.pitt.edu/deepphe/modelCancer.owl#TreatmentSideEffect"/>
-        <Class IRI="http://blulab.chpc.utah.edu/ontologies/v2/Schema.owl#SummaryModel"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="http://ontologies.dbmi.pitt.edu/deepphe/modelCancer.owl#Tumor"/>
-        <Class IRI="http://blulab.chpc.utah.edu/ontologies/v2/Schema.owl#Summary"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="http://ontologies.dbmi.pitt.edu/deepphe/modelCancer.owl#Tumor"/>
-        <Class IRI="http://blulab.chpc.utah.edu/ontologies/v2/Schema.owl#SummaryModel"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="http://ontologies.dbmi.pitt.edu/deepphe/modelCancer.owl#TumorType"/>
-        <Class IRI="http://blulab.chpc.utah.edu/ontologies/v2/Schema.owl#SummaryAttribute"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="http://ontologies.dbmi.pitt.edu/deepphe/modelCancer.owl#Unit"/>
-        <Class IRI="http://blulab.chpc.utah.edu/ontologies/v2/Schema.owl#SummaryAttribute"/>
-    </SubClassOf>
-    <SubClassOf>
         <Class IRI="#Any_T"/>
         <Class IRI="#Generic_Primary_Tumor_TNM_Finding"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Biological_Process"/>
+        <Class IRI="http://blulab.chpc.utah.edu/ontologies/v2/Schema.owl#SummaryModel"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#CancerStage"/>
@@ -261,6 +136,10 @@
     <SubClassOf>
         <Class IRI="#Cancer_TNM_Vessel_Invasion_Finding_Category"/>
         <Class IRI="#TNMValue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Distant"/>
+        <Class IRI="#TumorType"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Generic_Distant_Metastasis_TNM_Finding"/>
@@ -285,6 +164,10 @@
     <SubClassOf>
         <Class IRI="#LX_Stage_Finding"/>
         <Class IRI="#Cancer_TNM_Vessel_Invasion_Finding_Category"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Local"/>
+        <Class IRI="#TumorType"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#M0_Stage_Finding"/>
@@ -393,6 +276,10 @@
     <SubClassOf>
         <Class IRI="#NX_Stage_Finding"/>
         <Class IRI="#Generic_Regional_Lymph_Nodes_TNM_Finding"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Regional"/>
+        <Class IRI="#TumorType"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#T0_Stage_Finding"/>
@@ -528,6 +415,10 @@
     <SubClassOf>
         <Class IRI="#Tis_Stage_Finding"/>
         <Class IRI="#Generic_Primary_Tumor_TNM_Finding"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TumorType"/>
+        <Class IRI="http://blulab.chpc.utah.edu/ontologies/v2/Schema.owl#SummaryAttribute"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#V0_Stage_Finding"/>
@@ -709,11 +600,6 @@
         </DataOneOf>
     </DataPropertyRange>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>http://ontologies.dbmi.pitt.edu/deepphe/modelCancer.owl#TherapeuticProcedure</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">TherapeuticProcedureSummary</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
         <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#code"/>
         <IRI>#Any_T</IRI>
         <Literal datatypeIRI="&xsd;string">C106299 [NCI]</Literal>
@@ -744,6 +630,191 @@
         <Literal datatypeIRI="&xsd;string">Any T</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#alternateCode"/>
+        <IRI>#Biological_Process</IRI>
+        <Literal datatypeIRI="&xsd;string">C0277784 [UMLS]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#alternateCode"/>
+        <IRI>#Biological_Process</IRI>
+        <Literal datatypeIRI="&xsd;string">C0277784 [UMLS_CUI]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#alternateCode"/>
+        <IRI>#Biological_Process</IRI>
+        <Literal datatypeIRI="&xsd;string">C17828 [NCI]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#alternateCode"/>
+        <IRI>#Biological_Process</IRI>
+        <Literal datatypeIRI="&xsd;string">C17828 [code]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#alternateCode"/>
+        <IRI>#Biological_Process</IRI>
+        <Literal datatypeIRI="&xsd;string">CLINBIO!AEO/PQD7LLZ5XYjIn4waeg [CBO]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#alternateCode"/>
+        <IRI>#Biological_Process</IRI>
+        <Literal datatypeIRI="&xsd;string">D055694 [MSH]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#alternateCode"/>
+        <IRI>#Biological_Process</IRI>
+        <Literal datatypeIRI="&xsd;string">GO:0008150 [GO]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#alternateCode"/>
+        <IRI>#Biological_Process</IRI>
+        <Literal datatypeIRI="&xsd;string">MTHU000234 [AOT]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#alternateCode"/>
+        <IRI>#Biological_Process</IRI>
+        <Literal datatypeIRI="&xsd;string">NOCODE [MTH]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#alternateCode"/>
+        <IRI>#Biological_Process</IRI>
+        <Literal datatypeIRI="&xsd;string">NOCODE [NCIMTH]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#alternateCode"/>
+        <IRI>#Biological_Process</IRI>
+        <Literal datatypeIRI="&xsd;string">NPO_427 [NPO]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#alternateCode"/>
+        <IRI>#Biological_Process</IRI>
+        <Literal datatypeIRI="&xsd;string">RID39129 [RADLEX]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#code"/>
+        <IRI>#Biological_Process</IRI>
+        <Literal datatypeIRI="&xsd;string">C0031845</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#definition"/>
+        <IRI>#Biological_Process</IRI>
+        <Literal datatypeIRI="&xsd;string">An activity occurring within an organism, between organisms or among organisms and the mechanisms underlying such events.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#definition"/>
+        <IRI>#Biological_Process</IRI>
+        <Literal datatypeIRI="&xsd;string">Any process specifically pertinent to the functioning of integrated living units: cells, tissues, organs, and organisms. A process is a collection of molecular events with a defined beginning and end.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#definition"/>
+        <IRI>#Biological_Process</IRI>
+        <Literal datatypeIRI="&xsd;string">Any process specifically pertinent to the functioning of integrated living units: cells, tissues, organs, and organisms. A process is a collection of molecular events with a defined beginning and end. [GOC:go_curators, GOC:isa_complete]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#definition"/>
+        <IRI>#Biological_Process</IRI>
+        <Literal datatypeIRI="&xsd;string">Biological activities and function of the whole organism in human, animal, microorgansims, and plants, and of the biosphere.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#definition"/>
+        <IRI>#Biological_Process</IRI>
+        <Literal datatypeIRI="&xsd;string">The functions and activities of living organisms that support life in single- or multi-cellular organisms from their origin through the progression of life.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#definition"/>
+        <IRI>#Biological_Process</IRI>
+        <Literal datatypeIRI="&xsd;string">see:http://www.nlm.nih.gov/mesh/MBrowser.html</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#preferredTerm"/>
+        <IRI>#Biological_Process</IRI>
+        <Literal datatypeIRI="&xsd;string">Biological Process</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#preferredTerm"/>
+        <IRI>#Biological_Process</IRI>
+        <Literal datatypeIRI="&xsd;string">Physiological Processes</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#semanticType"/>
+        <IRI>#Biological_Process</IRI>
+        <Literal datatypeIRI="&xsd;string">Biologic Function</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#semanticType"/>
+        <IRI>#Biological_Process</IRI>
+        <Literal datatypeIRI="&xsd;string">Physiologic Function</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#synonym"/>
+        <IRI>#Biological_Process</IRI>
+        <Literal datatypeIRI="&xsd;string">Biological Function</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#synonym"/>
+        <IRI>#Biological_Process</IRI>
+        <Literal datatypeIRI="&xsd;string">Biological Process</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#synonym"/>
+        <IRI>#Biological_Process</IRI>
+        <Literal datatypeIRI="&xsd;string">Biological Processes</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#synonym"/>
+        <IRI>#Biological_Process</IRI>
+        <Literal datatypeIRI="&xsd;string">Physiological Process</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#synonym"/>
+        <IRI>#Biological_Process</IRI>
+        <Literal datatypeIRI="&xsd;string">Physiological Processes</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#synonym"/>
+        <IRI>#Biological_Process</IRI>
+        <Literal datatypeIRI="&xsd;string">Process, Biological</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#synonym"/>
+        <IRI>#Biological_Process</IRI>
+        <Literal datatypeIRI="&xsd;string">Process, Physiological</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#synonym"/>
+        <IRI>#Biological_Process</IRI>
+        <Literal datatypeIRI="&xsd;string">Processes, Biological</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#synonym"/>
+        <IRI>#Biological_Process</IRI>
+        <Literal datatypeIRI="&xsd;string">Processes, Physiological</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#synonym"/>
+        <IRI>#Biological_Process</IRI>
+        <Literal datatypeIRI="&xsd;string">biological process</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#synonym"/>
+        <IRI>#Biological_Process</IRI>
+        <Literal datatypeIRI="&xsd;string">biological_process</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#synonym"/>
+        <IRI>#Biological_Process</IRI>
+        <Literal datatypeIRI="&xsd;string">physiological process</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Biological_Process</IRI>
+        <Literal datatypeIRI="&xsd;string">Biological Process</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
+        <IRI>#Biological_Process</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">GO_0008150</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#code"/>
         <IRI>#Cancer_TNM_Vessel_Invasion_Finding_Category</IRI>
         <Literal datatypeIRI="&xsd;string">C1707256</Literal>
@@ -767,6 +838,81 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#Cancer_TNM_Vessel_Invasion_Finding_Category</IRI>
         <Literal datatypeIRI="&xsd;string">Cancer TNM Vessel Invasion Finding Category</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#alternateCode"/>
+        <IRI>#Distant</IRI>
+        <Literal datatypeIRI="&xsd;string">261007001 [SNOMEDCT_US]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#alternateCode"/>
+        <IRI>#Distant</IRI>
+        <Literal datatypeIRI="&xsd;string">C0443203 [UMLS]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#alternateCode"/>
+        <IRI>#Distant</IRI>
+        <Literal datatypeIRI="&xsd;string">C0443203 [UMLS_CUI]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#alternateCode"/>
+        <IRI>#Distant</IRI>
+        <Literal datatypeIRI="&xsd;string">C25321 [NCI]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#alternateCode"/>
+        <IRI>#Distant</IRI>
+        <Literal datatypeIRI="&xsd;string">C25321 [code]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#alternateCode"/>
+        <IRI>#Distant</IRI>
+        <Literal datatypeIRI="&xsd;string">NOCODE [MTH]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#code"/>
+        <IRI>#Distant</IRI>
+        <Literal datatypeIRI="&xsd;string">C0443203</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#definition"/>
+        <IRI>#Distant</IRI>
+        <Literal datatypeIRI="&xsd;string">Far apart in space, time, or relevance from a point of origin.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#preferredTerm"/>
+        <IRI>#Distant</IRI>
+        <Literal datatypeIRI="&xsd;string">Distant</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#semanticType"/>
+        <IRI>#Distant</IRI>
+        <Literal datatypeIRI="&xsd;string">Spatial Concept</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#synonym"/>
+        <IRI>#Distant</IRI>
+        <Literal datatypeIRI="&xsd;string">Distant</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#synonym"/>
+        <IRI>#Distant</IRI>
+        <Literal datatypeIRI="&xsd;string">Distant (qualifier value)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#synonym"/>
+        <IRI>#Distant</IRI>
+        <Literal datatypeIRI="&xsd;string">Distantly</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#synonym"/>
+        <IRI>#Distant</IRI>
+        <Literal datatypeIRI="&xsd;string">Remote</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Distant</IRI>
+        <Literal datatypeIRI="&xsd;string">Distant</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#code"/>
@@ -1132,6 +1278,116 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#LX_Stage_Finding</IRI>
         <Literal datatypeIRI="&xsd;string">LX Stage Finding</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#alternateCode"/>
+        <IRI>#Local</IRI>
+        <Literal datatypeIRI="&xsd;string">255470001 [SNOMEDCT_US]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#alternateCode"/>
+        <IRI>#Local</IRI>
+        <Literal datatypeIRI="&xsd;string">C25388 [NCI]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#alternateCode"/>
+        <IRI>#Local</IRI>
+        <Literal datatypeIRI="&xsd;string">C67263 [NCI]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#alternateCode"/>
+        <IRI>#Local</IRI>
+        <Literal datatypeIRI="&xsd;string">C67263 [code]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#alternateCode"/>
+        <IRI>#Local</IRI>
+        <Literal datatypeIRI="&xsd;string">CL448879 [NCI_META]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#alternateCode"/>
+        <IRI>#Local</IRI>
+        <Literal datatypeIRI="&xsd;string">CL448879 [NCI_META_CUI]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#alternateCode"/>
+        <IRI>#Local</IRI>
+        <Literal datatypeIRI="&xsd;string">L [HL7V3.0]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#alternateCode"/>
+        <IRI>#Local</IRI>
+        <Literal datatypeIRI="&xsd;string">NOCODE [MTH]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#code"/>
+        <IRI>#Local</IRI>
+        <Literal datatypeIRI="&xsd;string">C1550012</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#definition"/>
+        <IRI>#Local</IRI>
+        <Literal datatypeIRI="&xsd;string">&lt;p&gt;An equipment can either work autonomously (&apos;Local&apos; control state).&lt;/p&gt;</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#definition"/>
+        <IRI>#Local</IRI>
+        <Literal datatypeIRI="&xsd;string">Affecting only a restricted part or area of the body.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#definition"/>
+        <IRI>#Local</IRI>
+        <Literal datatypeIRI="&xsd;string">Of or belonging to a restricted area or locality.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#preferredTerm"/>
+        <IRI>#Local</IRI>
+        <Literal datatypeIRI="&xsd;string">Local</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#preferredTerm"/>
+        <IRI>#Local</IRI>
+        <Literal datatypeIRI="&xsd;string">Local Remote Control State - Local</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#semanticType"/>
+        <IRI>#Local</IRI>
+        <Literal datatypeIRI="&xsd;string">Idea or Concept</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#semanticType"/>
+        <IRI>#Local</IRI>
+        <Literal datatypeIRI="&xsd;string">Spatial Concept</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#synonym"/>
+        <IRI>#Local</IRI>
+        <Literal datatypeIRI="&xsd;string">Local</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#synonym"/>
+        <IRI>#Local</IRI>
+        <Literal datatypeIRI="&xsd;string">Local (qualifier value)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#synonym"/>
+        <IRI>#Local</IRI>
+        <Literal datatypeIRI="&xsd;string">Local Remote Control State - Local</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#synonym"/>
+        <IRI>#Local</IRI>
+        <Literal datatypeIRI="&xsd;string">Local-Regional</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#synonym"/>
+        <IRI>#Local</IRI>
+        <Literal datatypeIRI="&xsd;string">Regional</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Local</IRI>
+        <Literal datatypeIRI="&xsd;string">Local</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#code"/>
@@ -3547,6 +3803,181 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#NX_Stage_Finding</IRI>
         <Literal datatypeIRI="&xsd;string">NX Stage Finding</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#alternateCode"/>
+        <IRI>#Regional</IRI>
+        <Literal datatypeIRI="&xsd;string">255470001 [SNOMEDCT_US]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#alternateCode"/>
+        <IRI>#Regional</IRI>
+        <Literal datatypeIRI="&xsd;string">2601 [PMA]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#alternateCode"/>
+        <IRI>#Regional</IRI>
+        <Literal datatypeIRI="&xsd;string">410673009 [SNOMEDCT_US]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#alternateCode"/>
+        <IRI>#Regional</IRI>
+        <Literal datatypeIRI="&xsd;string">410674003 [SNOMEDCT_US]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#alternateCode"/>
+        <IRI>#Regional</IRI>
+        <Literal datatypeIRI="&xsd;string">C25388 [NCI]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#alternateCode"/>
+        <IRI>#Regional</IRI>
+        <Literal datatypeIRI="&xsd;string">C25643 [NCI]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#alternateCode"/>
+        <IRI>#Regional</IRI>
+        <Literal datatypeIRI="&xsd;string">C25643 [code]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#alternateCode"/>
+        <IRI>#Regional</IRI>
+        <Literal datatypeIRI="&xsd;string">C41129 [NCI]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#alternateCode"/>
+        <IRI>#Regional</IRI>
+        <Literal datatypeIRI="&xsd;string">C67263 [NCI]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#alternateCode"/>
+        <IRI>#Regional</IRI>
+        <Literal datatypeIRI="&xsd;string">CDR0000044084 [NCI-GLOSS]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#alternateCode"/>
+        <IRI>#Regional</IRI>
+        <Literal datatypeIRI="&xsd;string">CL356891 [NCI_META]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#alternateCode"/>
+        <IRI>#Regional</IRI>
+        <Literal datatypeIRI="&xsd;string">CL356891 [NCI_META_CUI]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#alternateCode"/>
+        <IRI>#Regional</IRI>
+        <Literal datatypeIRI="&xsd;string">MTHU009053 [LNC]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#alternateCode"/>
+        <IRI>#Regional</IRI>
+        <Literal datatypeIRI="&xsd;string">NOCODE [MTH]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#alternateCode"/>
+        <IRI>#Regional</IRI>
+        <Literal datatypeIRI="&xsd;string">RID34260 [RADLEX]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#code"/>
+        <IRI>#Regional</IRI>
+        <Literal datatypeIRI="&xsd;string">CL448879</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#definition"/>
+        <IRI>#Regional</IRI>
+        <Literal datatypeIRI="&xsd;string">Affecting only a restricted part or area of the body.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#definition"/>
+        <IRI>#Regional</IRI>
+        <Literal datatypeIRI="&xsd;string">An area or portion of something with more or less definite boundaries designed or specified according to some established biological, administrative, economic, demographic, etc. criteria.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#definition"/>
+        <IRI>#Regional</IRI>
+        <Literal datatypeIRI="&xsd;string">In oncology, describes the body area right around a tumor.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#definition"/>
+        <IRI>#Regional</IRI>
+        <Literal datatypeIRI="&xsd;string">Limited to a particular location or area.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#definition"/>
+        <IRI>#Regional</IRI>
+        <Literal datatypeIRI="&xsd;string">Of or belonging to a restricted area or locality.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#definition"/>
+        <IRI>#Regional</IRI>
+        <Literal datatypeIRI="&xsd;string">[BI-RADS] these are calcifications scattered in a large volume (&gt;2cc) of breast tissue not conforming to a duct distribution. Since this distribution may involve most of a quadrant or more than a single quadrant, malignancy is less likely. However, evaluation must include element shape as well as distribution.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#preferredTerm"/>
+        <IRI>#Regional</IRI>
+        <Literal datatypeIRI="&xsd;string">Local</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#preferredTerm"/>
+        <IRI>#Regional</IRI>
+        <Literal datatypeIRI="&xsd;string">Regional</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#preferredTerm"/>
+        <IRI>#Regional</IRI>
+        <Literal datatypeIRI="&xsd;string">regional</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#semanticType"/>
+        <IRI>#Regional</IRI>
+        <Literal datatypeIRI="&xsd;string">Spatial Concept</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#synonym"/>
+        <IRI>#Regional</IRI>
+        <Literal datatypeIRI="&xsd;string">Local</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#synonym"/>
+        <IRI>#Regional</IRI>
+        <Literal datatypeIRI="&xsd;string">Local (qualifier value)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#synonym"/>
+        <IRI>#Regional</IRI>
+        <Literal datatypeIRI="&xsd;string">Local-Regional</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#synonym"/>
+        <IRI>#Regional</IRI>
+        <Literal datatypeIRI="&xsd;string">Region</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#synonym"/>
+        <IRI>#Regional</IRI>
+        <Literal datatypeIRI="&xsd;string">Region (attribute)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#synonym"/>
+        <IRI>#Regional</IRI>
+        <Literal datatypeIRI="&xsd;string">Regional</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#synonym"/>
+        <IRI>#Regional</IRI>
+        <Literal datatypeIRI="&xsd;string">Regional (qualifier value)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#synonym"/>
+        <IRI>#Regional</IRI>
+        <Literal datatypeIRI="&xsd;string">regional</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Regional</IRI>
+        <Literal datatypeIRI="&xsd;string">Regional</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#code"/>
