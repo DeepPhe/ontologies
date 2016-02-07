@@ -133,6 +133,10 @@
         <Class IRI="http://blulab.chpc.utah.edu/ontologies/v2/Schema.owl#SummaryModel"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#Cancer"/>
+        <Class IRI="http://blulab.chpc.utah.edu/ontologies/v2/Schema.owl#SummaryModel"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#CancerStage"/>
         <Class IRI="http://blulab.chpc.utah.edu/ontologies/v2/ConText.owl#SemanticModifier"/>
     </SubClassOf>
@@ -297,20 +301,12 @@
         <Class IRI="#TumorType"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#Primary_Malignant_Neoplasm"/>
-        <Class IRI="#PrimaryTumor"/>
-    </SubClassOf>
-    <SubClassOf>
         <Class IRI="#Recurrent_Tumor"/>
         <Class IRI="#TumorType"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Regional"/>
         <Class IRI="#Recurrent_Tumor"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Second_Primary_Malignant_Neoplasm"/>
-        <Class IRI="#Primary_Malignant_Neoplasm"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#T0_Stage_Finding"/>
@@ -446,6 +442,10 @@
     <SubClassOf>
         <Class IRI="#Tis_Stage_Finding"/>
         <Class IRI="#Generic_Primary_Tumor_TNM_Finding"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Tumor"/>
+        <Class IRI="http://blulab.chpc.utah.edu/ontologies/v2/Schema.owl#SummaryModel"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#TumorType"/>
@@ -844,6 +844,656 @@
         <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
         <IRI>#Biological_Process</IRI>
         <Literal datatypeIRI="&rdf;PlainLiteral">GO_0008150</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#alternateCode"/>
+        <IRI>#Cancer</IRI>
+        <Literal datatypeIRI="&xsd;string">0000023016 [AOD]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#alternateCode"/>
+        <IRI>#Cancer</IRI>
+        <Literal datatypeIRI="&xsd;string">10061268 [MDR]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#alternateCode"/>
+        <IRI>#Cancer</IRI>
+        <Literal datatypeIRI="&xsd;string">10073835 [MDR]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#alternateCode"/>
+        <IRI>#Cancer</IRI>
+        <Literal datatypeIRI="&xsd;string">192.9 [MTHICD9]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#alternateCode"/>
+        <IRI>#Cancer</IRI>
+        <Literal datatypeIRI="&xsd;string">199 [ICD9CM]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#alternateCode"/>
+        <IRI>#Cancer</IRI>
+        <Literal datatypeIRI="&xsd;string">199.1 [MTHICD9]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#alternateCode"/>
+        <IRI>#Cancer</IRI>
+        <Literal datatypeIRI="&xsd;string">2000-0173 [CSP]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#alternateCode"/>
+        <IRI>#Cancer</IRI>
+        <Literal datatypeIRI="&xsd;string">25 [MEDLINEPLUS]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#alternateCode"/>
+        <IRI>#Cancer</IRI>
+        <Literal datatypeIRI="&xsd;string">3262 [FDA]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#alternateCode"/>
+        <IRI>#Cancer</IRI>
+        <Literal datatypeIRI="&xsd;string">363346000 [SNOMEDCT_US]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#alternateCode"/>
+        <IRI>#Cancer</IRI>
+        <Literal datatypeIRI="&xsd;string">372063002 [SNOMEDCT_US]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#alternateCode"/>
+        <IRI>#Cancer</IRI>
+        <Literal datatypeIRI="&xsd;string">3727 [PMA]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#alternateCode"/>
+        <IRI>#Cancer</IRI>
+        <Literal datatypeIRI="&xsd;string">43 [CCS]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#alternateCode"/>
+        <IRI>#Cancer</IRI>
+        <Literal datatypeIRI="&xsd;string">8000/3 [ICD-O-3_Code]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#alternateCode"/>
+        <IRI>#Cancer</IRI>
+        <Literal datatypeIRI="&xsd;string">8000/3 [ICDO]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#alternateCode"/>
+        <IRI>#Cancer</IRI>
+        <Literal datatypeIRI="&xsd;string">86049000 [SNOMEDCT_US]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#alternateCode"/>
+        <IRI>#Cancer</IRI>
+        <Literal datatypeIRI="&xsd;string">C0006826 [UMLS]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#alternateCode"/>
+        <IRI>#Cancer</IRI>
+        <Literal datatypeIRI="&xsd;string">C0006826 [UMLS_CUI]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#alternateCode"/>
+        <IRI>#Cancer</IRI>
+        <Literal datatypeIRI="&xsd;string">C4788 [NCI]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#alternateCode"/>
+        <IRI>#Cancer</IRI>
+        <Literal datatypeIRI="&xsd;string">C72.9 [ICD10CM]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#alternateCode"/>
+        <IRI>#Cancer</IRI>
+        <Literal datatypeIRI="&xsd;string">C80 [ICD10CM]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#alternateCode"/>
+        <IRI>#Cancer</IRI>
+        <Literal datatypeIRI="&xsd;string">C80.9 [ICD10]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#alternateCode"/>
+        <IRI>#Cancer</IRI>
+        <Literal datatypeIRI="&xsd;string">C84509 [NCI]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#alternateCode"/>
+        <IRI>#Cancer</IRI>
+        <Literal datatypeIRI="&xsd;string">C9305 [CDISC]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#alternateCode"/>
+        <IRI>#Cancer</IRI>
+        <Literal datatypeIRI="&xsd;string">C9305 [NCI]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#alternateCode"/>
+        <IRI>#Cancer</IRI>
+        <Literal datatypeIRI="&xsd;string">C9305 [NICHD]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#alternateCode"/>
+        <IRI>#Cancer</IRI>
+        <Literal datatypeIRI="&xsd;string">C9305 [code]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#alternateCode"/>
+        <IRI>#Cancer</IRI>
+        <Literal datatypeIRI="&xsd;string">CDR0000041060 [PDQ]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#alternateCode"/>
+        <IRI>#Cancer</IRI>
+        <Literal datatypeIRI="&xsd;string">CDR0000045771 [NCI-GLOSS]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#alternateCode"/>
+        <IRI>#Cancer</IRI>
+        <Literal datatypeIRI="&xsd;string">D009369 [MSH]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#alternateCode"/>
+        <IRI>#Cancer</IRI>
+        <Literal datatypeIRI="&xsd;string">MTHU040703 [LNC]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#alternateCode"/>
+        <IRI>#Cancer</IRI>
+        <Literal datatypeIRI="&xsd;string">N74 [ICPC]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#alternateCode"/>
+        <IRI>#Cancer</IRI>
+        <Literal datatypeIRI="&xsd;string">NOCODE [MTH]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#alternateCode"/>
+        <IRI>#Cancer</IRI>
+        <Literal datatypeIRI="&xsd;string">PATHMALIGN [CST]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#alternateCode"/>
+        <IRI>#Cancer</IRI>
+        <Literal datatypeIRI="&xsd;string">RID36042 [RADLEX]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#alternateCode"/>
+        <IRI>#Cancer</IRI>
+        <Literal datatypeIRI="&xsd;string">U000036 [COSTAR]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#alternateCode"/>
+        <IRI>#Cancer</IRI>
+        <Literal datatypeIRI="&xsd;string">U000537 [DXP]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#alternateCode"/>
+        <IRI>#Cancer</IRI>
+        <Literal datatypeIRI="&xsd;string">U001551 [MTH]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#alternateCode"/>
+        <IRI>#Cancer</IRI>
+        <Literal datatypeIRI="&xsd;string">W72 [ICPC]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#code"/>
+        <IRI>#Cancer</IRI>
+        <Literal datatypeIRI="&xsd;string">C0497565</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#definition"/>
+        <IRI>#Cancer</IRI>
+        <Literal datatypeIRI="&xsd;string">&lt;p&gt;Cancer begins in your cells, which are the building blocks of your body. Normally, your body forms new cells as you need them, replacing old cells that die. Sometimes this process goes wrong. New cells grow even when you don&apos;t need them, and old cells don&apos;t die when they should. These extra cells can form a mass called a tumor. Tumors can be benign or malignant. &lt;a href=&apos;http://www.nlm.nih.gov/medlineplus/benigntumors.html&apos;&gt;Benign tumors&lt;/a&gt; aren&apos;t cancer while malignant ones are. Cells from malignant tumors can invade nearby tissues. They can also break away and spread to other parts of the body. &lt;/p&gt;&lt;p&gt;Cancer is not just one disease but many diseases. There are more than 100 different types of cancer. Most cancers are named for where they start. For example, lung cancer starts in the lung, and breast cancer starts in the breast. The spread of cancer from one part of the body to another is called metastasis. Symptoms and treatment depend on the cancer type and how advanced it is. Most treatment plans may include surgery, &lt;a href=&apos;http://www.nlm.nih.gov/medlineplus/radiationtherapy.html&apos;&gt;radiation&lt;/a&gt; and/or &lt;a href=&apos;http://www.nlm.nih.gov/medlineplus/cancerchemotherapy.html&apos;&gt;chemotherapy&lt;/a&gt;. Some may involve hormone therapy, biologic therapy, or stem cell transplantation. &lt;/p&gt;&lt;p &gt;NIH: National Cancer Institute&lt;/p&gt;</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#definition"/>
+        <IRI>#Cancer</IRI>
+        <Literal datatypeIRI="&xsd;string">A general term for autonomous tissue growth exhibiting morphologic features of malignancy (e.g. severe atypia, nuclear pleomorphism, tumor cell necrosis, abnormal mitoses, tissue invasiveness) and for which the transformed cell type has not been specifically identified.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#definition"/>
+        <IRI>#Cancer</IRI>
+        <Literal datatypeIRI="&xsd;string">A malignant tumor at the original site of growth.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#definition"/>
+        <IRI>#Cancer</IRI>
+        <Literal datatypeIRI="&xsd;string">A primary or metastatic malignant neoplasm involving the nervous system.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#definition"/>
+        <IRI>#Cancer</IRI>
+        <Literal datatypeIRI="&xsd;string">A term for diseases in which abnormal cells divide without control and can invade nearby tissues. Malignant cells can also spread to other parts of the body through the blood and lymph systems. There are several main types of malignancy. Carcinoma is a malignancy that begins in the skin or in tissues that line or cover internal organs. Sarcoma is a malignancy that begins in bone, cartilage, fat, muscle, blood vessels, or other connective or supportive tissue. Leukemia is a malignancy that starts in blood-forming tissue such as the bone marrow, and causes large numbers of abnormal blood cells to be produced and enter the blood. Lymphoma and multiple myeloma are malignancies that begin in the cells of the immune system. Central nervous system cancers are malignancies that begin in the tissues of the brain and spinal cord.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#definition"/>
+        <IRI>#Cancer</IRI>
+        <Literal datatypeIRI="&xsd;string">A tumor composed of atypical neoplastic, often pleomorphic cells that invade other tissues. Malignant neoplasms often metastasize to distant anatomic sites and may recur after excision. The most common malignant neoplasms are carcinomas (adenocarcinomas or squamous cell carcinomas), Hodgkin and non-Hodgkin lymphomas, leukemias, melanomas, and sarcomas.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#definition"/>
+        <IRI>#Cancer</IRI>
+        <Literal datatypeIRI="&xsd;string">A tumor composed of atypical neoplastic, often pleomorphic cells that invade other tissues. Malignant neoplasms often metastasize to distant anatomic sites and may recur after excision. The most common malignant neoplasms are carcinomas (adenocarcinomas or squamous cell carcinomas), Hodgkin and non-Hodgkin lymphomas, leukemias, melanomas, and sarcomas. Check for &quot;http://www.cancer.gov/Search/ClinicalTrialsLink.aspx?id=41060&amp;idtype=1&quot; active clinical trials or &quot;http://www.cancer.gov/Search/ClinicalTrialsLink.aspx?id=41060&amp;idtype=1&amp;closed=1&quot; closed clinical trials using this agent. (&quot;http://ncit.nci.nih.gov/ncitbrowser/ConceptReport.jsp?dictionary=NCI%20Thesaurus&amp;code=C9305&quot; NCI Thesaurus)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#definition"/>
+        <IRI>#Cancer</IRI>
+        <Literal datatypeIRI="&xsd;string">Uncontrolled growth of abnormal cells with potential for metastatic spread.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#definition"/>
+        <IRI>#Cancer</IRI>
+        <Literal datatypeIRI="&xsd;string">Uncontrolled growth of abnormal cells with potential for metastatic spread. (AE)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#definition"/>
+        <IRI>#Cancer</IRI>
+        <Literal datatypeIRI="&xsd;string">new abnormal tissue that grows by excessive cellular division and proliferation more rapidly than normal and continues to grow after the stimuli that initiated the new growth cease; tumors perform no useful body function and may be benign or malignant; benign neoplasms are a noncancerous growth that does not invade nearby tissue or spread to other parts of the body; malignant neoplasms or cancer show a greater degree of anaplasia and have the properties of invasion and metastasis; neoplasm terms herein do not distinguish between benign or malignant states, use references listed to cover this concept.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#preferredTerm"/>
+        <IRI>#Cancer</IRI>
+        <Literal datatypeIRI="&xsd;string">Malignant Neoplasm</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#preferredTerm"/>
+        <IRI>#Cancer</IRI>
+        <Literal datatypeIRI="&xsd;string">Malignant Neoplasms</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#preferredTerm"/>
+        <IRI>#Cancer</IRI>
+        <Literal datatypeIRI="&xsd;string">Malignant obstetric neoplasm</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#preferredTerm"/>
+        <IRI>#Cancer</IRI>
+        <Literal datatypeIRI="&xsd;string">Primary malignant neoplasm</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#preferredTerm"/>
+        <IRI>#Cancer</IRI>
+        <Literal datatypeIRI="&xsd;string">malignant neurologic neoplasms</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#semanticType"/>
+        <IRI>#Cancer</IRI>
+        <Literal datatypeIRI="&xsd;string">Neoplastic Process</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#synonym"/>
+        <IRI>#Cancer</IRI>
+        <Literal datatypeIRI="&xsd;string">Blastoma</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#synonym"/>
+        <IRI>#Cancer</IRI>
+        <Literal datatypeIRI="&xsd;string">CA</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#synonym"/>
+        <IRI>#Cancer</IRI>
+        <Literal datatypeIRI="&xsd;string">CA - Cancer</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#synonym"/>
+        <IRI>#Cancer</IRI>
+        <Literal datatypeIRI="&xsd;string">CANCER</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#synonym"/>
+        <IRI>#Cancer</IRI>
+        <Literal datatypeIRI="&xsd;string">CANCER (NOS)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#synonym"/>
+        <IRI>#Cancer</IRI>
+        <Literal datatypeIRI="&xsd;string">Cancer</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#synonym"/>
+        <IRI>#Cancer</IRI>
+        <Literal datatypeIRI="&xsd;string">Cancer </Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#synonym"/>
+        <IRI>#Cancer</IRI>
+        <Literal datatypeIRI="&xsd;string">Cancer (NOS)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#synonym"/>
+        <IRI>#Cancer</IRI>
+        <Literal datatypeIRI="&xsd;string">Cancer NOS</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#synonym"/>
+        <IRI>#Cancer</IRI>
+        <Literal datatypeIRI="&xsd;string">Cancer morphology</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#synonym"/>
+        <IRI>#Cancer</IRI>
+        <Literal datatypeIRI="&xsd;string">Cancer, unspecified site</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#synonym"/>
+        <IRI>#Cancer</IRI>
+        <Literal datatypeIRI="&xsd;string">Cancers</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#synonym"/>
+        <IRI>#Cancer</IRI>
+        <Literal datatypeIRI="&xsd;string">MALIGNANCIES</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#synonym"/>
+        <IRI>#Cancer</IRI>
+        <Literal datatypeIRI="&xsd;string">MALIGNANCY</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#synonym"/>
+        <IRI>#Cancer</IRI>
+        <Literal datatypeIRI="&xsd;string">MALIGNANT TUMOR</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#synonym"/>
+        <IRI>#Cancer</IRI>
+        <Literal datatypeIRI="&xsd;string">Malignancy</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#synonym"/>
+        <IRI>#Cancer</IRI>
+        <Literal datatypeIRI="&xsd;string">Malignancy, unspecified site</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#synonym"/>
+        <IRI>#Cancer</IRI>
+        <Literal datatypeIRI="&xsd;string">Malignant Growth</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#synonym"/>
+        <IRI>#Cancer</IRI>
+        <Literal datatypeIRI="&xsd;string">Malignant Neoplasm</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#synonym"/>
+        <IRI>#Cancer</IRI>
+        <Literal datatypeIRI="&xsd;string">Malignant Neoplasm of Nervous System</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#synonym"/>
+        <IRI>#Cancer</IRI>
+        <Literal datatypeIRI="&xsd;string">Malignant Neoplasm of the Nervous System</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#synonym"/>
+        <IRI>#Cancer</IRI>
+        <Literal datatypeIRI="&xsd;string">Malignant Neoplasms</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#synonym"/>
+        <IRI>#Cancer</IRI>
+        <Literal datatypeIRI="&xsd;string">Malignant Neoplastic Disease</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#synonym"/>
+        <IRI>#Cancer</IRI>
+        <Literal datatypeIRI="&xsd;string">Malignant Nervous System Neoplasm</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#synonym"/>
+        <IRI>#Cancer</IRI>
+        <Literal datatypeIRI="&xsd;string">Malignant Nervous System Tumor</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#synonym"/>
+        <IRI>#Cancer</IRI>
+        <Literal datatypeIRI="&xsd;string">Malignant Tumor</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#synonym"/>
+        <IRI>#Cancer</IRI>
+        <Literal datatypeIRI="&xsd;string">Malignant Tumor of Nervous System</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#synonym"/>
+        <IRI>#Cancer</IRI>
+        <Literal datatypeIRI="&xsd;string">Malignant Tumor of the Nervous System</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#synonym"/>
+        <IRI>#Cancer</IRI>
+        <Literal datatypeIRI="&xsd;string">Malignant neoplasm</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#synonym"/>
+        <IRI>#Cancer</IRI>
+        <Literal datatypeIRI="&xsd;string">Malignant neoplasm NOS</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#synonym"/>
+        <IRI>#Cancer</IRI>
+        <Literal datatypeIRI="&xsd;string">Malignant neoplasm of nervous system</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#synonym"/>
+        <IRI>#Cancer</IRI>
+        <Literal datatypeIRI="&xsd;string">Malignant neoplasm of nervous system (disorder)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#synonym"/>
+        <IRI>#Cancer</IRI>
+        <Literal datatypeIRI="&xsd;string">Malignant neoplasm of nervous system NOS</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#synonym"/>
+        <IRI>#Cancer</IRI>
+        <Literal datatypeIRI="&xsd;string">Malignant neoplasm without specification of site</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#synonym"/>
+        <IRI>#Cancer</IRI>
+        <Literal datatypeIRI="&xsd;string">Malignant neoplasm, primary</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#synonym"/>
+        <IRI>#Cancer</IRI>
+        <Literal datatypeIRI="&xsd;string">Malignant neoplasm, primary (morphologic abnormality)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#synonym"/>
+        <IRI>#Cancer</IRI>
+        <Literal datatypeIRI="&xsd;string">Malignant neoplasm, unspecified</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#synonym"/>
+        <IRI>#Cancer</IRI>
+        <Literal datatypeIRI="&xsd;string">Malignant neoplasms</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#synonym"/>
+        <IRI>#Cancer</IRI>
+        <Literal datatypeIRI="&xsd;string">Malignant neoplastic disease</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#synonym"/>
+        <IRI>#Cancer</IRI>
+        <Literal datatypeIRI="&xsd;string">Malignant neoplastic disease (disorder)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#synonym"/>
+        <IRI>#Cancer</IRI>
+        <Literal datatypeIRI="&xsd;string">Malignant nervous system neoplasm</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#synonym"/>
+        <IRI>#Cancer</IRI>
+        <Literal datatypeIRI="&xsd;string">Malignant nervous system neoplasm NOS</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#synonym"/>
+        <IRI>#Cancer</IRI>
+        <Literal datatypeIRI="&xsd;string">Malignant neurologic neoplasms</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#synonym"/>
+        <IRI>#Cancer</IRI>
+        <Literal datatypeIRI="&xsd;string">Malignant obstetric neoplasm</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#synonym"/>
+        <IRI>#Cancer</IRI>
+        <Literal datatypeIRI="&xsd;string">Malignant tumor</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#synonym"/>
+        <IRI>#Cancer</IRI>
+        <Literal datatypeIRI="&xsd;string">Malignant tumor morphology</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#synonym"/>
+        <IRI>#Cancer</IRI>
+        <Literal datatypeIRI="&xsd;string">Malignant tumor of nervous system</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#synonym"/>
+        <IRI>#Cancer</IRI>
+        <Literal datatypeIRI="&xsd;string">Malignant tumour</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#synonym"/>
+        <IRI>#Cancer</IRI>
+        <Literal datatypeIRI="&xsd;string">Malignant tumour morphology</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#synonym"/>
+        <IRI>#Cancer</IRI>
+        <Literal datatypeIRI="&xsd;string">Malignant tumour of nervous system</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#synonym"/>
+        <IRI>#Cancer</IRI>
+        <Literal datatypeIRI="&xsd;string">NEOPLASM MALIGNANT</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#synonym"/>
+        <IRI>#Cancer</IRI>
+        <Literal datatypeIRI="&xsd;string">NEOPLASM, MALIGNANT</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#synonym"/>
+        <IRI>#Cancer</IRI>
+        <Literal datatypeIRI="&xsd;string">Neoplasm malignant</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#synonym"/>
+        <IRI>#Cancer</IRI>
+        <Literal datatypeIRI="&xsd;string">Neoplasm, malignant</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#synonym"/>
+        <IRI>#Cancer</IRI>
+        <Literal datatypeIRI="&xsd;string">Neoplasm, malignant (primary)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#synonym"/>
+        <IRI>#Cancer</IRI>
+        <Literal datatypeIRI="&xsd;string">Nervous System Neoplasms, Malignant</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#synonym"/>
+        <IRI>#Cancer</IRI>
+        <Literal datatypeIRI="&xsd;string">Primary Malignant Neoplasm</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#synonym"/>
+        <IRI>#Cancer</IRI>
+        <Literal datatypeIRI="&xsd;string">Primary malignant neoplasm</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#synonym"/>
+        <IRI>#Cancer</IRI>
+        <Literal datatypeIRI="&xsd;string">Primary malignant neoplasm (disorder)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#synonym"/>
+        <IRI>#Cancer</IRI>
+        <Literal datatypeIRI="&xsd;string">Tumor, malignant</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#synonym"/>
+        <IRI>#Cancer</IRI>
+        <Literal datatypeIRI="&xsd;string">Tumor, malignant, NOS</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#synonym"/>
+        <IRI>#Cancer</IRI>
+        <Literal datatypeIRI="&xsd;string">Tumour, malignant</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#synonym"/>
+        <IRI>#Cancer</IRI>
+        <Literal datatypeIRI="&xsd;string">Unclassified tumor, malignant</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#synonym"/>
+        <IRI>#Cancer</IRI>
+        <Literal datatypeIRI="&xsd;string">Unclassified tumour, malignant</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#synonym"/>
+        <IRI>#Cancer</IRI>
+        <Literal datatypeIRI="&xsd;string">cancer</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#synonym"/>
+        <IRI>#Cancer</IRI>
+        <Literal datatypeIRI="&xsd;string">malignancy</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#synonym"/>
+        <IRI>#Cancer</IRI>
+        <Literal datatypeIRI="&xsd;string">malignant neoplasm</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#synonym"/>
+        <IRI>#Cancer</IRI>
+        <Literal datatypeIRI="&xsd;string">malignant neoplastic disease</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#synonym"/>
+        <IRI>#Cancer</IRI>
+        <Literal datatypeIRI="&xsd;string">malignant neurologic neoplasms</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#synonym"/>
+        <IRI>#Cancer</IRI>
+        <Literal datatypeIRI="&xsd;string">malignant tumor</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#synonym"/>
+        <IRI>#Cancer</IRI>
+        <Literal datatypeIRI="&xsd;string">malignant tumoral disease</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#synonym"/>
+        <IRI>#Cancer</IRI>
+        <Literal datatypeIRI="&xsd;string">neoplasm/cancer</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Cancer</IRI>
+        <Literal datatypeIRI="&xsd;string">Cancer</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
+        <IRI>#Cancer</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">DOID:162</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#code"/>
@@ -4337,156 +4987,6 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#alternateCode"/>
-        <IRI>#Primary_Malignant_Neoplasm</IRI>
-        <Literal datatypeIRI="&xsd;string">86049000 [SNOMEDCT_US]</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#alternateCode"/>
-        <IRI>#Primary_Malignant_Neoplasm</IRI>
-        <Literal datatypeIRI="&xsd;string">C1306459 [UMLS]</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#alternateCode"/>
-        <IRI>#Primary_Malignant_Neoplasm</IRI>
-        <Literal datatypeIRI="&xsd;string">C1306459 [UMLS_CUI]</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#alternateCode"/>
-        <IRI>#Primary_Malignant_Neoplasm</IRI>
-        <Literal datatypeIRI="&xsd;string">C84509 [NCI]</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#alternateCode"/>
-        <IRI>#Primary_Malignant_Neoplasm</IRI>
-        <Literal datatypeIRI="&xsd;string">C84509 [code]</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#alternateCode"/>
-        <IRI>#Primary_Malignant_Neoplasm</IRI>
-        <Literal datatypeIRI="&xsd;string">NOCODE [MTH]</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#code"/>
-        <IRI>#Primary_Malignant_Neoplasm</IRI>
-        <Literal datatypeIRI="&xsd;string">C1306459</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#definition"/>
-        <IRI>#Primary_Malignant_Neoplasm</IRI>
-        <Literal datatypeIRI="&xsd;string">A malignant tumor at the original site of growth.</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#preferredTerm"/>
-        <IRI>#Primary_Malignant_Neoplasm</IRI>
-        <Literal datatypeIRI="&xsd;string">Primary Malignant Neoplasm</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#preferredTerm"/>
-        <IRI>#Primary_Malignant_Neoplasm</IRI>
-        <Literal datatypeIRI="&xsd;string">Primary malignant neoplasm</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#semanticType"/>
-        <IRI>#Primary_Malignant_Neoplasm</IRI>
-        <Literal datatypeIRI="&xsd;string">Neoplastic Process</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#synonym"/>
-        <IRI>#Primary_Malignant_Neoplasm</IRI>
-        <Literal datatypeIRI="&xsd;string">Blastoma</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#synonym"/>
-        <IRI>#Primary_Malignant_Neoplasm</IRI>
-        <Literal datatypeIRI="&xsd;string">Cancer</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#synonym"/>
-        <IRI>#Primary_Malignant_Neoplasm</IRI>
-        <Literal datatypeIRI="&xsd;string">Cancer morphology</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#synonym"/>
-        <IRI>#Primary_Malignant_Neoplasm</IRI>
-        <Literal datatypeIRI="&xsd;string">Malignancy</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#synonym"/>
-        <IRI>#Primary_Malignant_Neoplasm</IRI>
-        <Literal datatypeIRI="&xsd;string">Malignant neoplasm</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#synonym"/>
-        <IRI>#Primary_Malignant_Neoplasm</IRI>
-        <Literal datatypeIRI="&xsd;string">Malignant neoplasm, primary</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#synonym"/>
-        <IRI>#Primary_Malignant_Neoplasm</IRI>
-        <Literal datatypeIRI="&xsd;string">Malignant neoplasm, primary (morphologic abnormality)</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#synonym"/>
-        <IRI>#Primary_Malignant_Neoplasm</IRI>
-        <Literal datatypeIRI="&xsd;string">Malignant tumor morphology</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#synonym"/>
-        <IRI>#Primary_Malignant_Neoplasm</IRI>
-        <Literal datatypeIRI="&xsd;string">Malignant tumour morphology</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#synonym"/>
-        <IRI>#Primary_Malignant_Neoplasm</IRI>
-        <Literal datatypeIRI="&xsd;string">Neoplasm, malignant</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#synonym"/>
-        <IRI>#Primary_Malignant_Neoplasm</IRI>
-        <Literal datatypeIRI="&xsd;string">Neoplasm, malignant (primary)</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#synonym"/>
-        <IRI>#Primary_Malignant_Neoplasm</IRI>
-        <Literal datatypeIRI="&xsd;string">Primary Malignant Neoplasm</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#synonym"/>
-        <IRI>#Primary_Malignant_Neoplasm</IRI>
-        <Literal datatypeIRI="&xsd;string">Primary malignant neoplasm</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#synonym"/>
-        <IRI>#Primary_Malignant_Neoplasm</IRI>
-        <Literal datatypeIRI="&xsd;string">Primary malignant neoplasm (disorder)</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#synonym"/>
-        <IRI>#Primary_Malignant_Neoplasm</IRI>
-        <Literal datatypeIRI="&xsd;string">Tumor, malignant</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#synonym"/>
-        <IRI>#Primary_Malignant_Neoplasm</IRI>
-        <Literal datatypeIRI="&xsd;string">Tumour, malignant</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#synonym"/>
-        <IRI>#Primary_Malignant_Neoplasm</IRI>
-        <Literal datatypeIRI="&xsd;string">Unclassified tumor, malignant</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#synonym"/>
-        <IRI>#Primary_Malignant_Neoplasm</IRI>
-        <Literal datatypeIRI="&xsd;string">Unclassified tumour, malignant</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#Primary_Malignant_Neoplasm</IRI>
-        <Literal datatypeIRI="&xsd;string">Primary Malignant Neoplasm</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#alternateCode"/>
         <IRI>#Recurrent_Tumor</IRI>
         <Literal datatypeIRI="&xsd;string">10038111 [MDR]</Literal>
     </AnnotationAssertion>
@@ -4764,76 +5264,6 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#Regional</IRI>
         <Literal datatypeIRI="&xsd;string">Regional</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#alternateCode"/>
-        <IRI>#Second_Primary_Malignant_Neoplasm</IRI>
-        <Literal datatypeIRI="&xsd;string">C2987250 [UMLS]</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#alternateCode"/>
-        <IRI>#Second_Primary_Malignant_Neoplasm</IRI>
-        <Literal datatypeIRI="&xsd;string">C2987250 [UMLS_CUI]</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#alternateCode"/>
-        <IRI>#Second_Primary_Malignant_Neoplasm</IRI>
-        <Literal datatypeIRI="&xsd;string">C95606 [NCI]</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#alternateCode"/>
-        <IRI>#Second_Primary_Malignant_Neoplasm</IRI>
-        <Literal datatypeIRI="&xsd;string">C95606 [code]</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#alternateCode"/>
-        <IRI>#Second_Primary_Malignant_Neoplasm</IRI>
-        <Literal datatypeIRI="&xsd;string">CDR0000046658 [NCI-GLOSS]</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#code"/>
-        <IRI>#Second_Primary_Malignant_Neoplasm</IRI>
-        <Literal datatypeIRI="&xsd;string">C2987250</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#definition"/>
-        <IRI>#Second_Primary_Malignant_Neoplasm</IRI>
-        <Literal datatypeIRI="&xsd;string">A primary malignant neoplasm in a patient who has been already diagnosed with a primary malignant neoplasm in another anatomic site.</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#definition"/>
-        <IRI>#Second_Primary_Malignant_Neoplasm</IRI>
-        <Literal datatypeIRI="&xsd;string">Refers to a new primary cancer in a person with a history of cancer.</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#preferredTerm"/>
-        <IRI>#Second_Primary_Malignant_Neoplasm</IRI>
-        <Literal datatypeIRI="&xsd;string">Second Primary Malignant Neoplasm</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#semanticType"/>
-        <IRI>#Second_Primary_Malignant_Neoplasm</IRI>
-        <Literal datatypeIRI="&xsd;string">Neoplastic Process</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#synonym"/>
-        <IRI>#Second_Primary_Malignant_Neoplasm</IRI>
-        <Literal datatypeIRI="&xsd;string">Second Primary Cancer</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#synonym"/>
-        <IRI>#Second_Primary_Malignant_Neoplasm</IRI>
-        <Literal datatypeIRI="&xsd;string">Second Primary Malignant Neoplasm</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#synonym"/>
-        <IRI>#Second_Primary_Malignant_Neoplasm</IRI>
-        <Literal datatypeIRI="&xsd;string">second cancer</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#Second_Primary_Malignant_Neoplasm</IRI>
-        <Literal datatypeIRI="&xsd;string">Second Primary Malignant Neoplasm</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#code"/>
@@ -7119,6 +7549,226 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#Tis_Stage_Finding</IRI>
         <Literal datatypeIRI="&xsd;string">Tis Stage Finding</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#alternateCode"/>
+        <IRI>#Tumor</IRI>
+        <Literal datatypeIRI="&xsd;string">0000023012 [AOD]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#alternateCode"/>
+        <IRI>#Tumor</IRI>
+        <Literal datatypeIRI="&xsd;string">55342001 [SNOMEDCT_US]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#alternateCode"/>
+        <IRI>#Tumor</IRI>
+        <Literal datatypeIRI="&xsd;string">C0375111 [UMLS]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#alternateCode"/>
+        <IRI>#Tumor</IRI>
+        <Literal datatypeIRI="&xsd;string">C0375111 [UMLS_CUI]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#alternateCode"/>
+        <IRI>#Tumor</IRI>
+        <Literal datatypeIRI="&xsd;string">C3262 [NCI]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#alternateCode"/>
+        <IRI>#Tumor</IRI>
+        <Literal datatypeIRI="&xsd;string">C3262 [code]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#alternateCode"/>
+        <IRI>#Tumor</IRI>
+        <Literal datatypeIRI="&xsd;string">C54705 [NCI]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#alternateCode"/>
+        <IRI>#Tumor</IRI>
+        <Literal datatypeIRI="&xsd;string">C88025 [CDISC]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#alternateCode"/>
+        <IRI>#Tumor</IRI>
+        <Literal datatypeIRI="&xsd;string">C88025 [NCI]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#alternateCode"/>
+        <IRI>#Tumor</IRI>
+        <Literal datatypeIRI="&xsd;string">CDR0000475629 [PDQ]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#alternateCode"/>
+        <IRI>#Tumor</IRI>
+        <Literal datatypeIRI="&xsd;string">NOCODE [MTH]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#alternateCode"/>
+        <IRI>#Tumor</IRI>
+        <Literal datatypeIRI="&xsd;string">RID34615 [RADLEX]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#code"/>
+        <IRI>#Tumor</IRI>
+        <Literal datatypeIRI="&xsd;string">C2981607</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#definition"/>
+        <IRI>#Tumor</IRI>
+        <Literal datatypeIRI="&xsd;string">A benign or malignant tissue growth resulting from uncontrolled cell proliferation. Benign neoplastic cells resemble normal cells without exhibiting significant cytologic atypia, while malignant cells exhibit overt signs such as dysplastic features, atypical mitotic figures, necrosis, nuclear pleomorphism, and anaplasia. Representative examples of benign neoplasms include papillomas, cystadenomas, and lipomas; malignant neoplasms include carcinomas, sarcomas, lymphomas, and leukemias.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#definition"/>
+        <IRI>#Tumor</IRI>
+        <Literal datatypeIRI="&xsd;string">A broad classification for disorders in which the development of neoplasms typically occur in association with a characteristic set of signs or symptoms. These disorders may be inherited or acquired.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#definition"/>
+        <IRI>#Tumor</IRI>
+        <Literal datatypeIRI="&xsd;string">A general term for autonomous tissue growth in which the malignancy status has not been established and for which the transformed cell type has not been specifically identified.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#definition"/>
+        <IRI>#Tumor</IRI>
+        <Literal datatypeIRI="&xsd;string">An abnormal mass of tissue that results when cells divide more than they should or do not die when they should. Neoplasms may be benign (not cancer), or malignant (cancer).</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#definition"/>
+        <IRI>#Tumor</IRI>
+        <Literal datatypeIRI="&xsd;string">The terminology that includes concepts relevant to benign or malignant tissue growth.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#definition"/>
+        <IRI>#Tumor</IRI>
+        <Literal datatypeIRI="&xsd;string">The terminology that includes concepts relevant to the Clinical Data Interchange Standards Consortium (CDISC) Standard for the Exchange of Non-clinical Data (SEND) tumor findings character results.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#preferredTerm"/>
+        <IRI>#Tumor</IRI>
+        <Literal datatypeIRI="&xsd;string">CDISC SEND Tumor Findings Results Terminology</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#preferredTerm"/>
+        <IRI>#Tumor</IRI>
+        <Literal datatypeIRI="&xsd;string">Neoplasm</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#preferredTerm"/>
+        <IRI>#Tumor</IRI>
+        <Literal datatypeIRI="&xsd;string">Neoplastic disease</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#semanticType"/>
+        <IRI>#Tumor</IRI>
+        <Literal datatypeIRI="&xsd;string">Functional Concept</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#semanticType"/>
+        <IRI>#Tumor</IRI>
+        <Literal datatypeIRI="&xsd;string">Neoplastic Process</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#synonym"/>
+        <IRI>#Tumor</IRI>
+        <Literal datatypeIRI="&xsd;string">CDISC SEND Tumor Findings Results Terminology</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#synonym"/>
+        <IRI>#Tumor</IRI>
+        <Literal datatypeIRI="&xsd;string">NEOPLASM</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#synonym"/>
+        <IRI>#Tumor</IRI>
+        <Literal datatypeIRI="&xsd;string">NEOPLASM, UNDETERMINED</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#synonym"/>
+        <IRI>#Tumor</IRI>
+        <Literal datatypeIRI="&xsd;string">Neoplasia</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#synonym"/>
+        <IRI>#Tumor</IRI>
+        <Literal datatypeIRI="&xsd;string">Neoplasm</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#synonym"/>
+        <IRI>#Tumor</IRI>
+        <Literal datatypeIRI="&xsd;string">Neoplasm Type</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#synonym"/>
+        <IRI>#Tumor</IRI>
+        <Literal datatypeIRI="&xsd;string">Neoplastic Disease</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#synonym"/>
+        <IRI>#Tumor</IRI>
+        <Literal datatypeIRI="&xsd;string">Neoplastic Growth</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#synonym"/>
+        <IRI>#Tumor</IRI>
+        <Literal datatypeIRI="&xsd;string">Neoplastic Syndrome</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#synonym"/>
+        <IRI>#Tumor</IRI>
+        <Literal datatypeIRI="&xsd;string">Neoplastic disease</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#synonym"/>
+        <IRI>#Tumor</IRI>
+        <Literal datatypeIRI="&xsd;string">Neoplastic disease (disorder)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#synonym"/>
+        <IRI>#Tumor</IRI>
+        <Literal datatypeIRI="&xsd;string">Neoplastic syndrome</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#synonym"/>
+        <IRI>#Tumor</IRI>
+        <Literal datatypeIRI="&xsd;string">SEND-NEOPLASM</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#synonym"/>
+        <IRI>#Tumor</IRI>
+        <Literal datatypeIRI="&xsd;string">neoplasia</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#synonym"/>
+        <IRI>#Tumor</IRI>
+        <Literal datatypeIRI="&xsd;string">neoplasm</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#synonym"/>
+        <IRI>#Tumor</IRI>
+        <Literal datatypeIRI="&xsd;string">neoplastic disease</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#synonym"/>
+        <IRI>#Tumor</IRI>
+        <Literal datatypeIRI="&xsd;string">neoplastic syndrome</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#synonym"/>
+        <IRI>#Tumor</IRI>
+        <Literal datatypeIRI="&xsd;string">tumor</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Tumor</IRI>
+        <Literal datatypeIRI="&xsd;string">Tumor</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
+        <IRI>#Tumor</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">HP:0002664</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#code"/>
