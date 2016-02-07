@@ -32,10 +32,34 @@
         <Literal datatypeIRI="&rdf;PlainLiteral">The DeepPhe Cancer ontology is licensed under the Creative Commons Attribution 4.0 International license. Please see https://creativecommons.org/licenses/by/4.0/legalcode for the entire license.</Literal>
     </Annotation>
     <Declaration>
+        <Class IRI="#CancerPhenotype"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#CancerStage"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#DiagnosticEpisode"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DiseasePhenotype"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#EnvironmentExposureToCarcinogenicAgent"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FollowUpEpisode"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PrediagnosticEpisode"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PrimaryEpisode"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#RecurrenceEpisode"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#StagingEpisode"/>
     </Declaration>
     <Declaration>
         <Class IRI="#TNMClassification"/>
@@ -45,6 +69,12 @@
     </Declaration>
     <Declaration>
         <Class IRI="#TNM_Modifier"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TreatmentEpisode"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TumorPhenotype"/>
     </Declaration>
     <Declaration>
         <Class IRI="#TumorType"/>
@@ -137,12 +167,24 @@
         <Class IRI="http://blulab.chpc.utah.edu/ontologies/v2/Schema.owl#SummaryModel"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#CancerPhenotype"/>
+        <Class IRI="#DiseasePhenotype"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#CancerStage"/>
         <Class IRI="http://blulab.chpc.utah.edu/ontologies/v2/ConText.owl#SemanticModifier"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Cancer_TNM_Vessel_Invasion_Finding_Category"/>
         <Class IRI="#TNMValue"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DiagnosticEpisode"/>
+        <Class IRI="http://blulab.chpc.utah.edu/ontologies/v2/Schema.owl#Episode"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DiseasePhenotype"/>
+        <Class IRI="http://blulab.chpc.utah.edu/ontologies/v2/Schema.owl#SummaryModel"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Distant"/>
@@ -159,6 +201,10 @@
     <SubClassOf>
         <Class IRI="#Exposure"/>
         <Class IRI="#Biological_Process"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FollowUpEpisode"/>
+        <Class IRI="http://blulab.chpc.utah.edu/ontologies/v2/Schema.owl#Episode"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Generic_Distant_Metastasis_TNM_Finding"/>
@@ -297,8 +343,20 @@
         <Class IRI="#Generic_Regional_Lymph_Nodes_TNM_Finding"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#PrediagnosticEpisode"/>
+        <Class IRI="http://blulab.chpc.utah.edu/ontologies/v2/Schema.owl#Episode"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PrimaryEpisode"/>
+        <Class IRI="http://blulab.chpc.utah.edu/ontologies/v2/Schema.owl#EpisodeType"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#PrimaryTumor"/>
         <Class IRI="#TumorType"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#RecurrenceEpisode"/>
+        <Class IRI="http://blulab.chpc.utah.edu/ontologies/v2/Schema.owl#EpisodeType"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Recurrent_Tumor"/>
@@ -307,6 +365,10 @@
     <SubClassOf>
         <Class IRI="#Regional"/>
         <Class IRI="#Recurrent_Tumor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#StagingEpisode"/>
+        <Class IRI="http://blulab.chpc.utah.edu/ontologies/v2/Schema.owl#Episode"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#T0_Stage_Finding"/>
@@ -444,8 +506,16 @@
         <Class IRI="#Generic_Primary_Tumor_TNM_Finding"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#TreatmentEpisode"/>
+        <Class IRI="http://blulab.chpc.utah.edu/ontologies/v2/Schema.owl#Episode"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#Tumor"/>
         <Class IRI="http://blulab.chpc.utah.edu/ontologies/v2/Schema.owl#SummaryModel"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TumorPhenotype"/>
+        <Class IRI="#DiseasePhenotype"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#TumorType"/>
@@ -1519,6 +1589,16 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#Cancer_TNM_Vessel_Invasion_Finding_Category</IRI>
         <Literal datatypeIRI="&xsd;string">Cancer TNM Vessel Invasion Finding Category</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#definition"/>
+        <IRI>#DiseasePhenotype</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">A clinically abnormal phenotype that is characteristic of a single disease.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
+        <IRI>#DiseasePhenotype</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">OGMS: 0000028</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#alternateCode"/>
