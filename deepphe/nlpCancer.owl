@@ -13015,26 +13015,6 @@
         <IRI>#Widely_Invasive_Lesion</IRI>
         <Literal datatypeIRI="&xsd;string">Widely Invasive Lesion</Literal>
     </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#definition"/>
-        <IRI>#c_modifier</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">Denotes clinical classification</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#preferredTerm"/>
-        <IRI>#c_modifier</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">c</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#definition"/>
-        <IRI>#p_modifier</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">Denotes pathological classification</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#preferredTerm"/>
-        <IRI>#p_modifier</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">p</Literal>
-    </AnnotationAssertion>
 </Ontology>
 
 
