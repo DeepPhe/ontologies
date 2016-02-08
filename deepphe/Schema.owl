@@ -809,6 +809,13 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Annotation"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#wasDerivedFrom"/>
+            <Class IRI="#Annotation"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Annotation"/>
         <DataSomeValuesFrom>
             <DataProperty IRI="#hasAnnotationType"/>
             <DataOneOf>
