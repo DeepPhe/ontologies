@@ -40,9 +40,6 @@
         <Class IRI="#DiagnosticEpisode"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#DiseasePhenotype"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="#EnvironmentExposureToCarcinogenicAgent"/>
     </Declaration>
     <Declaration>
@@ -68,6 +65,12 @@
     </Declaration>
     <Declaration>
         <Class IRI="#OtherTherapeuticProcedure"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PatientPhenotype"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Phenotype"/>
     </Declaration>
     <Declaration>
         <Class IRI="#PrediagnosticEpisode"/>
@@ -293,7 +296,14 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#CancerPhenotype"/>
-        <Class IRI="#DiseasePhenotype"/>
+        <Class IRI="#Phenotype"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CancerPhenotype"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasCancerStage"/>
+            <Class IRI="#CancerStage"/>
+        </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#CancerPhenotype"/>
@@ -406,17 +416,6 @@
     <SubClassOf>
         <Class IRI="#Disability_or_Permanent_Damage"/>
         <Class IRI="#Outcome"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#DiseasePhenotype"/>
-        <Class IRI="http://blulab.chpc.utah.edu/ontologies/v2/Schema.owl#SummaryModel"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#DiseasePhenotype"/>
-        <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="#hasManifestation"/>
-            <Class IRI="#ManifestationOfDisease"/>
-        </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Disease_Outcome"/>
@@ -707,6 +706,10 @@
         <Class IRI="#Original_Result_or_Finding"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#PatientPhenotype"/>
+        <Class IRI="#Phenotype"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#Pediatric_Death"/>
         <Class IRI="#Death"/>
     </SubClassOf>
@@ -753,6 +756,17 @@
     <SubClassOf>
         <Class IRI="#Pharmacokinetic_Parameter_Original_Result"/>
         <Class IRI="#Original_Result_or_Finding"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Phenotype"/>
+        <Class IRI="http://blulab.chpc.utah.edu/ontologies/v2/Schema.owl#SummaryModel"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Phenotype"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasManifestation"/>
+            <Class IRI="#ManifestationOfDisease"/>
+        </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Physical_Exam_Result"/>
@@ -977,7 +991,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#TumorPhenotype"/>
-        <Class IRI="#DiseasePhenotype"/>
+        <Class IRI="#Phenotype"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#TumorPhenotype"/>
@@ -4243,16 +4257,6 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#Disability_or_Permanent_Damage</IRI>
         <Literal datatypeIRI="&xsd;string">Disability or Permanent Damage</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#definition"/>
-        <IRI>#DiseasePhenotype</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">A clinically abnormal phenotype that is characteristic of a single disease.</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
-        <IRI>#DiseasePhenotype</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">OGMS: 0000028</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#alternateCode"/>
@@ -9578,6 +9582,16 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#Pharmacokinetic_Parameter_Original_Result</IRI>
         <Literal datatypeIRI="&xsd;string">Pharmacokinetic Parameter Original Result</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#definition"/>
+        <IRI>#Phenotype</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">A clinically abnormal phenotype that is characteristic of a single disease.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
+        <IRI>#Phenotype</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">OGMS: 0000028</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#alternateCode"/>

@@ -56,9 +56,6 @@
         <Class IRI="#CompositionAttribute"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#CompositionEvent"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="#Condition"/>
     </Declaration>
     <Declaration>
@@ -272,9 +269,6 @@
         <ObjectProperty IRI="#hasDenominator"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#hasDetail"/>
-    </Declaration>
-    <Declaration>
         <ObjectProperty IRI="#hasDocType"/>
     </Declaration>
     <Declaration>
@@ -290,10 +284,16 @@
         <ObjectProperty IRI="#hasEntry"/>
     </Declaration>
     <Declaration>
+        <ObjectProperty IRI="#hasEpisode"/>
+    </Declaration>
+    <Declaration>
         <ObjectProperty IRI="#hasEpisodeAttribute"/>
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="#hasEpisodeType"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasEthnicity"/>
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="#hasEvent"/>
@@ -390,6 +390,12 @@
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="#hasStage"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasStageAssessment"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasStageSummary"/>
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="#hasStatusChange"/>
@@ -698,6 +704,48 @@
         </DataSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="http://blulab.chpc.utah.edu/ontologies/v2/ConText.owl#HumanName"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="#hasFirstName"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://blulab.chpc.utah.edu/ontologies/v2/ConText.owl#HumanName"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="#hasFullName"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://blulab.chpc.utah.edu/ontologies/v2/ConText.owl#HumanName"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="#hasLastName"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://blulab.chpc.utah.edu/ontologies/v2/ConText.owl#HumanName"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="#hasMiddleName"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://blulab.chpc.utah.edu/ontologies/v2/ConText.owl#HumanName"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="#hasNamePrefix"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://blulab.chpc.utah.edu/ontologies/v2/ConText.owl#HumanName"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="#hasNameSuffix"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="http://blulab.chpc.utah.edu/ontologies/v2/ConText.owl#Quantity"/>
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="#hasUnit"/>
@@ -737,6 +785,20 @@
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="#hasNumerator"/>
             <Class IRI="http://blulab.chpc.utah.edu/ontologies/v2/ConText.owl#Quantity"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://blulab.chpc.utah.edu/ontologies/v2/ConText.owl#Stage"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasStageAssessment"/>
+            <Class IRI="#Finding"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://blulab.chpc.utah.edu/ontologies/v2/ConText.owl#Stage"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasStageSummary"/>
+            <Class IRI="#Finding"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
@@ -878,13 +940,6 @@
     <SubClassOf>
         <Class IRI="#Composition"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="#hasCompositionSummary"/>
-            <Class IRI="#SummaryModel"/>
-        </ObjectSomeValuesFrom>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Composition"/>
-        <ObjectSomeValuesFrom>
             <ObjectProperty IRI="#hasDocType"/>
             <Class IRI="#DocumentOntology"/>
         </ObjectSomeValuesFrom>
@@ -893,7 +948,7 @@
         <Class IRI="#Composition"/>
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="#hasEvent"/>
-            <Class IRI="#CompositionEvent"/>
+            <Class IRI="#Annotation"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
@@ -927,20 +982,6 @@
     <SubClassOf>
         <Class IRI="#CompositionAttribute"/>
         <Class IRI="#Attribute"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#CompositionEvent"/>
-        <Class IRI="#CompositionAttribute"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#CompositionEvent"/>
-        <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="#hasDetail"/>
-            <ObjectUnionOf>
-                <Class IRI="#Annotation"/>
-                <Class IRI="#SummaryModel"/>
-            </ObjectUnionOf>
-        </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Condition"/>
@@ -993,6 +1034,13 @@
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="#hasSeverity"/>
             <Class IRI="http://blulab.chpc.utah.edu/ontologies/v2/ConText.owl#Severity"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Condition"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasStage"/>
+            <Class IRI="http://blulab.chpc.utah.edu/ontologies/v2/ConText.owl#Stage"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
@@ -1103,15 +1151,15 @@
     <SubClassOf>
         <Class IRI="#Episode"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="#hasComposition"/>
-            <Class IRI="#Composition"/>
+            <ObjectProperty IRI="#hasEpisodeType"/>
+            <Class IRI="#EpisodeType"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Episode"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="#hasEpisodeType"/>
-            <Class IRI="#EpisodeType"/>
+            <ObjectProperty IRI="#hasEvent"/>
+            <Class IRI="#Annotation"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
@@ -1133,6 +1181,27 @@
     <SubClassOf>
         <Class IRI="#MedicalRecord"/>
         <Class IRI="#Summary"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MedicalRecord"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasComposition"/>
+            <Class IRI="#Composition"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MedicalRecord"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasEpisode"/>
+            <Class IRI="#Episode"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MedicalRecord"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasPatient"/>
+            <Class IRI="#Patient"/>
+        </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#MedicationStatement"/>
@@ -1233,6 +1302,13 @@
     <SubClassOf>
         <Class IRI="#Patient"/>
         <Class IRI="#Entity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Patient"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasEthnicity"/>
+            <Class IRI="http://blulab.chpc.utah.edu/ontologies/v2/ConText.owl#EthnicGroup"/>
+        </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Patient"/>
@@ -1495,7 +1571,7 @@
     </SubObjectPropertyOf>
     <SubObjectPropertyOf>
         <ObjectProperty IRI="#hasComposition"/>
-        <ObjectProperty IRI="#hasEpisodeAttribute"/>
+        <ObjectProperty IRI="#hasMRSummaryAttribute"/>
     </SubObjectPropertyOf>
     <SubObjectPropertyOf>
         <ObjectProperty IRI="#hasCompositionAttribute"/>
@@ -1534,10 +1610,6 @@
         <ObjectProperty IRI="#hasNumericModifier"/>
     </SubObjectPropertyOf>
     <SubObjectPropertyOf>
-        <ObjectProperty IRI="#hasDetail"/>
-        <ObjectProperty IRI="#hasCompositionAttribute"/>
-    </SubObjectPropertyOf>
-    <SubObjectPropertyOf>
         <ObjectProperty IRI="#hasDocType"/>
         <ObjectProperty IRI="#hasCompositionAttribute"/>
     </SubObjectPropertyOf>
@@ -1558,6 +1630,10 @@
         <ObjectProperty IRI="#hasCompositionAttribute"/>
     </SubObjectPropertyOf>
     <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasEpisode"/>
+        <ObjectProperty IRI="#hasMRSummaryAttribute"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
         <ObjectProperty IRI="#hasEpisodeAttribute"/>
         <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
     </SubObjectPropertyOf>
@@ -1566,8 +1642,16 @@
         <ObjectProperty IRI="#hasEpisodeAttribute"/>
     </SubObjectPropertyOf>
     <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasEthnicity"/>
+        <ObjectProperty IRI="#hasSemanticModifier"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
         <ObjectProperty IRI="#hasEvent"/>
         <ObjectProperty IRI="#hasCompositionAttribute"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasEvent"/>
+        <ObjectProperty IRI="#hasEpisodeAttribute"/>
     </SubObjectPropertyOf>
     <SubObjectPropertyOf>
         <ObjectProperty IRI="#hasExperiencer"/>
@@ -1639,6 +1723,10 @@
     </SubObjectPropertyOf>
     <SubObjectPropertyOf>
         <ObjectProperty IRI="#hasPatient"/>
+        <ObjectProperty IRI="#hasMRSummaryAttribute"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasPatient"/>
         <ObjectProperty IRI="#hasSemanticModifier"/>
     </SubObjectPropertyOf>
     <SubObjectPropertyOf>
@@ -1687,6 +1775,14 @@
     </SubObjectPropertyOf>
     <SubObjectPropertyOf>
         <ObjectProperty IRI="#hasStage"/>
+        <ObjectProperty IRI="#hasSemanticModifier"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasStageAssessment"/>
+        <ObjectProperty IRI="#hasSemanticModifier"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasStageSummary"/>
         <ObjectProperty IRI="#hasSemanticModifier"/>
     </SubObjectPropertyOf>
     <SubObjectPropertyOf>
@@ -1859,7 +1955,7 @@
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#hasComposition"/>
-        <Class IRI="#Episode"/>
+        <Class IRI="#MedicalRecord"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#hasCompositionAttribute"/>
@@ -1902,10 +1998,6 @@
         <Class IRI="#Procedure"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
-        <ObjectProperty IRI="#hasDetail"/>
-        <Class IRI="#CompositionEvent"/>
-    </ObjectPropertyDomain>
-    <ObjectPropertyDomain>
         <ObjectProperty IRI="#hasDocType"/>
         <Class IRI="#Composition"/>
     </ObjectPropertyDomain>
@@ -1926,6 +2018,10 @@
         <Class IRI="#DocumentSection"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasEpisode"/>
+        <Class IRI="#MedicalRecord"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
         <ObjectProperty IRI="#hasEpisodeAttribute"/>
         <Class IRI="#Episode"/>
     </ObjectPropertyDomain>
@@ -1934,8 +2030,16 @@
         <Class IRI="#Episode"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasEthnicity"/>
+        <Class IRI="#Patient"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
         <ObjectProperty IRI="#hasEvent"/>
         <Class IRI="#Composition"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasEvent"/>
+        <Class IRI="#Episode"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#hasExperiencer"/>
@@ -2015,6 +2119,10 @@
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#hasPatient"/>
+        <Class IRI="#MedicalRecord"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasPatient"/>
         <Class IRI="#MedicationStatement"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
@@ -2078,6 +2186,18 @@
         <Class IRI="#Condition"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasStageAssessment"/>
+        <Class IRI="http://blulab.chpc.utah.edu/ontologies/v2/ConText.owl#Stage"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasStageAssessment"/>
+        <Class IRI="#Finding"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasStageSummary"/>
+        <Class IRI="http://blulab.chpc.utah.edu/ontologies/v2/ConText.owl#Stage"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
         <ObjectProperty IRI="#hasStatusChange"/>
         <Class IRI="#MedicationStatement"/>
     </ObjectPropertyDomain>
@@ -2134,12 +2254,20 @@
         <Class IRI="#Annotation"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasEpisode"/>
+        <Class IRI="#Episode"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
         <ObjectProperty IRI="#hasEpisodeType"/>
         <Class IRI="#EpisodeType"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasEthnicity"/>
+        <Class IRI="http://blulab.chpc.utah.edu/ontologies/v2/ConText.owl#EthnicGroup"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
         <ObjectProperty IRI="#hasEvent"/>
-        <Class IRI="#CompositionEvent"/>
+        <Class IRI="#Annotation"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
         <ObjectProperty IRI="#hasMRSummaryAttribute"/>
@@ -2196,6 +2324,14 @@
     <ObjectPropertyRange>
         <ObjectProperty IRI="#hasSeverity"/>
         <Class IRI="http://blulab.chpc.utah.edu/ontologies/v2/ConText.owl#Severity"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasStage"/>
+        <Class IRI="http://blulab.chpc.utah.edu/ontologies/v2/ConText.owl#Stage"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasStageSummary"/>
+        <Class IRI="#Finding"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
         <ObjectProperty IRI="#hasSubstance"/>
@@ -2312,12 +2448,36 @@
         <Class IRI="#Annotation"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
+        <DataProperty IRI="#hasFirstName"/>
+        <Class IRI="http://blulab.chpc.utah.edu/ontologies/v2/ConText.owl#HumanName"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
         <DataProperty IRI="#hasFromLocation"/>
         <Class IRI="#Encounter"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
+        <DataProperty IRI="#hasFullName"/>
+        <Class IRI="http://blulab.chpc.utah.edu/ontologies/v2/ConText.owl#HumanName"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasLastName"/>
+        <Class IRI="http://blulab.chpc.utah.edu/ontologies/v2/ConText.owl#HumanName"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
         <DataProperty IRI="#hasLastOccurence"/>
         <Class IRI="#AllergyIntolerance"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasMiddleName"/>
+        <Class IRI="http://blulab.chpc.utah.edu/ontologies/v2/ConText.owl#HumanName"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasNamePrefix"/>
+        <Class IRI="http://blulab.chpc.utah.edu/ontologies/v2/ConText.owl#HumanName"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasNameSuffix"/>
+        <Class IRI="http://blulab.chpc.utah.edu/ontologies/v2/ConText.owl#HumanName"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
         <DataProperty IRI="#hasProcedureCategory"/>
