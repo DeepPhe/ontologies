@@ -25,7 +25,7 @@
     <Import>http://blulab.chpc.utah.edu/ontologies/v2/Schema.owl</Import>
     <Annotation>
         <AnnotationProperty abbreviatedIRI="owl:versionInfo"/>
-        <Literal datatypeIRI="&rdf;PlainLiteral">sprint8</Literal>
+        <Literal datatypeIRI="&rdf;PlainLiteral">sprint9</Literal>
     </Annotation>
     <Declaration>
         <Class IRI="#CancerPhenotype"/>
@@ -56,6 +56,18 @@
     </Declaration>
     <Declaration>
         <Class IRI="#MolecularManifestationOfDisease"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OtherBodySite"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OtherDiagnositcProcedure"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OtherMedication"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OtherTherapeuticProcedure"/>
     </Declaration>
     <Declaration>
         <Class IRI="#PrediagnosticEpisode"/>
@@ -657,6 +669,22 @@
     <SubClassOf>
         <Class IRI="#Original_Result_or_Finding"/>
         <Class IRI="#Outcome"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OtherBodySite"/>
+        <Class IRI="http://blulab.chpc.utah.edu/ontologies/v2/Schema.owl#BodySite"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OtherDiagnositcProcedure"/>
+        <Class IRI="http://blulab.chpc.utah.edu/ontologies/v2/Schema.owl#DiagnosticProcedure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OtherMedication"/>
+        <Class IRI="http://blulab.chpc.utah.edu/ontologies/v2/Schema.owl#MedicationStatement"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OtherTherapeuticProcedure"/>
+        <Class IRI="http://blulab.chpc.utah.edu/ontologies/v2/Schema.owl#TherapeuticProcedure"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Outcome"/>
