@@ -130,6 +130,9 @@
         <ObjectProperty IRI="#hasCancerType"/>
     </Declaration>
     <Declaration>
+        <ObjectProperty IRI="#hasDiagnosis"/>
+    </Declaration>
+    <Declaration>
         <ObjectProperty IRI="#hasExposure"/>
     </Declaration>
     <Declaration>
@@ -251,6 +254,41 @@
     <SubClassOf>
         <Class IRI="http://blulab.chpc.utah.edu/ontologies/v2/Schema.owl#Patient"/>
         <Class IRI="http://blulab.chpc.utah.edu/ontologies/v2/Schema.owl#SummaryModel"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://blulab.chpc.utah.edu/ontologies/v2/Schema.owl#Patient"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasDiagnosis"/>
+            <Class IRI="#Cancer"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://blulab.chpc.utah.edu/ontologies/v2/Schema.owl#Patient"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasOutcome"/>
+            <Class IRI="#Outcome"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://blulab.chpc.utah.edu/ontologies/v2/Schema.owl#Patient"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasPhenotype"/>
+            <Class IRI="#PatientPhenotype"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://blulab.chpc.utah.edu/ontologies/v2/Schema.owl#Patient"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasSequenceVariant"/>
+            <Class IRI="#GermlineSequenceVariant"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://blulab.chpc.utah.edu/ontologies/v2/Schema.owl#Patient"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasSideEffect"/>
+            <Class IRI="#TreatmentSideEffect"/>
+        </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="http://blulab.chpc.utah.edu/ontologies/v2/Schema.owl#TherapeuticProcedure"/>
@@ -1001,6 +1039,13 @@
         <Class IRI="http://blulab.chpc.utah.edu/ontologies/v2/Schema.owl#SummaryModel"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#Treatment"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://blulab.chpc.utah.edu/ontologies/v2/Schema.owl#causes"/>
+            <Class IRI="#TreatmentSideEffect"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#TreatmentEpisode"/>
         <Class IRI="http://blulab.chpc.utah.edu/ontologies/v2/Schema.owl#Episode"/>
     </SubClassOf>
@@ -1146,6 +1191,10 @@
         <ObjectProperty IRI="#hasManifestation"/>
     </SubObjectPropertyOf>
     <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasDiagnosis"/>
+        <ObjectProperty IRI="#hasSummaryRelation"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
         <ObjectProperty IRI="#hasExposure"/>
         <ObjectProperty IRI="#hasSummaryRelation"/>
     </SubObjectPropertyOf>
@@ -1246,6 +1295,10 @@
         <Class IRI="#TumorPhenotype"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasDiagnosis"/>
+        <Class IRI="http://blulab.chpc.utah.edu/ontologies/v2/Schema.owl#Patient"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
         <ObjectProperty IRI="#hasMClassification"/>
         <Class IRI="#CancerPhenotype"/>
     </ObjectPropertyDomain>
@@ -1288,6 +1341,10 @@
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#hasSequenceVariant"/>
         <Class IRI="#Tumor"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasSideEffect"/>
+        <Class IRI="http://blulab.chpc.utah.edu/ontologies/v2/Schema.owl#Patient"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#hasTClassification"/>
@@ -1340,6 +1397,14 @@
     <ObjectPropertyRange>
         <ObjectProperty IRI="#hasCancerType"/>
         <Class IRI="#CancerType"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasDiagnosis"/>
+        <Class IRI="#Cancer"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasDiagnosis"/>
+        <Class IRI="#Tumor"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
         <ObjectProperty IRI="#hasExposure"/>
