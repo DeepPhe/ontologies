@@ -21,18 +21,6 @@
     <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
     <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
     <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
-    <Annotation>
-        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#author"/>
-        <Literal datatypeIRI="&rdf;PlainLiteral">Melissa Castine</Literal>
-    </Annotation>
-    <Annotation>
-        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#author"/>
-        <Literal datatypeIRI="&rdf;PlainLiteral">Eugene Tseytlin</Literal>
-    </Annotation>
-    <Annotation>
-        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/Terminology.owl#author"/>
-        <Literal datatypeIRI="&rdf;PlainLiteral">Wendy Chapman</Literal>
-    </Annotation>
     <Declaration>
         <AnnotationProperty IRI="#abbreviation"/>
     </Declaration>
