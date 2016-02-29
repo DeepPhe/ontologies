@@ -480,10 +480,6 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#M_Stage"/>
-        <Class IRI="http://blulab.chpc.utah.edu/ontologies/v2/Schema.owl#Finding"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#M_Stage"/>
         <Class IRI="#TNM_Staging_System"/>
     </SubClassOf>
     <SubClassOf>
@@ -541,10 +537,6 @@
     <SubClassOf>
         <Class IRI="#Multiple_Hispanic"/>
         <Class IRI="#Hispanic_or_Latino"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#N_Stage"/>
-        <Class IRI="http://blulab.chpc.utah.edu/ontologies/v2/Schema.owl#Finding"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#N_Stage"/>
@@ -841,10 +833,6 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#T_Stage"/>
-        <Class IRI="http://blulab.chpc.utah.edu/ontologies/v2/Schema.owl#Finding"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#T_Stage"/>
         <Class IRI="#TNM_Staging_System"/>
     </SubClassOf>
     <SubClassOf>
@@ -900,7 +888,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#TumorType"/>
-        <Class IRI="http://blulab.chpc.utah.edu/ontologies/v2/Schema.owl#SummaryAttribute"/>
+        <Class IRI="http://blulab.chpc.utah.edu/ontologies/v2/ConText.owl#SemanticModifier"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Unknown"/>
@@ -1228,6 +1216,11 @@
         <Literal datatypeIRI="&xsd;boolean">true</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty IRI="#hasModel"/>
+        <IRI>http://blulab.chpc.utah.edu/ontologies/v2/ConText.owl#BodyModifier</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Attribute</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty IRI="#ignore"/>
         <IRI>http://blulab.chpc.utah.edu/ontologies/v2/ConText.owl#Closure</IRI>
         <Literal datatypeIRI="&xsd;boolean">true</Literal>
@@ -1241,6 +1234,11 @@
         <AnnotationProperty IRI="#ignore"/>
         <IRI>http://blulab.chpc.utah.edu/ontologies/v2/ConText.owl#Pseudo</IRI>
         <Literal datatypeIRI="&xsd;boolean">true</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#hasModel"/>
+        <IRI>http://blulab.chpc.utah.edu/ontologies/v2/ConText.owl#SemanticModifier</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Attribute</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="#ignore"/>
@@ -2998,6 +2996,11 @@
         <Literal datatypeIRI="&xsd;string">Crude Survival</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty IRI="#hasModel"/>
+        <IRI>#Crude_Survival</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Outcome</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#Crude_Survival</IRI>
         <Literal datatypeIRI="&xsd;string">Crude Survival</Literal>
@@ -3343,6 +3346,11 @@
         <Literal datatypeIRI="&xsd;string">disease-free survival</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty IRI="#hasModel"/>
+        <IRI>#Disease_Free_Survival</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Outcome</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#Disease_Free_Survival</IRI>
         <Literal datatypeIRI="&xsd;string">Disease-Free Survival</Literal>
@@ -3586,6 +3594,11 @@
         <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#synonym"/>
         <IRI>#Event_Free_Survival</IRI>
         <Literal datatypeIRI="&xsd;string">Event-Free Survival</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#hasModel"/>
+        <IRI>#Event_Free_Survival</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Outcome</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -4143,6 +4156,11 @@
         <Literal datatypeIRI="&rdf;PlainLiteral">in-situ</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty IRI="#hasModel"/>
+        <IRI>#In_Situ_Lesion</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">ClinicalManifestationOfDisease</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#In_Situ_Lesion</IRI>
         <Literal datatypeIRI="&xsd;string">In Situ Lesion</Literal>
@@ -4531,6 +4549,11 @@
         <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#synonym"/>
         <IRI>#Invasive_Lesion</IRI>
         <Literal datatypeIRI="&xsd;string">Invasive Lesion</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#hasModel"/>
+        <IRI>#Invasive_Lesion</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">ClinicalManifestationOfDisease</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -4991,6 +5014,11 @@
         <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#synonym"/>
         <IRI>#M_Stage</IRI>
         <Literal datatypeIRI="&xsd;string">metastatic stage</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#hasModel"/>
+        <IRI>#M_Stage</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">ClinicalManifestationOfDisease</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -6393,6 +6421,11 @@
         <Literal datatypeIRI="&xsd;string">regional lymph node stage</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty IRI="#hasModel"/>
+        <IRI>#N_Stage</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">ClinicalManifestationOfDisease</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#N_Stage</IRI>
         <Literal datatypeIRI="&xsd;string">N - Node stages</Literal>
@@ -6616,6 +6649,11 @@
         <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#synonym"/>
         <IRI>#Net_Survival</IRI>
         <Literal datatypeIRI="&xsd;string">Net Survival</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#hasModel"/>
+        <IRI>#Net_Survival</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Outcome</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -6851,6 +6889,11 @@
         <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#synonym"/>
         <IRI>#Observed_Survival</IRI>
         <Literal datatypeIRI="&xsd;string">Observed Survival</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#hasModel"/>
+        <IRI>#Observed_Survival</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Outcome</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -7391,6 +7434,11 @@
         <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#synonym"/>
         <IRI>#Progression_free_Survival</IRI>
         <Literal datatypeIRI="&xsd;string">progression-free survival</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#hasModel"/>
+        <IRI>#Progression_free_Survival</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Outcome</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -9018,6 +9066,11 @@
         <Literal datatypeIRI="&xsd;string">primary tumor stage</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty IRI="#hasModel"/>
+        <IRI>#T_Stage</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">ClinicalManifestationOfDisease</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#T_Stage</IRI>
         <Literal datatypeIRI="&xsd;string">T - Tumor stages</Literal>
@@ -9246,6 +9299,11 @@
         <AnnotationProperty IRI="#hasModel"/>
         <IRI>#TumorExtent</IRI>
         <Literal datatypeIRI="&rdf;PlainLiteral">ClinicalManifestationOfDisease</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#hasModel"/>
+        <IRI>#TumorType</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Attribute</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#alternateCode"/>

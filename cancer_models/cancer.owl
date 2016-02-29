@@ -162,15 +162,6 @@
         <Class IRI="#DP000149"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#DP000175"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#DP000176"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#DP000177"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="#DP000363"/>
     </Declaration>
     <Declaration>
@@ -178,6 +169,9 @@
     </Declaration>
     <Declaration>
         <Class IRI="#DP000365"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DP000500"/>
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="#DP000023"/>
@@ -617,10 +611,6 @@
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#DP000137"/>
-        <Class IRI="#DP000114"/>
-    </SubClassOf>
-    <SubClassOf>
         <Class IRI="#DP000139"/>
         <Class IRI="#DP000114"/>
     </SubClassOf>
@@ -642,23 +632,11 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#DP000145"/>
-        <Class IRI="#DP000114"/>
+        <Class IRI="#DP000006"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#DP000149"/>
         <Class IRI="#DP000114"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#DP000175"/>
-        <Class IRI="#DP000114"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#DP000176"/>
-        <Class IRI="#DP000175"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#DP000177"/>
-        <Class IRI="#DP000175"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#DP000363"/>
@@ -667,6 +645,10 @@
     <SubClassOf>
         <Class IRI="#DP000364"/>
         <Class IRI="#DP000363"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DP000500"/>
+        <Class IRI="#DP000001"/>
     </SubClassOf>
     <SubObjectPropertyOf>
         <ObjectProperty IRI="#DP000125"/>
@@ -926,7 +908,7 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#DP000001</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Disease Phenotype</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Phenotype</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
@@ -1381,7 +1363,7 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#DP000137</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">ProcedureMethod</Literal>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Diagnostic Procedure</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -1440,21 +1422,6 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#DP000175</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">TumorExtent</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#DP000176</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">In-Situ</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#DP000177</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Invasive</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#DP000363</IRI>
         <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Exposure</Literal>
     </AnnotationAssertion>
@@ -1467,6 +1434,11 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#DP000365</IRI>
         <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Treatment Side Effect</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#DP000500</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Patient Phenotype</Literal>
     </AnnotationAssertion>
 </Ontology>
 
