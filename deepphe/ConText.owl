@@ -21,6 +21,7 @@
     <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
     <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
     <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Import>http://blulab.chpc.utah.edu/ontologies/TermMapping.owl</Import>
     <Declaration>
         <Class IRI="#Action"/>
     </Declaration>
@@ -38,6 +39,9 @@
     </Declaration>
     <Declaration>
         <Class IRI="#BodySide"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#BodySite"/>
     </Declaration>
     <Declaration>
         <Class IRI="#But_Group"/>
@@ -204,6 +208,9 @@
     <Declaration>
         <NamedIndividual IRI="#terminate"/>
     </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="#windowSize"/>
+    </Declaration>
     <SubClassOf>
         <Class IRI="#Age"/>
         <Class IRI="#Quantity"/>
@@ -222,6 +229,10 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#BodySide"/>
+        <Class IRI="#SemanticModifier"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BodySite"/>
         <Class IRI="#SemanticModifier"/>
     </SubClassOf>
     <SubClassOf>
@@ -490,6 +501,11 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#BodySide</IRI>
         <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">BodySide</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#BodySite</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">BodySite</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
