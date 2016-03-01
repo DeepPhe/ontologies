@@ -1,0 +1,531 @@
+<?xml version="1.0"?>
+
+
+<!DOCTYPE Ontology [
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY xml "http://www.w3.org/XML/1998/namespace" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+]>
+
+
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://ontologies.dbmi.pitt.edu/deepphe/nlpBreastCancerDevGold.owl"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://ontologies.dbmi.pitt.edu/deepphe/nlpBreastCancerDevGold.owl">
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Import>http://ontologies.dbmi.pitt.edu/deepphe/nlpBreastCancer.owl</Import>
+    <Declaration>
+        <NamedIndividual IRI="#BI-RADS_Category_5"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#RAD"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#cm"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#distant_recurrence"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#female"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#highly_suspicious_for_malignancy_patient92_report001_RAD"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#highly_suspicious_for_metastatic_adenopathy"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#left"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#left_breast_11_oclock_region"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#left_breast_12_oclock_region"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#local_recurrence"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#lymph_nodes_left_axilla"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#patient92_name"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#patient92_record"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#patient92_report001"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#patient92_report001_RAD"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#positive"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#primary"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#record_patient92"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#recurrence"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#regional_recurrence"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#tumor2_patient92_report001_RAD"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#tumor3_patient92_report001_RAD"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#tumor_patient92_report001_RAD"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ultrasound_patient92_report001_RAD"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#1.0x1.1x0.9cm"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#11_o&apos;clock_region"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#12_oclock_region"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#2.3x2.5x1.6cm"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#5five"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#53_year_old"/>
+    </Declaration>
+    <ClassAssertion>
+        <Class IRI="http://ontologies.dbmi.pitt.edu/deepphe/nlpBreastCancer.owl#Breast_Imaging_Reporting_and_Data_System"/>
+        <NamedIndividual IRI="#BI-RADS_Category_5"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://ontologies.dbmi.pitt.edu/deepphe/nlpBreastCancer.owl#Radiology_report"/>
+        <NamedIndividual IRI="#RAD"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://ontologies.dbmi.pitt.edu/deepphe/nlpBreastCancer.owl#Centimeter"/>
+        <NamedIndividual IRI="#cm"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://ontologies.dbmi.pitt.edu/deepphe/nlpCancer.owl#Distant"/>
+        <NamedIndividual IRI="#distant_recurrence"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://ontologies.dbmi.pitt.edu/deepphe/nlpCancer.owl#Female_Gender"/>
+        <NamedIndividual IRI="#female"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://ontologies.dbmi.pitt.edu/deepphe/nlpBreastCancer.owl#Malignant_Breast_Neoplasm"/>
+        <NamedIndividual IRI="#highly_suspicious_for_malignancy_patient92_report001_RAD"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://ontologies.dbmi.pitt.edu/deepphe/nlpBreastCancer.owl#Axillary_Lymph_Node_Involvement"/>
+        <NamedIndividual IRI="#highly_suspicious_for_metastatic_adenopathy"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://ontologies.dbmi.pitt.edu/deepphe/nlpCancer.owl#Left"/>
+        <NamedIndividual IRI="#left"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://ontologies.dbmi.pitt.edu/deepphe/nlpBreastCancer.owl#Left_Breast"/>
+        <NamedIndividual IRI="#left_breast_11_oclock_region"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://ontologies.dbmi.pitt.edu/deepphe/nlpBreastCancer.owl#Left_Breast"/>
+        <NamedIndividual IRI="#left_breast_12_oclock_region"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://ontologies.dbmi.pitt.edu/deepphe/nlpCancer.owl#Local"/>
+        <NamedIndividual IRI="#local_recurrence"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://ontologies.dbmi.pitt.edu/deepphe/nlpBreastCancer.owl#Axillary_Lymph_Node"/>
+        <NamedIndividual IRI="#lymph_nodes_left_axilla"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://blulab.chpc.utah.edu/ontologies/v2/ConText.owl#HumanName"/>
+        <NamedIndividual IRI="#patient92_name"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://ontologies.dbmi.pitt.edu/deepphe/nlpCancer.owl#Patient"/>
+        <NamedIndividual IRI="#patient92_record"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://ontologies.dbmi.pitt.edu/deepphe/nlpCancer.owl#Patient"/>
+        <NamedIndividual IRI="#patient92_report001"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://blulab.chpc.utah.edu/ontologies/v2/Schema.owl#Composition"/>
+        <NamedIndividual IRI="#patient92_report001_RAD"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://ontologies.dbmi.pitt.edu/deepphe/nlpCancer.owl#Positive"/>
+        <NamedIndividual IRI="#positive"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://ontologies.dbmi.pitt.edu/deepphe/nlpCancer.owl#PrimaryTumor"/>
+        <NamedIndividual IRI="#primary"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://blulab.chpc.utah.edu/ontologies/v2/Schema.owl#MedicalRecord"/>
+        <NamedIndividual IRI="#record_patient92"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://ontologies.dbmi.pitt.edu/deepphe/nlpCancer.owl#Recurrent_Tumor"/>
+        <NamedIndividual IRI="#recurrence"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://ontologies.dbmi.pitt.edu/deepphe/nlpCancer.owl#Regional"/>
+        <NamedIndividual IRI="#regional_recurrence"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://ontologies.dbmi.pitt.edu/deepphe/nlpCancer.owl#Tumor"/>
+        <NamedIndividual IRI="#tumor2_patient92_report001_RAD"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://ontologies.dbmi.pitt.edu/deepphe/nlpCancer.owl#Tumor"/>
+        <NamedIndividual IRI="#tumor3_patient92_report001_RAD"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://ontologies.dbmi.pitt.edu/deepphe/nlpCancer.owl#Tumor"/>
+        <NamedIndividual IRI="#tumor_patient92_report001_RAD"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://ontologies.dbmi.pitt.edu/deepphe/nlpBreastCancer.owl#Ultrasonography"/>
+        <NamedIndividual IRI="#ultrasound_patient92_report001_RAD"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://blulab.chpc.utah.edu/ontologies/v2/ConText.owl#DimensionalMeasurement"/>
+        <NamedIndividual IRI="#1.0x1.1x0.9cm"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://ontologies.dbmi.pitt.edu/deepphe/nlpBreastCancer.owl#11_o_clock_position"/>
+        <NamedIndividual IRI="#11_o&apos;clock_region"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://ontologies.dbmi.pitt.edu/deepphe/nlpBreastCancer.owl#12_o_clock_position"/>
+        <NamedIndividual IRI="#12_oclock_region"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://blulab.chpc.utah.edu/ontologies/v2/ConText.owl#DimensionalMeasurement"/>
+        <NamedIndividual IRI="#2.3x2.5x1.6cm"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://blulab.chpc.utah.edu/ontologies/v2/ConText.owl#Quantity"/>
+        <NamedIndividual IRI="#5five"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://blulab.chpc.utah.edu/ontologies/v2/ConText.owl#Age"/>
+        <NamedIndividual IRI="#53_year_old"/>
+    </ClassAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://blulab.chpc.utah.edu/ontologies/v2/Schema.owl#hasNumValue"/>
+        <NamedIndividual IRI="#BI-RADS_Category_5"/>
+        <NamedIndividual IRI="#5five"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://blulab.chpc.utah.edu/ontologies/v2/Schema.owl#hasBodySite"/>
+        <NamedIndividual IRI="#highly_suspicious_for_malignancy_patient92_report001_RAD"/>
+        <NamedIndividual IRI="#left_breast_11_oclock_region"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://ontologies.dbmi.pitt.edu/deepphe/nlpCancer.owl#realizes"/>
+        <NamedIndividual IRI="#highly_suspicious_for_malignancy_patient92_report001_RAD"/>
+        <NamedIndividual IRI="#tumor2_patient92_report001_RAD"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://ontologies.dbmi.pitt.edu/deepphe/nlpCancer.owl#realizes"/>
+        <NamedIndividual IRI="#highly_suspicious_for_malignancy_patient92_report001_RAD"/>
+        <NamedIndividual IRI="#tumor_patient92_report001_RAD"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://ontologies.dbmi.pitt.edu/deepphe/nlpCancer.owl#realizes"/>
+        <NamedIndividual IRI="#highly_suspicious_for_malignancy_patient92_report001_RAD"/>
+        <NamedIndividual IRI="#tumor3_patient92_report001_RAD"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://blulab.chpc.utah.edu/ontologies/v2/Schema.owl#hasBodySite"/>
+        <NamedIndividual IRI="#highly_suspicious_for_metastatic_adenopathy"/>
+        <NamedIndividual IRI="#lymph_nodes_left_axilla"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://blulab.chpc.utah.edu/ontologies/v2/Schema.owl#hasInterpretation"/>
+        <NamedIndividual IRI="#highly_suspicious_for_metastatic_adenopathy"/>
+        <NamedIndividual IRI="#positive"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://blulab.chpc.utah.edu/ontologies/v2/Schema.owl#hasMethod"/>
+        <NamedIndividual IRI="#highly_suspicious_for_metastatic_adenopathy"/>
+        <NamedIndividual IRI="#ultrasound_patient92_report001_RAD"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://blulab.chpc.utah.edu/ontologies/v2/Schema.owl#hasBodySiteModifier"/>
+        <NamedIndividual IRI="#left_breast_11_oclock_region"/>
+        <NamedIndividual IRI="#11_o&apos;clock_region"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://blulab.chpc.utah.edu/ontologies/v2/Schema.owl#hasBodySiteModifier"/>
+        <NamedIndividual IRI="#left_breast_12_oclock_region"/>
+        <NamedIndividual IRI="#12_oclock_region"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://blulab.chpc.utah.edu/ontologies/v2/Schema.owl#hasBodySiteModifier"/>
+        <NamedIndividual IRI="#lymph_nodes_left_axilla"/>
+        <NamedIndividual IRI="#left"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://blulab.chpc.utah.edu/ontologies/v2/Schema.owl#hasGender"/>
+        <NamedIndividual IRI="#patient92_record"/>
+        <NamedIndividual IRI="#female"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://blulab.chpc.utah.edu/ontologies/v2/Schema.owl#hasName"/>
+        <NamedIndividual IRI="#patient92_record"/>
+        <NamedIndividual IRI="#patient92_name"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://blulab.chpc.utah.edu/ontologies/v2/Schema.owl#hasGender"/>
+        <NamedIndividual IRI="#patient92_report001"/>
+        <NamedIndividual IRI="#female"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://blulab.chpc.utah.edu/ontologies/v2/Schema.owl#hasName"/>
+        <NamedIndividual IRI="#patient92_report001"/>
+        <NamedIndividual IRI="#patient92_name"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://blulab.chpc.utah.edu/ontologies/v2/Schema.owl#hasCompositionSummary"/>
+        <NamedIndividual IRI="#patient92_report001_RAD"/>
+        <NamedIndividual IRI="#highly_suspicious_for_malignancy_patient92_report001_RAD"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://blulab.chpc.utah.edu/ontologies/v2/Schema.owl#hasCompositionSummary"/>
+        <NamedIndividual IRI="#patient92_report001_RAD"/>
+        <NamedIndividual IRI="#patient92_report001"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://blulab.chpc.utah.edu/ontologies/v2/Schema.owl#hasDocType"/>
+        <NamedIndividual IRI="#patient92_report001_RAD"/>
+        <NamedIndividual IRI="#RAD"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://blulab.chpc.utah.edu/ontologies/v2/Schema.owl#hasPatient"/>
+        <NamedIndividual IRI="#record_patient92"/>
+        <NamedIndividual IRI="#patient92_record"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://blulab.chpc.utah.edu/ontologies/v2/Schema.owl#hasBodySite"/>
+        <NamedIndividual IRI="#tumor2_patient92_report001_RAD"/>
+        <NamedIndividual IRI="#left_breast_12_oclock_region"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://ontologies.dbmi.pitt.edu/deepphe/nlpBreastCancer.owl#hasTumorSize"/>
+        <NamedIndividual IRI="#tumor2_patient92_report001_RAD"/>
+        <NamedIndividual IRI="#1.0x1.1x0.9cm"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://ontologies.dbmi.pitt.edu/deepphe/nlpCancer.owl#hasTumorType"/>
+        <NamedIndividual IRI="#tumor2_patient92_report001_RAD"/>
+        <NamedIndividual IRI="#primary"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://blulab.chpc.utah.edu/ontologies/v2/Schema.owl#hasBodySite"/>
+        <NamedIndividual IRI="#tumor3_patient92_report001_RAD"/>
+        <NamedIndividual IRI="#lymph_nodes_left_axilla"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://ontologies.dbmi.pitt.edu/deepphe/nlpCancer.owl#hasTumorType"/>
+        <NamedIndividual IRI="#tumor3_patient92_report001_RAD"/>
+        <NamedIndividual IRI="#regional_recurrence"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://blulab.chpc.utah.edu/ontologies/v2/Schema.owl#hasBodySite"/>
+        <NamedIndividual IRI="#tumor_patient92_report001_RAD"/>
+        <NamedIndividual IRI="#left_breast_11_oclock_region"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://ontologies.dbmi.pitt.edu/deepphe/nlpBreastCancer.owl#hasBIRADSCategory"/>
+        <NamedIndividual IRI="#tumor_patient92_report001_RAD"/>
+        <NamedIndividual IRI="#BI-RADS_Category_5"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://ontologies.dbmi.pitt.edu/deepphe/nlpBreastCancer.owl#hasTumorSize"/>
+        <NamedIndividual IRI="#tumor_patient92_report001_RAD"/>
+        <NamedIndividual IRI="#2.3x2.5x1.6cm"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://ontologies.dbmi.pitt.edu/deepphe/nlpCancer.owl#hasTumorType"/>
+        <NamedIndividual IRI="#tumor_patient92_report001_RAD"/>
+        <NamedIndividual IRI="#primary"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://blulab.chpc.utah.edu/ontologies/v2/Schema.owl#hasUnit"/>
+        <NamedIndividual IRI="#1.0x1.1x0.9cm"/>
+        <NamedIndividual IRI="#cm"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://blulab.chpc.utah.edu/ontologies/v2/Schema.owl#hasBodySiteModifier"/>
+        <NamedIndividual IRI="#12_oclock_region"/>
+        <NamedIndividual IRI="#12_oclock_region"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://blulab.chpc.utah.edu/ontologies/v2/Schema.owl#hasBodySiteModifier"/>
+        <NamedIndividual IRI="#12_oclock_region"/>
+        <NamedIndividual IRI="#11_o&apos;clock_region"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://blulab.chpc.utah.edu/ontologies/v2/Schema.owl#hasUnit"/>
+        <NamedIndividual IRI="#2.3x2.5x1.6cm"/>
+        <NamedIndividual IRI="#cm"/>
+    </ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://blulab.chpc.utah.edu/ontologies/v2/Schema.owl#hasAnnotationType"/>
+        <NamedIndividual IRI="#highly_suspicious_for_malignancy_patient92_report001_RAD"/>
+        <Literal datatypeIRI="&rdf;PlainLiteral">document</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://blulab.chpc.utah.edu/ontologies/v2/Schema.owl#hasFirstName"/>
+        <NamedIndividual IRI="#patient92_name"/>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Patient92</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://blulab.chpc.utah.edu/ontologies/v2/Schema.owl#hasAnnotationType"/>
+        <NamedIndividual IRI="#patient92_record"/>
+        <Literal datatypeIRI="&rdf;PlainLiteral">record</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://blulab.chpc.utah.edu/ontologies/v2/Schema.owl#hasAnnotationType"/>
+        <NamedIndividual IRI="#patient92_report001"/>
+        <Literal datatypeIRI="&rdf;PlainLiteral">document</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://blulab.chpc.utah.edu/ontologies/v2/Schema.owl#hasDateOfComposition"/>
+        <NamedIndividual IRI="#patient92_report001_RAD"/>
+        <Literal datatypeIRI="&rdf;PlainLiteral">20110921 1345</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://blulab.chpc.utah.edu/ontologies/v2/Schema.owl#hasTitle"/>
+        <NamedIndividual IRI="#patient92_report001_RAD"/>
+        <Literal datatypeIRI="&rdf;PlainLiteral">41,j94n1iWCC5Yj</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://blulab.chpc.utah.edu/ontologies/v2/Schema.owl#hasAnnotationType"/>
+        <NamedIndividual IRI="#tumor2_patient92_report001_RAD"/>
+        <Literal datatypeIRI="&rdf;PlainLiteral">document</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://blulab.chpc.utah.edu/ontologies/v2/Schema.owl#hasAnnotationType"/>
+        <NamedIndividual IRI="#tumor3_patient92_report001_RAD"/>
+        <Literal datatypeIRI="&rdf;PlainLiteral">document</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://blulab.chpc.utah.edu/ontologies/v2/Schema.owl#hasAnnotationType"/>
+        <NamedIndividual IRI="#tumor_patient92_report001_RAD"/>
+        <Literal datatypeIRI="&rdf;PlainLiteral">document</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://blulab.chpc.utah.edu/ontologies/v2/Schema.owl#has1DimensionValue"/>
+        <NamedIndividual IRI="#1.0x1.1x0.9cm"/>
+        <Literal datatypeIRI="&xsd;decimal">1.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://blulab.chpc.utah.edu/ontologies/v2/Schema.owl#has2DimensionValue"/>
+        <NamedIndividual IRI="#1.0x1.1x0.9cm"/>
+        <Literal datatypeIRI="&xsd;decimal">1.1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://blulab.chpc.utah.edu/ontologies/v2/Schema.owl#has3DimensionValue"/>
+        <NamedIndividual IRI="#1.0x1.1x0.9cm"/>
+        <Literal datatypeIRI="&xsd;decimal">0.9</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://blulab.chpc.utah.edu/ontologies/v2/Schema.owl#has1DimensionValue"/>
+        <NamedIndividual IRI="#2.3x2.5x1.6cm"/>
+        <Literal datatypeIRI="&xsd;decimal">2.3</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://blulab.chpc.utah.edu/ontologies/v2/Schema.owl#has2DimensionValue"/>
+        <NamedIndividual IRI="#2.3x2.5x1.6cm"/>
+        <Literal datatypeIRI="&xsd;decimal">2.5</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://blulab.chpc.utah.edu/ontologies/v2/Schema.owl#has3DimensionValue"/>
+        <NamedIndividual IRI="#2.3x2.5x1.6cm"/>
+        <Literal datatypeIRI="&xsd;decimal">1.6</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://blulab.chpc.utah.edu/ontologies/v2/Schema.owl#hasQuantityValue"/>
+        <NamedIndividual IRI="#5five"/>
+        <Literal datatypeIRI="&xsd;integer">5</Literal>
+    </DataPropertyAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#BI-RADS_Category_5</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">BI-RADS Category:5</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#left_breast_11_oclock_region</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">left breast 11 o&apos;clock region</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#left_breast_12_oclock_region</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">left breast 12 o&apos;clock region</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#1.0x1.1x0.9cm</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">1.0x1.1x0.9cm</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#11_o&apos;clock_region</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">11 o&apos;clock region</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#12_oclock_region</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">12 o&apos;clock region</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#2.3x2.5x1.6cm</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">2.3x2.5x1.6cm</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#5five</IRI>
+        <Literal datatypeIRI="&xsd;integer">5</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#53_year_old</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">53 year old</Literal>
+    </AnnotationAssertion>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 3.5.1) http://owlapi.sourceforge.net -->
+

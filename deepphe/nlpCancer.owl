@@ -265,13 +265,6 @@
     <SubClassOf>
         <Class IRI="#Cancer"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="http://blulab.chpc.utah.edu/ontologies/v2/Schema.owl#hasBodySite"/>
-            <Class IRI="http://blulab.chpc.utah.edu/ontologies/v2/Schema.owl#BodySite"/>
-        </ObjectSomeValuesFrom>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Cancer"/>
-        <ObjectSomeValuesFrom>
             <ObjectProperty IRI="#hasPhenotype"/>
             <Class IRI="#CancerPhenotype"/>
         </ObjectSomeValuesFrom>
@@ -564,7 +557,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#OtherBodySite"/>
-        <Class IRI="http://blulab.chpc.utah.edu/ontologies/v2/Schema.owl#BodySite"/>
+        <Class IRI="http://blulab.chpc.utah.edu/ontologies/v2/ConText.owl#BodySite"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#OtherDiagnositcProcedure"/>
@@ -842,13 +835,6 @@
     <SubClassOf>
         <Class IRI="#Tumor"/>
         <Class IRI="#Model"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Tumor"/>
-        <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="http://blulab.chpc.utah.edu/ontologies/v2/Schema.owl#hasBodySite"/>
-            <Class IRI="http://blulab.chpc.utah.edu/ontologies/v2/Schema.owl#BodySite"/>
-        </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Tumor"/>
@@ -1218,6 +1204,11 @@
     <AnnotationAssertion>
         <AnnotationProperty IRI="#hasModel"/>
         <IRI>http://blulab.chpc.utah.edu/ontologies/v2/ConText.owl#BodyModifier</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Attribute</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#hasModel"/>
+        <IRI>http://blulab.chpc.utah.edu/ontologies/v2/ConText.owl#BodySite</IRI>
         <Literal datatypeIRI="&rdf;PlainLiteral">Attribute</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>

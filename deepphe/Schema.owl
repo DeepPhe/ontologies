@@ -997,6 +997,13 @@
     <SubClassOf>
         <Class IRI="#Condition"/>
         <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasBodySite"/>
+            <Class IRI="http://blulab.chpc.utah.edu/ontologies/v2/ConText.owl#BodySite"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Condition"/>
+        <ObjectSomeValuesFrom>
             <ObjectProperty IRI="#hasCourse"/>
             <Class IRI="http://blulab.chpc.utah.edu/ontologies/v2/ConText.owl#Course"/>
         </ObjectSomeValuesFrom>
@@ -1249,6 +1256,13 @@
     <SubClassOf>
         <Class IRI="#Observation"/>
         <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasBodySite"/>
+            <Class IRI="http://blulab.chpc.utah.edu/ontologies/v2/ConText.owl#BodySite"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Observation"/>
+        <ObjectSomeValuesFrom>
             <ObjectProperty IRI="#hasEncounter"/>
             <Class IRI="#Encounter"/>
         </ObjectSomeValuesFrom>
@@ -1334,6 +1348,13 @@
     <SubClassOf>
         <Class IRI="#Procedure"/>
         <Class IRI="#Event"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Procedure"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasBodySite"/>
+            <Class IRI="http://blulab.chpc.utah.edu/ontologies/v2/ConText.owl#BodySite"/>
+        </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Procedure"/>
