@@ -235,6 +235,13 @@
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="http://blulab.chpc.utah.edu/ontologies/v2/Schema.owl#Procedure"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://blulab.chpc.utah.edu/ontologies/v2/Schema.owl#hasMethod"/>
+            <Class IRI="http://blulab.chpc.utah.edu/ontologies/v2/Schema.owl#Procedure"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#Acute_on_chronic"/>
         <Class IRI="#chronic"/>
     </SubClassOf>
@@ -272,6 +279,16 @@
     <SubClassOf>
         <Class IRI="#Cancer"/>
         <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasTreatment"/>
+            <ObjectUnionOf>
+                <Class IRI="http://blulab.chpc.utah.edu/ontologies/v2/Schema.owl#MedicationStatement"/>
+                <Class IRI="http://blulab.chpc.utah.edu/ontologies/v2/Schema.owl#TherapeuticProcedure"/>
+            </ObjectUnionOf>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Cancer"/>
+        <ObjectSomeValuesFrom>
             <ObjectProperty IRI="#realizes"/>
             <Class IRI="#Tumor"/>
         </ObjectSomeValuesFrom>
@@ -297,6 +314,13 @@
     <SubClassOf>
         <Class IRI="#CancerPhenotype"/>
         <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasHistologicType"/>
+            <Class IRI="#HistologicType"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CancerPhenotype"/>
+        <ObjectSomeValuesFrom>
             <ObjectProperty IRI="#hasMClassification"/>
             <Class IRI="#M_Stage"/>
         </ObjectSomeValuesFrom>
@@ -313,6 +337,13 @@
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="#hasTClassification"/>
             <Class IRI="#T_Stage"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CancerPhenotype"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasTumorExtent"/>
+            <Class IRI="#TumorExtent"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
@@ -429,10 +460,6 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#In_Situ_Lesion"/>
-        <Class IRI="http://blulab.chpc.utah.edu/ontologies/v2/Schema.owl#Finding"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#In_Situ_Lesion"/>
         <Class IRI="#TumorExtent"/>
     </SubClassOf>
     <SubClassOf>
@@ -450,10 +477,6 @@
     <SubClassOf>
         <Class IRI="#Intermittent"/>
         <Class IRI="#chronic"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Invasive_Lesion"/>
-        <Class IRI="http://blulab.chpc.utah.edu/ontologies/v2/Schema.owl#Finding"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Invasive_Lesion"/>
@@ -846,6 +869,16 @@
     <SubClassOf>
         <Class IRI="#Tumor"/>
         <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasTreatment"/>
+            <ObjectUnionOf>
+                <Class IRI="http://blulab.chpc.utah.edu/ontologies/v2/Schema.owl#MedicationStatement"/>
+                <Class IRI="http://blulab.chpc.utah.edu/ontologies/v2/Schema.owl#TherapeuticProcedure"/>
+            </ObjectUnionOf>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Tumor"/>
+        <ObjectSomeValuesFrom>
             <ObjectProperty IRI="#hasTumorType"/>
             <Class IRI="#TumorType"/>
         </ObjectSomeValuesFrom>
@@ -857,6 +890,13 @@
     <SubClassOf>
         <Class IRI="#TumorPhenotype"/>
         <Class IRI="#Phenotype"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TumorPhenotype"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasCancerType"/>
+            <Class IRI="#CancerType"/>
+        </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#TumorPhenotype"/>
@@ -1024,6 +1064,10 @@
         <ObjectProperty IRI="#realized_in"/>
         <ObjectProperty IRI="#realizes"/>
     </InverseObjectProperties>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://blulab.chpc.utah.edu/ontologies/v2/Schema.owl#hasMethod"/>
+        <Class IRI="http://blulab.chpc.utah.edu/ontologies/v2/Schema.owl#Procedure"/>
+    </ObjectPropertyDomain>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#hasCancerStage"/>
         <Class IRI="#CancerPhenotype"/>
@@ -4147,11 +4191,6 @@
         <Literal datatypeIRI="&rdf;PlainLiteral">in-situ</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty IRI="#hasModel"/>
-        <IRI>#In_Situ_Lesion</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">ClinicalManifestationOfDisease</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#In_Situ_Lesion</IRI>
         <Literal datatypeIRI="&xsd;string">In Situ Lesion</Literal>
@@ -4540,11 +4579,6 @@
         <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#synonym"/>
         <IRI>#Invasive_Lesion</IRI>
         <Literal datatypeIRI="&xsd;string">Invasive Lesion</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="#hasModel"/>
-        <IRI>#Invasive_Lesion</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">ClinicalManifestationOfDisease</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
