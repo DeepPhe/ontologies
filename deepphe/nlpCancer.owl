@@ -272,6 +272,13 @@
     <SubClassOf>
         <Class IRI="#Cancer"/>
         <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasManifestation"/>
+            <Class IRI="http://blulab.chpc.utah.edu/ontologies/v2/Schema.owl#Event"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Cancer"/>
+        <ObjectSomeValuesFrom>
             <ObjectProperty IRI="#hasPhenotype"/>
             <Class IRI="#CancerPhenotype"/>
         </ObjectSomeValuesFrom>
@@ -323,6 +330,13 @@
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="#hasMClassification"/>
             <Class IRI="#M_Stage"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CancerPhenotype"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasManifestation"/>
+            <Class IRI="http://blulab.chpc.utah.edu/ontologies/v2/Schema.owl#Event"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
@@ -862,6 +876,13 @@
     <SubClassOf>
         <Class IRI="#Tumor"/>
         <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasManifestation"/>
+            <Class IRI="http://blulab.chpc.utah.edu/ontologies/v2/Schema.owl#Event"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Tumor"/>
+        <ObjectSomeValuesFrom>
             <ObjectProperty IRI="#hasPhenotype"/>
             <Class IRI="#TumorPhenotype"/>
         </ObjectSomeValuesFrom>
@@ -903,6 +924,13 @@
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="#hasHistologicType"/>
             <Class IRI="#HistologicType"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TumorPhenotype"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasManifestation"/>
+            <Class IRI="http://blulab.chpc.utah.edu/ontologies/v2/Schema.owl#Event"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
