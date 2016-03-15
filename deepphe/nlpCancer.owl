@@ -272,6 +272,55 @@
     <SubClassOf>
         <Class IRI="#Cancer"/>
         <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://blulab.chpc.utah.edu/ontologies/v2/Schema.owl#hasAgeOnset"/>
+            <Class IRI="http://blulab.chpc.utah.edu/ontologies/v2/ConText.owl#Age"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Cancer"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://blulab.chpc.utah.edu/ontologies/v2/Schema.owl#hasBodySite"/>
+            <Class IRI="http://blulab.chpc.utah.edu/ontologies/v2/ConText.owl#BodySite"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Cancer"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://blulab.chpc.utah.edu/ontologies/v2/Schema.owl#hasCourse"/>
+            <Class IRI="http://blulab.chpc.utah.edu/ontologies/v2/ConText.owl#Course"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Cancer"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://blulab.chpc.utah.edu/ontologies/v2/Schema.owl#hasDeltaFlag"/>
+            <Class IRI="http://blulab.chpc.utah.edu/ontologies/v2/ConText.owl#DeltaFlag"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Cancer"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://blulab.chpc.utah.edu/ontologies/v2/Schema.owl#hasEncounter"/>
+            <Class IRI="http://blulab.chpc.utah.edu/ontologies/v2/Schema.owl#Encounter"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Cancer"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://blulab.chpc.utah.edu/ontologies/v2/Schema.owl#hasPatient"/>
+            <Class IRI="#Patient"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Cancer"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://blulab.chpc.utah.edu/ontologies/v2/Schema.owl#hasStage"/>
+            <Class IRI="http://blulab.chpc.utah.edu/ontologies/v2/ConText.owl#Stage"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Cancer"/>
+        <ObjectSomeValuesFrom>
             <ObjectProperty IRI="#hasManifestation"/>
             <Class IRI="http://blulab.chpc.utah.edu/ontologies/v2/Schema.owl#Event"/>
         </ObjectSomeValuesFrom>
@@ -299,6 +348,34 @@
             <ObjectProperty IRI="#realizes"/>
             <Class IRI="#Tumor"/>
         </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Cancer"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="http://blulab.chpc.utah.edu/ontologies/v2/Schema.owl#hasAbatementBoolean"/>
+            <Datatype abbreviatedIRI="xsd:boolean"/>
+        </DataSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Cancer"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="http://blulab.chpc.utah.edu/ontologies/v2/Schema.owl#hasDateAbatement"/>
+            <Datatype abbreviatedIRI="xsd:dateTime"/>
+        </DataSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Cancer"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="http://blulab.chpc.utah.edu/ontologies/v2/Schema.owl#hasDateOfOnset"/>
+            <Datatype abbreviatedIRI="xsd:dateTime"/>
+        </DataSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Cancer"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="http://blulab.chpc.utah.edu/ontologies/v2/Schema.owl#hasRecordedDate"/>
+            <Datatype abbreviatedIRI="xsd:dateTime"/>
+        </DataSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#CancerPhenotype"/>
@@ -465,6 +542,10 @@
         <Class IRI="http://blulab.chpc.utah.edu/ontologies/v2/Schema.owl#Episode"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#High"/>
+        <Class IRI="http://blulab.chpc.utah.edu/ontologies/v2/ConText.owl#OrdinalInterpretation"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#Hispanic_or_Latino"/>
         <Class IRI="http://blulab.chpc.utah.edu/ontologies/v2/ConText.owl#EthnicGroup"/>
     </SubClassOf>
@@ -507,6 +588,10 @@
     <SubClassOf>
         <Class IRI="#Localized"/>
         <Class IRI="http://blulab.chpc.utah.edu/ontologies/v2/ConText.owl#Course"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Low"/>
+        <Class IRI="http://blulab.chpc.utah.edu/ontologies/v2/ConText.owl#OrdinalInterpretation"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#M_Stage"/>
@@ -876,6 +961,48 @@
     <SubClassOf>
         <Class IRI="#Tumor"/>
         <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://blulab.chpc.utah.edu/ontologies/v2/Schema.owl#hasAgeOnset"/>
+            <Class IRI="http://blulab.chpc.utah.edu/ontologies/v2/ConText.owl#Age"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Tumor"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://blulab.chpc.utah.edu/ontologies/v2/Schema.owl#hasBodySite"/>
+            <Class IRI="http://blulab.chpc.utah.edu/ontologies/v2/ConText.owl#BodySite"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Tumor"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://blulab.chpc.utah.edu/ontologies/v2/Schema.owl#hasCourse"/>
+            <Class IRI="http://blulab.chpc.utah.edu/ontologies/v2/ConText.owl#Course"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Tumor"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://blulab.chpc.utah.edu/ontologies/v2/Schema.owl#hasDeltaFlag"/>
+            <Class IRI="http://blulab.chpc.utah.edu/ontologies/v2/ConText.owl#DeltaFlag"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Tumor"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://blulab.chpc.utah.edu/ontologies/v2/Schema.owl#hasEncounter"/>
+            <Class IRI="http://blulab.chpc.utah.edu/ontologies/v2/Schema.owl#Encounter"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Tumor"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://blulab.chpc.utah.edu/ontologies/v2/Schema.owl#hasPatient"/>
+            <Class IRI="#Patient"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Tumor"/>
+        <ObjectSomeValuesFrom>
             <ObjectProperty IRI="#hasManifestation"/>
             <Class IRI="http://blulab.chpc.utah.edu/ontologies/v2/Schema.owl#Event"/>
         </ObjectSomeValuesFrom>
@@ -903,6 +1030,34 @@
             <ObjectProperty IRI="#hasTumorType"/>
             <Class IRI="#TumorType"/>
         </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Tumor"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="http://blulab.chpc.utah.edu/ontologies/v2/Schema.owl#hasAbatementBoolean"/>
+            <Datatype abbreviatedIRI="xsd:boolean"/>
+        </DataSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Tumor"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="http://blulab.chpc.utah.edu/ontologies/v2/Schema.owl#hasDateAbatement"/>
+            <Datatype abbreviatedIRI="xsd:dateTime"/>
+        </DataSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Tumor"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="http://blulab.chpc.utah.edu/ontologies/v2/Schema.owl#hasDateOfOnset"/>
+            <Datatype abbreviatedIRI="xsd:dateTime"/>
+        </DataSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Tumor"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="http://blulab.chpc.utah.edu/ontologies/v2/Schema.owl#hasRecordedDate"/>
+            <Datatype abbreviatedIRI="xsd:dateTime"/>
+        </DataSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#TumorExtent"/>
@@ -3965,6 +4120,201 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#alternateCode"/>
+        <IRI>#High</IRI>
+        <Literal datatypeIRI="&xsd;string">75540009 [SNOMEDCT_US]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#alternateCode"/>
+        <IRI>#High</IRI>
+        <Literal datatypeIRI="&xsd;string">C0205250 [UMLS]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#alternateCode"/>
+        <IRI>#High</IRI>
+        <Literal datatypeIRI="&xsd;string">C0205250 [UMLS_CUI]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#alternateCode"/>
+        <IRI>#High</IRI>
+        <Literal datatypeIRI="&xsd;string">C118958 [NCI]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#alternateCode"/>
+        <IRI>#High</IRI>
+        <Literal datatypeIRI="&xsd;string">C25227 [NCI]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#alternateCode"/>
+        <IRI>#High</IRI>
+        <Literal datatypeIRI="&xsd;string">C25227 [code]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#alternateCode"/>
+        <IRI>#High</IRI>
+        <Literal datatypeIRI="&xsd;string">H [HL7V3.0]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#alternateCode"/>
+        <IRI>#High</IRI>
+        <Literal datatypeIRI="&xsd;string">HIGH [HL7V3.0]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#alternateCode"/>
+        <IRI>#High</IRI>
+        <Literal datatypeIRI="&xsd;string">NOCODE [MTH]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#alternateCode"/>
+        <IRI>#High</IRI>
+        <Literal datatypeIRI="&xsd;string">NOCODE [NCIMTH]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#alternateCode"/>
+        <IRI>#High</IRI>
+        <Literal datatypeIRI="&xsd;string">RID39313 [RADLEX]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#code"/>
+        <IRI>#High</IRI>
+        <Literal datatypeIRI="&xsd;string">CL480873</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#definition"/>
+        <IRI>#High</IRI>
+        <Literal datatypeIRI="&xsd;string">&lt;p&gt;&lt;b&gt;Description:&lt;/b&gt;Exposure to an agent at a relatively high level above background.&lt;/p&gt;</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#definition"/>
+        <IRI>#High</IRI>
+        <Literal datatypeIRI="&xsd;string">&lt;p&gt;Above high normal (for quantitative observations)&lt;/p&gt;</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#definition"/>
+        <IRI>#High</IRI>
+        <Literal datatypeIRI="&xsd;string">&lt;p&gt;High priority messages are available&lt;/p&gt;</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#definition"/>
+        <IRI>#High</IRI>
+        <Literal datatypeIRI="&xsd;string">&lt;p&gt;Indicates the condition may be life-threatening or has the potential to cause permanent injury.&lt;/p&gt;</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#definition"/>
+        <IRI>#High</IRI>
+        <Literal datatypeIRI="&xsd;string">An elevated level or position or degree; greater than normal in degree or intensity or amount.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#definition"/>
+        <IRI>#High</IRI>
+        <Literal datatypeIRI="&xsd;string">An index used in neuroblastic tumors indicating the presence of more than 200 mitoses and karyorrhexis per 5,000 cells.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#preferredTerm"/>
+        <IRI>#High</IRI>
+        <Literal datatypeIRI="&xsd;string">Exposure level - high</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#preferredTerm"/>
+        <IRI>#High</IRI>
+        <Literal datatypeIRI="&xsd;string">High</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#preferredTerm"/>
+        <IRI>#High</IRI>
+        <Literal datatypeIRI="&xsd;string">High Mitosis-Karyorrhexis Index</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#preferredTerm"/>
+        <IRI>#High</IRI>
+        <Literal datatypeIRI="&xsd;string">Message Waiting Priority - High</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#preferredTerm"/>
+        <IRI>#High</IRI>
+        <Literal datatypeIRI="&xsd;string">Observation Value - High</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#semanticType"/>
+        <IRI>#High</IRI>
+        <Literal datatypeIRI="&xsd;string">Finding</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#semanticType"/>
+        <IRI>#High</IRI>
+        <Literal datatypeIRI="&xsd;string">Idea or Concept</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#semanticType"/>
+        <IRI>#High</IRI>
+        <Literal datatypeIRI="&xsd;string">Qualitative Concept</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#semanticType"/>
+        <IRI>#High</IRI>
+        <Literal datatypeIRI="&xsd;string">Quantitative Concept</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#synonym"/>
+        <IRI>#High</IRI>
+        <Literal datatypeIRI="&xsd;string">Elevated</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#synonym"/>
+        <IRI>#High</IRI>
+        <Literal datatypeIRI="&xsd;string">Exposure level - high</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#synonym"/>
+        <IRI>#High</IRI>
+        <Literal datatypeIRI="&xsd;string">High</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#synonym"/>
+        <IRI>#High</IRI>
+        <Literal datatypeIRI="&xsd;string">High (qualifier value)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#synonym"/>
+        <IRI>#High</IRI>
+        <Literal datatypeIRI="&xsd;string">High Mitosis-Karyorrhexis Index</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#synonym"/>
+        <IRI>#High</IRI>
+        <Literal datatypeIRI="&xsd;string">Higher</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#synonym"/>
+        <IRI>#High</IRI>
+        <Literal datatypeIRI="&xsd;string">Highly</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#synonym"/>
+        <IRI>#High</IRI>
+        <Literal datatypeIRI="&xsd;string">Message Waiting Priority - High</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#synonym"/>
+        <IRI>#High</IRI>
+        <Literal datatypeIRI="&xsd;string">Observation Value - High</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#synonym"/>
+        <IRI>#High</IRI>
+        <Literal datatypeIRI="&xsd;string">elevated</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#synonym"/>
+        <IRI>#High</IRI>
+        <Literal datatypeIRI="&xsd;string">high</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#High</IRI>
+        <Literal datatypeIRI="&xsd;string">High</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#alternateCode"/>
         <IRI>#Hispanic_or_Latino</IRI>
         <Literal datatypeIRI="&xsd;string">C0086409 [UMLS]</Literal>
     </AnnotationAssertion>
@@ -4972,6 +5322,226 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#Localized</IRI>
         <Literal datatypeIRI="&xsd;string">Localized</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#alternateCode"/>
+        <IRI>#Low</IRI>
+        <Literal datatypeIRI="&xsd;string">371880002 [SNOMEDCT_US]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#alternateCode"/>
+        <IRI>#Low</IRI>
+        <Literal datatypeIRI="&xsd;string">62482003 [SNOMEDCT_US]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#alternateCode"/>
+        <IRI>#Low</IRI>
+        <Literal datatypeIRI="&xsd;string">C0205251 [UMLS]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#alternateCode"/>
+        <IRI>#Low</IRI>
+        <Literal datatypeIRI="&xsd;string">C0205251 [UMLS_CUI]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#alternateCode"/>
+        <IRI>#Low</IRI>
+        <Literal datatypeIRI="&xsd;string">C118955 [NCI]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#alternateCode"/>
+        <IRI>#Low</IRI>
+        <Literal datatypeIRI="&xsd;string">C54722 [NCI]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#alternateCode"/>
+        <IRI>#Low</IRI>
+        <Literal datatypeIRI="&xsd;string">C54722 [code]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#alternateCode"/>
+        <IRI>#Low</IRI>
+        <Literal datatypeIRI="&xsd;string">L [HL7V3.0]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#alternateCode"/>
+        <IRI>#Low</IRI>
+        <Literal datatypeIRI="&xsd;string">LOW [HL7V3.0]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#alternateCode"/>
+        <IRI>#Low</IRI>
+        <Literal datatypeIRI="&xsd;string">MessageWaitingPriority [HL7V3.0]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#alternateCode"/>
+        <IRI>#Low</IRI>
+        <Literal datatypeIRI="&xsd;string">NOCODE [MTH]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#alternateCode"/>
+        <IRI>#Low</IRI>
+        <Literal datatypeIRI="&xsd;string">RID46059 [RADLEX]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#code"/>
+        <IRI>#Low</IRI>
+        <Literal datatypeIRI="&xsd;string">CL480872</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#definition"/>
+        <IRI>#Low</IRI>
+        <Literal datatypeIRI="&xsd;string">&lt;p&gt;&lt;b&gt;Description:&lt;/b&gt;Exposure to an agent at a relatively low level above background.&lt;/p&gt;</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#definition"/>
+        <IRI>#Low</IRI>
+        <Literal datatypeIRI="&xsd;string">&lt;p&gt;Below low normal (for quantitative observations)&lt;/p&gt;</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#definition"/>
+        <IRI>#Low</IRI>
+        <Literal datatypeIRI="&xsd;string">&lt;p&gt;Indicates that the receiver has messages for the sender&lt;/p&gt;&lt;p&gt;&lt;i&gt;OpenIssue:&lt;/i&gt;Description does not make sense relative to name of coding system. Must be reviewed and improved.&lt;/p&gt;</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#definition"/>
+        <IRI>#Low</IRI>
+        <Literal datatypeIRI="&xsd;string">&lt;p&gt;Indicates the condition may result in some adverse consequences but is unlikely to substantially affect the situation of the subject.&lt;/p&gt;</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#definition"/>
+        <IRI>#Low</IRI>
+        <Literal datatypeIRI="&xsd;string">&lt;p&gt;Indicates the highest importance level of the set of messages the acknowledging application has waiting on a queue for the receiving application.&lt;/p&gt;&lt;p&gt;&lt;i&gt;Discussion:&lt;/i&gt; These messages would need to be retrieved via a query. This facilitates receiving applications that cannot receive unsolicited messages (i.e. polling). The specific code specified identifies how important the most important waiting message is (and may govern how soon the receiving application is required to poll for the message).&lt;/p&gt;&lt;p&gt;Priority may be used by local agreement to determine the timeframe in which the receiving application is expected to retrieve the messages from the queue.&lt;/p&gt;</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#definition"/>
+        <IRI>#Low</IRI>
+        <Literal datatypeIRI="&xsd;string">&lt;p&gt;Low priority messages are available&lt;/p&gt;</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#definition"/>
+        <IRI>#Low</IRI>
+        <Literal datatypeIRI="&xsd;string">&lt;p&gt;No patient record item can be of low confidentiality. However, some service objects are not patient related and therefore may have low confidentiality.&lt;/p&gt;</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#definition"/>
+        <IRI>#Low</IRI>
+        <Literal datatypeIRI="&xsd;string">A minimum level or position or degree; less than normal in degree, intensity or amount.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#definition"/>
+        <IRI>#Low</IRI>
+        <Literal datatypeIRI="&xsd;string">An index used in neuroblastic tumors indicating the presence of less than 100 mitoses and karyorrhexis per 5,000 cells.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#preferredTerm"/>
+        <IRI>#Low</IRI>
+        <Literal datatypeIRI="&xsd;string">Abnormally low (qualifier value)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#preferredTerm"/>
+        <IRI>#Low</IRI>
+        <Literal datatypeIRI="&xsd;string">Low</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#preferredTerm"/>
+        <IRI>#Low</IRI>
+        <Literal datatypeIRI="&xsd;string">Low - MessageWaitingPriority</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#preferredTerm"/>
+        <IRI>#Low</IRI>
+        <Literal datatypeIRI="&xsd;string">Low - observation</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#preferredTerm"/>
+        <IRI>#Low</IRI>
+        <Literal datatypeIRI="&xsd;string">Low Mitosis-Karyorrhexis Index</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#preferredTerm"/>
+        <IRI>#Low</IRI>
+        <Literal datatypeIRI="&xsd;string">low</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#preferredTerm"/>
+        <IRI>#Low</IRI>
+        <Literal datatypeIRI="&xsd;string">low confidentiality</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#semanticType"/>
+        <IRI>#Low</IRI>
+        <Literal datatypeIRI="&xsd;string">Idea or Concept</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#semanticType"/>
+        <IRI>#Low</IRI>
+        <Literal datatypeIRI="&xsd;string">Intellectual Product</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#semanticType"/>
+        <IRI>#Low</IRI>
+        <Literal datatypeIRI="&xsd;string">Qualitative Concept</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#semanticType"/>
+        <IRI>#Low</IRI>
+        <Literal datatypeIRI="&xsd;string">Quantitative Concept</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#synonym"/>
+        <IRI>#Low</IRI>
+        <Literal datatypeIRI="&xsd;string">Abnormally low</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#synonym"/>
+        <IRI>#Low</IRI>
+        <Literal datatypeIRI="&xsd;string">Abnormally low (qualifier value)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#synonym"/>
+        <IRI>#Low</IRI>
+        <Literal datatypeIRI="&xsd;string">Low</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#synonym"/>
+        <IRI>#Low</IRI>
+        <Literal datatypeIRI="&xsd;string">Low (qualifier value)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#synonym"/>
+        <IRI>#Low</IRI>
+        <Literal datatypeIRI="&xsd;string">Low - MessageWaitingPriority</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#synonym"/>
+        <IRI>#Low</IRI>
+        <Literal datatypeIRI="&xsd;string">Low - observation</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#synonym"/>
+        <IRI>#Low</IRI>
+        <Literal datatypeIRI="&xsd;string">Low Mitosis-Karyorrhexis Index</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#synonym"/>
+        <IRI>#Low</IRI>
+        <Literal datatypeIRI="&xsd;string">MessageWaitingPriority</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#synonym"/>
+        <IRI>#Low</IRI>
+        <Literal datatypeIRI="&xsd;string">low</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#synonym"/>
+        <IRI>#Low</IRI>
+        <Literal datatypeIRI="&xsd;string">low confidentiality</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Low</IRI>
+        <Literal datatypeIRI="&xsd;string">Low</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#alternateCode"/>
