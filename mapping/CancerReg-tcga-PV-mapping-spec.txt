@@ -1,0 +1,77 @@
+Filename	Column Number	Original Data Value	New Data Value
+CR-Breast-2015-11-09.tsv	14	84903	Signet ring cell adenocarcinoma
+CR-Breast-2015-11-09.tsv	14	85003	Infiltrating duct adenocarcinoma
+CR-Breast-2015-11-09.tsv	14	85033	Infiltrating papillary adenocarcinoma
+CR-Breast-2015-11-09.tsv	14	85103	"Medullary carcinoma, NOS"
+CR-Breast-2015-11-09.tsv	14	85203	"Lobular Carcinoma, NOS"
+CR-Breast-2015-11-09.tsv	14	85223	Lobular and ductal carcinoma
+CR-Breast-2015-11-09.tsv	14	85233	Infiltrating duct mixed with other types of  carcinoma
+CR-Breast-2015-11-09.tsv	14	85413	Paget Disease and infiltrating duct carcinoma
+CR-Breast-2015-11-09.tsv	14	85753	"Metaplastic carcinoma, NOS"
+CR-Breast-2015-11-09.tsv	14	80003	"Neoplasm, malignant"
+CR-Breast-2015-11-09.tsv	14	82113	Tubular adenocarcinoma
+CR-Breast-2015-11-09.tsv	14	82603	"Papillary adenocarcinoma, NOS"
+CR-Breast-2015-11-09.tsv	14	84013	Apocrine adenocarcinoma
+CR-Breast-2015-11-09.tsv	14	84803	Mucinous adenocarcinoma
+CR-Breast-2015-11-09.tsv	14	85133	Atypical medullary carcinoma
+CR-Breast-2015-11-09.tsv	14	85243	Infiltrating lobular mixed with other types of carcinoma
+CR-Breast-2015-11-09.tsv	5	1	Right
+CR-Breast-2015-11-09.tsv	5	2	Left
+CR-Breast-2015-11-09.tsv	34	10	Positive/elevated
+CR-Breast-2015-11-09.tsv	34	20	Negative/normal; within normal limits
+CR-Breast-2015-11-09.tsv	34	30	Borderline; undetermined whether positive or negative
+CR-Breast-2015-11-09.tsv	35	10	Positive/elevated
+CR-Breast-2015-11-09.tsv	35	20	Negative/normal; within normal limits
+CR-Breast-2015-11-09.tsv	35	30	Borderline; undetermined whether positive or negative
+CR-Breast-2015-11-09.tsv	36	0	0
+CR-Breast-2015-11-09.tsv	36	10	1+
+CR-Breast-2015-11-09.tsv	36	20	2+
+CR-Breast-2015-11-09.tsv	36	30	3+
+CR-Breast-2015-11-09.tsv	36	988	Not applicable
+CR-Breast-2015-11-09.tsv	38	104	Ratio of 1.00 - 9.79
+CR-Breast-2015-11-09.tsv	38	116	Ratio of 1.00 - 9.80
+CR-Breast-2015-11-09.tsv	38	126	Ratio of 1.00 - 9.81
+CR-Breast-2015-11-09.tsv	38	988	Not applicable
+CR-Breast-2015-11-09.tsv	38	998	Test not done
+CR-Breast-2015-11-09.tsv	38	999	Unknown
+CR-Breast-2015-11-09.tsv	27	0	M0
+CR-Breast-2015-11-09.tsv	27	1	M1
+CR-Breast-2015-11-09.tsv	27	X	MX
+CR-Breast-2015-11-09.tsv	26	0	N0
+CR-Breast-2015-11-09.tsv	26	1	N1
+CR-Breast-2015-11-09.tsv	26	1A	N1a
+CR-Breast-2015-11-09.tsv	26	1B	N1b
+CR-Breast-2015-11-09.tsv	26	1C	N1c
+CR-Breast-2015-11-09.tsv	26	2	N2
+CR-Breast-2015-11-09.tsv	26	2A	N2a
+CR-Breast-2015-11-09.tsv	26	3	N3
+CR-Breast-2015-11-09.tsv	26	3A	N3a
+CR-Breast-2015-11-09.tsv	26	0I+	N0 (i+)
+CR-Breast-2015-11-09.tsv	26	I-	N0 (i-)
+CR-Breast-2015-11-09.tsv	26	X	NX
+CR-Breast-2015-11-09.tsv	26	1M	N1mi
+CR-Breast-2015-11-09.tsv	26	1MI	N1mi
+CR-Breast-2015-11-09.tsv	25	2	T2
+CR-Breast-2015-11-09.tsv	25	3	T3
+CR-Breast-2015-11-09.tsv	25	1B	T1b
+CR-Breast-2015-11-09.tsv	25	1C	T1c
+CR-Breast-2015-11-09.tsv	25	4B	T4b
+CR-Breast-2015-11-09.tsv	25	X	TX
+CR-Breast-2015-11-09.tsv	26	1A	T1a
+CR-Breast-2015-11-09.tsv	12	1	WHITE
+CR-Breast-2015-11-09.tsv	12	2	BLACK OR AFRICAN AMERICAN
+CR-Breast-2015-11-09.tsv	12	6	ASIAN
+CR-Breast-2015-11-09.tsv	91	0	NOT HISPANIC OR LATINO
+CR-Breast-2015-11-09.tsv	91	9	[Not Available]
+CR-Breast-2015-11-09.tsv	94	C449	"Other and unspecified malignant neoplasm of skin, unspecified (C44.9)"
+CR-Breast-2015-11-09.tsv	94	C569	Malignant neoplasm of unspecified ovary (C56.9)
+CR-Breast-2015-11-09.tsv	94	C509	Malignant neoplasm of breast of unspecified site (C50.9)
+CR-Breast-2015-11-09.tsv	94	C506	Malignant neoplasm of axillary tail of breast (C50.6)
+CR-Breast-2015-11-09.tsv	94	C508	Malignant neoplasm of overlapping sites of breast (C50.8)
+CR-Breast-2015-11-09.tsv	94	C505	Malignant neoplasm of lower-outer quadrant of breast (C50.5)
+CR-Breast-2015-11-09.tsv	94	C541	Malignant neoplasm of endometrium (C54.1)
+CR-Breast-2015-11-09.tsv	94	C519	"Malignant neoplasm of vulva, unspecified (C51.9)"
+CR-Breast-2015-11-09.tsv	94	C504	Malignant neoplasm of upper-outer quadrant of breast (C50.4)
+CR-Breast-2015-11-09.tsv	93	0	No
+CR-Breast-2015-11-09.tsv	93	1	Yes
+CR-Breast-2015-11-09.tsv	93	9	Unknown
