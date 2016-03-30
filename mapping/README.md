@@ -20,7 +20,7 @@ The following mapping files were created based upon the standard tranSMART data 
 - **class** - class name from the DeepPhe model
 - **required avs** - relationship from DeepPhe model
 - **property to return value** - return structure from DeepPhe model
----
+
 ### <u>File Specifications</u>
 - **transmart-tcga-brca-mapping-spec.txt** - contains the mapping definitions for TCGA breast clinical biotab data
 - **transmart-cr-tcga-brca-mapping-spec.txt** - contains mapping definitions for a specific extracted data file from the cancer registry (non-NAACCR format)
