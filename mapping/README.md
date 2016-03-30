@@ -1,6 +1,6 @@
-# **<u>tranSMART mapping specs</u>**
+## **<u>tranSMART mapping specs</u>**
 
-The following mapping files were created based upon the standard tranSMART data mapping specifications used to load clinical data via the ETL scripts. In particular, these files were developed to load clinical TCGA breast data based on the data position contained within the clinical biotab file [see the TCGA biotab spec](https://wiki.nci.nih.gov/display/TCGA/Biotab).
+The following mapping files were created based upon the standard tranSMART data mapping specifications used to load clinical data via the ETL scripts. In particular, these files were developed to load clinical TCGA breast data (other disease will be added later) based on the data position contained within the clinical biotab file [see the TCGA biotab spec](https://wiki.nci.nih.gov/display/TCGA/Biotab).
 
 **Required fields for ETL scripts** - The following fields must be present within the specification file:
 - **filename**- the name of the file which contains the data
@@ -26,6 +26,7 @@ The following mapping files were created based upon the standard tranSMART data 
 - **transmart-cr-tcga-brca-mapping-spec.txt** - contains mapping definitions for a specific extracted data file from the cancer registry (non-NAACCR format)
 - **transmart-cr-tcga-brca-PV-mapping-spec.txt** - contains definitions for mapping permissible values (PV) for specific extracted data file from the cancer registry to TCGA values
 - **transmart-naaccr-tcga-brca-mapping-spec.txt** - contains definitions for mapping using the [NAACCR](http://naaccr.org/) standard 
+- **tcga-cr-deepphe-mapping-crossfer.xlsx** - contains a mapping of elements across different sources
 
 
 
