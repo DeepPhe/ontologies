@@ -1,0 +1,100 @@
+Filename	Category Code	Column Number	Data Label	Data Label Source	Controlled Vocab Code	Source Column
+CR-Breast-2015-11-09.tsv	Other Columns	1	STUDY ID			
+CR-Breast-2015-11-09.tsv	Other Columns	2	SUBJ_ID			SUBJ_ID
+CR-Breast-2015-11-09.tsv	Other Columns	3	SAMPLE_ID			SAMPLE_ID
+CR-Breast-2015-11-09.tsv	Other Columns	4	OMIT			SEQ_NO
+CR-Breast-2015-11-09.tsv	Disease Phenotype+Cancer Phenotype+Breast Cancer Phenotype	5	Laterality			LATERALITY
+CR-Breast-2015-11-09.tsv	Episode+Diagnostic Episode	6	Initial Pathologic DX (year)			YEAR_DX
+CR-Breast-2015-11-09.tsv	OMIT	7	OMIT			YR_BIRTH
+CR-Breast-2015-11-09.tsv	Episode+Diagnostic Episode	8	Age at Diagnosis			AGE_DX
+CR-Breast-2015-11-09.tsv	OMIT	9	OMIT			POST_MENO
+CR-Breast-2015-11-09.tsv	Patient	10	Menopause Status (Post)			POST_MENO_DESC
+CR-Breast-2015-11-09.tsv	Patient	11	Age at Menopause			AGE_MENO
+CR-Breast-2015-11-09.tsv	Patient	12	RACE			RACE
+CR-Breast-2015-11-09.tsv	OMIT	13	OMIT			RACE_DESC
+CR-Breast-2015-11-09.tsv	Cancer+Cancer Phenotype	14	Histology Type			HIST_ICD_0_3
+CR-Breast-2015-11-09.tsv	OMIT	15	OMIT			HIST_ICD_0_3_DESC
+CR-Breast-2015-11-09.tsv	Disease Phenotype+Tumor Phenotype	16	Grade			GRADE_DIFF
+CR-Breast-2015-11-09.tsv	Disease Phenotype+Tumor Phenotype	17	Nottingham or Bloom-Richardson (BR) Score			CS_FACTOR_7
+CR-Breast-2015-11-09.tsv	Disease Phenotype+Tumor Phenotype	18	Tumor Size			SIZE_TUMOR
+CR-Breast-2015-11-09.tsv	Disease Phenotype+Tumor Phenotype	19	Lymph Nodes Examined Count			REG_NODES_EXAM
+CR-Breast-2015-11-09.tsv	Disease Phenotype+Tumor Phenotype	20	Positive Nodes			REG_NODES_POS
+CR-Breast-2015-11-09.tsv	Cancer+Cancer Phenotype+Breast Cancer TNM Classification	21	Clinical T			CLINICAL_T
+CR-Breast-2015-11-09.tsv	Cancer+Cancer Phenotype+Breast Cancer TNM Classification	22	Clinical N			CLINICAL_N
+CR-Breast-2015-11-09.tsv	Cancer+Cancer Phenotype+Breast Cancer TNM Classification	23	Clinical M			CLINICAL_M
+CR-Breast-2015-11-09.tsv	Cancer+Cancer Phenotype+Breast Cancer TNM Classification	24	Clinical Stage			CLINICAL_STAGE_GRP
+CR-Breast-2015-11-09.tsv	Cancer+Cancer Phenotype	25	Path T			PATH_T
+CR-Breast-2015-11-09.tsv	Cancer+Cancer Phenotype	26	Path N 			PATH_N
+CR-Breast-2015-11-09.tsv	Cancer+Cancer Phenotype	27	Path M			PATH_M
+CR-Breast-2015-11-09.tsv	OMIT	28	OMIT			SITE_DIST_METS_1
+CR-Breast-2015-11-09.tsv	OMIT	29	OMIT			SITE_DIST_METS_2
+CR-Breast-2015-11-09.tsv	OMIT	30	OMIT			SITE_DIST_METS_3
+CR-Breast-2015-11-09.tsv	Cancer+Cancer Phenotype	31	Path Stage			PATH_STAGE_GRP
+CR-Breast-2015-11-09.tsv	OMIT	32	OMIT			PATH_STAGE_GRP_DESC
+CR-Breast-2015-11-09.tsv	Cancer+Cancer Phenotype	33	Best CS Stage			BEST_CS_STAGE
+CR-Breast-2015-11-09.tsv	Tumor+Tumor Phenotype+Receptor Status+Estrogen Receptor Status	34	ER Status (IHC)			CS_FACTOR_1
+CR-Breast-2015-11-09.tsv	Tumor+Tumor Phenotype+Receptor Status+Progesterone Receptor Status	35	PR Status (IHC)			CS_FACTOR_2
+CR-Breast-2015-11-09.tsv	Tumor+Tumor Phenotype+Receptor Status+HER2-Neu Receptor Status	36	HER2 Score (IHC)			CS_FACTOR_8
+CR-Breast-2015-11-09.tsv	OMIT	37	OMIT			CS_FACTOR_9
+CR-Breast-2015-11-09.tsv	Tumor+Tumor Phenotype+Receptor Status+HER2-Neu Receptor Status	38	HER2 Score (FISH)			CS_FACTOR_10
+CR-Breast-2015-11-09.tsv	Tumor+Tumor Phenotype+Receptor Status+HER2-Neu Receptor Status	39	HER2 Status (FISH)			CS_FACTOR_11
+CR-Breast-2015-11-09.tsv	Cancer+Cancer Phenotype	40	Response to Neoadjuvant Therapy			CS_FACTOR_21
+CR-Breast-2015-11-09.tsv	OMIT	41	OMIT			HER2_NEU
+CR-Breast-2015-11-09.tsv	Tumor+Tumor Phenotype+Receptor Status+HER2-Neu Receptor Status	42	HER2 Status (IHC)			HER2_NEU_DESC
+CR-Breast-2015-11-09.tsv	Tumor + Tumor Phenotype	43	BIRARD Score			BIRARD_Score
+CR-Breast-2015-11-09.tsv	Episode+Treatment Episode	44	Course			COURSE
+CR-Breast-2015-11-09.tsv	OMIT	45	OMIT			RX_TYPE
+CR-Breast-2015-11-09.tsv	OMIT	46	OMIT			RX_CODE
+CR-Breast-2015-11-09.tsv	Episode+Treatment Episode	47	RX Description			RX_CODE_DESC
+CR-Breast-2015-11-09.tsv	Episode+Treatment Episode	48	RX Year			RX_START_YR
+CR-Breast-2015-11-09.tsv	OMIT	49	OMIT			SCORE_REG_LN_SURG
+CR-Breast-2015-11-09.tsv	Tumor + Tumor Phenotype	50	Scope Reg LN Surgery			SCORE_REG_LN_SURG_DESC
+CR-Breast-2015-11-09.tsv	Episode+Follow Up Episode	51	Year of Last Contact			YEAR_LAST_CONTACT
+CR-Breast-2015-11-09.tsv	OMIT	52	OMIT			CANCER_STATUS
+CR-Breast-2015-11-09.tsv	Outcome	53	Cancer Status			CANCER_STATUS_DESC
+CR-Breast-2015-11-09.tsv	Outcome+Recurrence	54	Year of 1st Recurrence			YR_1ST_RECUR
+CR-Breast-2015-11-09.tsv	Outcome+Recurrence	55	Year of  1st Recurrence-desc			YR_1ST_RECUR_DESC
+CR-Breast-2015-11-09.tsv	Outcome+Recurrence	56	Type 1st Recurrence			TYPE_RECUR
+CR-Breast-2015-11-09.tsv	Outcome+Recurrence	57	Distant Site 1			DIST_SITE_1_RECUR
+CR-Breast-2015-11-09.tsv	Outcome+Recurrence	58	Distant Site 1			DIST_SITE_2_RECUR
+CR-Breast-2015-11-09.tsv	Outcome+Recurrence	59	Distant Site 1			DIST_SITE_3_RECUR
+CR-Breast-2015-11-09.tsv	Outcome+Recurrence+History	60	HX: Year of 1st Recurrence			HX_YR_RECUR
+CR-Breast-2015-11-09.tsv	Outcome+Recurrence+History	61	HX: Year of  1st Recurrence-desc			HX_TYPE_RECUR
+CR-Breast-2015-11-09.tsv	Outcome+Recurrence+History	62	HX: Distant Site 1			HX_DIST_SITE_1_RECUR
+CR-Breast-2015-11-09.tsv	Outcome+Recurrence+History	63	HX: Distant Site 2			HX_DIST_SITE_2_RECUR
+CR-Breast-2015-11-09.tsv	Outcome+Recurrence+History	64	HX: Distant Site 3			HX_DIST_SITE_3_RECUR
+CR-Breast-2015-11-09.tsv	Outcome	65	Vital Status			VITAL
+CR-Breast-2015-11-09.tsv	OMIT	66	OMIT			ICD_CAUSE_DEATH
+CR-Breast-2015-11-09.tsv	Outcome	67	Disease-Free Survival			DFS
+CR-Breast-2015-11-09.tsv	Outcome	68	Survival since 1st Recur			SURVIVAL_1ST_RECUR
+CR-Breast-2015-11-09.tsv	Outcome	69	Survival			SURVIVAL
+CR-Breast-2015-11-09.tsv	Outcome	70	Months from Dx to 1st Recur			MONTHS_DX_RECUR
+CR-Breast-2015-11-09.tsv	Outcome	71	Length to First Treatment			LEN_1ST_TX
+CR-Breast-2015-11-09.tsv	Episode+Pre-diagnostic Episode+Comorbidity	72	Comorbidity 1			COMORBID_1
+CR-Breast-2015-11-09.tsv	Episode+Pre-diagnostic Episode+Comorbidity	73	Comorbidity 2			COMORBID_2
+CR-Breast-2015-11-09.tsv	Episode+Pre-diagnostic Episode+Comorbidity	74	Comorbidity 3			COMORBID_3
+CR-Breast-2015-11-09.tsv	Episode+Pre-diagnostic Episode+Comorbidity	75	Comorbidity 4			COMORBID_4
+CR-Breast-2015-11-09.tsv	Episode+Pre-diagnostic Episode+Comorbidity	76	Comorbidity 5			COMORBID_5
+CR-Breast-2015-11-09.tsv	Episode+Pre-diagnostic Episode+Comorbidity	77	Comorbidity 6			COMORBID_6
+CR-Breast-2015-11-09.tsv	Episode+Pre-diagnostic Episode+Comorbidity	78	Comorbidity 7			COMORBID_7
+CR-Breast-2015-11-09.tsv	Episode+Pre-diagnostic Episode+Comorbidity	79	Comorbidity 8			COMORBID_8
+CR-Breast-2015-11-09.tsv	Episode+Pre-diagnostic Episode+Comorbidity	80	Comorbidity 9			COMORBID_9
+CR-Breast-2015-11-09.tsv	Episode+Pre-diagnostic Episode+Comorbidity	81	Comorbidity 10			COMORBID_10
+CR-Breast-2015-11-09.tsv	OMIT	82	OMIT			TX_SURGERY
+CR-Breast-2015-11-09.tsv	OMIT	83	OMIT			TX_LAB_TEST
+CR-Breast-2015-11-09.tsv	OMIT	84	OMIT			TX_RAD
+CR-Breast-2015-11-09.tsv	OMIT	85	OMIT			TX_HORMONE
+CR-Breast-2015-11-09.tsv	OMIT	86	OMIT			TX_CHEMO
+CR-Breast-2015-11-09.tsv	OMIT	87	OMIT			TX_IMMUN
+CR-Breast-2015-11-09.tsv	OMIT	88	OMIT			TX_OTHER
+CR-Breast-2015-11-09.tsv	OMIT	89	OMIT			LYMPH_VAS_INVASION
+CR-Breast-2015-11-09.tsv	Tumor + Tumor Phenotype	90	Lymphovascular Invasion			LYMPH_VAS_INVASION_DESC
+CR-Breast-2015-11-09.tsv	Patient	91	Ethnicity			ETHINICITY
+CR-Breast-2015-11-09.tsv	OMIT	92	OMIT			ETHINICITY_DESC
+CR-Breast-2015-11-09.tsv	Cancer+History	93	HX: Additional Primaries			HIST_ADD_PRIM
+CR-Breast-2015-11-09.tsv	Cancer+History	94	HX: Additional Primary Site			HX_STIE_1
+CR-Breast-2015-11-09.tsv	OMIT	95	OMIT			HX_DX_YEAR_1
+CR-Breast-2015-11-09.tsv	OMIT	96	OMIT			HX_STIE_2
+CR-Breast-2015-11-09.tsv	OMIT	97	OMIT			HX_DX_YEAR_2
+CR-Breast-2015-11-09.tsv	Patient	98	GENDER			Hard-coded
+CR-Breast-2015-11-09.tsv	Patient	99	AGE			Hard-coded
