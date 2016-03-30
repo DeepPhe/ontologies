@@ -1,4 +1,3 @@
-​
 # **tranSMART mapping specs**
 
 The following mapping files were created based upon the standard tranSMART data mapping specifications used to load clinical data via the ETL scripts. in particular, these files were developed to load clinical TCGA breast data based on the data position contained within the clinical biotab file [see the TCGA biotab spec](https://wiki.nci.nih.gov/display/TCGA/Biotab).
