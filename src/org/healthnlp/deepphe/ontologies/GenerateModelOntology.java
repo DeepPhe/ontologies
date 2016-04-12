@@ -32,7 +32,7 @@ public class GenerateModelOntology {
 		
 		GenerateModelOntology gm = new GenerateModelOntology();
 		System.out.println("creating model ..");
-		gm.convertModel(sourceCancer,modelCancer);
+		//gm.convertModel(sourceCancer,modelCancer);
 		System.out.println("creating domain model ..");
 		gm.convertDomainOntology(sourceBreastCancer,targetBreastCancer, modelCancer);
 		System.out.println("done");
@@ -77,6 +77,11 @@ public class GenerateModelOntology {
 		copyProperty(source.getTopDatatProperty(),model);
 		copyProperty(source.getTopObjectProperty(),model);
 		
+		// copy classes
+		for(IClass cls : source.getRoot().getDirectSubClasses())
+			copyDomainClass(cls,model);
+		
+		
 		// copy sub-classes into cancer template (if it is a leaf node)
 		for(IClass cls: model.getRoot().getSubClasses()){
 			// is it a leaf node?
@@ -90,6 +95,7 @@ public class GenerateModelOntology {
 				}
 			}
 		}
+			
 		
 		// copy restrictions
 		for(IClass cls: model.getRoot().getSubClasses()){
