@@ -7,247 +7,247 @@ Filename	Category Code	Column Number	Data Label	Data Label Source	Controlled Voc
 	OMIT	20				NPIRegistryID	Text	20	10
 	OMIT	30				RegistryID	Text	30	10
 	OMIT	40				TumorRecordNumber	Text	40	2
-		42	SUBJ_ID			PatientID	Text	42	8
-		50				PatientIDHosp	Text	50	45
-		95				DxCity	Text	95	50
+	Patient	42	SUBJ_ID			PatientID	Text	42	8
+	OMIT	50				PatientIDHosp	Text	50	45
+	OMIT	95				DxCity	Text	95	50
 	Patient	145				DxState	Text	145	2
 	Patient	147				DxZip	Text	147	9
-		156				DxCounty	Text	156	3
-		159				CensusInfo	Text	159	17
+	OMIT	156				DxCounty	Text	156	3
+	OMIT	159				CensusInfo	Text	159	17
 	Patient	176				MaritalStatus	Text	176	1
 	Patient	177	RACE			Race1	Text	177	2
-		179				Race2	Text	179	2
-		181				Race3	Text	181	2
-		183				Race4	Text	183	2
-		185				Race5	Text	185	2
-		187				RaceCoding	Text	187	2
-		189				Spanish	Text	189	1
-		190				ComputedEthnicity	Text	190	2
+	OMIT	179				Race2	Text	179	2
+	OMIT	181				Race3	Text	181	2
+	OMIT	183				Race4	Text	183	2
+	OMIT	185				Race5	Text	185	2
+	OMIT	187				RaceCoding	Text	187	2
+	Patient	189				Spanish	Text	189	1
+	OMIT	190				ComputedEthnicity	Text	190	2
 	Patient	192	GENDER			Sex	Text	192	1
-		193				AgeatDiagnosis	Text	193	3
-		196				DOB	Text	196	10
-		206				Birthplace	Text	206	3
-		209				OccupationInfo	Text	209	209
-		418				NHIA	Text	418	1
-		419				RaceNAPIIA	Text	419	2
-		421				IHSLink	Text	421	1
-		422				GISCoordQual	Text	422	2
-		424				RuralUrbanContinum	Text	424	4
-		428				CensusInfo2010	Text	428	8
-		436				DxCountry	Text	436	3
-		439				AddrCurrentCountry	Text	439	3
-		442				BirthplaceState	Text	442	2
-		444				BirthplaceCountry	Text	444	3
-		447				FollowupContactCountry	Text	447	3
-		450				PlaceDeathState	Text	450	2
-		452				PlaceDeathCountry	Text	452	3
-		455				CensusIndOcc2010	Text	455	9
-		464				Reserved02	Text	464	64
-		528				CentralSeqNumber	Text	528	2
-		530				DateofDiagnosis	Text	530	10
-		540				PrimarySite	Text	540	4
+	Patient	193				AgeatDiagnosis	Text	193	3
+	OMIT	196				DOB	Text	196	10
+	OMIT	206				Birthplace	Text	206	3
+	OMIT	209				OccupationInfo	Text	209	209
+	OMIT	418				NHIA	Text	418	1
+	OMIT	419				RaceNAPIIA	Text	419	2
+	OMIT	421				IHSLink	Text	421	1
+	OMIT	422				GISCoordQual	Text	422	2
+	OMIT	424				RuralUrbanContinum	Text	424	4
+	OMIT	428				CensusInfo2010	Text	428	8
+	OMIT	436				DxCountry	Text	436	3
+	OMIT	439				AddrCurrentCountry	Text	439	3
+	OMIT	442				BirthplaceState	Text	442	2
+	OMIT	444				BirthplaceCountry	Text	444	3
+	OMIT	447				FollowupContactCountry	Text	447	3
+	OMIT	450				PlaceDeathState	Text	450	2
+	OMIT	452				PlaceDeathCountry	Text	452	3
+	OMIT	455				CensusIndOcc2010	Text	455	9
+	OMIT	464				Reserved02	Text	464	64
+	OMIT	528				CentralSeqNumber	Text	528	2
+	Cancer+Cancer Phenotype	530				DateofDiagnosis	Text	530	10
+	Cancer+Cancer Phenotype	540				PrimarySite	Text	540	4
 	Cancer+Cancer Phenotype	544	Laterality			Laterality	Text	544	1
-		545				HistologyICDO2	Text	545	4
-		549				BehaviorICDO2	Text	549	1
-		550				HistologyICDO3	Text	550	4
-		554				BehaviorICDO3	Text	554	1
-		555				Grade	Text	555	3
-		558				SiteMorphCoding	Text	558	4
-		562				DiagnosticConfirmation	Text	562	1
-		563				ReportingSourceType	Text	563	1
-		564				CasefindingSource	Text	564	2
-		566				AmbiguousMultiple	Text	566	25
-		591				Reserved03	Text	591	100
-		691				NPIReportingHosp	Text	691	10
-		701				ReportingHospital	Text	701	10
-		711				NPIArchiveFIN	Text	711	10
-		721				ArchiveFIN	Text	721	10
-		731				AccessionNumber	Text	731	9
-		740				HospitalSeqNumber	Text	740	2
-		742				HospitalAbstractor	Text	742	3
-		745				DateFirstContact	Text	745	10
-		755				DateInpatientAdmit	Text	755	10
-		765				DateInpatientDisch	Text	765	10
-		775				InpatientStatus	Text	775	1
-		776				ClassOfCase	Text	776	2
-		778				PrimaryPayeratDx	Text	778	2
-		780				RxHospASAClass	Text	780	1
-		781				RxHospSurgApp2010	Text	781	1
-		782				RxHospSurgPrimeSite	Text	782	2
-		784				RxHospScopeRegLNSur	Text	784	1
-		785				RxHospSurgOthRegDis	Text	785	1
-		786				RxHospRegLNRemoved	Text	786	2
-		788				RxHospSurgTiming	Text	788	1
-		789				RxHospRadiation	Text	789	1
-		790				RxHospChemo	Text	790	2
-		792				RxHospHormone	Text	792	2
-		794				RxHospBRM	Text	794	2
-		796				RxHospOther	Text	796	1
-		797				RxHospDxStageProc	Text	797	2
-		799				RxHospPalliativeProc	Text	799	1
-		800				RxHospSurgSite98_02	Text	800	4
-		804				Reserved04	Text	804	100
-		904				SummaryStage2000	Text	904	1
-		905				SummaryStage1977	Text	905	1
-		906				EODTumorSize	Text	906	3
-		909				EODExtension	Text	909	2
-		911				EODProstPath	Text	911	2
-		913				EODLymphNode	Text	913	1
-		914				RegionalNodesPos	Text	914	2
-		916				RegionalNodesEx	Text	916	2
-		918				EODold	Text	918	19
-		937				EODCodingSys	Text	937	1
-		938				TNMEditionNum	Text	938	2
-		940				TMNPathT	Text	940	4
-		944				TNMPathN	Text	944	4
-		948				TNMPathM	Text	948	4
-		952				TNMPathStageGrp	Text	952	4
-		956				TNMPathDesc	Text	956	1
-		957				TNMPathStagedBy	Text	957	1
-		958				TNMClinT	Text	958	4
-		962				TNMClinN	Text	962	4
-		966				TNMClinM	Text	966	4
-		970				TNMClinStageGrp	Text	970	4
-		974				TNMClinDesc	Text	974	1
-		975				TNMClinStagedBy	Text	975	1
-		976				PediatricStage	Text	976	5
-		981				TumorMarkers	Text	981	4
-		985				CSFields	Text	985	118
-		1103				DerivedCSFields	Text	1103	53
-		1156				DerivedSS2000	Text	1156	1
-		1157				CSFlags	Text	1157	4
-		1161				CSVersion	Text	1161	18
-		1179				SEERSiteSpecFactors	Text	1179	6
-		1185				Comorbidity	Text	1185	121
-		1306				NPCRSpecificField	Text	1306	75
-		1381				Reserved05	Text	1381	55
-		1436				DateInitialRx	Text	1436	10
-		1446				DateFirstCsRx	Text	1446	10
-		1456				RxDateCaDirSurg	Text	1456	10
-		1466				RxDateMostDefinSurg	Text	1466	10
-		1476				RxDateSurgDisch	Text	1476	10
-		1486				RxDateRadiation	Text	1486	10
-		1496				RxDateRadEnded	Text	1496	10
-		1506				RxDateSystemic	Text	1506	10
-		1516				RxDateChemo	Text	1516	10
-		1526				RxDateHormone	Text	1526	10
-		1536				RxDateBrm	Text	1536	10
-		1546				RxDateOther	Text	1546	10
-		1556				RxDateDxStgProc	Text	1556	10
-		1566				RxSummTxStatus	Text	1566	1
-		1567				RxSummSurgPrimSite	Text	1567	2
-		1569				RxSummScopeRegLNSur	Text	1569	1
-		1570				RxSummSurgOthRegDis	Text	1570	1
-		1571				RxSummRegLNExam	Text	1571	2
-		1573				RxSummSurgApproach	Text	1573	1
-		1574				RxSummSurgMargins	Text	1574	1
-		1575				RxSummReconstFirst	Text	1575	1
-		1576				ReasonNoCaDirSurg	Text	1576	1
-		1577				RxSummDxStgProc	Text	1577	2
-		1579				RxSummPalliativeProc	Text	1579	1
-		1580				RxSummRadiation	Text	1580	1
-		1581				RxSummRadtoCNS	Text	1581	1
-		1582				RxSummSurgRadSeq	Text	1582	1
-		1583				RxSummTransplant	Text	1583	2
-		1585				RxSummChemo	Text	1585	2
-		1587				RxSummHormone	Text	1587	2
-		1589				RxSummBRM	Text	1589	2
-		1591				RxSummOther	Text	1591	1
-		1592				ReasonNoRad	Text	1592	1
-		1593				RxCodingSystem	Text	1593	2
-		1595				Reserved18	Text	1595	1
-		1596				RadInfo	Text	1596	20
-		1616				RxSummSystemicSurSeq	Text	1616	1
-		1617				RxSummSurgType	Text	1617	2
-		1619				ReadHosp30Days	Text	1619	5
-		1624				Reserved06	Text	1624	100
-		1724				SubRx	Memo	1724	64
-		1788				Reserved07	Text	1788	100
-		1888				Overrides_ICDO1Fields	Text	1888	42
-		1930				SeerCodingSys	Text	1930	2
-		1932				COCCodingSys	Text	1932	4
-		1936				VendorName	Text	1936	10
-		1946				SeerFields	Text	1946	5
-		1951				DateCaseInitiated	Text	1951	8
-		1959				DateCaseCompleted	Text	1959	8
-		1967				DateCaseCompleted-CoC	Text	1967	8
-		1975				DateCaseLstChanged	Text	1975	8
-		1983				DateCaseReportExported	Text	1983	8
-		1991				DateCaseReptReceived	Text	1991	8
-		1999				DateCaseReptLoaded	Text	1999	8
-		2007				DateRecordAvail	Text	2007	8
-		2015				ICDO3ConvFlag	Text	2015	1
-		2016				Reserved08	Text	2016	100
-		2116				DateLastContact	Text	2116	10
-		2126				VitalStatus	Text	2126	1
-		2127				CancerStatus	Text	2127	1
-		2128				SurvivalQuality	Text	2128	1
-		2129				FollowUpSource	Text	2129	1
-		2130				NextFollowUpSource	Text	2130	1
-		2131				AddrCurrentCity	Text	2131	50
-		2181				AddrCurrentState	Text	2181	2
-		2183				AddrCurrentPostalCode	Text	2183	9
-		2192				CountyCurrent	Text	2192	3
-		2195				Reserved17	Text	2195	1
-		2196				Recurrence	Text	2196	12
-		2208				FollowUpContactCity	Text	2208	50
-		2258				FollowUpContactState	Text	2258	2
-		2260				FollowUpContactPostal	Text	2260	9
-		2269				CauseofDeath	Text	2269	4
-		2273				ICDRevision	Text	2273	1
-		2274				Autopsy	Text	2274	1
-		2275				PlaceDeath	Text	2275	3
-		2278				FollowupSourceCentral	Text	2278	2
-		2280				DateOfDthCanada	Text	2280	12
-		2292				Reserved09	Text	2292	48
-		2340				StateRequestorItems	Memo	2340	1000
-		3340				NameLast	Text	3340	40
-		3380				NameFirst	Text	3380	40
-		3420				NameMiddle	Text	3420	40
-		3460				NamePrefix	Text	3460	3
-		3463				NameSuffix	Text	3463	3
-		3466				NameAlias	Text	3466	40
-		3506				NameMaiden	Text	3506	40
-		3546				NameSpouse	Text	3546	60
-		3606				MedicalRecord	Text	3606	11
-		3617				MilitarySuffix	Text	3617	2
-		3619				SSN	Text	3619	9
-		3628				AddressDx	Text	3628	60
-		3688				AddressDxSuppl	Text	3688	60
-		3748				AddressCurrent	Text	3748	60
-		3808				AddressCurrentSuppl	Text	3808	60
-		3868				Phone	Text	3868	10
-		3878				DCStateFileNumber	Text	3878	6
-		3884				FollowUpContactName	Text	3884	60
-		3944				FollowUpContactAddress	Text	3944	60
-		4004				FollowUpContactSuppl	Text	4004	60
-		4064				Latitude	Text	4064	10
-		4074				Longitude	Text	4074	11
-		4085				Reserved10	Text	4085	200
-		4285				FollowingRegistry	Text	4285	20
-		4305				ReferredFrom	Text	4305	20
-		4325				ReferredTo	Text	4325	20
-		4345				Reserved11	Text	4345	50
-		4395				PhysicianManaging	Text	4395	18
-		4413				OtherMDs	Text	4413	72
-		4485				Reserved12	Text	4485	50
-		4535				PathFields	Memo	4535	1030
-		5565				TextPE	Memo	5565	1000
-		6565				TextX-ray	Memo	6565	1000
-		7565				TextScopes	Memo	7565	1000
-		8565				TextLabs	Memo	8565	1000
-		9565				TextOp	Memo	9565	1000
-		10565				TextPath	Memo	10565	1000
-		11565				PrimarySiteTitle	Text	11565	100
-		11665				HistologyTitle	Text	11665	100
-		11765				TextStaging	Memo	11765	1000
-		12765				TextSurgery	Memo	12765	1000
-		13765				TextRadBeam	Memo	13765	1000
-		14765				TextRadOther	Memo	14765	1000
-		15765				TextChemo	Memo	15765	1000
-		16765				TextHormone	Memo	16765	1000
-		17765				TextBRM	Memo	17765	1000
-		18765				TextOther	Memo	18765	1000
-		19765				TextRemarks	Memo	19765	1000
-		20765				DxPlace	Text	20765	60
-		20825				Reserved14	Memo	20825	2000
+	Cancer+Cancer Phenotype	545				HistologyICDO2	Text	545	4
+	OMIT	549				BehaviorICDO2	Text	549	1
+	OMIT	550				HistologyICDO3	Text	550	4
+	OMIT	554				BehaviorICDO3	Text	554	1
+	Cancer+Cancer Phenotype	555				Grade	Text	555	3
+	OMIT	558				SiteMorphCoding	Text	558	4
+	OMIT	562				DiagnosticConfirmation	Text	562	1
+	OMIT	563				ReportingSourceType	Text	563	1
+	OMIT	564				CasefindingSource	Text	564	2
+	OMIT	566				AmbiguousMultiple	Text	566	25
+	OMIT	591				Reserved03	Text	591	100
+	OMIT	691				NPIReportingHosp	Text	691	10
+	OMIT	701				ReportingHospital	Text	701	10
+	OMIT	711				NPIArchiveFIN	Text	711	10
+	OMIT	721				ArchiveFIN	Text	721	10
+	OMIT	731				AccessionNumber	Text	731	9
+	OMIT	740				HospitalSeqNumber	Text	740	2
+	OMIT	742				HospitalAbstractor	Text	742	3
+	OMIT	745				DateFirstContact	Text	745	10
+	OMIT	755				DateInpatientAdmit	Text	755	10
+	OMIT	765				DateInpatientDisch	Text	765	10
+	OMIT	775				InpatientStatus	Text	775	1
+	OMIT	776				ClassOfCase	Text	776	2
+	OMIT	778				PrimaryPayeratDx	Text	778	2
+	OMIT	780				RxHospASAClass	Text	780	1
+	OMIT	781				RxHospSurgApp2010	Text	781	1
+	OMIT	782				RxHospSurgPrimeSite	Text	782	2
+	OMIT	784				RxHospScopeRegLNSur	Text	784	1
+	OMIT	785				RxHospSurgOthRegDis	Text	785	1
+	OMIT	786				RxHospRegLNRemoved	Text	786	2
+	OMIT	788				RxHospSurgTiming	Text	788	1
+	OMIT	789				RxHospRadiation	Text	789	1
+	OMIT	790				RxHospChemo	Text	790	2
+	OMIT	792				RxHospHormone	Text	792	2
+	OMIT	794				RxHospBRM	Text	794	2
+	OMIT	796				RxHospOther	Text	796	1
+	OMIT	797				RxHospDxStageProc	Text	797	2
+	OMIT	799				RxHospPalliativeProc	Text	799	1
+	OMIT	800				RxHospSurgSite98_02	Text	800	4
+	OMIT	804				Reserved04	Text	804	100
+	OMIT	904				SummaryStage2000	Text	904	1
+	OMIT	905				SummaryStage1977	Text	905	1
+	OMIT	906				EODTumorSize	Text	906	3
+	OMIT	909				EODExtension	Text	909	2
+	OMIT	911				EODProstPath	Text	911	2
+	OMIT	913				EODLymphNode	Text	913	1
+	OMIT	914				RegionalNodesPos	Text	914	2
+	OMIT	916				RegionalNodesEx	Text	916	2
+	OMIT	918				EODold	Text	918	19
+	OMIT	937				EODCodingSys	Text	937	1
+	Cancer+Cancer Phenotype	938				TNMEditionNum	Text	938	2
+	Cancer+Cancer Phenotype	940				TMNPathT	Text	940	4
+	Cancer+Cancer Phenotype	944				TNMPathN	Text	944	4
+	Cancer+Cancer Phenotype	948				TNMPathM	Text	948	4
+	Cancer+Cancer Phenotype	952				TNMPathStageGrp	Text	952	4
+	OMIT	956				TNMPathDesc	Text	956	1
+	OMIT	957				TNMPathStagedBy	Text	957	1
+	Cancer+Cancer Phenotype	958				TNMClinT	Text	958	4
+	Cancer+Cancer Phenotype	962				TNMClinN	Text	962	4
+	Cancer+Cancer Phenotype	966				TNMClinM	Text	966	4
+	Cancer+Cancer Phenotype	970				TNMClinStageGrp	Text	970	4
+	OMIT	974				TNMClinDesc	Text	974	1
+	OMIT	975				TNMClinStagedBy	Text	975	1
+	OMIT	976				PediatricStage	Text	976	5
+	OMIT	981				TumorMarkers	Text	981	4
+	OMIT	985				CSFields	Text	985	118
+	OMIT	1103				DerivedCSFields	Text	1103	53
+	OMIT	1156				DerivedSS2000	Text	1156	1
+	OMIT	1157				CSFlags	Text	1157	4
+	OMIT	1161				CSVersion	Text	1161	18
+	OMIT	1179				SEERSiteSpecFactors	Text	1179	6
+	OMIT	1185				Comorbidity	Text	1185	121
+	OMIT	1306				NPCRSpecificField	Text	1306	75
+	OMIT	1381				Reserved05	Text	1381	55
+	OMIT	1436				DateInitialRx	Text	1436	10
+	OMIT	1446				DateFirstCsRx	Text	1446	10
+	OMIT	1456				RxDateCaDirSurg	Text	1456	10
+	OMIT	1466				RxDateMostDefinSurg	Text	1466	10
+	OMIT	1476				RxDateSurgDisch	Text	1476	10
+	OMIT	1486				RxDateRadiation	Text	1486	10
+	OMIT	1496				RxDateRadEnded	Text	1496	10
+	OMIT	1506				RxDateSystemic	Text	1506	10
+	OMIT	1516				RxDateChemo	Text	1516	10
+	OMIT	1526				RxDateHormone	Text	1526	10
+	OMIT	1536				RxDateBrm	Text	1536	10
+	OMIT	1546				RxDateOther	Text	1546	10
+	OMIT	1556				RxDateDxStgProc	Text	1556	10
+	OMIT	1566				RxSummTxStatus	Text	1566	1
+	OMIT	1567				RxSummSurgPrimSite	Text	1567	2
+	OMIT	1569				RxSummScopeRegLNSur	Text	1569	1
+	OMIT	1570				RxSummSurgOthRegDis	Text	1570	1
+	OMIT	1571				RxSummRegLNExam	Text	1571	2
+	OMIT	1573				RxSummSurgApproach	Text	1573	1
+	OMIT	1574				RxSummSurgMargins	Text	1574	1
+	OMIT	1575				RxSummReconstFirst	Text	1575	1
+	OMIT	1576				ReasonNoCaDirSurg	Text	1576	1
+	OMIT	1577				RxSummDxStgProc	Text	1577	2
+	OMIT	1579				RxSummPalliativeProc	Text	1579	1
+	OMIT	1580				RxSummRadiation	Text	1580	1
+	OMIT	1581				RxSummRadtoCNS	Text	1581	1
+	OMIT	1582				RxSummSurgRadSeq	Text	1582	1
+	OMIT	1583				RxSummTransplant	Text	1583	2
+	OMIT	1585				RxSummChemo	Text	1585	2
+	OMIT	1587				RxSummHormone	Text	1587	2
+	OMIT	1589				RxSummBRM	Text	1589	2
+	OMIT	1591				RxSummOther	Text	1591	1
+	OMIT	1592				ReasonNoRad	Text	1592	1
+	OMIT	1593				RxCodingSystem	Text	1593	2
+	OMIT	1595				Reserved18	Text	1595	1
+	OMIT	1596				RadInfo	Text	1596	20
+	OMIT	1616				RxSummSystemicSurSeq	Text	1616	1
+	OMIT	1617				RxSummSurgType	Text	1617	2
+	OMIT	1619				ReadHosp30Days	Text	1619	5
+	OMIT	1624				Reserved06	Text	1624	100
+	OMIT	1724				SubRx	Memo	1724	64
+	OMIT	1788				Reserved07	Text	1788	100
+	OMIT	1888				Overrides_ICDO1Fields	Text	1888	42
+	OMIT	1930				SeerCodingSys	Text	1930	2
+	OMIT	1932				COCCodingSys	Text	1932	4
+	OMIT	1936				VendorName	Text	1936	10
+	OMIT	1946				SeerFields	Text	1946	5
+	OMIT	1951				DateCaseInitiated	Text	1951	8
+	OMIT	1959				DateCaseCompleted	Text	1959	8
+	OMIT	1967				DateCaseCompleted-CoC	Text	1967	8
+	OMIT	1975				DateCaseLstChanged	Text	1975	8
+	OMIT	1983				DateCaseReportExported	Text	1983	8
+	OMIT	1991				DateCaseReptReceived	Text	1991	8
+	OMIT	1999				DateCaseReptLoaded	Text	1999	8
+	OMIT	2007				DateRecordAvail	Text	2007	8
+	OMIT	2015				ICDO3ConvFlag	Text	2015	1
+	OMIT	2016				Reserved08	Text	2016	100
+	OMIT	2116				DateLastContact	Text	2116	10
+	OMIT	2126				VitalStatus	Text	2126	1
+	OMIT	2127				CancerStatus	Text	2127	1
+	OMIT	2128				SurvivalQuality	Text	2128	1
+	OMIT	2129				FollowUpSource	Text	2129	1
+	OMIT	2130				NextFollowUpSource	Text	2130	1
+	OMIT	2131				AddrCurrentCity	Text	2131	50
+	OMIT	2181				AddrCurrentState	Text	2181	2
+	OMIT	2183				AddrCurrentPostalCode	Text	2183	9
+	OMIT	2192				CountyCurrent	Text	2192	3
+	OMIT	2195				Reserved17	Text	2195	1
+	OMIT	2196				Recurrence	Text	2196	12
+	OMIT	2208				FollowUpContactCity	Text	2208	50
+	OMIT	2258				FollowUpContactState	Text	2258	2
+	OMIT	2260				FollowUpContactPostal	Text	2260	9
+	OMIT	2269				CauseofDeath	Text	2269	4
+	OMIT	2273				ICDRevision	Text	2273	1
+	OMIT	2274				Autopsy	Text	2274	1
+	OMIT	2275				PlaceDeath	Text	2275	3
+	OMIT	2278				FollowupSourceCentral	Text	2278	2
+	OMIT	2280				DateOfDthCanada	Text	2280	12
+	OMIT	2292				Reserved09	Text	2292	48
+	OMIT	2340				StateRequestorItems	Memo	2340	1000
+	OMIT	3340				NameLast	Text	3340	40
+	OMIT	3380				NameFirst	Text	3380	40
+	OMIT	3420				NameMiddle	Text	3420	40
+	OMIT	3460				NamePrefix	Text	3460	3
+	OMIT	3463				NameSuffix	Text	3463	3
+	OMIT	3466				NameAlias	Text	3466	40
+	OMIT	3506				NameMaiden	Text	3506	40
+	OMIT	3546				NameSpouse	Text	3546	60
+	OMIT	3606				MedicalRecord	Text	3606	11
+	OMIT	3617				MilitarySuffix	Text	3617	2
+	OMIT	3619				SSN	Text	3619	9
+	OMIT	3628				AddressDx	Text	3628	60
+	OMIT	3688				AddressDxSuppl	Text	3688	60
+	OMIT	3748				AddressCurrent	Text	3748	60
+	OMIT	3808				AddressCurrentSuppl	Text	3808	60
+	OMIT	3868				Phone	Text	3868	10
+	OMIT	3878				DCStateFileNumber	Text	3878	6
+	OMIT	3884				FollowUpContactName	Text	3884	60
+	OMIT	3944				FollowUpContactAddress	Text	3944	60
+	OMIT	4004				FollowUpContactSuppl	Text	4004	60
+	OMIT	4064				Latitude	Text	4064	10
+	OMIT	4074				Longitude	Text	4074	11
+	OMIT	4085				Reserved10	Text	4085	200
+	OMIT	4285				FollowingRegistry	Text	4285	20
+	OMIT	4305				ReferredFrom	Text	4305	20
+	OMIT	4325				ReferredTo	Text	4325	20
+	OMIT	4345				Reserved11	Text	4345	50
+	OMIT	4395				PhysicianManaging	Text	4395	18
+	OMIT	4413				OtherMDs	Text	4413	72
+	OMIT	4485				Reserved12	Text	4485	50
+	OMIT	4535				PathFields	Memo	4535	1030
+	OMIT	5565				TextPE	Memo	5565	1000
+	OMIT	6565				TextX-ray	Memo	6565	1000
+	OMIT	7565				TextScopes	Memo	7565	1000
+	OMIT	8565				TextLabs	Memo	8565	1000
+	OMIT	9565				TextOp	Memo	9565	1000
+	OMIT	10565				TextPath	Memo	10565	1000
+	OMIT	11565				PrimarySiteTitle	Text	11565	100
+	OMIT	11665				HistologyTitle	Text	11665	100
+	OMIT	11765				TextStaging	Memo	11765	1000
+	OMIT	12765				TextSurgery	Memo	12765	1000
+	OMIT	13765				TextRadBeam	Memo	13765	1000
+	OMIT	14765				TextRadOther	Memo	14765	1000
+	OMIT	15765				TextChemo	Memo	15765	1000
+	OMIT	16765				TextHormone	Memo	16765	1000
+	OMIT	17765				TextBRM	Memo	17765	1000
+	OMIT	18765				TextOther	Memo	18765	1000
+	OMIT	19765				TextRemarks	Memo	19765	1000
+	OMIT	20765				DxPlace	Text	20765	60
+	OMIT	20825				Reserved14	Memo	20825	2000
