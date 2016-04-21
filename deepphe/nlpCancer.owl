@@ -514,7 +514,7 @@
         <Class IRI="http://blulab.chpc.utah.edu/ontologies/v2/Schema.owl#Observation"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#Distant"/>
+        <Class IRI="#DistantRecurrence"/>
         <Class IRI="#Recurrent_Tumor"/>
     </SubClassOf>
     <SubClassOf>
@@ -594,7 +594,7 @@
         <Class IRI="http://blulab.chpc.utah.edu/ontologies/v2/ConText.owl#BodySide"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#Local"/>
+        <Class IRI="#LocalRecurrence"/>
         <Class IRI="#Recurrent_Tumor"/>
     </SubClassOf>
     <SubClassOf>
@@ -981,7 +981,7 @@
         <Class IRI="#Recurrent"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#Regional"/>
+        <Class IRI="#RegionalRecurrence"/>
         <Class IRI="#Recurrent_Tumor"/>
     </SubClassOf>
     <SubClassOf>
@@ -3915,78 +3915,78 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#alternateCode"/>
-        <IRI>#Distant</IRI>
+        <IRI>#DistantRecurrence</IRI>
         <Literal datatypeIRI="&xsd;string">261007001 [SNOMEDCT_US]</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#alternateCode"/>
-        <IRI>#Distant</IRI>
+        <IRI>#DistantRecurrence</IRI>
         <Literal datatypeIRI="&xsd;string">C0443203 [UMLS]</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#alternateCode"/>
-        <IRI>#Distant</IRI>
+        <IRI>#DistantRecurrence</IRI>
         <Literal datatypeIRI="&xsd;string">C0443203 [UMLS_CUI]</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#alternateCode"/>
-        <IRI>#Distant</IRI>
+        <IRI>#DistantRecurrence</IRI>
         <Literal datatypeIRI="&xsd;string">C25321 [NCI]</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#alternateCode"/>
-        <IRI>#Distant</IRI>
+        <IRI>#DistantRecurrence</IRI>
         <Literal datatypeIRI="&xsd;string">C25321 [code]</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#alternateCode"/>
-        <IRI>#Distant</IRI>
+        <IRI>#DistantRecurrence</IRI>
         <Literal datatypeIRI="&xsd;string">NOCODE [MTH]</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#code"/>
-        <IRI>#Distant</IRI>
+        <IRI>#DistantRecurrence</IRI>
         <Literal datatypeIRI="&xsd;string">C0443203</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#definition"/>
-        <IRI>#Distant</IRI>
+        <IRI>#DistantRecurrence</IRI>
         <Literal datatypeIRI="&xsd;string">Far apart in space, time, or relevance from a point of origin.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#preferredTerm"/>
-        <IRI>#Distant</IRI>
+        <IRI>#DistantRecurrence</IRI>
         <Literal datatypeIRI="&xsd;string">Distant</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#semanticType"/>
-        <IRI>#Distant</IRI>
+        <IRI>#DistantRecurrence</IRI>
         <Literal datatypeIRI="&xsd;string">Spatial Concept</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#synonym"/>
-        <IRI>#Distant</IRI>
+        <IRI>#DistantRecurrence</IRI>
         <Literal datatypeIRI="&xsd;string">Distant</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#synonym"/>
-        <IRI>#Distant</IRI>
+        <IRI>#DistantRecurrence</IRI>
         <Literal datatypeIRI="&xsd;string">Distant (qualifier value)</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#synonym"/>
-        <IRI>#Distant</IRI>
+        <IRI>#DistantRecurrence</IRI>
         <Literal datatypeIRI="&xsd;string">Distantly</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#synonym"/>
-        <IRI>#Distant</IRI>
+        <IRI>#DistantRecurrence</IRI>
         <Literal datatypeIRI="&xsd;string">Remote</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#Distant</IRI>
-        <Literal datatypeIRI="&xsd;string">Distant</Literal>
+        <IRI>#DistantRecurrence</IRI>
+        <Literal datatypeIRI="&xsd;string">DistantRecurrence</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#alternateCode"/>
@@ -5565,113 +5565,113 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#alternateCode"/>
-        <IRI>#Local</IRI>
+        <IRI>#LocalRecurrence</IRI>
         <Literal datatypeIRI="&xsd;string">255470001 [SNOMEDCT_US]</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#alternateCode"/>
-        <IRI>#Local</IRI>
+        <IRI>#LocalRecurrence</IRI>
         <Literal datatypeIRI="&xsd;string">C25388 [NCI]</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#alternateCode"/>
-        <IRI>#Local</IRI>
+        <IRI>#LocalRecurrence</IRI>
         <Literal datatypeIRI="&xsd;string">C67263 [NCI]</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#alternateCode"/>
-        <IRI>#Local</IRI>
+        <IRI>#LocalRecurrence</IRI>
         <Literal datatypeIRI="&xsd;string">C67263 [code]</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#alternateCode"/>
-        <IRI>#Local</IRI>
+        <IRI>#LocalRecurrence</IRI>
         <Literal datatypeIRI="&xsd;string">CL448879 [NCI_META]</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#alternateCode"/>
-        <IRI>#Local</IRI>
+        <IRI>#LocalRecurrence</IRI>
         <Literal datatypeIRI="&xsd;string">CL448879 [NCI_META_CUI]</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#alternateCode"/>
-        <IRI>#Local</IRI>
+        <IRI>#LocalRecurrence</IRI>
         <Literal datatypeIRI="&xsd;string">L [HL7V3.0]</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#alternateCode"/>
-        <IRI>#Local</IRI>
+        <IRI>#LocalRecurrence</IRI>
         <Literal datatypeIRI="&xsd;string">NOCODE [MTH]</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#code"/>
-        <IRI>#Local</IRI>
+        <IRI>#LocalRecurrence</IRI>
         <Literal datatypeIRI="&xsd;string">C1550012</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#definition"/>
-        <IRI>#Local</IRI>
+        <IRI>#LocalRecurrence</IRI>
         <Literal datatypeIRI="&xsd;string">&lt;p&gt;An equipment can either work autonomously (&apos;Local&apos; control state).&lt;/p&gt;</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#definition"/>
-        <IRI>#Local</IRI>
+        <IRI>#LocalRecurrence</IRI>
         <Literal datatypeIRI="&xsd;string">Affecting only a restricted part or area of the body.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#definition"/>
-        <IRI>#Local</IRI>
+        <IRI>#LocalRecurrence</IRI>
         <Literal datatypeIRI="&xsd;string">Of or belonging to a restricted area or locality.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#preferredTerm"/>
-        <IRI>#Local</IRI>
+        <IRI>#LocalRecurrence</IRI>
         <Literal datatypeIRI="&xsd;string">Local</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#preferredTerm"/>
-        <IRI>#Local</IRI>
+        <IRI>#LocalRecurrence</IRI>
         <Literal datatypeIRI="&xsd;string">Local Remote Control State - Local</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#semanticType"/>
-        <IRI>#Local</IRI>
+        <IRI>#LocalRecurrence</IRI>
         <Literal datatypeIRI="&xsd;string">Idea or Concept</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#semanticType"/>
-        <IRI>#Local</IRI>
+        <IRI>#LocalRecurrence</IRI>
         <Literal datatypeIRI="&xsd;string">Spatial Concept</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#synonym"/>
-        <IRI>#Local</IRI>
+        <IRI>#LocalRecurrence</IRI>
         <Literal datatypeIRI="&xsd;string">Local</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#synonym"/>
-        <IRI>#Local</IRI>
+        <IRI>#LocalRecurrence</IRI>
         <Literal datatypeIRI="&xsd;string">Local (qualifier value)</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#synonym"/>
-        <IRI>#Local</IRI>
+        <IRI>#LocalRecurrence</IRI>
         <Literal datatypeIRI="&xsd;string">Local Remote Control State - Local</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#synonym"/>
-        <IRI>#Local</IRI>
+        <IRI>#LocalRecurrence</IRI>
         <Literal datatypeIRI="&xsd;string">Local-Regional</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#synonym"/>
-        <IRI>#Local</IRI>
+        <IRI>#LocalRecurrence</IRI>
         <Literal datatypeIRI="&xsd;string">Regional</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#Local</IRI>
-        <Literal datatypeIRI="&xsd;string">Local</Literal>
+        <IRI>#LocalRecurrence</IRI>
+        <Literal datatypeIRI="&xsd;string">LocalRecurrence</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#alternateCode"/>
@@ -11350,178 +11350,178 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#alternateCode"/>
-        <IRI>#Regional</IRI>
+        <IRI>#RegionalRecurrence</IRI>
         <Literal datatypeIRI="&xsd;string">255470001 [SNOMEDCT_US]</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#alternateCode"/>
-        <IRI>#Regional</IRI>
+        <IRI>#RegionalRecurrence</IRI>
         <Literal datatypeIRI="&xsd;string">2601 [PMA]</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#alternateCode"/>
-        <IRI>#Regional</IRI>
+        <IRI>#RegionalRecurrence</IRI>
         <Literal datatypeIRI="&xsd;string">410673009 [SNOMEDCT_US]</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#alternateCode"/>
-        <IRI>#Regional</IRI>
+        <IRI>#RegionalRecurrence</IRI>
         <Literal datatypeIRI="&xsd;string">410674003 [SNOMEDCT_US]</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#alternateCode"/>
-        <IRI>#Regional</IRI>
+        <IRI>#RegionalRecurrence</IRI>
         <Literal datatypeIRI="&xsd;string">C25388 [NCI]</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#alternateCode"/>
-        <IRI>#Regional</IRI>
+        <IRI>#RegionalRecurrence</IRI>
         <Literal datatypeIRI="&xsd;string">C25643 [NCI]</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#alternateCode"/>
-        <IRI>#Regional</IRI>
+        <IRI>#RegionalRecurrence</IRI>
         <Literal datatypeIRI="&xsd;string">C25643 [code]</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#alternateCode"/>
-        <IRI>#Regional</IRI>
+        <IRI>#RegionalRecurrence</IRI>
         <Literal datatypeIRI="&xsd;string">C41129 [NCI]</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#alternateCode"/>
-        <IRI>#Regional</IRI>
+        <IRI>#RegionalRecurrence</IRI>
         <Literal datatypeIRI="&xsd;string">C67263 [NCI]</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#alternateCode"/>
-        <IRI>#Regional</IRI>
+        <IRI>#RegionalRecurrence</IRI>
         <Literal datatypeIRI="&xsd;string">CDR0000044084 [NCI-GLOSS]</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#alternateCode"/>
-        <IRI>#Regional</IRI>
+        <IRI>#RegionalRecurrence</IRI>
         <Literal datatypeIRI="&xsd;string">CL356891 [NCI_META]</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#alternateCode"/>
-        <IRI>#Regional</IRI>
+        <IRI>#RegionalRecurrence</IRI>
         <Literal datatypeIRI="&xsd;string">CL356891 [NCI_META_CUI]</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#alternateCode"/>
-        <IRI>#Regional</IRI>
+        <IRI>#RegionalRecurrence</IRI>
         <Literal datatypeIRI="&xsd;string">MTHU009053 [LNC]</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#alternateCode"/>
-        <IRI>#Regional</IRI>
+        <IRI>#RegionalRecurrence</IRI>
         <Literal datatypeIRI="&xsd;string">NOCODE [MTH]</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#alternateCode"/>
-        <IRI>#Regional</IRI>
+        <IRI>#RegionalRecurrence</IRI>
         <Literal datatypeIRI="&xsd;string">RID34260 [RADLEX]</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#code"/>
-        <IRI>#Regional</IRI>
+        <IRI>#RegionalRecurrence</IRI>
         <Literal datatypeIRI="&xsd;string">CL448879</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#definition"/>
-        <IRI>#Regional</IRI>
+        <IRI>#RegionalRecurrence</IRI>
         <Literal datatypeIRI="&xsd;string">Affecting only a restricted part or area of the body.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#definition"/>
-        <IRI>#Regional</IRI>
+        <IRI>#RegionalRecurrence</IRI>
         <Literal datatypeIRI="&xsd;string">An area or portion of something with more or less definite boundaries designed or specified according to some established biological, administrative, economic, demographic, etc. criteria.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#definition"/>
-        <IRI>#Regional</IRI>
+        <IRI>#RegionalRecurrence</IRI>
         <Literal datatypeIRI="&xsd;string">In oncology, describes the body area right around a tumor.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#definition"/>
-        <IRI>#Regional</IRI>
+        <IRI>#RegionalRecurrence</IRI>
         <Literal datatypeIRI="&xsd;string">Limited to a particular location or area.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#definition"/>
-        <IRI>#Regional</IRI>
+        <IRI>#RegionalRecurrence</IRI>
         <Literal datatypeIRI="&xsd;string">Of or belonging to a restricted area or locality.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#definition"/>
-        <IRI>#Regional</IRI>
+        <IRI>#RegionalRecurrence</IRI>
         <Literal datatypeIRI="&xsd;string">[BI-RADS] these are calcifications scattered in a large volume (&gt;2cc) of breast tissue not conforming to a duct distribution. Since this distribution may involve most of a quadrant or more than a single quadrant, malignancy is less likely. However, evaluation must include element shape as well as distribution.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#preferredTerm"/>
-        <IRI>#Regional</IRI>
+        <IRI>#RegionalRecurrence</IRI>
         <Literal datatypeIRI="&xsd;string">Local</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#preferredTerm"/>
-        <IRI>#Regional</IRI>
+        <IRI>#RegionalRecurrence</IRI>
         <Literal datatypeIRI="&xsd;string">Regional</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#preferredTerm"/>
-        <IRI>#Regional</IRI>
+        <IRI>#RegionalRecurrence</IRI>
         <Literal datatypeIRI="&xsd;string">regional</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#semanticType"/>
-        <IRI>#Regional</IRI>
+        <IRI>#RegionalRecurrence</IRI>
         <Literal datatypeIRI="&xsd;string">Spatial Concept</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#synonym"/>
-        <IRI>#Regional</IRI>
+        <IRI>#RegionalRecurrence</IRI>
         <Literal datatypeIRI="&xsd;string">Local</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#synonym"/>
-        <IRI>#Regional</IRI>
+        <IRI>#RegionalRecurrence</IRI>
         <Literal datatypeIRI="&xsd;string">Local (qualifier value)</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#synonym"/>
-        <IRI>#Regional</IRI>
+        <IRI>#RegionalRecurrence</IRI>
         <Literal datatypeIRI="&xsd;string">Local-Regional</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#synonym"/>
-        <IRI>#Regional</IRI>
+        <IRI>#RegionalRecurrence</IRI>
         <Literal datatypeIRI="&xsd;string">Region</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#synonym"/>
-        <IRI>#Regional</IRI>
+        <IRI>#RegionalRecurrence</IRI>
         <Literal datatypeIRI="&xsd;string">Region (attribute)</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#synonym"/>
-        <IRI>#Regional</IRI>
+        <IRI>#RegionalRecurrence</IRI>
         <Literal datatypeIRI="&xsd;string">Regional</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#synonym"/>
-        <IRI>#Regional</IRI>
+        <IRI>#RegionalRecurrence</IRI>
         <Literal datatypeIRI="&xsd;string">Regional (qualifier value)</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#synonym"/>
-        <IRI>#Regional</IRI>
+        <IRI>#RegionalRecurrence</IRI>
         <Literal datatypeIRI="&xsd;string">regional</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#Regional</IRI>
-        <Literal datatypeIRI="&xsd;string">Regional</Literal>
+        <IRI>#RegionalRecurrence</IRI>
+        <Literal datatypeIRI="&xsd;string">RegionalRecurrence</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#alternateCode"/>
