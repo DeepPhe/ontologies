@@ -8,6 +8,7 @@ import java.net.URISyntaxException;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Iterator;
+import java.util.LinkedHashMap;
 import java.util.List;
 import java.util.Map;
 
@@ -20,7 +21,16 @@ public class GenerateModelOntology {
 	public static final String BASE_URL_PREFIX = "http://ontologies.dbmi.pitt.edu";
 	private Map<IOntology,IProperty> seeAlsoMap;
 	private Map<String,String> model2name,name2model;
+	
+	// some exceptional mappings between NLP and model ontologies
+	private static final Map<String,String> equivalenceMap = new LinkedHashMap<String, String>();
+	static{
+		equivalenceMap.put("MedicationStatement","Medication");
+	}
+	
 	private int index;
+	
+	
 	
 	public static void main(String[] args) throws Exception {
 		
@@ -507,6 +517,18 @@ public class GenerateModelOntology {
 			IClass targetClass = target.getClass(getModelName(parentName));
 			if(targetClass != null){
 				copyClass(source,targetClass);
+			}
+		}else{
+			// some special cases s.a. MedicationStatement = Medication
+			for(String nlpClassName: equivalenceMap.keySet()){
+				String modelClassName = equivalenceMap.get(nlpClassName);
+				IClass medSt = source.getOntology().getClass(nlpClassName);
+				if(source.hasDirectSuperClass(medSt)){
+					IClass targetClass = target.getClass(getModelName(modelClassName));
+					if(targetClass != null){
+						copyClass(source,targetClass);
+					}
+				}
 			}
 		}
 		
