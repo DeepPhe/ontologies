@@ -32,7 +32,7 @@ public class GenerateModelOntology {
 		
 		GenerateModelOntology gm = new GenerateModelOntology();
 		System.out.println("creating model ..");
-		//gm.convertModel(sourceCancer,modelCancer);
+		gm.convertModel(sourceCancer,modelCancer);
 		System.out.println("creating domain model ..");
 		gm.convertDomainOntology(sourceBreastCancer,targetBreastCancer, modelCancer);
 		System.out.println("done");
@@ -72,11 +72,8 @@ public class GenerateModelOntology {
 		
 		// load name
 		loadNameMap(model);
-		
-		// copy properties
-		copyProperty(source.getTopDatatProperty(),model);
-		copyProperty(source.getTopObjectProperty(),model);
-		
+	
+			
 		// copy classes
 		for(IClass cls : source.getRoot().getDirectSubClasses())
 			copyDomainClass(cls,model);
@@ -95,7 +92,16 @@ public class GenerateModelOntology {
 				}
 			}
 		}
-			
+
+		//copy properties
+		for(IProperty p: source.getTopDataProperty().getSubProperties())
+			copyProperty(p,model);
+		
+		// copy properties
+		for(IProperty p: source.getTopObjectProperty().getSubProperties())
+			copyProperty(p,model);
+				
+		
 		
 		// copy restrictions
 		for(IClass cls: model.getRoot().getSubClasses()){
@@ -239,13 +245,12 @@ public class GenerateModelOntology {
 	
 		// create new class
 		IClass tcls = modelParent.createSubClass(name);
-		if(source.getLabels().length == 0){
-			tcls.addLabel(source.getName());
-		}else{
-			for(String l: source.getLabels()){
-				tcls.addLabel(l);
-			}
-		}
+		tcls.addLabel(source.getName());
+		/*
+		for(String l: source.getLabels()){
+			tcls.addLabel(l);
+		}*/
+		
 		
 		// transfer all properties
 		/*for(IProperty p : source.getProperties()){
@@ -360,8 +365,9 @@ public class GenerateModelOntology {
 		String name = createNewResourceName(sp,target);
 		
 		// if property was already created then just return it
-		if(target.hasResource(name))
+		if(target.hasResource(name)){
 			return target.getProperty(name);
+		}
 		
 		//System.out.println("  copy "+sp.getName());
 		
@@ -382,7 +388,7 @@ public class GenerateModelOntology {
 			if(pp != null)
 				tp.addSuperProperty(pp);
 			if(p.getPropertyType() == IProperty.DATATYPE)
-				tp.removeSuperProperty(((OOntology)target).getTopDatatProperty());
+				tp.removeSuperProperty(((OOntology)target).getTopDataProperty());
 			else if(p.getPropertyType() == IProperty.OBJECT)
 				tp.removeSuperProperty(((OOntology)target).getTopObjectProperty());
 		}
@@ -427,10 +433,11 @@ public class GenerateModelOntology {
 		
 		
 		// recursively go into children
+		/*
 		for(IProperty cp : sp.getDirectSubProperties()){
 			copyProperty(cp, target);
 		}
-		
+		*/
 		
 		return tp;
 	}
@@ -466,8 +473,10 @@ public class GenerateModelOntology {
 		loadNameMap(target);
 		
 		// copy properties
-		copyProperty(source.getTopDatatProperty(),target);
-		copyProperty(source.getTopObjectProperty(),target);
+		for(IProperty p: source.getTopDataProperty().getSubProperties())
+			copyProperty(p,target);
+		for(IProperty p: source.getTopObjectProperty().getSubProperties())
+			copyProperty(p,target);
 		
 		
 		// copy classes

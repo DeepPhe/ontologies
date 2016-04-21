@@ -94,7 +94,7 @@ public class ConvertOntologyURIs {
 		for(IProperty p: sp.getDirectSuperProperties()){
 			tp.addSuperProperty(copyProperty(p, target));
 			if(p.getPropertyType() == IProperty.DATATYPE)
-				tp.removeSuperProperty(((OOntology)target).getTopDatatProperty());
+				tp.removeSuperProperty(((OOntology)target).getTopDataProperty());
 			else if(p.getPropertyType() == IProperty.OBJECT)
 				tp.removeSuperProperty(((OOntology)target).getTopObjectProperty());
 		}
