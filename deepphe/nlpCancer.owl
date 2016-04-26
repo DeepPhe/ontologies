@@ -25,7 +25,7 @@
     <Import>http://blulab.chpc.utah.edu/ontologies/v2/Schema.owl</Import>
     <Annotation>
         <AnnotationProperty abbreviatedIRI="owl:versionInfo"/>
-        <Literal datatypeIRI="&rdf;PlainLiteral">sprint9</Literal>
+        <Literal datatypeIRI="&rdf;PlainLiteral">sprint10</Literal>
     </Annotation>
     <Declaration>
         <Class IRI="#CancerPhenotype"/>
@@ -38,6 +38,9 @@
     </Declaration>
     <Declaration>
         <Class IRI="#FollowUpEpisode"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Generic_Cancer_Stage"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Model"/>
@@ -106,16 +109,34 @@
         <ObjectProperty IRI="#hasBiologicalProcess"/>
     </Declaration>
     <Declaration>
+        <ObjectProperty IRI="#hasCancerCellLine"/>
+    </Declaration>
+    <Declaration>
         <ObjectProperty IRI="#hasCancerStage"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#hasCancerType"/>
+        <ObjectProperty IRI="#hasClinicalMClassification"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasClinicalNClassification"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasClinicalTClassification"/>
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="#hasDiagnosis"/>
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="#hasExposure"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasGenericMClassification"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasGenericNClassification"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasGenericTClassification"/>
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="#hasHistologicType"/>
@@ -137,6 +158,15 @@
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="#hasOutcome"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasPathologicMClassification"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasPathologicNClassification"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasPathologicTClassification"/>
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="#hasPhenotype"/>
@@ -314,8 +344,8 @@
     <SubClassOf>
         <Class IRI="#Cancer"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="http://blulab.chpc.utah.edu/ontologies/v2/Schema.owl#hasStage"/>
-            <Class IRI="http://blulab.chpc.utah.edu/ontologies/v2/ConText.owl#Stage"/>
+            <ObjectProperty IRI="#hasDiagnosis"/>
+            <Class IRI="http://blulab.chpc.utah.edu/ontologies/v2/Schema.owl#Condition"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
@@ -384,6 +414,13 @@
     <SubClassOf>
         <Class IRI="#CancerPhenotype"/>
         <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasCancerCellLine"/>
+            <Class IRI="#CancerType"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CancerPhenotype"/>
+        <ObjectSomeValuesFrom>
             <ObjectProperty IRI="#hasCancerStage"/>
             <Class IRI="#CancerStage"/>
         </ObjectSomeValuesFrom>
@@ -391,8 +428,43 @@
     <SubClassOf>
         <Class IRI="#CancerPhenotype"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="#hasCancerType"/>
-            <Class IRI="#CancerType"/>
+            <ObjectProperty IRI="#hasClinicalMClassification"/>
+            <Class IRI="#M_Stage"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CancerPhenotype"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasClinicalNClassification"/>
+            <Class IRI="#N_Stage"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CancerPhenotype"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasClinicalTClassification"/>
+            <Class IRI="#T_Stage"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CancerPhenotype"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasGenericMClassification"/>
+            <Class IRI="#Generic_Distant_Metastasis_TNM_Finding"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CancerPhenotype"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasGenericNClassification"/>
+            <Class IRI="#Generic_Regional_Lymph_Nodes_TNM_Finding"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CancerPhenotype"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasGenericTClassification"/>
+            <Class IRI="#Generic_Primary_Tumor_TNM_Finding"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
@@ -405,13 +477,6 @@
     <SubClassOf>
         <Class IRI="#CancerPhenotype"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="#hasMClassification"/>
-            <Class IRI="#M_Stage"/>
-        </ObjectSomeValuesFrom>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#CancerPhenotype"/>
-        <ObjectSomeValuesFrom>
             <ObjectProperty IRI="#hasManifestation"/>
             <Class IRI="http://blulab.chpc.utah.edu/ontologies/v2/Schema.owl#Event"/>
         </ObjectSomeValuesFrom>
@@ -419,14 +484,21 @@
     <SubClassOf>
         <Class IRI="#CancerPhenotype"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="#hasNClassification"/>
+            <ObjectProperty IRI="#hasPathologicMClassification"/>
+            <Class IRI="#M_Stage"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CancerPhenotype"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasPathologicNClassification"/>
             <Class IRI="#N_Stage"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#CancerPhenotype"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="#hasTClassification"/>
+            <ObjectProperty IRI="#hasPathologicTClassification"/>
             <Class IRI="#T_Stage"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
@@ -542,6 +614,10 @@
         <Class IRI="http://blulab.chpc.utah.edu/ontologies/v2/Schema.owl#Episode"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#Generic_Cancer_Stage"/>
+        <Class IRI="#CancerStage"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#Generic_Distant_Metastasis_TNM_Finding"/>
         <Class IRI="#M_Stage"/>
     </SubClassOf>
@@ -610,16 +686,20 @@
         <Class IRI="#Generic_Distant_Metastasis_TNM_Finding"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#M1_Stage_Finding"/>
+        <Class IRI="#Generic_Distant_Metastasis_TNM_Finding"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#M1a_Stage_Finding"/>
-        <Class IRI="#Metastasis_stage_M1"/>
+        <Class IRI="#M1_Stage_Finding"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#M1b_Stage_Finding"/>
-        <Class IRI="#Metastasis_stage_M1"/>
+        <Class IRI="#M1_Stage_Finding"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#M1c_Stage_Finding"/>
-        <Class IRI="#Metastasis_stage_M1"/>
+        <Class IRI="#M1_Stage_Finding"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#MX_Stage_Finding"/>
@@ -636,10 +716,6 @@
     <SubClassOf>
         <Class IRI="#Marked"/>
         <Class IRI="http://blulab.chpc.utah.edu/ontologies/v2/ConText.owl#Severity"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Metastasis_stage_M1"/>
-        <Class IRI="#Generic_Distant_Metastasis_TNM_Finding"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Mexican"/>
@@ -1034,7 +1110,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Stage_0"/>
-        <Class IRI="#CancerStage"/>
+        <Class IRI="#Generic_Cancer_Stage"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Stage_0a"/>
@@ -1046,7 +1122,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Stage_1"/>
-        <Class IRI="#CancerStage"/>
+        <Class IRI="#Generic_Cancer_Stage"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Stage_1A"/>
@@ -1082,7 +1158,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Stage_2"/>
-        <Class IRI="#CancerStage"/>
+        <Class IRI="#Generic_Cancer_Stage"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Stage_2A"/>
@@ -1098,7 +1174,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Stage_3"/>
-        <Class IRI="#CancerStage"/>
+        <Class IRI="#Generic_Cancer_Stage"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Stage_3A"/>
@@ -1114,7 +1190,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Stage_4"/>
-        <Class IRI="#CancerStage"/>
+        <Class IRI="#Generic_Cancer_Stage"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Stage_4A"/>
@@ -1130,7 +1206,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Stage_5"/>
-        <Class IRI="#CancerStage"/>
+        <Class IRI="#Generic_Cancer_Stage"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Stage_IIIC1"/>
@@ -1343,6 +1419,13 @@
     <SubClassOf>
         <Class IRI="#Tumor"/>
         <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasDiagnosis"/>
+            <Class IRI="http://blulab.chpc.utah.edu/ontologies/v2/Schema.owl#Condition"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Tumor"/>
+        <ObjectSomeValuesFrom>
             <ObjectProperty IRI="#hasManifestation"/>
             <Class IRI="http://blulab.chpc.utah.edu/ontologies/v2/Schema.owl#Event"/>
         </ObjectSomeValuesFrom>
@@ -1410,7 +1493,7 @@
     <SubClassOf>
         <Class IRI="#TumorPhenotype"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="#hasCancerType"/>
+            <ObjectProperty IRI="#hasCancerCellLine"/>
             <Class IRI="#CancerType"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
@@ -1484,12 +1567,24 @@
         <ObjectProperty IRI="#hasPhenotypeComponent"/>
     </SubObjectPropertyOf>
     <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasCancerCellLine"/>
+        <ObjectProperty IRI="#hasManifestation"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
         <ObjectProperty IRI="#hasCancerStage"/>
         <ObjectProperty IRI="#hasManifestation"/>
     </SubObjectPropertyOf>
     <SubObjectPropertyOf>
-        <ObjectProperty IRI="#hasCancerType"/>
-        <ObjectProperty IRI="#hasManifestation"/>
+        <ObjectProperty IRI="#hasClinicalMClassification"/>
+        <ObjectProperty IRI="#hasMClassification"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasClinicalNClassification"/>
+        <ObjectProperty IRI="#hasNClassification"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasClinicalTClassification"/>
+        <ObjectProperty IRI="#hasTClassification"/>
     </SubObjectPropertyOf>
     <SubObjectPropertyOf>
         <ObjectProperty IRI="#hasDiagnosis"/>
@@ -1498,6 +1593,18 @@
     <SubObjectPropertyOf>
         <ObjectProperty IRI="#hasExposure"/>
         <ObjectProperty IRI="#hasBiologicalProcess"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasGenericMClassification"/>
+        <ObjectProperty IRI="#hasMClassification"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasGenericNClassification"/>
+        <ObjectProperty IRI="#hasNClassification"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasGenericTClassification"/>
+        <ObjectProperty IRI="#hasTClassification"/>
     </SubObjectPropertyOf>
     <SubObjectPropertyOf>
         <ObjectProperty IRI="#hasHistologicType"/>
@@ -1526,6 +1633,18 @@
     <SubObjectPropertyOf>
         <ObjectProperty IRI="#hasOutcome"/>
         <ObjectProperty IRI="#hasSummaryRelation"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasPathologicMClassification"/>
+        <ObjectProperty IRI="#hasMClassification"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasPathologicNClassification"/>
+        <ObjectProperty IRI="#hasNClassification"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasPathologicTClassification"/>
+        <ObjectProperty IRI="#hasTClassification"/>
     </SubObjectPropertyOf>
     <SubObjectPropertyOf>
         <ObjectProperty IRI="#hasPhenotype"/>
@@ -1592,20 +1711,44 @@
         <Class IRI="http://blulab.chpc.utah.edu/ontologies/v2/Schema.owl#Procedure"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasCancerCellLine"/>
+        <Class IRI="#CancerPhenotype"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasCancerCellLine"/>
+        <Class IRI="#TumorPhenotype"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
         <ObjectProperty IRI="#hasCancerStage"/>
         <Class IRI="#CancerPhenotype"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
-        <ObjectProperty IRI="#hasCancerType"/>
+        <ObjectProperty IRI="#hasClinicalMClassification"/>
         <Class IRI="#CancerPhenotype"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
-        <ObjectProperty IRI="#hasCancerType"/>
-        <Class IRI="#TumorPhenotype"/>
+        <ObjectProperty IRI="#hasClinicalNClassification"/>
+        <Class IRI="#CancerPhenotype"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasClinicalTClassification"/>
+        <Class IRI="#CancerPhenotype"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#hasDiagnosis"/>
         <Class IRI="http://blulab.chpc.utah.edu/ontologies/v2/Schema.owl#Patient"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasGenericMClassification"/>
+        <Class IRI="#CancerPhenotype"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasGenericNClassification"/>
+        <Class IRI="#CancerPhenotype"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasGenericTClassification"/>
+        <Class IRI="#CancerPhenotype"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#hasMClassification"/>
@@ -1638,6 +1781,18 @@
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#hasOutcome"/>
         <Class IRI="#Tumor"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasPathologicMClassification"/>
+        <Class IRI="#CancerPhenotype"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasPathologicNClassification"/>
+        <Class IRI="#CancerPhenotype"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasPathologicTClassification"/>
+        <Class IRI="#CancerPhenotype"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#hasPhenotype"/>
@@ -1700,12 +1855,12 @@
         <Class IRI="#Cancer"/>
     </ObjectPropertyDomain>
     <ObjectPropertyRange>
-        <ObjectProperty IRI="#hasCancerStage"/>
-        <Class IRI="#CancerStage"/>
+        <ObjectProperty IRI="#hasCancerCellLine"/>
+        <Class IRI="#CancerType"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
-        <ObjectProperty IRI="#hasCancerType"/>
-        <Class IRI="#CancerType"/>
+        <ObjectProperty IRI="#hasCancerStage"/>
+        <Class IRI="#CancerStage"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
         <ObjectProperty IRI="#hasDiagnosis"/>
@@ -1714,6 +1869,18 @@
     <ObjectPropertyRange>
         <ObjectProperty IRI="#hasDiagnosis"/>
         <Class IRI="#Tumor"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasGenericMClassification"/>
+        <Class IRI="#Generic_Distant_Metastasis_TNM_Finding"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasGenericNClassification"/>
+        <Class IRI="#Generic_Regional_Lymph_Nodes_TNM_Finding"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasGenericTClassification"/>
+        <Class IRI="#Generic_Primary_Tumor_TNM_Finding"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
         <ObjectProperty IRI="#hasMClassification"/>
@@ -4459,6 +4626,11 @@
         <Literal datatypeIRI="&xsd;string">Fluctuating (qualifier value)</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Generic_Cancer_Stage</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Generic Cancer Stage</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#alternateCode"/>
         <IRI>#Generic_Distant_Metastasis_TNM_Finding</IRI>
         <Literal datatypeIRI="&xsd;string">C48883 [NCI]</Literal>
@@ -6090,6 +6262,126 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#alternateCode"/>
+        <IRI>#M1_Stage_Finding</IRI>
+        <Literal datatypeIRI="&xsd;string">55440008 [SNOMEDCT_US]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#alternateCode"/>
+        <IRI>#M1_Stage_Finding</IRI>
+        <Literal datatypeIRI="&xsd;string">C48700 [NCI]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#alternateCode"/>
+        <IRI>#M1_Stage_Finding</IRI>
+        <Literal datatypeIRI="&xsd;string">NOCODE [MTH]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#alternateCode"/>
+        <IRI>#M1_Stage_Finding</IRI>
+        <Literal datatypeIRI="&xsd;string">RID39295 [RADLEX]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#code"/>
+        <IRI>#M1_Stage_Finding</IRI>
+        <Literal datatypeIRI="&xsd;string">C0441971</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#definition"/>
+        <IRI>#M1_Stage_Finding</IRI>
+        <Literal datatypeIRI="&xsd;string">A clinical and/or pathologic distant metastasis TNM finding indicating the spread of cancer to distant anatomic sites.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#preferredTerm"/>
+        <IRI>#M1_Stage_Finding</IRI>
+        <Literal datatypeIRI="&xsd;string">Metastasis stage M1</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#semanticType"/>
+        <IRI>#M1_Stage_Finding</IRI>
+        <Literal datatypeIRI="&xsd;string">Finding</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#synonym"/>
+        <IRI>#M1_Stage_Finding</IRI>
+        <Literal datatypeIRI="&xsd;string">M1</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#synonym"/>
+        <IRI>#M1_Stage_Finding</IRI>
+        <Literal datatypeIRI="&xsd;string">M1 Cancer Stage Finding</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#synonym"/>
+        <IRI>#M1_Stage_Finding</IRI>
+        <Literal datatypeIRI="&xsd;string">M1 Distant Metastasis Finding</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#synonym"/>
+        <IRI>#M1_Stage_Finding</IRI>
+        <Literal datatypeIRI="&xsd;string">M1 Distant Metastasis Stage Finding</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#synonym"/>
+        <IRI>#M1_Stage_Finding</IRI>
+        <Literal datatypeIRI="&xsd;string">M1 Metastasis Finding</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#synonym"/>
+        <IRI>#M1_Stage_Finding</IRI>
+        <Literal datatypeIRI="&xsd;string">M1 Metastasis Stage</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#synonym"/>
+        <IRI>#M1_Stage_Finding</IRI>
+        <Literal datatypeIRI="&xsd;string">M1 Stage</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#synonym"/>
+        <IRI>#M1_Stage_Finding</IRI>
+        <Literal datatypeIRI="&xsd;string">M1 Stage Finding</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#synonym"/>
+        <IRI>#M1_Stage_Finding</IRI>
+        <Literal datatypeIRI="&xsd;string">M1 TNM Finding</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#synonym"/>
+        <IRI>#M1_Stage_Finding</IRI>
+        <Literal datatypeIRI="&xsd;string">M1 category</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#synonym"/>
+        <IRI>#M1_Stage_Finding</IRI>
+        <Literal datatypeIRI="&xsd;string">M1 category (finding)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#synonym"/>
+        <IRI>#M1_Stage_Finding</IRI>
+        <Literal datatypeIRI="&xsd;string">M1 distant metastasis stage</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#synonym"/>
+        <IRI>#M1_Stage_Finding</IRI>
+        <Literal datatypeIRI="&xsd;string">M1 stage</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#synonym"/>
+        <IRI>#M1_Stage_Finding</IRI>
+        <Literal datatypeIRI="&xsd;string">Metastasis Stage M1</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#synonym"/>
+        <IRI>#M1_Stage_Finding</IRI>
+        <Literal datatypeIRI="&xsd;string">Metastasis stage M1</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#M1_Stage_Finding</IRI>
+        <Literal datatypeIRI="&xsd;string">Metastasis stage M1</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#alternateCode"/>
         <IRI>#M1a_Stage_Finding</IRI>
         <Literal datatypeIRI="&xsd;string">261927002 [SNOMEDCT_US]</Literal>
     </AnnotationAssertion>
@@ -6912,126 +7204,6 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#Marked</IRI>
         <Literal datatypeIRI="&xsd;string">Marked</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#alternateCode"/>
-        <IRI>#Metastasis_stage_M1</IRI>
-        <Literal datatypeIRI="&xsd;string">55440008 [SNOMEDCT_US]</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#alternateCode"/>
-        <IRI>#Metastasis_stage_M1</IRI>
-        <Literal datatypeIRI="&xsd;string">C48700 [NCI]</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#alternateCode"/>
-        <IRI>#Metastasis_stage_M1</IRI>
-        <Literal datatypeIRI="&xsd;string">NOCODE [MTH]</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#alternateCode"/>
-        <IRI>#Metastasis_stage_M1</IRI>
-        <Literal datatypeIRI="&xsd;string">RID39295 [RADLEX]</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#code"/>
-        <IRI>#Metastasis_stage_M1</IRI>
-        <Literal datatypeIRI="&xsd;string">C0441971</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#definition"/>
-        <IRI>#Metastasis_stage_M1</IRI>
-        <Literal datatypeIRI="&xsd;string">A clinical and/or pathologic distant metastasis TNM finding indicating the spread of cancer to distant anatomic sites.</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#preferredTerm"/>
-        <IRI>#Metastasis_stage_M1</IRI>
-        <Literal datatypeIRI="&xsd;string">Metastasis stage M1</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#semanticType"/>
-        <IRI>#Metastasis_stage_M1</IRI>
-        <Literal datatypeIRI="&xsd;string">Finding</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#synonym"/>
-        <IRI>#Metastasis_stage_M1</IRI>
-        <Literal datatypeIRI="&xsd;string">M1</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#synonym"/>
-        <IRI>#Metastasis_stage_M1</IRI>
-        <Literal datatypeIRI="&xsd;string">M1 Cancer Stage Finding</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#synonym"/>
-        <IRI>#Metastasis_stage_M1</IRI>
-        <Literal datatypeIRI="&xsd;string">M1 Distant Metastasis Finding</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#synonym"/>
-        <IRI>#Metastasis_stage_M1</IRI>
-        <Literal datatypeIRI="&xsd;string">M1 Distant Metastasis Stage Finding</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#synonym"/>
-        <IRI>#Metastasis_stage_M1</IRI>
-        <Literal datatypeIRI="&xsd;string">M1 Metastasis Finding</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#synonym"/>
-        <IRI>#Metastasis_stage_M1</IRI>
-        <Literal datatypeIRI="&xsd;string">M1 Metastasis Stage</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#synonym"/>
-        <IRI>#Metastasis_stage_M1</IRI>
-        <Literal datatypeIRI="&xsd;string">M1 Stage</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#synonym"/>
-        <IRI>#Metastasis_stage_M1</IRI>
-        <Literal datatypeIRI="&xsd;string">M1 Stage Finding</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#synonym"/>
-        <IRI>#Metastasis_stage_M1</IRI>
-        <Literal datatypeIRI="&xsd;string">M1 TNM Finding</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#synonym"/>
-        <IRI>#Metastasis_stage_M1</IRI>
-        <Literal datatypeIRI="&xsd;string">M1 category</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#synonym"/>
-        <IRI>#Metastasis_stage_M1</IRI>
-        <Literal datatypeIRI="&xsd;string">M1 category (finding)</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#synonym"/>
-        <IRI>#Metastasis_stage_M1</IRI>
-        <Literal datatypeIRI="&xsd;string">M1 distant metastasis stage</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#synonym"/>
-        <IRI>#Metastasis_stage_M1</IRI>
-        <Literal datatypeIRI="&xsd;string">M1 stage</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#synonym"/>
-        <IRI>#Metastasis_stage_M1</IRI>
-        <Literal datatypeIRI="&xsd;string">Metastasis Stage M1</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#synonym"/>
-        <IRI>#Metastasis_stage_M1</IRI>
-        <Literal datatypeIRI="&xsd;string">Metastasis stage M1</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#Metastasis_stage_M1</IRI>
-        <Literal datatypeIRI="&xsd;string">Metastasis stage M1</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#alternateCode"/>
