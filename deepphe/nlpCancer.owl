@@ -19,25 +19,223 @@
         <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">sprint10</Literal>
     </Annotation>
     <Declaration>
-        <ObjectProperty IRI="#hasNValue"/>
+        <Class IRI="#Outcome_Death"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#hasPathologicMClassification"/>
+        <Class IRI="#T4_Stage_Finding"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#hasClinicalNClassification"/>
+        <Class IRI="#N1bI_Stage_Finding"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Stage_1A2"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Unknown"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Slightly_worse"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasTumorExtent"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Cyclical_relapsing"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Central_American"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#T1a1_Stage_Finding"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Bilateral"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Stage_3B"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Mexican_American"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Better"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#M1a_Stage_Finding"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasCancerStage"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Secondary_to"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Stage_4"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PatientPhenotype"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#In_Situ_Lesion"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasPhenotype"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#N_Stage"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasGenericNClassification"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#T_Stage"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TumorPhenotype"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TreatmentEpisode"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#realizes"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#T4d_Stage_Finding"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Stage_2A"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#N1b_Stage_Finding"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Stage_3C"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#T3b_Stage_Finding"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#T3c_Stage_Finding"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Stage_5"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#N1c_Stage_Finding"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasCancerCellLine"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#HistologicType"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Chronic_granulomatous"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasClinicalTClassification"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#T2a_Stage_Finding"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TNM_Staging_System"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Mild"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Stage_2B"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Not_Hispanic_or_Latino"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasClinicalMClassification"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Recurrent_acute"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#T1mic_Stage_Finding"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Stage_2"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#T1a2_Stage_Finding"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#M1b_Stage_Finding"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Boost"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasGenericTClassification"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Chronic_migratory"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Disease_Free_Survival"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#N4_Stage_Finding"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Definitely_Worse"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#M1_Stage_Finding"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasNClassification"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Stage_2C"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PrimaryEpisode"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Stage_1A"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Possibly_Worse"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Stage_3"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasAbatementDate"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Much_Better"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Stabilization_of_status"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Intermittent"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Invasive_Lesion"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasSideEffect"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Mexican"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Seasonal_course"/>
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="#hasOutcome"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#hasTNMValue"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#hasExposure"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#hasTumorExtent"/>
+        <Class IRI="#Event_Free_Survival"/>
     </Declaration>
     <Declaration>
         <AnnotationProperty IRI="#ignore"/>
@@ -46,328 +244,10 @@
         <ObjectProperty IRI="#hasBiologicalProcess"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#hasTNMClassification"/>
+        <Class IRI="#T4c_Stage_Finding"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#hasCancerStage"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#hasGenericMClassification"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#hasHistologicType"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#DiagnosticEpisode"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#TNM_Modifier"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#hasPathologicTClassification"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#hasTNMPrefix"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#hasSummaryRelation"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#hasTNMSuffix"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#PatientPhenotype"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#hasPhenotype"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#hasGenericNClassification"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Patient"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#TumorPhenotype"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#realizes"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#TreatmentEpisode"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#hasTClassification"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#hasTumorType"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#hasPhenotypeComponent"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Generic_Cancer_Stage"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#hasDiagnosis"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#OtherTherapeuticProcedure"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#hasTreatment"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#hasSequenceVariant"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#CancerType"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#hasCancerCellLine"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#c_modifier"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#hasMClassification"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#hasManifestation"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#hasClinicalTClassification"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#TumorExtent"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#OtherDiagnositcProcedure"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#CancerPhenotype"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#PrediagnosticEpisode"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#hasClinicalMClassification"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Model"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#RecurrenceEpisode"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#realized_in"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Phenotype"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#OtherMedication"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#hasGenericTClassification"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#p_modifier"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#hasMValue"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#FollowUpEpisode"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#hasTNMModifier"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#hasNClassification"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#TumorType"/>
-    </Declaration>
-    <Declaration>
-        <AnnotationProperty IRI="#hasModel"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#PrimaryEpisode"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#OtherBodySite"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#hasPathologicNClassification"/>
-    </Declaration>
-    <Declaration>
-        <DataProperty IRI="#hasAbatementDate"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#hasSideEffect"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#hasTValue"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#StagingEpisode"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#N0Stage_Finding"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#N2b_Stage_Finding"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#M1a_Stage_Finding"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Stabilization_of_status"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#T1mic_Stage_Finding"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Microinvasive_Lesion"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Unstable_status"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Severe"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#N3a_Stage_Finding"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#T3a_Stage_Finding"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#N1bIV_Stage_Finding"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Stage_5"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Right"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Stage_4"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Outcome_Death"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#N1c_Stage_Finding"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Minimum"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Low"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#TNM_Staging_System"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#N0_Stage_Finding"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#NX_Stage_Finding"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Stage_1"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Stage_0"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Stage_3"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Stage_2"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Bilateral"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#M0_Stage_Finding"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#T1_Stage_Finding"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Chronic_migratory"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#T1b_Stage_Finding"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#PrimaryTumor"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Cyclical_relapsing"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Recurrent"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Minimally_Invasive_Lesion"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#N1bIII_Stage_Finding"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#N1b_Stage_Finding"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Other_Hispanic_or_Latino"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Stage_1C"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#acute"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#T3b_Stage_Finding"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Chronic_active"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#T0_Stage_Finding"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Multiple_Hispanic"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Stage_IVS"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#M1_Stage_Finding"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Indeterminate"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Widely_Invasive_Lesion"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#N3b_Stage_Finding"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Male_Gender"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Increase"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Stage_1A"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Disease_Free_Survival"/>
+        <Class IRI="#N1bII_Stage_Finding"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Stage_0a"/>
@@ -376,397 +256,520 @@
         <Class IRI="#Stage_1B"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#High"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Much_Worse"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Continual"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Stage_1m"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Negative"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#T4d_Stage_Finding"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#T1a2_Stage_Finding"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Localized"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#N1_Stage_Finding"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Stage_2A"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Stage_2B"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Stage_2C"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Puerto_Rican"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Tis_Stage_Finding"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#N4_Stage_Finding"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Chronic_persistent"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Hispanic_or_Latino"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#T_Stage"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Chronic_granulomatous"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Stage_3A"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Sephardic_Jew"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Stage_3B"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Stage_3C"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#No_status_change"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#T4a_Stage_Finding"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Somewhat_Worse"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Marked"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#N3_Stage_Finding"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Net_Survival"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#CancerStage"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Worse"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Stage_4A"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Cuban_or_Cuban_American"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Stage_4B"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Stage_4C"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Mexican_or_Mexican_American"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Mexican_American"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#LocalRecurrence"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#T4b_Stage_Finding"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Possibly_Better"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Chronic_miliary"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Boost"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#N1bI_Stage_Finding"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#T4c_Stage_Finding"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Stage_0is"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#T1a1_Stage_Finding"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#N2_Stage_Finding"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Definitely_Worse"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Event_Free_Survival"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Mexican"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Crude_Survival"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Decreased"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Mild"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Not_Hispanic_or_Latino"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Stage_1A2"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Stage_1A1"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Equivocal"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Left"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#T3b1_Stage_Finding"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Possibly_Worse"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#In_Situ_Lesion"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Progression_free_Survival"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Moderate"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Stage_1B1"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Stage_1B2"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Cuban"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Remitting"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#T3_Stage_Finding"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Tumor"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#T3c_Stage_Finding"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Chronic_aggressive"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Invasive_Lesion"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#N3c_Stage_Finding"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#N1bII_Stage_Finding"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#N1mi_Stage_Finding"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#T2_Stage_Finding"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Ashkenazi_Jew"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#hyperacute"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#DistantRecurrence"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#T1b2_Stage_Finding"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Weakly_positive"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#N1a_Stage_Finding"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Aggressive_course"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Secondary_to"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Fluctuating"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#T1a_Stage_Finding"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Seasonal_course"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Relapsing_course"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#HistologicType"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Acute_on_chronic"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Recurrent_acute"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Better"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#N_Stage"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#T1b1_Stage_Finding"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#T2c_Stage_Finding"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#T4_Stage_Finding"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Stage_Is"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#T3b2_Stage_Finding"/>
+        <Class IRI="#N0Stage_Finding"/>
     </Declaration>
     <Declaration>
         <Class IRI="#N2c_Stage_Finding"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Positive"/>
+        <ObjectProperty IRI="#hasGenericMClassification"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Progressive"/>
+        <Class IRI="#T1c_Stage_Finding"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#MX_Stage_Finding"/>
+        <Class IRI="#N3b_Stage_Finding"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Paroxysmal"/>
+        <Class IRI="#Much_Worse"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Generic_Regional_Lymph_Nodes_TNM_Finding"/>
+        <Class IRI="#Stage_0"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Stage_Is"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Stage_1B1"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Spanish"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Stage_IIIC1"/>
+        <Class IRI="#T3a_Stage_Finding"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Stage_IIIC2"/>
+        <ObjectProperty IRI="#hasTClassification"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Indolent"/>
+        <Class IRI="#Stage_0is"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Observed_Survival"/>
+        <Class IRI="#Stage_IVS"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Recurrent_Tumor"/>
+        <Class IRI="#Tis_Stage_Finding"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#TX_Stage_Finding"/>
+        <ObjectProperty IRI="#hasTumorType"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Generic_Primary_Tumor_TNM_Finding"/>
+        <Class IRI="#Generic_Cancer_Stage"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#M1c_Stage_Finding"/>
+        <Class IRI="#OtherTherapeuticProcedure"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Generic_Distant_Metastasis_TNM_Finding"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Central_American"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#RegionalRecurrence"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#M_Stage"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Female_Gender"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Episodic"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#M1b_Stage_Finding"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Much_Better"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#N2a_Stage_Finding"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Cancer"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#T2a_Stage_Finding"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Slightly_worse"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Somewhat_Better"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Intermittent"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#chronic"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#T2b_Stage_Finding"/>
+        <Class IRI="#Stage_1C"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Definitely_Better"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Unknown"/>
+        <Class IRI="#Minimum"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Stage_1"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CancerType"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Hispanic_or_Latino"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Stage_1B2"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Chronic_persistent"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasMClassification"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CancerStage"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Decreased"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Positive"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#N3a_Stage_Finding"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OtherDiagnositcProcedure"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Progressive"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Generic_Distant_Metastasis_TNM_Finding"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Somewhat_Better"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Stage_1A1"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Phenotype"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Cuban"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#N1bIII_Stage_Finding"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#N3_Stage_Finding"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Continual"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Marked"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#T3_Stage_Finding"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasPathologicNClassification"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Chronic_miliary"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#No_status_change"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasTValue"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#StagingEpisode"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasNValue"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Indolent"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Stage_IIIC1"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Sephardic_Jew"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#T1_Stage_Finding"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#N1_Stage_Finding"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#hyperacute"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Mexican_or_Mexican_American"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Equivocal"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TNM_Modifier"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Weakly_positive"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasTNMSuffix"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasDiagnosis"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Widely_Invasive_Lesion"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Acute_on_chronic"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#High"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Possibly_Better"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Remitting"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#RegionalRecurrence"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Female_Gender"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#T4b_Stage_Finding"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#N0_Stage_Finding"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#LocalRecurrence"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#T0_Stage_Finding"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#T1b1_Stage_Finding"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Observed_Survival"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TumorExtent"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Left"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#T1b_Stage_Finding"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Negative"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Other_Hispanic_or_Latino"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#T3b2_Stage_Finding"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TX_Stage_Finding"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NX_Stage_Finding"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#chronic"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Net_Survival"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#N2_Stage_Finding"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Model"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Episodic"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Puerto_Rican"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#T2c_Stage_Finding"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Chronic_active"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#T2_Stage_Finding"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Worse"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Stage_IIIC2"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Multiple_Hispanic"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Somewhat_Worse"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#p_modifier"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Crude_Survival"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Indeterminate"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TumorType"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="#hasModel"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#N2a_Stage_Finding"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#acute"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasPathologicMClassification"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DistantRecurrence"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasClinicalNClassification"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasTNMValue"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasExposure"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Generic_Primary_Tumor_TNM_Finding"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MX_Stage_Finding"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#T2b_Stage_Finding"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasTNMClassification"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Male_Gender"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Paroxysmal"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#N1bIV_Stage_Finding"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Tumor"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Recurrent"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasHistologicType"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DiagnosticEpisode"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasPathologicTClassification"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasTNMPrefix"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#N1a_Stage_Finding"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasSummaryRelation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Ashkenazi_Jew"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Localized"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Patient"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Stage_4A"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Severe"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasPhenotypeComponent"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasTreatment"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasSequenceVariant"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Microinvasive_Lesion"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Stage_1m"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Chronic_aggressive"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PrimaryTumor"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#c_modifier"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Increase"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#N2b_Stage_Finding"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasManifestation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Moderate"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CancerPhenotype"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Fluctuating"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Relapsing_course"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PrediagnosticEpisode"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Stage_4B"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#RecurrenceEpisode"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Unstable_status"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Cuban_or_Cuban_American"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#realized_in"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#T3b1_Stage_Finding"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OtherMedication"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Recurrent_Tumor"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#N1mi_Stage_Finding"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Low"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#M_Stage"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Progression_free_Survival"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#N3c_Stage_Finding"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Generic_Regional_Lymph_Nodes_TNM_Finding"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#M0_Stage_Finding"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasMValue"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FollowUpEpisode"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Right"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Minimally_Invasive_Lesion"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasTNMModifier"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Stage_4C"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Stage_3A"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Cancer"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#M1c_Stage_Finding"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#T1b2_Stage_Finding"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OtherBodySite"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Aggressive_course"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#T4a_Stage_Finding"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#T1a_Stage_Finding"/>
     </Declaration>
     <SubClassOf>
         <Class IRI="http://blulab.chpc.utah.edu/ontologies/v2/Schema.owl#Composition"/>
@@ -1804,6 +1807,10 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#T1b_Stage_Finding"/>
+        <Class IRI="#T1_Stage_Finding"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#T1c_Stage_Finding"/>
         <Class IRI="#T1_Stage_Finding"/>
     </SubClassOf>
     <SubClassOf>
@@ -15493,6 +15500,31 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#T1b_Stage_Finding</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">T1b Stage Finding</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#preferredTerm"/>
+        <IRI>#T1c_Stage_Finding</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">T1c Stage Finding</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#synonym"/>
+        <IRI>#T1c_Stage_Finding</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Stage T1c</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#synonym"/>
+        <IRI>#T1c_Stage_Finding</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">T1c</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#synonym"/>
+        <IRI>#T1c_Stage_Finding</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Tumor stage T1c</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#T1c_Stage_Finding</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">T1c Stage Finding</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#alternateCode"/>
