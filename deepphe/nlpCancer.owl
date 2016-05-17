@@ -6,7 +6,7 @@
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      ontologyIRI="http://ontologies.dbmi.pitt.edu/deepphe/nlpCancer.owl">
-    <Prefix name="" IRI="http://ontologies.dbmi.pitt.edu/deepphe/nlpCancer.owl#"/>
+    <Prefix name="" IRI="http://ontologies.dbmi.pitt.edu/deepphe/nlpCancer.owl"/>
     <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
     <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
     <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
@@ -6892,7 +6892,7 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#M1_Stage_Finding</IRI>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Metastasis stage M1</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">M1 Stage Finding</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#alternateCode"/>
