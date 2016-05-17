@@ -256,9 +256,6 @@
         <Class IRI="#Stage_1B"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#N0Stage_Finding"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="#N2c_Stage_Finding"/>
     </Declaration>
     <Declaration>
@@ -1313,10 +1310,6 @@
     <SubClassOf>
         <Class IRI="#Multiple_Hispanic"/>
         <Class IRI="#Hispanic_or_Latino"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#N0Stage_Finding"/>
-        <Class IRI="#N0_Stage_Finding"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#N0_Stage_Finding"/>
@@ -8720,41 +8713,6 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#Multiple_Hispanic</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Multiple Hispanic</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#alternateCode"/>
-        <IRI>#N0Stage_Finding</IRI>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">C95921 [NCI]</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#code"/>
-        <IRI>#N0Stage_Finding</IRI>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">C3272440</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#definition"/>
-        <IRI>#N0Stage_Finding</IRI>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">A regional lymph node TNM finding indicating that there is no evidence of regional lymph node metastasis histologically, and immunohistochemistry is negative.</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#preferredTerm"/>
-        <IRI>#N0Stage_Finding</IRI>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">N0 (i-) Stage Finding</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#semanticType"/>
-        <IRI>#N0Stage_Finding</IRI>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Finding</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#synonym"/>
-        <IRI>#N0Stage_Finding</IRI>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">N0 (i-) Stage Finding</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#N0Stage_Finding</IRI>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">N0 (i-) Stage Finding</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#alternateCode"/>
