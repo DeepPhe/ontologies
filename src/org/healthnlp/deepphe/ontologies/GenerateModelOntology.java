@@ -8,6 +8,7 @@ import java.net.URISyntaxException;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Iterator;
+import java.util.LinkedHashMap;
 import java.util.List;
 import java.util.Map;
 
@@ -20,7 +21,16 @@ public class GenerateModelOntology {
 	public static final String BASE_URL_PREFIX = "http://ontologies.dbmi.pitt.edu";
 	private Map<IOntology,IProperty> seeAlsoMap;
 	private Map<String,String> model2name,name2model;
+	
+	// some exceptional mappings between NLP and model ontologies
+	private static final Map<String,String> equivalenceMap = new LinkedHashMap<String, String>();
+	static{
+		equivalenceMap.put("MedicationStatement","Medication");
+	}
+	
 	private int index;
+	
+	
 	
 	public static void main(String[] args) throws Exception {
 		
@@ -32,7 +42,7 @@ public class GenerateModelOntology {
 		
 		GenerateModelOntology gm = new GenerateModelOntology();
 		System.out.println("creating model ..");
-		//gm.convertModel(sourceCancer,modelCancer);
+		gm.convertModel(sourceCancer,modelCancer);
 		System.out.println("creating domain model ..");
 		gm.convertDomainOntology(sourceBreastCancer,targetBreastCancer, modelCancer);
 		System.out.println("done");
@@ -72,11 +82,8 @@ public class GenerateModelOntology {
 		
 		// load name
 		loadNameMap(model);
-		
-		// copy properties
-		copyProperty(source.getTopDatatProperty(),model);
-		copyProperty(source.getTopObjectProperty(),model);
-		
+	
+			
 		// copy classes
 		for(IClass cls : source.getRoot().getDirectSubClasses())
 			copyDomainClass(cls,model);
@@ -95,7 +102,16 @@ public class GenerateModelOntology {
 				}
 			}
 		}
-			
+
+		//copy properties
+		for(IProperty p: source.getTopDataProperty().getSubProperties())
+			copyProperty(p,model);
+		
+		// copy properties
+		for(IProperty p: source.getTopObjectProperty().getSubProperties())
+			copyProperty(p,model);
+				
+		
 		
 		// copy restrictions
 		for(IClass cls: model.getRoot().getSubClasses()){
@@ -239,13 +255,12 @@ public class GenerateModelOntology {
 	
 		// create new class
 		IClass tcls = modelParent.createSubClass(name);
-		if(source.getLabels().length == 0){
-			tcls.addLabel(source.getName());
-		}else{
-			for(String l: source.getLabels()){
-				tcls.addLabel(l);
-			}
-		}
+		tcls.addLabel(source.getName());
+		/*
+		for(String l: source.getLabels()){
+			tcls.addLabel(l);
+		}*/
+		
 		
 		// transfer all properties
 		/*for(IProperty p : source.getProperties()){
@@ -360,8 +375,9 @@ public class GenerateModelOntology {
 		String name = createNewResourceName(sp,target);
 		
 		// if property was already created then just return it
-		if(target.hasResource(name))
+		if(target.hasResource(name)){
 			return target.getProperty(name);
+		}
 		
 		//System.out.println("  copy "+sp.getName());
 		
@@ -382,7 +398,7 @@ public class GenerateModelOntology {
 			if(pp != null)
 				tp.addSuperProperty(pp);
 			if(p.getPropertyType() == IProperty.DATATYPE)
-				tp.removeSuperProperty(((OOntology)target).getTopDatatProperty());
+				tp.removeSuperProperty(((OOntology)target).getTopDataProperty());
 			else if(p.getPropertyType() == IProperty.OBJECT)
 				tp.removeSuperProperty(((OOntology)target).getTopObjectProperty());
 		}
@@ -427,10 +443,11 @@ public class GenerateModelOntology {
 		
 		
 		// recursively go into children
+		/*
 		for(IProperty cp : sp.getDirectSubProperties()){
 			copyProperty(cp, target);
 		}
-		
+		*/
 		
 		return tp;
 	}
@@ -466,8 +483,10 @@ public class GenerateModelOntology {
 		loadNameMap(target);
 		
 		// copy properties
-		copyProperty(source.getTopDatatProperty(),target);
-		copyProperty(source.getTopObjectProperty(),target);
+		for(IProperty p: source.getTopDataProperty().getSubProperties())
+			copyProperty(p,target);
+		for(IProperty p: source.getTopObjectProperty().getSubProperties())
+			copyProperty(p,target);
 		
 		
 		// copy classes
@@ -498,6 +517,18 @@ public class GenerateModelOntology {
 			IClass targetClass = target.getClass(getModelName(parentName));
 			if(targetClass != null){
 				copyClass(source,targetClass);
+			}
+		}else{
+			// some special cases s.a. MedicationStatement = Medication
+			for(String nlpClassName: equivalenceMap.keySet()){
+				String modelClassName = equivalenceMap.get(nlpClassName);
+				IClass medSt = source.getOntology().getClass(nlpClassName);
+				if(source.hasDirectSuperClass(medSt)){
+					IClass targetClass = target.getClass(getModelName(modelClassName));
+					if(targetClass != null){
+						copyClass(source,targetClass);
+					}
+				}
 			}
 		}
 		
