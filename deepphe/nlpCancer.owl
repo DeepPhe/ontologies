@@ -16,7 +16,7 @@
     <Import>http://blulab.chpc.utah.edu/ontologies/v2/Schema.owl</Import>
     <Annotation>
         <AnnotationProperty abbreviatedIRI="owl:versionInfo"/>
-        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">sprint10</Literal>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">sprint11</Literal>
     </Annotation>
     <Declaration>
         <Class IRI="#Outcome_Death"/>
@@ -115,6 +115,9 @@
         <Class IRI="#T3b_Stage_Finding"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#Clinical_Distant_Metastasis_TNM_Finding"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#T3c_Stage_Finding"/>
     </Declaration>
     <Declaration>
@@ -158,6 +161,9 @@
     </Declaration>
     <Declaration>
         <Class IRI="#T1mic_Stage_Finding"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Pathologic_Primary_Tumor_TNM_Finding"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Stage_2"/>
@@ -230,6 +236,9 @@
     </Declaration>
     <Declaration>
         <Class IRI="#Seasonal_course"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Clinical_Primary_Tumor_TNM_Finding"/>
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="#hasOutcome"/>
@@ -409,6 +418,9 @@
         <Class IRI="#Sephardic_Jew"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#Neoplasm"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#T1_Stage_Finding"/>
     </Declaration>
     <Declaration>
@@ -428,6 +440,9 @@
     </Declaration>
     <Declaration>
         <Class IRI="#Weakly_positive"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Pathologic_Distant_Metastasis_TNM_Finding"/>
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="#hasTNMSuffix"/>
@@ -625,7 +640,13 @@
         <Class IRI="#Localized"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#Clinical_Regional_Lymph_Nodes_TNM_Finding"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#Patient"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Pathologic_Regional_Lymph_Nodes_TNM_Finding"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Stage_4A"/>
@@ -767,9 +788,6 @@
     </Declaration>
     <Declaration>
         <Class IRI="#T1a_Stage_Finding"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Neoplasm"/>
     </Declaration>
     <SubClassOf>
         <Class IRI="http://blulab.chpc.utah.edu/ontologies/v2/Schema.owl#Composition"/>
@@ -978,21 +996,21 @@
         <Class IRI="#CancerPhenotype"/>
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="#hasClinicalMClassification"/>
-            <Class IRI="#M_Stage"/>
+            <Class IRI="#Clinical_Distant_Metastasis_TNM_Finding"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#CancerPhenotype"/>
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="#hasClinicalNClassification"/>
-            <Class IRI="#N_Stage"/>
+            <Class IRI="#Clinical_Regional_Lymph_Nodes_TNM_Finding"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#CancerPhenotype"/>
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="#hasClinicalTClassification"/>
-            <Class IRI="#T_Stage"/>
+            <Class IRI="#Clinical_Primary_Tumor_TNM_Finding"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
@@ -1034,21 +1052,21 @@
         <Class IRI="#CancerPhenotype"/>
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="#hasPathologicMClassification"/>
-            <Class IRI="#M_Stage"/>
+            <Class IRI="#Pathologic_Distant_Metastasis_TNM_Finding"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#CancerPhenotype"/>
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="#hasPathologicNClassification"/>
-            <Class IRI="#N_Stage"/>
+            <Class IRI="#Pathologic_Regional_Lymph_Nodes_TNM_Finding"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#CancerPhenotype"/>
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="#hasPathologicTClassification"/>
-            <Class IRI="#T_Stage"/>
+            <Class IRI="#Pathologic_Primary_Tumor_TNM_Finding"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
@@ -1093,6 +1111,18 @@
     <SubClassOf>
         <Class IRI="#Chronic_persistent"/>
         <Class IRI="#chronic"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Clinical_Distant_Metastasis_TNM_Finding"/>
+        <Class IRI="#M_Stage"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Clinical_Primary_Tumor_TNM_Finding"/>
+        <Class IRI="#T_Stage"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Clinical_Regional_Lymph_Nodes_TNM_Finding"/>
+        <Class IRI="#N_Stage"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Continual"/>
@@ -1449,6 +1479,18 @@
     <SubClassOf>
         <Class IRI="#Paroxysmal"/>
         <Class IRI="#Intermittent"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Pathologic_Distant_Metastasis_TNM_Finding"/>
+        <Class IRI="#M_Stage"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Pathologic_Primary_Tumor_TNM_Finding"/>
+        <Class IRI="#T_Stage"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Pathologic_Regional_Lymph_Nodes_TNM_Finding"/>
+        <Class IRI="#N_Stage"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Patient"/>
@@ -2396,6 +2438,18 @@
         <Class IRI="#CancerStage"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasClinicalMClassification"/>
+        <Class IRI="#Clinical_Distant_Metastasis_TNM_Finding"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasClinicalNClassification"/>
+        <Class IRI="#Clinical_Regional_Lymph_Nodes_TNM_Finding"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasClinicalTClassification"/>
+        <Class IRI="#Clinical_Primary_Tumor_TNM_Finding"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
         <ObjectProperty IRI="#hasDiagnosis"/>
         <Class IRI="http://blulab.chpc.utah.edu/ontologies/v2/Schema.owl#Condition"/>
     </ObjectPropertyRange>
@@ -2418,6 +2472,18 @@
     <ObjectPropertyRange>
         <ObjectProperty IRI="#hasNClassification"/>
         <Class IRI="#N_Stage"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasPathologicMClassification"/>
+        <Class IRI="#Pathologic_Distant_Metastasis_TNM_Finding"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasPathologicNClassification"/>
+        <Class IRI="#Pathologic_Regional_Lymph_Nodes_TNM_Finding"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasPathologicTClassification"/>
+        <Class IRI="#Pathologic_Primary_Tumor_TNM_Finding"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
         <ObjectProperty IRI="#hasPhenotype"/>
@@ -4165,6 +4231,21 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#Chronic_persistent</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Chronic persistent</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Clinical_Distant_Metastasis_TNM_Finding</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Clinical Distant Metastasis TNM Finding</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Clinical_Primary_Tumor_TNM_Finding</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Clinical Primary Tumor TNM Finding</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Clinical_Regional_Lymph_Nodes_TNM_Finding</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Clinical Regional Lymph Nodes TNM Finding</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#alternateCode"/>
@@ -11455,6 +11536,21 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#Paroxysmal</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Paroxysmal</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Pathologic_Distant_Metastasis_TNM_Finding</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Pathologic Distant Metastasis TNM Finding</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Pathologic_Primary_Tumor_TNM_Finding</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Pathologic Primary Tumor TNM Finding</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Pathologic_Regional_Lymph_Nodes_TNM_Finding</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Pathologic Regional Lymph Nodes TNM Finding</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#definition"/>
