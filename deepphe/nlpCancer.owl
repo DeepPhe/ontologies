@@ -6,7 +6,7 @@
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      ontologyIRI="http://ontologies.dbmi.pitt.edu/deepphe/nlpCancer.owl">
-    <Prefix name="" IRI="http://ontologies.dbmi.pitt.edu/deepphe/nlpCancer.owl"/>
+    <Prefix name="" IRI="http://ontologies.dbmi.pitt.edu/deepphe/nlpCancer.owl#"/>
     <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
     <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
     <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
@@ -16,7 +16,7 @@
     <Import>http://blulab.chpc.utah.edu/ontologies/v2/Schema.owl</Import>
     <Annotation>
         <AnnotationProperty abbreviatedIRI="owl:versionInfo"/>
-        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">sprint10</Literal>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">sprint11</Literal>
     </Annotation>
     <Declaration>
         <Class IRI="#Outcome_Death"/>
@@ -115,6 +115,9 @@
         <Class IRI="#T3b_Stage_Finding"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#Clinical_Distant_Metastasis_TNM_Finding"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#T3c_Stage_Finding"/>
     </Declaration>
     <Declaration>
@@ -160,6 +163,9 @@
         <Class IRI="#T1mic_Stage_Finding"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#Pathologic_Primary_Tumor_TNM_Finding"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#Stage_2"/>
     </Declaration>
     <Declaration>
@@ -196,13 +202,13 @@
         <Class IRI="#Stage_2C"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#Possibly_Worse"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#PrimaryEpisode"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Stage_1A"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Possibly_Worse"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Stage_3"/>
@@ -214,10 +220,10 @@
         <Class IRI="#Much_Better"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Stabilization_of_status"/>
+        <Class IRI="#Intermittent"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Intermittent"/>
+        <Class IRI="#Stabilization_of_status"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Invasive_Lesion"/>
@@ -230,6 +236,9 @@
     </Declaration>
     <Declaration>
         <Class IRI="#Seasonal_course"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Clinical_Primary_Tumor_TNM_Finding"/>
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="#hasOutcome"/>
@@ -286,16 +295,16 @@
         <Class IRI="#T3a_Stage_Finding"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#hasTClassification"/>
+        <Class IRI="#Tis_Stage_Finding"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Stage_0is"/>
+        <ObjectProperty IRI="#hasTClassification"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Stage_IVS"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Tis_Stage_Finding"/>
+        <Class IRI="#Stage_0is"/>
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="#hasTumorType"/>
@@ -409,6 +418,9 @@
         <Class IRI="#Sephardic_Jew"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#Neoplasm"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#T1_Stage_Finding"/>
     </Declaration>
     <Declaration>
@@ -428,6 +440,9 @@
     </Declaration>
     <Declaration>
         <Class IRI="#Weakly_positive"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Pathologic_Distant_Metastasis_TNM_Finding"/>
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="#hasTNMSuffix"/>
@@ -496,10 +511,10 @@
         <Class IRI="#TX_Stage_Finding"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#NX_Stage_Finding"/>
+        <Class IRI="#chronic"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#chronic"/>
+        <Class IRI="#NX_Stage_Finding"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Net_Survival"/>
@@ -514,13 +529,13 @@
         <Class IRI="#Episodic"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Puerto_Rican"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="#T2c_Stage_Finding"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Chronic_active"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Puerto_Rican"/>
     </Declaration>
     <Declaration>
         <Class IRI="#T2_Stage_Finding"/>
@@ -589,10 +604,10 @@
         <Class IRI="#Male_Gender"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Paroxysmal"/>
+        <Class IRI="#N1bIV_Stage_Finding"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#N1bIV_Stage_Finding"/>
+        <Class IRI="#Paroxysmal"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Tumor"/>
@@ -610,10 +625,10 @@
         <ObjectProperty IRI="#hasPathologicTClassification"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#hasTNMPrefix"/>
+        <Class IRI="#N1a_Stage_Finding"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#N1a_Stage_Finding"/>
+        <ObjectProperty IRI="#hasTNMPrefix"/>
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="#hasSummaryRelation"/>
@@ -625,7 +640,13 @@
         <Class IRI="#Localized"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#Clinical_Regional_Lymph_Nodes_TNM_Finding"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#Patient"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Pathologic_Regional_Lymph_Nodes_TNM_Finding"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Stage_4A"/>
@@ -658,10 +679,10 @@
         <Class IRI="#c_modifier"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Increase"/>
+        <Class IRI="#N2b_Stage_Finding"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#N2b_Stage_Finding"/>
+        <Class IRI="#Increase"/>
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="#hasManifestation"/>
@@ -670,10 +691,10 @@
         <Class IRI="#Moderate"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#CancerPhenotype"/>
+        <Class IRI="#Fluctuating"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Fluctuating"/>
+        <Class IRI="#CancerPhenotype"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Relapsing_course"/>
@@ -700,10 +721,10 @@
         <Class IRI="#T3b1_Stage_Finding"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#OtherMedication"/>
+        <Class IRI="#Recurrent_Tumor"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Recurrent_Tumor"/>
+        <Class IRI="#OtherMedication"/>
     </Declaration>
     <Declaration>
         <Class IRI="#N1mi_Stage_Finding"/>
@@ -891,7 +912,7 @@
         <Class IRI="#Cancer"/>
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="#hasDiagnosis"/>
-            <Class IRI="http://blulab.chpc.utah.edu/ontologies/v2/Schema.owl#Condition"/>
+            <Class IRI="#Neoplasm"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
@@ -975,21 +996,21 @@
         <Class IRI="#CancerPhenotype"/>
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="#hasClinicalMClassification"/>
-            <Class IRI="#M_Stage"/>
+            <Class IRI="#Clinical_Distant_Metastasis_TNM_Finding"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#CancerPhenotype"/>
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="#hasClinicalNClassification"/>
-            <Class IRI="#N_Stage"/>
+            <Class IRI="#Clinical_Regional_Lymph_Nodes_TNM_Finding"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#CancerPhenotype"/>
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="#hasClinicalTClassification"/>
-            <Class IRI="#T_Stage"/>
+            <Class IRI="#Clinical_Primary_Tumor_TNM_Finding"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
@@ -1031,21 +1052,21 @@
         <Class IRI="#CancerPhenotype"/>
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="#hasPathologicMClassification"/>
-            <Class IRI="#M_Stage"/>
+            <Class IRI="#Pathologic_Distant_Metastasis_TNM_Finding"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#CancerPhenotype"/>
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="#hasPathologicNClassification"/>
-            <Class IRI="#N_Stage"/>
+            <Class IRI="#Pathologic_Regional_Lymph_Nodes_TNM_Finding"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#CancerPhenotype"/>
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="#hasPathologicTClassification"/>
-            <Class IRI="#T_Stage"/>
+            <Class IRI="#Pathologic_Primary_Tumor_TNM_Finding"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
@@ -1090,6 +1111,18 @@
     <SubClassOf>
         <Class IRI="#Chronic_persistent"/>
         <Class IRI="#chronic"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Clinical_Distant_Metastasis_TNM_Finding"/>
+        <Class IRI="#M_Stage"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Clinical_Primary_Tumor_TNM_Finding"/>
+        <Class IRI="#T_Stage"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Clinical_Regional_Lymph_Nodes_TNM_Finding"/>
+        <Class IRI="#N_Stage"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Continual"/>
@@ -1400,6 +1433,10 @@
         <Class IRI="http://blulab.chpc.utah.edu/ontologies/v2/ConText.owl#OrdinalInterpretation"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#Neoplasm"/>
+        <Class IRI="http://blulab.chpc.utah.edu/ontologies/v2/Schema.owl#DiseaseDisorder"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#Net_Survival"/>
         <Class IRI="http://blulab.chpc.utah.edu/ontologies/v2/Schema.owl#Observation"/>
     </SubClassOf>
@@ -1442,6 +1479,18 @@
     <SubClassOf>
         <Class IRI="#Paroxysmal"/>
         <Class IRI="#Intermittent"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Pathologic_Distant_Metastasis_TNM_Finding"/>
+        <Class IRI="#M_Stage"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Pathologic_Primary_Tumor_TNM_Finding"/>
+        <Class IRI="#T_Stage"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Pathologic_Regional_Lymph_Nodes_TNM_Finding"/>
+        <Class IRI="#N_Stage"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Patient"/>
@@ -1958,7 +2007,7 @@
         <Class IRI="#Tumor"/>
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="#hasDiagnosis"/>
-            <Class IRI="http://blulab.chpc.utah.edu/ontologies/v2/Schema.owl#Condition"/>
+            <Class IRI="#Neoplasm"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
@@ -2126,7 +2175,7 @@
     </SubObjectPropertyOf>
     <SubObjectPropertyOf>
         <ObjectProperty IRI="#hasDiagnosis"/>
-        <ObjectProperty IRI="#hasSummaryRelation"/>
+        <ObjectProperty IRI="http://blulab.chpc.utah.edu/ontologies/v2/Schema.owl#hasSemanticModifier"/>
     </SubObjectPropertyOf>
     <SubObjectPropertyOf>
         <ObjectProperty IRI="#hasExposure"/>
@@ -2282,7 +2331,11 @@
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#hasDiagnosis"/>
-        <Class IRI="http://blulab.chpc.utah.edu/ontologies/v2/Schema.owl#Patient"/>
+        <Class IRI="#Cancer"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasDiagnosis"/>
+        <Class IRI="#Tumor"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#hasGenericMClassification"/>
@@ -2385,12 +2438,20 @@
         <Class IRI="#CancerStage"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
-        <ObjectProperty IRI="#hasDiagnosis"/>
-        <Class IRI="#Cancer"/>
+        <ObjectProperty IRI="#hasClinicalMClassification"/>
+        <Class IRI="#Clinical_Distant_Metastasis_TNM_Finding"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasClinicalNClassification"/>
+        <Class IRI="#Clinical_Regional_Lymph_Nodes_TNM_Finding"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasClinicalTClassification"/>
+        <Class IRI="#Clinical_Primary_Tumor_TNM_Finding"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
         <ObjectProperty IRI="#hasDiagnosis"/>
-        <Class IRI="#Tumor"/>
+        <Class IRI="http://blulab.chpc.utah.edu/ontologies/v2/Schema.owl#Condition"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
         <ObjectProperty IRI="#hasGenericMClassification"/>
@@ -2411,6 +2472,18 @@
     <ObjectPropertyRange>
         <ObjectProperty IRI="#hasNClassification"/>
         <Class IRI="#N_Stage"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasPathologicMClassification"/>
+        <Class IRI="#Pathologic_Distant_Metastasis_TNM_Finding"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasPathologicNClassification"/>
+        <Class IRI="#Pathologic_Regional_Lymph_Nodes_TNM_Finding"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasPathologicTClassification"/>
+        <Class IRI="#Pathologic_Primary_Tumor_TNM_Finding"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
         <ObjectProperty IRI="#hasPhenotype"/>
@@ -4158,6 +4231,21 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#Chronic_persistent</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Chronic persistent</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Clinical_Distant_Metastasis_TNM_Finding</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Clinical Distant Metastasis TNM Finding</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Clinical_Primary_Tumor_TNM_Finding</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Clinical Primary Tumor TNM Finding</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Clinical_Regional_Lymph_Nodes_TNM_Finding</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Clinical Regional Lymph Nodes TNM Finding</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#alternateCode"/>
@@ -10796,6 +10884,221 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#alternateCode"/>
+        <IRI>#Neoplasm</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">0000023012 [AOD]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#alternateCode"/>
+        <IRI>#Neoplasm</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">55342001 [SNOMEDCT_US]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#alternateCode"/>
+        <IRI>#Neoplasm</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">C0375111 [UMLS]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#alternateCode"/>
+        <IRI>#Neoplasm</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">C0375111 [UMLS_CUI]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#alternateCode"/>
+        <IRI>#Neoplasm</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">C3262 [NCI]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#alternateCode"/>
+        <IRI>#Neoplasm</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">C3262 [code]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#alternateCode"/>
+        <IRI>#Neoplasm</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">C54705 [NCI]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#alternateCode"/>
+        <IRI>#Neoplasm</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">C88025 [CDISC]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#alternateCode"/>
+        <IRI>#Neoplasm</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">C88025 [NCI]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#alternateCode"/>
+        <IRI>#Neoplasm</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">CDR0000475629 [PDQ]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#alternateCode"/>
+        <IRI>#Neoplasm</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">NOCODE [MTH]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#alternateCode"/>
+        <IRI>#Neoplasm</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">RID34615 [RADLEX]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#code"/>
+        <IRI>#Neoplasm</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">C2981607</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#definition"/>
+        <IRI>#Neoplasm</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">A benign or malignant tissue growth resulting from uncontrolled cell proliferation. Benign neoplastic cells resemble normal cells without exhibiting significant cytologic atypia, while malignant cells exhibit overt signs such as dysplastic features, atypical mitotic figures, necrosis, nuclear pleomorphism, and anaplasia. Representative examples of benign neoplasms include papillomas, cystadenomas, and lipomas; malignant neoplasms include carcinomas, sarcomas, lymphomas, and leukemias.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#definition"/>
+        <IRI>#Neoplasm</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">A broad classification for disorders in which the development of neoplasms typically occur in association with a characteristic set of signs or symptoms. These disorders may be inherited or acquired.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#definition"/>
+        <IRI>#Neoplasm</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">A general term for autonomous tissue growth in which the malignancy status has not been established and for which the transformed cell type has not been specifically identified.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#definition"/>
+        <IRI>#Neoplasm</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">An abnormal mass of tissue that results when cells divide more than they should or do not die when they should. Neoplasms may be benign (not cancer), or malignant (cancer).</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#definition"/>
+        <IRI>#Neoplasm</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">The terminology that includes concepts relevant to benign or malignant tissue growth.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#definition"/>
+        <IRI>#Neoplasm</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">The terminology that includes concepts relevant to the Clinical Data Interchange Standards Consortium (CDISC) Standard for the Exchange of Non-clinical Data (SEND) tumor findings character results.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#preferredTerm"/>
+        <IRI>#Neoplasm</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">CDISC SEND Tumor Findings Results Terminology</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#preferredTerm"/>
+        <IRI>#Neoplasm</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Neoplasm</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#preferredTerm"/>
+        <IRI>#Neoplasm</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Neoplastic disease</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#semanticType"/>
+        <IRI>#Neoplasm</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Functional Concept</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#semanticType"/>
+        <IRI>#Neoplasm</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Neoplastic Process</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#synonym"/>
+        <IRI>#Neoplasm</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">CDISC SEND Tumor Findings Results Terminology</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#synonym"/>
+        <IRI>#Neoplasm</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">NEOPLASM</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#synonym"/>
+        <IRI>#Neoplasm</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">NEOPLASM, UNDETERMINED</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#synonym"/>
+        <IRI>#Neoplasm</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Neoplasia</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#synonym"/>
+        <IRI>#Neoplasm</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Neoplasm</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#synonym"/>
+        <IRI>#Neoplasm</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Neoplasm Type</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#synonym"/>
+        <IRI>#Neoplasm</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Neoplastic Disease</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#synonym"/>
+        <IRI>#Neoplasm</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Neoplastic Growth</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#synonym"/>
+        <IRI>#Neoplasm</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Neoplastic Syndrome</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#synonym"/>
+        <IRI>#Neoplasm</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Neoplastic disease</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#synonym"/>
+        <IRI>#Neoplasm</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Neoplastic disease (disorder)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#synonym"/>
+        <IRI>#Neoplasm</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Neoplastic syndrome</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#synonym"/>
+        <IRI>#Neoplasm</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">SEND-NEOPLASM</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#synonym"/>
+        <IRI>#Neoplasm</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">neoplasia</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#synonym"/>
+        <IRI>#Neoplasm</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">neoplasm</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#synonym"/>
+        <IRI>#Neoplasm</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">neoplastic disease</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#synonym"/>
+        <IRI>#Neoplasm</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">neoplastic syndrome</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#synonym"/>
+        <IRI>#Neoplasm</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">tumor</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Neoplasm</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Neoplasm</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#alternateCode"/>
         <IRI>#Net_Survival</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">C1709213 [UMLS]</Literal>
     </AnnotationAssertion>
@@ -11233,6 +11536,21 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#Paroxysmal</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Paroxysmal</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Pathologic_Distant_Metastasis_TNM_Finding</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Pathologic Distant Metastasis TNM Finding</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Pathologic_Primary_Tumor_TNM_Finding</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Pathologic Primary Tumor TNM Finding</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Pathologic_Regional_Lymph_Nodes_TNM_Finding</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Pathologic Regional Lymph Nodes TNM Finding</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#definition"/>
