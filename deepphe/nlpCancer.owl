@@ -625,16 +625,16 @@
         <ObjectProperty IRI="#hasPathologicTClassification"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#N1a_Stage_Finding"/>
-    </Declaration>
-    <Declaration>
         <ObjectProperty IRI="#hasTNMPrefix"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#hasSummaryRelation"/>
+        <Class IRI="#N1a_Stage_Finding"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Ashkenazi_Jew"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasSummaryRelation"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Localized"/>
@@ -3920,7 +3920,7 @@
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#semanticType"/>
         <IRI>#CancerStage</IRI>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Diagnostic Procedure</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Classification</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#synonym"/>
@@ -5666,11 +5666,6 @@
         <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#semanticType"/>
         <IRI>#HistologicType</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Classification</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#semanticType"/>
-        <IRI>#HistologicType</IRI>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Qualitative Concept</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#synonym"/>
@@ -10991,11 +10986,6 @@
         <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#preferredTerm"/>
         <IRI>#Neoplasm</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Neoplastic disease</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#semanticType"/>
-        <IRI>#Neoplasm</IRI>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Functional Concept</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#semanticType"/>
@@ -17975,11 +17965,6 @@
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#semanticType"/>
         <IRI>#Tumor</IRI>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Functional Concept</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#semanticType"/>
-        <IRI>#Tumor</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Neoplastic Process</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
@@ -18081,6 +18066,11 @@
         <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
         <IRI>#Tumor</IRI>
         <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">HP:0002664</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#semanticType"/>
+        <IRI>#TumorExtent</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Finding</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="#hasModel"/>
