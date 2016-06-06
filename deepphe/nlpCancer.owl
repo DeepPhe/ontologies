@@ -4233,14 +4233,29 @@
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Chronic persistent</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#semanticType"/>
+        <IRI>#Clinical_Distant_Metastasis_TNM_Finding</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Classification</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#Clinical_Distant_Metastasis_TNM_Finding</IRI>
         <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Clinical Distant Metastasis TNM Finding</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#semanticType"/>
+        <IRI>#Clinical_Primary_Tumor_TNM_Finding</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Classification</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#Clinical_Primary_Tumor_TNM_Finding</IRI>
         <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Clinical Primary Tumor TNM Finding</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#semanticType"/>
+        <IRI>#Clinical_Regional_Lymph_Nodes_TNM_Finding</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Classification</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -5255,7 +5270,7 @@
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#semanticType"/>
         <IRI>#Generic_Distant_Metastasis_TNM_Finding</IRI>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Finding</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Classification</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#synonym"/>
@@ -5285,7 +5300,7 @@
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#semanticType"/>
         <IRI>#Generic_Primary_Tumor_TNM_Finding</IRI>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Finding</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Classification</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#synonym"/>
@@ -5315,7 +5330,7 @@
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#semanticType"/>
         <IRI>#Generic_Regional_Lymph_Nodes_TNM_Finding</IRI>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Finding</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Classification</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#synonym"/>
@@ -6780,7 +6795,7 @@
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#semanticType"/>
         <IRI>#M0_Stage_Finding</IRI>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Finding</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Classification</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#synonym"/>
@@ -6900,7 +6915,7 @@
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#semanticType"/>
         <IRI>#M1_Stage_Finding</IRI>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Finding</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Classification</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#synonym"/>
@@ -7010,7 +7025,7 @@
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#semanticType"/>
         <IRI>#M1a_Stage_Finding</IRI>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Finding</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Classification</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#synonym"/>
@@ -7105,7 +7120,7 @@
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#semanticType"/>
         <IRI>#M1b_Stage_Finding</IRI>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Finding</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Classification</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#synonym"/>
@@ -7200,7 +7215,7 @@
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#semanticType"/>
         <IRI>#M1c_Stage_Finding</IRI>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Finding</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Classification</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#synonym"/>
@@ -7310,7 +7325,7 @@
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#semanticType"/>
         <IRI>#MX_Stage_Finding</IRI>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Finding</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Classification</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#synonym"/>
@@ -7435,7 +7450,7 @@
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#semanticType"/>
         <IRI>#M_Stage</IRI>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Intellectual Product</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Classification</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#synonym"/>
@@ -8840,7 +8855,7 @@
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#semanticType"/>
         <IRI>#N0_Stage_Finding</IRI>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Finding</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Classification</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#synonym"/>
@@ -8970,7 +8985,7 @@
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#semanticType"/>
         <IRI>#N1_Stage_Finding</IRI>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Finding</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Classification</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#synonym"/>
@@ -9095,7 +9110,7 @@
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#semanticType"/>
         <IRI>#N1a_Stage_Finding</IRI>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Finding</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Classification</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#synonym"/>
@@ -9200,7 +9215,7 @@
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#semanticType"/>
         <IRI>#N1bIII_Stage_Finding</IRI>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Finding</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Classification</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#synonym"/>
@@ -9235,7 +9250,7 @@
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#semanticType"/>
         <IRI>#N1bII_Stage_Finding</IRI>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Finding</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Classification</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#synonym"/>
@@ -9270,7 +9285,7 @@
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#semanticType"/>
         <IRI>#N1bIV_Stage_Finding</IRI>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Finding</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Classification</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#synonym"/>
@@ -9305,7 +9320,7 @@
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#semanticType"/>
         <IRI>#N1bI_Stage_Finding</IRI>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Finding</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Classification</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#synonym"/>
@@ -9345,7 +9360,7 @@
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#semanticType"/>
         <IRI>#N1b_Stage_Finding</IRI>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Finding</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Classification</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#synonym"/>
@@ -9450,7 +9465,7 @@
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#semanticType"/>
         <IRI>#N1c_Stage_Finding</IRI>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Finding</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Classification</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#synonym"/>
@@ -9545,7 +9560,7 @@
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#semanticType"/>
         <IRI>#N1mi_Stage_Finding</IRI>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Finding</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Classification</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#synonym"/>
@@ -9590,7 +9605,7 @@
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#semanticType"/>
         <IRI>#N2_Stage_Finding</IRI>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Finding</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Classification</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#synonym"/>
@@ -9715,7 +9730,7 @@
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#semanticType"/>
         <IRI>#N2a_Stage_Finding</IRI>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Finding</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Classification</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#synonym"/>
@@ -9825,7 +9840,7 @@
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#semanticType"/>
         <IRI>#N2b_Stage_Finding</IRI>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Finding</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Classification</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#synonym"/>
@@ -9935,7 +9950,7 @@
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#semanticType"/>
         <IRI>#N2c_Stage_Finding</IRI>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Finding</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Classification</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#synonym"/>
@@ -10050,7 +10065,7 @@
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#semanticType"/>
         <IRI>#N3_Stage_Finding</IRI>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Finding</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Classification</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#synonym"/>
@@ -10170,7 +10185,7 @@
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#semanticType"/>
         <IRI>#N3a_Stage_Finding</IRI>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Finding</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Classification</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#synonym"/>
@@ -10265,7 +10280,7 @@
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#semanticType"/>
         <IRI>#N3b_Stage_Finding</IRI>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Finding</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Classification</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#synonym"/>
@@ -10360,7 +10375,7 @@
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#semanticType"/>
         <IRI>#N3c_Stage_Finding</IRI>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Finding</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Classification</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#synonym"/>
@@ -10455,7 +10470,7 @@
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#semanticType"/>
         <IRI>#N4_Stage_Finding</IRI>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Finding</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Classification</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#synonym"/>
@@ -10505,7 +10520,7 @@
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#semanticType"/>
         <IRI>#NX_Stage_Finding</IRI>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Finding</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Classification</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#synonym"/>
@@ -10645,7 +10660,7 @@
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#semanticType"/>
         <IRI>#N_Stage</IRI>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Intellectual Product</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Classification</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#synonym"/>
@@ -11533,14 +11548,29 @@
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Paroxysmal</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#semanticType"/>
+        <IRI>#Pathologic_Distant_Metastasis_TNM_Finding</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Classification</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#Pathologic_Distant_Metastasis_TNM_Finding</IRI>
         <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Pathologic Distant Metastasis TNM Finding</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#semanticType"/>
+        <IRI>#Pathologic_Primary_Tumor_TNM_Finding</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Classification</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#Pathologic_Primary_Tumor_TNM_Finding</IRI>
         <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Pathologic Primary Tumor TNM Finding</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#semanticType"/>
+        <IRI>#Pathologic_Regional_Lymph_Nodes_TNM_Finding</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Classification</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -15195,7 +15225,7 @@
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#semanticType"/>
         <IRI>#T0_Stage_Finding</IRI>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Finding</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Classification</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#synonym"/>
@@ -15320,7 +15350,7 @@
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#semanticType"/>
         <IRI>#T1_Stage_Finding</IRI>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Finding</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Classification</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#synonym"/>
@@ -15610,7 +15640,7 @@
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#semanticType"/>
         <IRI>#T1b1_Stage_Finding</IRI>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Intellectual Product</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Classification</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#synonym"/>
@@ -15650,7 +15680,7 @@
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#semanticType"/>
         <IRI>#T1b2_Stage_Finding</IRI>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Intellectual Product</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Classification</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#synonym"/>
@@ -15778,6 +15808,11 @@
         <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">T1c Stage Finding</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#semanticType"/>
+        <IRI>#T1c_Stage_Finding</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Classification</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#synonym"/>
         <IRI>#T1c_Stage_Finding</IRI>
         <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Stage T1c</Literal>
@@ -15815,7 +15850,7 @@
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#semanticType"/>
         <IRI>#T1mic_Stage_Finding</IRI>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Intellectual Product</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Classification</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#synonym"/>
@@ -15880,7 +15915,7 @@
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#semanticType"/>
         <IRI>#T2_Stage_Finding</IRI>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Finding</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Classification</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#synonym"/>
@@ -16310,7 +16345,7 @@
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#semanticType"/>
         <IRI>#T3_Stage_Finding</IRI>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Finding</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Classification</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#synonym"/>
@@ -16855,7 +16890,7 @@
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#semanticType"/>
         <IRI>#T4_Stage_Finding</IRI>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Finding</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Classification</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#synonym"/>
@@ -17520,7 +17555,7 @@
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#semanticType"/>
         <IRI>#TX_Stage_Finding</IRI>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Finding</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Classification</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#synonym"/>
@@ -17770,7 +17805,7 @@
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#semanticType"/>
         <IRI>#Tis_Stage_Finding</IRI>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Finding</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Classification</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#synonym"/>
