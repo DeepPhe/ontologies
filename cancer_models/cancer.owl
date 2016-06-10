@@ -477,13 +477,13 @@
         <Class IRI="#DP000257"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#DP000269"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#DP000015"/>
     </Declaration>
     <Declaration>
         <Class IRI="#DP000148"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#DP000269"/>
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="#DP000450"/>
@@ -744,13 +744,13 @@
         <Class IRI="#DP000253"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#DP000265"/>
-    </Declaration>
-    <Declaration>
         <ObjectProperty IRI="#DP000430"/>
     </Declaration>
     <Declaration>
         <Class IRI="#DP000011"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DP000265"/>
     </Declaration>
     <Declaration>
         <DataProperty IRI="#DP000300"/>
@@ -1182,10 +1182,10 @@
         <DataProperty IRI="#DP000308"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#DP000087"/>
+        <Class IRI="#DP000196"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#DP000196"/>
+        <Class IRI="#DP000087"/>
     </Declaration>
     <Declaration>
         <Class IRI="#DP000075"/>
@@ -1281,10 +1281,10 @@
         <Class IRI="#DP000181"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#DP000060"/>
+        <Class IRI="#DP000193"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#DP000193"/>
+        <Class IRI="#DP000060"/>
     </Declaration>
     <Declaration>
         <Class IRI="#DP000096"/>
@@ -3529,6 +3529,20 @@
         <Class IRI="#DP001009"/>
         <DataSomeValuesFrom>
             <DataProperty IRI="#DP001029"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DP001010"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#DP100004"/>
+            <Class IRI="#DP001001"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DP001010"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="#DP100003"/>
             <Datatype abbreviatedIRI="xsd:string"/>
         </DataSomeValuesFrom>
     </SubClassOf>
