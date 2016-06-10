@@ -21,1357 +21,1357 @@
         <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">The DeepPhe Cancer ontology is licensed under the Creative Commons Attribution 4.0 International license. Please see https://creativecommons.org/licenses/by/4.0/legalcode for the entire license.</Literal>
     </Annotation>
     <Declaration>
-        <Class IRI="#DP000205"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#DP000217"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#DP000229"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#DP000108"/>
-    </Declaration>
-    <Declaration>
-        <DataProperty IRI="#DP000286"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#DP001034"/>
-    </Declaration>
-    <Declaration>
-        <DataProperty IRI="#DP000298"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#DP001022"/>
-    </Declaration>
-    <Declaration>
-        <DataProperty IRI="#DP000274"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#DP000030"/>
-    </Declaration>
-    <Declaration>
-        <DataProperty IRI="#DP001024"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#DP000381"/>
-    </Declaration>
-    <Declaration>
-        <DataProperty IRI="#DP001012"/>
-    </Declaration>
-    <Declaration>
-        <DataProperty IRI="#DP000299"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#DP000204"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#DP000216"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#DP000228"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#DP000107"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#DP000119"/>
-    </Declaration>
-    <Declaration>
-        <DataProperty IRI="#DP000275"/>
-    </Declaration>
-    <Declaration>
-        <DataProperty IRI="#DP000287"/>
-    </Declaration>
-    <Declaration>
-        <DataProperty IRI="#DP001025"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#DP000370"/>
-    </Declaration>
-    <Declaration>
-        <DataProperty IRI="#DP001013"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#DP000382"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#DP000394"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#DP000031"/>
-    </Declaration>
-    <Declaration>
-        <DataProperty IRI="#DP000288"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#DP000215"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#DP000227"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#DP000106"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#DP000118"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#DP000239"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#DP000009"/>
-    </Declaration>
-    <Declaration>
-        <DataProperty IRI="#DP000276"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#DP000371"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#DP000203"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#DP000395"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#DP000032"/>
-    </Declaration>
-    <Declaration>
-        <DataProperty IRI="#DP000277"/>
-    </Declaration>
-    <Declaration>
-        <DataProperty IRI="#DP000289"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#DP000226"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#DP000105"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#DP000117"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#DP000238"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#DP000008"/>
-    </Declaration>
-    <Declaration>
-        <DataProperty IRI="#DP001027"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#DP000202"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#DP000214"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#DP000360"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#DP000372"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#DP000033"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#DP000384"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#DP000130"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#DP000396"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#DP001026"/>
-    </Declaration>
-    <Declaration>
-        <DataProperty IRI="#DP000278"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#DP000116"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#DP000007"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#DP000237"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#DP000249"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#DP000019"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#DP001002"/>
-    </Declaration>
-    <Declaration>
-        <DataProperty IRI="#DP001004"/>
-    </Declaration>
-    <Declaration>
-        <DataProperty IRI="#DP001028"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#DP000201"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#DP000213"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#DP000225"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#DP000104"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#DP000361"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#DP000131"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#DP000373"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#DP000034"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#DP000385"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#DP000397"/>
-    </Declaration>
-    <Declaration>
-        <DataProperty IRI="#DP000279"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#DP000018"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#DP001003"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#DP000248"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#DP000006"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#DP000139"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#DP000398"/>
-    </Declaration>
-    <Declaration>
-        <DataProperty IRI="#DP001029"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#DP000035"/>
-    </Declaration>
-    <Declaration>
-        <DataProperty IRI="#DP001005"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#DP000212"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#DP000224"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#DP000103"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#DP000236"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#DP000115"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#DP000350"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#DP000362"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#DP000023"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#DP000374"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#DP000144"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#DP000132"/>
-    </Declaration>
-    <Declaration>
-        <DataProperty IRI="#DP000123"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#DP000029"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#DP000259"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#DP000017"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#DP000387"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#DP000399"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#DP000036"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#DP001009"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#DP000211"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#DP000223"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#DP000102"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#DP000114"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#DP000005"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#DP000235"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#DP000247"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#DP000351"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#DP000133"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#DP000375"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#DP000149"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#DP000028"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#DP000146"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#DP000134"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#DP000388"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#DP001008"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#DP100000"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#DP000101"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#DP000222"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#DP000234"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#DP000113"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#DP000246"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#DP000016"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#DP000137"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#DP000004"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#DP000340"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#DP000352"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#DP000210"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#DP000039"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#DP000135"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#DP000377"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#DP001007"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#DP000003"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#DP000233"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#DP000112"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#DP000245"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#DP000027"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#DP000257"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#DP000269"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#DP000148"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#DP000015"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#DP000221"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#DP000100"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#DP001019"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#DP001006"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#DP000354"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#DP000124"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#DP000366"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#DP000378"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#DP000136"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#DP001018"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#DP000014"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#DP000244"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#DP000002"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#DP000256"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#DP000038"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#DP000147"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#DP000159"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#DP000026"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#DP000330"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#DP000220"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#DP000365"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#DP000342"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#DP000111"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#DP000232"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#DP001017"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#DP000343"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#DP000355"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#DP000367"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#DP000125"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#DP000379"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#DP000364"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#DP000025"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#DP000255"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#DP000013"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#DP000267"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#DP000158"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#DP000049"/>
+        <Class IRI="#DP000000"/>
     </Declaration>
     <Declaration>
         <Class IRI="#DP000001"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#DP000110"/>
+        <Class IRI="#DP000002"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#DP000231"/>
+        <Class IRI="#DP000003"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#DP000122"/>
+        <Class IRI="#DP000004"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#DP000331"/>
+        <Class IRI="#DP000005"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#DP000243"/>
+        <Class IRI="#DP000006"/>
     </Declaration>
     <Declaration>
-        <DataProperty IRI="#DP000310"/>
+        <Class IRI="#DP000007"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#DP001016"/>
+        <Class IRI="#DP000008"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#DP000332"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#DP000344"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#DP000126"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#DP000356"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#DP000368"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#DP000138"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#DP000145"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#DP000363"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#DP000157"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#DP000024"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#DP000169"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#DP000048"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#DP000230"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#DP000242"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#DP000012"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#DP000121"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#DP000000"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#DP000320"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#DP000441"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#DP000254"/>
-    </Declaration>
-    <Declaration>
-        <DataProperty IRI="#DP000311"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#DP001015"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#DP000321"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#DP000442"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#DP000333"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#DP000345"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#DP000357"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#DP000369"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#DP000127"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#DP000156"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#DP000047"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#DP000168"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#DP000059"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#DP000241"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#DP000120"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#DP000253"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#DP000011"/>
-    </Declaration>
-    <Declaration>
-        <DataProperty IRI="#DP000300"/>
-    </Declaration>
-    <Declaration>
-        <DataProperty IRI="#DP000312"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#DP001014"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#DP000431"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#DP000443"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#DP000322"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#DP000346"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#DP000358"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#DP000128"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#DP000058"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#DP000167"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#DP000179"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#DP000046"/>
+        <Class IRI="#DP000009"/>
     </Declaration>
     <Declaration>
         <Class IRI="#DP000010"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#DP000240"/>
+        <Class IRI="#DP000011"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#DP000252"/>
+        <Class IRI="#DP000012"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#DP000143"/>
+        <Class IRI="#DP000013"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#DP000264"/>
+        <Class IRI="#DP000014"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#DP000022"/>
+        <Class IRI="#DP000015"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#DP000155"/>
+        <Class IRI="#DP000016"/>
     </Declaration>
     <Declaration>
-        <DataProperty IRI="#DP000313"/>
+        <Class IRI="#DP000017"/>
     </Declaration>
     <Declaration>
-        <DataProperty IRI="#DP000301"/>
+        <Class IRI="#DP000018"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#DP001001"/>
-    </Declaration>
-    <Declaration>
-        <AnnotationProperty IRI="#DP000037"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#DP000420"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#DP000432"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#DP000323"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#DP000444"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#DP000347"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#DP000359"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#DP000129"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#DP000178"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#DP000069"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#DP000057"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#DP000021"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#DP000251"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#DP000142"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#DP000263"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#DP000154"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#DP000045"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#DP000166"/>
-    </Declaration>
-    <Declaration>
-        <DataProperty IRI="#DP000302"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#DP001000"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#DP000445"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#DP000250"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#DP000324"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#DP000336"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#DP000348"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#DP000189"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#DP000068"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#DP000262"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#DP000141"/>
+        <Class IRI="#DP000019"/>
     </Declaration>
     <Declaration>
         <Class IRI="#DP000020"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#DP000153"/>
+        <Class IRI="#DP000021"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#DP000165"/>
+        <Class IRI="#DP000022"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#DP000056"/>
+        <Class IRI="#DP000024"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#DP000044"/>
+        <Class IRI="#DP000025"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#DP000177"/>
+        <Class IRI="#DP000026"/>
     </Declaration>
     <Declaration>
-        <DataProperty IRI="#DP000303"/>
+        <Class IRI="#DP000027"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#DP001011"/>
+        <Class IRI="#DP000028"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#DP000410"/>
+        <Class IRI="#DP000029"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#DP000422"/>
+        <Class IRI="#DP000038"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#DP000261"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#DP000434"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#DP000140"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#DP000446"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#DP000325"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#DP000079"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#DP000152"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#DP000043"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#DP000164"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#DP000176"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#DP000067"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#DP000055"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#DP000188"/>
-    </Declaration>
-    <Declaration>
-        <DataProperty IRI="#DP000304"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#DP001010"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#DP000260"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#DP000411"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#DP000151"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#DP000423"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#DP000314"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#DP000447"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#DP000326"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#DP000054"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#DP000042"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#DP000187"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#DP000078"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#DP000066"/>
-    </Declaration>
-    <Declaration>
-        <DataProperty IRI="#DP000305"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#DP000400"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#DP000412"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#DP000162"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#DP000424"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#DP000436"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#DP000339"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#DP000174"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#DP000065"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#DP000053"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#DP000186"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#DP000089"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#DP000077"/>
-    </Declaration>
-    <Declaration>
-        <DataProperty IRI="#DP000306"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#DP000270"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#DP000052"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#DP000161"/>
+        <Class IRI="#DP000039"/>
     </Declaration>
     <Declaration>
         <Class IRI="#DP000040"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#DP000173"/>
+        <Class IRI="#DP000042"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#DP000401"/>
+        <Class IRI="#DP000043"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#DP000413"/>
+        <Class IRI="#DP000044"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#DP000425"/>
+        <Class IRI="#DP000045"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#DP000437"/>
+        <Class IRI="#DP000046"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#DP000316"/>
+        <Class IRI="#DP000047"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#DP000328"/>
+        <Class IRI="#DP000048"/>
     </Declaration>
     <Declaration>
-        <DataProperty IRI="#DP000307"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#DP000076"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#DP000185"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#DP000064"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#DP000197"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#DP000088"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#DP000329"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#DP000160"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#DP000172"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#DP000063"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#DP000051"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#DP000184"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#DP000402"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#DP000414"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#DP000317"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#DP000438"/>
-    </Declaration>
-    <Declaration>
-        <DataProperty IRI="#DP000308"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#DP000087"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#DP000196"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#DP000075"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#DP000099"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#DP000439"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#DP000318"/>
+        <Class IRI="#DP000049"/>
     </Declaration>
     <Declaration>
         <Class IRI="#DP000050"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#DP000171"/>
+        <Class IRI="#DP000051"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#DP000183"/>
+        <Class IRI="#DP000052"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#DP000074"/>
+        <Class IRI="#DP000053"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#DP000195"/>
+        <Class IRI="#DP000054"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#DP000062"/>
+        <Class IRI="#DP000055"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#DP000403"/>
+        <Class IRI="#DP000056"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#DP000427"/>
+        <Class IRI="#DP000057"/>
     </Declaration>
     <Declaration>
-        <DataProperty IRI="#DP000309"/>
+        <Class IRI="#DP000058"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#DP000098"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#DP000086"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#DP000428"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#DP000319"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#DP000061"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#DP000170"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#DP000182"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#DP000194"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#DP000085"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#DP000073"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#DP000416"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#DP000097"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#DP000417"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#DP000429"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#DP000072"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#DP000181"/>
+        <Class IRI="#DP000059"/>
     </Declaration>
     <Declaration>
         <Class IRI="#DP000060"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#DP000193"/>
+        <Class IRI="#DP000061"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#DP000096"/>
+        <Class IRI="#DP000062"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#DP000084"/>
+        <Class IRI="#DP000063"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#DP000418"/>
+        <Class IRI="#DP000064"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#DP000192"/>
+        <Class IRI="#DP000065"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#DP000083"/>
+        <Class IRI="#DP000066"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#DP000071"/>
+        <Class IRI="#DP000067"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#DP000095"/>
+        <Class IRI="#DP000068"/>
     </Declaration>
     <Declaration>
-        <DataProperty IRI="#DP000290"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#DP000180"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#DP000407"/>
-    </Declaration>
-    <Declaration>
-        <DataProperty IRI="#DP000291"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#DP000419"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#DP000094"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#DP000082"/>
+        <Class IRI="#DP000069"/>
     </Declaration>
     <Declaration>
         <Class IRI="#DP000070"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#DP000191"/>
+        <Class IRI="#DP000071"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#DP000408"/>
+        <Class IRI="#DP000072"/>
     </Declaration>
     <Declaration>
-        <DataProperty IRI="#DP000280"/>
+        <Class IRI="#DP000073"/>
     </Declaration>
     <Declaration>
-        <DataProperty IRI="#DP000292"/>
+        <Class IRI="#DP000074"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#DP000093"/>
+        <Class IRI="#DP000075"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#DP000190"/>
+        <Class IRI="#DP000076"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#DP000081"/>
+        <Class IRI="#DP000077"/>
     </Declaration>
     <Declaration>
-        <DataProperty IRI="#DP000293"/>
+        <Class IRI="#DP000078"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#DP000409"/>
-    </Declaration>
-    <Declaration>
-        <DataProperty IRI="#DP000281"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#DP000092"/>
+        <Class IRI="#DP000079"/>
     </Declaration>
     <Declaration>
         <Class IRI="#DP000080"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#DP000209"/>
+        <Class IRI="#DP000081"/>
     </Declaration>
     <Declaration>
-        <DataProperty IRI="#DP000282"/>
+        <Class IRI="#DP000082"/>
     </Declaration>
     <Declaration>
-        <DataProperty IRI="#DP000294"/>
+        <Class IRI="#DP000083"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#DP000091"/>
+        <Class IRI="#DP000084"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#DP000500"/>
+        <Class IRI="#DP000085"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#DP000208"/>
+        <Class IRI="#DP000086"/>
     </Declaration>
     <Declaration>
-        <DataProperty IRI="#DP000271"/>
+        <Class IRI="#DP000087"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#DP001031"/>
+        <Class IRI="#DP000088"/>
     </Declaration>
     <Declaration>
-        <DataProperty IRI="#DP000283"/>
-    </Declaration>
-    <Declaration>
-        <DataProperty IRI="#DP000295"/>
+        <Class IRI="#DP000089"/>
     </Declaration>
     <Declaration>
         <Class IRI="#DP000090"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#DP000390"/>
+        <Class IRI="#DP000091"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#DP000219"/>
+        <Class IRI="#DP000092"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#DP000207"/>
+        <Class IRI="#DP000093"/>
     </Declaration>
     <Declaration>
-        <DataProperty IRI="#DP000272"/>
+        <Class IRI="#DP000094"/>
     </Declaration>
     <Declaration>
-        <DataProperty IRI="#DP000284"/>
+        <Class IRI="#DP000095"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#DP001032"/>
+        <Class IRI="#DP000096"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#DP001020"/>
+        <Class IRI="#DP000097"/>
     </Declaration>
     <Declaration>
-        <DataProperty IRI="#DP000296"/>
+        <Class IRI="#DP000098"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#DP000391"/>
+        <Class IRI="#DP000099"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DP000100"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DP000101"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DP000102"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DP000103"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DP000104"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DP000105"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DP000106"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DP000107"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DP000108"/>
     </Declaration>
     <Declaration>
         <Class IRI="#DP000109"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#DP000110"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DP000111"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DP000112"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DP000113"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DP000114"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DP000115"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DP000116"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DP000117"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DP000118"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DP000119"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DP000120"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DP000121"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DP000122"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DP000137"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DP000139"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DP000140"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DP000141"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DP000142"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DP000143"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DP000145"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DP000147"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DP000148"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DP000149"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DP000151"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DP000152"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DP000153"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DP000154"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DP000155"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DP000156"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DP000157"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DP000158"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DP000159"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DP000160"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DP000161"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DP000162"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DP000164"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DP000165"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DP000166"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DP000167"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DP000168"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DP000169"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DP000170"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DP000171"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DP000172"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DP000173"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DP000174"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DP000176"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DP000177"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DP000178"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DP000179"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DP000180"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DP000181"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DP000182"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DP000183"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DP000184"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DP000185"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DP000186"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DP000187"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DP000188"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DP000189"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DP000190"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DP000191"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DP000192"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DP000193"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DP000194"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DP000195"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DP000196"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DP000197"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DP000201"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DP000202"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DP000203"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DP000204"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DP000205"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#DP000206"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DP000207"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DP000208"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DP000209"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DP000210"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DP000211"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DP000212"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DP000213"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DP000214"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DP000215"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DP000216"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DP000217"/>
     </Declaration>
     <Declaration>
         <Class IRI="#DP000218"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#DP001021"/>
+        <Class IRI="#DP000219"/>
     </Declaration>
     <Declaration>
-        <DataProperty IRI="#DP000297"/>
+        <Class IRI="#DP000220"/>
     </Declaration>
     <Declaration>
-        <DataProperty IRI="#DP000273"/>
+        <Class IRI="#DP000221"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#DP001033"/>
+        <Class IRI="#DP000222"/>
     </Declaration>
     <Declaration>
-        <DataProperty IRI="#DP000285"/>
+        <Class IRI="#DP000223"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#DP000380"/>
+        <Class IRI="#DP000224"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DP000225"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DP000226"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DP000227"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DP000228"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DP000229"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DP000230"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DP000231"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DP000232"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DP000233"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DP000234"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DP000235"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DP000236"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DP000237"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DP000238"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DP000239"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DP000240"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DP000241"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DP000242"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DP000243"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DP000244"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DP000245"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DP000246"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DP000247"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DP000248"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DP000249"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DP000250"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DP000251"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DP000252"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DP000253"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DP000254"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DP000255"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DP000256"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DP000257"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DP000259"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DP000260"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DP000261"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DP000262"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DP000263"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DP000264"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DP000267"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DP000269"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DP000270"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DP000363"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DP000364"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DP000365"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DP000500"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DP001000"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DP001001"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DP001006"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DP001007"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DP001008"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DP001009"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DP001010"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DP001011"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DP001014"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DP001015"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DP001016"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DP001017"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DP001018"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#DP000023"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#DP000030"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#DP000031"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#DP000032"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#DP000033"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#DP000034"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#DP000035"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#DP000036"/>
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="#DP000041"/>
     </Declaration>
     <Declaration>
+        <ObjectProperty IRI="#DP000124"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#DP000125"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#DP000126"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#DP000127"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#DP000128"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#DP000129"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#DP000130"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#DP000131"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#DP000132"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#DP000133"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#DP000134"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#DP000135"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#DP000136"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#DP000138"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#DP000144"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#DP000146"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#DP000150"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#DP000314"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#DP000316"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#DP000317"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#DP000318"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#DP000319"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#DP000320"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#DP000321"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#DP000322"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#DP000323"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#DP000324"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#DP000325"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#DP000326"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#DP000328"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#DP000329"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#DP000330"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#DP000331"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#DP000332"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#DP000333"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#DP000336"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#DP000339"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#DP000340"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#DP000342"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#DP000343"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#DP000344"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#DP000345"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#DP000346"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#DP000347"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#DP000348"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#DP000350"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#DP000351"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#DP000352"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#DP000354"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#DP000355"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#DP000356"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#DP000357"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#DP000358"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#DP000359"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#DP000360"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#DP000361"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#DP000362"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#DP000366"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#DP000367"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#DP000368"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#DP000369"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#DP000370"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#DP000371"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#DP000372"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#DP000373"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#DP000374"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#DP000375"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#DP000377"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#DP000378"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#DP000379"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#DP000380"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#DP000381"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#DP000382"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#DP000384"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#DP000385"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#DP000387"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#DP000388"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#DP000390"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#DP000391"/>
+    </Declaration>
+    <Declaration>
         <ObjectProperty IRI="#DP000392"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#DP000394"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#DP000395"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#DP000396"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#DP000397"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#DP000398"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#DP000399"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#DP000400"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#DP000401"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#DP000402"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#DP000403"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#DP000407"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#DP000408"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#DP000409"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#DP000410"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#DP000411"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#DP000412"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#DP000413"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#DP000414"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#DP000416"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#DP000417"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#DP000418"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#DP000419"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#DP000420"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#DP000422"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#DP000423"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#DP000424"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#DP000425"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#DP000427"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#DP000428"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#DP000429"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#DP000431"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#DP000432"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#DP000434"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#DP000436"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#DP000437"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#DP000438"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#DP000439"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#DP000441"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#DP000442"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#DP000443"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#DP000444"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#DP000445"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#DP000446"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#DP000447"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#DP001002"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#DP001003"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#DP001019"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#DP001020"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#DP001021"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#DP001022"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#DP001026"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#DP001031"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#DP001032"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#DP001033"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#DP001034"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#DP100000"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#DP000123"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#DP000271"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#DP000272"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#DP000273"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#DP000274"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#DP000275"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#DP000276"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#DP000277"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#DP000278"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#DP000279"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#DP000280"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#DP000281"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#DP000282"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#DP000283"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#DP000284"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#DP000285"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#DP000286"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#DP000287"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#DP000288"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#DP000289"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#DP000290"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#DP000291"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#DP000292"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#DP000293"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#DP000294"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#DP000295"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#DP000296"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#DP000297"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#DP000298"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#DP000299"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#DP000300"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#DP000301"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#DP000302"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#DP000303"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#DP000304"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#DP000305"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#DP000306"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#DP000307"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#DP000308"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#DP000309"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#DP000310"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#DP000311"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#DP000312"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#DP000313"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#DP001004"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#DP001005"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#DP001012"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#DP001013"/>
     </Declaration>
     <Declaration>
         <DataProperty IRI="#DP001023"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#DP000150"/>
+        <DataProperty IRI="#DP001024"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#DP001025"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#DP001027"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#DP001028"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#DP001029"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="#DP000037"/>
     </Declaration>
     <SubClassOf>
         <Class IRI="#DP000000"/>
@@ -1399,6 +1399,13 @@
     <SubClassOf>
         <Class IRI="#DP000002"/>
         <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#DP000036"/>
+            <Class IRI="#DP001001"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DP000002"/>
+        <ObjectSomeValuesFrom>
             <ObjectProperty IRI="#DP000146"/>
             <Class IRI="#DP000162"/>
         </ObjectSomeValuesFrom>
@@ -1420,6 +1427,20 @@
     <SubClassOf>
         <Class IRI="#DP000002"/>
         <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#DP000337"/>
+            <Class IRI="#DP000071"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DP000002"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#DP000353"/>
+            <Class IRI="#DP000048"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DP000002"/>
+        <ObjectSomeValuesFrom>
             <ObjectProperty IRI="#DP000360"/>
             <Class IRI="#DP000156"/>
         </ObjectSomeValuesFrom>
@@ -1434,8 +1455,22 @@
     <SubClassOf>
         <Class IRI="#DP000002"/>
         <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#DP000406"/>
+            <Class IRI="#DP000079"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DP000002"/>
+        <ObjectSomeValuesFrom>
             <ObjectProperty IRI="#DP000431"/>
             <Class IRI="#DP000070"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DP000002"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#DP000433"/>
+            <Class IRI="#DP000162"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
@@ -1448,6 +1483,13 @@
     <SubClassOf>
         <Class IRI="#DP000003"/>
         <Class IRI="#DP000001"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DP000003"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#DP000036"/>
+            <Class IRI="#DP001001"/>
+        </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#DP000003"/>
@@ -1468,6 +1510,13 @@
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="#DP000360"/>
             <Class IRI="#DP000156"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DP000003"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#DP000433"/>
+            <Class IRI="#DP000162"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
@@ -1691,6 +1740,23 @@
     <SubClassOf>
         <Class IRI="#DP000025"/>
         <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#DP000035"/>
+            <ObjectUnionOf>
+                <Class IRI="#DP000045"/>
+                <Class IRI="#DP001008"/>
+            </ObjectUnionOf>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DP000025"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#DP000036"/>
+            <Class IRI="#DP001001"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DP000025"/>
+        <ObjectSomeValuesFrom>
             <ObjectProperty IRI="#DP000144"/>
             <Class IRI="#DP000259"/>
         </ObjectSomeValuesFrom>
@@ -1742,6 +1808,23 @@
     <SubClassOf>
         <Class IRI="#DP000029"/>
         <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#DP000035"/>
+            <ObjectUnionOf>
+                <Class IRI="#DP000045"/>
+                <Class IRI="#DP001008"/>
+            </ObjectUnionOf>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DP000029"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#DP000036"/>
+            <Class IRI="#DP001001"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DP000029"/>
+        <ObjectSomeValuesFrom>
             <ObjectProperty IRI="#DP000320"/>
             <Class IRI="#DP000014"/>
         </ObjectSomeValuesFrom>
@@ -1749,6 +1832,10 @@
     <SubClassOf>
         <Class IRI="#DP000038"/>
         <Class IRI="#DP000044"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DP000038"/>
+        <Class IRI="#DP001008"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#DP000042"/>
@@ -1768,6 +1855,17 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#DP000045"/>
+        <Class IRI="#DP001007"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DP000045"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#DP000408"/>
+            <Class IRI="#DP001008"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DP000045"/>
         <DataSomeValuesFrom>
             <DataProperty IRI="#DP000291"/>
             <Datatype abbreviatedIRI="xsd:integer"/>
@@ -1783,6 +1881,20 @@
     <SubClassOf>
         <Class IRI="#DP000046"/>
         <Class IRI="#DP000006"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DP000046"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#DP000386"/>
+            <Class IRI="#DP000200"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DP000046"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#DP000430"/>
+            <Class IRI="#DP000200"/>
+        </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#DP000047"/>
@@ -2101,6 +2213,10 @@
         <Class IRI="#DP000121"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#DP000137"/>
+        <Class IRI="#DP001007"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#DP000139"/>
         <Class IRI="#DP000121"/>
     </SubClassOf>
@@ -2193,6 +2309,14 @@
         <Class IRI="#DP000006"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#DP000163"/>
+        <Class IRI="#DP000114"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DP000164"/>
+        <Class IRI="#DP000163"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#DP000164"/>
         <Class IRI="#DP000168"/>
     </SubClassOf>
@@ -2213,8 +2337,16 @@
         <Class IRI="#DP000114"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#DP000168"/>
+        <Class IRI="#DP000163"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#DP000169"/>
         <Class IRI="#DP000114"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DP000169"/>
+        <Class IRI="#DP000163"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#DP000170"/>
@@ -2237,8 +2369,16 @@
         <Class IRI="#DP000169"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#DP000175"/>
+        <Class IRI="#DP000163"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#DP000176"/>
         <Class IRI="#DP000114"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DP000176"/>
+        <Class IRI="#DP000163"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#DP000177"/>
@@ -2251,6 +2391,10 @@
     <SubClassOf>
         <Class IRI="#DP000179"/>
         <Class IRI="#DP000114"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DP000179"/>
+        <Class IRI="#DP000163"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#DP000179"/>
@@ -2269,6 +2413,10 @@
     <SubClassOf>
         <Class IRI="#DP000180"/>
         <Class IRI="#DP000114"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DP000180"/>
+        <Class IRI="#DP000163"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#DP000180"/>
@@ -2291,6 +2439,10 @@
     <SubClassOf>
         <Class IRI="#DP000182"/>
         <Class IRI="#DP000114"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DP000182"/>
+        <Class IRI="#DP000163"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#DP000183"/>
@@ -2353,14 +2505,50 @@
         <Class IRI="#DP000114"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#DP000197"/>
+        <Class IRI="#DP000163"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DP000198"/>
+        <Class IRI="#DP000163"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DP000199"/>
+        <Class IRI="#DP000163"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DP000200"/>
+        <Class IRI="#DP000163"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#DP000201"/>
         <Class IRI="#DP000114"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DP000201"/>
+        <Class IRI="#DP000163"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DP000201"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#DP000345"/>
+            <ObjectUnionOf>
+                <Class IRI="#DP001014"/>
+            </ObjectUnionOf>
+        </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#DP000201"/>
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="#DP000355"/>
             <Class IRI="#DP000202"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DP000201"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#DP000356"/>
+            <Class IRI="#DP001007"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
@@ -2375,12 +2563,24 @@
         <Class IRI="#DP000114"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#DP000202"/>
+        <Class IRI="#DP000163"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#DP000203"/>
         <Class IRI="#DP000114"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#DP000203"/>
+        <Class IRI="#DP000163"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#DP000204"/>
         <Class IRI="#DP000114"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DP000204"/>
+        <Class IRI="#DP000163"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#DP000205"/>
@@ -2491,6 +2691,10 @@
         <Class IRI="#DP000114"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#DP000231"/>
+        <Class IRI="#DP000163"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#DP000232"/>
         <Class IRI="#DP000231"/>
     </SubClassOf>
@@ -2525,6 +2729,10 @@
     <SubClassOf>
         <Class IRI="#DP000240"/>
         <Class IRI="#DP000114"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DP000240"/>
+        <Class IRI="#DP000163"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#DP000241"/>
@@ -2595,8 +2803,16 @@
         <Class IRI="#DP000253"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#DP000258"/>
+        <Class IRI="#DP000200"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#DP000259"/>
         <Class IRI="#DP000114"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DP000259"/>
+        <Class IRI="#DP000163"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#DP000260"/>
@@ -2619,8 +2835,20 @@
         <Class IRI="#DP000261"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#DP000265"/>
+        <Class IRI="#DP000200"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DP000266"/>
+        <Class IRI="#DP001014"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#DP000267"/>
         <Class IRI="#DP000114"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DP000267"/>
+        <Class IRI="#DP000163"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#DP000267"/>
@@ -2720,6 +2948,13 @@
         <Class IRI="#DP001006"/>
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="#DP000343"/>
+            <Class IRI="#DP000266"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DP001006"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#DP000343"/>
             <Class IRI="#DP001014"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
@@ -2728,6 +2963,13 @@
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="#DP000382"/>
             <Class IRI="#DP000169"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DP001006"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#DP000390"/>
+            <Class IRI="#DP000240"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
@@ -2749,6 +2991,13 @@
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="#DP000428"/>
             <Class IRI="#DP001014"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DP001006"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#DP000444"/>
+            <Class IRI="#DP000204"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
@@ -2849,6 +3098,13 @@
     <SubClassOf>
         <Class IRI="#DP001007"/>
         <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#DP000356"/>
+            <Class IRI="#DP001007"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DP001007"/>
+        <ObjectSomeValuesFrom>
             <ObjectProperty IRI="#DP000359"/>
             <Class IRI="#DP001006"/>
         </ObjectSomeValuesFrom>
@@ -2935,6 +3191,13 @@
     <SubClassOf>
         <Class IRI="#DP001008"/>
         <DataSomeValuesFrom>
+            <DataProperty IRI="#DP000268"/>
+            <Datatype abbreviatedIRI="xsd:boolean"/>
+        </DataSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DP001008"/>
+        <DataSomeValuesFrom>
             <DataProperty IRI="#DP000273"/>
             <Datatype abbreviatedIRI="xsd:dateTime"/>
         </DataSomeValuesFrom>
@@ -3000,6 +3263,23 @@
                 <Class IRI="#DP001016"/>
                 <Class IRI="#DP001018"/>
             </ObjectUnionOf>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DP001009"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#DP000345"/>
+            <ObjectUnionOf>
+                <Class IRI="#DP001014"/>
+                <Class IRI="#DP001016"/>
+            </ObjectUnionOf>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DP001009"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#DP000356"/>
+            <Class IRI="#DP001007"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
@@ -3072,6 +3352,13 @@
         <Class IRI="#DP000114"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#DP001014"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="#DP000286"/>
+            <Datatype abbreviatedIRI="xsd:double"/>
+        </DataSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#DP001015"/>
         <Class IRI="#DP000114"/>
     </SubClassOf>
@@ -3080,8 +3367,43 @@
         <Class IRI="#DP000114"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#DP001016"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="#DP000295"/>
+            <Datatype abbreviatedIRI="xsd:double"/>
+        </DataSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DP001016"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="#DP000308"/>
+            <Datatype abbreviatedIRI="xsd:double"/>
+        </DataSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#DP001017"/>
         <Class IRI="#DP000114"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DP001017"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="#DP000278"/>
+            <Datatype abbreviatedIRI="xsd:double"/>
+        </DataSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DP001017"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="#DP000288"/>
+            <Datatype abbreviatedIRI="xsd:double"/>
+        </DataSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DP001017"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="#DP000296"/>
+            <Datatype abbreviatedIRI="xsd:double"/>
+        </DataSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#DP001018"/>
@@ -3228,6 +3550,10 @@
         <ObjectProperty IRI="#DP000317"/>
     </SubObjectPropertyOf>
     <SubObjectPropertyOf>
+        <ObjectProperty IRI="#DP000337"/>
+        <ObjectProperty IRI="#DP000431"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
         <ObjectProperty IRI="#DP000339"/>
         <ObjectProperty IRI="#DP000324"/>
     </SubObjectPropertyOf>
@@ -3264,6 +3590,10 @@
         <ObjectProperty IRI="#DP000324"/>
     </SubObjectPropertyOf>
     <SubObjectPropertyOf>
+        <ObjectProperty IRI="#DP000349"/>
+        <ObjectProperty IRI="#DP000314"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
         <ObjectProperty IRI="#DP000350"/>
         <ObjectProperty IRI="#DP000321"/>
     </SubObjectPropertyOf>
@@ -3274,6 +3604,10 @@
     <SubObjectPropertyOf>
         <ObjectProperty IRI="#DP000352"/>
         <ObjectProperty IRI="#DP000324"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#DP000353"/>
+        <ObjectProperty IRI="#DP000314"/>
     </SubObjectPropertyOf>
     <SubObjectPropertyOf>
         <ObjectProperty IRI="#DP000354"/>
@@ -3352,6 +3686,10 @@
         <ObjectProperty IRI="#DP000369"/>
     </SubObjectPropertyOf>
     <SubObjectPropertyOf>
+        <ObjectProperty IRI="#DP000376"/>
+        <ObjectProperty IRI="#DP000368"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
         <ObjectProperty IRI="#DP000377"/>
         <ObjectProperty IRI="#DP000378"/>
     </SubObjectPropertyOf>
@@ -3376,12 +3714,20 @@
         <ObjectProperty IRI="#DP000326"/>
     </SubObjectPropertyOf>
     <SubObjectPropertyOf>
+        <ObjectProperty IRI="#DP000383"/>
+        <ObjectProperty IRI="#DP000314"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
         <ObjectProperty IRI="#DP000384"/>
         <ObjectProperty IRI="#DP000361"/>
     </SubObjectPropertyOf>
     <SubObjectPropertyOf>
         <ObjectProperty IRI="#DP000385"/>
         <ObjectProperty IRI="#DP000317"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#DP000386"/>
+        <ObjectProperty IRI="#DP000419"/>
     </SubObjectPropertyOf>
     <SubObjectPropertyOf>
         <ObjectProperty IRI="#DP000387"/>
@@ -3402,6 +3748,10 @@
     <SubObjectPropertyOf>
         <ObjectProperty IRI="#DP000392"/>
         <ObjectProperty IRI="#DP000326"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#DP000393"/>
+        <ObjectProperty IRI="#DP000431"/>
     </SubObjectPropertyOf>
     <SubObjectPropertyOf>
         <ObjectProperty IRI="#DP000394"/>
@@ -3442,6 +3792,10 @@
     <SubObjectPropertyOf>
         <ObjectProperty IRI="#DP000403"/>
         <ObjectProperty IRI="#DP000324"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#DP000406"/>
+        <ObjectProperty IRI="#DP000368"/>
     </SubObjectPropertyOf>
     <SubObjectPropertyOf>
         <ObjectProperty IRI="#DP000407"/>
@@ -3496,6 +3850,10 @@
         <ObjectProperty IRI="#DP000378"/>
     </SubObjectPropertyOf>
     <SubObjectPropertyOf>
+        <ObjectProperty IRI="#DP000421"/>
+        <ObjectProperty IRI="#DP000368"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
         <ObjectProperty IRI="#DP000422"/>
         <ObjectProperty IRI="#DP000326"/>
     </SubObjectPropertyOf>
@@ -3524,12 +3882,20 @@
         <ObjectProperty IRI="#DP000361"/>
     </SubObjectPropertyOf>
     <SubObjectPropertyOf>
+        <ObjectProperty IRI="#DP000430"/>
+        <ObjectProperty IRI="#DP000419"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
         <ObjectProperty IRI="#DP000431"/>
         <ObjectProperty IRI="#DP000036"/>
     </SubObjectPropertyOf>
     <SubObjectPropertyOf>
         <ObjectProperty IRI="#DP000432"/>
         <ObjectProperty IRI="#DP000317"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#DP000433"/>
+        <ObjectProperty IRI="#DP000036"/>
     </SubObjectPropertyOf>
     <SubObjectPropertyOf>
         <ObjectProperty IRI="#DP000434"/>
@@ -3578,6 +3944,10 @@
     <SubObjectPropertyOf>
         <ObjectProperty IRI="#DP000447"/>
         <ObjectProperty IRI="#DP000333"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#DP000448"/>
+        <ObjectProperty IRI="#DP000431"/>
     </SubObjectPropertyOf>
     <SubObjectPropertyOf>
         <ObjectProperty IRI="#DP001003"/>
@@ -3760,6 +4130,10 @@
         <Class IRI="#DP001018"/>
     </ObjectPropertyRange>
     <SubDataPropertyOf>
+        <DataProperty IRI="#DP000268"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
         <DataProperty IRI="#DP000271"/>
         <DataProperty abbreviatedIRI="owl:topDataProperty"/>
     </SubDataPropertyOf>
@@ -3933,6 +4307,9 @@
     </SubDataPropertyOf>
     <FunctionalDataProperty>
         <DataProperty IRI="#DP000123"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#DP000268"/>
     </FunctionalDataProperty>
     <FunctionalDataProperty>
         <DataProperty IRI="#DP000271"/>
@@ -5602,6 +5979,16 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#DP000163</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">SemanticModifier</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
+        <IRI>#DP000163</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">http://blulab.chpc.utah.edu/ontologies/v2/ConText.owl#SemanticModifier</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#DP000164</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">BodySide</Literal>
     </AnnotationAssertion>
@@ -5709,6 +6096,16 @@
         <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
         <IRI>#DP000174</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">http://ontologies.dbmi.pitt.edu/deepphe/nlpCancer.owl#Severe</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#DP000175</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Allergen</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
+        <IRI>#DP000175</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">http://blulab.chpc.utah.edu/ontologies/v2/ConText.owl#Allergen</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -5929,6 +6326,36 @@
         <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
         <IRI>#DP000197</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">http://blulab.chpc.utah.edu/ontologies/v2/ConText.owl#Race</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#DP000198</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">ProcedurePreparationStatus</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
+        <IRI>#DP000198</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">http://blulab.chpc.utah.edu/ontologies/v2/ConText.owl#ProcedurePreparationStatus</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#DP000199</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">ProcedureCompletionStatus</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
+        <IRI>#DP000199</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">http://blulab.chpc.utah.edu/ontologies/v2/ConText.owl#ProcedureCompletionStatus</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#DP000200</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">TNM_Modifier</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
+        <IRI>#DP000200</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">http://ontologies.dbmi.pitt.edu/deepphe/nlpCancer.owl#TNM_Modifier</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -6502,6 +6929,16 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#DP000258</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">c_modifier</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
+        <IRI>#DP000258</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">http://ontologies.dbmi.pitt.edu/deepphe/nlpCancer.owl#c_modifier</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#DP000259</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">TumorType</Literal>
     </AnnotationAssertion>
@@ -6562,6 +6999,26 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#DP000265</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">p_modifier</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
+        <IRI>#DP000265</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">http://ontologies.dbmi.pitt.edu/deepphe/nlpCancer.owl#p_modifier</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#DP000266</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Age</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
+        <IRI>#DP000266</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">http://blulab.chpc.utah.edu/ontologies/v2/ConText.owl#Age</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#DP000267</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">HumanName</Literal>
     </AnnotationAssertion>
@@ -6569,6 +7026,16 @@
         <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
         <IRI>#DP000267</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">http://blulab.chpc.utah.edu/ontologies/v2/ConText.owl#HumanName</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#DP000268</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">wasNotGiven</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
+        <IRI>#DP000268</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">http://blulab.chpc.utah.edu/ontologies/v2/Schema.owl#wasNotGiven</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -7036,9 +7503,19 @@
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">hasPolarity</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#DP000315</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">hasTemporality</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
         <IRI>#DP000315</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">http://blulab.chpc.utah.edu/ontologies/v2/Schema.owl#hasPolarity</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
+        <IRI>#DP000315</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">http://blulab.chpc.utah.edu/ontologies/v2/Schema.owl#hasTemporality</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -7156,6 +7633,16 @@
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">hasExperiencer</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#DP000327</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">isEnActionOf</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
+        <IRI>#DP000327</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">http://blulab.chpc.utah.edu/ontologies/v2/ConText.owl#isEnActionOf</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
         <IRI>#DP000327</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">http://blulab.chpc.utah.edu/ontologies/v2/Schema.owl#hasExperiencer</Literal>
@@ -7223,12 +7710,27 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#DP000334</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">hasContextualModality</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#DP000334</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">hasSectionType</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
         <IRI>#DP000334</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">http://blulab.chpc.utah.edu/ontologies/v2/Schema.owl#hasContextualModality</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
+        <IRI>#DP000334</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">http://blulab.chpc.utah.edu/ontologies/v2/Schema.owl#hasSectionType</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#DP000335</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">hasContextualAspect</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -7239,6 +7741,11 @@
         <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
         <IRI>#DP000335</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">http://blulab.chpc.utah.edu/ontologies/v2/ConText.owl#isEnActionOf</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
+        <IRI>#DP000335</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">http://blulab.chpc.utah.edu/ontologies/v2/Schema.owl#hasContextualAspect</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -7256,14 +7763,34 @@
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">hasEntry</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#DP000337</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">hasGenericMClassification</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
         <IRI>#DP000337</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">http://blulab.chpc.utah.edu/ontologies/v2/Schema.owl#hasEntry</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
+        <IRI>#DP000337</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">http://ontologies.dbmi.pitt.edu/deepphe/nlpCancer.owl#hasGenericMClassification</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#DP000338</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">hasCompositionSummary</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#DP000338</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">hasContent</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
+        <IRI>#DP000338</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">http://blulab.chpc.utah.edu/ontologies/v2/Schema.owl#hasCompositionSummary</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
@@ -7296,9 +7823,19 @@
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">hasCompositionSummary</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#DP000341</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">hasPermanence</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
         <IRI>#DP000341</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">http://blulab.chpc.utah.edu/ontologies/v2/Schema.owl#hasCompositionSummary</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
+        <IRI>#DP000341</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">http://blulab.chpc.utah.edu/ontologies/v2/Schema.owl#hasPermanence</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -7373,12 +7910,22 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#DP000349</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">hasClinicalNClassification</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#DP000349</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">hasEvent</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
         <IRI>#DP000349</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">http://blulab.chpc.utah.edu/ontologies/v2/Schema.owl#hasEvent</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
+        <IRI>#DP000349</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">http://ontologies.dbmi.pitt.edu/deepphe/nlpCancer.owl#hasClinicalNClassification</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -7413,12 +7960,22 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#DP000353</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">hasGenericNClassification</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#DP000353</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">hasMedicalRecordSummary</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
         <IRI>#DP000353</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">http://blulab.chpc.utah.edu/ontologies/v2/Schema.owl#hasMedicalRecordSummary</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
+        <IRI>#DP000353</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">http://ontologies.dbmi.pitt.edu/deepphe/nlpCancer.owl#hasGenericNClassification</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -7628,12 +8185,22 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#DP000376</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">hasClinicalTClassification</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#DP000376</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">hasComposition</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
         <IRI>#DP000376</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">http://blulab.chpc.utah.edu/ontologies/v2/Schema.owl#hasComposition</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
+        <IRI>#DP000376</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">http://ontologies.dbmi.pitt.edu/deepphe/nlpCancer.owl#hasClinicalTClassification</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -7698,12 +8265,22 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#DP000383</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">hasPathologicNClassification</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#DP000383</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">isSvActionOf</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
         <IRI>#DP000383</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">http://blulab.chpc.utah.edu/ontologies/v2/ConText.owl#isSvActionOf</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
+        <IRI>#DP000383</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">http://ontologies.dbmi.pitt.edu/deepphe/nlpCancer.owl#hasPathologicNClassification</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -7731,9 +8308,19 @@
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">hasSection</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#DP000386</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">hasTNMSuffix</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
         <IRI>#DP000386</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">http://blulab.chpc.utah.edu/ontologies/v2/Schema.owl#hasSection</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
+        <IRI>#DP000386</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">http://ontologies.dbmi.pitt.edu/deepphe/nlpCancer.owl#hasTNMSuffix</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -7761,9 +8348,19 @@
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">hasContextualModality</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#DP000389</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">hasDegree</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
         <IRI>#DP000389</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">http://blulab.chpc.utah.edu/ontologies/v2/Schema.owl#hasContextualModality</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
+        <IRI>#DP000389</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">http://blulab.chpc.utah.edu/ontologies/v2/Schema.owl#hasDegree</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -7798,12 +8395,22 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#DP000393</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">hasClinicalMClassification</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#DP000393</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">hasTemporality</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
         <IRI>#DP000393</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">http://blulab.chpc.utah.edu/ontologies/v2/Schema.owl#hasTemporality</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
+        <IRI>#DP000393</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">http://ontologies.dbmi.pitt.edu/deepphe/nlpCancer.owl#hasClinicalMClassification</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -7908,7 +8515,17 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#DP000404</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">hasActionEn</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#DP000404</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">isDeActionOf</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
+        <IRI>#DP000404</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">http://blulab.chpc.utah.edu/ontologies/v2/ConText.owl#hasActionEn</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
@@ -7918,12 +8535,27 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#DP000405</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">hasActionDe</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#DP000405</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">hasDegree</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
         <IRI>#DP000405</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">http://blulab.chpc.utah.edu/ontologies/v2/ConText.owl#hasActionDe</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
+        <IRI>#DP000405</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">http://blulab.chpc.utah.edu/ontologies/v2/Schema.owl#hasDegree</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#DP000406</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">hasGenericTClassification</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -7934,6 +8566,11 @@
         <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
         <IRI>#DP000406</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">http://blulab.chpc.utah.edu/ontologies/v2/Schema.owl#hasPermanence</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
+        <IRI>#DP000406</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">http://ontologies.dbmi.pitt.edu/deepphe/nlpCancer.owl#hasGenericTClassification</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -8018,7 +8655,17 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#DP000415</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">hasActionSv</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#DP000415</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">hasContextualAspect</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
+        <IRI>#DP000415</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">http://blulab.chpc.utah.edu/ontologies/v2/ConText.owl#hasActionSv</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
@@ -8081,9 +8728,19 @@
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">hasCertainty</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#DP000421</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">hasPathologicTClassification</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
         <IRI>#DP000421</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">http://blulab.chpc.utah.edu/ontologies/v2/Schema.owl#hasCertainty</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
+        <IRI>#DP000421</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">http://ontologies.dbmi.pitt.edu/deepphe/nlpCancer.owl#hasPathologicTClassification</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -8131,9 +8788,19 @@
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">hasActionEn</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#DP000426</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">hasSection</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
         <IRI>#DP000426</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">http://blulab.chpc.utah.edu/ontologies/v2/ConText.owl#hasActionEn</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
+        <IRI>#DP000426</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">http://blulab.chpc.utah.edu/ontologies/v2/Schema.owl#hasSection</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -8171,9 +8838,19 @@
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">hasActionSv</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#DP000430</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">hasTNMPrefix</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
         <IRI>#DP000430</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">http://blulab.chpc.utah.edu/ontologies/v2/ConText.owl#hasActionSv</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
+        <IRI>#DP000430</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">http://ontologies.dbmi.pitt.edu/deepphe/nlpCancer.owl#hasTNMPrefix</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -8198,12 +8875,22 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#DP000433</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">hasCancerCellLine</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#DP000433</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">hasDocType</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
         <IRI>#DP000433</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">http://blulab.chpc.utah.edu/ontologies/v2/Schema.owl#hasDocType</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
+        <IRI>#DP000433</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">http://ontologies.dbmi.pitt.edu/deepphe/nlpCancer.owl#hasCancerCellLine</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -8221,9 +8908,19 @@
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">hasActionDe</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#DP000435</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">hasComposition</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
         <IRI>#DP000435</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">http://blulab.chpc.utah.edu/ontologies/v2/ConText.owl#hasActionDe</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
+        <IRI>#DP000435</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">http://blulab.chpc.utah.edu/ontologies/v2/Schema.owl#hasComposition</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -8271,9 +8968,19 @@
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">hasEpisode</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#DP000440</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">hasSectionType</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
         <IRI>#DP000440</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">http://blulab.chpc.utah.edu/ontologies/v2/Schema.owl#hasEpisode</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
+        <IRI>#DP000440</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">http://blulab.chpc.utah.edu/ontologies/v2/Schema.owl#hasSectionType</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -8344,6 +9051,26 @@
         <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
         <IRI>#DP000447</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">http://blulab.chpc.utah.edu/ontologies/v2/Schema.owl#tributary_of</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#DP000448</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">hasPathologicMClassification</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
+        <IRI>#DP000448</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">http://ontologies.dbmi.pitt.edu/deepphe/nlpCancer.owl#hasPathologicMClassification</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#DP000449</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">hasCertainty</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
+        <IRI>#DP000449</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">http://blulab.chpc.utah.edu/ontologies/v2/Schema.owl#hasCertainty</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -8584,5 +9311,5 @@
 
 
 
-<!-- Generated by the OWL API (version 4.2.3.20160319-0906) https://github.com/owlcs/owlapi -->
+<!-- Generated by the OWL API (version 3.5.0) http://owlapi.sourceforge.net -->
 
