@@ -248,8 +248,12 @@ public class GenerateModelOntology {
 			return target.getRoot();
 		
 		// if property was already created then just return it
-		if(target.hasResource(name))
-			return target.getClass(name);
+		if(target.hasResource(name)){
+			IClass targetClass = target.getClass(name);
+			if(!targetClass.hasSuperClass(modelParent))
+				targetClass.addSuperClass(modelParent);
+			return targetClass;
+		}
 		
 		//System.out.println("  copy "+source.getName());
 	
