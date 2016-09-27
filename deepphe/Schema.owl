@@ -1,14 +1,4 @@
 <?xml version="1.0"?>
-
-
-<!DOCTYPE Ontology [
-    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
-    <!ENTITY xml "http://www.w3.org/XML/1998/namespace" >
-    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
-    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
-]>
-
-
 <Ontology xmlns="http://www.w3.org/2002/07/owl#"
      xml:base="http://blulab.chpc.utah.edu/ontologies/v2/Schema.owl"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
@@ -16,134 +6,228 @@
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      ontologyIRI="http://blulab.chpc.utah.edu/ontologies/v2/Schema.owl">
-    <Prefix name="" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="" IRI="http://blulab.chpc.utah.edu/ontologies/v2/Schema.owl"/>
     <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
     <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
     <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
     <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
     <Import>http://blulab.chpc.utah.edu/ontologies/v2/ConText.owl</Import>
     <Annotation>
-        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#author"/>
-        <Literal datatypeIRI="&rdf;PlainLiteral">Melissa Castine</Literal>
-    </Annotation>
-    <Annotation>
         <AnnotationProperty IRI="#license"/>
-        <Literal datatypeIRI="&rdf;PlainLiteral">The Schema ontology is licensed under the Creative Commons Attribution 4.0 International license. Please see https://creativecommons.org/licenses/by/4.0/legalcode for the entire license.</Literal>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">The Schema ontology is licensed under the Creative Commons Attribution 4.0 International license. Please see https://creativecommons.org/licenses/by/4.0/legalcode for the entire license.</Literal>
     </Annotation>
     <Annotation>
         <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#author"/>
-        <Literal datatypeIRI="&rdf;PlainLiteral">Wendy Chapman</Literal>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Wendy Chapman</Literal>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#author"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Melissa Castine</Literal>
     </Annotation>
     <Declaration>
         <Class IRI="#AllergyIntolerance"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Anchor"/>
+        <ObjectProperty IRI="#degree_of"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Annotation"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Attribute"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Composition"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#CompositionAttribute"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Condition"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#DiagnosticProcedure"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#DiseaseDisorder"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#DocumentOntology"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#DocumentSection"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Encounter"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Entity"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Episode"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#EpisodeAttribute"/>
+        <ObjectProperty IRI="#property_of"/>
     </Declaration>
     <Declaration>
         <Class IRI="#EpisodeType"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Event"/>
+        <DataProperty IRI="#notPerformedBoolean"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Finding"/>
+        <ObjectProperty IRI="#hasMethod"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#MedicalRecord"/>
+        <DataProperty IRI="#hasAnnotationType"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#MedicationStatement"/>
+        <DataProperty IRI="#hasDeathDate"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Observation"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Patient"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Procedure"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#SectionType"/>
+        <ObjectProperty IRI="#developmental_form_of"/>
     </Declaration>
     <Declaration>
         <Class IRI="#SignSymptom"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Summary"/>
+        <ObjectProperty IRI="#disrupts"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#SummaryAttribute"/>
+        <DataProperty IRI="#hasLowValue"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#TherapeuticProcedure"/>
+        <ObjectProperty IRI="#hasDosage"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#adjacent_to"/>
+        <ObjectProperty IRI="#hasGender"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#affects"/>
+        <ObjectProperty IRI="#hasMedicalRecordSummary"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#analyzes"/>
+        <ObjectProperty IRI="#interacts_with"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#assesses_effect_of"/>
+        <ObjectProperty IRI="#complicates"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasEthnicity"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#uses"/>
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="#associated_with"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#before"/>
+        <ObjectProperty IRI="#hasDosageQuantity"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#begins_on"/>
+        <DataProperty IRI="#hasBirthDate"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#branch_of"/>
+        <ObjectProperty IRI="#hasPatient"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#brings_about"/>
+        <ObjectProperty IRI="#hasRelation"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasMaxMinFlag"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Episode"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasRate"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#process_of"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#analyzes"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasNumericModifier"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasLinguisticModifier"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasExperiencer"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasFullName"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasDegree"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasAbatementBoolean"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasNumValue"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#treats"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasCorpus"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasIndicationType"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasSpan"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasStageAssessment"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Observation"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasInterpretation"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#overlap"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#contains_temporally"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasBodySiteModifier"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#produces"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DiagnosticProcedure"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasQuantityValue"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasLocation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DiseaseDisorder"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasDenominatorValue"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#location_of"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasMiddleName"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#spatially_related_to"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasExclusion"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasAgeRange"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#manages"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#wasDerivedFrom"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#prevents"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#occurs_in"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasPermanence"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasValue"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasLastOccurence"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#conceptual_part_of"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasEpisode"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Anchor"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasAllergyIntoleranceCategory"/>
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="#carries_out"/>
@@ -152,473 +236,395 @@
         <ObjectProperty IRI="#causes"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#complicates"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#conceptual_part_of"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#conceptually_related_to"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#connected_to"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#consists_of"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#contains"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#contains_temporally"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#degree_of"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#derivative_of"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#developmental_form_of"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#diagnoses"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#disrupts"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#ends_on"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#evaluation_of"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#exhibits"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#functionally_related_to"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#hasAgeAbatement"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#hasAgeOnset"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#hasAgeRange"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#hasAnchor"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#hasBodySite"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#hasBodySiteModifier"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#hasCertainty"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#hasCompletionStatus"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#hasComposition"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#hasCompositionAttribute"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#hasCompositionSummary"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#hasContent"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#hasContextualAspect"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#hasContextualModality"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#hasCourse"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#hasDegree"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#hasDeltaFlag"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#hasDocType"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#hasDosage"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#hasDosageQuantity"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#hasEncounter"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#hasEntry"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#hasEpisode"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#hasEpisodeAttribute"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#hasEpisodeType"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#hasEthnicity"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#hasEvent"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#hasExperiencer"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#hasForm"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#hasGender"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#hasInterpretation"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#hasLinguisticModifier"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#hasMRSummaryAttribute"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#hasMaritalStatus"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#hasMedicalRecordSummary"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#hasMedication"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#hasMethod"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#hasModifier"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#hasName"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#hasNumValue"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#hasNumericModifier"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#hasPatient"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#hasPermanence"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#hasPolarity"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#hasRate"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#hasReasonForUse"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#hasReasonPerformed"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#hasRegimen"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#hasRelation"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#hasRoute"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#hasSection"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#hasSectionType"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#hasSemanticModifier"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#hasSeverity"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#hasStage"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#hasStageAssessment"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#hasStageSummary"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#hasStatusChange"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#hasSubstance"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#hasTemporality"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#hasUnit"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#indicates"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#ingredient_of"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#interacts_with"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#interconnects"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#issue_in"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#location_of"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#manages"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#manifestation_of"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#measurement_of"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#measures"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#method_of"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#occurs_in"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#overlap"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#part_of"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#performs"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#physically_related_to"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#practices"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#prevents"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#process_of"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#produces"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#property_of"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#result_of"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#spatially_related_to"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#surrounds"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#temporally_related_to"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#traverses"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#treats"/>
+        <DataProperty IRI="#wasNotGiven"/>
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="#tributary_of"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#uses"/>
+        <ObjectProperty IRI="#hasDocType"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#wasDerivedFrom"/>
+        <ObjectProperty IRI="#affects"/>
     </Declaration>
     <Declaration>
-        <DataProperty IRI="#asNeededBoolean"/>
+        <ObjectProperty IRI="#part_of"/>
     </Declaration>
     <Declaration>
-        <DataProperty IRI="#has1DimensionValue"/>
+        <ObjectProperty IRI="#hasName"/>
     </Declaration>
     <Declaration>
-        <DataProperty IRI="#has2DimensionValue"/>
+        <ObjectProperty IRI="#performs"/>
     </Declaration>
     <Declaration>
-        <DataProperty IRI="#has3DimensionValue"/>
+        <ObjectProperty IRI="#measurement_of"/>
     </Declaration>
     <Declaration>
-        <DataProperty IRI="#hasAbatementBoolean"/>
-    </Declaration>
-    <Declaration>
-        <DataProperty IRI="#hasAllergyIntoleranceCategory"/>
-    </Declaration>
-    <Declaration>
-        <DataProperty IRI="#hasAllergyIntoleranceType"/>
-    </Declaration>
-    <Declaration>
-        <DataProperty IRI="#hasAnnotationType"/>
-    </Declaration>
-    <Declaration>
-        <DataProperty IRI="#hasBirthDate"/>
-    </Declaration>
-    <Declaration>
-        <DataProperty IRI="#hasCUI"/>
-    </Declaration>
-    <Declaration>
-        <DataProperty IRI="#hasCode"/>
-    </Declaration>
-    <Declaration>
-        <DataProperty IRI="#hasConditionCategory"/>
-    </Declaration>
-    <Declaration>
-        <DataProperty IRI="#hasCorpus"/>
-    </Declaration>
-    <Declaration>
-        <DataProperty IRI="#hasCurrentNumberProcedure"/>
-    </Declaration>
-    <Declaration>
-        <DataProperty IRI="#hasDateAbatement"/>
-    </Declaration>
-    <Declaration>
-        <DataProperty IRI="#hasDateOfComposition"/>
-    </Declaration>
-    <Declaration>
-        <DataProperty IRI="#hasDateOfOnset"/>
-    </Declaration>
-    <Declaration>
-        <DataProperty IRI="#hasDeathDate"/>
-    </Declaration>
-    <Declaration>
-        <DataProperty IRI="#hasDenominatorValue"/>
-    </Declaration>
-    <Declaration>
-        <DataProperty IRI="#hasDocumentID"/>
-    </Declaration>
-    <Declaration>
-        <DataProperty IRI="#hasFirstName"/>
-    </Declaration>
-    <Declaration>
-        <DataProperty IRI="#hasFromLocation"/>
-    </Declaration>
-    <Declaration>
-        <DataProperty IRI="#hasFullName"/>
-    </Declaration>
-    <Declaration>
-        <DataProperty IRI="#hasHighValue"/>
-    </Declaration>
-    <Declaration>
-        <DataProperty IRI="#hasLastName"/>
-    </Declaration>
-    <Declaration>
-        <DataProperty IRI="#hasLastOccurence"/>
-    </Declaration>
-    <Declaration>
-        <DataProperty IRI="#hasLocation"/>
-    </Declaration>
-    <Declaration>
-        <DataProperty IRI="#hasLowValue"/>
-    </Declaration>
-    <Declaration>
-        <DataProperty IRI="#hasMaxMinFlag"/>
-    </Declaration>
-    <Declaration>
-        <DataProperty IRI="#hasMiddleName"/>
-    </Declaration>
-    <Declaration>
-        <DataProperty IRI="#hasNamePrefix"/>
-    </Declaration>
-    <Declaration>
-        <DataProperty IRI="#hasNameSuffix"/>
-    </Declaration>
-    <Declaration>
-        <DataProperty IRI="#hasNumeratorValue"/>
-    </Declaration>
-    <Declaration>
-        <DataProperty IRI="#hasProcedureCategory"/>
-    </Declaration>
-    <Declaration>
-        <DataProperty IRI="#hasQuantityValue"/>
+        <Class IRI="#Condition"/>
     </Declaration>
     <Declaration>
         <DataProperty IRI="#hasReasonNotTaken"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#Attribute"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasContextualModality"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasMaritalStatus"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#has1DimensionValue"/>
+    </Declaration>
+    <Declaration>
         <DataProperty IRI="#hasRecordedDate"/>
     </Declaration>
     <Declaration>
-        <DataProperty IRI="#hasSpan"/>
+        <ObjectProperty IRI="#hasCourse"/>
     </Declaration>
     <Declaration>
-        <DataProperty IRI="#hasTitle"/>
+        <ObjectProperty IRI="#hasRegimen"/>
     </Declaration>
     <Declaration>
-        <DataProperty IRI="#hasToLocation"/>
+        <ObjectProperty IRI="#branch_of"/>
     </Declaration>
     <Declaration>
-        <DataProperty IRI="#hasTotalNumberProcedure"/>
+        <ObjectProperty IRI="#manifestation_of"/>
     </Declaration>
     <Declaration>
-        <DataProperty IRI="#hasValue"/>
+        <ObjectProperty IRI="#hasMedication"/>
     </Declaration>
     <Declaration>
-        <DataProperty IRI="#isDeceased"/>
+        <ObjectProperty IRI="#hasReasonPerformed"/>
     </Declaration>
     <Declaration>
-        <DataProperty IRI="#notPerformedBoolean"/>
+        <DataProperty IRI="#hasNameSuffix"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#adjacent_to"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#method_of"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TherapeuticProcedure"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#consists_of"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasCUI"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasDateAbatement"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasContextualAspect"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#has3DimensionValue"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasStageSummary"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SectionType"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Finding"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasCurrentNumberProcedure"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasDateOfComposition"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasEncounter"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasAnchor"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Encounter"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasAllergyIntoleranceType"/>
     </Declaration>
     <Declaration>
         <DataProperty IRI="#reasonNotPerformed"/>
     </Declaration>
     <Declaration>
-        <DataProperty IRI="#wasNotGiven"/>
+        <ObjectProperty IRI="#before"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MedicalRecord"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#EpisodeAttribute"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasProcedureCategory"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasEpisodeAttribute"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasSubstance"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasCode"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasForm"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#contains"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasStage"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasRoute"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Patient"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#evaluation_of"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#result_of"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Event"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Annotation"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#brings_about"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasAgeOnset"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#indicates"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasDate"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasEvent"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#diagnoses"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasStatusChange"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasHighValue"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Composition"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SummaryAttribute"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#functionally_related_to"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#exhibits"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasEpisodeType"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasBodySite"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasDocumentID"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasContent"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#traverses"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasSeverity"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasToLocation"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasDeltaFlag"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#interconnects"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasAgeAbatement"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#ends_on"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#issue_in"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasEndDate"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasCertainty"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DocumentSection"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MedicationStatement"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#has2DimensionValue"/>
     </Declaration>
     <Declaration>
         <AnnotationProperty IRI="#license"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasComposition"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasFromLocation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Summary"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasCompletionStatus"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DocumentOntology"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasUnit"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#measures"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#connected_to"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#derivative_of"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CompositionAttribute"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasTitle"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#surrounds"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#practices"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#asNeededBoolean"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasLastName"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasSectionType"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#ingredient_of"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasCompositionSummary"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Entity"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasPolarity"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasSection"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasTotalNumberProcedure"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasConditionCategory"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasStartDate"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasFirstName"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#physically_related_to"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasReasonForUse"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasCompositionAttribute"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#temporally_related_to"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#assesses_effect_of"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Procedure"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasSemanticModifier"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#isDeceased"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasNumeratorValue"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasDateOfOnset"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasEntry"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasTemporality"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasNamePrefix"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasModifier"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#begins_on"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasMRSummaryAttribute"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#conceptually_related_to"/>
     </Declaration>
     <EquivalentClasses>
         <Class IRI="#DiseaseDisorder"/>
         <DataSomeValuesFrom>
             <DataProperty IRI="#hasConditionCategory"/>
             <DataOneOf>
-                <Literal datatypeIRI="&rdf;PlainLiteral">diagnosis</Literal>
+                <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">diagnosis</Literal>
             </DataOneOf>
         </DataSomeValuesFrom>
     </EquivalentClasses>
@@ -627,7 +633,7 @@
         <DataSomeValuesFrom>
             <DataProperty IRI="#hasConditionCategory"/>
             <DataOneOf>
-                <Literal datatypeIRI="&rdf;PlainLiteral">finding</Literal>
+                <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">finding</Literal>
             </DataOneOf>
         </DataSomeValuesFrom>
     </EquivalentClasses>
@@ -636,8 +642,8 @@
         <DataSomeValuesFrom>
             <DataProperty IRI="#hasConditionCategory"/>
             <DataOneOf>
-                <Literal datatypeIRI="&rdf;PlainLiteral">complaint</Literal>
-                <Literal datatypeIRI="&rdf;PlainLiteral">symptom</Literal>
+                <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">complaint</Literal>
+                <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">symptom</Literal>
             </DataOneOf>
         </DataSomeValuesFrom>
     </EquivalentClasses>
@@ -856,10 +862,10 @@
         <DataSomeValuesFrom>
             <DataProperty IRI="#hasAllergyIntoleranceCategory"/>
             <DataOneOf>
-                <Literal datatypeIRI="&rdf;PlainLiteral">environment</Literal>
-                <Literal datatypeIRI="&rdf;PlainLiteral">food</Literal>
-                <Literal datatypeIRI="&rdf;PlainLiteral">medication</Literal>
-                <Literal datatypeIRI="&rdf;PlainLiteral">other</Literal>
+                <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">environment</Literal>
+                <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">food</Literal>
+                <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">medication</Literal>
+                <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">other</Literal>
             </DataOneOf>
         </DataSomeValuesFrom>
     </SubClassOf>
@@ -868,8 +874,8 @@
         <DataSomeValuesFrom>
             <DataProperty IRI="#hasAllergyIntoleranceType"/>
             <DataOneOf>
-                <Literal datatypeIRI="&rdf;PlainLiteral">Allergy</Literal>
-                <Literal datatypeIRI="&rdf;PlainLiteral">Intolerance</Literal>
+                <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Allergy</Literal>
+                <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Intolerance</Literal>
             </DataOneOf>
         </DataSomeValuesFrom>
     </SubClassOf>
@@ -895,6 +901,21 @@
         </DataSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#Anchor"/>
+        <Class abbreviatedIRI="owl:Thing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Anchor"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://blulab.chpc.utah.edu/ontologies/v2/ConText.owl#hasPseudo"/>
+            <Class IRI="http://blulab.chpc.utah.edu/ontologies/v2/ConText.owl#Pseudo"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Annotation"/>
+        <Class abbreviatedIRI="owl:Thing"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#Annotation"/>
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="#wasDerivedFrom"/>
@@ -906,9 +927,9 @@
         <DataSomeValuesFrom>
             <DataProperty IRI="#hasAnnotationType"/>
             <DataOneOf>
-                <Literal datatypeIRI="&rdf;PlainLiteral">document</Literal>
-                <Literal datatypeIRI="&rdf;PlainLiteral">mention</Literal>
-                <Literal datatypeIRI="&rdf;PlainLiteral">record</Literal>
+                <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">document</Literal>
+                <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">mention</Literal>
+                <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">record</Literal>
             </DataOneOf>
         </DataSomeValuesFrom>
     </SubClassOf>
@@ -932,6 +953,10 @@
             <DataProperty IRI="#hasSpan"/>
             <Datatype abbreviatedIRI="xsd:string"/>
         </DataSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Attribute"/>
+        <Class abbreviatedIRI="owl:Thing"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Composition"/>
@@ -1161,6 +1186,20 @@
             <ObjectProperty IRI="#hasEvent"/>
             <Class IRI="#Annotation"/>
         </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Episode"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="#hasEndDate"/>
+            <Datatype abbreviatedIRI="xsd:dateTimeStamp"/>
+        </DataSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Episode"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="#hasStartDate"/>
+            <Datatype abbreviatedIRI="xsd:dateTimeStamp"/>
+        </DataSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#EpisodeAttribute"/>
@@ -1393,6 +1432,10 @@
         <Class IRI="#Condition"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#Summary"/>
+        <Class abbreviatedIRI="owl:Thing"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#SummaryAttribute"/>
         <Class IRI="#Attribute"/>
     </SubClassOf>
@@ -1531,11 +1574,11 @@
     </SubObjectPropertyOf>
     <SubObjectPropertyOf>
         <ObjectProperty IRI="#hasAgeAbatement"/>
-        <ObjectProperty IRI="#hasSemanticModifier"/>
+        <ObjectProperty IRI="#hasNumericModifier"/>
     </SubObjectPropertyOf>
     <SubObjectPropertyOf>
         <ObjectProperty IRI="#hasAgeOnset"/>
-        <ObjectProperty IRI="#hasSemanticModifier"/>
+        <ObjectProperty IRI="#hasNumericModifier"/>
     </SubObjectPropertyOf>
     <SubObjectPropertyOf>
         <ObjectProperty IRI="#hasAgeRange"/>
@@ -1599,7 +1642,7 @@
     </SubObjectPropertyOf>
     <SubObjectPropertyOf>
         <ObjectProperty IRI="#hasDosage"/>
-        <ObjectProperty IRI="#hasSemanticModifier"/>
+        <ObjectProperty IRI="#hasNumericModifier"/>
     </SubObjectPropertyOf>
     <SubObjectPropertyOf>
         <ObjectProperty IRI="#hasDosageQuantity"/>
@@ -1650,6 +1693,10 @@
         <ObjectProperty IRI="#hasSemanticModifier"/>
     </SubObjectPropertyOf>
     <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasIndicationType"/>
+        <ObjectProperty IRI="#hasSemanticModifier"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
         <ObjectProperty IRI="#hasInterpretation"/>
         <ObjectProperty IRI="#hasSemanticModifier"/>
     </SubObjectPropertyOf>
@@ -1683,7 +1730,7 @@
     </SubObjectPropertyOf>
     <SubObjectPropertyOf>
         <ObjectProperty IRI="#hasNumValue"/>
-        <ObjectProperty IRI="#hasSemanticModifier"/>
+        <ObjectProperty IRI="#hasNumericModifier"/>
     </SubObjectPropertyOf>
     <SubObjectPropertyOf>
         <ObjectProperty IRI="#hasNumericModifier"/>
@@ -1890,6 +1937,10 @@
         <ObjectProperty IRI="#functionally_related_to"/>
     </SubObjectPropertyOf>
     <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://blulab.chpc.utah.edu/ontologies/v2/ConText.owl#hasPseudo"/>
+        <Class IRI="#Anchor"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
         <ObjectProperty IRI="#hasAgeAbatement"/>
         <Class IRI="#Condition"/>
     </ObjectPropertyDomain>
@@ -2010,12 +2061,24 @@
         <Class IRI="#Episode"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasExclusion"/>
+        <Class IRI="http://blulab.chpc.utah.edu/ontologies/v2/ConText.owl#Modifier"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasExclusion"/>
+        <Class IRI="#Annotation"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
         <ObjectProperty IRI="#hasExperiencer"/>
         <Class IRI="#Event"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#hasGender"/>
         <Class IRI="#Patient"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasIndicationType"/>
+        <Class IRI="#Condition"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#hasInterpretation"/>
@@ -2226,6 +2289,14 @@
         <Class IRI="#Annotation"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasExclusion"/>
+        <Class IRI="http://blulab.chpc.utah.edu/ontologies/v2/ConText.owl#Modifier"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasExclusion"/>
+        <Class IRI="#Annotation"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
         <ObjectProperty IRI="#hasMRSummaryAttribute"/>
         <Class IRI="#SummaryAttribute"/>
     </ObjectPropertyRange>
@@ -2302,8 +2373,32 @@
         <DataProperty IRI="#hasValue"/>
     </SubDataPropertyOf>
     <SubDataPropertyOf>
+        <DataProperty IRI="#hasBirthDate"/>
+        <DataProperty IRI="#hasDate"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#hasDateAbatement"/>
+        <DataProperty IRI="#hasDate"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#hasDateOfComposition"/>
+        <DataProperty IRI="#hasDate"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#hasDateOfOnset"/>
+        <DataProperty IRI="#hasDate"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#hasDeathDate"/>
+        <DataProperty IRI="#hasDate"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
         <DataProperty IRI="#hasDenominatorValue"/>
         <DataProperty IRI="#hasValue"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#hasEndDate"/>
+        <DataProperty IRI="#hasDate"/>
     </SubDataPropertyOf>
     <SubDataPropertyOf>
         <DataProperty IRI="#hasFromLocation"/>
@@ -2324,6 +2419,14 @@
     <SubDataPropertyOf>
         <DataProperty IRI="#hasQuantityValue"/>
         <DataProperty IRI="#hasValue"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#hasRecordedDate"/>
+        <DataProperty IRI="#hasDate"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#hasStartDate"/>
+        <DataProperty IRI="#hasDate"/>
     </SubDataPropertyOf>
     <SubDataPropertyOf>
         <DataProperty IRI="#hasToLocation"/>
@@ -2448,6 +2551,10 @@
         <Class IRI="#Annotation"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
+        <DataProperty IRI="#hasEndDate"/>
+        <Class IRI="#Episode"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
         <DataProperty IRI="#hasFirstName"/>
         <Class IRI="http://blulab.chpc.utah.edu/ontologies/v2/ConText.owl#HumanName"/>
     </DataPropertyDomain>
@@ -2510,6 +2617,10 @@
     <DataPropertyDomain>
         <DataProperty IRI="#hasSpan"/>
         <Class IRI="#Annotation"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasStartDate"/>
+        <Class IRI="#Episode"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
         <DataProperty IRI="#hasTitle"/>
@@ -2578,9 +2689,9 @@
     <DataPropertyRange>
         <DataProperty IRI="#hasAnnotationType"/>
         <DataOneOf>
-            <Literal datatypeIRI="&rdf;PlainLiteral">document</Literal>
-            <Literal datatypeIRI="&rdf;PlainLiteral">mention</Literal>
-            <Literal datatypeIRI="&rdf;PlainLiteral">record</Literal>
+            <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">document</Literal>
+            <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">mention</Literal>
+            <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">record</Literal>
         </DataOneOf>
     </DataPropertyRange>
     <DataPropertyRange>
@@ -2598,10 +2709,10 @@
     <DataPropertyRange>
         <DataProperty IRI="#hasConditionCategory"/>
         <DataOneOf>
-            <Literal datatypeIRI="&rdf;PlainLiteral">complaint</Literal>
-            <Literal datatypeIRI="&rdf;PlainLiteral">diagnosis</Literal>
-            <Literal datatypeIRI="&rdf;PlainLiteral">finding</Literal>
-            <Literal datatypeIRI="&rdf;PlainLiteral">symptom</Literal>
+            <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">complaint</Literal>
+            <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">diagnosis</Literal>
+            <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">finding</Literal>
+            <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">symptom</Literal>
         </DataOneOf>
     </DataPropertyRange>
     <DataPropertyRange>
@@ -2637,6 +2748,10 @@
         <Datatype abbreviatedIRI="xsd:string"/>
     </DataPropertyRange>
     <DataPropertyRange>
+        <DataProperty IRI="#hasEndDate"/>
+        <Datatype abbreviatedIRI="xsd:dateTimeStamp"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
         <DataProperty IRI="#hasFirstName"/>
         <Datatype abbreviatedIRI="xsd:string"/>
     </DataPropertyRange>
@@ -2667,8 +2782,8 @@
     <DataPropertyRange>
         <DataProperty IRI="#hasMaxMinFlag"/>
         <DataOneOf>
-            <Literal datatypeIRI="&rdf;PlainLiteral">maximum</Literal>
-            <Literal datatypeIRI="&rdf;PlainLiteral">minimum</Literal>
+            <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">maximum</Literal>
+            <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">minimum</Literal>
         </DataOneOf>
     </DataPropertyRange>
     <DataPropertyRange>
@@ -2690,8 +2805,8 @@
     <DataPropertyRange>
         <DataProperty IRI="#hasProcedureCategory"/>
         <DataOneOf>
-            <Literal datatypeIRI="&rdf;PlainLiteral">diagnostic</Literal>
-            <Literal datatypeIRI="&rdf;PlainLiteral">therapeutic</Literal>
+            <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">diagnostic</Literal>
+            <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">therapeutic</Literal>
         </DataOneOf>
     </DataPropertyRange>
     <DataPropertyRange>
@@ -2709,6 +2824,10 @@
     <DataPropertyRange>
         <DataProperty IRI="#hasSpan"/>
         <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasStartDate"/>
+        <Datatype abbreviatedIRI="xsd:dateTimeStamp"/>
     </DataPropertyRange>
     <DataPropertyRange>
         <DataProperty IRI="#hasTitle"/>
@@ -2749,11 +2868,11 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#hasAnchor</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">hasAnchor</Literal>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">hasAnchor</Literal>
     </AnnotationAssertion>
 </Ontology>
 
 
 
-<!-- Generated by the OWL API (version 3.5.1) http://owlapi.sourceforge.net -->
+<!-- Generated by the OWL API (version 4.2.5.20160517-0735) https://github.com/owlcs/owlapi -->
 
