@@ -1,4 +1,8 @@
 # ontologies
+
+This is a working repository, used to generate the DeepPhe cancer information models. To review the models as proposed for use, plese see the <A HREF="https://github.com/DeepPhe/models">models repository</a>.
+
+______
 The ontologies and models created for the DeepPhe project are licensed under the <a href="https://creativecommons.org/licenses/by/4.0/legalcode">Creative Commons Attribution International
 4.0 license</a>.
 
