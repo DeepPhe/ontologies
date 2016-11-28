@@ -6,7 +6,7 @@
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      ontologyIRI="http://blulab.chpc.utah.edu/ontologies/v2/Schema.owl">
-    <Prefix name="" IRI="http://blulab.chpc.utah.edu/ontologies/v2/Schema.owl"/>
+    <Prefix name="" IRI="http://blulab.chpc.utah.edu/ontologies/v2/Schema.owl#"/>
     <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
     <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
     <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
@@ -122,6 +122,9 @@
         <ObjectProperty IRI="#hasExperiencer"/>
     </Declaration>
     <Declaration>
+        <ObjectProperty IRI="#hasCompoundArgument"/>
+    </Declaration>
+    <Declaration>
         <DataProperty IRI="#hasFullName"/>
     </Declaration>
     <Declaration>
@@ -209,6 +212,9 @@
         <ObjectProperty IRI="#occurs_in"/>
     </Declaration>
     <Declaration>
+        <ObjectProperty IRI="#hasCompoundArgument4"/>
+    </Declaration>
+    <Declaration>
         <ObjectProperty IRI="#hasPermanence"/>
     </Declaration>
     <Declaration>
@@ -239,6 +245,9 @@
         <DataProperty IRI="#wasNotGiven"/>
     </Declaration>
     <Declaration>
+        <ObjectProperty IRI="#hasCompoundArgument3"/>
+    </Declaration>
+    <Declaration>
         <ObjectProperty IRI="#tributary_of"/>
     </Declaration>
     <Declaration>
@@ -267,6 +276,9 @@
     </Declaration>
     <Declaration>
         <Class IRI="#Attribute"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#isCompoundOrdered"/>
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="#hasContextualModality"/>
@@ -312,6 +324,9 @@
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="#consists_of"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasCompoundArgument5"/>
     </Declaration>
     <Declaration>
         <DataProperty IRI="#hasCUI"/>
@@ -461,6 +476,9 @@
         <DataProperty IRI="#hasToLocation"/>
     </Declaration>
     <Declaration>
+        <ObjectProperty IRI="#hasCompoundArgument2"/>
+    </Declaration>
+    <Declaration>
         <ObjectProperty IRI="#hasDeltaFlag"/>
     </Declaration>
     <Declaration>
@@ -498,6 +516,9 @@
     </Declaration>
     <Declaration>
         <DataProperty IRI="#hasFromLocation"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasCompoundArgument1"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Summary"/>
@@ -542,6 +563,9 @@
         <ObjectProperty IRI="#hasSectionType"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#CompoundAnchor"/>
+    </Declaration>
+    <Declaration>
         <ObjectProperty IRI="#ingredient_of"/>
     </Declaration>
     <Declaration>
@@ -581,19 +605,22 @@
         <ObjectProperty IRI="#temporally_related_to"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#assesses_effect_of"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="#Procedure"/>
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="#hasSemanticModifier"/>
     </Declaration>
     <Declaration>
+        <ObjectProperty IRI="#assesses_effect_of"/>
+    </Declaration>
+    <Declaration>
         <DataProperty IRI="#isDeceased"/>
     </Declaration>
     <Declaration>
         <DataProperty IRI="#hasNumeratorValue"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PseudoAnchor"/>
     </Declaration>
     <Declaration>
         <DataProperty IRI="#hasDateOfOnset"/>
@@ -902,10 +929,6 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Anchor"/>
-        <Class abbreviatedIRI="owl:Thing"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Anchor"/>
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="http://blulab.chpc.utah.edu/ontologies/v2/ConText.owl#hasPseudo"/>
             <Class IRI="http://blulab.chpc.utah.edu/ontologies/v2/ConText.owl#Pseudo"/>
@@ -1045,6 +1068,13 @@
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="#hasEncounter"/>
             <Class IRI="#Encounter"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Condition"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasIndicationType"/>
+            <Class IRI="http://blulab.chpc.utah.edu/ontologies/v2/ConText.owl#IndicationType"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
@@ -1424,6 +1454,10 @@
         </DataSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#PseudoAnchor"/>
+        <Class IRI="http://blulab.chpc.utah.edu/ontologies/v2/ConText.owl#Pseudo"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#SectionType"/>
         <Class IRI="#CompositionAttribute"/>
     </SubClassOf>
@@ -1611,6 +1645,26 @@
     <SubObjectPropertyOf>
         <ObjectProperty IRI="#hasCompositionSummary"/>
         <ObjectProperty IRI="#hasCompositionAttribute"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasCompoundArgument1"/>
+        <ObjectProperty IRI="#hasCompoundArgument"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasCompoundArgument2"/>
+        <ObjectProperty IRI="#hasCompoundArgument"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasCompoundArgument3"/>
+        <ObjectProperty IRI="#hasCompoundArgument"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasCompoundArgument4"/>
+        <ObjectProperty IRI="#hasCompoundArgument"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasCompoundArgument5"/>
+        <ObjectProperty IRI="#hasCompoundArgument"/>
     </SubObjectPropertyOf>
     <SubObjectPropertyOf>
         <ObjectProperty IRI="#hasContent"/>
@@ -1985,6 +2039,10 @@
         <Class IRI="#Composition"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasCompoundArgument"/>
+        <Class IRI="#CompoundAnchor"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
         <ObjectProperty IRI="#hasContent"/>
         <Class IRI="#Composition"/>
     </ObjectPropertyDomain>
@@ -2237,8 +2295,16 @@
         <Class IRI="#Event"/>
     </ObjectPropertyDomain>
     <ObjectPropertyRange>
+        <ObjectProperty IRI="http://blulab.chpc.utah.edu/ontologies/v2/ConText.owl#hasPseudo"/>
+        <Class IRI="#PseudoAnchor"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
         <ObjectProperty IRI="#hasAnchor"/>
         <Class IRI="#Anchor"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasAnchor"/>
+        <Class IRI="#CompoundAnchor"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
         <ObjectProperty IRI="#hasBodySiteModifier"/>
@@ -2259,6 +2325,10 @@
     <ObjectPropertyRange>
         <ObjectProperty IRI="#hasCompositionSummary"/>
         <Class IRI="#Annotation"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasCompoundArgument"/>
+        <Class IRI="#Anchor"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
         <ObjectProperty IRI="#hasDocType"/>
@@ -2295,6 +2365,10 @@
     <ObjectPropertyRange>
         <ObjectProperty IRI="#hasExclusion"/>
         <Class IRI="#Annotation"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasIndicationType"/>
+        <Class IRI="http://blulab.chpc.utah.edu/ontologies/v2/ConText.owl#IndicationType"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
         <ObjectProperty IRI="#hasMRSummaryAttribute"/>
@@ -2464,6 +2538,9 @@
     </FunctionalDataProperty>
     <FunctionalDataProperty>
         <DataProperty IRI="#hasDocumentID"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#isCompoundOrdered"/>
     </FunctionalDataProperty>
     <FunctionalDataProperty>
         <DataProperty IRI="#isDeceased"/>
@@ -2641,6 +2718,10 @@
     <DataPropertyDomain>
         <DataProperty IRI="#hasValue"/>
         <Class IRI="http://blulab.chpc.utah.edu/ontologies/v2/ConText.owl#NumericModifier"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#isCompoundOrdered"/>
+        <Class IRI="#CompoundAnchor"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
         <DataProperty IRI="#isDeceased"/>
@@ -2850,6 +2931,10 @@
         <Datatype abbreviatedIRI="xsd:integer"/>
     </DataPropertyRange>
     <DataPropertyRange>
+        <DataProperty IRI="#isCompoundOrdered"/>
+        <Datatype abbreviatedIRI="xsd:boolean"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
         <DataProperty IRI="#isDeceased"/>
         <Datatype abbreviatedIRI="xsd:boolean"/>
     </DataPropertyRange>
@@ -2865,6 +2950,26 @@
         <DataProperty IRI="#wasNotGiven"/>
         <Datatype abbreviatedIRI="xsd:boolean"/>
     </DataPropertyRange>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#regex"/>
+        <IRI>http://blulab.chpc.utah.edu/ontologies/v2/ConText.owl#DimensionalMeasurement</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">(\d?\d?\d?\,)*\d*\.?\d*\s*(x|X)\s*(\d?\d?\d?\,)*\d*\.?\d*\s*((x|X)\s*(\d?\d?\d?\,)*\d*\.?\d*)?</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#regex"/>
+        <IRI>http://blulab.chpc.utah.edu/ontologies/v2/ConText.owl#Quantity</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">(\d?\d?\d?\,)*\d*\.?\d*</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#regex"/>
+        <IRI>http://blulab.chpc.utah.edu/ontologies/v2/ConText.owl#RangeModifier</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">(\d?\d?\d?\,)*\d*\.?\d*\s*(\-|to)\s*(\d?\d?\d?\,)*\d*\.?\d*</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#regex"/>
+        <IRI>http://blulab.chpc.utah.edu/ontologies/v2/ConText.owl#Ratio</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">(\d(\s*\/\s*|\s*(out)?\s*of\s)\d\s*)</Literal>
+    </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#hasAnchor</IRI>
