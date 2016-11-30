@@ -1,14 +1,4 @@
 <?xml version="1.0"?>
-
-
-<!DOCTYPE Ontology [
-    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
-    <!ENTITY xml "http://www.w3.org/XML/1998/namespace" >
-    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
-    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
-]>
-
-
 <Ontology xmlns="http://www.w3.org/2002/07/owl#"
      xml:base="http://blulab.chpc.utah.edu/ontologies/v2/ConText.owl"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
@@ -16,201 +6,260 @@
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      ontologyIRI="http://blulab.chpc.utah.edu/ontologies/v2/ConText.owl">
-    <Prefix name="" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="" IRI="http://blulab.chpc.utah.edu/ontologies/v2/ConText.owl#"/>
     <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
     <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
     <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
     <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
     <Import>http://blulab.chpc.utah.edu/ontologies/TermMapping.owl</Import>
     <Declaration>
-        <Class IRI="#Action"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Age"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Allergen"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Because_Group"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#BodyModifier"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#BodySide"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#BodySite"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#But_Group"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Certainty"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Closure"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#ContextualAspect"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#ContextualModality"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Course"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Degree"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#DeltaFlag"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#DimensionalMeasurement"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Dosage"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#EthnicGroup"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Experiencer"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Gender"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#HumanName"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#LinguisticModifier"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#MaritalStatus"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#MedicationRoute"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Modifier"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#NumericModifier"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#OrdinalInterpretation"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Patient_Group"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Permanence"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Polarity"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Presentation_Group"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#ProcedureCompletionStatus"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#ProcedurePreparationStatus"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Pseudo"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Quantity"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Race"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#RangeModifier"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Ratio"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#SecondaryTo_Group"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#SemanticModifier"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Severity"/>
+        <Class IRI="#BodyFluidOrSubstance"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Stage"/>
     </Declaration>
     <Declaration>
+        <ObjectProperty IRI="#hasDefaultDefinition"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MaritalStatus"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Degree"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#Temporality"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Unit"/>
+        <Class IRI="#ClockfacePosition"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Which_Group"/>
+        <DataProperty IRI="#isDefaultValue"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#hasAction"/>
+        <Class IRI="#NumericModifier"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#hasActionDe"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#hasActionEn"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#hasActionSv"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#hasPseudo"/>
+        <Class IRI="#OtherAnatomicConcept"/>
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="#hasTermination"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#isActionOf"/>
+        <Class IRI="#Experiencer"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#isDeActionOf"/>
+        <Class IRI="#Tissue"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#isEnActionOf"/>
+        <Class IRI="#ProcedurePreparationStatus"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#isPseudoOf"/>
+        <Class IRI="#MicroanatomicStructure"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#isSvActionOf"/>
+        <Class IRI="#ContextualModality"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#isTerminationOf"/>
+        <Class IRI="#BodyCavity"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#backward"/>
+        <Class IRI="#LinguisticModifier"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#bidirectional"/>
+        <NamedIndividual IRI="#terminate"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#discontinuous"/>
+        <Class IRI="#Quantity"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#forward"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#terminate"/>
+        <Class IRI="#Patient_Group"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Gender"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DirectionOrientation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Polarity"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasAction"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Presentation_Group"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#discontinuous"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isDeActionOf"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DimensionalMeasurement"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasPseudo"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Closure"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Quadrant"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isPseudoOf"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DeltaFlag"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Ratio"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Permanence"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasActionEn"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#BodySide"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Unit"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Dosage"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#backward"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SecondaryTo_Group"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#BodyRegion"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#IndicationType"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Pseudo"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isActionOf"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Organ"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Because_Group"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isEnActionOf"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PseudoModifier"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#BodySite"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#bidirectional"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Certainty"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasActionSv"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Race"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Age"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Action"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#BodyModifier"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isTerminationOf"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Which_Group"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ProcedureCompletionStatus"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MedicationRoute"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SocialRiskQualifier"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Allergen"/>
     </Declaration>
     <Declaration>
         <AnnotationProperty IRI="#windowSize"/>
     </Declaration>
+    <Declaration>
+        <Class IRI="#But_Group"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Course"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Lexicon"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isSvActionOf"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ContextualAspect"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#RangeModifier"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#BodyPart"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#EthnicGroup"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SemanticModifier"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Severity"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Modifier"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#HumanName"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#EmbryonicStructureOrSystem"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasActionDe"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OrdinalInterpretation"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Action"/>
+        <Class abbreviatedIRI="owl:Thing"/>
+    </SubClassOf>
     <SubClassOf>
         <Class IRI="#Age"/>
         <Class IRI="#Quantity"/>
@@ -224,8 +273,24 @@
         <Class IRI="#Closure"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#BodyCavity"/>
+        <Class IRI="#BodySite"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BodyFluidOrSubstance"/>
+        <Class IRI="#BodySite"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#BodyModifier"/>
         <Class IRI="#SemanticModifier"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BodyPart"/>
+        <Class IRI="#BodySite"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BodyRegion"/>
+        <Class IRI="#BodySite"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#BodySide"/>
@@ -242,6 +307,14 @@
     <SubClassOf>
         <Class IRI="#Certainty"/>
         <Class IRI="#LinguisticModifier"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ClockfacePosition"/>
+        <Class IRI="#BodyModifier"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Closure"/>
+        <Class IRI="#Lexicon"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#ContextualAspect"/>
@@ -268,8 +341,16 @@
         <Class IRI="#NumericModifier"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#DirectionOrientation"/>
+        <Class IRI="#BodyModifier"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#Dosage"/>
         <Class IRI="#SemanticModifier"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#EmbryonicStructureOrSystem"/>
+        <Class IRI="#BodySite"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#EthnicGroup"/>
@@ -288,6 +369,10 @@
         <Class IRI="#SemanticModifier"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#IndicationType"/>
+        <Class IRI="#SemanticModifier"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#LinguisticModifier"/>
         <Class IRI="#Modifier"/>
     </SubClassOf>
@@ -300,12 +385,28 @@
         <Class IRI="#SemanticModifier"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#MicroanatomicStructure"/>
+        <Class IRI="#BodySite"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Modifier"/>
+        <Class IRI="#Lexicon"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#NumericModifier"/>
         <Class IRI="#Modifier"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#OrdinalInterpretation"/>
         <Class IRI="#SemanticModifier"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Organ"/>
+        <Class IRI="#BodySite"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OtherAnatomicConcept"/>
+        <Class IRI="#BodySite"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Patient_Group"/>
@@ -330,6 +431,18 @@
     <SubClassOf>
         <Class IRI="#ProcedurePreparationStatus"/>
         <Class IRI="#SemanticModifier"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Pseudo"/>
+        <Class IRI="#Lexicon"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PseudoModifier"/>
+        <Class IRI="#Pseudo"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Quadrant"/>
+        <Class IRI="#BodyModifier"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Quantity"/>
@@ -360,12 +473,20 @@
         <Class IRI="#SemanticModifier"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#SocialRiskQualifier"/>
+        <Class IRI="#SemanticModifier"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#Stage"/>
         <Class IRI="#SemanticModifier"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Temporality"/>
         <Class IRI="#LinguisticModifier"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Tissue"/>
+        <Class IRI="#BodySite"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Unit"/>
@@ -442,8 +563,8 @@
         <ObjectProperty IRI="#isActionOf"/>
     </InverseObjectProperties>
     <InverseObjectProperties>
-        <ObjectProperty IRI="#isDeActionOf"/>
         <ObjectProperty IRI="#hasActionDe"/>
+        <ObjectProperty IRI="#isDeActionOf"/>
     </InverseObjectProperties>
     <InverseObjectProperties>
         <ObjectProperty IRI="#hasActionEn"/>
@@ -454,8 +575,8 @@
         <ObjectProperty IRI="#isSvActionOf"/>
     </InverseObjectProperties>
     <InverseObjectProperties>
-        <ObjectProperty IRI="#isPseudoOf"/>
         <ObjectProperty IRI="#hasPseudo"/>
+        <ObjectProperty IRI="#isPseudoOf"/>
     </InverseObjectProperties>
     <InverseObjectProperties>
         <ObjectProperty IRI="#hasTermination"/>
@@ -471,285 +592,306 @@
     </ObjectPropertyDomain>
     <ObjectPropertyRange>
         <ObjectProperty IRI="#hasPseudo"/>
-        <Class IRI="#Pseudo"/>
+        <Class IRI="#PseudoModifier"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
         <ObjectProperty IRI="#isPseudoOf"/>
         <Class IRI="#Modifier"/>
     </ObjectPropertyRange>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#isDefaultValue"/>
+    </FunctionalDataProperty>
+    <DataPropertyDomain>
+        <DataProperty IRI="#isDefaultValue"/>
+        <Class IRI="#Modifier"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="#isDefaultValue"/>
+        <Datatype abbreviatedIRI="xsd:boolean"/>
+    </DataPropertyRange>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#Action</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Action</Literal>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Action</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#Age</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Age</Literal>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Age</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#Allergen</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Allergen</Literal>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Allergen</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#BodyModifier</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">BodyModifier</Literal>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">BodyModifier</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#BodySide</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">BodySide</Literal>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">BodySide</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#BodySite</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">BodySite</Literal>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">BodySite</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#Certainty</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Certainty</Literal>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Certainty</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#Closure</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Closure</Literal>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Closure</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#ContextualAspect</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">ContextualAspect</Literal>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">ContextualAspect</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#ContextualModality</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">ContextualModality</Literal>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">ContextualModality</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#Course</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Course</Literal>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Course</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#Degree</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Degree</Literal>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Degree</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#DeltaFlag</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">DeltaFlag</Literal>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">DeltaFlag</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#DimensionalMeasurement</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">DimensionalMeasurement</Literal>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">DimensionalMeasurement</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#Dosage</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Dosage</Literal>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Dosage</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#EthnicGroup</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">EthnicGroup</Literal>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">EthnicGroup</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#Experiencer</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Experiencer</Literal>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Experiencer</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#Gender</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Gender</Literal>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Gender</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#HumanName</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">HumanName</Literal>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">HumanName</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#LinguisticModifier</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">LinguisticModifier</Literal>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">LinguisticModifier</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#MaritalStatus</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">MaritalStatus</Literal>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">MaritalStatus</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#Modifier</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Modifier</Literal>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Modifier</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#NumericModifier</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">NumericModifier</Literal>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">NumericModifier</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#OrdinalInterpretation</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">OrdinalInterpretation</Literal>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">OrdinalInterpretation</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#Permanence</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Permanence</Literal>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Permanence</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#Polarity</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Polarity</Literal>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Polarity</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#ProcedureCompletionStatus</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">ProcedureCompletionStatus</Literal>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">ProcedureCompletionStatus</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#ProcedurePreparationStatus</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">ProcedurePreparationStatus</Literal>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">ProcedurePreparationStatus</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#Quantity</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Quantity</Literal>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Quantity</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#Race</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Race</Literal>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Race</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#RangeModifier</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">RangeModifier</Literal>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">RangeModifier</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#Ratio</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Ratio</Literal>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Ratio</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#SemanticModifier</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">SemanticModifier</Literal>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">SemanticModifier</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#Severity</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Severity</Literal>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Severity</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#Stage</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Stage</Literal>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Stage</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#Temporality</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Temporality</Literal>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Temporality</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#Unit</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Unit</Literal>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Unit</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#backward</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">backward</Literal>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">backward</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#bidirectional</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">bidirectional</Literal>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">bidirectional</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#discontinuous</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">discontinuous</Literal>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">discontinuous</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#forward</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">forward</Literal>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">forward</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#hasAction</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">hasAction</Literal>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">hasAction</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#hasActionDe</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">hasActionDe</Literal>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">hasActionDe</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#hasActionEn</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">hasActionEn</Literal>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">hasActionEn</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#hasActionSv</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">hasActionSv</Literal>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">hasActionSv</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#hasDefaultDefinition</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">hasDefaultDefinition</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#hasPseudo</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">hasPseudo</Literal>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">hasPseudo</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#hasTermination</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">hasTermination</Literal>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">hasTermination</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#isActionOf</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">isActionOf</Literal>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">isActionOf</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#isDeActionOf</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">isDeActionOf</Literal>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">isDeActionOf</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#isDefaultValue</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">isDefaultValue</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#isEnActionOf</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">isEnActionOf</Literal>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">isEnActionOf</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#isPseudoOf</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">isPseudoOf</Literal>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">isPseudoOf</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#isSvActionOf</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">isSvActionOf</Literal>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">isSvActionOf</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#isTerminationOf</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">isTerminationOf</Literal>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">isTerminationOf</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#terminate</IRI>
-        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">terminate</Literal>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">terminate</Literal>
     </AnnotationAssertion>
 </Ontology>
 
 
 
-<!-- Generated by the OWL API (version 3.5.1) http://owlapi.sourceforge.net -->
+<!-- Generated by the OWL API (version 4.2.5.20160517-0735) https://github.com/owlcs/owlapi -->
 
