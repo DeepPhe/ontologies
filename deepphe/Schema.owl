@@ -6,7 +6,7 @@
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      ontologyIRI="http://blulab.chpc.utah.edu/ontologies/v2/Schema.owl">
-    <Prefix name="" IRI="http://blulab.chpc.utah.edu/ontologies/v2/Schema.owl"/>
+    <Prefix name="" IRI="http://blulab.chpc.utah.edu/ontologies/v2/Schema.owl#"/>
     <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
     <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
     <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
@@ -122,6 +122,9 @@
         <ObjectProperty IRI="#hasExperiencer"/>
     </Declaration>
     <Declaration>
+        <ObjectProperty IRI="#hasCompoundArgument"/>
+    </Declaration>
+    <Declaration>
         <DataProperty IRI="#hasFullName"/>
     </Declaration>
     <Declaration>
@@ -170,6 +173,9 @@
         <Class IRI="#DiagnosticProcedure"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#AnnotationType"/>
+    </Declaration>
+    <Declaration>
         <DataProperty IRI="#hasQuantityValue"/>
     </Declaration>
     <Declaration>
@@ -209,6 +215,9 @@
         <ObjectProperty IRI="#occurs_in"/>
     </Declaration>
     <Declaration>
+        <ObjectProperty IRI="#hasCompoundArgument4"/>
+    </Declaration>
+    <Declaration>
         <ObjectProperty IRI="#hasPermanence"/>
     </Declaration>
     <Declaration>
@@ -233,10 +242,16 @@
         <ObjectProperty IRI="#carries_out"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#DocumentAnnotation"/>
+    </Declaration>
+    <Declaration>
         <ObjectProperty IRI="#causes"/>
     </Declaration>
     <Declaration>
         <DataProperty IRI="#wasNotGiven"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasCompoundArgument3"/>
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="#tributary_of"/>
@@ -269,6 +284,9 @@
         <Class IRI="#Attribute"/>
     </Declaration>
     <Declaration>
+        <DataProperty IRI="#isCompoundOrdered"/>
+    </Declaration>
+    <Declaration>
         <ObjectProperty IRI="#hasContextualModality"/>
     </Declaration>
     <Declaration>
@@ -276,6 +294,9 @@
     </Declaration>
     <Declaration>
         <DataProperty IRI="#has1DimensionValue"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PhenotypeAnnotation"/>
     </Declaration>
     <Declaration>
         <DataProperty IRI="#hasRecordedDate"/>
@@ -302,6 +323,9 @@
         <DataProperty IRI="#hasNameSuffix"/>
     </Declaration>
     <Declaration>
+        <Datatype IRI="#umls:sty"/>
+    </Declaration>
+    <Declaration>
         <ObjectProperty IRI="#adjacent_to"/>
     </Declaration>
     <Declaration>
@@ -314,6 +338,9 @@
         <ObjectProperty IRI="#consists_of"/>
     </Declaration>
     <Declaration>
+        <ObjectProperty IRI="#hasCompoundArgument5"/>
+    </Declaration>
+    <Declaration>
         <DataProperty IRI="#hasCUI"/>
     </Declaration>
     <Declaration>
@@ -323,13 +350,13 @@
         <ObjectProperty IRI="#hasContextualAspect"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#MentionAnnotation"/>
+    </Declaration>
+    <Declaration>
         <DataProperty IRI="#has3DimensionValue"/>
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="#hasStageSummary"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#SectionType"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Finding"/>
@@ -362,9 +389,6 @@
         <Class IRI="#MedicalRecord"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#EpisodeAttribute"/>
-    </Declaration>
-    <Declaration>
         <DataProperty IRI="#hasProcedureCategory"/>
     </Declaration>
     <Declaration>
@@ -395,6 +419,9 @@
         <ObjectProperty IRI="#evaluation_of"/>
     </Declaration>
     <Declaration>
+        <ObjectProperty IRI="#hasDocumentAnnotation"/>
+    </Declaration>
+    <Declaration>
         <ObjectProperty IRI="#result_of"/>
     </Declaration>
     <Declaration>
@@ -416,10 +443,10 @@
         <DataProperty IRI="#hasDate"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#hasEvent"/>
+        <ObjectProperty IRI="#diagnoses"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#diagnoses"/>
+        <ObjectProperty IRI="#hasMentionAnnotation"/>
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="#hasStatusChange"/>
@@ -429,9 +456,6 @@
     </Declaration>
     <Declaration>
         <Class IRI="#Composition"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#SummaryAttribute"/>
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="#functionally_related_to"/>
@@ -449,9 +473,6 @@
         <DataProperty IRI="#hasDocumentID"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#hasContent"/>
-    </Declaration>
-    <Declaration>
         <ObjectProperty IRI="#traverses"/>
     </Declaration>
     <Declaration>
@@ -461,16 +482,19 @@
         <DataProperty IRI="#hasToLocation"/>
     </Declaration>
     <Declaration>
+        <ObjectProperty IRI="#hasCompoundArgument2"/>
+    </Declaration>
+    <Declaration>
         <ObjectProperty IRI="#hasDeltaFlag"/>
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="#interconnects"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#hasAgeAbatement"/>
+        <ObjectProperty IRI="#ends_on"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#ends_on"/>
+        <ObjectProperty IRI="#hasAgeAbatement"/>
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="#issue_in"/>
@@ -494,19 +518,22 @@
         <AnnotationProperty IRI="#license"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#EpisodeAnnotation"/>
+    </Declaration>
+    <Declaration>
         <ObjectProperty IRI="#hasComposition"/>
     </Declaration>
     <Declaration>
         <DataProperty IRI="#hasFromLocation"/>
     </Declaration>
     <Declaration>
+        <ObjectProperty IRI="#hasCompoundArgument1"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#Summary"/>
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="#hasCompletionStatus"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#DocumentOntology"/>
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="#hasUnit"/>
@@ -521,10 +548,10 @@
         <ObjectProperty IRI="#derivative_of"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#CompositionAttribute"/>
+        <DataProperty IRI="#hasTitle"/>
     </Declaration>
     <Declaration>
-        <DataProperty IRI="#hasTitle"/>
+        <Datatype IRI="#ms:sty"/>
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="#surrounds"/>
@@ -539,13 +566,10 @@
         <DataProperty IRI="#hasLastName"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#hasSectionType"/>
+        <Class IRI="#CompoundAnchor"/>
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="#ingredient_of"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#hasCompositionSummary"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Entity"/>
@@ -555,6 +579,9 @@
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="#hasSection"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasAnnotationType"/>
     </Declaration>
     <Declaration>
         <DataProperty IRI="#hasTotalNumberProcedure"/>
@@ -575,13 +602,10 @@
         <ObjectProperty IRI="#hasReasonForUse"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#hasCompositionAttribute"/>
-    </Declaration>
-    <Declaration>
         <ObjectProperty IRI="#temporally_related_to"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#assesses_effect_of"/>
+        <Class IRI="#DocumentType"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Procedure"/>
@@ -590,16 +614,19 @@
         <ObjectProperty IRI="#hasSemanticModifier"/>
     </Declaration>
     <Declaration>
+        <ObjectProperty IRI="#assesses_effect_of"/>
+    </Declaration>
+    <Declaration>
         <DataProperty IRI="#isDeceased"/>
     </Declaration>
     <Declaration>
         <DataProperty IRI="#hasNumeratorValue"/>
     </Declaration>
     <Declaration>
-        <DataProperty IRI="#hasDateOfOnset"/>
+        <Class IRI="#PseudoAnchor"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#hasEntry"/>
+        <DataProperty IRI="#hasDateOfOnset"/>
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="#hasTemporality"/>
@@ -612,9 +639,6 @@
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="#begins_on"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#hasMRSummaryAttribute"/>
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="#conceptually_related_to"/>
@@ -763,6 +787,34 @@
         </DataSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="http://blulab.chpc.utah.edu/ontologies/v2/ConText.owl#Lexicon"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasSection"/>
+            <Class IRI="#DocumentSection"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://blulab.chpc.utah.edu/ontologies/v2/ConText.owl#Lexicon"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="#hasCorpus"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://blulab.chpc.utah.edu/ontologies/v2/ConText.owl#Lexicon"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="#hasDocumentID"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://blulab.chpc.utah.edu/ontologies/v2/ConText.owl#Lexicon"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="#hasSpan"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="http://blulab.chpc.utah.edu/ontologies/v2/ConText.owl#Quantity"/>
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="#hasUnit"/>
@@ -902,7 +954,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Anchor"/>
-        <Class abbreviatedIRI="owl:Thing"/>
+        <Class IRI="http://blulab.chpc.utah.edu/ontologies/v2/ConText.owl#Lexicon"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Anchor"/>
@@ -918,20 +970,23 @@
     <SubClassOf>
         <Class IRI="#Annotation"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="#wasDerivedFrom"/>
-            <Class IRI="#Annotation"/>
+            <ObjectProperty IRI="#hasAnnotationType"/>
+            <Class IRI="#AnnotationType"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Annotation"/>
-        <DataSomeValuesFrom>
-            <DataProperty IRI="#hasAnnotationType"/>
-            <DataOneOf>
-                <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">document</Literal>
-                <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">mention</Literal>
-                <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">record</Literal>
-            </DataOneOf>
-        </DataSomeValuesFrom>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasSection"/>
+            <Class IRI="#DocumentSection"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Annotation"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#wasDerivedFrom"/>
+            <Class IRI="#Annotation"/>
+        </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Annotation"/>
@@ -955,6 +1010,10 @@
         </DataSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#AnnotationType"/>
+        <Class IRI="#Attribute"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#Attribute"/>
         <Class abbreviatedIRI="owl:Thing"/>
     </SubClassOf>
@@ -966,14 +1025,7 @@
         <Class IRI="#Composition"/>
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="#hasDocType"/>
-            <Class IRI="#DocumentOntology"/>
-        </ObjectSomeValuesFrom>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Composition"/>
-        <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="#hasEvent"/>
-            <Class IRI="#Annotation"/>
+            <Class IRI="#DocumentType"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
@@ -981,13 +1033,6 @@
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="#hasPatient"/>
             <Class IRI="#Patient"/>
-        </ObjectSomeValuesFrom>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Composition"/>
-        <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="#hasSection"/>
-            <Class IRI="#DocumentSection"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
@@ -1005,8 +1050,8 @@
         </DataSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#CompositionAttribute"/>
-        <Class IRI="#Attribute"/>
+        <Class IRI="#CompoundAnchor"/>
+        <Class IRI="http://blulab.chpc.utah.edu/ontologies/v2/ConText.owl#Lexicon"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Condition"/>
@@ -1045,6 +1090,13 @@
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="#hasEncounter"/>
             <Class IRI="#Encounter"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Condition"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasIndicationType"/>
+            <Class IRI="http://blulab.chpc.utah.edu/ontologies/v2/ConText.owl#IndicationType"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
@@ -1112,19 +1164,12 @@
         <Class IRI="#Condition"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#DocumentOntology"/>
-        <Class IRI="#CompositionAttribute"/>
+        <Class IRI="#DocumentAnnotation"/>
+        <Class IRI="#AnnotationType"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#DocumentSection"/>
-        <Class IRI="#CompositionAttribute"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#DocumentSection"/>
-        <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="#hasEntry"/>
-            <Class IRI="#Annotation"/>
-        </ObjectSomeValuesFrom>
+        <Class IRI="http://blulab.chpc.utah.edu/ontologies/v2/ConText.owl#Lexicon"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#DocumentSection"/>
@@ -1135,17 +1180,14 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#DocumentSection"/>
-        <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="#hasSectionType"/>
-            <Class IRI="#SectionType"/>
-        </ObjectSomeValuesFrom>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#DocumentSection"/>
         <DataSomeValuesFrom>
             <DataProperty IRI="#hasTitle"/>
             <Datatype abbreviatedIRI="xsd:string"/>
         </DataSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DocumentType"/>
+        <Class IRI="#Attribute"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Encounter"/>
@@ -1182,13 +1224,6 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Episode"/>
-        <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="#hasEvent"/>
-            <Class IRI="#Annotation"/>
-        </ObjectSomeValuesFrom>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Episode"/>
         <DataSomeValuesFrom>
             <DataProperty IRI="#hasEndDate"/>
             <Datatype abbreviatedIRI="xsd:dateTimeStamp"/>
@@ -1202,12 +1237,12 @@
         </DataSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#EpisodeAttribute"/>
-        <Class IRI="#Attribute"/>
+        <Class IRI="#EpisodeAnnotation"/>
+        <Class IRI="#AnnotationType"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#EpisodeType"/>
-        <Class IRI="#EpisodeAttribute"/>
+        <Class IRI="#Attribute"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Event"/>
@@ -1233,6 +1268,13 @@
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="#hasEpisode"/>
             <Class IRI="#Episode"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MedicalRecord"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasMedicalRecordSummary"/>
+            <Class IRI="#Annotation"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
@@ -1287,6 +1329,10 @@
             <DataProperty IRI="#wasNotGiven"/>
             <Datatype abbreviatedIRI="xsd:boolean"/>
         </DataSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MentionAnnotation"/>
+        <Class IRI="#AnnotationType"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Observation"/>
@@ -1385,6 +1431,10 @@
         </DataSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#PhenotypeAnnotation"/>
+        <Class IRI="#AnnotationType"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#Procedure"/>
         <Class IRI="#Event"/>
     </SubClassOf>
@@ -1424,8 +1474,8 @@
         </DataSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#SectionType"/>
-        <Class IRI="#CompositionAttribute"/>
+        <Class IRI="#PseudoAnchor"/>
+        <Class IRI="http://blulab.chpc.utah.edu/ontologies/v2/ConText.owl#Pseudo"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#SignSymptom"/>
@@ -1434,10 +1484,6 @@
     <SubClassOf>
         <Class IRI="#Summary"/>
         <Class abbreviatedIRI="owl:Thing"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#SummaryAttribute"/>
-        <Class IRI="#Attribute"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#TherapeuticProcedure"/>
@@ -1602,19 +1648,27 @@
     </SubObjectPropertyOf>
     <SubObjectPropertyOf>
         <ObjectProperty IRI="#hasComposition"/>
-        <ObjectProperty IRI="#hasMRSummaryAttribute"/>
-    </SubObjectPropertyOf>
-    <SubObjectPropertyOf>
-        <ObjectProperty IRI="#hasCompositionAttribute"/>
         <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
     </SubObjectPropertyOf>
     <SubObjectPropertyOf>
-        <ObjectProperty IRI="#hasCompositionSummary"/>
-        <ObjectProperty IRI="#hasCompositionAttribute"/>
+        <ObjectProperty IRI="#hasCompoundArgument1"/>
+        <ObjectProperty IRI="#hasCompoundArgument"/>
     </SubObjectPropertyOf>
     <SubObjectPropertyOf>
-        <ObjectProperty IRI="#hasContent"/>
-        <ObjectProperty IRI="#hasCompositionAttribute"/>
+        <ObjectProperty IRI="#hasCompoundArgument2"/>
+        <ObjectProperty IRI="#hasCompoundArgument"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasCompoundArgument3"/>
+        <ObjectProperty IRI="#hasCompoundArgument"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasCompoundArgument4"/>
+        <ObjectProperty IRI="#hasCompoundArgument"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasCompoundArgument5"/>
+        <ObjectProperty IRI="#hasCompoundArgument"/>
     </SubObjectPropertyOf>
     <SubObjectPropertyOf>
         <ObjectProperty IRI="#hasContextualAspect"/>
@@ -1638,7 +1692,11 @@
     </SubObjectPropertyOf>
     <SubObjectPropertyOf>
         <ObjectProperty IRI="#hasDocType"/>
-        <ObjectProperty IRI="#hasCompositionAttribute"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasDocumentAnnotation"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
     </SubObjectPropertyOf>
     <SubObjectPropertyOf>
         <ObjectProperty IRI="#hasDosage"/>
@@ -1653,12 +1711,8 @@
         <ObjectProperty IRI="#hasSemanticModifier"/>
     </SubObjectPropertyOf>
     <SubObjectPropertyOf>
-        <ObjectProperty IRI="#hasEntry"/>
-        <ObjectProperty IRI="#hasCompositionAttribute"/>
-    </SubObjectPropertyOf>
-    <SubObjectPropertyOf>
         <ObjectProperty IRI="#hasEpisode"/>
-        <ObjectProperty IRI="#hasMRSummaryAttribute"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
     </SubObjectPropertyOf>
     <SubObjectPropertyOf>
         <ObjectProperty IRI="#hasEpisodeAttribute"/>
@@ -1671,14 +1725,6 @@
     <SubObjectPropertyOf>
         <ObjectProperty IRI="#hasEthnicity"/>
         <ObjectProperty IRI="#hasSemanticModifier"/>
-    </SubObjectPropertyOf>
-    <SubObjectPropertyOf>
-        <ObjectProperty IRI="#hasEvent"/>
-        <ObjectProperty IRI="#hasCompositionAttribute"/>
-    </SubObjectPropertyOf>
-    <SubObjectPropertyOf>
-        <ObjectProperty IRI="#hasEvent"/>
-        <ObjectProperty IRI="#hasEpisodeAttribute"/>
     </SubObjectPropertyOf>
     <SubObjectPropertyOf>
         <ObjectProperty IRI="#hasExperiencer"/>
@@ -1705,20 +1751,20 @@
         <ObjectProperty IRI="#hasModifier"/>
     </SubObjectPropertyOf>
     <SubObjectPropertyOf>
-        <ObjectProperty IRI="#hasMRSummaryAttribute"/>
-        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
-    </SubObjectPropertyOf>
-    <SubObjectPropertyOf>
         <ObjectProperty IRI="#hasMaritalStatus"/>
         <ObjectProperty IRI="#hasSemanticModifier"/>
     </SubObjectPropertyOf>
     <SubObjectPropertyOf>
         <ObjectProperty IRI="#hasMedicalRecordSummary"/>
-        <ObjectProperty IRI="#hasMRSummaryAttribute"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
     </SubObjectPropertyOf>
     <SubObjectPropertyOf>
         <ObjectProperty IRI="#hasMedication"/>
         <ObjectProperty IRI="#hasSemanticModifier"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasMentionAnnotation"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
     </SubObjectPropertyOf>
     <SubObjectPropertyOf>
         <ObjectProperty IRI="#hasMethod"/>
@@ -1738,15 +1784,11 @@
     </SubObjectPropertyOf>
     <SubObjectPropertyOf>
         <ObjectProperty IRI="#hasPatient"/>
-        <ObjectProperty IRI="#hasCompositionAttribute"/>
-    </SubObjectPropertyOf>
-    <SubObjectPropertyOf>
-        <ObjectProperty IRI="#hasPatient"/>
-        <ObjectProperty IRI="#hasMRSummaryAttribute"/>
-    </SubObjectPropertyOf>
-    <SubObjectPropertyOf>
-        <ObjectProperty IRI="#hasPatient"/>
         <ObjectProperty IRI="#hasSemanticModifier"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasPatient"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
     </SubObjectPropertyOf>
     <SubObjectPropertyOf>
         <ObjectProperty IRI="#hasPermanence"/>
@@ -1778,11 +1820,7 @@
     </SubObjectPropertyOf>
     <SubObjectPropertyOf>
         <ObjectProperty IRI="#hasSection"/>
-        <ObjectProperty IRI="#hasCompositionAttribute"/>
-    </SubObjectPropertyOf>
-    <SubObjectPropertyOf>
-        <ObjectProperty IRI="#hasSectionType"/>
-        <ObjectProperty IRI="#hasCompositionAttribute"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
     </SubObjectPropertyOf>
     <SubObjectPropertyOf>
         <ObjectProperty IRI="#hasSemanticModifier"/>
@@ -1953,6 +1991,10 @@
         <Class IRI="#Annotation"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasAnnotationType"/>
+        <Class IRI="#Annotation"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
         <ObjectProperty IRI="#hasBodySite"/>
         <Class IRI="#Condition"/>
     </ObjectPropertyDomain>
@@ -1977,20 +2019,8 @@
         <Class IRI="#MedicalRecord"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
-        <ObjectProperty IRI="#hasCompositionAttribute"/>
-        <Class IRI="#Composition"/>
-    </ObjectPropertyDomain>
-    <ObjectPropertyDomain>
-        <ObjectProperty IRI="#hasCompositionSummary"/>
-        <Class IRI="#Composition"/>
-    </ObjectPropertyDomain>
-    <ObjectPropertyDomain>
-        <ObjectProperty IRI="#hasContent"/>
-        <Class IRI="#Composition"/>
-    </ObjectPropertyDomain>
-    <ObjectPropertyDomain>
-        <ObjectProperty IRI="#hasContent"/>
-        <Class IRI="#DocumentSection"/>
+        <ObjectProperty IRI="#hasCompoundArgument"/>
+        <Class IRI="#CompoundAnchor"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#hasContextualAspect"/>
@@ -2033,10 +2063,6 @@
         <Class IRI="#Procedure"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
-        <ObjectProperty IRI="#hasEntry"/>
-        <Class IRI="#DocumentSection"/>
-    </ObjectPropertyDomain>
-    <ObjectPropertyDomain>
         <ObjectProperty IRI="#hasEpisode"/>
         <Class IRI="#MedicalRecord"/>
     </ObjectPropertyDomain>
@@ -2051,14 +2077,6 @@
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#hasEthnicity"/>
         <Class IRI="#Patient"/>
-    </ObjectPropertyDomain>
-    <ObjectPropertyDomain>
-        <ObjectProperty IRI="#hasEvent"/>
-        <Class IRI="#Composition"/>
-    </ObjectPropertyDomain>
-    <ObjectPropertyDomain>
-        <ObjectProperty IRI="#hasEvent"/>
-        <Class IRI="#Episode"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#hasExclusion"/>
@@ -2087,14 +2105,6 @@
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#hasLinguisticModifier"/>
         <Class IRI="#Annotation"/>
-    </ObjectPropertyDomain>
-    <ObjectPropertyDomain>
-        <ObjectProperty IRI="#hasMRSummaryAttribute"/>
-        <Class IRI="#Summary"/>
-    </ObjectPropertyDomain>
-    <ObjectPropertyDomain>
-        <ObjectProperty IRI="#hasMRSummaryAttribute"/>
-        <Class IRI="#SummaryAttribute"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#hasMaritalStatus"/>
@@ -2186,15 +2196,7 @@
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#hasSection"/>
-        <Class IRI="#Composition"/>
-    </ObjectPropertyDomain>
-    <ObjectPropertyDomain>
-        <ObjectProperty IRI="#hasSection"/>
-        <Class IRI="#DocumentSection"/>
-    </ObjectPropertyDomain>
-    <ObjectPropertyDomain>
-        <ObjectProperty IRI="#hasSectionType"/>
-        <Class IRI="#DocumentSection"/>
+        <Class IRI="#Annotation"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#hasSemanticModifier"/>
@@ -2236,9 +2238,25 @@
         <ObjectProperty IRI="#hasTemporality"/>
         <Class IRI="#Event"/>
     </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#wasDerivedFrom"/>
+        <Class IRI="#Annotation"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://blulab.chpc.utah.edu/ontologies/v2/ConText.owl#hasPseudo"/>
+        <Class IRI="#PseudoAnchor"/>
+    </ObjectPropertyRange>
     <ObjectPropertyRange>
         <ObjectProperty IRI="#hasAnchor"/>
         <Class IRI="#Anchor"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasAnchor"/>
+        <Class IRI="#CompoundAnchor"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasAnnotationType"/>
+        <Class IRI="#AnnotationType"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
         <ObjectProperty IRI="#hasBodySiteModifier"/>
@@ -2253,24 +2271,16 @@
         <Class IRI="#Composition"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
-        <ObjectProperty IRI="#hasCompositionAttribute"/>
-        <Class IRI="#CompositionAttribute"/>
-    </ObjectPropertyRange>
-    <ObjectPropertyRange>
-        <ObjectProperty IRI="#hasCompositionSummary"/>
-        <Class IRI="#Annotation"/>
+        <ObjectProperty IRI="#hasCompoundArgument"/>
+        <Class IRI="#Anchor"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
         <ObjectProperty IRI="#hasDocType"/>
-        <Class IRI="#DocumentOntology"/>
+        <Class IRI="#DocumentType"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
         <ObjectProperty IRI="#hasEncounter"/>
         <Class IRI="#Encounter"/>
-    </ObjectPropertyRange>
-    <ObjectPropertyRange>
-        <ObjectProperty IRI="#hasEntry"/>
-        <Class IRI="#Annotation"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
         <ObjectProperty IRI="#hasEpisode"/>
@@ -2285,10 +2295,6 @@
         <Class IRI="http://blulab.chpc.utah.edu/ontologies/v2/ConText.owl#EthnicGroup"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
-        <ObjectProperty IRI="#hasEvent"/>
-        <Class IRI="#Annotation"/>
-    </ObjectPropertyRange>
-    <ObjectPropertyRange>
         <ObjectProperty IRI="#hasExclusion"/>
         <Class IRI="http://blulab.chpc.utah.edu/ontologies/v2/ConText.owl#Modifier"/>
     </ObjectPropertyRange>
@@ -2297,8 +2303,8 @@
         <Class IRI="#Annotation"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
-        <ObjectProperty IRI="#hasMRSummaryAttribute"/>
-        <Class IRI="#SummaryAttribute"/>
+        <ObjectProperty IRI="#hasIndicationType"/>
+        <Class IRI="http://blulab.chpc.utah.edu/ontologies/v2/ConText.owl#IndicationType"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
         <ObjectProperty IRI="#hasMedicalRecordSummary"/>
@@ -2359,6 +2365,10 @@
     <ObjectPropertyRange>
         <ObjectProperty IRI="#hasSubstance"/>
         <Class IRI="http://blulab.chpc.utah.edu/ontologies/v2/ConText.owl#Allergen"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#wasDerivedFrom"/>
+        <Class IRI="#Annotation"/>
     </ObjectPropertyRange>
     <SubDataPropertyOf>
         <DataProperty IRI="#has1DimensionValue"/>
@@ -2464,6 +2474,9 @@
     </FunctionalDataProperty>
     <FunctionalDataProperty>
         <DataProperty IRI="#hasDocumentID"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#isCompoundOrdered"/>
     </FunctionalDataProperty>
     <FunctionalDataProperty>
         <DataProperty IRI="#isDeceased"/>
@@ -2641,6 +2654,10 @@
     <DataPropertyDomain>
         <DataProperty IRI="#hasValue"/>
         <Class IRI="http://blulab.chpc.utah.edu/ontologies/v2/ConText.owl#NumericModifier"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#isCompoundOrdered"/>
+        <Class IRI="#CompoundAnchor"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
         <DataProperty IRI="#isDeceased"/>
@@ -2850,6 +2867,10 @@
         <Datatype abbreviatedIRI="xsd:integer"/>
     </DataPropertyRange>
     <DataPropertyRange>
+        <DataProperty IRI="#isCompoundOrdered"/>
+        <Datatype abbreviatedIRI="xsd:boolean"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
         <DataProperty IRI="#isDeceased"/>
         <Datatype abbreviatedIRI="xsd:boolean"/>
     </DataPropertyRange>
@@ -2865,6 +2886,26 @@
         <DataProperty IRI="#wasNotGiven"/>
         <Datatype abbreviatedIRI="xsd:boolean"/>
     </DataPropertyRange>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#regex"/>
+        <IRI>http://blulab.chpc.utah.edu/ontologies/v2/ConText.owl#DimensionalMeasurement</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">(\d?\d?\d?\,)*\d*\.?\d*\s*(x|X)\s*(\d?\d?\d?\,)*\d*\.?\d*\s*((x|X)\s*(\d?\d?\d?\,)*\d*\.?\d*)?</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#regex"/>
+        <IRI>http://blulab.chpc.utah.edu/ontologies/v2/ConText.owl#Quantity</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">(\d?\d?\d?\,)*\d*\.?\d*</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#regex"/>
+        <IRI>http://blulab.chpc.utah.edu/ontologies/v2/ConText.owl#RangeModifier</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">(\d?\d?\d?\,)*\d*\.?\d*\s*(\-|to)\s*(\d?\d?\d?\,)*\d*\.?\d*</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#regex"/>
+        <IRI>http://blulab.chpc.utah.edu/ontologies/v2/ConText.owl#Ratio</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">(\d(\s*\/\s*|\s*(out)?\s*of\s)\d\s*)</Literal>
+    </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#hasAnchor</IRI>
