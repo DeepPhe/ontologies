@@ -164,6 +164,9 @@
         <ObjectProperty IRI="#isEnActionOf"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#Date"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#PseudoModifier"/>
     </Declaration>
     <Declaration>
@@ -198,6 +201,9 @@
     </Declaration>
     <Declaration>
         <Class IRI="#ProcedureCompletionStatus"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Phase"/>
     </Declaration>
     <Declaration>
         <Class IRI="#MedicationRoute"/>
@@ -254,7 +260,13 @@
         <ObjectProperty IRI="#hasActionDe"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#Period"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#OrdinalInterpretation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Time"/>
     </Declaration>
     <SubClassOf>
         <Class IRI="#Action"/>
@@ -327,6 +339,10 @@
     <SubClassOf>
         <Class IRI="#Course"/>
         <Class IRI="#SemanticModifier"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Date"/>
+        <Class IRI="#NumericModifier"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Degree"/>
@@ -413,8 +429,16 @@
         <Class IRI="#Closure"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#Period"/>
+        <Class IRI="#NumericModifier"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#Permanence"/>
         <Class IRI="#LinguisticModifier"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Phase"/>
+        <Class IRI="#NumericModifier"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Polarity"/>
@@ -485,12 +509,16 @@
         <Class IRI="#LinguisticModifier"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#Time"/>
+        <Class IRI="#NumericModifier"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#Tissue"/>
         <Class IRI="#BodySite"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Unit"/>
-        <Class IRI="#NumericModifier"/>
+        <Class IRI="#SemanticModifier"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Which_Group"/>
