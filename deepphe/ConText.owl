@@ -14,12 +14,6 @@
     <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
     <Import>http://blulab.chpc.utah.edu/ontologies/TermMapping.owl</Import>
     <Declaration>
-        <Class IRI="#BodyFluidOrSubstance"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Stage"/>
-    </Declaration>
-    <Declaration>
         <ObjectProperty IRI="#hasDefaultDefinition"/>
     </Declaration>
     <Declaration>
@@ -27,6 +21,9 @@
     </Declaration>
     <Declaration>
         <Class IRI="#Degree"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#first_mention"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Temporality"/>
@@ -38,10 +35,10 @@
         <DataProperty IRI="#isDefaultValue"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#NumericModifier"/>
+        <Class IRI="#Qualifier"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#OtherAnatomicConcept"/>
+        <Class IRI="#NumericModifier"/>
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="#hasTermination"/>
@@ -50,19 +47,10 @@
         <Class IRI="#Experiencer"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Tissue"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="#ProcedurePreparationStatus"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#MicroanatomicStructure"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="#ContextualModality"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#BodyCavity"/>
     </Declaration>
     <Declaration>
         <Class IRI="#LinguisticModifier"/>
@@ -95,6 +83,9 @@
         <Class IRI="#Presentation_Group"/>
     </Declaration>
     <Declaration>
+        <ObjectProperty IRI="#hasParagraphAction"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#discontinuous"/>
     </Declaration>
     <Declaration>
@@ -116,6 +107,9 @@
         <ObjectProperty IRI="#isPseudoOf"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#nearest_mention"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#DeltaFlag"/>
     </Declaration>
     <Declaration>
@@ -128,7 +122,7 @@
         <ObjectProperty IRI="#hasActionEn"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#BodySide"/>
+        <ObjectProperty IRI="#hasSectionAction"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Unit"/>
@@ -143,9 +137,6 @@
         <Class IRI="#SecondaryTo_Group"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#BodyRegion"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="#IndicationType"/>
     </Declaration>
     <Declaration>
@@ -155,10 +146,13 @@
         <ObjectProperty IRI="#isActionOf"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Organ"/>
+        <ObjectProperty IRI="#hasMentionAction"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Because_Group"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Laterality"/>
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="#isEnActionOf"/>
@@ -185,9 +179,6 @@
         <Class IRI="#Race"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Age"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="#Action"/>
     </Declaration>
     <Declaration>
@@ -201,9 +192,6 @@
     </Declaration>
     <Declaration>
         <Class IRI="#ProcedureCompletionStatus"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Phase"/>
     </Declaration>
     <Declaration>
         <Class IRI="#MedicationRoute"/>
@@ -227,16 +215,13 @@
         <Class IRI="#Lexicon"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#isSvActionOf"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="#ContextualAspect"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#RangeModifier"/>
+        <ObjectProperty IRI="#isSvActionOf"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#BodyPart"/>
+        <Class IRI="#RangeModifier"/>
     </Declaration>
     <Declaration>
         <Class IRI="#EthnicGroup"/>
@@ -254,13 +239,7 @@
         <Class IRI="#HumanName"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#EmbryonicStructureOrSystem"/>
-    </Declaration>
-    <Declaration>
         <ObjectProperty IRI="#hasActionDe"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Period"/>
     </Declaration>
     <Declaration>
         <Class IRI="#OrdinalInterpretation"/>
@@ -273,10 +252,6 @@
         <Class abbreviatedIRI="owl:Thing"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#Age"/>
-        <Class IRI="#Quantity"/>
-    </SubClassOf>
-    <SubClassOf>
         <Class IRI="#Allergen"/>
         <Class IRI="#SemanticModifier"/>
     </SubClassOf>
@@ -285,28 +260,8 @@
         <Class IRI="#Closure"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#BodyCavity"/>
-        <Class IRI="#BodySite"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#BodyFluidOrSubstance"/>
-        <Class IRI="#BodySite"/>
-    </SubClassOf>
-    <SubClassOf>
         <Class IRI="#BodyModifier"/>
-        <Class IRI="#SemanticModifier"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#BodyPart"/>
-        <Class IRI="#BodySite"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#BodyRegion"/>
-        <Class IRI="#BodySite"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#BodySide"/>
-        <Class IRI="#SemanticModifier"/>
+        <Class IRI="#Qualifier"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#BodySite"/>
@@ -365,10 +320,6 @@
         <Class IRI="#SemanticModifier"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#EmbryonicStructureOrSystem"/>
-        <Class IRI="#BodySite"/>
-    </SubClassOf>
-    <SubClassOf>
         <Class IRI="#EthnicGroup"/>
         <Class IRI="#SemanticModifier"/>
     </SubClassOf>
@@ -389,6 +340,10 @@
         <Class IRI="#SemanticModifier"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#Laterality"/>
+        <Class IRI="#Qualifier"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#LinguisticModifier"/>
         <Class IRI="#Modifier"/>
     </SubClassOf>
@@ -399,10 +354,6 @@
     <SubClassOf>
         <Class IRI="#MedicationRoute"/>
         <Class IRI="#SemanticModifier"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#MicroanatomicStructure"/>
-        <Class IRI="#BodySite"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Modifier"/>
@@ -417,28 +368,12 @@
         <Class IRI="#SemanticModifier"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#Organ"/>
-        <Class IRI="#BodySite"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#OtherAnatomicConcept"/>
-        <Class IRI="#BodySite"/>
-    </SubClassOf>
-    <SubClassOf>
         <Class IRI="#Patient_Group"/>
         <Class IRI="#Closure"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#Period"/>
-        <Class IRI="#NumericModifier"/>
-    </SubClassOf>
-    <SubClassOf>
         <Class IRI="#Permanence"/>
         <Class IRI="#LinguisticModifier"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Phase"/>
-        <Class IRI="#NumericModifier"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Polarity"/>
@@ -467,6 +402,10 @@
     <SubClassOf>
         <Class IRI="#Quadrant"/>
         <Class IRI="#BodyModifier"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Qualifier"/>
+        <Class IRI="#Modifier"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Quantity"/>
@@ -501,10 +440,6 @@
         <Class IRI="#SemanticModifier"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#Stage"/>
-        <Class IRI="#SemanticModifier"/>
-    </SubClassOf>
-    <SubClassOf>
         <Class IRI="#Temporality"/>
         <Class IRI="#LinguisticModifier"/>
     </SubClassOf>
@@ -513,12 +448,8 @@
         <Class IRI="#NumericModifier"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#Tissue"/>
-        <Class IRI="#BodySite"/>
-    </SubClassOf>
-    <SubClassOf>
         <Class IRI="#Unit"/>
-        <Class IRI="#SemanticModifier"/>
+        <Class IRI="#Qualifier"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Which_Group"/>
@@ -556,7 +487,15 @@
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Action"/>
+        <NamedIndividual IRI="#first_mention"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Action"/>
         <NamedIndividual IRI="#forward"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Action"/>
+        <NamedIndividual IRI="#nearest_mention"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Action"/>
@@ -564,14 +503,26 @@
     </ClassAssertion>
     <SubObjectPropertyOf>
         <ObjectProperty IRI="#hasActionDe"/>
-        <ObjectProperty IRI="#hasAction"/>
+        <ObjectProperty IRI="#hasMentionAction"/>
     </SubObjectPropertyOf>
     <SubObjectPropertyOf>
         <ObjectProperty IRI="#hasActionEn"/>
-        <ObjectProperty IRI="#hasAction"/>
+        <ObjectProperty IRI="#hasMentionAction"/>
     </SubObjectPropertyOf>
     <SubObjectPropertyOf>
         <ObjectProperty IRI="#hasActionSv"/>
+        <ObjectProperty IRI="#hasMentionAction"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasMentionAction"/>
+        <ObjectProperty IRI="#hasAction"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasParagraphAction"/>
+        <ObjectProperty IRI="#hasAction"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasSectionAction"/>
         <ObjectProperty IRI="#hasAction"/>
     </SubObjectPropertyOf>
     <SubObjectPropertyOf>
@@ -644,11 +595,6 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#Age</IRI>
-        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Age</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#Allergen</IRI>
         <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Allergen</Literal>
     </AnnotationAssertion>
@@ -656,11 +602,6 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#BodyModifier</IRI>
         <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">BodyModifier</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#BodySide</IRI>
-        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">BodySide</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -691,6 +632,11 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#Course</IRI>
         <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Course</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Date</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Date</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -731,6 +677,11 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#HumanName</IRI>
         <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">HumanName</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Laterality</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Laterality</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -778,6 +729,16 @@
         <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">ProcedurePreparationStatus</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Qualifier</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Qualifier is any modifier to another modifier.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Qualifier</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Qualifier</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#Quantity</IRI>
         <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Quantity</Literal>
@@ -809,13 +770,13 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#Stage</IRI>
-        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Stage</Literal>
+        <IRI>#Temporality</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Temporality</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#Temporality</IRI>
-        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Temporality</Literal>
+        <IRI>#Time</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Time</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
