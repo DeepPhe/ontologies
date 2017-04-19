@@ -16,7 +16,7 @@
     <Import>http://ontologies.dbmi.pitt.edu/deepphe/nlpCancer.owl</Import>
     <Annotation>
         <AnnotationProperty abbreviatedIRI="owl:versionInfo"/>
-        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">sprin19</Literal>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">sprint21</Literal>
     </Annotation>
     <Declaration>
         <Class IRI="#Cutaneous_Melanoma_cT2a_TNM_Finding"/>
@@ -118,10 +118,10 @@
         <Class IRI="#Cutaneous_Melanoma_pT0_TNM_Finding"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Stage_IA_Skin_Melanoma"/>
+        <Class IRI="#Cutaneous_Melanoma_Stage"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Cutaneous_Melanoma_Stage"/>
+        <Class IRI="#Stage_IA_Skin_Melanoma"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Cutaneous_Melanoma_cMX_TNM_Finding"/>
@@ -536,12 +536,33 @@
         <Class IRI="http://ontologies.dbmi.pitt.edu/deepphe/nlpCancer.owl#Tumor"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#MelanomaDistantTumor"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://ontologies.dbmi.pitt.edu/deepphe/nlpCancer.owl#hasPhenotype"/>
+            <Class IRI="#MelanomaTumorPhenotype"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#MelanomaPrimaryTumor"/>
         <Class IRI="http://ontologies.dbmi.pitt.edu/deepphe/nlpCancer.owl#Tumor"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#MelanomaPrimaryTumor"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://ontologies.dbmi.pitt.edu/deepphe/nlpCancer.owl#hasPhenotype"/>
+            <Class IRI="#MelanomaTumorPhenotype"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#MelanomaRegionalTumor"/>
         <Class IRI="http://ontologies.dbmi.pitt.edu/deepphe/nlpCancer.owl#Tumor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MelanomaRegionalTumor"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://ontologies.dbmi.pitt.edu/deepphe/nlpCancer.owl#hasPhenotype"/>
+            <Class IRI="#MelanomaTumorPhenotype"/>
+        </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#MelanomaTumorPhenotype"/>
