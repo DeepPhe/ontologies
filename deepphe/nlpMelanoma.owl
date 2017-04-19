@@ -16,7 +16,7 @@
     <Import>http://ontologies.dbmi.pitt.edu/deepphe/nlpCancer.owl</Import>
     <Annotation>
         <AnnotationProperty abbreviatedIRI="owl:versionInfo"/>
-        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">sprint21</Literal>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">sprint22</Literal>
     </Annotation>
     <Declaration>
         <ObjectProperty IRI="#hasDepigmentation"/>
