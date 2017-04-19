@@ -19,13 +19,16 @@
         <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">sprin19</Literal>
     </Annotation>
     <Declaration>
-        <Class IRI="#MelanomaCancerPhenotype"/>
+        <Class IRI="#Cutaneous_Melanoma_cT2a_TNM_Finding"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Cutaneous_Melanoma_cM1c_TNM_Finding"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Cutaneous_Melanoma_cT2a_TNM_Finding"/>
+        <Class IRI="#MelanomaCancerPhenotype"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MelanomaDistantTumor"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Cutaneous_Melanoma_cM1a_TNM_Finding"/>
@@ -34,10 +37,19 @@
         <Class IRI="#Cutaneous_Melanoma_pT4b_TNM_Finding"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#Stage_II_Skin_Melanoma"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Stage_I_Skin_Melanoma"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#Cutaneous_Melanoma_pT1a_TNM_Finding"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Cutaneous_Melanoma_cN0_TNM_Finding"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Stage_0_Skin_Melanoma"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Cutaneous_Melanoma_pN1b_TNM_Finding"/>
@@ -76,13 +88,16 @@
         <Class IRI="#Cutaneous_Melanoma_cM0_TNM_Finding"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Cutaneous_Melanoma_pNX_TNM_Finding"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="#Cutaneous_Melanoma_cM1_TNM_Finding"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#Cutaneous_Melanoma_pNX_TNM_Finding"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#Cutaneous_Melanoma_pN2c_TNM_Finding"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Stage_IIIC_Skin_Melanoma"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Cutaneous_Melanoma_pTis_TNM_Finding"/>
@@ -91,13 +106,22 @@
         <Class IRI="#Cutaneous_Melanoma_pT1_TNM_Finding"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#Stage_IB_Skin_Melanoma"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#Cutaneous_Melanoma_pN2a_TNM_Finding"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Cutaneous_Melanoma_pT2b_TNM_Finding"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Cutaneous_Melanoma_pT0_TNM_Finding"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Cutaneous_Melanoma_pT2b_TNM_Finding"/>
+        <Class IRI="#Stage_IA_Skin_Melanoma"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Cutaneous_Melanoma_Stage"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Cutaneous_Melanoma_cMX_TNM_Finding"/>
@@ -118,6 +142,9 @@
         <Class IRI="#Cutaneous_Melanoma_cT3a_TNM_Finding"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#Stage_IIIB_Skin_Melanoma"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#Cutaneous_Melanoma_cT3b_TNM_Finding"/>
     </Declaration>
     <Declaration>
@@ -127,16 +154,19 @@
         <Class IRI="#Cutaneous_Melanoma_cT2b_TNM_Finding"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#Stage_IIIA_Skin_Melanoma"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#Cutaneous_Melanoma_pMX_TNM_Finding"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Cutaneous_Melanoma_pT4a_TNM_Finding"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Cutaneous_Melanoma_cNX_TNM_Finding"/>
+        <Class IRI="#Cutaneous_Melanoma_pN1a_TNM_Finding"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Cutaneous_Melanoma_pN1a_TNM_Finding"/>
+        <Class IRI="#Cutaneous_Melanoma_cNX_TNM_Finding"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Cutaneous_Melanoma_pT1b_TNM_Finding"/>
@@ -151,6 +181,9 @@
         <Class IRI="#Cutaneous_Melanoma_cN1_TNM_Finding"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#MelanomaRegionalTumor"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#Cutaneous_Melanoma_pN3_TNM_Finding"/>
     </Declaration>
     <Declaration>
@@ -160,7 +193,13 @@
         <Class IRI="#Cutaneous_Melanoma_pM1b_TNM_Finding"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#MelanomaPrimaryTumor"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#Cutaneous_Melanoma_cN3_TNM_Finding"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Stage_IIC_Skin_Melanoma"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Cutaneous_Melanoma_cT1b_TNM_Finding"/>
@@ -187,16 +226,22 @@
         <Class IRI="#Cutaneous_Melanoma_cT2_TNM_Finding"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#Stage_IIB_Skin_Melanoma"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#Cutaneous_Melanoma_pT3a_TNM_Finding"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Cutaneous_Melanoma_cN2c_TNM_Finding"/>
+        <Class IRI="#Stage_III_Skin_Melanoma"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Cutaneous_Melanoma_pM0_TNM_Finding"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Cutaneous_Melanoma_cT3_TNM_Finding"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Cutaneous_Melanoma_pM0_TNM_Finding"/>
+        <Class IRI="#Cutaneous_Melanoma_cN2c_TNM_Finding"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Cutaneous_Melanoma_pM1_TNM_Finding"/>
@@ -208,52 +253,16 @@
         <Class IRI="#Cutaneous_Melanoma_cT4_TNM_Finding"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#Stage_IV_Skin_Melanoma"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#Cutaneous_Melanoma_cN2b_TNM_Finding"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Cutaneous_Melanoma_cN2a_TNM_Finding"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Stage_III_Skin_Melanoma"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Stage_IIA_Skin_Melanoma"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Cutaneous_Melanoma_Stage"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Stage_IIB_Skin_Melanoma"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Stage_0_Skin_Melanoma"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Stage_IIC_Skin_Melanoma"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Stage_II_Skin_Melanoma"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Stage_IV_Skin_Melanoma"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Stage_I_Skin_Melanoma"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Stage_IA_Skin_Melanoma"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Stage_IIIC_Skin_Melanoma"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Stage_IIIB_Skin_Melanoma"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Stage_IB_Skin_Melanoma"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Stage_IIIA_Skin_Melanoma"/>
+        <Class IRI="#Cutaneous_Melanoma_cN2a_TNM_Finding"/>
     </Declaration>
     <SubClassOf>
         <Class IRI="#Cutaneous_Melanoma_Stage"/>
@@ -521,6 +530,18 @@
     <SubClassOf>
         <Class IRI="#MelanomaCancerPhenotype"/>
         <Class IRI="http://ontologies.dbmi.pitt.edu/deepphe/nlpCancer.owl#CancerPhenotype"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MelanomaDistantTumor"/>
+        <Class IRI="http://ontologies.dbmi.pitt.edu/deepphe/nlpCancer.owl#Tumor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MelanomaPrimaryTumor"/>
+        <Class IRI="http://ontologies.dbmi.pitt.edu/deepphe/nlpCancer.owl#Tumor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MelanomaRegionalTumor"/>
+        <Class IRI="http://ontologies.dbmi.pitt.edu/deepphe/nlpCancer.owl#Tumor"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#MelanomaTumorPhenotype"/>
@@ -3986,101 +4007,6 @@
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#synonym"/>
         <IRI>#Stage_0_Skin_Melanoma</IRI>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Cutaneous Melanoma in situ</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#synonym"/>
-        <IRI>#Stage_0_Skin_Melanoma</IRI>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">ISM - In situ melanoma of skin</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#synonym"/>
-        <IRI>#Stage_0_Skin_Melanoma</IRI>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">ISMM - In situ malignant melanoma of skin</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#synonym"/>
-        <IRI>#Stage_0_Skin_Melanoma</IRI>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">In situ malignant melanoma of skin</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#synonym"/>
-        <IRI>#Stage_0_Skin_Melanoma</IRI>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">In situ melanoma of skin</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#synonym"/>
-        <IRI>#Stage_0_Skin_Melanoma</IRI>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Malignant Cutaneous Melanoma in situ</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#synonym"/>
-        <IRI>#Stage_0_Skin_Melanoma</IRI>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Malignant Skin Melanoma in situ</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#synonym"/>
-        <IRI>#Stage_0_Skin_Melanoma</IRI>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Malignant melanoma in situ</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#synonym"/>
-        <IRI>#Stage_0_Skin_Melanoma</IRI>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Melanoma In Situ</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#synonym"/>
-        <IRI>#Stage_0_Skin_Melanoma</IRI>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Melanoma in situ</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#synonym"/>
-        <IRI>#Stage_0_Skin_Melanoma</IRI>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Melanoma in situ (D03)</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#synonym"/>
-        <IRI>#Stage_0_Skin_Melanoma</IRI>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Melanoma in situ (morphologic abnormality)</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#synonym"/>
-        <IRI>#Stage_0_Skin_Melanoma</IRI>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Melanoma in situ of Skin</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#synonym"/>
-        <IRI>#Stage_0_Skin_Melanoma</IRI>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Melanoma in situ of skin</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#synonym"/>
-        <IRI>#Stage_0_Skin_Melanoma</IRI>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Melanoma in situ of skin (clinical)</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#synonym"/>
-        <IRI>#Stage_0_Skin_Melanoma</IRI>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Melanoma in situ of skin (disorder)</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#synonym"/>
-        <IRI>#Stage_0_Skin_Melanoma</IRI>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Melanoma in situ of the Skin</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#synonym"/>
-        <IRI>#Stage_0_Skin_Melanoma</IRI>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Melanoma in situ, unspecified</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#synonym"/>
-        <IRI>#Stage_0_Skin_Melanoma</IRI>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Skin Melanoma in situ</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#synonym"/>
-        <IRI>#Stage_0_Skin_Melanoma</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Stage 0 Cutaneous Melanoma</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
@@ -4127,11 +4053,6 @@
         <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#synonym"/>
         <IRI>#Stage_0_Skin_Melanoma</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Stage 0 Skin Melanoma AJCC v7</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#synonym"/>
-        <IRI>#Stage_0_Skin_Melanoma</IRI>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">melanoma in situ</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#synonym"/>
@@ -5307,5 +5228,5 @@
 
 
 
-<!-- Generated by the OWL API (version 4.2.5.20160517-0735) https://github.com/owlcs/owlapi -->
+<!-- Generated by the OWL API (version 4.2.6.20160910-2108) https://github.com/owlcs/owlapi -->
 
