@@ -283,6 +283,9 @@
         <Class IRI="#Cutaneous_Melanoma_cNX_TNM_Finding"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#Malignant_Melanoma"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#Mitotic_Count"/>
     </Declaration>
     <Declaration>
@@ -314,9 +317,6 @@
     </Declaration>
     <Declaration>
         <Class IRI="#Cutaneous_Melanoma_cT0_TNM_Finding"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Melanoma_Cancer"/>
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="#hasPreExistingNevus"/>
@@ -710,6 +710,17 @@
         <Class IRI="http://blulab.chpc.utah.edu/ontologies/v2/Schema.owl#Finding"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#Malignant_Melanoma"/>
+        <Class IRI="http://ontologies.dbmi.pitt.edu/deepphe/nlpCancer.owl#Cancer"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Malignant_Melanoma"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://ontologies.dbmi.pitt.edu/deepphe/nlpCancer.owl#hasPhenotype"/>
+            <Class IRI="#MelanomaCancerPhenotype"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#MelanomaCancerPhenotype"/>
         <Class IRI="http://ontologies.dbmi.pitt.edu/deepphe/nlpCancer.owl#CancerPhenotype"/>
     </SubClassOf>
@@ -818,17 +829,6 @@
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="#hasVerticalGrowthPhase"/>
             <Class IRI="#Vertical_Growth_Phase"/>
-        </ObjectSomeValuesFrom>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Melanoma_Cancer"/>
-        <Class IRI="http://ontologies.dbmi.pitt.edu/deepphe/nlpCancer.owl#Cancer"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Melanoma_Cancer"/>
-        <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="http://ontologies.dbmi.pitt.edu/deepphe/nlpCancer.owl#hasPhenotype"/>
-            <Class IRI="#MelanomaCancerPhenotype"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
@@ -5066,6 +5066,21 @@
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Lymphatic Invasion</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#semanticType"/>
+        <IRI>#Malignant_Melanoma</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Neoplastic Process</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://ontologies.dbmi.pitt.edu/deepphe/nlpCancer.owl#hasModel"/>
+        <IRI>#Malignant_Melanoma</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Cancer</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Malignant_Melanoma</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Malignant Melanoma</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty IRI="http://ontologies.dbmi.pitt.edu/deepphe/nlpCancer.owl#hasModel"/>
         <IRI>#MelanomaCancerPhenotype</IRI>
         <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">CancerPhenotype</Literal>
@@ -5074,21 +5089,6 @@
         <AnnotationProperty IRI="http://ontologies.dbmi.pitt.edu/deepphe/nlpCancer.owl#hasModel"/>
         <IRI>#MelanomaTumorPhenotype</IRI>
         <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">TumorPhenotype</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#semanticType"/>
-        <IRI>#Melanoma_Cancer</IRI>
-        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Neoplastic Process</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://ontologies.dbmi.pitt.edu/deepphe/nlpCancer.owl#hasModel"/>
-        <IRI>#Melanoma_Cancer</IRI>
-        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Cancer</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#Melanoma_Cancer</IRI>
-        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Malignant Melanoma</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#alternateCode"/>
