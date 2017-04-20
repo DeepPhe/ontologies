@@ -22,46 +22,22 @@
         <ObjectProperty IRI="#hasDepigmentation"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Cutaneous_Melanoma_cT2a_TNM_Finding"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Cutaneous_Melanoma_cM1c_TNM_Finding"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="#MelanomaCancerPhenotype"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#MelanomaDistantTumor"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Cutaneous_Melanoma_cM1a_TNM_Finding"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Cutaneous_Melanoma_pT4b_TNM_Finding"/>
+        <Class IRI="#Ulceration"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Stage_II_Skin_Melanoma"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Stage_I_Skin_Melanoma"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#hasLymphovascularInvasion"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Cutaneous_Melanoma_pT1a_TNM_Finding"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Cutaneous_Melanoma_cN0_TNM_Finding"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Stage_0_Skin_Melanoma"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Cutaneous_Melanoma_pN1b_TNM_Finding"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Cutaneous_Melanoma_pTX_TNM_Finding"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Cutaneous_Melanoma_pN0_TNM_Finding"/>
@@ -76,19 +52,7 @@
         <Class IRI="#Cutaneous_Melanoma_cT4b_TNM_Finding"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#hasTissue"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Cutaneous_Melanoma_cN2_TNM_Finding"/>
-    </Declaration>
-    <Declaration>
         <ObjectProperty IRI="#hasVerticalGrowthPhase"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Cutaneous_Melanoma_pM1a_TNM_Finding"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Cutaneous_Melanoma_pN2_TNM_Finding"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Cutaneous_Melanoma_cN1b_TNM_Finding"/>
@@ -97,25 +61,22 @@
         <Class IRI="#Cutaneous_Melanoma_pN2b_TNM_Finding"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Cutaneous_Melanoma_cM0_TNM_Finding"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Cutaneous_Melanoma_cM1_TNM_Finding"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="#Cutaneous_Melanoma_pNX_TNM_Finding"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Cutaneous_Melanoma_pN2c_TNM_Finding"/>
+        <Class IRI="#Spontaneous_Regression"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Complete_Spontaneous_Regression"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Stage_IIIC_Skin_Melanoma"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Cutaneous_Melanoma_pTis_TNM_Finding"/>
+        <Class IRI="#Cutaneous_Melanoma_pT1_TNM_Finding"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Cutaneous_Melanoma_pT1_TNM_Finding"/>
+        <Class IRI="#Lymphatic_Invasion"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Stage_IB_Skin_Melanoma"/>
@@ -124,55 +85,19 @@
         <Class IRI="#Cutaneous_Melanoma_pN2a_TNM_Finding"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Cutaneous_Melanoma_pT2b_TNM_Finding"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Cutaneous_Melanoma_pT0_TNM_Finding"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="#Cutaneous_Melanoma_Stage"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Stage_IA_Skin_Melanoma"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Cutaneous_Melanoma_cMX_TNM_Finding"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#hasMitoticRate"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#MelanomaTumorPhenotype"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="#Cutaneous_Melanoma_pT2_TNM_Finding"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Cutaneous_Melanoma_pT3_TNM_Finding"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Cutaneous_Melanoma_pT4_TNM_Finding"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Cutaneous_Melanoma_cT3a_TNM_Finding"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Stage_IIIB_Skin_Melanoma"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Cutaneous_Melanoma_cT3b_TNM_Finding"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Cutaneous_Melanoma_cM1b_TNM_Finding"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#hasRadialGrowthPhase"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#hasUlceration"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Cutaneous_Melanoma_cT2b_TNM_Finding"/>
+        <Class IRI="#Radial_Growth_Phase"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Stage_IIIA_Skin_Melanoma"/>
@@ -181,13 +106,13 @@
         <Class IRI="#Cutaneous_Melanoma_pMX_TNM_Finding"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#Murine_Lymphocytes_Tumor-Infiltrating"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#Cutaneous_Melanoma_pT4a_TNM_Finding"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Cutaneous_Melanoma_pN1a_TNM_Finding"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Cutaneous_Melanoma_cNX_TNM_Finding"/>
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="#hasPerineuralInvasion"/>
@@ -196,7 +121,169 @@
         <Class IRI="#Cutaneous_Melanoma_pT1b_TNM_Finding"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#Partial_Spontaneous_Regression"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#Cutaneous_Melanoma_pN1_TNM_Finding"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Cutaneous_Melanoma_pN3_TNM_Finding"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NF1_Gene_Mutation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Cutaneous_Melanoma_pM1b_TNM_Finding"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Stage_IIC_Skin_Melanoma"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Cutaneous_Melanoma_cT1a_TNM_Finding"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Cutaneous_Melanoma_cT1_TNM_Finding"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Cutaneous_Melanoma_cTX_TNM_Finding"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Cutaneous_Melanoma_pT3a_TNM_Finding"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Regression"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasRegression"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Cutaneous_Melanoma_cT3_TNM_Finding"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Cutaneous_Melanoma_pM1_TNM_Finding"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Cutaneous_Melanoma_cTis_TNM_Finding"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasPruritis"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Cutaneous_Melanoma_cN2b_TNM_Finding"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Stage_IIA_Skin_Melanoma"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Cutaneous_Melanoma_cM1c_TNM_Finding"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#BRAF_Gene_Mutation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Cutaneous_Melanoma_cT2a_TNM_Finding"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MelanomaDistantTumor"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Pruritus"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Cutaneous_Melanoma_pT4b_TNM_Finding"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasLymphovascularInvasion"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Stage_I_Skin_Melanoma"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Cutaneous_Melanoma_pT1a_TNM_Finding"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Cutaneous_Melanoma_pN1b_TNM_Finding"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Cutaneous_Melanoma_pTX_TNM_Finding"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasTissue"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Cutaneous_Melanoma_cN2_TNM_Finding"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Cutaneous_Melanoma_pN2_TNM_Finding"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Cutaneous_Melanoma_pM1a_TNM_Finding"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Cutaneous_Melanoma_cM0_TNM_Finding"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Cutaneous_Melanoma_cM1_TNM_Finding"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Cutaneous_Melanoma_pN2c_TNM_Finding"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Cutaneous_Melanoma_pTis_TNM_Finding"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Cutaneous_Melanoma_pT0_TNM_Finding"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Cutaneous_Melanoma_pT2b_TNM_Finding"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Stage_IA_Skin_Melanoma"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MelanomaTumorPhenotype"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasMitoticRate"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Cutaneous_Melanoma_pT3_TNM_Finding"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Cutaneous_Melanoma_pT4_TNM_Finding"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Stage_IIIB_Skin_Melanoma"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NRAS_Gene_Mutation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Perineural_Invasion"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Cutaneous_Melanoma_cT3b_TNM_Finding"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Cutaneous_Melanoma_cM1b_TNM_Finding"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasUlceration"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasRadialGrowthPhase"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Cutaneous_Melanoma_cT2b_TNM_Finding"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#KIT_Gene_Mutation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Cutaneous_Melanoma_cNX_TNM_Finding"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Mitotic_Count"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Cutaneous_Melanoma_cN1a_TNM_Finding"/>
@@ -208,13 +295,10 @@
         <Class IRI="#MelanomaRegionalTumor"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Cutaneous_Melanoma_pN3_TNM_Finding"/>
+        <Class IRI="#Vertical_Growth_Phase"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Cutaneous_Melanoma_cT4a_TNM_Finding"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Cutaneous_Melanoma_pM1b_TNM_Finding"/>
     </Declaration>
     <Declaration>
         <Class IRI="#MelanomaPrimaryTumor"/>
@@ -223,31 +307,22 @@
         <Class IRI="#Cutaneous_Melanoma_cN3_TNM_Finding"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Stage_IIC_Skin_Melanoma"/>
+        <Class IRI="#Depigmentation"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Cutaneous_Melanoma_cT1b_TNM_Finding"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Cutaneous_Melanoma_cT1a_TNM_Finding"/>
+        <Class IRI="#Cutaneous_Melanoma_cT0_TNM_Finding"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Cutaneous_Melanoma_cT0_TNM_Finding"/>
+        <Class IRI="#Melanoma_Cancer"/>
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="#hasPreExistingNevus"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Cutaneous_Melanoma_cT1_TNM_Finding"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Cutaneous_Melanoma_cTX_TNM_Finding"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="#Cutaneous_Melanoma_pT3b_TNM_Finding"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Melanoma"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Cutaneous_Melanoma_cT2_TNM_Finding"/>
@@ -256,106 +331,31 @@
         <Class IRI="#Stage_IIB_Skin_Melanoma"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Cutaneous_Melanoma_pT3a_TNM_Finding"/>
-    </Declaration>
-    <Declaration>
         <ObjectProperty IRI="#hasTumorInfiltratingLymphocytes"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#hasRegression"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Stage_III_Skin_Melanoma"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Cutaneous_Melanoma_pM0_TNM_Finding"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Cutaneous_Melanoma_cT3_TNM_Finding"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="#Cutaneous_Melanoma_cN2c_TNM_Finding"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Cutaneous_Melanoma_pM1_TNM_Finding"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Cutaneous_Melanoma_cTis_TNM_Finding"/>
+        <Class IRI="#Cutaneous_Melanoma_pM0_TNM_Finding"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Cutaneous_Melanoma_cT4_TNM_Finding"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#hasPruritis"/>
+        <Class IRI="#Breslow_Thickness"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Stage_IV_Skin_Melanoma"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Cutaneous_Melanoma_cN2b_TNM_Finding"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Stage_IIA_Skin_Melanoma"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="#Cutaneous_Melanoma_cN2a_TNM_Finding"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#KIT_Gene_Mutation"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Breslow_Thickness"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Depigmentation"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Complete_Spontaneous_Regression"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Mitotic_Count"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Regression"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Radial_Growth_Phase"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="http://ontologies.dbmi.pitt.edu/deepphe/nlpCancer.owl#Gene_Mutant"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Vertical_Growth_Phase"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#NF1_Gene_Mutation"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Pruritus"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Murine_Lymphocytes_Tumor-Infiltrating"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Ulceration"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Partial_Spontaneous_Regression"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Perineural_Invasion"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#NRAS_Gene_Mutation"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Lymphatic_Invasion"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Spontaneous_Regression"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#BRAF_Gene_Mutation"/>
+        <Class IRI="#Clark_Level_Finding"/>
     </Declaration>
     <EquivalentClasses>
         <Class IRI="#MelanomaDistantTumor"/>
@@ -380,7 +380,7 @@
             <ObjectProperty IRI="http://ontologies.dbmi.pitt.edu/deepphe/nlpCancer.owl#hasDiagnosis"/>
             <ObjectUnionOf>
                 <Class IRI="http://ontologies.dbmi.pitt.edu/deepphe/nlpCancer.owl#Lesion"/>
-                <Class IRI="#Melanoma"/>
+                <Class IRI="http://ontologies.dbmi.pitt.edu/deepphe/nlpCancer.owl#Melanoma"/>
             </ObjectUnionOf>
         </ObjectSomeValuesFrom>
     </EquivalentClasses>
@@ -423,12 +423,23 @@
         </ObjectSomeValuesFrom>
     </EquivalentClasses>
     <SubClassOf>
+        <Class IRI="http://blulab.chpc.utah.edu/ontologies/v2/ConText.owl#BodySite"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://ontologies.dbmi.pitt.edu/deepphe/nlpCancer.owl#hasLaterality"/>
+            <Class IRI="http://blulab.chpc.utah.edu/ontologies/v2/ConText.owl#Laterality"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#BRAF_Gene_Mutation"/>
         <Class IRI="http://ontologies.dbmi.pitt.edu/deepphe/nlpCancer.owl#Gene_Mutant"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Breslow_Thickness"/>
         <Class IRI="http://ontologies.dbmi.pitt.edu/deepphe/nlpCancer.owl#Pathologic_Tumor_Size"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Clark_Level_Finding"/>
+        <Class IRI="http://blulab.chpc.utah.edu/ontologies/v2/Schema.owl#Observation"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Complete_Spontaneous_Regression"/>
@@ -699,17 +710,6 @@
         <Class IRI="http://blulab.chpc.utah.edu/ontologies/v2/Schema.owl#Finding"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#Melanoma"/>
-        <Class IRI="http://ontologies.dbmi.pitt.edu/deepphe/nlpCancer.owl#Cancer"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Melanoma"/>
-        <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="http://ontologies.dbmi.pitt.edu/deepphe/nlpCancer.owl#hasPhenotype"/>
-            <Class IRI="#MelanomaCancerPhenotype"/>
-        </ObjectSomeValuesFrom>
-    </SubClassOf>
-    <SubClassOf>
         <Class IRI="#MelanomaCancerPhenotype"/>
         <Class IRI="http://ontologies.dbmi.pitt.edu/deepphe/nlpCancer.owl#CancerPhenotype"/>
     </SubClassOf>
@@ -818,6 +818,17 @@
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="#hasVerticalGrowthPhase"/>
             <Class IRI="#Vertical_Growth_Phase"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Melanoma_Cancer"/>
+        <Class IRI="http://ontologies.dbmi.pitt.edu/deepphe/nlpCancer.owl#Cancer"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Melanoma_Cancer"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://ontologies.dbmi.pitt.edu/deepphe/nlpCancer.owl#hasPhenotype"/>
+            <Class IRI="#MelanomaCancerPhenotype"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
@@ -1203,6 +1214,101 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#Breslow_Thickness</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Breslow Thickness</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#alternateCode"/>
+        <IRI>#Clark_Level_Finding</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">103419001 [SNOMEDCT_US]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#alternateCode"/>
+        <IRI>#Clark_Level_Finding</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">C0449387 [UMLS]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#alternateCode"/>
+        <IRI>#Clark_Level_Finding</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">C0449387 [UMLS_CUI]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#alternateCode"/>
+        <IRI>#Clark_Level_Finding</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">C94811 [NCI]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#alternateCode"/>
+        <IRI>#Clark_Level_Finding</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">C94811 [code]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#alternateCode"/>
+        <IRI>#Clark_Level_Finding</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">CDR0000630445 [NCI-GLOSS]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#alternateCode"/>
+        <IRI>#Clark_Level_Finding</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C94811 [URI]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#code"/>
+        <IRI>#Clark_Level_Finding</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">C0449387</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#definition"/>
+        <IRI>#Clark_Level_Finding</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">A morphologic finding indicating the cutaneous melanoma depth of invasion into the dermis and subcutaneous tissue.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#definition"/>
+        <IRI>#Clark_Level_Finding</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">A system for describing how deep melanoma has spread into the skin. Levels I-V describe the layers of skin involved.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#preferredTerm"/>
+        <IRI>#Clark_Level_Finding</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Clark Level Finding</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#semanticType"/>
+        <IRI>#Clark_Level_Finding</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Finding</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#synonym"/>
+        <IRI>#Clark_Level_Finding</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Clark Level Finding</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#synonym"/>
+        <IRI>#Clark_Level_Finding</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Clark level</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#synonym"/>
+        <IRI>#Clark_Level_Finding</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Clark levels</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#synonym"/>
+        <IRI>#Clark_Level_Finding</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Clark melanoma level</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#synonym"/>
+        <IRI>#Clark_Level_Finding</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Clark melanoma level (observable entity)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#synonym"/>
+        <IRI>#Clark_Level_Finding</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Clark staging levels</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Clark_Level_Finding</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Clark Level Finding</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#alternateCode"/>
@@ -4960,21 +5066,6 @@
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Lymphatic Invasion</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#semanticType"/>
-        <IRI>#Melanoma</IRI>
-        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Neoplastic Process</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://ontologies.dbmi.pitt.edu/deepphe/nlpCancer.owl#hasModel"/>
-        <IRI>#Melanoma</IRI>
-        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Cancer</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#Melanoma</IRI>
-        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Melanoma</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
         <AnnotationProperty IRI="http://ontologies.dbmi.pitt.edu/deepphe/nlpCancer.owl#hasModel"/>
         <IRI>#MelanomaCancerPhenotype</IRI>
         <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">CancerPhenotype</Literal>
@@ -4983,6 +5074,21 @@
         <AnnotationProperty IRI="http://ontologies.dbmi.pitt.edu/deepphe/nlpCancer.owl#hasModel"/>
         <IRI>#MelanomaTumorPhenotype</IRI>
         <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">TumorPhenotype</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#semanticType"/>
+        <IRI>#Melanoma_Cancer</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Neoplastic Process</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://ontologies.dbmi.pitt.edu/deepphe/nlpCancer.owl#hasModel"/>
+        <IRI>#Melanoma_Cancer</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Cancer</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Melanoma_Cancer</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Malignant Melanoma</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#alternateCode"/>
