@@ -64,6 +64,9 @@
         <Class IRI="#Cutaneous_Melanoma_pNX_TNM_Finding"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#Life_threatening_severity"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#Spontaneous_Regression"/>
     </Declaration>
     <Declaration>
@@ -73,10 +76,10 @@
         <Class IRI="#Stage_IIIC_Skin_Melanoma"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Cutaneous_Melanoma_pT1_TNM_Finding"/>
+        <Class IRI="#Lymphatic_Invasion"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Lymphatic_Invasion"/>
+        <Class IRI="#Cutaneous_Melanoma_pT1_TNM_Finding"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Stage_IB_Skin_Melanoma"/>
@@ -92,6 +95,9 @@
     </Declaration>
     <Declaration>
         <Class IRI="#Cutaneous_Melanoma_pT2_TNM_Finding"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Severities"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Cutaneous_Melanoma_cT3a_TNM_Finding"/>
@@ -127,10 +133,10 @@
         <Class IRI="#Cutaneous_Melanoma_pN1_TNM_Finding"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Cutaneous_Melanoma_pN3_TNM_Finding"/>
+        <Class IRI="#NF1_Gene_Mutation"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#NF1_Gene_Mutation"/>
+        <Class IRI="#Cutaneous_Melanoma_pN3_TNM_Finding"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Cutaneous_Melanoma_pM1b_TNM_Finding"/>
@@ -149,6 +155,9 @@
     </Declaration>
     <Declaration>
         <Class IRI="#Cutaneous_Melanoma_pT3a_TNM_Finding"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Moderate_to_severe"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Regression"/>
@@ -175,10 +184,10 @@
         <Class IRI="#Stage_IIA_Skin_Melanoma"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Cutaneous_Melanoma_cM1c_TNM_Finding"/>
+        <Class IRI="#BRAF_Gene_Mutation"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#BRAF_Gene_Mutation"/>
+        <Class IRI="#Cutaneous_Melanoma_cM1c_TNM_Finding"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Cutaneous_Melanoma_cT2a_TNM_Finding"/>
@@ -193,10 +202,10 @@
         <Class IRI="#Cutaneous_Melanoma_pT4b_TNM_Finding"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#hasLymphovascularInvasion"/>
+        <Class IRI="#Stage_I_Skin_Melanoma"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Stage_I_Skin_Melanoma"/>
+        <ObjectProperty IRI="#hasLymphovascularInvasion"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Cutaneous_Melanoma_pT1a_TNM_Finding"/>
@@ -214,10 +223,10 @@
         <Class IRI="#Cutaneous_Melanoma_cN2_TNM_Finding"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Cutaneous_Melanoma_pN2_TNM_Finding"/>
+        <Class IRI="#Cutaneous_Melanoma_pM1a_TNM_Finding"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Cutaneous_Melanoma_pM1a_TNM_Finding"/>
+        <Class IRI="#Cutaneous_Melanoma_pN2_TNM_Finding"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Cutaneous_Melanoma_cM0_TNM_Finding"/>
@@ -239,6 +248,9 @@
     </Declaration>
     <Declaration>
         <Class IRI="#Stage_IA_Skin_Melanoma"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Fatal"/>
     </Declaration>
     <Declaration>
         <Class IRI="#MelanomaTumorPhenotype"/>
@@ -265,13 +277,13 @@
         <Class IRI="#Cutaneous_Melanoma_cT3b_TNM_Finding"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Cutaneous_Melanoma_cM1b_TNM_Finding"/>
+        <ObjectProperty IRI="#hasRadialGrowthPhase"/>
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="#hasUlceration"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#hasRadialGrowthPhase"/>
+        <Class IRI="#Cutaneous_Melanoma_cM1b_TNM_Finding"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Cutaneous_Melanoma_cT2b_TNM_Finding"/>
@@ -280,13 +292,19 @@
         <Class IRI="#KIT_Gene_Mutation"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Cutaneous_Melanoma_cNX_TNM_Finding"/>
+        <Class IRI="#Clark_Level_Finding"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Malignant_Melanoma"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#Cutaneous_Melanoma_cNX_TNM_Finding"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#Mitotic_Count"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Massive"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Cutaneous_Melanoma_cN1a_TNM_Finding"/>
@@ -337,10 +355,13 @@
         <Class IRI="#Stage_III_Skin_Melanoma"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#Cutaneous_Melanoma_pM0_TNM_Finding"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#Cutaneous_Melanoma_cN2c_TNM_Finding"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Cutaneous_Melanoma_pM0_TNM_Finding"/>
+        <Class IRI="#Mild_to_moderate"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Cutaneous_Melanoma_cT4_TNM_Finding"/>
@@ -354,17 +375,18 @@
     <Declaration>
         <Class IRI="#Cutaneous_Melanoma_cN2a_TNM_Finding"/>
     </Declaration>
-    <Declaration>
-        <Class IRI="#Clark_Level_Finding"/>
-    </Declaration>
+    <EquivalentClasses>
+        <Class IRI="#MelanomaDistantTumor"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://blulab.chpc.utah.edu/ontologies/v2/Schema.owl#hasBodySite"/>
+            <Class IRI="http://blulab.chpc.utah.edu/ontologies/v2/ConText.owl#BodySite"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
     <EquivalentClasses>
         <Class IRI="#MelanomaDistantTumor"/>
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="http://ontologies.dbmi.pitt.edu/deepphe/nlpCancer.owl#hasDiagnosis"/>
-            <ObjectUnionOf>
-                <Class IRI="http://ontologies.dbmi.pitt.edu/deepphe/nlpCancer.owl#Lesion"/>
-                <Class IRI="http://ontologies.dbmi.pitt.edu/deepphe/nlpCancer.owl#Metastatic_Neoplasm"/>
-            </ObjectUnionOf>
+            <Class IRI="http://ontologies.dbmi.pitt.edu/deepphe/nlpCancer.owl#Metastatic_Neoplasm"/>
         </ObjectSomeValuesFrom>
     </EquivalentClasses>
     <EquivalentClasses>
@@ -372,6 +394,13 @@
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="http://ontologies.dbmi.pitt.edu/deepphe/nlpCancer.owl#hasTumorType"/>
             <Class IRI="http://ontologies.dbmi.pitt.edu/deepphe/nlpCancer.owl#Distant_Metastasis"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#MelanomaPrimaryTumor"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://blulab.chpc.utah.edu/ontologies/v2/Schema.owl#hasBodySite"/>
+            <Class IRI="http://blulab.chpc.utah.edu/ontologies/v2/ConText.owl#BodySite"/>
         </ObjectSomeValuesFrom>
     </EquivalentClasses>
     <EquivalentClasses>
@@ -392,27 +421,20 @@
         </ObjectSomeValuesFrom>
     </EquivalentClasses>
     <EquivalentClasses>
-        <Class IRI="#MelanomaPrimaryTumor"/>
-        <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="#hasTissue"/>
-            <Class IRI="http://ontologies.dbmi.pitt.edu/deepphe/nlpCancer.owl#Skin"/>
-        </ObjectSomeValuesFrom>
-    </EquivalentClasses>
-    <EquivalentClasses>
         <Class IRI="#MelanomaRegionalTumor"/>
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="http://blulab.chpc.utah.edu/ontologies/v2/Schema.owl#hasBodySite"/>
-            <ObjectUnionOf>
-                <Class IRI="http://ontologies.dbmi.pitt.edu/deepphe/nlpCancer.owl#Lesion"/>
-                <Class IRI="http://ontologies.dbmi.pitt.edu/deepphe/nlpCancer.owl#Lymph_Node"/>
-            </ObjectUnionOf>
+            <Class IRI="http://ontologies.dbmi.pitt.edu/deepphe/nlpCancer.owl#Lymph_Node"/>
         </ObjectSomeValuesFrom>
     </EquivalentClasses>
     <EquivalentClasses>
         <Class IRI="#MelanomaRegionalTumor"/>
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="http://ontologies.dbmi.pitt.edu/deepphe/nlpCancer.owl#hasDiagnosis"/>
-            <Class IRI="http://ontologies.dbmi.pitt.edu/deepphe/nlpCancer.owl#Metastatic_Neoplasm"/>
+            <ObjectUnionOf>
+                <Class IRI="http://ontologies.dbmi.pitt.edu/deepphe/nlpCancer.owl#Lesion"/>
+                <Class IRI="http://ontologies.dbmi.pitt.edu/deepphe/nlpCancer.owl#Metastatic_Neoplasm"/>
+            </ObjectUnionOf>
         </ObjectSomeValuesFrom>
     </EquivalentClasses>
     <EquivalentClasses>
@@ -428,6 +450,18 @@
             <ObjectProperty IRI="http://ontologies.dbmi.pitt.edu/deepphe/nlpCancer.owl#hasLaterality"/>
             <Class IRI="http://blulab.chpc.utah.edu/ontologies/v2/ConText.owl#Laterality"/>
         </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ontologies.dbmi.pitt.edu/deepphe/nlpCancer.owl#Mild"/>
+        <Class IRI="#Severities"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ontologies.dbmi.pitt.edu/deepphe/nlpCancer.owl#Moderate"/>
+        <Class IRI="#Severities"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ontologies.dbmi.pitt.edu/deepphe/nlpCancer.owl#Severe"/>
+        <Class IRI="#Severities"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#BRAF_Gene_Mutation"/>
@@ -702,8 +736,16 @@
         <Class IRI="http://blulab.chpc.utah.edu/ontologies/v2/Schema.owl#Finding"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#Fatal"/>
+        <Class IRI="#Severities"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#KIT_Gene_Mutation"/>
         <Class IRI="http://ontologies.dbmi.pitt.edu/deepphe/nlpCancer.owl#Gene_Mutant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Life_threatening_severity"/>
+        <Class IRI="#Severities"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Lymphatic_Invasion"/>
@@ -719,6 +761,10 @@
             <ObjectProperty IRI="http://ontologies.dbmi.pitt.edu/deepphe/nlpCancer.owl#hasPhenotype"/>
             <Class IRI="#MelanomaCancerPhenotype"/>
         </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Massive"/>
+        <Class IRI="http://blulab.chpc.utah.edu/ontologies/v2/ConText.owl#Severity"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#MelanomaCancerPhenotype"/>
@@ -832,19 +878,20 @@
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#Mild_to_moderate"/>
+        <Class IRI="#Severities"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#Mitotic_Count"/>
         <Class IRI="http://blulab.chpc.utah.edu/ontologies/v2/Schema.owl#Observation"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#Murine_Lymphocytes_Tumor-Infiltrating"/>
-        <Class IRI="http://blulab.chpc.utah.edu/ontologies/v2/Schema.owl#Finding"/>
+        <Class IRI="#Moderate_to_severe"/>
+        <Class IRI="#Severities"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Murine_Lymphocytes_Tumor-Infiltrating"/>
-        <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="http://blulab.chpc.utah.edu/ontologies/v2/Schema.owl#hasSeverity"/>
-            <Class IRI="http://blulab.chpc.utah.edu/ontologies/v2/ConText.owl#Severity"/>
-        </ObjectSomeValuesFrom>
+        <Class IRI="http://blulab.chpc.utah.edu/ontologies/v2/Schema.owl#Finding"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#NF1_Gene_Mutation"/>
@@ -873,6 +920,10 @@
     <SubClassOf>
         <Class IRI="#Regression"/>
         <Class IRI="http://blulab.chpc.utah.edu/ontologies/v2/Schema.owl#Finding"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Severities"/>
+        <Class IRI="http://blulab.chpc.utah.edu/ontologies/v2/ConText.owl#Severity"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Spontaneous_Regression"/>
@@ -4949,6 +5000,136 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#alternateCode"/>
+        <IRI>#Fatal</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">399166001 [SNOMEDCT_US]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#alternateCode"/>
+        <IRI>#Fatal</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">446451000124100 [SNOMEDCT_US]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#alternateCode"/>
+        <IRI>#Fatal</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">C48275 [NCI]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#alternateCode"/>
+        <IRI>#Fatal</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">C71580 [NCI]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#alternateCode"/>
+        <IRI>#Fatal</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">CDISC-VARIABLE [CDISC]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#alternateCode"/>
+        <IRI>#Fatal</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">NOCODE [MTH]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#code"/>
+        <IRI>#Fatal</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">C1705232</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#definition"/>
+        <IRI>#Fatal</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Bringing death.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#definition"/>
+        <IRI>#Fatal</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Death related to adverse event.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#definition"/>
+        <IRI>#Fatal</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">The termination of life as a result of an adverse event. (NCI)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#definition"/>
+        <IRI>#Fatal</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">The termination of life associated with an adverse event.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#preferredTerm"/>
+        <IRI>#Fatal</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Death Related to Adverse Event</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#preferredTerm"/>
+        <IRI>#Fatal</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Fatal</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#semanticType"/>
+        <IRI>#Fatal</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Finding</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#semanticType"/>
+        <IRI>#Fatal</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Qualitative Concept</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#synonym"/>
+        <IRI>#Fatal</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">5</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#synonym"/>
+        <IRI>#Fatal</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">AESDTH</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#synonym"/>
+        <IRI>#Fatal</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">CTCAE Grade 5</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#synonym"/>
+        <IRI>#Fatal</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">CTCAE grade 5</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#synonym"/>
+        <IRI>#Fatal</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Death Related to Adverse Event</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#synonym"/>
+        <IRI>#Fatal</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">FATAL</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#synonym"/>
+        <IRI>#Fatal</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Fatal</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#synonym"/>
+        <IRI>#Fatal</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Grade 5</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#synonym"/>
+        <IRI>#Fatal</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Grade 5 Death Related to Adverse Event</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#synonym"/>
+        <IRI>#Fatal</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Standard Toxicity Grade 5</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Fatal</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Fatal</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#alternateCode"/>
         <IRI>#KIT_Gene_Mutation</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">C1511353 [UMLS]</Literal>
     </AnnotationAssertion>
@@ -5011,6 +5192,36 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#KIT_Gene_Mutation</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">KIT Gene Mutation</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#alternateCode"/>
+        <IRI>#Life_threatening_severity</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">442452003 [SNOMEDCT_US]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#code"/>
+        <IRI>#Life_threatening_severity</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">C2711184</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#preferredTerm"/>
+        <IRI>#Life_threatening_severity</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Life threatening severity</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#semanticType"/>
+        <IRI>#Life_threatening_severity</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Qualitative Concept</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#synonym"/>
+        <IRI>#Life_threatening_severity</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Life threatening severity</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Life_threatening_severity</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Life threatening severity</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#alternateCode"/>
@@ -5088,6 +5299,61 @@
         <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Malignant Melanoma</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#alternateCode"/>
+        <IRI>#Massive</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">46998006 [SNOMEDCT_US]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#alternateCode"/>
+        <IRI>#Massive</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">LA17968-1 [LNC]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#alternateCode"/>
+        <IRI>#Massive</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">NOCODE [MTH]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#code"/>
+        <IRI>#Massive</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">C0522501</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#preferredTerm"/>
+        <IRI>#Massive</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Massive</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#semanticType"/>
+        <IRI>#Massive</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Qualitative Concept</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#synonym"/>
+        <IRI>#Massive</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Marked</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#synonym"/>
+        <IRI>#Massive</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Markedly</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#synonym"/>
+        <IRI>#Massive</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Massive</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#synonym"/>
+        <IRI>#Massive</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Massively</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Massive</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Massive</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty IRI="http://ontologies.dbmi.pitt.edu/deepphe/nlpCancer.owl#hasModel"/>
         <IRI>#MelanomaCancerPhenotype</IRI>
         <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">CancerPhenotype</Literal>
@@ -5096,6 +5362,36 @@
         <AnnotationProperty IRI="http://ontologies.dbmi.pitt.edu/deepphe/nlpCancer.owl#hasModel"/>
         <IRI>#MelanomaTumorPhenotype</IRI>
         <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">TumorPhenotype</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#alternateCode"/>
+        <IRI>#Mild_to_moderate</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">371923003 [SNOMEDCT_US]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#code"/>
+        <IRI>#Mild_to_moderate</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">C1299392</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#preferredTerm"/>
+        <IRI>#Mild_to_moderate</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Mild to moderate</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#semanticType"/>
+        <IRI>#Mild_to_moderate</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Qualitative Concept</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#synonym"/>
+        <IRI>#Mild_to_moderate</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Mild to moderate</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Mild_to_moderate</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Mild to moderate</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#alternateCode"/>
@@ -5161,6 +5457,36 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#Mitotic_Count</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Mitotic Count</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#alternateCode"/>
+        <IRI>#Moderate_to_severe</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">371924009 [SNOMEDCT_US]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#code"/>
+        <IRI>#Moderate_to_severe</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">C1299393</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#preferredTerm"/>
+        <IRI>#Moderate_to_severe</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Moderate to severe</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#semanticType"/>
+        <IRI>#Moderate_to_severe</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Qualitative Concept</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#synonym"/>
+        <IRI>#Moderate_to_severe</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Moderate to severe</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Moderate_to_severe</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Moderate to severe</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#alternateCode"/>
@@ -6091,6 +6417,466 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#Regression</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Regression</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#alternateCode"/>
+        <IRI>#Severities</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">103370009 [SNOMEDCT_US]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#alternateCode"/>
+        <IRI>#Severities</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">24484000 [SNOMEDCT_US]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#alternateCode"/>
+        <IRI>#Severities</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">261028005 [SNOMEDCT_US]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#alternateCode"/>
+        <IRI>#Severities</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">2636 [PMA]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#alternateCode"/>
+        <IRI>#Severities</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">272141005 [SNOMEDCT_US]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#alternateCode"/>
+        <IRI>#Severities</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">446431000124107 [SNOMEDCT_US]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#alternateCode"/>
+        <IRI>#Severities</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">C107221 [NCI]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#alternateCode"/>
+        <IRI>#Severities</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">C121395 [NCI]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#alternateCode"/>
+        <IRI>#Severities</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">C122951 [NCI]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#alternateCode"/>
+        <IRI>#Severities</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">C25539 [NCI]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#alternateCode"/>
+        <IRI>#Severities</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">C25676 [NCI]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#alternateCode"/>
+        <IRI>#Severities</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">C41340 [NCI]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#alternateCode"/>
+        <IRI>#Severities</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">C70667 [CDISC]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#alternateCode"/>
+        <IRI>#Severities</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">C70667 [NCI]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#alternateCode"/>
+        <IRI>#Severities</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">C78728 [CDISC]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#alternateCode"/>
+        <IRI>#Severities</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">C78728 [NCI]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#alternateCode"/>
+        <IRI>#Severities</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">C90000 [CDISC]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#alternateCode"/>
+        <IRI>#Severities</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">C90000 [NCI]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#alternateCode"/>
+        <IRI>#Severities</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">CDISC-OBSCLS [CDISC]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#alternateCode"/>
+        <IRI>#Severities</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">HP:0012824 [HPO]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#alternateCode"/>
+        <IRI>#Severities</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">HP:0012828 [HPO]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#alternateCode"/>
+        <IRI>#Severities</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">LA6750-9 [LNC]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#alternateCode"/>
+        <IRI>#Severities</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">NOCODE [MTH]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#alternateCode"/>
+        <IRI>#Severities</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">RID5673 [RADLEX]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#alternateCode"/>
+        <IRI>#Severities</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">RID5763 [RADLEX]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#alternateCode"/>
+        <IRI>#Severities</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">SDTM-AESEV [CDISC]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#code"/>
+        <IRI>#Severities</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">CL494725</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#definition"/>
+        <IRI>#Severities</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">A response indicating that a person&apos;s extremity pain is severe: continuous and disabling and requiring continuous use of narcotic (or equivalent) medication.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#definition"/>
+        <IRI>#Severities</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">A subjective score of 5 on a perceived exertion scale that ranges from 0: Nothing at all to 10: Maximal.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#definition"/>
+        <IRI>#Severities</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">A type of adverse event that interrupts usual activities of daily living, or significantly affects clinical status, or may require intensive therapeutic intervention.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#definition"/>
+        <IRI>#Severities</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">An adverse event experience that requires intensive therapeutic intervention and interrupts usual daily activities.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#definition"/>
+        <IRI>#Severities</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">An indefinite large quantity that is considered to be greater than several.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#definition"/>
+        <IRI>#Severities</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">An indefinite small quantity that is more than two but less than many.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#definition"/>
+        <IRI>#Severities</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Having a high degree of severity. For quantitative traits, a deviation of between four and five standard deviations from the appropriate population mean. [HPO:probinson]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#definition"/>
+        <IRI>#Severities</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Intensely bad or unpleasant in degree, quality or extent.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#definition"/>
+        <IRI>#Severities</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">More than one. (NCI)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#definition"/>
+        <IRI>#Severities</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">SEND terminology related to the degree of an occurrence of something undesirable.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#definition"/>
+        <IRI>#Severities</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Severe or medically significant but not immediately life-threatening; hospitalization or prolongation of hospitalization indicated; disabling; limiting self care activites of daily living.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#definition"/>
+        <IRI>#Severities</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">The degree of something undesirable e.g. pain or weather; also, strictness.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#definition"/>
+        <IRI>#Severities</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">The degree or magnitude of strength, energy, or feeling.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#definition"/>
+        <IRI>#Severities</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">The fifth (highest) level of severity in an ordered list based on a five-level scale of minimal, mild, moderate, marked, and severe.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#definition"/>
+        <IRI>#Severities</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">The intensity or degree of a manifestation. [HPO:probinson]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#definition"/>
+        <IRI>#Severities</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">The terminology that includes concepts relevant to the Clinical Data Interchange Standards Consortium (CDISC) Standard for the Exchange of Non-clinical Data (SEND) severity.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#definition"/>
+        <IRI>#Severities</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Used of the degree of something undesirable e.g. pain or weather; also, strictness.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#preferredTerm"/>
+        <IRI>#Severities</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Borg Category-Ratio 10 Perceived Exertion Score 5</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#preferredTerm"/>
+        <IRI>#Severities</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">CDISC SEND Severity Terminology</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#preferredTerm"/>
+        <IRI>#Severities</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Many</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#preferredTerm"/>
+        <IRI>#Severities</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Several</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#preferredTerm"/>
+        <IRI>#Severities</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Severe</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#preferredTerm"/>
+        <IRI>#Severities</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Severe Adverse Event</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#preferredTerm"/>
+        <IRI>#Severities</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Severe Extremity Pain</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#preferredTerm"/>
+        <IRI>#Severities</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Severities</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#preferredTerm"/>
+        <IRI>#Severities</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">With intensity</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#semanticType"/>
+        <IRI>#Severities</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Conceptual Entity</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#semanticType"/>
+        <IRI>#Severities</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Finding</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#semanticType"/>
+        <IRI>#Severities</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Functional Concept</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#semanticType"/>
+        <IRI>#Severities</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Intellectual Product</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#semanticType"/>
+        <IRI>#Severities</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Qualitative Concept</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#semanticType"/>
+        <IRI>#Severities</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Quantitative Concept</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#synonym"/>
+        <IRI>#Severities</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">3</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#synonym"/>
+        <IRI>#Severities</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">CDISC SEND Severity Terminology</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#synonym"/>
+        <IRI>#Severities</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">CTCAE Grade 3</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#synonym"/>
+        <IRI>#Severities</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">CTCAE grade 3</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#synonym"/>
+        <IRI>#Severities</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Grade 3</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#synonym"/>
+        <IRI>#Severities</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Grade 3 Severe Adverse Event</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#synonym"/>
+        <IRI>#Severities</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Gravis</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#synonym"/>
+        <IRI>#Severities</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Has intensity</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#synonym"/>
+        <IRI>#Severities</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">High grade</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#synonym"/>
+        <IRI>#Severities</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Intense</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#synonym"/>
+        <IRI>#Severities</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Intensity</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#synonym"/>
+        <IRI>#Severities</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">MANY</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#synonym"/>
+        <IRI>#Severities</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">MULTIPLE</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#synonym"/>
+        <IRI>#Severities</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Major</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#synonym"/>
+        <IRI>#Severities</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Many</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#synonym"/>
+        <IRI>#Severities</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">SEND-SEV</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#synonym"/>
+        <IRI>#Severities</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">SEV</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#synonym"/>
+        <IRI>#Severities</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">SEVERE</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#synonym"/>
+        <IRI>#Severities</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Several</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#synonym"/>
+        <IRI>#Severities</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Severe</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#synonym"/>
+        <IRI>#Severities</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Severe (severity modifier)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#synonym"/>
+        <IRI>#Severities</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Severe Adverse Event</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#synonym"/>
+        <IRI>#Severities</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Severe Exertion</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#synonym"/>
+        <IRI>#Severities</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Severe Extremity Pain</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#synonym"/>
+        <IRI>#Severities</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Severe Pain</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#synonym"/>
+        <IRI>#Severities</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Severely</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#synonym"/>
+        <IRI>#Severities</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Severities</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#synonym"/>
+        <IRI>#Severities</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Severity</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#synonym"/>
+        <IRI>#Severities</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Standard Toxicity Grade 3</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#synonym"/>
+        <IRI>#Severities</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">With intensity</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#synonym"/>
+        <IRI>#Severities</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">several</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#synonym"/>
+        <IRI>#Severities</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">severe</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Severities</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Severities</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#alternateCode"/>
