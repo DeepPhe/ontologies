@@ -4161,12 +4161,17 @@
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#preferredTerm"/>
         <IRI>#Ovarian_Cancer_and_Primary_Peritoneal_Carcinoma_pT0_TNM_Finding_v7</IRI>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Ovarian Cancer and Primary Peritoneal Carcinoma pT0 TNM Finding v7</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">pT0</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#semanticType"/>
         <IRI>#Ovarian_Cancer_and_Primary_Peritoneal_Carcinoma_pT0_TNM_Finding_v7</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Finding</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#synonym"/>
+        <IRI>#Ovarian_Cancer_and_Primary_Peritoneal_Carcinoma_pT0_TNM_Finding_v7</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">p T0</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -4206,12 +4211,17 @@
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#preferredTerm"/>
         <IRI>#Ovarian_Cancer_and_Primary_Peritoneal_Carcinoma_pT1_TNM_Finding_v7</IRI>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Ovarian Cancer and Primary Peritoneal Carcinoma pT1 TNM Finding v7</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">pT1</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#semanticType"/>
         <IRI>#Ovarian_Cancer_and_Primary_Peritoneal_Carcinoma_pT1_TNM_Finding_v7</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Finding</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#synonym"/>
+        <IRI>#Ovarian_Cancer_and_Primary_Peritoneal_Carcinoma_pT1_TNM_Finding_v7</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">p T1</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -4251,12 +4261,17 @@
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#preferredTerm"/>
         <IRI>#Ovarian_Cancer_and_Primary_Peritoneal_Carcinoma_pT1a_TNM_Finding_v7</IRI>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Ovarian Cancer and Primary Peritoneal Carcinoma pT1a TNM Finding v7</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">pT1a</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#semanticType"/>
         <IRI>#Ovarian_Cancer_and_Primary_Peritoneal_Carcinoma_pT1a_TNM_Finding_v7</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Finding</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#synonym"/>
+        <IRI>#Ovarian_Cancer_and_Primary_Peritoneal_Carcinoma_pT1a_TNM_Finding_v7</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">p T1a</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -4296,12 +4311,17 @@
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#preferredTerm"/>
         <IRI>#Ovarian_Cancer_and_Primary_Peritoneal_Carcinoma_pT1b_TNM_Finding_v7</IRI>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Ovarian Cancer and Primary Peritoneal Carcinoma pT1b TNM Finding v7</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">pT1b</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#semanticType"/>
         <IRI>#Ovarian_Cancer_and_Primary_Peritoneal_Carcinoma_pT1b_TNM_Finding_v7</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Finding</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#synonym"/>
+        <IRI>#Ovarian_Cancer_and_Primary_Peritoneal_Carcinoma_pT1b_TNM_Finding_v7</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">p T1b</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -4341,12 +4361,17 @@
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#preferredTerm"/>
         <IRI>#Ovarian_Cancer_and_Primary_Peritoneal_Carcinoma_pT1c_TNM_Finding_v7</IRI>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Ovarian Cancer and Primary Peritoneal Carcinoma pT1c TNM Finding v7</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">pT1c</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#semanticType"/>
         <IRI>#Ovarian_Cancer_and_Primary_Peritoneal_Carcinoma_pT1c_TNM_Finding_v7</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Finding</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#synonym"/>
+        <IRI>#Ovarian_Cancer_and_Primary_Peritoneal_Carcinoma_pT1c_TNM_Finding_v7</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">p T1c</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -4386,7 +4411,7 @@
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#preferredTerm"/>
         <IRI>#Ovarian_Cancer_and_Primary_Peritoneal_Carcinoma_pT2_TNM_Finding_v7</IRI>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Ovarian Cancer and Primary Peritoneal Carcinoma pT2 TNM Finding v7</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">pT2</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#semanticType"/>
@@ -4431,12 +4456,17 @@
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#preferredTerm"/>
         <IRI>#Ovarian_Cancer_and_Primary_Peritoneal_Carcinoma_pT2a_TNM_Finding_v7</IRI>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Ovarian Cancer and Primary Peritoneal Carcinoma pT2a TNM Finding v7</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">pT2a</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#semanticType"/>
         <IRI>#Ovarian_Cancer_and_Primary_Peritoneal_Carcinoma_pT2a_TNM_Finding_v7</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Finding</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#synonym"/>
+        <IRI>#Ovarian_Cancer_and_Primary_Peritoneal_Carcinoma_pT2a_TNM_Finding_v7</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">p T2a</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -4476,12 +4506,17 @@
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#preferredTerm"/>
         <IRI>#Ovarian_Cancer_and_Primary_Peritoneal_Carcinoma_pT2b_TNM_Finding_v7</IRI>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Ovarian Cancer and Primary Peritoneal Carcinoma pT2b TNM Finding v7</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">pT2b</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#semanticType"/>
         <IRI>#Ovarian_Cancer_and_Primary_Peritoneal_Carcinoma_pT2b_TNM_Finding_v7</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Finding</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#synonym"/>
+        <IRI>#Ovarian_Cancer_and_Primary_Peritoneal_Carcinoma_pT2b_TNM_Finding_v7</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">p T2b</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -4521,12 +4556,17 @@
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#preferredTerm"/>
         <IRI>#Ovarian_Cancer_and_Primary_Peritoneal_Carcinoma_pT2c_TNM_Finding_v7</IRI>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Ovarian Cancer and Primary Peritoneal Carcinoma pT2c TNM Finding v7</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">pT2c</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#semanticType"/>
         <IRI>#Ovarian_Cancer_and_Primary_Peritoneal_Carcinoma_pT2c_TNM_Finding_v7</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Finding</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#synonym"/>
+        <IRI>#Ovarian_Cancer_and_Primary_Peritoneal_Carcinoma_pT2c_TNM_Finding_v7</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">p T2c</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -4566,12 +4606,17 @@
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#preferredTerm"/>
         <IRI>#Ovarian_Cancer_and_Primary_Peritoneal_Carcinoma_pT3_TNM_Finding_v7</IRI>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Ovarian Cancer and Primary Peritoneal Carcinoma pT3 TNM Finding v7</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">pT3</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#semanticType"/>
         <IRI>#Ovarian_Cancer_and_Primary_Peritoneal_Carcinoma_pT3_TNM_Finding_v7</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Finding</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#synonym"/>
+        <IRI>#Ovarian_Cancer_and_Primary_Peritoneal_Carcinoma_pT3_TNM_Finding_v7</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">p T3</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -4611,12 +4656,17 @@
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#preferredTerm"/>
         <IRI>#Ovarian_Cancer_and_Primary_Peritoneal_Carcinoma_pT3a_TNM_Finding_v7</IRI>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Ovarian Cancer and Primary Peritoneal Carcinoma pT3a TNM Finding v7</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">pT3a</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#semanticType"/>
         <IRI>#Ovarian_Cancer_and_Primary_Peritoneal_Carcinoma_pT3a_TNM_Finding_v7</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Finding</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#synonym"/>
+        <IRI>#Ovarian_Cancer_and_Primary_Peritoneal_Carcinoma_pT3a_TNM_Finding_v7</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">p T3a</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -4656,12 +4706,17 @@
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#preferredTerm"/>
         <IRI>#Ovarian_Cancer_and_Primary_Peritoneal_Carcinoma_pT3b_TNM_Finding_v7</IRI>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Ovarian Cancer and Primary Peritoneal Carcinoma pT3b TNM Finding v7</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">pT3b</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#semanticType"/>
         <IRI>#Ovarian_Cancer_and_Primary_Peritoneal_Carcinoma_pT3b_TNM_Finding_v7</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Finding</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#synonym"/>
+        <IRI>#Ovarian_Cancer_and_Primary_Peritoneal_Carcinoma_pT3b_TNM_Finding_v7</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">p T3b</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -4701,12 +4756,17 @@
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#preferredTerm"/>
         <IRI>#Ovarian_Cancer_and_Primary_Peritoneal_Carcinoma_pT3c_TNM_Finding_v7</IRI>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Ovarian Cancer and Primary Peritoneal Carcinoma pT3c TNM Finding v7</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">pT3c</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#semanticType"/>
         <IRI>#Ovarian_Cancer_and_Primary_Peritoneal_Carcinoma_pT3c_TNM_Finding_v7</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Finding</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#synonym"/>
+        <IRI>#Ovarian_Cancer_and_Primary_Peritoneal_Carcinoma_pT3c_TNM_Finding_v7</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">p T3c</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -4746,12 +4806,17 @@
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#preferredTerm"/>
         <IRI>#Ovarian_Cancer_and_Primary_Peritoneal_Carcinoma_pTX_TNM_Finding_v7</IRI>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Ovarian Cancer and Primary Peritoneal Carcinoma pTX TNM Finding v7</Literal>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">pTX</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#semanticType"/>
         <IRI>#Ovarian_Cancer_and_Primary_Peritoneal_Carcinoma_pTX_TNM_Finding_v7</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Finding</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#synonym"/>
+        <IRI>#Ovarian_Cancer_and_Primary_Peritoneal_Carcinoma_pTX_TNM_Finding_v7</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">p TX</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
