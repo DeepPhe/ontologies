@@ -6,7 +6,7 @@
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      ontologyIRI="http://ontologies.dbmi.pitt.edu/deepphe/nlpOvarian.owl">
-    <Prefix name="" IRI="http://ontologies.dbmi.pitt.edu/deepphe/nlpOvarian.owl#"/>
+    <Prefix name="" IRI="http://ontologies.dbmi.pitt.edu/deepphe/nlpOvarian.owl"/>
     <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
     <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
     <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
@@ -15,43 +15,64 @@
     <Import>http://blulab.chpc.utah.edu/ontologies/TermMapping.owl</Import>
     <Import>http://ontologies.dbmi.pitt.edu/deepphe/nlpCancer.owl</Import>
     <Declaration>
+        <ObjectProperty IRI="#hasFigoStage"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#BRCA1_Gene_Mutation"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#OvarianCancerTumorPhenotype"/>
+        <Class IRI="#Stage_IIA_Ovarian_Cancer"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FIGO_Stage_IC"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Stage_IIIA_Ovarian_Cancer"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Disruptive_TP53_Mutation"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#Ovarian_Cancer_and_Primary_Peritoneal_Carcinoma_pN0_TNM_Finding_v7"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#Papillary_Serous"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Brenner_Tumor"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Deleterious_BRCA2_Gene_Mutation"/>
+        <Class IRI="#Ovarian_Cancer_and_Primary_Peritoneal_Carcinoma_pT2_TNM_Finding_v7"/>
     </Declaration>
     <Declaration>
         <Class IRI="#OvarianRegionalMetastasisTumor"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Granulosa_Cell"/>
+        <Class IRI="#Brenner_Tumor"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#OvarianCancerPhenotype"/>
+        <Class IRI="#Well_Differentiated"/>
     </Declaration>
     <Declaration>
         <Class IRI="#OvarianCancer"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#FIGO_Stage_IIB"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#PTEN_Gene_Mutation"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#BRCA2_Gene_Mutation"/>
+        <Class IRI="#FIGO_Stage_IIIA"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FIGO_Stage_IIA"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Ascites"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Endometrioid"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Moderately_Differentiated"/>
     </Declaration>
     <Declaration>
         <Class IRI="#OvarianDistantMetastasisTumor"/>
@@ -60,7 +81,133 @@
         <Class IRI="#Deleterious_BRCA1_Gene_Mutation"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#FIGO_Stage_IA1"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#TP53_Gene_Mutation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FIGO_Stage_IC1"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Ovarian_Cancer_and_Primary_Peritoneal_Carcinoma_pT2a_TNM_Finding_v7"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Stage_I_Ovarian_Cancer"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Ovarian_Cancer_and_Primary_Peritoneal_Carcinoma_pT1_TNM_Finding_v7"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Ovarian_Cancer_and_Primary_Peritoneal_Carcinoma_pT1a_TNM_Finding_v7"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Ovarian_Cancer_and_Primary_Peritoneal_Carcinoma_pNX_TNM_Finding_v7"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Ovarian_Cancer_and_Primary_Peritoneal_Carcinoma_pT2c_TNM_Finding_v7"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Stage_IIC_Ovarian_Cancer"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Stage_IB_Ovarian_Cancer"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Ovarian_Cancer_and_Primary_Peritoneal_Carcinoma_pTX_TNM_Finding_v7"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FIGO_Stage_IIIC1"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FIGO_Stage_IIIA1"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Serous"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Ovarian_Cancer_and_Primary_Peritoneal_Carcinoma_pT3b_TNM_Finding_v7"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FIGO_Stage_IA2"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FIGO_Stage_IC2"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Undifferentiated"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FIGO_Stage_IA"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Stage_II_Ovarian_Cancer"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OvarianCancerTumorPhenotype"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Ovarian_Cancer_and_Primary_Peritoneal_Carcinoma_pT2b_TNM_Finding_v7"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FIGO_Stage"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Ovarian_Cancer_and_Primary_Peritoneal_Carcinoma_cM0_TNM_Finding_v7"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Stage_III_Ovarian_Cancer"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FIGO_Stage_II"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Deleterious_BRCA2_Gene_Mutation"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasAscites"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OvarianCancerPhenotype"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Granulosa_Cell"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Ovarian_Cancer_and_Primary_Peritoneal_Carcinoma_pM1_TNM_Finding_v7"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Ovarian_Cancer_and_Primary_Peritoneal_Carcinoma_pT1b_TNM_Finding_v7"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Ovarian_Cancer_and_Primary_Peritoneal_Carcinoma_pT3_TNM_Finding_v7"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FIGO_Stage_IIIC2"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Ovarian_Cancer_and_Primary_Peritoneal_Carcinoma_pN1_TNM_Finding_v7"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#BRCA2_Gene_Mutation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FIGO_Stage_IIIC"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Stage_IIIC_Ovarian_Cancer"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Stage_IC_Ovarian_Cancer"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FIGO_Stage_IC3"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FIGO_Stage_IB1"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Ovarian_Cancer_and_Primary_Peritoneal_Carcinoma_pT0_TNM_Finding_v7"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Non-Disruptive_TP53_Mutation"/>
@@ -69,214 +216,91 @@
         <Class IRI="#OvarianPrimaryTumor"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Squamous_Cell"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Clear_Cell"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Ovarian_Cancer_and_Primary_Peritoneal_Carcinoma_pMX_TNM_Finding_v7"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Serous"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Yolk_Sac"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Mucinous"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Gene_Mutation"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Undifferentiated"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#hasGermlineMutation"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Stage_IIIA_Ovarian_Cancer"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Ovarian_Cancer_and_Primary_Peritoneal_Carcinoma_pTX_TNM_Finding_v7"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Ovarian_Cancer_and_Primary_Peritoneal_Carcinoma_pNX_TNM_Finding_v7"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Stage_III_Ovarian_Cancer"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Ovarian_Cancer_and_Primary_Peritoneal_Carcinoma_pT2a_TNM_Finding_v7"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#FIGO_Stage_IIIA1"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="#FIGO_Stage_IIIA2"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#FIGO_Stage_IVB"/>
+        <Class IRI="#Squamous_Cell"/>
     </Declaration>
     <Declaration>
         <Class IRI="#FIGO_Stage_IVA"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Ovarian_Cancer_and_Primary_Peritoneal_Carcinoma_pT3_TNM_Finding_v7"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Ovarian_Cancer_and_Primary_Peritoneal_Carcinoma_pM1_TNM_Finding_v7"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#FIGO_Stage"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Stage_IC_Ovarian_Cancer"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#FIGO_Stage_IV"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Stage_II_Ovarian_Cancer"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#FIGO_Stage_IA2"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#FIGO_Stage_IA1"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#FIGO_Stage_0"/>
+        <Class IRI="#Poorly_Differentiated"/>
     </Declaration>
     <Declaration>
         <Class IRI="#FIGO_Stage_IB"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#FIGO_Stage_IA"/>
+        <Class IRI="#Ovarian_Cancer_and_Primary_Peritoneal_Carcinoma_cM1_TNM_Finding_v7"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#FIGO_Stage_IIIC1"/>
+        <Class IRI="#Ovarian_Cancer_and_Primary_Peritoneal_Carcinoma_pT3c_TNM_Finding_v7"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#FIGO_Stage_IC"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#FIGO_Stage_II"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#FIGO_Stage_IIIC2"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Ovarian_Cancer_and_Primary_Peritoneal_Carcinoma_pN0_TNM_Finding_v7"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Ovarian_Cancer_and_Primary_Peritoneal_Carcinoma_pT1c_TNM_Finding_v7"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Ovarian_Cancer_and_Primary_Peritoneal_Carcinoma_pT0_TNM_Finding_v7"/>
+        <Class IRI="#Clear_Cell"/>
     </Declaration>
     <Declaration>
         <Class IRI="#FIGO_Stage_I"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Ovarian_Cancer_and_Primary_Peritoneal_Carcinoma_pT3b_TNM_Finding_v7"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Stage_IIC_Ovarian_Cancer"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Ovarian_Cancer_and_Primary_Peritoneal_Carcinoma_pT2c_TNM_Finding_v7"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#FIGO_Stage_IIIC"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#FIGO_Stage_IC1"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#FIGO_Stage_IIIA"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#FIGO_Stage_IIIB"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Ovarian_Cancer_and_Primary_Peritoneal_Carcinoma_pT2_TNM_Finding_v7"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#FIGO_Stage_IC3"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#FIGO_Stage_IC2"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Stage_IIA_Ovarian_Cancer"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Stage_IIIC_Ovarian_Cancer"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Ovarian_Cancer_and_Primary_Peritoneal_Carcinoma_cM0_TNM_Finding_v7"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Ovarian_Cancer_by_AJCC_Stage"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Stage_IB_Ovarian_Cancer"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#FIGO_Stage_IB2"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#FIGO_Stage_IB1"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Ovarian_Cancer_and_Primary_Peritoneal_Carcinoma_pT1a_TNM_Finding_v7"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#FIGO_Stage_IIB"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#FIGO_Stage_IIA"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Ovarian_Cancer_and_Primary_Peritoneal_Carcinoma_cM1_TNM_Finding_v7"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="#FIGO_Stage_III"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Ovarian_Cancer_and_Primary_Peritoneal_Carcinoma_pT3a_TNM_Finding_v7"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Stage_I_Ovarian_Cancer"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Ovarian_Cancer_and_Primary_Peritoneal_Carcinoma_pT2b_TNM_Finding_v7"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Ovarian_Cancer_and_Primary_Peritoneal_Carcinoma_pT1_TNM_Finding_v7"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Ovarian_Cancer_and_Primary_Peritoneal_Carcinoma_pT1b_TNM_Finding_v7"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Ovarian_Cancer_and_Primary_Peritoneal_Carcinoma_pN1_TNM_Finding_v7"/>
+        <Class IRI="#FIGO_Stage_0"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Stage_IIIB_Ovarian_Cancer"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Stage_IA_Ovarian_Cancer"/>
+        <Class IRI="#FIGO_Stage_IIIB"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Ovarian_Cancer_and_Primary_Peritoneal_Carcinoma_pT3a_TNM_Finding_v7"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Stage_IV_Ovarian_Cancer"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#Ovarian_Cancer_and_Primary_Peritoneal_Carcinoma_pMX_TNM_Finding_v7"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FIGO_Stage_IV"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Ovarian_Cancer_by_AJCC_Stage"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#Stage_IIB_Ovarian_Cancer"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Ovarian_Cancer_and_Primary_Peritoneal_Carcinoma_pT3c_TNM_Finding_v7"/>
+        <ObjectProperty IRI="#hasTumorGrade"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Yolk_Sac"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FIGO_Stage_IB2"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Gene_Mutation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Mucinous"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Stage_IA_Ovarian_Cancer"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasGermlineMutation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FIGO_Stage_IVB"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Ovarian_Cancer_and_Primary_Peritoneal_Carcinoma_pT1c_TNM_Finding_v7"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Histologic_Grade"/>
     </Declaration>
     <SubClassOf>
         <Class IRI="http://ontologies.dbmi.pitt.edu/deepphe/nlpCancer.owl#Dysgerminoma"/>
@@ -297,6 +321,10 @@
                 <Class IRI="#TP53_Gene_Mutation"/>
             </ObjectUnionOf>
         </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Ascites"/>
+        <Class IRI="http://blulab.chpc.utah.edu/ontologies/v2/Schema.owl#Finding"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#BRCA1_Gene_Mutation"/>
@@ -447,6 +475,25 @@
         <Class IRI="http://ontologies.dbmi.pitt.edu/deepphe/nlpCancer.owl#HistologicType"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#Histologic_Grade"/>
+        <Class IRI="http://blulab.chpc.utah.edu/ontologies/v2/Schema.owl#Finding"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Histologic_Grade"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://blulab.chpc.utah.edu/ontologies/v2/Schema.owl#hasSeverity"/>
+            <ObjectUnionOf>
+                <Class IRI="#Moderately_Differentiated"/>
+                <Class IRI="#Poorly_Differentiated"/>
+                <Class IRI="#Well_Differentiated"/>
+            </ObjectUnionOf>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Moderately_Differentiated"/>
+        <Class IRI="http://blulab.chpc.utah.edu/ontologies/v2/ConText.owl#Severity"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#Mucinous"/>
         <Class IRI="http://ontologies.dbmi.pitt.edu/deepphe/nlpCancer.owl#HistologicType"/>
     </SubClassOf>
@@ -470,6 +517,13 @@
         <Class IRI="http://ontologies.dbmi.pitt.edu/deepphe/nlpCancer.owl#CancerPhenotype"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#OvarianCancerPhenotype"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasFigoStage"/>
+            <Class IRI="#FIGO_Stage"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#OvarianCancerTumorPhenotype"/>
         <Class IRI="http://ontologies.dbmi.pitt.edu/deepphe/nlpCancer.owl#TumorPhenotype"/>
     </SubClassOf>
@@ -478,6 +532,20 @@
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="http://ontologies.dbmi.pitt.edu/deepphe/nlpCancer.owl#hasHistologicType"/>
             <Class IRI="http://ontologies.dbmi.pitt.edu/deepphe/nlpCancer.owl#HistologicType"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OvarianCancerTumorPhenotype"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasAscites"/>
+            <Class IRI="#Ascites"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OvarianCancerTumorPhenotype"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasTumorGrade"/>
+            <Class IRI="#Histologic_Grade"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
@@ -610,6 +678,10 @@
         <Class IRI="http://ontologies.dbmi.pitt.edu/deepphe/nlpCancer.owl#HistologicType"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#Poorly_Differentiated"/>
+        <Class IRI="http://blulab.chpc.utah.edu/ontologies/v2/ConText.owl#Severity"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#Serous"/>
         <Class IRI="http://ontologies.dbmi.pitt.edu/deepphe/nlpCancer.owl#HistologicType"/>
     </SubClassOf>
@@ -678,21 +750,136 @@
         <Class IRI="http://ontologies.dbmi.pitt.edu/deepphe/nlpCancer.owl#HistologicType"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#Well_Differentiated"/>
+        <Class IRI="http://blulab.chpc.utah.edu/ontologies/v2/ConText.owl#Severity"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#Yolk_Sac"/>
         <Class IRI="http://ontologies.dbmi.pitt.edu/deepphe/nlpCancer.owl#HistologicType"/>
     </SubClassOf>
     <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasAscites"/>
+        <ObjectProperty IRI="http://ontologies.dbmi.pitt.edu/deepphe/nlpCancer.owl#hasManifestation"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasFigoStage"/>
+        <ObjectProperty IRI="http://ontologies.dbmi.pitt.edu/deepphe/nlpCancer.owl#hasManifestation"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
         <ObjectProperty IRI="#hasGermlineMutation"/>
         <ObjectProperty IRI="http://ontologies.dbmi.pitt.edu/deepphe/nlpCancer.owl#hasSummaryRelation"/>
     </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasTumorGrade"/>
+        <ObjectProperty IRI="http://ontologies.dbmi.pitt.edu/deepphe/nlpCancer.owl#hasManifestation"/>
+    </SubObjectPropertyOf>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasAscites"/>
+        <Class IRI="#OvarianCancerTumorPhenotype"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasFigoStage"/>
+        <Class IRI="#OvarianCancerPhenotype"/>
+    </ObjectPropertyDomain>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#hasGermlineMutation"/>
         <Class IRI="http://ontologies.dbmi.pitt.edu/deepphe/nlpCancer.owl#Patient"/>
     </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasTumorGrade"/>
+        <Class IRI="#OvarianCancerTumorPhenotype"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasAscites"/>
+        <Class IRI="#Ascites"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasFigoStage"/>
+        <Class IRI="#FIGO_Stage"/>
+    </ObjectPropertyRange>
     <ObjectPropertyRange>
         <ObjectProperty IRI="#hasGermlineMutation"/>
         <Class IRI="#Gene_Mutation"/>
     </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasTumorGrade"/>
+        <Class IRI="http://blulab.chpc.utah.edu/ontologies/v2/ConText.owl#Severity"/>
+    </ObjectPropertyRange>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#alternateCode"/>
+        <IRI>#Ascites</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">C0003962 [UMLS]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#alternateCode"/>
+        <IRI>#Ascites</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">C0003962 [UMLS_CUI]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#alternateCode"/>
+        <IRI>#Ascites</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">C2885 [NCI]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#alternateCode"/>
+        <IRI>#Ascites</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">C2885 [code]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#alternateCode"/>
+        <IRI>#Ascites</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C2885 [URI]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#code"/>
+        <IRI>#Ascites</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">C2885</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#definition"/>
+        <IRI>#Ascites</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">A disorder characterized by accumulation of serous or hemorrhagic fluid in the peritoneal cavity.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#definition"/>
+        <IRI>#Ascites</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Abnormal buildup of fluid in the abdomen that may cause swelling. In late-stage cancer, tumor cells may be found in the fluid in the abdomen. Ascites also occurs in patients with liver disease.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#definition"/>
+        <IRI>#Ascites</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Abnormal collection of fluid in the peritoneal cavity.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#definition"/>
+        <IRI>#Ascites</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">The accumulation of fluid in the peritoneal cavity, which may be serous, hemorrhagic, or the result of tumor metastasis to the peritoneum.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#preferredTerm"/>
+        <IRI>#Ascites</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Ascites</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#semanticType"/>
+        <IRI>#Ascites</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Disease or Syndrome</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#synonym"/>
+        <IRI>#Ascites</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Ascites</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#synonym"/>
+        <IRI>#Ascites</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">ascites</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Ascites</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Ascites</Literal>
+    </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#alternateCode"/>
         <IRI>#BRCA1_Gene_Mutation</IRI>
@@ -3215,6 +3402,176 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#alternateCode"/>
+        <IRI>#Histologic_Grade</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">C0919553 [UMLS]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#alternateCode"/>
+        <IRI>#Histologic_Grade</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">C0919553 [UMLS_CUI]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#alternateCode"/>
+        <IRI>#Histologic_Grade</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">C18000 [NCI]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#alternateCode"/>
+        <IRI>#Histologic_Grade</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">C18000 [code]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#alternateCode"/>
+        <IRI>#Histologic_Grade</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C18000 [URI]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#code"/>
+        <IRI>#Histologic_Grade</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">C18000</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#definition"/>
+        <IRI>#Histologic_Grade</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">A description of a tumor based on how abnormal the cancer cells look under a microscope and how quickly the tumor is likely to grow and spread. Grading systems are different for each type of cancer.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#definition"/>
+        <IRI>#Histologic_Grade</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">The degree of abnormality of cancer cells, a measure of differentiation, the extent to which cancer cells are similar in appearance and function to healthy cells of the same tissue type. The degree of differentiation often relates to the clinical behavior of the particular tumor. Based on the microscopic findings, tumor grade is commonly described by one of four degrees of severity. Histopathologic grade of a tumor may be used to plan treatment and estimate the future course, outcome, and overall prognosis of disease. Certain types of cancers, such as soft tissue sarcoma, primary brain tumors, lymphomas, and breast have special grading systems.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#preferredTerm"/>
+        <IRI>#Histologic_Grade</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Histologic Grade</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#semanticType"/>
+        <IRI>#Histologic_Grade</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Qualitative Concept</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#synonym"/>
+        <IRI>#Histologic_Grade</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Grade</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#synonym"/>
+        <IRI>#Histologic_Grade</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Grading</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#synonym"/>
+        <IRI>#Histologic_Grade</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Histologic Grade</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#synonym"/>
+        <IRI>#Histologic_Grade</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Histopathologic Grade</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#synonym"/>
+        <IRI>#Histologic_Grade</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Histopathology Grade</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#synonym"/>
+        <IRI>#Histologic_Grade</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">grade</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#synonym"/>
+        <IRI>#Histologic_Grade</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">grading</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#synonym"/>
+        <IRI>#Histologic_Grade</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">tumor grade</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Histologic_Grade</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Histologic Grade</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#alternateCode"/>
+        <IRI>#Moderately_Differentiated</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">C0205616 [UMLS]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#alternateCode"/>
+        <IRI>#Moderately_Differentiated</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">C0205616 [UMLS_CUI]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#alternateCode"/>
+        <IRI>#Moderately_Differentiated</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">C14162 [NCI]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#alternateCode"/>
+        <IRI>#Moderately_Differentiated</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">C14162 [code]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#alternateCode"/>
+        <IRI>#Moderately_Differentiated</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C14162 [URI]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#code"/>
+        <IRI>#Moderately_Differentiated</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">C14162</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#definition"/>
+        <IRI>#Moderately_Differentiated</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Describes tumor cells that have lost some of the appearance of normal cells. They tend to grow and spread at a faster rate than well differentiated tumor cells.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#preferredTerm"/>
+        <IRI>#Moderately_Differentiated</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Moderately Differentiated</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#semanticType"/>
+        <IRI>#Moderately_Differentiated</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Qualitative Concept</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#synonym"/>
+        <IRI>#Moderately_Differentiated</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">G2</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#synonym"/>
+        <IRI>#Moderately_Differentiated</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Moderately Differentiated</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#synonym"/>
+        <IRI>#Moderately_Differentiated</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Moderately Well Differentiated</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#synonym"/>
+        <IRI>#Moderately_Differentiated</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">grade 2</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#synonym"/>
+        <IRI>#Moderately_Differentiated</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">grade ll</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Moderately_Differentiated</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Moderately Differentiated</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#alternateCode"/>
         <IRI>#Mucinous</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">0000020479 [AOD]</Literal>
     </AnnotationAssertion>
@@ -4972,6 +5329,76 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#Papillary_Serous</IRI>
         <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Papillary Serous</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#alternateCode"/>
+        <IRI>#Poorly_Differentiated</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">C0205617 [UMLS]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#alternateCode"/>
+        <IRI>#Poorly_Differentiated</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">C0205617 [UMLS_CUI]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#alternateCode"/>
+        <IRI>#Poorly_Differentiated</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">C14167 [NCI]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#alternateCode"/>
+        <IRI>#Poorly_Differentiated</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">C14167 [code]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#alternateCode"/>
+        <IRI>#Poorly_Differentiated</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C14167 [URI]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#code"/>
+        <IRI>#Poorly_Differentiated</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">C14167</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#definition"/>
+        <IRI>#Poorly_Differentiated</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Describes tumor cells that generally have lost most of the appearance of normal cells. They tend to grow and spread.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#preferredTerm"/>
+        <IRI>#Poorly_Differentiated</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Poorly Differentiated</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#semanticType"/>
+        <IRI>#Poorly_Differentiated</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Qualitative Concept</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#synonym"/>
+        <IRI>#Poorly_Differentiated</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">G3</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#synonym"/>
+        <IRI>#Poorly_Differentiated</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Poorly Differentiated</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#synonym"/>
+        <IRI>#Poorly_Differentiated</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">grade 3</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#synonym"/>
+        <IRI>#Poorly_Differentiated</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">grade lll</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Poorly_Differentiated</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Poorly Differentiated</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#alternateCode"/>
@@ -7075,6 +7502,76 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#alternateCode"/>
+        <IRI>#Well_Differentiated</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">C0205615 [UMLS]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#alternateCode"/>
+        <IRI>#Well_Differentiated</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">C0205615 [UMLS_CUI]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#alternateCode"/>
+        <IRI>#Well_Differentiated</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">C14171 [NCI]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#alternateCode"/>
+        <IRI>#Well_Differentiated</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">C14171 [code]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#alternateCode"/>
+        <IRI>#Well_Differentiated</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C14171 [URI]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#code"/>
+        <IRI>#Well_Differentiated</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">C14171</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#definition"/>
+        <IRI>#Well_Differentiated</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Describes tumor cells that generally retain the appearance of normal cells and tend to grow and spread at a slower rate than undifferentiated or poorly differentiated tumor cells.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#preferredTerm"/>
+        <IRI>#Well_Differentiated</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Well Differentiated</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#semanticType"/>
+        <IRI>#Well_Differentiated</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Qualitative Concept</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#synonym"/>
+        <IRI>#Well_Differentiated</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">G1</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#synonym"/>
+        <IRI>#Well_Differentiated</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Well Differentiated</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#synonym"/>
+        <IRI>#Well_Differentiated</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">grade 1</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#synonym"/>
+        <IRI>#Well_Differentiated</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">grade l</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Well_Differentiated</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Well Differentiated</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#alternateCode"/>
         <IRI>#Yolk_Sac</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">26190007 [SNOMEDCT_US]</Literal>
     </AnnotationAssertion>
@@ -7227,5 +7724,5 @@
 
 
 
-<!-- Generated by the OWL API (version 4.2.6.20160910-2108) https://github.com/owlcs/owlapi -->
+<!-- Generated by the OWL API (version 4.2.8.20170104-2310) https://github.com/owlcs/owlapi -->
 
