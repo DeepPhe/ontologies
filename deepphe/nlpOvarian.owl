@@ -124,6 +124,9 @@
         <Class IRI="#Immunosuppressive_therapy_for_transplant"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#Precursor"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#n17_alpha-iodoethynyl-11_beta-methoxyestradiol"/>
     </Declaration>
     <Declaration>
@@ -704,6 +707,9 @@
     </Declaration>
     <Declaration>
         <Class IRI="#Norethin_1_50_21_Day"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasMenopausalStatus"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Non-Ovlon"/>
@@ -1729,7 +1735,16 @@
         <Class IRI="#Ovarian_Cancer_and_Primary_Peritoneal_Carcinoma_pT1c_TNM_Finding_v7"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Precursor"/>
+        <Class IRI="#Menopausal_Status"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Postmenopausal"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Premenopausal"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Perimenopausal"/>
     </Declaration>
     <SubClassOf>
         <Class IRI="http://blulab.chpc.utah.edu/ontologies/v2/Schema.owl#Patient"/>
@@ -1774,6 +1789,13 @@
                 <Class IRI="#PTEN_Gene_Mutation"/>
                 <Class IRI="#TP53_Gene_Mutation"/>
             </ObjectUnionOf>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://ontologies.dbmi.pitt.edu/deepphe/nlpCancer.owl#Patient"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasMenopausalStatus"/>
+            <Class IRI="#Menopausal_Status"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
@@ -3101,6 +3123,10 @@
         <Class IRI="#Progestins"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#Menopausal_Status"/>
+        <Class IRI="http://blulab.chpc.utah.edu/ontologies/v2/Schema.owl#Finding"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#Menstrogen"/>
         <Class IRI="#Ethinyl_Estradiol"/>
     </SubClassOf>
@@ -3669,6 +3695,10 @@
         <Class IRI="http://ontologies.dbmi.pitt.edu/deepphe/nlpCancer.owl#HistologicType"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#Perimenopausal"/>
+        <Class IRI="#Menopausal_Status"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#Phased_oral_contraceptive"/>
         <Class IRI="#Oral_Contraceptive_Preparation"/>
     </SubClassOf>
@@ -3687,6 +3717,10 @@
     <SubClassOf>
         <Class IRI="#Postinor"/>
         <Class IRI="#Norgestrel"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Postmenopausal"/>
+        <Class IRI="#Menopausal_Status"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Practil_21"/>
@@ -3723,6 +3757,10 @@
     <SubClassOf>
         <Class IRI="#Pregnenolone_Succinate"/>
         <Class IRI="#Progestins"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Premenopausal"/>
+        <Class IRI="#Menopausal_Status"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Preven_EC"/>
@@ -4513,6 +4551,10 @@
         <ObjectProperty IRI="http://ontologies.dbmi.pitt.edu/deepphe/nlpCancer.owl#hasSummaryRelation"/>
     </SubObjectPropertyOf>
     <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasMenopausalStatus"/>
+        <ObjectProperty IRI="http://ontologies.dbmi.pitt.edu/deepphe/nlpCancer.owl#hasSummaryRelation"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
         <ObjectProperty IRI="#hasRace"/>
         <ObjectProperty IRI="http://blulab.chpc.utah.edu/ontologies/v2/Schema.owl#hasSemanticModifier"/>
     </SubObjectPropertyOf>
@@ -4530,6 +4572,10 @@
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#hasGermlineMutation"/>
+        <Class IRI="http://ontologies.dbmi.pitt.edu/deepphe/nlpCancer.owl#Patient"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasMenopausalStatus"/>
         <Class IRI="http://ontologies.dbmi.pitt.edu/deepphe/nlpCancer.owl#Patient"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
@@ -4551,6 +4597,10 @@
     <ObjectPropertyRange>
         <ObjectProperty IRI="#hasGermlineMutation"/>
         <Class IRI="#Gene_Mutation"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasMenopausalStatus"/>
+        <Class IRI="#Menopausal_Status"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
         <ObjectProperty IRI="#hasRace"/>
@@ -23937,6 +23987,71 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#alternateCode"/>
+        <IRI>#Menopausal_Status</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">C106541 [NCI]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#alternateCode"/>
+        <IRI>#Menopausal_Status</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">C16151 [NCI]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#alternateCode"/>
+        <IRI>#Menopausal_Status</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">SDTM-RPTESTCD [CDISC]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#code"/>
+        <IRI>#Menopausal_Status</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">C3829127</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#definition"/>
+        <IRI>#Menopausal_Status</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">An indicator as to whether the female subject is in menopause.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#definition"/>
+        <IRI>#Menopausal_Status</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">The status of a female with respect to menopause.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#preferredTerm"/>
+        <IRI>#Menopausal_Status</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Menopausal Status</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#preferredTerm"/>
+        <IRI>#Menopausal_Status</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Menopause Status</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#semanticType"/>
+        <IRI>#Menopausal_Status</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Clinical Attribute</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#synonym"/>
+        <IRI>#Menopausal_Status</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">MENOSTAT</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#synonym"/>
+        <IRI>#Menopausal_Status</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Menopausal Status</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#synonym"/>
+        <IRI>#Menopausal_Status</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Menopause Status</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Menopausal_Status</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Menopausal Status</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#alternateCode"/>
         <IRI>#Menstrogen</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">C055250 [MSH]</Literal>
     </AnnotationAssertion>
@@ -30652,6 +30767,61 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#alternateCode"/>
+        <IRI>#Perimenopausal</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">161541000119104 [SNOMEDCT_US]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#alternateCode"/>
+        <IRI>#Perimenopausal</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">C15692 [NCI]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#alternateCode"/>
+        <IRI>#Perimenopausal</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">CDR0000045826 [NCI-GLOSS]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#code"/>
+        <IRI>#Perimenopausal</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">C3839366</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#definition"/>
+        <IRI>#Perimenopausal</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Describes the time in a woman&apos;s life when menstrual periods become irregular as she approaches menopause. This is usually three to five years before menopause and is often marked by many of the symptoms of menopause, including hot flashes, mood swings, night sweats, vaginal dryness, trouble concentrating, and infertility.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#preferredTerm"/>
+        <IRI>#Perimenopausal</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Perimenopausal</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#semanticType"/>
+        <IRI>#Perimenopausal</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Finding</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#synonym"/>
+        <IRI>#Perimenopausal</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Perimenopausal</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#synonym"/>
+        <IRI>#Perimenopausal</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Perimenopausal state</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#synonym"/>
+        <IRI>#Perimenopausal</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">perimenopausal</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Perimenopausal</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Perimenopausal</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#alternateCode"/>
         <IRI>#Phased_oral_contraceptive</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">350378006 [SNOMEDCT_US]</Literal>
     </AnnotationAssertion>
@@ -30904,6 +31074,86 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#Postinor</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Postinor</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#alternateCode"/>
+        <IRI>#Postmenopausal</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">3119 [PMA]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#alternateCode"/>
+        <IRI>#Postmenopausal</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">76498008 [SNOMEDCT_US]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#alternateCode"/>
+        <IRI>#Postmenopausal</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">C15421 [NCI]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#alternateCode"/>
+        <IRI>#Postmenopausal</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">CDR0000040050 [PDQ]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#alternateCode"/>
+        <IRI>#Postmenopausal</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">CDR0000045269 [NCI-GLOSS]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#alternateCode"/>
+        <IRI>#Postmenopausal</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">RID39141 [RADLEX]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#code"/>
+        <IRI>#Postmenopausal</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">C0232970</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#definition"/>
+        <IRI>#Postmenopausal</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Having to do with the time after menopause. Menopause (&quot;change of life&quot;) is the time in a woman&apos;s life when menstrual periods stop permanently.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#preferredTerm"/>
+        <IRI>#Postmenopausal</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Postmenopausal</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#semanticType"/>
+        <IRI>#Postmenopausal</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Temporal Concept</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#synonym"/>
+        <IRI>#Postmenopausal</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Post-Menopausal</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#synonym"/>
+        <IRI>#Postmenopausal</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Postmenopausal</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#synonym"/>
+        <IRI>#Postmenopausal</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Postmenopausal state</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#synonym"/>
+        <IRI>#Postmenopausal</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">post-menopausal</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#synonym"/>
+        <IRI>#Postmenopausal</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">postmenopausal</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Postmenopausal</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Postmenopausal</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#alternateCode"/>
@@ -31329,6 +31579,66 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#Pregnenolone_Succinate</IRI>
         <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Pregnenolone Succinate</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#alternateCode"/>
+        <IRI>#Premenopausal</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">C15491 [NCI]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#alternateCode"/>
+        <IRI>#Premenopausal</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">CDR0000040049 [PDQ]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#alternateCode"/>
+        <IRI>#Premenopausal</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">CDR0000045268 [NCI-GLOSS]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#alternateCode"/>
+        <IRI>#Premenopausal</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">NOCODE [MTH]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#code"/>
+        <IRI>#Premenopausal</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">C0279752</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#definition"/>
+        <IRI>#Premenopausal</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Having to do with the time before menopause. Menopause (&quot;change of life&quot;) is the time of life when a woman&apos;s menstrual periods stop permanently.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#preferredTerm"/>
+        <IRI>#Premenopausal</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Premenopausal</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#semanticType"/>
+        <IRI>#Premenopausal</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Temporal Concept</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#synonym"/>
+        <IRI>#Premenopausal</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Premenopausal</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#synonym"/>
+        <IRI>#Premenopausal</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Premenopausal - menopausal status</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#synonym"/>
+        <IRI>#Premenopausal</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">premenopausal</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Premenopausal</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Premenopausal</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://blulab.chpc.utah.edu/ontologies/TermMapping.owl#alternateCode"/>
